@@ -1,0 +1,15 @@
+# macOS / Xcode
+.DS_Store
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+__pycache__/
+
+# This repository holds the Mac app only. The iPhone app and its combined
+# project live alongside it locally but are not published here.
+Fuda.xcodeproj/
+Fuda/Views/
+Fuda/FudaApp.swift
+Fuda/Assets.xcassets/
+README-local.md

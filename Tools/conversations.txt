@@ -1,0 +1,728 @@
+# Fuda conversation scenes — source file.
+# Convert with:  python3 Tools/build_conversations.py
+#
+# @scene <id>            start a scene
+# title/en/th/glyph/level/place/about   scene fields (about: EN | TH)
+# --- JA | EN | TH       section header
+# ROLE: JA | KANA | TH | EN     a line ("You" = the learner). ROLE* = key phrase to recognise
+# alt: JA | KANA | TH | EN      another way to say the previous line
+# note: EN | TH                 tip for the previous line
+
+@scene konbini
+title: コンビニで
+en: At the konbini
+th: ที่ร้านสะดวกซื้อ
+glyph: コ
+level: n5
+place: shop
+about: The full checkout: heating food, chopsticks, bags, age check, paying and change. Staff talk fast in polite keigo; you can answer in short, simple Japanese. | ขั้นตอนจ่ายเงินครบทุกแบบ ทั้งอุ่นอาหาร ตะเกียบ ถุง ยืนยันอายุ จ่ายเงิน และเงินทอน พนักงานพูดเร็วด้วยภาษาสุภาพ แต่เราตอบสั้นๆ ง่ายๆ ได้
+--- 入店 | Walking in | เข้าร้าน
+店員*: いらっしゃいませ。 | いらっしゃいませ。 | ยินดีต้อนรับ | Welcome!
+note: No reply needed. Staff say this to everyone who walks in; a small nod is enough. | ไม่ต้องตอบ พนักงานพูดกับลูกค้าทุกคน แค่พยักหน้าเบาๆ ก็พอ
+You: すみません、トイレはありますか。 | すみません、トイレはありますか。 | ขอโทษ มีห้องน้ำไหม | Excuse me, is there a toilet?
+店員: はい、奥にございます。どうぞ。 | はい、おくにございます。どうぞ。 | มี อยู่ด้านในสุด เชิญเลย | Yes, it's at the back. Go ahead.
+note: ございます is the polite form of あります. | ございます คือรูปสุภาพของ あります
+You: ありがとうございます。 | ありがとうございます。 | ขอบคุณ | Thank you.
+--- レジ | At the register | ที่แคชเชียร์
+店員*: お次のお客様、こちらへどうぞ。 | おつぎのおきゃくさま、こちらへどうぞ。 | ลูกค้าท่านถัดไป เชิญทางนี้ | Next customer, this way please.
+You: お願いします。 | おねがいします。 | รบกวนด้วย | Here you go. (putting items down)
+note: Say it as you place your items on the counter. Polite and natural. | พูดตอนวางของบนเคาน์เตอร์ สุภาพและเป็นธรรมชาติ
+店員*: お弁当、温めますか。 | おべんとう、あたためますか。 | ข้าวกล่องจะอุ่นไหม | Shall I heat up the bento?
+alt: こちら、温めますか。 | こちら、あたためますか。 | อันนี้อุ่นไหม | Shall I heat this?
+You: はい、お願いします。 | はい、おねがいします。 | อุ่นด้วย | Yes, please.
+alt: いいえ、大丈夫です。 | いいえ、だいじょうぶです。 | ไม่เป็นไร ไม่ต้อง | No, it's fine.
+note: 大丈夫です is the all-purpose polite "no thanks". | 大丈夫です ใช้ปฏิเสธอย่างสุภาพได้ทุกสถานการณ์
+店員*: お箸はおつけしますか。 | おはしはおつけしますか。 | รับตะเกียบไหม | Would you like chopsticks?
+alt: お箸、何膳おつけしますか。 | おはし、なんぜんおつけしますか。 | ตะเกียบกี่คู่ | How many pairs of chopsticks?
+You: 一つお願いします。 | ひとつおねがいします。 | ขอหนึ่งคู่ | One, please.
+alt: 二膳お願いします。 | にぜんおねがいします。 | ขอสองคู่ | Two pairs, please.
+alt: いりません。 | いりません。 | ไม่ต้อง | I don't need them.
+note: 膳 counts pairs of chopsticks, but 一つ・二つ works fine too. | 膳 ใช้นับตะเกียบเป็นคู่ แต่พูด 一つ・二つ ก็เข้าใจ
+店員*: スプーンもおつけしますか。 | スプーンもおつけしますか。 | รับช้อนด้วยไหม | A spoon as well?
+You: いいえ、大丈夫です。 | いいえ、だいじょうぶです。 | ไม่ต้อง | No, I'm fine.
+店員*: 袋はご利用ですか。 | ふくろはごりようですか。 | ต้องการถุงไหม | Do you need a bag?
+alt: レジ袋はご利用になりますか。 | レジぶくろはごりようになりますか。 | จะใช้ถุงพลาสติกไหม | Will you use a plastic bag?
+note: Bags cost a few yen in Japan. ご利用 (polite "use") is everywhere: ご利用ですか = "will you use it?" | ในญี่ปุ่นถุงต้องเสียเงินไม่กี่เยน คำว่า ご利用 (ใช้ แบบสุภาพ) ได้ยินทุกที่
+You: はい、小さい袋をお願いします。 | はい、ちいさいふくろをおねがいします。 | ขอถุงใบเล็ก | Yes, a small bag please.
+alt: いいえ、大丈夫です。 | いいえ、だいじょうぶです。 | ไม่ต้อง | No, I'm fine.
+alt: 袋、一枚ください。 | ふくろ、いちまいください。 | ขอถุงหนึ่งใบ | One bag, please.
+店員: 袋代が三円かかりますが、よろしいですか。 | ふくろだいがさんえんかかりますが、よろしいですか。 | ค่าถุง 3 เยน ได้ไหม | The bag is 3 yen, is that OK?
+You: はい、大丈夫です。 | はい、だいじょうぶです。 | ได้ | Yes, that's fine.
+--- お酒とホットスナック | Alcohol & hot snacks | เหล้าและของทอดร้อนๆ
+店員*: 年齢確認のため、画面のボタンを押してください。 | ねんれいかくにんのため、がめんのボタンをおしてください。 | เพื่อยืนยันอายุ กรุณากดปุ่มบนหน้าจอ | For age verification, please press the button on the screen.
+note: Buying beer or cigarettes? Tap 「はい」 on the screen to confirm you're 20 or older. | ซื้อเบียร์หรือบุหรี่ แตะ 「はい」 บนจอเพื่อยืนยันว่าอายุ 20 ขึ้นไป
+You: はい。 | はい。 | ครับ/ค่ะ | OK.
+You: すみません、からあげを一つください。 | すみません、からあげをひとつください。 | ขอโทษ ขอคาราอาเกะหนึ่งชิ้น | Excuse me, one karaage please.
+alt: これを一つください。 | これをひとつください。 | ขออันนี้หนึ่งอัน | One of these, please.
+note: Hot snacks sit in the warmer by the register. Just point and say これを一つください. | ของทอดอยู่ในตู้อุ่นข้างแคชเชียร์ ชี้แล้วพูด これを一つください ได้เลย
+店員: からあげですね。かしこまりました。 | からあげですね。かしこまりました。 | คาราอาเกะนะ รับทราบ | Karaage. Certainly.
+note: かしこまりました = very polite "understood". You'll hear it after every order. | かしこまりました = รับทราบ (สุภาพมาก) ได้ยินหลังสั่งทุกครั้ง
+店員*: 以上でよろしいですか。 | いじょうでよろしいですか。 | แค่นี้ใช่ไหม | Will that be all?
+You: はい、以上です。 | はい、いじょうです。 | ใช่ แค่นี้ | Yes, that's all.
+alt: あと、ホットコーヒーのSサイズをください。 | あと、ホットコーヒーのエスサイズをください。 | แล้วก็ขอกาแฟร้อนไซซ์ S | Also, a small hot coffee please.
+--- 支払い | Paying | จ่ายเงิน
+店員*: 合計で六百四十八円になります。 | ごうけいでろっぴゃくよんじゅうはちえんになります。 | ทั้งหมด 648 เยน | That comes to 648 yen.
+note: になります here simply means "it is". It's shop-polite style. | になります ตรงนี้แปลว่า "เป็น" แค่สำนวนสุภาพของร้านค้า
+店員*: お支払いはどうなさいますか。 | おしはらいはどうなさいますか。 | จะชำระเงินแบบไหน | How would you like to pay?
+alt: お支払い方法は? | おしはらいほうほうは? | ชำระด้วยวิธีไหน | Payment method?
+You: カードでお願いします。 | カードでおねがいします。 | จ่ายด้วยบัตร | Card, please.
+alt: 現金で。 | げんきんで。 | เงินสด | Cash.
+alt: Suicaで。 | スイカで。 | จ่ายด้วย Suica | With Suica.
+alt: PayPayで。 | ペイペイで。 | จ่ายด้วย PayPay | With PayPay.
+店員*: こちらにタッチしてください。 | こちらにタッチしてください。 | กรุณาแตะตรงนี้ | Please tap here.
+note: For IC cards and phones. With a chip card you'll hear カードを差し込んでください (insert your card). | สำหรับบัตร IC และมือถือ ถ้าเป็นบัตรชิปจะได้ยิน カードを差し込んでください (เสียบบัตร)
+You: はい。 | はい。 | ครับ/ค่ะ | OK.
+店員*: ポイントカードはお持ちですか。 | ポイントカードはおもちですか。 | มีบัตรสะสมแต้มไหม | Do you have a point card?
+You: いいえ、持っていません。 | いいえ、もっていません。 | ไม่มี | No, I don't.
+alt: はい、これです。 | はい、これです。 | มี นี่ | Yes, here it is.
+店員*: レシートはご利用ですか。 | レシートはごりようですか。 | ต้องการใบเสร็จไหม | Do you need the receipt?
+You: いいえ、いりません。 | いいえ、いりません。 | ไม่เอา | No, I don't need it.
+alt: はい、お願いします。 | はい、おねがいします。 | เอา | Yes, please.
+--- 現金で払うとき | Paying cash | ถ้าจ่ายเงินสด
+店員*: 千円お預かりします。 | せんえんおあずかりします。 | รับเงินมา 1,000 เยน | I've received 1,000 yen.
+店員*: 三百五十二円のお返しです。お確かめください。 | さんびゃくごじゅうにえんのおかえしです。おたしかめください。 | เงินทอน 352 เยน กรุณาตรวจสอบ | Here's 352 yen change. Please check it.
+note: お預かりします (I take your money) and お返し (your change) come with every cash payment. | お預かりします (รับเงินไว้) และ お返し (เงินทอน) ได้ยินทุกครั้งที่จ่ายเงินสด
+You: ありがとうございます。 | ありがとうございます。 | ขอบคุณ | Thank you.
+店員*: ありがとうございました。またお越しくださいませ。 | ありがとうございました。またおこしくださいませ。 | ขอบคุณ แล้วแวะมาใหม่นะ | Thank you. Please come again.
+You: どうも。 | どうも。 | ขอบคุณ | Thanks.
+note: A light どうも or a small nod is perfect when you leave. | พูด どうも เบาๆ หรือพยักหน้าตอนออกจากร้านก็พอดีแล้ว
+
+@scene supermarket
+title: スーパーで
+en: At the supermarket
+th: ที่ซูเปอร์มาร์เก็ต
+glyph: ス
+level: n5
+place: shop
+about: Finding things, evening discount stickers, bring-your-own bag and the pay-at-the-machine register. | หาของ สติกเกอร์ลดราคาตอนเย็น ถุงผ้าของตัวเอง และการจ่ายเงินที่เครื่อง
+--- 売り場 | On the shop floor | ในร้าน
+You: すみません、卵はどこにありますか。 | すみません、たまごはどこにありますか。 | ขอโทษ ไข่อยู่ตรงไหน | Excuse me, where are the eggs?
+店員: 奥の右側、牛乳の隣です。 | おくのみぎがわ、ぎゅうにゅうのとなりです。 | ด้านในฝั่งขวา ข้างนม | At the back on the right, next to the milk.
+You: ありがとうございます。 | ありがとうございます。 | ขอบคุณ | Thank you.
+You: すみません、このお弁当は半額ですか。 | すみません、このおべんとうははんがくですか。 | ขอโทษ ข้าวกล่องนี้ลดครึ่งราคาไหม | Excuse me, is this bento half price?
+note: Evening stickers: 半額 = half price, 2割引 = 20% off, 30円引き = 30 yen off. | สติกเกอร์ตอนเย็น: 半額 = ครึ่งราคา, 2割引 = ลด 20%, 30円引き = ลด 30 เยน
+店員: はい、シールが貼ってあるものは半額です。 | はい、シールがはってあるものははんがくです。 | ใช่ ของที่ติดสติกเกอร์ลดครึ่งราคา | Yes, anything with the sticker is half price.
+You: この肉は何グラムですか。 | このにくはなんグラムですか。 | เนื้อนี้กี่กรัม | How many grams is this meat?
+店員: 三百グラムです。百グラム二百円ですね。 | さんびゃくグラムです。ひゃくグラムにひゃくえんですね。 | 300 กรัม 100 กรัม 200 เยน | 300 grams. That's 200 yen per 100 grams.
+--- レジ | Checkout | จ่ายเงิน
+店員*: いらっしゃいませ。ポイントカードはお持ちですか。 | いらっしゃいませ。ポイントカードはおもちですか。 | ยินดีต้อนรับ มีบัตรสะสมแต้มไหม | Welcome. Do you have a point card?
+You: いいえ、ありません。 | いいえ、ありません。 | ไม่มี | No, I don't.
+店員*: 作りますか。今日から使えますよ。 | つくりますか。きょうからつかえますよ。 | จะสมัครไหม ใช้ได้ตั้งแต่วันนี้ | Would you like to make one? You can use it from today.
+You: 今日は大丈夫です。 | きょうはだいじょうぶです。 | วันนี้ไม่เป็นไร | Not today, thanks.
+店員*: 袋は有料ですが、ご利用ですか。 | ふくろはゆうりょうですが、ごりようですか。 | ถุงต้องเสียเงิน จะใช้ไหม | Bags cost extra. Do you need one?
+You: マイバッグがあります。 | マイバッグがあります。 | มีถุงของตัวเอง | I have my own bag.
+note: マイバッグ or エコバッグ = your own reusable bag. | マイバッグ หรือ エコバッグ = ถุงผ้าของตัวเอง
+alt: 大きい袋を一枚お願いします。 | おおきいふくろをいちまいおねがいします。 | ขอถุงใหญ่หนึ่งใบ | One big bag, please.
+店員*: お支払いはあちらの機械でお願いします。 | おしはらいはあちらのきかいでおねがいします。 | กรุณาชำระที่เครื่องตรงนั้น | Please pay at the machine over there.
+note: At many supermarkets staff scan your items, then you pay at a separate machine (セミセルフレジ). | ซูเปอร์หลายแห่งพนักงานสแกนของ แล้วเราไปจ่ายที่เครื่องแยก (セミセルフレジ)
+You: すみません、この機械の使い方を教えてください。 | すみません、このきかいのつかいかたをおしえてください。 | ขอโทษ ช่วยสอนวิธีใช้เครื่องนี้หน่อย | Excuse me, please show me how to use this machine.
+店員: 画面の「現金」を押して、お金を入れてください。 | がめんの「げんきん」をおして、おかねをいれてください。 | กด "เงินสด" บนหน้าจอ แล้วใส่เงิน | Press "Cash" on the screen and put the money in.
+店員: お釣りは下から出てきます。 | おつりはしたからでてきます。 | เงินทอนจะออกมาด้านล่าง | The change comes out at the bottom.
+You: わかりました。ありがとうございます。 | わかりました。ありがとうございます。 | เข้าใจแล้ว ขอบคุณ | Got it. Thank you.
+店員*: 袋詰めはあちらの台でお願いします。 | ふくろづめはあちらのだいでおねがいします。 | กรุณาใส่ของลงถุงที่โต๊ะตรงนั้น | Please bag your items at the table over there.
+note: In Japan you pack your own bags at a separate counter (サッカー台). | ในญี่ปุ่นเราใส่ของลงถุงเองที่โต๊ะแยก (サッカー台)
+
+@scene clothes
+title: 服を買う
+en: Buying clothes
+th: ซื้อเสื้อผ้า
+glyph: 服
+level: n5
+place: shop
+about: Browsing, asking for colors and sizes, the fitting room (shoes off!), tax-free and gift wrapping. | เดินดู ถามสีและไซซ์ ห้องลอง (ถอดรองเท้า!) ปลอดภาษี และห่อของขวัญ
+--- 見る | Browsing | เดินดู
+店員*: いらっしゃいませ。どうぞご覧ください。 | いらっしゃいませ。どうぞごらんください。 | ยินดีต้อนรับ เชิญชมได้เลย | Welcome. Please have a look around.
+note: Staff repeat this while you browse. No reply needed. | พนักงานพูดซ้ำระหว่างเราเดินดู ไม่ต้องตอบ
+店員*: 何かお探しですか。 | なにかおさがしですか。 | กำลังหาอะไรอยู่ไหม | Are you looking for anything?
+You: いいえ、見ているだけです。 | いいえ、みているだけです。 | ไม่ แค่ดูเฉยๆ | No, I'm just looking.
+alt: 白いシャツを探しています。 | しろいシャツをさがしています。 | กำลังหาเสื้อเชิ้ตสีขาว | I'm looking for a white shirt.
+You: すみません、これの色違いはありますか。 | すみません、これのいろちがいはありますか。 | ขอโทษ อันนี้มีสีอื่นไหม | Excuse me, does this come in other colors?
+店員: はい、黒と紺がございます。 | はい、くろとこんがございます。 | มีสีดำกับสีกรมท่า | Yes, we have black and navy.
+You: 黒を見せてください。 | くろをみせてください。 | ขอดูสีดำ | Please show me the black one.
+--- 試着 | Trying on | ลองเสื้อ
+You: 試着してもいいですか。 | しちゃくしてもいいですか。 | ขอลองได้ไหม | May I try it on?
+店員*: はい、試着室はこちらです。サイズはいかがですか。 | はい、しちゃくしつはこちらです。サイズはいかがですか。 | ได้ ห้องลองอยู่ทางนี้ ไซซ์เท่าไร | Yes, the fitting room is this way. What size?
+You: Mをお願いします。 | エムをおねがいします。 | ขอไซซ์ M | Medium, please.
+店員*: 靴はこちらでお脱ぎください。 | くつはこちらでおぬぎください。 | กรุณาถอดรองเท้าตรงนี้ | Please take your shoes off here.
+note: Fitting rooms have a raised floor, so shoes come off. Some shops hand you a face cover (フェイスカバー) to keep makeup off the clothes. | ห้องลองพื้นยกสูง ต้องถอดรองเท้า บางร้านให้ผ้าคลุมหน้า (フェイスカバー) กันเครื่องสำอางเปื้อน
+店員*: いかがですか。 | いかがですか。 | เป็นยังไงบ้าง | How is it?
+You: ちょっと大きいです。一つ小さいサイズはありますか。 | ちょっとおおきいです。ひとつちいさいサイズはありますか。 | ใหญ่ไปหน่อย มีเล็กลงอีกไซซ์ไหม | It's a bit big. Do you have one size smaller?
+alt: ちょっと小さいです。 | ちょっとちいさいです。 | เล็กไปหน่อย | It's a bit small.
+店員: 少々お待ちください。…こちら、Sサイズです。 | しょうしょうおまちください。…こちら、エスサイズです。 | รอสักครู่… นี่ไซซ์ S | One moment please… Here's a small.
+You: これにします。 | これにします。 | เอาอันนี้ | I'll take this.
+alt: ちょっと考えます。 | ちょっとかんがえます。 | ขอคิดดูก่อน | I'll think about it.
+note: ちょっと考えます is the polite way to leave without buying. | ちょっと考えます คือวิธีสุภาพที่จะไม่ซื้อ
+--- レジ | At the register | จ่ายเงิน
+店員*: 免税をご利用になりますか。 | めんぜいをごりようになりますか。 | จะใช้สิทธิ์ปลอดภาษีไหม | Will you shop tax-free?
+note: Visitors can often shop tax-free with a passport. Rules change, so just ask 免税できますか. | นักท่องเที่ยวมักซื้อปลอดภาษีได้ด้วยพาสปอร์ต กฎอาจเปลี่ยน ถามว่า 免税できますか ได้เลย
+You: はい、パスポートはこれです。 | はい、パスポートはこれです。 | ใช่ นี่พาสปอร์ต | Yes, here's my passport.
+alt: いいえ、日本に住んでいます。 | いいえ、にほんにすんでいます。 | ไม่ อาศัยอยู่ญี่ปุ่น | No, I live in Japan.
+店員*: プレゼント用にお包みしますか。 | プレゼントようにおつつみしますか。 | ห่อเป็นของขวัญไหม | Shall I gift-wrap it?
+You: いいえ、自分用です。 | いいえ、じぶんようです。 | ไม่ ใช้เอง | No, it's for me.
+alt: はい、お願いします。 | はい、おねがいします。 | ห่อด้วย | Yes, please.
+店員*: 三千九百八十円です。 | さんぜんきゅうひゃくはちじゅうえんです。 | 3,980 เยน | That's 3,980 yen.
+店員*: タグはお切りしますか。 | タグはおきりしますか。 | ตัดป้ายให้ไหม | Shall I cut off the tags?
+You: はい、すぐ着たいです。 | はい、すぐきたいです。 | ใช่ อยากใส่เลย | Yes, I want to wear it right away.
+店員*: ありがとうございました。 | ありがとうございました。 | ขอบคุณ | Thank you very much.
+
+@scene ramen
+title: ラーメン屋で
+en: Ramen shop & ticket machine
+th: ร้านราเม็งและเครื่องขายตั๋ว
+glyph: 麺
+level: n5
+place: food
+about: Buying a meal ticket, choosing noodle firmness and flavor strength, asking for a noodle refill and leaving politely. | ซื้อตั๋วอาหาร เลือกความเหนียวของเส้นและความเข้มข้นของรส สั่งเส้นเพิ่ม และกล่าวลาอย่างสุภาพ
+--- 食券 | The ticket machine | เครื่องขายตั๋ว
+店員*: いらっしゃいませ！先に食券をお買い求めください。 | いらっしゃいませ！さきにしょっけんをおかいもとめください。 | ยินดีต้อนรับ! กรุณาซื้อตั๋วอาหารก่อน | Welcome! Please buy a meal ticket first.
+note: 食券 = the meal ticket from the vending machine by the door. | 食券 = ตั๋วอาหารจากเครื่องขายข้างประตู
+You: すみません、券売機の使い方がわかりません。 | すみません、けんばいきのつかいかたがわかりません。 | ขอโทษ ใช้เครื่องขายตั๋วไม่เป็น | Sorry, I don't know how to use the ticket machine.
+店員: 先にお金を入れて、ボタンを押してください。 | さきにおかねをいれて、ボタンをおしてください。 | ใส่เงินก่อน แล้วกดปุ่ม | Put the money in first, then press a button.
+You: おすすめはどれですか。 | おすすめはどれですか。 | อันไหนแนะนำ | Which do you recommend?
+店員: 一番人気は味噌ラーメンです。左上のボタンです。 | いちばんにんきはみそラーメンです。ひだりうえのボタンです。 | ยอดนิยมคือราเม็งมิโซะ ปุ่มซ้ายบน | Miso ramen is the most popular. It's the top-left button.
+You: じゃあ、それにします。 | じゃあ、それにします。 | งั้นเอาอันนั้น | Then I'll have that.
+note: 〜にします = "I'll go with ~". Use it to order anything. | 〜にします = "เอาอันนี้" ใช้สั่งอะไรก็ได้
+--- 席で | At the counter | ที่เคาน์เตอร์
+店員*: お好きな席へどうぞ。 | おすきなせきへどうぞ。 | เชิญนั่งตามสบาย | Sit anywhere you like.
+alt: カウンター席へどうぞ。 | カウンターせきへどうぞ。 | เชิญที่เคาน์เตอร์ | Please sit at the counter.
+店員*: 食券をお預かりします。 | しょっけんをおあずかりします。 | ขอรับตั๋วนะ | I'll take your ticket.
+note: Put your ticket on the counter when you sit down. | วางตั๋วบนเคาน์เตอร์ตอนนั่ง
+店員*: 麺の硬さはどうしますか。 | めんのかたさはどうしますか。 | เส้นเอาแบบไหน | How firm do you want the noodles?
+alt: 硬め、普通、柔らかめがありますが。 | かため、ふつう、やわらかめがありますが。 | มีแบบแข็ง ปกติ นุ่ม | We have firm, regular or soft.
+You: 普通でお願いします。 | ふつうでおねがいします。 | เอาแบบปกติ | Regular, please.
+alt: 硬めでお願いします。 | かためでおねがいします。 | เอาเส้นแข็งๆ | Firm, please.
+店員*: 味の濃さと油の量はいかがですか。 | あじのこさとあぶらのりょうはいかがですか。 | ความเข้มข้นของรสและปริมาณน้ำมันเอายังไง | How strong a flavor, and how much oil?
+note: Common at iekei-style shops. When in doubt: 全部普通で (everything regular). | เจอบ่อยในร้านสไตล์อิเอะเค ถ้าไม่แน่ใจตอบว่า 全部普通で (ปกติทั้งหมด)
+You: 全部普通でお願いします。 | ぜんぶふつうでおねがいします。 | ทุกอย่างปกติ | Everything regular, please.
+店員*: にんにく入れますか。 | にんにくいれますか。 | ใส่กระเทียมไหม | Do you want garlic?
+You: 少しだけお願いします。 | すこしだけおねがいします。 | ใส่นิดเดียว | Just a little, please.
+alt: なしでお願いします。 | なしでおねがいします。 | ไม่ใส่ | Without, please.
+--- 食べる | Eating | กิน
+店員*: お待たせしました。味噌ラーメンです。 | おまたせしました。みそラーメンです。 | ขอโทษที่ให้รอ ราเม็งมิโซะ | Sorry for the wait. Miso ramen.
+You: いただきます。 | いただきます。 | ทานละนะ | Itadakimasu. (before eating)
+You: すみません、お水をもらえますか。 | すみません、おみずをもらえますか。 | ขอโทษ ขอน้ำหน่อยได้ไหม | Excuse me, could I get some water?
+店員: お水はセルフサービスです。あちらにございます。 | おみずはセルフサービスです。あちらにございます。 | น้ำบริการตัวเอง อยู่ทางนั้น | Water is self-service. It's over there.
+You: 替え玉をお願いします。 | かえだまをおねがいします。 | ขอเส้นเพิ่ม | Extra noodles, please.
+note: 替え玉 = a second serving of noodles for your leftover soup (mostly at tonkotsu shops). | 替え玉 = เส้นเพิ่มใส่ในน้ำซุปที่เหลือ (ส่วนใหญ่ร้านทงคตสึ)
+店員: 替え玉は百円です。こちらでお支払いください。 | かえだまはひゃくえんです。こちらでおしはらいください。 | เส้นเพิ่ม 100 เยน จ่ายตรงนี้ | Extra noodles are 100 yen. Please pay here.
+--- 帰る | Leaving | กลับ
+You: ごちそうさまでした。 | ごちそうさまでした。 | ขอบคุณสำหรับอาหาร | Thank you for the meal.
+note: Say it as you leave. Putting your bowl up on the counter is a nice touch. | พูดตอนออกจากร้าน ยกชามวางบนเคาน์เตอร์ด้วยจะดีมาก
+店員*: ありがとうございました！ | ありがとうございました！ | ขอบคุณมาก! | Thank you very much!
+
+@scene restaurant
+title: レストランで
+en: At a restaurant
+th: ที่ร้านอาหาร
+glyph: 食
+level: n5
+place: food
+about: From "how many people?" to splitting the bill: waiting, ordering with the call button, allergies, and paying at the register. | ตั้งแต่ "กี่ท่าน" จนถึงแยกจ่าย รอคิว สั่งด้วยปุ่มเรียก แจ้งแพ้อาหาร และจ่ายที่แคชเชียร์
+--- 入店 | Arriving | มาถึงร้าน
+店員*: いらっしゃいませ。何名様ですか。 | いらっしゃいませ。なんめいさまですか。 | ยินดีต้อนรับ กี่ท่าน | Welcome. How many people?
+You: 二人です。 | ふたりです。 | สองคน | Two.
+alt: 一人です。 | ひとりです。 | คนเดียว | Just one.
+note: Hold up fingers too. Staff do it all the time. | ชูนิ้วด้วยก็ได้ พนักงานเองก็ทำบ่อย
+店員*: ただいま満席なので、少々お待ちいただけますか。 | ただいままんせきなので、しょうしょうおまちいただけますか。 | ตอนนี้ที่นั่งเต็ม รอสักครู่ได้ไหม | We're full right now. Could you wait a little?
+alt: こちらにお名前を書いてお待ちください。 | こちらにおなまえをかいておまちください。 | กรุณาเขียนชื่อตรงนี้แล้วรอ | Please write your name here and wait.
+You: どのぐらい待ちますか。 | どのぐらいまちますか。 | ต้องรอนานแค่ไหน | About how long is the wait?
+店員: 十分ぐらいです。 | じゅっぷんぐらいです。 | ประมาณ 10 นาที | About ten minutes.
+You: じゃあ、待ちます。 | じゃあ、まちます。 | งั้นรอ | OK, we'll wait.
+店員*: お待たせしました。お席へご案内します。 | おまたせしました。おせきへごあんないします。 | ขอโทษที่ให้รอ จะพาไปที่นั่ง | Sorry to keep you waiting. I'll show you to your table.
+--- 注文 | Ordering | สั่งอาหาร
+店員*: こちらがメニューです。お決まりになりましたら、ボタンでお呼びください。 | こちらがメニューです。おきまりになりましたら、ボタンでおよびください。 | นี่เมนู เลือกได้แล้วกดปุ่มเรียกนะ | Here's the menu. When you're ready, press the button to call us.
+alt: ご注文はタブレットでお願いします。 | ごちゅうもんはタブレットでおねがいします。 | กรุณาสั่งผ่านแท็บเล็ต | Please order on the tablet.
+note: Many restaurants have a call button (呼び出しボタン) or a tablet for ordering. | หลายร้านมีปุ่มเรียกพนักงาน (呼び出しボタン) หรือแท็บเล็ตสำหรับสั่ง
+You: すみません、英語のメニューはありますか。 | すみません、えいごのメニューはありますか。 | ขอโทษ มีเมนูภาษาอังกฤษไหม | Excuse me, do you have an English menu?
+店員: はい、こちらです。 | はい、こちらです。 | มี นี่ | Yes, here you are.
+You: すみません！ | すみません！ | ขอโทษ! (เรียกพนักงาน) | Excuse me! (calling staff)
+note: Raise your hand and call すみません. It isn't rude in Japan. | ยกมือแล้วเรียก すみません ได้เลย ไม่เสียมารยาท
+店員*: はい、ご注文をどうぞ。 | はい、ごちゅうもんをどうぞ。 | เชิญสั่งได้เลย | Yes, go ahead and order.
+You: このハンバーグセットを二つください。 | このハンバーグセットをふたつください。 | ขอเซ็ตแฮมเบิร์กนี้สองที่ | Two of this hamburg steak set, please.
+店員*: ライスとパン、どちらになさいますか。 | ライスとパン、どちらになさいますか。 | ข้าวหรือขนมปัง | Rice or bread?
+You: ライスでお願いします。 | ライスでおねがいします。 | เอาข้าว | Rice, please.
+店員*: お飲み物はいかがですか。 | おのみものはいかがですか。 | รับเครื่องดื่มไหม | Anything to drink?
+You: ドリンクバーを二つお願いします。 | ドリンクバーをふたつおねがいします。 | ขอดริงก์บาร์สองที่ | Two drink bars, please.
+alt: お水で大丈夫です。 | おみずでだいじょうぶです。 | น้ำเปล่าก็พอ | Water is fine.
+note: ドリンクバー = unlimited self-serve drinks at family restaurants. | ドリンクバー = เครื่องดื่มบริการตัวเองไม่อั้นในแฟมิลี่เรสเตอรองต์
+You: あの、卵のアレルギーがあります。これには卵が入っていますか。 | あの、たまごのアレルギーがあります。これにはたまごがはいっていますか。 | เอ่อ แพ้ไข่ อันนี้มีไข่ไหม | Um, I'm allergic to eggs. Is there egg in this?
+店員: 確認してまいります。少々お待ちください。 | かくにんしてまいります。しょうしょうおまちください。 | จะไปเช็กให้ รอสักครู่ | I'll go and check. One moment please.
+店員: ソースに少し入っています。ソースなしにもできますよ。 | ソースにすこしはいっています。ソースなしにもできますよ。 | ในซอสมีนิดหน่อย ทำแบบไม่ใส่ซอสก็ได้ | There's a little in the sauce. We can make it without sauce.
+You: じゃあ、ソースなしでお願いします。 | じゃあ、ソースなしでおねがいします。 | งั้นไม่ใส่ซอส | Then without sauce, please.
+店員*: ご注文を繰り返します。ハンバーグセットがお二つ、ライス、ドリンクバーがお二つ。以上でよろしいですか。 | ごちゅうもんをくりかえします。ハンバーグセットがおふたつ、ライス、ドリンクバーがおふたつ。いじょうでよろしいですか。 | ทวนออเดอร์ เซ็ตแฮมเบิร์กสองที่ ข้าว ดริงก์บาร์สองที่ แค่นี้ใช่ไหม | To repeat your order: two hamburg sets with rice and two drink bars. Is that everything?
+You: はい、お願いします。 | はい、おねがいします。 | ใช่ | Yes, please.
+--- 食事中 | During the meal | ระหว่างทาน
+店員*: お待たせしました。熱いのでお気をつけください。 | おまたせしました。あついのでおきをつけください。 | ขอโทษที่ให้รอ ร้อนนะ ระวังด้วย | Sorry for the wait. It's hot, so be careful.
+店員*: ご注文の品はおそろいですか。 | ごちゅうもんのしなはおそろいですか。 | อาหารที่สั่งมาครบไหม | Is everything you ordered here?
+You: はい、そろっています。 | はい、そろっています。 | ครบแล้ว | Yes, it's all here.
+You: すみません、取り皿をもらえますか。 | すみません、とりざらをもらえますか。 | ขอจานแบ่งได้ไหม | Could we get small plates for sharing?
+店員*: お皿、お下げしてもよろしいですか。 | おさら、おさげしてもよろしいですか。 | เก็บจานได้ไหม | May I clear your plate?
+You: はい、どうぞ。 | はい、どうぞ。 | ได้ เชิญ | Yes, go ahead.
+alt: まだ食べています。 | まだたべています。 | ยังกินอยู่ | I'm still eating.
+--- 会計 | Paying | จ่ายเงิน
+You: すみません、お会計をお願いします。 | すみません、おかいけいをおねがいします。 | ขอโทษ เช็กบิลด้วย | Excuse me, the bill please.
+note: Often you take the slip (伝票) to the register yourself. There's no tipping in Japan. | ส่วนใหญ่ถือใบรายการ (伝票) ไปจ่ายที่แคชเชียร์เอง ญี่ปุ่นไม่มีการให้ทิป
+店員*: お会計はレジでお願いします。 | おかいけいはレジでおねがいします。 | กรุณาจ่ายที่แคชเชียร์ | Please pay at the register.
+店員*: お会計はご一緒でよろしいですか。 | おかいけいはごいっしょでよろしいですか。 | จ่ายรวมกันไหม | Will you be paying together?
+You: 別々でお願いします。 | べつべつでおねがいします。 | แยกจ่าย | Separately, please.
+alt: 一緒でお願いします。 | いっしょでおねがいします。 | จ่ายรวม | Together, please.
+店員: お一人様、千三百二十円です。 | おひとりさま、せんさんびゃくにじゅうえんです。 | คนละ 1,320 เยน | 1,320 yen each.
+You: ごちそうさまでした。おいしかったです。 | ごちそうさまでした。おいしかったです。 | ขอบคุณสำหรับอาหาร อร่อยมาก | Thank you for the meal. It was delicious.
+店員*: ありがとうございました。またお越しくださいませ。 | ありがとうございました。またおこしくださいませ。 | ขอบคุณ แวะมาใหม่นะ | Thank you. Please come again.
+
+@scene cafe
+title: カフェで
+en: At a café
+th: ที่คาเฟ่
+glyph: 珈
+level: n5
+place: food
+about: For here or to go, hot or iced, size, milk changes, paying with an IC card and picking up your drink. | ทานที่ร้านหรือกลับบ้าน ร้อนหรือเย็น ไซซ์ เปลี่ยนนม จ่ายด้วยบัตร IC และรับเครื่องดื่ม
+--- 注文 | Ordering | สั่ง
+店員*: いらっしゃいませ。店内でお召し上がりですか、お持ち帰りですか。 | いらっしゃいませ。てんないでおめしあがりですか、おもちかえりですか。 | ยินดีต้อนรับ ทานที่ร้านหรือกลับบ้าน | Welcome. For here or to go?
+note: 店内 = in the shop; お持ち帰り or テイクアウト = to go. | 店内 = ทานที่ร้าน, お持ち帰り หรือ テイクアウト = กลับบ้าน
+You: 店内で。 | てんないで。 | ทานที่ร้าน | For here.
+alt: 持ち帰りで。 | もちかえりで。 | กลับบ้าน | To go.
+店員*: ご注文はお決まりですか。 | ごちゅうもんはおきまりですか。 | เลือกได้หรือยัง | Are you ready to order?
+You: カフェラテをください。 | カフェラテをください。 | ขอคาเฟ่ลาเต้ | A café latte, please.
+店員*: ホットとアイス、どちらになさいますか。 | ホットとアイス、どちらになさいますか。 | ร้อนหรือเย็น | Hot or iced?
+You: アイスでお願いします。 | アイスでおねがいします。 | เย็น | Iced, please.
+店員*: サイズはいかがなさいますか。 | サイズはいかがなさいますか。 | เอาไซซ์ไหน | What size?
+You: Mサイズで。 | エムサイズで。 | ไซซ์ M | Medium.
+alt: 一番小さいサイズで。 | いちばんちいさいサイズで。 | ไซซ์เล็กสุด | The smallest size.
+店員: ミルクを豆乳に変更することもできますが。 | ミルクをとうにゅうにへんこうすることもできますが。 | เปลี่ยนนมเป็นนมถั่วเหลืองได้นะ | We can also change the milk to soy milk.
+You: いいえ、そのままでお願いします。 | いいえ、そのままでおねがいします。 | ไม่ เอาแบบเดิม | No, as it is, please.
+alt: じゃあ、豆乳でお願いします。 | じゃあ、とうにゅうでおねがいします。 | งั้นเปลี่ยนเป็นนมถั่วเหลือง | Then soy milk, please.
+店員*: ご一緒にケーキはいかがですか。 | ごいっしょにケーキはいかがですか。 | รับเค้กด้วยไหม | Would you like a cake with that?
+You: このチーズケーキもお願いします。 | このチーズケーキもおねがいします。 | ขอชีสเค้กนี้ด้วย | This cheesecake too, please.
+alt: いいえ、大丈夫です。 | いいえ、だいじょうぶです。 | ไม่ต้อง | No, thank you.
+店員*: 千百円になります。 | せんひゃくえんになります。 | 1,100 เยน | That'll be 1,100 yen.
+You: 交通系ICカードは使えますか。 | こうつうけいアイシーカードはつかえますか。 | ใช้บัตร IC พวก Suica ได้ไหม | Can I use a transit IC card?
+店員: はい、ご利用いただけます。こちらにタッチしてください。 | はい、ごりよういただけます。こちらにタッチしてください。 | ใช้ได้ แตะตรงนี้ | Yes, you can. Please tap here.
+--- 受け取り | Pickup | รับเครื่องดื่ม
+店員*: 番号札を持って、お席でお待ちください。 | ばんごうふだをもって、おせきでおまちください。 | ถือป้ายหมายเลขแล้วรอที่โต๊ะ | Please take this number and wait at your table.
+alt: 隣のカウンターでお待ちください。 | となりのカウンターでおまちください。 | รอที่เคาน์เตอร์ข้างๆ | Please wait at the next counter.
+店員*: 十五番のお客様、お待たせしました。 | じゅうごばんのおきゃくさま、おまたせしました。 | ลูกค้าหมายเลข 15 ขอโทษที่ให้รอ | Number 15, thank you for waiting.
+You: はい、ありがとうございます。 | はい、ありがとうございます。 | ครับ/ค่ะ ขอบคุณ | Yes, thank you.
+You: すみません、Wi-Fiのパスワードは何ですか。 | すみません、ワイファイのパスワードはなんですか。 | ขอโทษ รหัส Wi-Fi คืออะไร | Excuse me, what's the Wi-Fi password?
+店員: レシートの下に書いてあります。 | レシートのしたにかいてあります。 | เขียนไว้ด้านล่างใบเสร็จ | It's written at the bottom of the receipt.
+note: 〜てあります = something has been written or placed (N4 grammar). | 〜てあります = มีการเขียน/วางไว้แล้ว (ไวยากรณ์ N4)
+You: すみません、コンセントはありますか。 | すみません、コンセントはありますか。 | ขอโทษ มีปลั๊กไฟไหม | Excuse me, is there a power outlet?
+店員: 窓側の席にございます。 | まどがわのせきにございます。 | มีที่โต๊ะริมหน้าต่าง | There are some at the window seats.
+note: コンセント = power outlet (not "consent"!). | コンセント = ปลั๊กไฟ
+
+@scene phone_reservation
+title: 電話で予約
+en: Booking a table by phone
+th: โทรจองร้านอาหาร
+glyph: 電
+level: n4
+place: food
+about: Phone keigo is fast. Listen for the date, time, number of people and any alternative the restaurant offers. | ภาษาสุภาพทางโทรศัพท์พูดเร็ว ฟังวัน เวลา จำนวนคน และข้อเสนอทางเลือกของร้าน
+--- 予約 | Making the booking | จอง
+店員*: お電話ありがとうございます。さくら食堂でございます。 | おでんわありがとうございます。さくらしょくどうでございます。 | ขอบคุณที่โทรมา ร้านซากุระโชคุโดค่ะ | Thank you for calling, Sakura Shokudō speaking.
+You: もしもし、予約をしたいんですが。 | もしもし、よやくをしたいんですが。 | ฮัลโหล อยากจองโต๊ะ | Hello, I'd like to make a reservation.
+note: 〜んですが softens a request, and the other person takes it from there. | 〜んですが ทำให้คำขออ่อนลง แล้วอีกฝ่ายจะถามต่อเอง
+店員*: ありがとうございます。何日の何時ごろでしょうか。 | ありがとうございます。なんにちのなんじごろでしょうか。 | ขอบคุณ วันที่เท่าไร ประมาณกี่โมง | Thank you. What date and around what time?
+You: 今週の土曜日、夜七時からお願いします。 | こんしゅうのどようび、よるしちじからおねがいします。 | เสาร์นี้ ตั้งแต่หนึ่งทุ่ม | This Saturday, from 7 p.m.
+店員*: 何名様でしょうか。 | なんめいさまでしょうか。 | กี่ท่าน | For how many people?
+You: 四人です。 | よにんです。 | 4 คน | Four.
+店員: 申し訳ございません。七時は満席でして、八時からでしたらご用意できますが。 | もうしわけございません。しちじはまんせきでして、はちじからでしたらごよういできますが。 | ขออภัย หนึ่งทุ่มเต็มแล้ว ถ้าสองทุ่มจัดให้ได้ | I'm sorry, 7 o'clock is fully booked, but we can do 8.
+note: 〜でしたら…できますが = they're offering an alternative. Listen for the new time! | 〜でしたら…できますが = ร้านเสนอทางเลือก ฟังเวลาใหม่ให้ดี!
+You: 八時でも大丈夫です。 | はちじでもだいじょうぶです。 | สองทุ่มก็ได้ | 8 is fine.
+alt: じゃあ、また今度にします。 | じゃあ、またこんどにします。 | งั้นไว้คราวหน้า | Then I'll try another time.
+店員*: お席はテーブルとお座敷、どちらがよろしいですか。 | おせきはテーブルとおざしき、どちらがよろしいですか。 | โต๊ะธรรมดาหรือนั่งพื้นเสื่อ | Table seats or tatami seating?
+note: お座敷 = sitting on tatami mats, with your shoes off. | お座敷 = นั่งบนเสื่อทาทามิ ถอดรองเท้า
+You: テーブルでお願いします。 | テーブルでおねがいします。 | เอาโต๊ะ | A table, please.
+店員*: コースになさいますか。それとも、お料理は当日お選びになりますか。 | コースになさいますか。それとも、おりょうりはとうじつおえらびになりますか。 | จะเอาเป็นคอร์ส หรือเลือกอาหารวันนั้น | Would you like a set course, or will you choose dishes on the day?
+You: 当日選びます。 | とうじつえらびます。 | เลือกวันนั้น | We'll choose on the day.
+店員*: お名前とお電話番号をお願いします。 | おなまえとおでんわばんごうをおねがいします。 | ขอชื่อและเบอร์โทร | Your name and phone number, please.
+You: ソムチャイです。番号は090-1234-5678です。 | ソムチャイです。ばんごうはぜろきゅうぜろ、いちにさんよん、ごろくななはちです。 | สมชาย เบอร์ 090-1234-5678 | Somchai. My number is 090-1234-5678.
+note: Phone numbers are read digit by digit. 0 = ゼロ or れい, 4 = よん, 7 = なな. | อ่านเบอร์ทีละตัว 0 = ゼロ หรือ れい, 4 = よん, 7 = なな
+店員*: ソムチャイ様、土曜日の夜八時、四名様でご予約を承りました。 | ソムチャイさま、どようびのよるはちじ、よんめいさまでごよやくをうけたまわりました。 | คุณสมชาย จองวันเสาร์สองทุ่ม 4 ท่าน รับทราบแล้ว | Somchai, Saturday at 8 p.m. for four. Your reservation is confirmed.
+note: 承りました = very polite "received / accepted". | 承りました = รับเรื่องแล้ว (สุภาพมาก)
+店員*: お時間に遅れる場合は、ご連絡ください。 | おじかんにおくれるばあいは、ごれんらくください。 | ถ้ามาช้ากรุณาแจ้ง | If you'll be late, please let us know.
+You: わかりました。よろしくお願いします。 | わかりました。よろしくおねがいします。 | เข้าใจแล้ว ฝากด้วย | Understood. Thank you.
+店員*: お待ちしております。 | おまちしております。 | รอต้อนรับ | We look forward to seeing you.
+--- 予約の変更 | Changing it | เปลี่ยนการจอง
+You: もしもし、土曜日に予約したソムチャイですが、一人増えてもいいですか。 | もしもし、どようびによやくしたソムチャイですが、ひとりふえてもいいですか。 | ฮัลโหล สมชายที่จองวันเสาร์ เพิ่มอีกคนได้ไหม | Hello, this is Somchai with a booking on Saturday. Could we add one more person?
+店員: 五名様ですね。大丈夫です。変更いたしました。 | ごめいさまですね。だいじょうぶです。へんこういたしました。 | 5 ท่านนะ ได้ เปลี่ยนให้แล้ว | Five people. No problem, I've changed it.
+You: ありがとうございます。失礼します。 | ありがとうございます。しつれいします。 | ขอบคุณ ขอวางสาย | Thank you. Goodbye.
+note: 失礼します is how you politely end a phone call. | 失礼します ใช้ตอนวางสายอย่างสุภาพ
+
+@scene station
+title: 駅と電車
+en: Station & trains
+th: สถานีและรถไฟ
+glyph: 駅
+level: n5
+place: transport
+about: Tickets and IC top-ups, platforms, the announcements you'll hear every day, problems at the gate and lost property. | ตั๋วและเติมเงินบัตร IC ชานชาลา ประกาศที่ได้ยินทุกวัน ปัญหาที่ประตูตรวจตั๋ว และของหาย
+--- 切符 | Tickets | ตั๋ว
+You: すみません、新宿に行きたいんですが。 | すみません、しんじゅくにいきたいんですが。 | ขอโทษ อยากไปชินจูกุ | Excuse me, I'd like to go to Shinjuku.
+駅員: 新宿ですね。山手線で行けますよ。 | しんじゅくですね。やまのてせんでいけますよ。 | ชินจูกุนะ ไปสายยามาโนเตะได้ | Shinjuku. You can take the Yamanote Line.
+You: 切符はどこで買えますか。 | きっぷはどこでかえますか。 | ซื้อตั๋วได้ที่ไหน | Where can I buy a ticket?
+駅員: あちらの券売機で買えます。ICカードのチャージもできますよ。 | あちらのけんばいきでかえます。アイシーカードのチャージもできますよ。 | ซื้อได้ที่เครื่องตรงนั้น เติมเงินบัตร IC ก็ได้ | At the machines over there. You can top up IC cards there too.
+You: Suicaにチャージしたいんですが、やり方を教えてもらえますか。 | スイカにチャージしたいんですが、やりかたをおしえてもらえますか。 | อยากเติมเงิน Suica ช่วยสอนวิธีหน่อยได้ไหม | I want to top up my Suica. Could you show me how?
+駅員: カードをここに入れて、「チャージ」を押して、金額を選んでください。 | カードをここにいれて、「チャージ」をおして、きんがくをえらんでください。 | ใส่บัตรตรงนี้ กด "ชาร์จ" แล้วเลือกจำนวนเงิน | Put the card in here, press "Charge", then choose the amount.
+--- ホーム | Platform | ชานชาลา
+You: 山手線は何番線ですか。 | やまのてせんはなんばんせんですか。 | สายยามาโนเตะชานชาลาไหน | Which platform is the Yamanote Line?
+駅員: 三番線です。階段を上がって右です。 | さんばんせんです。かいだんをあがってみぎです。 | ชานชาลา 3 ขึ้นบันไดแล้วขวา | Platform 3. Up the stairs and on the right.
+You: 新宿まで何駅ですか。 | しんじゅくまでなんえきですか。 | ถึงชินจูกุกี่สถานี | How many stops to Shinjuku?
+駅員: 五つ目です。十二分ぐらいです。 | いつつめです。じゅうにふんぐらいです。 | สถานีที่ห้า ประมาณ 12 นาที | The fifth stop. About 12 minutes.
+note: 〜つ目 = the ~th one. 五つ目 = the fifth. | 〜つ目 = ลำดับที่ ~  五つ目 = ที่ห้า
+--- アナウンス | Announcements | ประกาศ
+アナウンス*: まもなく、三番線に電車がまいります。黄色い線の内側までお下がりください。 | まもなく、さんばんせんにでんしゃがまいります。きいろいせんのうちがわまでおさがりください。 | อีกสักครู่รถไฟจะเข้าชานชาลา 3 กรุณาถอยเข้าหลังเส้นเหลือง | A train will soon arrive at platform 3. Please stand behind the yellow line.
+アナウンス*: 次は、新宿、新宿。お出口は右側です。 | つぎは、しんじゅく、しんじゅく。おでぐちはみぎがわです。 | สถานีต่อไป ชินจูกุ ประตูเปิดด้านขวา | Next stop: Shinjuku. Doors open on the right.
+アナウンス*: 駆け込み乗車はおやめください。 | かけこみじょうしゃはおやめください。 | กรุณาอย่าวิ่งขึ้นรถไฟ | Please do not rush onto the train.
+アナウンス*: ただいま、人身事故の影響で、電車が遅れております。 | ただいま、じんしんじこのえいきょうで、でんしゃがおくれております。 | ขณะนี้รถไฟล่าช้าเนื่องจากอุบัติเหตุ | Trains are currently delayed because of an accident.
+note: When you hear 遅れております, ask staff 何分ぐらい遅れますか (about how many minutes late?). | ถ้าได้ยิน 遅れております ถามพนักงานว่า 何分ぐらい遅れますか (ช้าประมาณกี่นาที)
+You: すみません、何分ぐらい遅れますか。 | すみません、なんぷんぐらいおくれますか。 | ขอโทษ ช้าประมาณกี่นาที | Excuse me, about how many minutes is the delay?
+駅員: 三十分ぐらいです。地下鉄で行くこともできますよ。 | さんじゅっぷんぐらいです。ちかてつでいくこともできますよ。 | ประมาณ 30 นาที ไปรถไฟใต้ดินก็ได้ | About 30 minutes. You could also take the subway.
+--- 改札 | At the gate | ประตูตรวจตั๋ว
+You: すみません、改札が開かないんですが。 | すみません、かいさつがあかないんですが。 | ขอโทษ ประตูตรวจตั๋วไม่เปิด | Excuse me, the ticket gate won't open.
+駅員: 切符を見せていただけますか。…乗り越しですね。あちらの精算機で精算してください。 | きっぷをみせていただけますか。…のりこしですね。あちらのせいさんきでせいさんしてください。 | ขอดูตั๋วหน่อย… นั่งเลยสถานีนะ ไปจ่ายส่วนต่างที่เครื่องตรงนั้น | May I see your ticket? …You rode past your fare. Please pay the difference at the machine over there.
+note: 乗り越し精算 = paying extra when you ride further than your ticket covers. The machines stand next to the gates. | 乗り越し精算 = จ่ายส่วนต่างเมื่อนั่งเลยระยะตั๋ว เครื่องอยู่ข้างประตู
+You: 東口はどちらですか。 | ひがしぐちはどちらですか。 | ทางออกตะวันออกไปทางไหน | Which way is the East Exit?
+駅員: この階段を降りて、まっすぐです。 | このかいだんをおりて、まっすぐです。 | ลงบันไดนี้แล้วตรงไป | Go down these stairs and straight ahead.
+You: ありがとうございました。 | ありがとうございました。 | ขอบคุณ | Thank you very much.
+--- 忘れ物 | Lost property | ลืมของ
+You: すみません、電車に傘を忘れました。 | すみません、でんしゃにかさをわすれました。 | ขอโทษ ลืมร่มไว้บนรถไฟ | Excuse me, I left my umbrella on the train.
+駅員*: 何時ごろの、どの電車ですか。 | なんじごろの、どのでんしゃですか。 | ประมาณกี่โมง ขบวนไหน | Around what time, and which train?
+You: 十時ごろの山手線です。前から三両目に乗りました。 | じゅうじごろのやまのてせんです。まえからさんりょうめにのりました。 | สายยามาโนเตะประมาณสิบโมง นั่งตู้ที่สามจากหน้า | The Yamanote Line, around 10. I was in the third car from the front.
+駅員*: 確認しますので、こちらに連絡先を書いてください。 | かくにんしますので、こちらにれんらくさきをかいてください。 | จะตรวจสอบให้ กรุณาเขียนเบอร์ติดต่อตรงนี้ | We'll check. Please write your contact details here.
+
+@scene taxi
+title: タクシー
+en: Taking a taxi
+th: นั่งแท็กซี่
+glyph: 車
+level: n5
+place: transport
+about: Giving the destination, choosing the route, stopping, paying and the automatic doors. | บอกจุดหมาย เลือกเส้นทาง บอกให้จอด จ่ายเงิน และประตูอัตโนมัติ
+--- 乗る | Getting in | ขึ้นรถ
+運転手*: どちらまでですか。 | どちらまでですか。 | ไปไหน | Where to?
+You: この住所までお願いします。 | このじゅうしょまでおねがいします。 | ไปที่อยู่นี้ | To this address, please.
+note: Showing the address on your phone is the easiest way. | ยื่นที่อยู่บนมือถือให้ดูง่ายที่สุด
+alt: 東京駅までお願いします。 | とうきょうえきまでおねがいします。 | ไปสถานีโตเกียว | To Tokyo Station, please.
+運転手*: シートベルトをお願いします。 | シートベルトをおねがいします。 | กรุณาคาดเข็มขัด | Please fasten your seatbelt.
+You: どのぐらいかかりますか。 | どのぐらいかかりますか。 | ใช้เวลาเท่าไร | How long will it take?
+運転手: 道が空いていれば、二十分ぐらいですね。 | みちがすいていれば、にじゅっぷんぐらいですね。 | ถ้ารถไม่ติดประมาณ 20 นาที | About 20 minutes if the roads are clear.
+運転手*: 高速、使いますか。 | こうそく、つかいますか。 | ขึ้นทางด่วนไหม | Shall I take the expressway?
+note: Expressway tolls are added to your fare. | ค่าทางด่วนบวกเพิ่มในค่าโดยสาร
+You: いいえ、下の道でお願いします。 | いいえ、したのみちでおねがいします。 | ไม่ ไปถนนธรรมดา | No, surface roads please.
+alt: はい、急いでいるので使ってください。 | はい、いそいでいるのでつかってください。 | ใช่ รีบอยู่ ขึ้นทางด่วนเลย | Yes, I'm in a hurry, please use it.
+--- 車内 | In the car | ในรถ
+You: すみません、エアコンを少し弱くしてもらえますか。 | すみません、エアコンをすこしよわくしてもらえますか。 | ขอโทษ ช่วยลดแอร์หน่อยได้ไหม | Excuse me, could you turn the AC down a little?
+運転手: はい、わかりました。 | はい、わかりました。 | ได้ | Sure.
+運転手*: この辺りですか。 | このあたりですか。 | แถวนี้ใช่ไหม | Is it around here?
+You: はい、あのコンビニの前で止めてください。 | はい、あのコンビニのまえでとめてください。 | ใช่ จอดหน้าร้านสะดวกซื้อนั้น | Yes, please stop in front of that konbini.
+alt: ここで止めてください。 | ここでとめてください。 | จอดตรงนี้ | Please stop here.
+alt: あの信号の手前で止めてください。 | あのしんごうのてまえでとめてください。 | จอดก่อนถึงไฟแดงนั้น | Please stop just before that light.
+--- 支払い | Paying | จ่ายเงิน
+運転手*: 二千四百五十円です。 | にせんよんひゃくごじゅうえんです。 | 2,450 เยน | That's 2,450 yen.
+You: カードで払えますか。 | カードではらえますか。 | จ่ายบัตรได้ไหม | Can I pay by card?
+運転手: はい。こちらに差し込んでください。 | はい。こちらにさしこんでください。 | ได้ เสียบตรงนี้ | Yes. Insert it here.
+運転手*: 領収書は要りますか。 | りょうしゅうしょはいりますか。 | เอาใบเสร็จไหม | Do you need a receipt?
+You: はい、お願いします。 | はい、おねがいします。 | เอา | Yes, please.
+運転手*: お忘れ物のないように。ドアが開きます。 | おわすれもののないように。ドアがあきます。 | อย่าลืมของนะ ประตูจะเปิด | Don't forget anything. The door is opening.
+note: Japanese taxi rear doors open and close automatically, so don't touch them! | ประตูหลังแท็กซี่ญี่ปุ่นเปิดปิดอัตโนมัติ อย่าจับนะ!
+You: ありがとうございました。 | ありがとうございました。 | ขอบคุณ | Thank you very much.
+
+@scene directions
+title: 道を聞く
+en: Asking the way
+th: ถามทาง
+glyph: 道
+level: n5
+place: transport
+about: Stopping someone politely, understanding directions, checking back, and the most useful sentence for any learner. | ขอทางอย่างสุภาพ ฟังคำบอกทาง ทวนเพื่อเช็ก และประโยคที่มีประโยชน์ที่สุดสำหรับผู้เรียน
+--- 郵便局はどこ | Where's the post office? | ไปรษณีย์อยู่ไหน
+You: すみません、ちょっといいですか。 | すみません、ちょっといいですか。 | ขอโทษ ขอรบกวนหน่อยได้ไหม | Excuse me, do you have a moment?
+通行人: はい、何でしょう。 | はい、なんでしょう。 | ครับ มีอะไร | Yes, what is it?
+You: この近くに郵便局はありますか。 | このちかくにゆうびんきょくはありますか。 | แถวนี้มีไปรษณีย์ไหม | Is there a post office near here?
+通行人*: 郵便局ですか。えーと、この道をまっすぐ行って、二つ目の信号を左に曲がってください。 | ゆうびんきょくですか。えーと、このみちをまっすぐいって、ふたつめのしんごうをひだりにまがってください。 | ไปรษณีย์เหรอ เอ่อ ตรงไปตามถนนนี้ แล้วเลี้ยวซ้ายที่ไฟแดงที่สอง | The post office? Um, go straight along this road and turn left at the second traffic light.
+note: Listen for: 〜つ目 (which one), 信号 (traffic light), 角 (corner), 右・左, 曲がる (turn). | ฟังคำว่า 〜つ目 (ลำดับ), 信号 (ไฟจราจร), 角 (หัวมุม), 右・左, 曲がる (เลี้ยว)
+You: 二つ目の信号を左ですね。 | ふたつめのしんごうをひだりですね。 | ไฟแดงที่สองเลี้ยวซ้ายนะ | Left at the second light, right?
+note: Repeating it back with 〜ですね is the best way to check you understood. | ทวนด้วย 〜ですね เป็นวิธีเช็กที่ดีที่สุดว่าเข้าใจถูก
+通行人*: はい。曲がると、右側にコンビニがあります。郵便局はその隣です。 | はい。まがると、みぎがわにコンビニがあります。ゆうびんきょくはそのとなりです。 | ใช่ เลี้ยวแล้วจะมีร้านสะดวกซื้ออยู่ขวามือ ไปรษณีย์อยู่ข้างๆ | Yes. After the turn there's a konbini on the right. The post office is next to it.
+You: 歩いて何分ぐらいかかりますか。 | あるいてなんぷんぐらいかかりますか。 | เดินไปกี่นาที | About how many minutes on foot?
+通行人: 五分ぐらいですね。 | ごふんぐらいですね。 | ประมาณ 5 นาที | About five minutes.
+You: ありがとうございます。助かりました。 | ありがとうございます。たすかりました。 | ขอบคุณ ช่วยได้มากเลย | Thank you, that really helped.
+note: 助かりました = "you've saved me". It's warm and natural. | 助かりました = "ช่วยชีวิตไว้เลย" อบอุ่นและเป็นธรรมชาติ
+--- 道に迷った | Lost | หลงทาง
+You: すみません、このホテルに行きたいんですが、ここは地図のどこですか。 | すみません、このホテルにいきたいんですが、ここはちずのどこですか。 | ขอโทษ อยากไปโรงแรมนี้ ตรงนี้คือตรงไหนในแผนที่ | Excuse me, I want to go to this hotel. Where are we on this map?
+通行人*: ここは駅の北口です。ホテルは反対側ですね。 | ここはえきのきたぐちです。ホテルははんたいがわですね。 | ตรงนี้ทางออกเหนือของสถานี โรงแรมอยู่อีกฝั่ง | This is the station's north exit. The hotel is on the other side.
+You: 反対側…。どうやって行けばいいですか。 | はんたいがわ…。どうやっていけばいいですか。 | อีกฝั่ง… ต้องไปยังไง | The other side… How do I get there?
+通行人*: 駅の中を通って、南口に出てください。南口を出たら、すぐ見えますよ。 | えきのなかをとおって、みなみぐちにでてください。みなみぐちをでたら、すぐみえますよ。 | เดินผ่านในสถานี ออกทางทิศใต้ ออกไปก็เห็นเลย | Go through the station and out the south exit. You'll see it as soon as you come out.
+You: すみません、もう一度ゆっくり言ってもらえますか。 | すみません、もういちどゆっくりいってもらえますか。 | ขอโทษ ช่วยพูดช้าๆ อีกครั้งได้ไหม | Sorry, could you say that again slowly?
+note: The most useful sentence for any learner. Memorize it! | ประโยคที่มีประโยชน์ที่สุดสำหรับผู้เรียน จำไว้เลย!
+通行人: 駅の中を、通って、南口に、出て、ください。 | えきのなかを、とおって、みなみぐちに、でて、ください。 | เดินผ่าน ในสถานี ออก ทางทิศใต้ | Through, the station, out, the south exit.
+You: わかりました。ありがとうございます。 | わかりました。ありがとうございます。 | เข้าใจแล้ว ขอบคุณ | I understand. Thank you.
+通行人*: いえいえ、気をつけて。 | いえいえ、きをつけて。 | ไม่เป็นไร ระวังตัวด้วย | Not at all, take care.
+
+@scene hotel
+title: ホテルで
+en: At the hotel
+th: ที่โรงแรม
+glyph: 宿
+level: n5
+place: daily
+about: Check-in with your passport, room info, fixing problems, luggage storage and check-out. | เช็กอินด้วยพาสปอร์ต ข้อมูลห้อง แจ้งปัญหา ฝากกระเป๋า และเช็กเอาต์
+--- チェックイン | Check-in | เช็กอิน
+フロント*: いらっしゃいませ。チェックインでございますか。 | いらっしゃいませ。チェックインでございますか。 | ยินดีต้อนรับ เช็กอินใช่ไหม | Welcome. Are you checking in?
+You: はい、ソムチャイで予約しています。 | はい、ソムチャイでよやくしています。 | ใช่ จองไว้ในชื่อสมชาย | Yes, I have a reservation under Somchai.
+フロント*: パスポートをお願いできますか。 | パスポートをおねがいできますか。 | ขอพาสปอร์ตได้ไหม | May I have your passport?
+note: Hotels must copy foreign visitors' passports. This is completely normal. | โรงแรมต้องถ่ายสำเนาพาสปอร์ตแขกต่างชาติ เป็นเรื่องปกติ
+You: はい、どうぞ。 | はい、どうぞ。 | ได้ นี่ | Yes, here you are.
+フロント*: シングルルームで三泊のご予約ですね。 | シングルルームでさんぱくのごよやくですね。 | จองห้องซิงเกิล 3 คืนนะ | A single room for three nights, correct?
+You: はい、そうです。 | はい、そうです。 | ใช่ | Yes, that's right.
+フロント*: こちらにお名前とご住所をご記入ください。 | こちらにおなまえとごじゅうしょをごきにゅうください。 | กรุณากรอกชื่อและที่อยู่ตรงนี้ | Please write your name and address here.
+You: 住所はタイの住所でいいですか。 | じゅうしょはタイのじゅうしょでいいですか。 | ใส่ที่อยู่ที่ไทยได้ไหม | Is my Thai address OK?
+フロント: はい、大丈夫です。 | はい、だいじょうぶです。 | ได้ | Yes, that's fine.
+フロント*: 宿泊税として、一泊二百円いただいております。 | しゅくはくぜいとして、いっぱくにひゃくえんいただいております。 | มีภาษีที่พักคืนละ 200 เยน | There's an accommodation tax of 200 yen per night.
+You: カードで払えますか。 | カードではらえますか。 | จ่ายบัตรได้ไหม | Can I pay by card?
+フロント: はい、ご利用いただけます。 | はい、ごりよういただけます。 | ได้ | Yes, you can.
+--- 部屋の案内 | Room info | ข้อมูลห้อง
+フロント*: お部屋は八階の805号室です。こちらがカードキーです。 | おへやははちかいのはちまるごごうしつです。こちらがカードキーです。 | ห้อง 805 ชั้น 8 นี่คีย์การ์ด | Your room is 805 on the 8th floor. Here's your key card.
+フロント*: 朝食は一階のレストランで、七時から十時までです。 | ちょうしょくはいっかいのレストランで、しちじからじゅうじまでです。 | อาหารเช้าที่ร้านอาหารชั้น 1 เจ็ดโมงถึงสิบโมง | Breakfast is in the restaurant on the 1st floor, from 7 to 10.
+You: Wi-Fiはありますか。 | ワイファイはありますか。 | มี Wi-Fi ไหม | Is there Wi-Fi?
+フロント: はい、パスワードはカードキーのケースに書いてあります。 | はい、パスワードはカードキーのケースにかいてあります。 | มี รหัสเขียนอยู่บนซองคีย์การ์ด | Yes, the password is written on the key-card case.
+You: チェックアウトは何時ですか。 | チェックアウトはなんじですか。 | เช็กเอาต์กี่โมง | What time is check-out?
+フロント: 十一時でございます。 | じゅういちじでございます。 | สิบเอ็ดโมง | Eleven o'clock.
+--- 困ったとき | When something's wrong | เมื่อมีปัญหา
+You: すみません、エアコンがつかないんですが。 | すみません、エアコンがつかないんですが。 | ขอโทษ แอร์ไม่ติด | Excuse me, the air conditioner won't turn on.
+フロント*: 大変申し訳ございません。すぐに係の者が伺います。 | たいへんもうしわけございません。すぐにかかりのものがうかがいます。 | ขออภัยอย่างยิ่ง เจ้าหน้าที่จะไปทันที | We're very sorry. Someone will come right away.
+You: タオルをもう一枚もらえますか。 | タオルをもういちまいもらえますか。 | ขอผ้าเช็ดตัวอีกผืนได้ไหม | Could I have one more towel?
+You: 部屋に鍵を置いたまま、ドアを閉めてしまいました。 | へやにかぎをおいたまま、ドアをしめてしまいました。 | ลืมกุญแจไว้ในห้องแล้วปิดประตู | I left my key in the room and the door locked behind me.
+note: 〜てしまいました = something unfortunate happened (N4). | 〜てしまいました = เกิดเรื่องไม่ตั้งใจ (N4)
+フロント: お名前とお部屋番号をお願いします。 | おなまえとおへやばんごうをおねがいします。 | ขอชื่อและหมายเลขห้อง | Your name and room number, please.
+--- チェックアウト | Check-out | เช็กเอาต์
+You: チェックアウトをお願いします。 | チェックアウトをおねがいします。 | ขอเช็กเอาต์ | Check-out, please.
+フロント*: 冷蔵庫のお飲み物はご利用になりましたか。 | れいぞうこのおのみものはごりようになりましたか。 | ดื่มเครื่องดื่มในตู้เย็นไหม | Did you have any drinks from the fridge?
+You: いいえ、使っていません。 | いいえ、つかっていません。 | ไม่ได้ใช้ | No, I didn't use anything.
+You: 午後まで荷物を預かってもらえますか。 | ごごまでにもつをあずかってもらえますか。 | ฝากกระเป๋าถึงบ่ายได้ไหม | Could you keep my luggage until the afternoon?
+フロント: かしこまりました。こちらの番号札をお持ちください。 | かしこまりました。こちらのばんごうふだをおもちください。 | รับทราบ กรุณาถือป้ายหมายเลขนี้ไว้ | Certainly. Please keep this number tag.
+フロント*: ご利用ありがとうございました。お気をつけて。 | ごりようありがとうございました。おきをつけて。 | ขอบคุณที่ใช้บริการ เดินทางปลอดภัย | Thank you for staying with us. Take care.
+
+@scene post_office
+title: 郵便局で
+en: At the post office
+th: ที่ไปรษณีย์
+glyph: 〒
+level: n4
+place: daily
+about: Sending a parcel home: contents, banned items, air vs sea mail, the customs form and tracking. | ส่งพัสดุกลับบ้าน ของข้างใน ของต้องห้าม ทางอากาศหรือทางเรือ ใบศุลกากร และการติดตาม
+--- 荷物を送る | Sending a parcel | ส่งพัสดุ
+You: すみません、この荷物をタイに送りたいんですが。 | すみません、このにもつをタイにおくりたいんですが。 | ขอโทษ อยากส่งพัสดุนี้ไปไทย | Excuse me, I'd like to send this parcel to Thailand.
+局員*: 中身は何ですか。 | なかみはなんですか。 | ข้างในเป็นอะไร | What's inside?
+You: 服とお菓子です。 | ふくとおかしです。 | เสื้อผ้ากับขนม | Clothes and snacks.
+局員*: 電池やスプレーは入っていませんか。 | でんちやスプレーははいっていませんか。 | ไม่มีแบตเตอรี่หรือสเปรย์ใช่ไหม | There are no batteries or sprays inside?
+note: Batteries, sprays and liquids are often restricted in international mail. | แบตเตอรี่ สเปรย์ และของเหลวมักห้ามส่งไปต่างประเทศ
+You: はい、入っていません。 | はい、はいっていません。 | ใช่ ไม่มี | That's right, there aren't.
+局員*: 航空便と船便、どちらにしますか。 | こうくうびんとふなびん、どちらにしますか。 | ทางอากาศหรือทางเรือ | Airmail or sea mail?
+You: 値段はどのぐらい違いますか。 | ねだんはどのぐらいちがいますか。 | ราคาต่างกันแค่ไหน | How different are the prices?
+局員: 航空便は四千二百円で、一週間ぐらいです。船便は二千五百円ですが、二か月ぐらいかかります。 | こうくうびんはよんせんにひゃくえんで、いっしゅうかんぐらいです。ふなびんはにせんごひゃくえんですが、にかげつぐらいかかります。 | ทางอากาศ 4,200 เยน ประมาณหนึ่งสัปดาห์ ทางเรือ 2,500 เยน แต่ใช้เวลาประมาณสองเดือน | Airmail is 4,200 yen and takes about a week. Sea mail is 2,500 yen but takes about two months.
+note: Prices here are examples; real rates depend on weight and country. | ราคาเป็นตัวอย่าง ราคาจริงขึ้นกับน้ำหนักและประเทศ
+You: じゃあ、航空便でお願いします。 | じゃあ、こうくうびんでおねがいします。 | งั้นทางอากาศ | Then airmail, please.
+局員*: こちらの伝票に、送り先と中身を書いてください。 | こちらのでんぴょうに、おくりさきとなかみをかいてください。 | กรอกที่อยู่ผู้รับและของข้างในในใบนี้ | Please write the address and contents on this form.
+You: 住所は英語で書いてもいいですか。 | じゅうしょはえいごでかいてもいいですか。 | เขียนที่อยู่เป็นภาษาอังกฤษได้ไหม | May I write the address in English?
+局員: はい、ローマ字で大丈夫です。 | はい、ローマじでだいじょうぶです。 | ได้ ตัวอักษรโรมันได้ | Yes, roman letters are fine.
+局員*: 重さを量りますね。…二キロです。 | おもさをはかりますね。…にキロです。 | จะชั่งน้ำหนัก… 2 กิโล | I'll weigh it… 2 kilograms.
+You: 追跡はできますか。 | ついせきはできますか。 | ติดตามพัสดุได้ไหม | Can I track it?
+局員: はい、この番号でインターネットで確認できます。 | はい、このばんごうでインターネットでかくにんできます。 | ได้ เช็กออนไลน์ด้วยหมายเลขนี้ | Yes, you can check online with this number.
+--- 手紙 | A letter | จดหมาย
+You: あと、この手紙を大阪に送りたいです。 | あと、このてがみをおおさかにおくりたいです。 | แล้วก็อยากส่งจดหมายนี้ไปโอซาก้า | Also, I'd like to send this letter to Osaka.
+局員*: 普通郵便でよろしいですか。速達もできますが。 | ふつうゆうびんでよろしいですか。そくたつもできますが。 | ส่งธรรมดาได้ไหม ส่งด่วนก็ได้นะ | Regular mail OK? Express is also available.
+You: 普通でお願いします。 | ふつうでおねがいします。 | ธรรมดา | Regular, please.
+局員: 百十円です。 | ひゃくじゅうえんです。 | 110 เยน | That's 110 yen.
+局員*: 切手はこちらで貼っておきますね。 | きってはこちらではっておきますね。 | จะติดแสตมป์ให้นะ | I'll put the stamp on for you.
+You: ありがとうございます。 | ありがとうございます。 | ขอบคุณ | Thank you.
+
+@scene salon
+title: 美容院で
+en: At the hair salon
+th: ที่ร้านทำผม
+glyph: 髪
+level: n4
+place: daily
+about: Explaining the cut you want, how much to take off, bangs, shampoo questions and the famous "anywhere itchy?". | อธิบายทรงที่ต้องการ ตัดออกเท่าไร ผมหน้าม้า คำถามตอนสระ และประโยคดัง "มีตรงไหนคันไหม"
+--- 受付 | Reception | ต้อนรับ
+店員*: いらっしゃいませ。ご予約のお客様ですか。 | いらっしゃいませ。ごよやくのおきゃくさまですか。 | ยินดีต้อนรับ จองไว้ไหม | Welcome. Do you have a reservation?
+You: はい、三時に予約したソムチャイです。 | はい、さんじによやくしたソムチャイです。 | ใช่ สมชาย จองไว้บ่ายสาม | Yes, Somchai, booked for 3 o'clock.
+店員*: お荷物と上着をお預かりします。 | おにもつとうわぎをおあずかりします。 | ขอรับฝากกระเป๋ากับเสื้อนอก | I'll take your bag and jacket.
+--- カット | The cut | ตัดผม
+美容師*: 今日はどうしますか。 | きょうはどうしますか。 | วันนี้จะทำแบบไหน | What would you like today?
+You: カットをお願いします。全体的に短くしてください。 | カットをおねがいします。ぜんたいてきにみじかくしてください。 | ขอตัดผม ให้สั้นลงทั้งหัว | A cut, please. Shorter all over.
+alt: この写真みたいにしてください。 | このしゃしんみたいにしてください。 | ทำให้เหมือนรูปนี้ | Please make it like this photo.
+note: Showing a photo is the easiest way to explain. | ยื่นรูปให้ดูง่ายที่สุด
+美容師*: どのくらい切りますか。 | どのくらいきりますか。 | ตัดออกเท่าไร | How much should I cut?
+You: 三センチぐらい切ってください。 | さんセンチぐらいきってください。 | ตัดออกประมาณ 3 เซนต์ | About three centimeters, please.
+美容師*: 前髪はどうしますか。 | まえがみはどうしますか。 | ผมหน้าเอายังไง | What about the bangs?
+You: 眉毛にかかるぐらいでお願いします。 | まゆげにかかるぐらいでおねがいします。 | ให้ยาวถึงคิ้ว | About eyebrow length, please.
+--- シャンプー | Shampoo | สระผม
+美容師*: シャンプーしますので、こちらへどうぞ。 | シャンプーしますので、こちらへどうぞ。 | จะสระผมให้ เชิญทางนี้ | We'll shampoo now. This way please.
+美容師*: お湯の温度は大丈夫ですか。 | おゆのおんどはだいじょうぶですか。 | อุณหภูมิน้ำโอเคไหม | Is the water temperature OK?
+You: ちょうどいいです。 | ちょうどいいです。 | กำลังดี | It's just right.
+alt: ちょっと熱いです。 | ちょっとあついです。 | ร้อนไปหน่อย | It's a little hot.
+美容師*: かゆいところはございませんか。 | かゆいところはございませんか。 | มีตรงไหนคันไหม | Is there anywhere itchy?
+note: The famous salon question. The answer is almost always 大丈夫です. | คำถามดังของร้านทำผม คำตอบเกือบทุกครั้งคือ 大丈夫です
+You: 大丈夫です。 | だいじょうぶです。 | ไม่มี | I'm fine.
+--- 仕上げ | Finishing | เก็บงาน
+美容師*: いかがでしょうか。 | いかがでしょうか。 | เป็นยังไงบ้าง | How does it look?
+You: いいですね。ありがとうございます。 | いいですね。ありがとうございます。 | ดีเลย ขอบคุณ | It looks great, thank you.
+alt: もう少し短くしてもらえますか。 | もうすこしみじかくしてもらえますか。 | ช่วยตัดให้สั้นอีกหน่อยได้ไหม | Could you make it a bit shorter?
+美容師*: ワックスをつけますか。 | ワックスをつけますか。 | ใส่แว็กซ์ไหม | Shall I put some wax in?
+You: いいえ、そのままで大丈夫です。 | いいえ、そのままでだいじょうぶです。 | ไม่ แบบนี้ก็พอ | No, it's fine like this.
+店員*: 次回のご予約はどうなさいますか。 | じかいのごよやくはどうなさいますか。 | จะจองครั้งหน้าไหม | Would you like to book your next visit?
+You: また連絡します。 | またれんらくします。 | ไว้ติดต่อใหม่ | I'll get in touch again.
+
+@scene drugstore
+title: 薬局で
+en: At the pharmacy
+th: ที่ร้านขายยา
+glyph: 薬
+level: n5
+place: health
+about: Describing symptoms, getting the right medicine, how to take it and side effects. | บอกอาการ ซื้อยาให้ถูก วิธีทาน และผลข้างเคียง
+--- 薬を探す | Finding medicine | หายา
+You: すみません、風邪薬はどこですか。 | すみません、かぜぐすりはどこですか。 | ขอโทษ ยาแก้หวัดอยู่ตรงไหน | Excuse me, where is the cold medicine?
+店員: 三番の棚にございます。どんな症状ですか。 | さんばんのたなにございます。どんなしょうじょうですか。 | อยู่ชั้น 3 มีอาการยังไง | It's on shelf 3. What are your symptoms?
+note: 症状 = symptoms. | 症状 = อาการ
+You: 喉が痛くて、少し熱があります。 | のどがいたくて、すこしねつがあります。 | เจ็บคอ แล้วมีไข้นิดหน่อย | My throat hurts and I have a slight fever.
+店員*: 咳や鼻水は出ますか。 | せきやはなみずはでますか。 | มีไอหรือน้ำมูกไหม | Do you have a cough or a runny nose?
+You: 咳が少し出ます。鼻水は出ません。 | せきがすこしでます。はなみずはでません。 | ไอนิดหน่อย ไม่มีน้ำมูก | A little cough. No runny nose.
+店員: それでしたら、こちらの薬がいいと思います。 | それでしたら、こちらのくすりがいいとおもいます。 | ถ้าอย่างนั้นยานี้น่าจะดี | In that case, I think this medicine would be good.
+--- 飲み方 | How to take it | วิธีทาน
+You: 一日何回飲みますか。 | いちにちなんかいのみますか。 | ทานวันละกี่ครั้ง | How many times a day should I take it?
+店員*: 一日三回、食後に二錠ずつ飲んでください。 | いちにちさんかい、しょくごににじょうずつのんでください。 | วันละ 3 ครั้ง หลังอาหาร ครั้งละ 2 เม็ด | Three times a day, two tablets after each meal.
+note: 食後 = after meals, 食前 = before meals, 錠 = tablets. | 食後 = หลังอาหาร, 食前 = ก่อนอาหาร, 錠 = เม็ด
+You: 眠くなりますか。 | ねむくなりますか。 | ทานแล้วง่วงไหม | Will it make me sleepy?
+店員: 少し眠くなることがありますので、車の運転はしないでください。 | すこしねむくなることがありますので、くるまのうんてんはしないでください。 | อาจง่วงนิดหน่อย อย่าขับรถ | It can make you a little sleepy, so please don't drive.
+You: 他の薬と一緒に飲んでも大丈夫ですか。 | ほかのくすりといっしょにのんでもだいじょうぶですか。 | ทานพร้อมยาอื่นได้ไหม | Is it OK to take with other medicine?
+店員*: 今、何かお薬を飲んでいますか。 | いま、なにかおくすりをのんでいますか。 | ตอนนี้ทานยาอะไรอยู่ไหม | Are you taking any medicine right now?
+You: いいえ、何も飲んでいません。 | いいえ、なにものんでいません。 | ไม่ ไม่ได้ทานอะไร | No, nothing.
+店員: では、大丈夫です。熱が三日以上続いたら、病院に行ってくださいね。 | では、だいじょうぶです。ねつがみっかいじょうつづいたら、びょういんにいってくださいね。 | งั้นไม่เป็นไร ถ้ามีไข้เกิน 3 วันไปโรงพยาบาลนะ | Then it's fine. If the fever lasts more than three days, please see a doctor.
+You: わかりました。あと、マスクとのど飴もください。 | わかりました。あと、マスクとのどあめもください。 | เข้าใจแล้ว แล้วก็ขอหน้ากากกับลูกอมแก้เจ็บคอด้วย | Got it. Also some masks and throat lozenges, please.
+店員*: お大事に。 | おだいじに。 | ขอให้หายไวๆ | Take care of yourself.
+note: お大事に is what everyone says to someone who's sick. Reply ありがとうございます. | お大事に คือคำที่ทุกคนพูดกับคนป่วย ตอบว่า ありがとうございます
+You: ありがとうございます。 | ありがとうございます。 | ขอบคุณ | Thank you.
+
+@scene clinic
+title: 病院で
+en: At the clinic
+th: ที่คลินิก
+glyph: 医
+level: n4
+place: health
+about: Reception and insurance, the questionnaire, explaining symptoms to the doctor, prescriptions and a medical certificate. | ต้อนรับและประกัน แบบสอบถามอาการ อธิบายอาการกับหมอ ใบสั่งยา และใบรับรองแพทย์
+--- 受付 | Reception | แผนกต้อนรับ
+受付*: こんにちは。初めてですか。 | こんにちは。はじめてですか。 | สวัสดี มาครั้งแรกไหม | Hello. Is this your first visit?
+You: はい、初めてです。 | はい、はじめてです。 | ใช่ ครั้งแรก | Yes, it's my first time.
+受付*: 保険証をお願いします。 | ほけんしょうをおねがいします。 | ขอบัตรประกันสุขภาพ | Your health insurance card, please.
+note: Residents show a 保険証 (or a My Number card). Visitors pay the full cost, so keep your travel insurance details handy. | ผู้พำนักแสดง 保険証 (หรือบัตร My Number) นักท่องเที่ยวจ่ายเต็ม เตรียมข้อมูลประกันการเดินทางไว้
+You: 保険証はありません。旅行者です。 | ほけんしょうはありません。りょこうしゃです。 | ไม่มีบัตรประกัน เป็นนักท่องเที่ยว | I don't have one. I'm a tourist.
+受付: では、全額自己負担になりますが、よろしいですか。 | では、ぜんがくじこふたんになりますが、よろしいですか。 | งั้นต้องจ่ายเต็มจำนวนเอง ได้ไหม | Then you'll have to pay the full cost. Is that OK?
+You: はい、大丈夫です。 | はい、だいじょうぶです。 | ได้ | Yes, that's fine.
+受付*: こちらの問診票に記入してください。 | こちらのもんしんひょうにきにゅうしてください。 | กรุณากรอกแบบสอบถามอาการนี้ | Please fill out this medical questionnaire.
+You: 英語の問診票はありますか。 | えいごのもんしんひょうはありますか。 | มีแบบสอบถามภาษาอังกฤษไหม | Do you have it in English?
+受付: はい、こちらです。書けたら、受付に出してください。 | はい、こちらです。かけたら、うけつけにだしてください。 | มี นี่ เขียนเสร็จแล้วยื่นที่เคาน์เตอร์ | Yes, here. When you're done, hand it in at reception.
+受付*: お名前をお呼びするまで、お待ちください。 | おなまえをおよびするまで、おまちください。 | กรุณารอจนกว่าจะเรียกชื่อ | Please wait until we call your name.
+--- 診察 | Seeing the doctor | พบหมอ
+医者*: どうしましたか。 | どうしましたか。 | เป็นอะไรมา | What seems to be the problem?
+You: 昨日の夜から、お腹が痛いです。 | きのうのよるから、おなかがいたいです。 | ปวดท้องตั้งแต่เมื่อคืน | My stomach has hurt since last night.
+医者*: 吐き気や下痢はありますか。 | はきけやげりはありますか。 | คลื่นไส้หรือท้องเสียไหม | Any nausea or diarrhea?
+You: 吐き気はありませんが、下痢があります。 | はきけはありませんが、げりがあります。 | ไม่คลื่นไส้ แต่ท้องเสีย | No nausea, but I have diarrhea.
+医者: 何か変わったものを食べましたか。 | なにかかわったものをたべましたか。 | กินอะไรแปลกๆ ไปไหม | Did you eat anything unusual?
+You: 昨日、生の魚を食べました。 | きのう、なまのさかなをたべました。 | เมื่อวานกินปลาดิบ | I ate raw fish yesterday.
+医者*: 熱を測りましょう。…三十七度五分ですね。 | ねつをはかりましょう。…さんじゅうななどごぶですね。 | วัดไข้กัน… 37.5 องศา | Let's take your temperature… 37.5 degrees.
+note: 三十七度五分 = 37.5 °C. Japanese reads the decimal of a temperature as 分. | 三十七度五分 = 37.5 องศา ภาษาญี่ปุ่นอ่านทศนิยมของอุณหภูมิว่า 分
+医者*: アレルギーはありますか。 | アレルギーはありますか。 | แพ้อะไรไหม | Do you have any allergies?
+You: 特にありません。 | とくにありません。 | ไม่มีเป็นพิเศษ | Nothing in particular.
+医者: 胃腸炎だと思います。薬を出しますので、三日間飲んでください。 | いちょうえんだとおもいます。くすりをだしますので、みっかかんのんでください。 | น่าจะเป็นกระเพาะลำไส้อักเสบ จะจ่ายยาให้ ทาน 3 วัน | I think it's gastroenteritis. I'll prescribe medicine; take it for three days.
+医者*: 水分をたくさんとって、ゆっくり休んでください。 | すいぶんをたくさんとって、ゆっくりやすんでください。 | ดื่มน้ำเยอะๆ แล้วพักผ่อน | Drink plenty of fluids and get lots of rest.
+You: シャワーを浴びてもいいですか。 | シャワーをあびてもいいですか。 | อาบน้ำฝักบัวได้ไหม | Is it OK to take a shower?
+医者: はい、大丈夫ですよ。お大事に。 | はい、だいじょうぶですよ。おだいじに。 | ได้ ขอให้หายไวๆ | Yes, that's fine. Take care.
+--- 会計 | Paying | จ่ายเงิน
+受付*: ソムチャイさん、お会計です。 | ソムチャイさん、おかいけいです。 | คุณสมชาย เชิญชำระเงิน | Somchai, your bill is ready.
+受付*: 処方箋を出しますので、近くの薬局で薬をもらってください。 | しょほうせんをだしますので、ちかくのやっきょくでくすりをもらってください。 | จะออกใบสั่งยาให้ ไปรับยาที่ร้านยาใกล้ๆ | Here's a prescription. Please get the medicine at a nearby pharmacy.
+note: In Japan you usually collect medicine at a separate 薬局 with your 処方箋 (prescription). | ในญี่ปุ่นมักต้องเอาใบสั่งยา (処方箋) ไปรับยาที่ร้านยา (薬局) แยกต่างหาก
+You: 診断書をもらえますか。保険会社に出したいです。 | しんだんしょをもらえますか。ほけんがいしゃにだしたいです。 | ขอใบรับรองแพทย์ได้ไหม อยากยื่นบริษัทประกัน | Could I get a medical certificate? I want to send it to my insurance company.
+受付: はい、別に料金がかかりますが、よろしいですか。 | はい、べつにりょうきんがかかりますが、よろしいですか。 | ได้ มีค่าใช้จ่ายแยก ได้ไหม | Yes, there's a separate fee. Is that OK?
+You: はい、お願いします。 | はい、おねがいします。 | ได้ | Yes, please.
+
+@scene koban
+title: 交番で
+en: Lost wallet at the police box
+th: ทำกระเป๋าเงินหายที่ป้อมตำรวจ
+glyph: 警
+level: n4
+place: health
+about: Reporting a lost item, describing it, filling in the form with help, and getting the call that it was found. | แจ้งของหาย อธิบายลักษณะ กรอกแบบฟอร์มโดยมีคนช่วย และได้รับโทรศัพท์ว่าเจอแล้ว
+--- 届け出 | Reporting it | แจ้งความ
+You: すみません、財布をなくしてしまいました。 | すみません、さいふをなくしてしまいました。 | ขอโทษ ทำกระเป๋าสตางค์หาย | Excuse me, I've lost my wallet.
+警察官*: いつ、どこでなくしましたか。 | いつ、どこでなくしましたか。 | หายเมื่อไร ที่ไหน | When and where did you lose it?
+You: 一時間ぐらい前です。たぶん駅から公園までの間だと思います。 | いちじかんぐらいまえです。たぶんえきからこうえんまでのあいだだとおもいます。 | ประมาณชั่วโมงก่อน น่าจะระหว่างสถานีถึงสวน | About an hour ago. Probably somewhere between the station and the park.
+警察官*: どんな財布ですか。 | どんなさいふですか。 | กระเป๋าแบบไหน | What kind of wallet is it?
+You: 黒くて、小さい革の財布です。 | くろくて、ちいさいかわのさいふです。 | สีดำ หนังใบเล็ก | A small black leather wallet.
+警察官*: 中に何が入っていましたか。 | なかになにがはいっていましたか。 | ข้างในมีอะไร | What was inside?
+You: 現金が一万円ぐらいと、クレジットカードと、在留カードです。 | げんきんがいちまんえんぐらいと、クレジットカードと、ざいりゅうカードです。 | เงินสดประมาณหมื่นเยน บัตรเครดิต และบัตรไซริว | About 10,000 yen in cash, a credit card and my residence card.
+note: 在留カード = the residence card for foreign residents. If you lose it, you must apply for a new one at immigration within 14 days. | 在留カード = บัตรผู้พำนักต่างชาติ ถ้าหายต้องยื่นขอใหม่ที่ตรวจคนเข้าเมืองภายใน 14 วัน
+警察官*: では、この遺失届に記入してください。 | では、このいしつとどけにきにゅうしてください。 | งั้นกรอกใบแจ้งของหายนี้ | Then please fill out this lost-property report.
+You: すみません、漢字が読めません。手伝ってもらえますか。 | すみません、かんじがよめません。てつだってもらえますか。 | ขอโทษ อ่านคันจิไม่ออก ช่วยหน่อยได้ไหม | Sorry, I can't read the kanji. Could you help me?
+警察官: いいですよ。ここにお名前、ここに住所と電話番号を書いてください。 | いいですよ。ここにおなまえ、ここにじゅうしょとでんわばんごうをかいてください。 | ได้สิ ตรงนี้ชื่อ ตรงนี้ที่อยู่และเบอร์โทร | Sure. Your name here, and your address and phone number here.
+警察官*: 見つかったら、この番号に電話します。 | みつかったら、このばんごうにでんわします。 | ถ้าเจอจะโทรไปเบอร์นี้ | If it turns up, we'll call this number.
+note: Lost wallets are very often returned in Japan, so don't give up! | ในญี่ปุ่นกระเป๋าเงินหายมักได้คืน อย่าเพิ่งหมดหวัง!
+You: カード会社にも連絡したほうがいいですか。 | カードがいしゃにもれんらくしたほうがいいですか。 | ควรติดต่อบริษัทบัตรด้วยไหม | Should I contact my card company too?
+警察官: はい、すぐに止めてもらったほうがいいですよ。 | はい、すぐにとめてもらったほうがいいですよ。 | ใช่ ให้ระงับบัตรเลยดีกว่า | Yes, you'd better have the card stopped right away.
+You: わかりました。ありがとうございました。 | わかりました。ありがとうございました。 | เข้าใจแล้ว ขอบคุณ | Understood. Thank you very much.
+--- 次の日 | The next day | วันรุ่งขึ้น
+警察官*: もしもし、ソムチャイさんですか。こちら駅前交番です。 | もしもし、ソムチャイさんですか。こちらえきまえこうばんです。 | ฮัลโหล คุณสมชายใช่ไหม ที่นี่ป้อมตำรวจหน้าสถานี | Hello, is this Somchai? This is the police box in front of the station.
+警察官*: お財布が届きましたよ。 | おさいふがとどきましたよ。 | มีคนนำกระเป๋าสตางค์มาส่งแล้ว | Your wallet has been handed in.
+You: 本当ですか！よかった…。今から取りに行ってもいいですか。 | ほんとうですか！よかった…。いまからとりにいってもいいですか。 | จริงเหรอ! โล่งอก… ไปรับตอนนี้ได้ไหม | Really?! What a relief… May I come and pick it up now?
+警察官*: はい、身分証明書を持ってきてください。 | はい、みぶんしょうめいしょをもってきてください。 | ได้ กรุณานำบัตรประจำตัวมาด้วย | Yes, please bring some ID.
+You: パスポートでいいですか。 | パスポートでいいですか。 | พาสปอร์ตได้ไหม | Is a passport OK?
+警察官: はい、大丈夫です。お待ちしています。 | はい、だいじょうぶです。おまちしています。 | ได้ รออยู่นะ | Yes, that's fine. We'll be waiting.
+
+@scene meeting
+title: はじめまして
+en: Meeting someone new
+th: เจอคนใหม่
+glyph: 人
+level: n5
+place: people
+about: Introducing yourself, the questions Japanese people always ask, taking compliments, and swapping LINE. | แนะนำตัว คำถามที่คนญี่ปุ่นชอบถาม การรับคำชม และแลกไลน์
+--- 自己紹介 | Introductions | แนะนำตัว
+田中*: はじめまして。田中です。 | はじめまして。たなかです。 | ยินดีที่ได้รู้จัก ทานากะครับ | Nice to meet you. I'm Tanaka.
+You: はじめまして。ソムチャイです。タイから来ました。 | はじめまして。ソムチャイです。タイからきました。 | ยินดีที่ได้รู้จัก สมชาย มาจากไทย | Nice to meet you. I'm Somchai. I'm from Thailand.
+田中*: よろしくお願いします。 | よろしくおねがいします。 | ฝากเนื้อฝากตัวด้วย | Pleased to meet you.
+You: こちらこそ、よろしくお願いします。 | こちらこそ、よろしくおねがいします。 | เช่นกัน ฝากตัวด้วย | Likewise, pleased to meet you.
+note: こちらこそ = "the pleasure is mine". It's the standard reply. | こちらこそ = "เช่นกัน" คำตอบมาตรฐาน
+田中: タイのどちらからですか。 | タイのどちらからですか。 | มาจากที่ไหนของไทย | Where in Thailand are you from?
+You: バンコクです。 | バンコクです。 | กรุงเทพฯ | Bangkok.
+田中*: 日本は長いですか。 | にほんはながいですか。 | อยู่ญี่ปุ่นนานหรือยัง | Have you been in Japan long?
+note: Literally "Is Japan long?". It means "how long have you been here?" | แปลตรงตัวว่า "ญี่ปุ่นนานไหม" หมายถึงอยู่มานานแค่ไหน
+You: いいえ、まだ三か月です。 | いいえ、まださんかげつです。 | ไม่ เพิ่ง 3 เดือน | No, only three months.
+田中*: 日本語が上手ですね。 | にほんごがじょうずですね。 | ภาษาญี่ปุ่นเก่งนะ | Your Japanese is really good!
+You: いえいえ、まだまだです。 | いえいえ、まだまだです。 | ไม่หรอก ยังอีกไกล | Oh no, I still have a long way to go.
+note: Always play down compliments. まだまだです is the classic reply. | รับคำชมแบบถ่อมตัวเสมอ まだまだです คือคำตอบคลาสสิก
+田中*: 日本には何をしに来たんですか。 | にほんにはなにをしにきたんですか。 | มาญี่ปุ่นทำอะไร | What brought you to Japan?
+You: 日本語を勉強しに来ました。来年、大学に入りたいです。 | にほんごをべんきょうしにきました。らいねん、だいがくにはいりたいです。 | มาเรียนภาษาญี่ปุ่น ปีหน้าอยากเข้ามหาวิทยาลัย | I came to study Japanese. I want to get into university next year.
+田中: そうなんですか。すごいですね。 | そうなんですか。すごいですね。 | ใช่เหรอ เก่งจัง | Really? That's amazing.
+--- 雑談 | Small talk | คุยเล่น
+田中*: 趣味は何ですか。 | しゅみはなんですか。 | งานอดิเรกคืออะไร | What are your hobbies?
+You: アニメを見ることと、料理です。 | アニメをみることと、りょうりです。 | ดูอนิเมะกับทำอาหาร | Watching anime and cooking.
+田中: どんな料理を作りますか。 | どんなりょうりをつくりますか。 | ทำอาหารอะไร | What kind of food do you make?
+You: タイ料理をよく作ります。今度、作りましょうか。 | タイりょうりをよくつくります。こんど、つくりましょうか。 | ทำอาหารไทยบ่อย ครั้งหน้าทำให้กินไหม | I often make Thai food. Shall I make some next time?
+田中: え、本当ですか。ぜひ食べたいです！ | え、ほんとうですか。ぜひたべたいです！ | จริงเหรอ อยากกินมาก! | Really? I'd love to try it!
+田中*: 日本の食べ物で、何が好きですか。 | にほんのたべもので、なにがすきですか。 | ชอบอาหารญี่ปุ่นอะไร | Which Japanese food do you like?
+You: お寿司とラーメンが大好きです。でも、納豆はまだ苦手です。 | おすしとラーメンがだいすきです。でも、なっとうはまだにがてです。 | ชอบซูชิกับราเม็งมาก แต่นัตโตะยังไม่ค่อยไหว | I love sushi and ramen. But I'm still not good with nattō.
+note: 苦手 = "not my thing / not good with". It's softer than 嫌い (hate). | 苦手 = "ไม่ค่อยถนัด/ไม่ค่อยชอบ" นุ่มนวลกว่า 嫌い (เกลียด)
+--- 連絡先 | Swapping contacts | แลกช่องทางติดต่อ
+田中*: よかったら、LINEを交換しませんか。 | よかったら、ラインをこうかんしませんか。 | ถ้าไม่ว่าอะไร แลกไลน์กันไหม | If you'd like, shall we swap LINE?
+note: LINE is Japan's main messaging app. 〜しませんか is a friendly invitation. | LINE คือแอปแชตหลักในญี่ปุ่น 〜しませんか คือการชวนแบบเป็นมิตร
+You: はい、ぜひ。QRコードを出しますね。 | はい、ぜひ。キューアールコードをだしますね。 | ได้เลย เดี๋ยวเปิดคิวอาร์ให้ | Sure! I'll bring up my QR code.
+田中*: 今度、一緒に飲みに行きましょう。 | こんど、いっしょにのみにいきましょう。 | ครั้งหน้าไปดื่มด้วยกัน | Let's go for a drink sometime.
+You: いいですね。楽しみにしています。 | いいですね。たのしみにしています。 | ดีเลย รอคอยนะ | Sounds great. I'm looking forward to it.
+田中: じゃあ、また。 | じゃあ、また。 | งั้นไว้เจอกัน | See you, then.
+You: はい、また今度。失礼します。 | はい、またこんど。しつれいします。 | ไว้คราวหน้า ขอตัวก่อน | Yes, see you next time. Bye for now.
