@@ -8,6 +8,9 @@ content = json.load(open('Fuda/Resources/content.json'))
 course = json.load(open('/Users/chayut/project/mobile/proto/n5_course.json'))
 ch = course['chapters'] if isinstance(course, dict) else course
 gram = {g['key']: g for g in content['grammar']}
+# Words merged or re-keyed by Tools/wordlist/fix_vocab.py
+renames = json.load(open('Fuda/Resources/vocab-renames.json'))
+def ids(xs): return list(dict.fromkeys(renames.get(i, i) for i in xs))
 
 EN5 = {0:'Hiragana & katakana',1:'Your first sentences',2:'Pointing & asking',3:'Where things are',4:'Everyday verbs',5:'Adjectives & change',6:'Comparing',7:'Wanting & going to do',8:'The te-form',9:'Permission & prohibition',10:'Dictionary form & can',11:'Past & experience',12:'Time & sequence',13:'Reasons & opinions',14:'Quantities & endings'}
 EN4 = ['Explaining with んです','More te-form','Giving & receiving','Time & duration','Commands & bans','The four conditionals','Intention & decisions','Guessing & hearsay','Potential & appearance','Purpose & method','Someone, everyone, emphasis','Quoting & embedding','Passive & causative','Advanced connectors','Feelings & tendencies','Start, redo, finish','Viewpoint & evidence','Keigo']
@@ -17,7 +20,7 @@ lessons = []
 for x in ch:
     lessons.append({'n': x['n'], 'level': 'n5', 'ja': x['titleJA'], 'th': x['titleTH'], 'en': EN5[x['n']],
         'grammar': x['grammarKeys'],
-        'sections': [{'en': SEC[s['titleTH']], 'th': s['titleTH'], 'ids': s['vocabIDs']} for s in x.get('vocabSections', [])],
+        'sections': [{'en': SEC[s['titleTH']], 'th': s['titleTH'], 'ids': ids(s['vocabIDs'])} for s in x.get('vocabSections', [])],
         'kanji': x['kanjiChars'], 'dialogues': x.get('dialogueKeys', []), 'stories': x.get('storyKeys', [])})
 
 # N4: grammar from Tone's course plan; words/kanji matched to the lesson whose

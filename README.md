@@ -80,6 +80,7 @@ K pause the video, ⌘1–9 sections, ⌘K search, ⌥1–9 lesson steps, Esc ba
 (words the Tone export lacked). Build after editing:
 
 ```bash
+python3 Tools/wordlist/fix_vocab.py                             # applies vocab_fixes.json (corrections, duplicate removal)
 python3 Tools/wordlist/build_wordlist.py                       # writes Fuda/Resources/wordlist.json + vocab-extra.json
 python3 Tools/wordlist/build_wordlist.py --reference DIR       # also check coverage (DIR has n5.csv, n4.csv)
 ```

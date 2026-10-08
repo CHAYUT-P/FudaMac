@@ -50,8 +50,16 @@
 },
 "〜歳_〜さい": {
 "sub": "number.counter",
-"en": "years old; age",
-"thAlt": []
+"en": "years old; age; age counter",
+"thAlt": [
+"อายุ...ปี",
+"ขวบ",
+"อายุ",
+"ปี"
+],
+"also": [
+"〜歳 / 〜才"
+]
 },
 "冊_〜さつ": {
 "sub": "number.counter",
@@ -73,11 +81,6 @@
 "〜時_〜じ": {
 "sub": "time.clock",
 "en": "o'clock; hour",
-"thAlt": []
-},
-"〜時間_〜じかん": {
-"sub": "number.counter",
-"en": "hours; hour",
 "thAlt": []
 },
 "〜過ぎ_〜すぎ": {
@@ -162,13 +165,6 @@
 "sub": "number.counter",
 "en": "cups; glasses; counter for drinks",
 "thAlt": []
-},
-"〜半_〜はん": {
-"sub": "time.clock",
-"en": "half past; half; thirty minutes",
-"thAlt": [
-"ครึ่งชั่วโมง"
-]
 },
 "〜匹_〜ひき": {
 "sub": "number.counter",
@@ -393,7 +389,13 @@
 "良い_いい / よい": {
 "sub": "describe.quality",
 "en": "good; nice; fine",
-"thAlt": []
+"thAlt": [
+"ดี",
+"ใช้ได้"
+],
+"also": [
+"いい"
+]
 },
 "いいえ_いいえ": {
 "sub": "basic.greeting",
@@ -554,15 +556,16 @@
 "en": "colour; color",
 "thAlt": []
 },
-"いろいろ_いろいろ": {
-"sub": "describe.state",
-"en": "various; all kinds of",
-"thAlt": []
-},
 "色々_いろいろ": {
 "sub": "describe.state",
 "en": "various; all kinds of",
-"thAlt": []
+"thAlt": [
+"หลากหลาย",
+"ต่างๆ นานา"
+],
+"also": [
+"いろいろ"
+]
 },
 "上_うえ": {
 "sub": "town.position",
@@ -597,8 +600,16 @@
 },
 "内_うち": {
 "sub": "home.house",
-"en": "home; house; inside",
-"thAlt": []
+"en": "home; house; inside; while; during; within",
+"thAlt": [
+"ขณะ",
+"ภายใน",
+"ตอนที่",
+"ระหว่าง"
+],
+"also": [
+"うち"
+]
 },
 "生まれる_うまれる": {
 "sub": "people.person",
@@ -657,7 +668,13 @@
 "エレベーター_エレベーター": {
 "sub": "town.building",
 "en": "elevator; lift",
-"thAlt": []
+"thAlt": [
+"ลิฟต์",
+"ลิฟท์"
+],
+"also": [
+"エレベータ"
+]
 },
 "円_えん": {
 "sub": "money.money",
@@ -672,12 +689,13 @@
 "お〜 / 御〜_お": {
 "sub": "basic.affix",
 "en": "honorific prefix; polite prefix",
-"thAlt": []
-},
-"御_お": {
-"sub": "basic.affix",
-"en": "honorific prefix; polite prefix",
-"thAlt": []
+"thAlt": [
+"คำนำหน้าแสดงความสุภาพ (เช่น お茶",
+"お金)"
+],
+"also": [
+"御"
+]
 },
 "美味しい_おいしい": {
 "sub": "food.taste",
@@ -738,11 +756,6 @@
 "お酒_おさけ": {
 "sub": "food.drink",
 "en": "alcohol; sake; liquor",
-"thAlt": []
-},
-"お皿_おさら": {
-"sub": "food.tableware",
-"en": "plate; dish",
 "thAlt": []
 },
 "おじいさん_おじいさん": {
@@ -827,11 +840,6 @@
 "en": "older brother; elder brother",
 "thAlt": []
 },
-"お肉_おにく": {
-"sub": "food.ingredient",
-"en": "meat",
-"thAlt": []
-},
 "お姉さん_おねえさん": {
 "sub": "people.family",
 "en": "older sister; elder sister",
@@ -870,13 +878,6 @@
 "sub": "people.job",
 "en": "police officer; policeman",
 "thAlt": []
-},
-"お水_おみず": {
-"sub": "food.drink",
-"en": "water",
-"thAlt": [
-"น้ำเปล่า"
-]
 },
 "重い_おもい": {
 "sub": "describe.size",
@@ -976,8 +977,16 @@
 },
 "かける_かける": {
 "sub": "hobby.media",
-"en": "to call; to hang; to put on",
-"thAlt": []
+"en": "to call; to hang; to put on; call; to make a call",
+"thAlt": [
+"โทร",
+"แขวน",
+"นั่ง(เก้าอี้)",
+"โทรหา"
+],
+"also": [
+"掛ける"
+]
 },
 "傘_かさ": {
 "sub": "home.belonging",
@@ -1042,14 +1051,11 @@
 "sub": "clothes.verb",
 "en": "to put on; to wear; wear",
 "thAlt": [
-"ใส่หมวก"
-]
-},
-"冠る_かぶる": {
-"sub": "clothes.verb",
-"en": "to put on; to wear; wear",
-"thAlt": [
-"ใส่หมวก"
+"ใส่หมวก",
+"สวมใส่ (หมวก)"
+],
+"also": [
+"冠る"
 ]
 },
 "紙_かみ": {
@@ -1258,15 +1264,12 @@
 "en": "please; please give me; give me",
 "thAlt": [
 "โปรด",
-"ขอหน่อย"
-]
-},
-"下さい_ください": {
-"sub": "basic.greeting",
-"en": "please; please give me; give me",
-"thAlt": [
-"โปรด",
-"ขอหน่อย"
+"ขอหน่อย",
+"กรุณา",
+"ขอ..."
+],
+"also": [
+"下さい"
 ]
 },
 "果物_くだもの": {
@@ -1577,14 +1580,6 @@
 "มาเลย"
 ]
 },
-"〜歳 / 〜才_さい": {
-"sub": "number.counter",
-"en": "years old; age counter",
-"thAlt": [
-"อายุ",
-"ปี"
-]
-},
 "財布_さいふ": {
 "sub": "home.belonging",
 "en": "wallet; purse",
@@ -1639,14 +1634,22 @@
 "sub": "food.tableware",
 "en": "plate; dish",
 "thAlt": [
-"จานข้าว"
+"จานข้าว",
+"จาน"
+],
+"also": [
+"お皿"
 ]
 },
 "再来年_さらいねん": {
 "sub": "time.season",
 "en": "the year after next; in two years",
 "thAlt": [
-"ปีถัดจากปีหน้า"
+"ปีถัดจากปีหน้า",
+"อีก 2 ปีข้างหน้า (ปีมะเรื่อง)"
+],
+"also": [
+"さ来年"
 ]
 },
 "三_さん": {
@@ -1669,13 +1672,6 @@
 "en": "walk; stroll; to take a walk",
 "thAlt": [
 "เดินเล่น"
-]
-},
-"さ来年_さらいねん": {
-"sub": "time.season",
-"en": "the year after next; in two years",
-"thAlt": [
-"ปีถัดจากปีหน้า"
 ]
 },
 "雑誌_ざっし": {
@@ -1789,28 +1785,19 @@
 "en": "homework",
 "thAlt": []
 },
-"しょうゆ_しょうゆ": {
-"sub": "food.seasoning",
-"en": "soy sauce",
-"thAlt": [
-"ซีอิ๊ว",
-"ซีอิ๊วญี่ปุ่น"
-]
-},
-"醬油_しょうゆ": {
-"sub": "food.seasoning",
-"en": "soy sauce",
-"thAlt": [
-"ซอสถั่วเหลือง",
-"ซีอิ๊ว"
-]
-},
 "醤油_しょうゆ": {
 "sub": "food.seasoning",
 "en": "soy sauce",
 "thAlt": [
 "ซอสถั่วเหลือง",
-"ซีอิ๊ว"
+"ซีอิ๊ว",
+"ซีอิ๊วญี่ปุ่น",
+"โชยุ",
+"โชยุ (ซอสถั่วเหลือง)"
+],
+"also": [
+"醬油",
+"しょうゆ"
 ]
 },
 "食堂_しょくどう": {
@@ -1843,7 +1830,12 @@
 "時間_じかん": {
 "sub": "time.clock",
 "en": "time; hour; hours",
-"thAlt": []
+"thAlt": [
+"ชั่วโมง (ระยะเวลา)"
+],
+"also": [
+"〜時間"
+]
 },
 "辞書_じしょ": {
 "sub": "school.stationery",
@@ -1880,19 +1872,18 @@
 "ตัวเรา"
 ]
 },
-"じゃ_じゃ": {
-"sub": "adverb.connector",
-"en": "well then; then; so",
-"thAlt": [
-"งั้น"
-]
-},
 "じゃ / じゃあ_じゃ / じゃあ": {
 "sub": "adverb.connector",
 "en": "well then; then; so",
 "thAlt": [
 "ถ้างั้น",
-"เอาล่ะ"
+"เอาล่ะ",
+"ถ้าอย่างนั้น",
+"แล้วก็",
+"งั้น"
+],
+"also": [
+"じゃ"
 ]
 },
 "十_じゅう / とお": {
@@ -2015,20 +2006,6 @@
 "นั่งลง"
 ]
 },
-"背 / 背丈_せ": {
-"sub": "body.part",
-"en": "height; stature; back",
-"thAlt": [
-"ความสูง"
-]
-},
-"背_せい": {
-"sub": "body.part",
-"en": "height; stature; back",
-"thAlt": [
-"ความสูง"
-]
-},
 "生徒_せいと": {
 "sub": "school.school",
 "en": "student; pupil",
@@ -2094,9 +2071,15 @@
 },
 "ゼロ / 零_ぜろ / れい": {
 "sub": "number.number",
-"en": "zero; 0",
+"en": "zero; 0; nought",
 "thAlt": [
-"0"
+"0",
+"ศูนย์ (0)",
+"ศูนย์"
+],
+"also": [
+"れい",
+"ゼロ"
 ]
 },
 "全部_ぜんぶ": {
@@ -2484,17 +2467,15 @@
 },
 "付ける_つける": {
 "sub": "action.hand",
-"en": "to turn on; turn on; to attach; switch on",
-"thAlt": [
-"เปิดไฟ"
-]
-},
-"点ける_つける": {
-"sub": "action.hand",
-"en": "to turn on; turn on; to light; switch on",
+"en": "to turn on; turn on; to attach; switch on; to light",
 "thAlt": [
 "เปิดไฟ",
+"จุด (ไฟ)",
+"เปิด (เครื่องใช้)",
 "เปิด"
+],
+"also": [
+"点ける"
 ]
 },
 "勤める_つとめる": {
@@ -2569,13 +2550,6 @@
 "en": "well then; then; in that case",
 "thAlt": [
 "งั้น"
-]
-},
-"出ます_でます": {
-"sub": "transport.verb",
-"en": "to leave; leave; to go out; to exit",
-"thAlt": [
-"ออกจากบ้าน"
 ]
 },
 "でも_でも": {
@@ -3244,7 +3218,12 @@
 "en": "half; half past; thirty minutes",
 "thAlt": [
 "ครึ่งชั่วโมง",
-"สามสิบนาที"
+"สามสิบนาที",
+"ครึ่ง",
+"30 นาที"
+],
+"also": [
+"〜半"
 ]
 },
 "半分_はんぶん": {
@@ -3677,14 +3656,6 @@
 "thAlt": [
 "ตัวเมือง",
 "เมืองเล็ก"
-]
-},
-"真直ぐに_まっすぐに": {
-"sub": "town.street",
-"en": "straight; straight ahead; directly",
-"thAlt": [
-"ตรง",
-"ตรงไปเลย"
 ]
 },
 "待つ_まつ": {
@@ -4125,14 +4096,6 @@
 "ท่องเที่ยว"
 ]
 },
-"れい_れい": {
-"sub": "number.number",
-"en": "zero; 0; nought",
-"thAlt": [
-"ศูนย์",
-"0"
-]
-},
 "冷蔵庫_れいぞうこ": {
 "sub": "home.furniture",
 "en": "refrigerator; fridge",
@@ -4235,13 +4198,6 @@
 "แฟลต"
 ]
 },
-"エレベータ_エレベータ": {
-"sub": "town.building",
-"en": "elevator; lift",
-"thAlt": [
-"ลิฟท์"
-]
-},
 "カップ_カップ": {
 "sub": "food.tableware",
 "en": "cup; mug",
@@ -4265,25 +4221,17 @@
 },
 "キロ_キロ": {
 "sub": "number.counter",
-"en": "kilo; kilogram; kilometer",
-"thAlt": [
-"กิโล"
-]
-},
-"キロ / キログラム_キロ / キログラム": {
-"sub": "number.counter",
-"en": "kilogram; kilo; kg",
+"en": "kilo; kilogram; kilometer; kg; km",
 "thAlt": [
 "กิโล",
-"กก."
-]
-},
-"キロ / キロメートル_キロ / キロメートル": {
-"sub": "number.counter",
-"en": "kilometer; kilo; km",
-"thAlt": [
-"กิโล",
+"กิโลกรัม",
+"กก.",
+"กิโลเมตร",
 "กม."
+],
+"also": [
+"キロ / キログラム",
+"キロ / キロメートル"
 ]
 },
 "ギター_ギター": {
@@ -4388,14 +4336,6 @@
 "en": "sweater; jumper",
 "thAlt": [
 "เสื้อกันหนาว"
-]
-},
-"ゼロ_ゼロ": {
-"sub": "number.number",
-"en": "zero; 0",
-"thAlt": [
-"ศูนย์",
-"0"
 ]
 },
 "タクシー_タクシー": {
@@ -4506,13 +4446,6 @@
 "sub": "food.dish",
 "en": "bread",
 "thAlt": []
-},
-"パーテイー_パーテイー": {
-"sub": "hobby.leisure",
-"en": "party",
-"thAlt": [
-"งานปาร์ตี้"
-]
 },
 "フィルム_フィルム": {
 "sub": "hobby.art",
@@ -4820,7 +4753,7 @@
 },
 "直る_なおる": {
 "sub": "action.change",
-"en": "to be fixed; be repaired; to get better",
+"en": "to be fixed; be repaired; to be corrected; to be mended",
 "thAlt": [
 "ดีขึ้น"
 ]
@@ -4874,13 +4807,6 @@
 "en": "to deliver; deliver; to send",
 "thAlt": [
 "ส่ง"
-]
-},
-"掛ける_かける": {
-"sub": "hobby.media",
-"en": "to call; call; to make a call; to hang",
-"thAlt": [
-"โทรหา"
 ]
 },
 "思い出す_おもいだす": {
@@ -5025,9 +4951,14 @@
 },
 "以内_いない": {
 "sub": "basic.affix",
-"en": "within; less than; inside of",
+"en": "within; less than; inside of; not more than",
 "thAlt": [
-"ภายใน"
+"ภายใน",
+"ภายใน-",
+"ไม่เกิน-"
+],
+"also": [
+"〜以内"
 ]
 },
 "田舎_いなか": {
@@ -5224,8 +5155,16 @@
 },
 "経験_けいけん": {
 "sub": "heart.mind",
-"en": "experience",
-"thAlt": []
+"en": "experience; to experience; to go through",
+"thAlt": [
+"มีประสบการณ์",
+"ประสบ",
+"เคย",
+"ประสบการณ์"
+],
+"also": [
+"経験する"
+]
 },
 "計画_けいかく": {
 "sub": "work.work",
@@ -5367,9 +5306,15 @@
 },
 "相談_そうだん": {
 "sub": "action.talk",
-"en": "consultation; discussion; advice",
+"en": "consultation; discussion; advice; to consult; consult; to ask advice; to discuss",
 "thAlt": [
-"ขอคำปรึกษา"
+"ขอคำปรึกษา",
+"ปรึกษา",
+"ขอคำแนะนำ",
+"หารือ"
+],
+"also": [
+"相談する"
 ]
 },
 "大事_だいじ": {
@@ -5597,10 +5542,15 @@
 },
 "以上_いじょう": {
 "sub": "basic.affix",
-"en": "or more; more than; above",
+"en": "or more; more than; above; over",
 "thAlt": [
 "ขึ้นไป",
-"มากกว่า"
+"มากกว่า",
+"เกิน-",
+"มากกว่า-"
+],
+"also": [
+"〜以上"
 ]
 },
 "以下_いか": {
@@ -5608,13 +5558,26 @@
 "en": "or less; below; under",
 "thAlt": [
 "ไม่เกิน",
-"น้อยกว่า"
+"น้อยกว่า",
+"ต่ำกว่า-",
+"น้อยกว่า-",
+"ลงมา"
+],
+"also": [
+"〜以下"
 ]
 },
 "以外_いがい": {
 "sub": "basic.affix",
 "en": "except; other than; besides",
-"thAlt": []
+"thAlt": [
+"นอกจาก-",
+"ยกเว้น-",
+"นอกเหนือจาก"
+],
+"also": [
+"〜以外"
+]
 },
 "代わり_かわり": {
 "sub": "basic.affix",
@@ -5627,15 +5590,14 @@
 "sub": "basic.affix",
 "en": "for; for the sake of; because of",
 "thAlt": [
-"เพื่อที่จะ"
-]
-},
-"うち_うち": {
-"sub": "time.relative",
-"en": "while; during; within",
-"thAlt": [
-"ตอนที่",
-"ระหว่าง"
+"เพื่อที่จะ",
+"เพื่อ",
+"เพื่อประโยชน์",
+"เพราะ",
+"สำหรับ"
+],
+"also": [
+"為"
 ]
 },
 "ばかり_ばかり": {
@@ -5866,7 +5828,13 @@
 "sub": "adverb.manner",
 "en": "as expected; after all; still",
 "thAlt": [
-"ตามคาด"
+"ตามคาด",
+"อย่างที่คิด",
+"ก็ยังคง",
+"สุดท้ายก็"
+],
+"also": [
+"やっぱり"
 ]
 },
 "どんどん_どんどん": {
@@ -6026,7 +5994,7 @@
 },
 "足す_たす": {
 "sub": "number.number",
-"en": "to add; add; to plus",
+"en": "to add; add; to add up",
 "thAlt": [
 "เติม"
 ]
@@ -6190,7 +6158,7 @@
 },
 "分かれる_わかれる": {
 "sub": "people.relation",
-"en": "to part; to separate; part; to split",
+"en": "to split; to divide; to branch off; to be separated",
 "thAlt": [
 "แยกทาง",
 "แยก"
@@ -6323,35 +6291,12 @@
 "ถ่ายติด"
 ]
 },
-"入学する_にゅうがくする": {
-"sub": "school.school",
-"en": "to enter school; to enroll; enroll; enter school",
-"thAlt": [
-"เข้าโรงเรียน",
-"เข้ามหาวิทยาลัย"
-]
-},
 "生きる_いきる": {
 "sub": "body.state",
 "en": "to live; live; to be alive",
 "thAlt": [
 "อยู่",
 "ดำรงชีวิต"
-]
-},
-"入院する_にゅういんする": {
-"sub": "body.illness",
-"en": "to be hospitalized; be hospitalized; to enter hospital",
-"thAlt": [
-"เข้าโรงพยาบาล",
-"แอดมิท"
-]
-},
-"退院する_たいいんする": {
-"sub": "body.illness",
-"en": "to leave hospital; to be discharged; leave hospital",
-"thAlt": [
-"ออกโรงพยาบาล"
 ]
 },
 "眠る_ねむる": {
@@ -6405,30 +6350,6 @@
 "en": "to ask; ask; to inquire",
 "thAlt": [
 "ถามทาง"
-]
-},
-"経験する_けいけんする": {
-"sub": "heart.mind",
-"en": "to experience; experience; to go through",
-"thAlt": [
-"เคย",
-"ประสบการณ์"
-]
-},
-"招待する_しょうたいする": {
-"sub": "people.relation",
-"en": "to invite; invite",
-"thAlt": [
-"ชวน",
-"เชิญชวน"
-]
-},
-"相談する_そうだんする": {
-"sub": "action.talk",
-"en": "to consult; consult; to ask advice; to discuss",
-"thAlt": [
-"ขอคำปรึกษา",
-"หารือ"
 ]
 },
 "会場_かいじょう": {
@@ -6524,10 +6445,16 @@
 },
 "怪我_けが": {
 "sub": "body.illness",
-"en": "injury; wound; hurt",
+"en": "injury; wound; hurt; to get injured; get hurt; to be injured",
 "thAlt": [
 "แผล",
-"เจ็บ"
+"เจ็บ",
+"บาดเจ็บ",
+"ได้รับบาดเจ็บ",
+"เจ็บตัว"
+],
+"also": [
+"けがする"
 ]
 },
 "原因_げんいん": {
@@ -6573,7 +6500,12 @@
 "en": "high school; senior high school",
 "thAlt": [
 "ม.ปลาย",
-"มัธยมปลาย"
+"มัธยมปลาย",
+"โรงเรียนมัธยมปลาย",
+"โรงเรียนมัธยม"
+],
+"also": [
+"高等学校"
 ]
 },
 "交通_こうつう": {
@@ -6624,9 +6556,15 @@
 },
 "招待_しょうたい": {
 "sub": "people.relation",
-"en": "invitation",
+"en": "invitation; to invite; invite",
 "thAlt": [
-"คำเชิญ"
+"คำเชิญ",
+"เชิญ (ทางการ)",
+"ชวน",
+"เชิญชวน"
+],
+"also": [
+"招待する"
 ]
 },
 "食料品_しょくりょうひん": {
@@ -6780,14 +6718,6 @@
 "ความเชี่ยวชาญ"
 ]
 },
-"為_ため": {
-"sub": "basic.affix",
-"en": "for; for the sake of; because of",
-"thAlt": [
-"เพราะ",
-"สำหรับ"
-]
-},
 "手袋_てぶくろ": {
 "sub": "clothes.wear",
 "en": "gloves; glove",
@@ -6888,9 +6818,14 @@
 },
 "倍_ばい": {
 "sub": "number.amount",
-"en": "double; twice; times",
+"en": "double; twice; times; -fold",
 "thAlt": [
-"สองเท่า"
+"สองเท่า",
+"-เท่า",
+"เท่าตัว"
+],
+"also": [
+"〜倍"
 ]
 },
 "復習_ふくしゅう": {
@@ -6939,7 +6874,7 @@
 },
 "最も_もっとも": {
 "sub": "adverb.degree",
-"en": "most; the most; extremely",
+"en": "most; the most",
 "thAlt": [
 "มากที่สุด"
 ]
@@ -7243,14 +7178,6 @@
 "อย่างนี้นี่เอง"
 ]
 },
-"やっぱり_やっぱり": {
-"sub": "adverb.manner",
-"en": "as expected; after all; still",
-"thAlt": [
-"ตามคาด",
-"สุดท้ายก็"
-]
-},
 "約_やく": {
 "sub": "number.amount",
 "en": "about; approximately; around",
@@ -7303,40 +7230,6 @@
 "en": "member; staff; employee",
 "thAlt": [
 "เจ้าหน้าที่"
-]
-},
-"〜倍_〜ばい": {
-"sub": "number.counter",
-"en": "times; -fold; double",
-"thAlt": [
-"เท่าตัว"
-]
-},
-"〜以下_〜いか": {
-"sub": "basic.affix",
-"en": "or less; under; below",
-"thAlt": [
-"ไม่เกิน",
-"ลงมา"
-]
-},
-"〜以上_〜いじょう": {
-"sub": "basic.affix",
-"en": "or more; over; above",
-"thAlt": [
-"ขึ้นไป"
-]
-},
-"〜以内_〜いない": {
-"sub": "basic.affix",
-"en": "within; inside of; not more than",
-"thAlt": []
-},
-"〜以外_〜いがい": {
-"sub": "basic.affix",
-"en": "except; other than; besides",
-"thAlt": [
-"นอกเหนือจาก"
 ]
 },
 "〜様_〜さま": {
@@ -7717,14 +7610,6 @@
 "ให้ฉัน"
 ]
 },
-"けがする_けがする": {
-"sub": "body.illness",
-"en": "to get injured; get hurt; to be injured",
-"thAlt": [
-"เจ็บตัว",
-"เจ็บ"
-]
-},
 "景色_けしき": {
 "sub": "nature.nature",
 "en": "scenery; view; landscape",
@@ -7804,14 +7689,6 @@
 "thAlt": [
 "นักเรียนม.ปลาย",
 "เด็กมัธยมปลาย"
-]
-},
-"高等学校_こうとうがっこう": {
-"sub": "school.school",
-"en": "high school; senior high school",
-"thAlt": [
-"ม.ปลาย",
-"โรงเรียนมัธยม"
 ]
 },
 "答_こたえ": {
@@ -8173,9 +8050,13 @@
 },
 "退院_たいいん": {
 "sub": "body.illness",
-"en": "leaving hospital; hospital discharge; to be discharged",
+"en": "leaving hospital; hospital discharge; to be discharged; to leave hospital; leave hospital",
 "thAlt": [
-"ออกโรงพยาบาล"
+"ออกโรงพยาบาล",
+"ออกจากโรงพยาบาล"
+],
+"also": [
+"退院する"
 ]
 },
 "棚_たな": {
@@ -8416,18 +8297,27 @@
 },
 "入院_にゅういん": {
 "sub": "body.illness",
-"en": "hospitalization; to be hospitalized",
+"en": "hospitalization; to be hospitalized; be hospitalized; to enter hospital",
 "thAlt": [
 "เข้าโรงพยาบาล",
-"นอนโรงพยาบาล"
+"นอนโรงพยาบาล",
+"แอดมิท"
+],
+"also": [
+"入院する"
 ]
 },
 "入学_にゅうがく": {
 "sub": "school.school",
-"en": "school entrance; enrollment; to enter school",
+"en": "school entrance; enrollment; to enter school; to enroll; enroll; enter school",
 "thAlt": [
 "เข้าโรงเรียน",
-"เข้ามหาวิทยาลัย"
+"เข้ามหาวิทยาลัย",
+"เข้าเรียน",
+"เข้าศึกษา"
+],
+"also": [
+"入学する"
 ]
 },
 "塗る_ぬる": {
@@ -9343,6 +9233,18 @@
 "thAlt": [
 "นาย",
 "เอ็ง"
+]
+},
+"背_せい / せ": {
+"sub": "body.part",
+"en": "height; stature; back",
+"thAlt": [
+"ความสูง",
+"ส่วนสูง",
+"หลัง"
+],
+"also": [
+"背 / 背丈"
 ]
 }
 }

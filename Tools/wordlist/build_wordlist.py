@@ -97,29 +97,7 @@ for i, a in assign.items():
 # Same word listed twice in the source data (spelling variants, 〜 forms, noun /
 # する-verb pairs): show one entry, list the other spellings under it, accept
 # all their meanings.
-MERGE = {
-    "〜歳_〜さい": ["〜歳 / 〜才_さい"],
-    "半_はん": ["〜半_〜はん"],
-    "色々_いろいろ": ["いろいろ_いろいろ"],
-    "お〜 / 御〜_お": ["御_お"],
-    "かける_かける": ["掛ける_かける"],
-    "被る_かぶる": ["冠る_かぶる"],
-    "ください_ください": ["下さい_ください"],
-    "再来年_さらいねん": ["さ来年_さらいねん"],
-    "醤油_しょうゆ": ["醬油_しょうゆ", "しょうゆ_しょうゆ"],
-    "以内_いない": ["〜以内_〜いない"],
-    "以上_いじょう": ["〜以上_〜いじょう"],
-    "以下_いか": ["〜以下_〜いか"],
-    "以外_いがい": ["〜以外_〜いがい"],
-    "ため_ため": ["為_ため"],
-    "経験_けいけん": ["経験する_けいけんする"],
-    "相談_そうだん": ["相談する_そうだんする"],
-    "入学_にゅうがく": ["入学する_にゅうがくする"],
-    "入院_にゅういん": ["入院する_にゅういんする"],
-    "退院_たいいん": ["退院する_たいいんする"],
-    "招待_しょうたい": ["招待する_しょうたいする"],
-    "怪我_けが": ["けがする_けがする"],
-}
+MERGE: dict[str, list[str]] = {}   # duplicates are now removed from the data by fix_vocab.py
 vocab_by_id = {v["id"]: v for v in content["vocab"]}
 for a in assign.values():
     a.setdefault("also", [])
@@ -179,8 +157,10 @@ if "--reference" in sys.argv:
     by_k = collections.defaultdict(list)
     by_r = collections.defaultdict(list)
     for v in words:
-        by_k[clean(v["kanji"])].append(v)
-        by_r[hira(clean(v["kana"]))].append(v)
+        for k in v["kanji"].split(" / "):
+            by_k[clean(k)].append(v)
+        for k in v["kana"].split(" / "):
+            by_r[hira(clean(k))].append(v)
     for lvl in ("n5", "n4"):
         rows = list(csv.DictReader(open(ref / f"{lvl}.csv", encoding="utf-8")))
         gaps = []

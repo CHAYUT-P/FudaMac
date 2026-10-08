@@ -1,0 +1,1650 @@
+{
+ "set": [
+  {
+   "id": "〜歳_〜さい",
+   "set": {
+    "exJA": "弟は十歳です。",
+    "exKana": "おとうとはじゅっさいです。",
+    "exEN": "My younger brother is 10 years old.",
+    "exTH": "น้องชายอายุ 10 ขวบ"
+   },
+   "why": "example 二十歳 is read はたち, so it never uses the さい reading"
+  },
+  {
+   "id": "〜過ぎ_〜すぎ",
+   "set": {
+    "exJA": "一時十五分過ぎです。",
+    "pos": "suffix"
+   },
+   "why": "exJA was missing 過ぎ (exKana had すぎ); it is a suffix"
+  },
+  {
+   "id": "〜達_〜たち",
+   "set": {
+    "pos": "suffix"
+   },
+   "why": "plural suffix, not a standalone noun"
+  },
+  {
+   "id": "〜日_〜にち",
+   "set": {
+    "exJA": "十一日間、日本を旅行しました。",
+    "exKana": "じゅういちにちかん、にほんをりょこうしました。",
+    "exEN": "I traveled around Japan for 11 days.",
+    "exTH": "เที่ยวญี่ปุ่นเป็นเวลา 11 วัน"
+   },
+   "why": "example 三日間 is read みっか, not the にち reading"
+  },
+  {
+   "id": "〜半_〜はん",
+   "set": {
+    "exKana": "にじはんにともだちとあいます。"
+   },
+   "why": "exKana had に where exJA has と"
+  },
+  {
+   "id": "開く_あく",
+   "set": {
+    "exJA": "風でドアが開きました。",
+    "exKana": "かぜでドアがあきました。",
+    "exEN": "The door opened because of the wind.",
+    "exTH": "ประตูเปิดออกเพราะลม"
+   },
+   "why": "ドアが自然に開きました is unnatural"
+  },
+  {
+   "id": "兄_あに",
+   "set": {
+    "exKana": "わたしのあにはだいがくせいです。"
+   },
+   "why": "exKana read 兄 as おに; correct is あに"
+  },
+  {
+   "id": "あまり_あまり",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "adverb"
+  },
+  {
+   "id": "いつも_いつも",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "adverb"
+  },
+  {
+   "id": "いいえ_いいえ",
+   "set": {
+    "pos": "interj"
+   },
+   "why": "response word, not a noun"
+  },
+  {
+   "id": "ええ_ええ",
+   "set": {
+    "pos": "interj"
+   },
+   "why": "response word, not a noun"
+  },
+  {
+   "id": "一_いち",
+   "set": {
+    "exJA": "一から十まで数えてください。",
+    "exKana": "いちからじゅうまでかぞえてください。",
+    "exEN": "Please count from one to ten.",
+    "exTH": "กรุณานับจาก 1 ถึง 10"
+   },
+   "why": "example used 一つ (ひとつ), a different word/reading"
+  },
+  {
+   "id": "温かい_あたたかい",
+   "set": {
+    "exTH": "ดื่มซุปอุ่นๆ"
+   },
+   "why": "Thai added 'ร้อนๆ ให้อบอุ่น' not in the Japanese"
+  },
+  {
+   "id": "大きい_おおきい",
+   "set": {
+    "exJA": "大きい家に住みたいです。",
+    "exKana": "おおきいいえにすみたいです。"
+   },
+   "why": "example used 大きな (a separate headword) instead of 大きい"
+  },
+  {
+   "id": "遅い_おそい",
+   "set": {
+    "exKana": "バスがおそくてこまりました。"
+   },
+   "why": "exKana had extra とても not in exJA"
+  },
+  {
+   "id": "伯父さん / 叔父さん_おじさん",
+   "set": {
+    "exEN": "Asked a kind middle-aged man for directions."
+   },
+   "why": "a stranger asked for directions is not one's uncle"
+  },
+  {
+   "id": "大人_おとな",
+   "set": {
+    "exJA": "映画のチケットは大人千円、子供五百円です。",
+    "exKana": "えいがのチケットはおとなせんえん、こどもごひゃくえんです。",
+    "exEN": "Movie tickets are 1,000 yen for adults and 500 yen for children.",
+    "exTH": "ตั๋วหนังผู้ใหญ่ 1,000 เยน เด็ก 500 เยน"
+   },
+   "why": "大人が千円です is unnatural"
+  },
+  {
+   "id": "消える_きえる",
+   "set": {
+    "exJA": "急に部屋の電気が消えました。",
+    "exKana": "きゅうにへやのでんきがきえました。",
+    "exEN": "The light in the room suddenly went out.",
+    "exTH": "ไฟในห้องดับลงกะทันหัน"
+   },
+   "why": "自然に消えました is unnatural"
+  },
+  {
+   "id": "靴下_くつした",
+   "set": {
+    "exTH": "สวมถุงเท้าอุ่นๆ อยู่"
+   },
+   "why": "'ถุงเท้าตัวอุ่น' is unnatural Thai"
+  },
+  {
+   "id": "ください_ください",
+   "set": {
+    "pos": "verb"
+   },
+   "why": "request form of くださる, not a noun"
+  },
+  {
+   "id": "下さい_ください",
+   "set": {
+    "pos": "verb"
+   },
+   "why": "request form of くださる, not a noun"
+  },
+  {
+   "id": "ぐらい_ぐらい",
+   "set": {
+    "pos": "particle"
+   },
+   "why": "ぐらい is a particle, not a noun"
+  },
+  {
+   "id": "けっこう_けっこう",
+   "set": {
+    "pos": "adj"
+   },
+   "why": "けっこう (fine/enough/quite) is a na-adjective/adverb, not a noun"
+  },
+  {
+   "id": "九日_ここのか",
+   "set": {
+    "exKana": "くがつここのかにりょこうへいきます。"
+   },
+   "why": "exKana misreads 九日 as きょうか; it is ここのか"
+  },
+  {
+   "id": "ご主人_ごしゅじん",
+   "set": {
+    "exEN": "Mrs. Tanaka's husband is kind."
+   },
+   "why": "田中さん here is the wife, so 'Mr.' is wrong"
+  },
+  {
+   "id": "ごろ_ごろ",
+   "set": {
+    "pos": "suffix"
+   },
+   "why": "ごろ attaches to time words; suffix, not noun"
+  },
+  {
+   "id": "さあ_さあ",
+   "set": {
+    "pos": "interj"
+   },
+   "why": "さあ is an interjection"
+  },
+  {
+   "id": "〜歳 / 〜才_さい",
+   "set": {
+    "exJA": "私は二十五歳です。",
+    "exKana": "わたしはにじゅうごさいです。",
+    "exEN": "I am 25 years old.",
+    "exTH": "ฉันอายุ 25 ปี"
+   },
+   "why": "二十歳 is read はたち, so the example never shows the さい reading"
+  },
+  {
+   "id": "散歩_さんぽ",
+   "set": {
+    "pos": "noun"
+   },
+   "why": "th is a noun (する-noun); pos should match other する-nouns like 結婚"
+  },
+  {
+   "id": "四_し",
+   "set": {
+    "exJA": "「一、二、三、四」と数えます。",
+    "exKana": "「いち、に、さん、し」とかぞえます。",
+    "exEN": "Count \"one, two, three, four.\"",
+    "exTH": "นับ \"หนึ่ง สอง สาม สี่\""
+   },
+   "why": "example used 四つ (よっつ), not the し reading of the headword"
+  },
+  {
+   "id": "じゃ_じゃ",
+   "set": {
+    "pos": "interj"
+   },
+   "why": "じゃ is an interjection/conjunction, not a noun"
+  },
+  {
+   "id": "じゃ / じゃあ_じゃ / じゃあ",
+   "set": {
+    "pos": "interj"
+   },
+   "why": "じゃあ is an interjection/conjunction, not a noun"
+  },
+  {
+   "id": "丈夫_じょうぶ",
+   "set": {
+    "pos": "adj"
+   },
+   "why": "丈夫 is a na-adjective, not a verb"
+  },
+  {
+   "id": "すぐに_すぐに",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "すぐに is an adverb"
+  },
+  {
+   "id": "少し_すこし",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "少し is an adverb"
+  },
+  {
+   "id": "掃除_そうじ",
+   "set": {
+    "pos": "noun"
+   },
+   "why": "th is a noun (する-noun); pos should be noun"
+  },
+  {
+   "id": "そう_そう",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "そう (so, like that) is an adverb"
+  },
+  {
+   "id": "大好き_だいすき",
+   "set": {
+    "pos": "adj"
+   },
+   "why": "大好き is a na-adjective, not a verb"
+  },
+  {
+   "id": "出す_だす",
+   "set": {
+    "exKana": "てがみをぽすとにだします。"
+   },
+   "why": "exKana has stray text リーダー"
+  },
+  {
+   "id": "小さい_ちいさい",
+   "set": {
+    "exJA": "小さいカバンを持っています。",
+    "exKana": "ちいさいかばんをもっています。"
+   },
+   "why": "example used 小さな (a different word), not 小さい"
+  },
+  {
+   "id": "近い_ちかい",
+   "set": {
+    "exTH": "บ้านของฉันอยู่ใกล้สถานีรถไฟ"
+   },
+   "why": "Thai 'ใกล้จาก' is ungrammatical"
+  },
+  {
+   "id": "違う_ちがう",
+   "set": {
+    "pos": "verb"
+   },
+   "why": "違う is a verb"
+  },
+  {
+   "id": "ちょうど_ちょうど",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "ちょうど is an adverb"
+  },
+  {
+   "id": "ちょっと_ちょっと",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "ちょっと is an adverb"
+  },
+  {
+   "id": "出来る_できる",
+   "set": {
+    "pos": "verb"
+   },
+   "why": "できる is a verb"
+  },
+  {
+   "id": "出口_でぐち",
+   "set": {
+    "exJA": "駅の出口はどこですか。",
+    "exKana": "えきのでぐちはどこですか。",
+    "exEN": "Where is the station exit?",
+    "exTH": "ทางออกของสถานีอยู่ที่ไหนครับ"
+   },
+   "why": "東口の出口 is redundant/unnatural (east exit's exit)"
+  },
+  {
+   "id": "では_では",
+   "set": {
+    "pos": "interj"
+   },
+   "why": "では (well then) is an interjection/conjunction, not a noun"
+  },
+  {
+   "id": "でも_でも",
+   "set": {
+    "exJA": "日本語は難しいです。でも、面白いです。",
+    "exKana": "にほんごはむずかしいです。でも、おもしろいです。",
+    "exEN": "Japanese is difficult. But it is interesting.",
+    "exTH": "ภาษาญี่ปุ่นยาก แต่ก็สนุกดีครับ"
+   },
+   "why": "が、でも doubles the conjunction; sentence-initial でも is the target use"
+  },
+  {
+   "id": "時々_ときどき",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "時々 is an adverb"
+  },
+  {
+   "id": "とても_とても",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "とても is an adverb"
+  },
+  {
+   "id": "どう_どう",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "どう is an adverb"
+  },
+  {
+   "id": "どうして_どうして",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "どうして is an adverb"
+  },
+  {
+   "id": "どうぞ_どうぞ",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "どうぞ is an adverb"
+  },
+  {
+   "id": "どうも_どうも",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "どうも is an adverb"
+  },
+  {
+   "id": "はい_はい",
+   "set": {
+    "pos": "interj"
+   },
+   "why": "はい is an interjection, not a noun"
+  },
+  {
+   "id": "葉書_はがき",
+   "set": {
+    "exJA": "友達に葉書を書きます。",
+    "exKana": "ともだちにはがきをかきます。",
+    "exEN": "Write a postcard to a friend.",
+    "exTH": "เขียนโปสการ์ดถึงเพื่อน"
+   },
+   "why": "example used 絵葉書 (picture postcard), a different compound"
+  },
+  {
+   "id": "始め_はじめ",
+   "set": {
+    "exJA": "授業の始めに先生が名前を呼びます。",
+    "exKana": "じゅぎょうのはじめにせんせいがなまえをよびます。",
+    "exEN": "At the start of class, the teacher calls the names.",
+    "exTH": "ตอนเริ่มชั่วโมงเรียน ครูจะเรียกชื่อ"
+   },
+   "why": "example used 初め, not the headword 始め"
+  },
+  {
+   "id": "初めて_はじめて",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "初めて is an adverb"
+  },
+  {
+   "id": "八月_はちがつ",
+   "set": {
+    "exTH": "เดือนสิงหาคมเป็นช่วงปิดเทอมฤดูร้อน"
+   },
+   "why": "Thai said August 'is a holiday day'; it is the summer vacation period"
+  },
+  {
+   "id": "鼻_はな",
+   "set": {
+    "exJA": "象は鼻が長いです。",
+    "exKana": "ぞうははながながいです。",
+    "exEN": "Elephants have long noses.",
+    "exTH": "ช้างมีจมูกยาว"
+   },
+   "why": "鼻が出ます is unnatural (should be 鼻水が出ます); use a plain 鼻 sentence"
+  },
+  {
+   "id": "春休み_はるやすみ",
+   "set": {
+    "exEN": "Go to Japan during spring break."
+   },
+   "why": "exEN dropped 'spring break'"
+  },
+  {
+   "id": "晩_ばん",
+   "set": {
+    "exJA": "朝から晩まで働きます。",
+    "exKana": "あさからばんまではたらきます。",
+    "exEN": "Work from morning till night.",
+    "exTH": "ทำงานตั้งแต่เช้าจนค่ำ"
+   },
+   "why": "example used 毎晩 (separate headword), not 晩"
+  },
+  {
+   "id": "番号_ばんごう",
+   "set": {
+    "exEN": "Please tell me your phone number."
+   },
+   "why": "ungrammatical English"
+  },
+  {
+   "id": "低い_ひくい",
+   "set": {
+    "exJA": "私は背が低いです。",
+    "exKana": "わたしはせがひくいです。",
+    "exEN": "I am short.",
+    "exTH": "ฉันตัวเตี้ย"
+   },
+   "why": "example did not use 低い (it used 高くない)"
+  },
+  {
+   "id": "人_ひと",
+   "set": {
+    "exJA": "あの人は田中さんです。",
+    "exKana": "あのひとはたなかさんです。",
+    "exEN": "That person is Mr. Tanaka.",
+    "exTH": "คนนั้นคือคุณทานากะ"
+   },
+   "why": "example used the counter 十人 (にん), not 人 (ひと)"
+  },
+  {
+   "id": "太い_ふとい",
+   "set": {
+    "th": "หนา / ใหญ่ (เส้น, แท่ง)"
+   },
+   "why": "อ้วน (fat person) is 太っている, not 太い; 太い = thick"
+  },
+  {
+   "id": "勉強_べんきょう",
+   "set": {
+    "pos": "noun"
+   },
+   "why": "headword is the noun 勉強 (Thai is a noun too); same as 練習 entry"
+  },
+  {
+   "id": "また_また",
+   "set": {
+    "pos": "adv",
+    "th": "อีก / อีกครั้ง"
+   },
+   "why": "また is an adverb; แล้วพบกันใหม่ is a set phrase, not the word's meaning"
+  },
+  {
+   "id": "まだ_まだ",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "まだ is an adverb"
+  },
+  {
+   "id": "耳_みみ",
+   "set": {
+    "exJA": "寒くて耳が痛いです。",
+    "exKana": "さむくてみみがいたいです。",
+    "exEN": "It is cold and my ears hurt.",
+    "exTH": "หนาวจนเจ็บหู"
+   },
+   "why": "耳をすまします after ので is unnatural (and 澄ます is beyond N4)"
+  },
+  {
+   "id": "もう_もう",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "もう is an adverb"
+  },
+  {
+   "id": "もしもし_もしもし",
+   "set": {
+    "pos": "interj"
+   },
+   "why": "もしもし is an interjection"
+  },
+  {
+   "id": "勿論_もちろん",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "もちろん is an adverb"
+  },
+  {
+   "id": "もっと_もっと",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "もっと is an adverb"
+  },
+  {
+   "id": "よく_よく",
+   "set": {
+    "pos": "adv"
+   },
+   "why": "よく is an adverb"
+  },
+  {
+   "id": "夜_よる",
+   "set": {
+    "exJA": "夜は星が綺麗に見えます。",
+    "exKana": "よるはほしがきれいにみえます。"
+   },
+   "why": "夜星が… lacks a particle; 夜は is natural"
+  },
+  {
+   "id": "立派_りっぱ",
+   "set": {
+    "pos": "adj"
+   },
+   "why": "立派 is a na-adjective (like 便利)"
+  },
+  {
+   "id": "れい_れい",
+   "set": {
+    "th": "ศูนย์ (0)"
+   },
+   "why": "ตัวอย่าง (例) is a different word (例 れい), not zero"
+  },
+  {
+   "id": "六_ろく",
+   "set": {
+    "exJA": "毎朝六時に起きます。",
+    "exKana": "まいあさろくじにおきます。",
+    "exEN": "I get up at 6:00 every morning.",
+    "exTH": "ตื่นนอนตอน 6 โมงเช้าทุกวัน"
+   },
+   "why": "example 六個 is read ろっこ, so it does not teach ろく"
+  },
+  {
+   "id": "私_わたし",
+   "set": {
+    "pos": "pron"
+   },
+   "why": "私 is a pronoun"
+  },
+  {
+   "id": "グラム_グラム",
+   "set": {
+    "exTH": "ขอเนื้อ 300 กรัมครับ"
+   },
+   "why": "お肉 is 'meat', not pork"
+  },
+  {
+   "id": "ストーブ_ストーブ",
+   "set": {
+    "th": "เครื่องทำความร้อน / ฮีตเตอร์"
+   },
+   "why": "เตาผิง is a fireplace (暖炉); ストーブ is a heater"
+  },
+  {
+   "id": "ナイフ_ナイフ",
+   "set": {
+    "exTH": "ใช้มีดหั่นแอปเปิ้ล"
+   },
+   "why": "切ります is 'cut', not 'peel' (ปอก)"
+  },
+  {
+   "id": "寄る_よる",
+   "set": {
+    "exKana": "かえりにこんびにによります。"
+   },
+   "why": "exKana dropped the particle に after コンビニ"
+  },
+  {
+   "id": "冷える_ひえる",
+   "set": {
+    "th": "เย็นลง / หนาวเย็น / เย็นเฉียบ"
+   },
+   "why": "เย็นชา (cold-hearted) is a sense of 冷たい, not 冷える"
+  },
+  {
+   "id": "直る_なおる",
+   "set": {
+    "th": "ซ่อมเสร็จ / ถูกแก้ไข / กลับมาใช้ได้ (อกรรม)",
+    "en_gloss": "to be fixed; be repaired; to be corrected; to be mended"
+   },
+   "why": "หาย / 'get better' is recovery from illness = 治る (separate headword)"
+  },
+  {
+   "id": "遠慮_えんりょ",
+   "set": {
+    "th": "ความเกรงใจ / เกรงใจ / งดเว้น"
+   },
+   "why": "ถ่อมตัว means humble (謙遜); 遠慮 = holding back / refraining"
+  },
+  {
+   "id": "裏_うら",
+   "set": {
+    "th": "ด้านหลัง / ข้างหลัง / ด้านกลับ"
+   },
+   "why": "ด้านใน (inside) is wrong; 裏 = back / reverse side"
+  },
+  {
+   "id": "案内_あんない",
+   "set": {
+    "th": "การนำทาง / การพาชม / การให้ข้อมูล"
+   },
+   "why": "การแนะนำ reads as introduce/recommend (紹介/勧める); 案内 = guiding, showing around, information"
+  },
+  {
+   "id": "特別_とくべつ",
+   "set": {
+    "pos": "adj"
+   },
+   "why": "na-adjective (example uses 特別な); consistent with 大事/必要 marked adj"
+  },
+  {
+   "id": "留守_るす",
+   "set": {
+    "th": "ไม่อยู่บ้าน / ไม่อยู่"
+   },
+   "why": "เฝ้าบ้าน (house-sitting) is 留守番, a different word"
+  },
+  {
+   "id": "以上_いじょう",
+   "set": {
+    "th": "ขึ้นไป / ตั้งแต่...ขึ้นไป / ข้างต้น"
+   },
+   "why": "以上 includes the number (18歳以上 = 18 and over); เกินกว่า means strictly more than"
+  },
+  {
+   "id": "以下_いか",
+   "set": {
+    "th": "ลงมา / ไม่เกิน / ต่อไปนี้"
+   },
+   "why": "以下 includes the number (100円以下 = 100 yen or less); ต่ำกว่า means strictly below"
+  },
+  {
+   "id": "丁寧_ていねい",
+   "set": {
+    "exEN": "Explain carefully.",
+    "exTH": "อธิบายอย่างละเอียด"
+   },
+   "why": "丁寧に説明する means explain carefully/in detail, not politely"
+  },
+  {
+   "id": "邪魔_じゃま",
+   "set": {
+    "exJA": "邪魔をしないでください。",
+    "exKana": "じゃまをしないでください。",
+    "exEN": "Please don't disturb me.",
+    "exTH": "อย่ามารบกวนนะ"
+   },
+   "why": "邪魔にならないでください is unnatural Japanese"
+  },
+  {
+   "id": "すっかり_すっかり",
+   "set": {
+    "th": "ทั้งหมด / โดยสิ้นเชิง / หมดสิ้น"
+   },
+   "why": "ลืมสิ้น is not a meaning of すっかり (it comes from the example 忘れる)"
+  },
+  {
+   "id": "動く_うごく",
+   "set": {
+    "exEN": "The machine doesn't work."
+   },
+   "why": "動かない here means 'not running/working' (matches exTH ไม่ทำงาน)"
+  },
+  {
+   "id": "踊る_おどる",
+   "set": {
+    "th": "เต้น / รำ"
+   },
+   "why": "typo: ร่ำ should be รำ"
+  },
+  {
+   "id": "折れる_おれる",
+   "set": {
+    "th": "หัก / ถูกพับ (อกรรม)"
+   },
+   "why": "หักเป็น is not natural Thai"
+  },
+  {
+   "id": "分かれる_わかれる",
+   "set": {
+    "th": "แยก / แบ่งออก (อกรรม)",
+    "en_gloss": "to split; to divide; to branch off; to be separated"
+   },
+   "why": "จากกัน / 'to part' (from a person) is 別れる, a separate headword"
+  },
+  {
+   "id": "入学する_にゅうがくする",
+   "set": {
+    "th": "เข้าเรียน / เข้าศึกษา"
+   },
+   "why": "สอบเข้า = take an entrance exam (受験), not 入学"
+  },
+  {
+   "id": "立てる_たてる",
+   "set": {
+    "th": "ตั้ง / ตั้งขึ้น / วาง(แผน) (สกรรม)"
+   },
+   "why": "ยืนขึ้น (to stand up oneself) is intransitive 立つ"
+  },
+  {
+   "id": "育てる_そだてる",
+   "set": {
+    "th": "เลี้ยงดู / ปลูก (ต้นไม้)"
+   },
+   "why": "ปลูกฝัง means instill; the needed second sense is growing plants"
+  },
+  {
+   "id": "足す_たす",
+   "set": {
+    "en_gloss": "to add; add; to add up"
+   },
+   "why": "'to plus' is not English"
+  },
+  {
+   "id": "首_くび",
+   "set": {
+    "th": "คอ"
+   },
+   "why": "'หัวคอ' is not a Thai word"
+  },
+  {
+   "id": "雲_くも",
+   "set": {
+    "th": "เมฆ"
+   },
+   "why": "'เมฆหมอก' means clouds and fog; 雲 is just cloud"
+  },
+  {
+   "id": "高校_こうこう",
+   "set": {
+    "exJA": "姉は高校の先生です。",
+    "exKana": "あねはこうこうのせんせいです。",
+    "exEN": "My older sister is a high school teacher.",
+    "exTH": "พี่สาวเป็นครูโรงเรียนมัธยมปลาย"
+   },
+   "why": "example used 高校生 (separate headword), not 高校"
+  },
+  {
+   "id": "新聞社_しんぶんしゃ",
+   "set": {
+    "exTH": "ทำงานที่บริษัทหนังสือพิมพ์"
+   },
+   "why": "สำนักพิมพ์ = publishing house, not newspaper company"
+  },
+  {
+   "id": "祖父_そふ",
+   "set": {
+    "exJA": "祖父は元気です。",
+    "exKana": "そふはげんきです。"
+   },
+   "why": "standalone statement about one's grandfather takes は, not が"
+  },
+  {
+   "id": "専門_せんもん",
+   "set": {
+    "th": "สาขาเฉพาะ / วิชาเอก",
+    "exJA": "大学の専門は経済です。",
+    "exKana": "だいがくのせんもんはけいざいです。",
+    "exEN": "My major at university is economics.",
+    "exTH": "วิชาเอกที่มหาวิทยาลัยคือเศรษฐศาสตร์"
+   },
+   "why": "main N4 sense is major/field; 専門の店 is unnatural (専門店); th lacked 'major'"
+  },
+  {
+   "id": "熱心_ねっしん",
+   "set": {
+    "pos": "adj"
+   },
+   "why": "熱心 is a na-adjective (熱心に/熱心な)"
+  },
+  {
+   "id": "乗り物_のりもの",
+   "set": {
+    "exJA": "子供は乗り物が好きです。",
+    "exKana": "こどもはのりものがすきです。",
+    "exEN": "Children like vehicles.",
+    "exTH": "เด็กๆ ชอบยานพาหนะ"
+   },
+   "why": "乗り物が便利です is unnatural"
+  },
+  {
+   "id": "文学_ぶんがく",
+   "set": {
+    "exJA": "大学で文学を勉強しています。",
+    "exKana": "だいがくでぶんがくをべんきょうしています。",
+    "exEN": "I study literature at university.",
+    "exTH": "เรียนวรรณกรรมที่มหาวิทยาลัย"
+   },
+   "why": "文学を読みます is unnatural; literature is studied/read as works"
+  },
+  {
+   "id": "最も_もっとも",
+   "set": {
+    "pos": "adv",
+    "en_gloss": "most; the most",
+    "exJA": "富士山は日本で最も高い山です。",
+    "exKana": "ふじさんはにほんでもっともたかいやまです。",
+    "exEN": "Mt. Fuji is the highest mountain in Japan.",
+    "exTH": "ภูเขาไฟฟูจิเป็นภูเขาที่สูงที่สุดในญี่ปุ่น"
+   },
+   "why": "最も is an adverb; 'extremely' is wrong; 最も好きです lacks a comparison set"
+  },
+  {
+   "id": "意志_いし",
+   "set": {
+    "exJA": "彼は意志が強いです。",
+    "exKana": "かれはいしがつよいです。",
+    "exEN": "He has a strong will.",
+    "exTH": "เขามีความตั้งใจแน่วแน่"
+   },
+   "why": "意志があります / 'Have will.' is unnatural"
+  },
+  {
+   "id": "間_あいだ",
+   "set": {
+    "exJA": "駅と銀行の間に郵便局があります。",
+    "exKana": "えきとぎんこうのあいだにゆうびんきょくがあります。",
+    "exEN": "There is a post office between the station and the bank.",
+    "exTH": "มีที่ทำการไปรษณีย์อยู่ระหว่างสถานีกับธนาคาร"
+   },
+   "why": "駅の間 is wrong: 間 needs two points (AとBの間)"
+  },
+  {
+   "id": "好調_こうちょう",
+   "set": {
+    "pos": "adj"
+   },
+   "why": "好調 is a na-adjective (好調な/好調です)"
+  },
+  {
+   "id": "時点_じてん",
+   "set": {
+    "exJA": "その時点では、まだ知りませんでした。",
+    "exKana": "そのじてんでは、まだしりませんでした。",
+    "exEN": "At that point, I didn't know yet.",
+    "exTH": "ณ ตอนนั้นยังไม่รู้"
+   },
+   "why": "その時点です is an incomplete, unnatural sentence"
+  },
+  {
+   "id": "おっしゃる_おっしゃる",
+   "set": {
+    "exJA": "先生がそうおっしゃいました。",
+    "exKana": "せんせいがそうおっしゃいました。",
+    "exEN": "The teacher said so (honorific).",
+    "exTH": "อาจารย์พูดอย่างนั้น (ยกย่อง)"
+   },
+   "why": "先生がおっしゃいます is incomplete (says what?)"
+  },
+  {
+   "id": "急_きゅう",
+   "set": {
+    "th": "กะทันหัน / ด่วน / ชัน (な形)"
+   },
+   "why": "th missed the main sense 'sudden' and 'steep' given in en_gloss"
+  },
+  {
+   "id": "約_やく",
+   "set": {
+    "pos": "prefix"
+   },
+   "why": "約 is a prefix before numbers (約百人), not an adverb"
+  },
+  {
+   "id": "すると_すると",
+   "set": {
+    "exJA": "ボタンを押しました。すると、ドアが開きました。",
+    "exKana": "ボタンをおしました。すると、ドアがあきました。",
+    "exEN": "I pressed the button. Then the door opened.",
+    "exTH": "กดปุ่ม แล้วประตูก็เปิด"
+   },
+   "why": "すると来ました lacks the preceding event すると follows"
+  },
+  {
+   "id": "または_または",
+   "set": {
+    "exJA": "黒または青のペンで書いてください。",
+    "exKana": "くろまたはあおのペンでかいてください。",
+    "exEN": "Please write with a black or blue pen.",
+    "exTH": "กรุณาเขียนด้วยปากกาสีดำหรือสีน้ำเงิน"
+   },
+   "why": "または別の方法です is a fragment and unnatural"
+  },
+  {
+   "id": "かつ_かつ",
+   "set": {
+    "exJA": "この車は安全かつ便利です。",
+    "exKana": "このくるまはあんぜんかつべんりです。",
+    "exEN": "This car is safe and convenient.",
+    "exTH": "รถคันนี้ทั้งปลอดภัยและสะดวก"
+   },
+   "why": "早くかつ安い is ungrammatical (adverb 早く + かつ); かつ joins na-adj/nouns like 安全かつ便利"
+  },
+  {
+   "id": "〜代_〜だい",
+   "set": {
+    "exJA": "電気代を払います。",
+    "exKana": "でんきだいをはらいます。",
+    "exEN": "I pay the electricity bill.",
+    "exTH": "จ่ายค่าไฟ"
+   },
+   "why": "食費の代 is wrong (食費 already means food cost; 〜代 attaches directly)"
+  },
+  {
+   "id": "〜以外_〜いがい",
+   "set": {
+    "exJA": "彼以外はみんな来ました。",
+    "exKana": "かれいがいはみんなきました。",
+    "exEN": "Everyone except him came.",
+    "exTH": "ทุกคนมา ยกเว้นเขา"
+   },
+   "why": "彼以外です is an unnatural fragment"
+  },
+  {
+   "id": "あんな_あんな",
+   "set": {
+    "exJA": "あんな大きい家に住みたいです。",
+    "exKana": "あんなおおきいいえにすみたいです。",
+    "exEN": "I want to live in a big house like that.",
+    "exTH": "อยากอยู่บ้านใหญ่แบบนั้น"
+   },
+   "why": "example used あんなに (adverb form), not あんな + noun"
+  },
+  {
+   "id": "致す_いたす",
+   "set": {
+    "th": "ทำ (รูปถ่อมตัวของ する)",
+    "exTH": "ฉันจะทำเอง (ถ่อมตัว)"
+   },
+   "why": "'รูปเบาเสียง' is wrong term (謙譲語 = รูปถ่อมตัว); exTH mixed ดิฉัน with ครับ"
+  },
+  {
+   "id": "頂く_いただく",
+   "set": {
+    "th": "รับ / กิน / ดื่ม (รูปถ่อมตัว)"
+   },
+   "why": "'รูปเบาเสียง' is wrong term for 謙譲語 (รูปถ่อมตัว)"
+  },
+  {
+   "id": "伺う_うかがう",
+   "set": {
+    "th": "ไปเยี่ยม / ถาม (รูปถ่อมตัวของ 行く・聞く)"
+   },
+   "why": "'รูปเบาเสียง' is wrong term for 謙譲語 (รูปถ่อมตัว)"
+  },
+  {
+   "id": "差し上げる_さしあげる",
+   "set": {
+    "th": "ให้ (รูปถ่อมตัวของ あげる)"
+   },
+   "why": "'รูปเบาเสียง' is wrong term for 謙譲語 (รูปถ่อมตัว)"
+  },
+  {
+   "id": "美しい_うつくしい",
+   "set": {
+    "exTH": "ภูเขาไฟฟูจิสวยงามมาก"
+   },
+   "why": "'ฟูจิซัง' is not how Thai refers to Mt. Fuji"
+  },
+  {
+   "id": "彼ら_かれら",
+   "set": {
+    "th": "พวกเขา"
+   },
+   "why": "彼ら covers mixed groups, not only men"
+  },
+  {
+   "id": "けれど_けれど",
+   "set": {
+    "pos": "particle"
+   },
+   "why": "けれど is a conjunctive particle, not an adverb"
+  },
+  {
+   "id": "再来月_さらいげつ",
+   "set": {
+    "th": "เดือนถัดจากเดือนหน้า (อีกสองเดือน)",
+    "exTH": "เดือนถัดจากเดือนหน้าจะไปญี่ปุ่น"
+   },
+   "why": "'เดือนหน้าหน้า' is not natural Thai"
+  },
+  {
+   "id": "再来週_さらいしゅう",
+   "set": {
+    "th": "สัปดาห์ถัดจากสัปดาห์หน้า",
+    "exTH": "สัปดาห์ถัดจากสัปดาห์หน้ามีสอบ"
+   },
+   "why": "'สัปดาห์หน้าหน้า' is not natural Thai"
+  },
+  {
+   "id": "産業_さんぎょう",
+   "set": {
+    "exJA": "この国の主な産業は自動車です。",
+    "exKana": "このくにのおもなさんぎょうはじどうしゃです。",
+    "exEN": "This country's main industry is automobiles.",
+    "exTH": "อุตสาหกรรมหลักของประเทศนี้คือรถยนต์"
+   },
+   "why": "この国の産業は自動車です is unnatural without 主な"
+  },
+  {
+   "id": "過ぎる_すぎる",
+   "set": {
+    "exJA": "約束の時間が過ぎました。",
+    "exKana": "やくそくのじかんがすぎました。",
+    "exEN": "The appointed time has passed.",
+    "exTH": "เลยเวลานัดแล้ว"
+   },
+   "why": "example used the 〜過ぎる suffix (食べ過ぎる), not the verb 過ぎる 'to pass'"
+  },
+  {
+   "id": "そんな_そんな",
+   "set": {
+    "exJA": "そんなことはありません。",
+    "exKana": "そんなことはありません。",
+    "exEN": "That's not so. / Not at all.",
+    "exTH": "ไม่ใช่อย่างนั้นหรอก"
+   },
+   "why": "Example used そんなに (a separate headword), not そんな + noun"
+  },
+  {
+   "id": "楽しみ_たのしみ",
+   "set": {
+    "th": "ความสนุก / สิ่งที่ตั้งตารอ"
+   },
+   "why": "ความคาดหวัง means 'expectation/hope' (期待), not the looking-forward sense"
+  },
+  {
+   "id": "大体_だいたい",
+   "set": {
+    "exTH": "เกือบจะเหมือนกัน / พอๆ กัน"
+   },
+   "why": "'โดยประมาณเหมือนกัน' is unnatural Thai"
+  },
+  {
+   "id": "力_ちから",
+   "set": {
+    "exEN": "I pull hard."
+   },
+   "why": "'pull with strength' is unnatural English for 力を入れて"
+  },
+  {
+   "id": "点_てん",
+   "set": {
+    "exTH": "ได้ 100 คะแนนในการสอบ"
+   },
+   "why": "'ในสอบ' is ungrammatical Thai"
+  },
+  {
+   "id": "通る_とおる",
+   "set": {
+    "exEN": "Please take this road."
+   },
+   "why": "'go through this road' is unnatural English"
+  },
+  {
+   "id": "入学_にゅうがく",
+   "set": {
+    "th": "การเข้าเรียน / การเข้าศึกษา"
+   },
+   "why": "สอบเข้า means 'take an entrance exam' (受験), not 入学"
+  },
+  {
+   "id": "はず_はず",
+   "set": {
+    "exEN": "He should be arriving any minute now.",
+    "exTH": "เขาน่าจะใกล้ถึงแล้ว"
+   },
+   "why": "もう着くはず = should arrive soon; 'should have arrived' would be 着いたはず"
+  },
+  {
+   "id": "林_はやし",
+   "set": {
+    "th": "ป่าละเมาะ / ป่าเล็กๆ / ดง"
+   },
+   "why": "'ไม้ป่า' means forest timber, not woods/grove"
+  },
+  {
+   "id": "引き出す_ひきだす",
+   "set": {
+    "exJA": "銀行でお金を引き出します。",
+    "exKana": "ぎんこうでおかねをひきだします。",
+    "exEN": "I withdraw money at the bank.",
+    "exTH": "ถอนเงินที่ธนาคาร"
+   },
+   "why": "引き出しから…を引き出す is redundant/unnatural (normally 取り出す); withdraw-money is the key N4 use"
+  },
+  {
+   "id": "ワープロ_わーぷろ",
+   "set": {
+    "exTH": "ทำเอกสารด้วยเวิร์ดโพรเซสเซอร์"
+   },
+   "why": "เครื่องพิมพ์ means printer"
+  },
+  {
+   "id": "〜ございます_〜ございます",
+   "set": {
+    "exJA": "トイレは二階にございます。",
+    "exKana": "トイレはにかいにございます。",
+    "exEN": "The restroom is on the second floor (very polite).",
+    "exTH": "ห้องน้ำอยู่ชั้นสองค่ะ (สุภาพมาก)"
+   },
+   "why": "ありがとうございます does not show the taught meaning 'there is / to be'"
+  },
+  {
+   "id": "〜月_〜つき",
+   "set": {
+    "exJA": "ひと月に二回、映画を見ます。",
+    "exKana": "ひとつきににかい、えいがをみます。",
+    "exEN": "I watch movies twice a month.",
+    "exTH": "ดูหนังเดือนละสองครั้ง"
+   },
+   "why": "五月 is read ごがつ (〜がつ), not 〜つき; example did not use this word"
+  },
+  {
+   "id": "マッチ_マッチ",
+   "set": {
+    "kana": "マッチ"
+   },
+   "why": "romaji was \"machi\"; regenerated as matchi"
+  },
+  {
+   "id": "背_せい",
+   "set": {
+    "kana": "せい / せ"
+   },
+   "why": "背 is read せい or せ (the example uses せ)"
+  },
+  {
+   "id": "ああ_ああ",
+   "set": {
+    "romaji": "aa"
+   },
+   "why": "ん before a vowel or y needs an apostrophe (konya would read こにゃ)"
+  },
+  {
+   "id": "金曜日_きんようび",
+   "set": {
+    "romaji": "kin'youbi"
+   },
+   "why": "ん before a vowel or y needs an apostrophe (konya would read こにゃ)"
+  },
+  {
+   "id": "原因_げんいん",
+   "set": {
+    "romaji": "gen'in"
+   },
+   "why": "ん before a vowel or y needs an apostrophe (konya would read こにゃ)"
+  },
+  {
+   "id": "翻訳_ほんやく",
+   "set": {
+    "romaji": "hon'yaku"
+   },
+   "why": "ん before a vowel or y needs an apostrophe (konya would read こにゃ)"
+  },
+  {
+   "id": "今夜_こんや",
+   "set": {
+    "romaji": "kon'ya"
+   },
+   "why": "ん before a vowel or y needs an apostrophe (konya would read こにゃ)"
+  },
+  {
+   "id": "店員_てんいん",
+   "set": {
+    "romaji": "ten'in"
+   },
+   "why": "ん before a vowel or y needs an apostrophe (konya would read こにゃ)"
+  },
+  {
+   "id": "かかる_かかる",
+   "set": {
+    "exJA": "ここから東京まで一時間かかります。"
+   },
+   "why": "number written to match the reading"
+  },
+  {
+   "id": "クラス_クラス",
+   "set": {
+    "exJA": "私のクラスには三十人の学生がいます。"
+   },
+   "why": "number written to match the reading"
+  },
+  {
+   "id": "米_こめ",
+   "set": {
+    "exKana": "こめをじゅっきろかいました。",
+    "exRomaji": "kome o jukkiro kaimashita."
+   },
+   "why": "十キロ is じゅっキロ; romaji had \"/ kiromeetoru\""
+  },
+  {
+   "id": "一月_いちがつ",
+   "set": {
+    "exRomaji": "ichigatsu tsuitachi wa oshougatsu desu."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "五日_いつか",
+   "set": {
+    "exRomaji": "gogatsu itsuka wa kodomo no hi desu."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "こっち_こっち",
+   "set": {
+    "exRomaji": "hayaku, kotchi ni kite!"
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "そっち_そっち",
+   "set": {
+    "exRomaji": "sotchi wa abunai yo."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "一日_ついたち",
+   "set": {
+    "exRomaji": "maitsuki tsuitachi ni jinja e ikimasu."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "半_はん",
+   "set": {
+    "exRomaji": "nijihan ni tomodachi to aimasu."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "暇_ひま",
+   "set": {
+    "exRomaji": "hima na toki ni hon o yomimasu."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "続く_つづく",
+   "set": {
+    "exRomaji": "ame ga mikkakan tsuzukimashita."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "神社_じんじゃ",
+   "set": {
+    "exRomaji": "jinja ni omairi shimashita."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "特別_とくべつ",
+   "set": {
+    "exRomaji": "kyou wa tokubetsu na hi desu."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "引き出し_ひきだし",
+   "set": {
+    "exRomaji": "hikidashi ni kagi o iremasu."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "代わり_かわり",
+   "set": {
+    "exRomaji": "watashi no kawari ni itte kudasai."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "参る_まいる",
+   "set": {
+    "exRomaji": "asu mairimasu."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "押し入れ_おしいれ",
+   "set": {
+    "exRomaji": "futon o oshiire ni iremasu."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "すり_すり",
+   "set": {
+    "exRomaji": "eki de suri ni aimashita."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "世界_せかい",
+   "set": {
+    "exRomaji": "sekaijuu o ryokou shitai desu."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "駄目_だめ",
+   "set": {
+    "exRomaji": "koko de shashin o toru no wa dame desu."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "髭_ひげ",
+   "set": {
+    "exRomaji": "chichi wa hige o hayashite imasu."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "サンドイッチ_さんどいっち",
+   "set": {
+    "exRomaji": "asagohan ni sandoitchi o tabemasu."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "スーツケース_すーつけーす",
+   "set": {
+    "exRomaji": "suutsukeesu ni nimotsu o iremasu."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "〜君_〜くん",
+   "set": {
+    "exRomaji": "tanaka-kun wa genki desu."
+   },
+   "why": "word spacing in example romaji"
+  },
+  {
+   "id": "半_はん",
+   "set": {
+    "exKana": "にじはんにともだちとあいます。",
+    "exRomaji": "nijihan ni tomodachi to aimasu."
+   },
+   "why": "exKana said に where the sentence has と"
+  },
+  {
+   "id": "スーツケース_すーつけーす",
+   "set": {
+    "exKana": "すーつけーすににもつをいれます。",
+    "exRomaji": "suutsukeesu ni nimotsu o iremasu."
+   },
+   "why": "exKana dropped the particle に"
+  }
+ ],
+ "remove": [
+  {
+   "id": "〜歳 / 〜才_さい",
+   "keep": "〜歳_〜さい",
+   "why": "same word"
+  },
+  {
+   "id": "〜半_〜はん",
+   "keep": "半_はん",
+   "why": "same word"
+  },
+  {
+   "id": "いろいろ_いろいろ",
+   "keep": "色々_いろいろ",
+   "why": "same word"
+  },
+  {
+   "id": "御_お",
+   "keep": "お〜 / 御〜_お",
+   "why": "same word"
+  },
+  {
+   "id": "掛ける_かける",
+   "keep": "かける_かける",
+   "why": "same word"
+  },
+  {
+   "id": "冠る_かぶる",
+   "keep": "被る_かぶる",
+   "why": "same word"
+  },
+  {
+   "id": "下さい_ください",
+   "keep": "ください_ください",
+   "why": "same word"
+  },
+  {
+   "id": "さ来年_さらいねん",
+   "keep": "再来年_さらいねん",
+   "why": "same word"
+  },
+  {
+   "id": "醬油_しょうゆ",
+   "keep": "醤油_しょうゆ",
+   "why": "same word"
+  },
+  {
+   "id": "しょうゆ_しょうゆ",
+   "keep": "醤油_しょうゆ",
+   "why": "same word"
+  },
+  {
+   "id": "〜以内_〜いない",
+   "keep": "以内_いない",
+   "why": "same word"
+  },
+  {
+   "id": "〜以上_〜いじょう",
+   "keep": "以上_いじょう",
+   "why": "same word"
+  },
+  {
+   "id": "〜以下_〜いか",
+   "keep": "以下_いか",
+   "why": "same word"
+  },
+  {
+   "id": "〜以外_〜いがい",
+   "keep": "以外_いがい",
+   "why": "same word"
+  },
+  {
+   "id": "為_ため",
+   "keep": "ため_ため",
+   "why": "same word"
+  },
+  {
+   "id": "経験する_けいけんする",
+   "keep": "経験_けいけん",
+   "why": "same word"
+  },
+  {
+   "id": "相談する_そうだんする",
+   "keep": "相談_そうだん",
+   "why": "same word"
+  },
+  {
+   "id": "入学する_にゅうがくする",
+   "keep": "入学_にゅうがく",
+   "why": "same word"
+  },
+  {
+   "id": "入院する_にゅういんする",
+   "keep": "入院_にゅういん",
+   "why": "same word"
+  },
+  {
+   "id": "退院する_たいいんする",
+   "keep": "退院_たいいん",
+   "why": "same word"
+  },
+  {
+   "id": "招待する_しょうたいする",
+   "keep": "招待_しょうたい",
+   "why": "same word"
+  },
+  {
+   "id": "けがする_けがする",
+   "keep": "怪我_けが",
+   "why": "same word"
+  },
+  {
+   "id": "いい_いい",
+   "keep": "良い_いい / よい",
+   "why": "same word"
+  },
+  {
+   "id": "れい_れい",
+   "keep": "ゼロ / 零_ぜろ / れい",
+   "why": "same word"
+  },
+  {
+   "id": "ゼロ_ゼロ",
+   "keep": "ゼロ / 零_ぜろ / れい",
+   "why": "same word"
+  },
+  {
+   "id": "キロ / キログラム_キロ / キログラム",
+   "keep": "キロ_キロ",
+   "why": "same word"
+  },
+  {
+   "id": "キロ / キロメートル_キロ / キロメートル",
+   "keep": "キロ_キロ",
+   "why": "same word"
+  },
+  {
+   "id": "エレベータ_エレベータ",
+   "keep": "エレベーター_エレベーター",
+   "why": "same word"
+  },
+  {
+   "id": "パーテイー_パーテイー",
+   "keep": "パーティー_パーティー",
+   "why": "same word"
+  },
+  {
+   "id": "真直ぐに_まっすぐに",
+   "keep": "まっすぐ_まっすぐ",
+   "why": "same word"
+  },
+  {
+   "id": "やっぱり_やっぱり",
+   "keep": "やはり_やはり",
+   "why": "same word"
+  },
+  {
+   "id": "うち_うち",
+   "keep": "内_うち",
+   "why": "same word"
+  },
+  {
+   "id": "背 / 背丈_せ",
+   "keep": "背_せい",
+   "why": "same word"
+  },
+  {
+   "id": "〜倍_〜ばい",
+   "keep": "倍_ばい",
+   "why": "same word"
+  },
+  {
+   "id": "高等学校_こうとうがっこう",
+   "keep": "高校_こうこう",
+   "why": "same word"
+  },
+  {
+   "id": "点ける_つける",
+   "keep": "付ける_つける",
+   "why": "same word"
+  },
+  {
+   "id": "出ます_でます",
+   "keep": "出る_でる",
+   "why": "same word"
+  },
+  {
+   "id": "じゃ_じゃ",
+   "keep": "じゃ / じゃあ_じゃ / じゃあ",
+   "why": "same word"
+  },
+  {
+   "id": "お皿_おさら",
+   "keep": "皿_さら",
+   "why": "same word"
+  },
+  {
+   "id": "お肉_おにく",
+   "keep": "肉_にく",
+   "why": "same word"
+  },
+  {
+   "id": "お水_おみず",
+   "keep": "水_みず",
+   "why": "same word"
+  },
+  {
+   "id": "〜時間_〜じかん",
+   "keep": "時間_じかん",
+   "why": "same word"
+  }
+ ]
+}

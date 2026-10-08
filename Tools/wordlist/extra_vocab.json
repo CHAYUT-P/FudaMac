@@ -34,23 +34,6 @@
  },
  {
   "level": "n5",
-  "kanji": "いい",
-  "kana": "いい",
-  "pos": "adj",
-  "th": "ดี / ใช้ได้",
-  "en": "good; nice; fine (also よい)",
-  "thAlt": [
-   "โอเค",
-   "ดีแล้ว"
-  ],
-  "exJA": "今日はいい天気ですね。",
-  "exKana": "きょうはいいてんきですね。",
-  "exEN": "Nice weather today, isn't it?",
-  "exTH": "วันนี้อากาศดีนะ",
-  "sub": "describe.quality"
- },
- {
-  "level": "n5",
   "kanji": "いかが",
   "kana": "いかが",
   "pos": "adv",

@@ -28,20 +28,6 @@
   "exTH": "ไฟจราจรเปลี่ยนเป็นสีแดงแล้ว"
  },
  {
-  "id": "いい_いい",
-  "level": "n5",
-  "kanji": "いい",
-  "kana": "いい",
-  "romaji": "ii",
-  "pos": "adj",
-  "th": "ดี / ใช้ได้",
-  "exJA": "今日はいい天気ですね。",
-  "exKana": "きょうはいいてんきですね。",
-  "exRomaji": "kyou wa ii tenki desu ne.",
-  "exEN": "Nice weather today, isn't it?",
-  "exTH": "วันนี้อากาศดีนะ"
- },
- {
   "id": "いかが_いかが",
   "level": "n5",
   "kanji": "いかが",

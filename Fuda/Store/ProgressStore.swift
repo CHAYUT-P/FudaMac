@@ -112,8 +112,31 @@ final class ProgressStore {
             if let s = try? dec.decode(Snapshot.self, from: data) {
                 states = s.states; starred = s.starred; quizMisses = s.quizMisses; days = s.days; settings = s.settings
                 talkBest = s.talkBest; talkSeen = s.talkSeen; listMarks = s.listMarks
+                if followRenamedWords() { save() }
             }
         }
+    }
+
+    /// Words merged or re-keyed in the data (Resources/vocab-renames.json): move their
+    /// saved progress to the new id. Where both exist, the new id's record wins.
+    private func followRenamedWords() -> Bool {
+        guard let url = Bundle.main.url(forResource: "vocab-renames", withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let renames = try? JSONDecoder().decode([String: String].self, from: data) else { return false }
+        func move<V>(_ dict: inout [String: V], _ from: String, _ to: String) -> Bool {
+            guard let v = dict.removeValue(forKey: from) else { return false }
+            if dict[to] == nil { dict[to] = v }
+            return true
+        }
+        var changed = false
+        for (old, new) in renames {
+            changed = move(&states, "v:" + old, "v:" + new) || changed
+            changed = move(&quizMisses, "v:" + old, "v:" + new) || changed
+            changed = move(&listMarks, old, new) || changed
+            changed = move(&listMarks, "jp:" + old, "jp:" + new) || changed
+            if starred.remove("v:" + old) != nil { starred.insert("v:" + new); changed = true }
+        }
+        return changed
     }
 
     // MARK: Queries
