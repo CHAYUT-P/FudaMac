@@ -104,7 +104,7 @@ enum MacShots {
             func open(_ sub: String, _ mode: WordListState.Mode) {
                 router.section = .words
                 wl.expanded = [String(sub.split(separator: ".")[0])]
-                wl.selection = .sub(sub); wl.mode = mode; wl.shuffled = false; wl.restart()
+                wl.selection = .sub(sub); wl.mode = mode; wl.restart()
             }
             steps = [
                 ("w-1-read", { open("food.seasoning", .list) }),
@@ -124,6 +124,7 @@ enum MacShots {
                     wl.checked = true
                 }),
                 ("w-4-category", { router.section = .words; wl.expanded = ["action"]; wl.selection = .category("action"); wl.mode = .list; wl.restart() }),
+                ("w-5-category-typing", { router.section = .words; wl.expanded = ["food"]; wl.selection = .category("food"); wl.mode = .test; wl.restart() }),
             ]
         }
         if let n = d.string(forKey: "FudaShotsLesson").flatMap(Int.init) {

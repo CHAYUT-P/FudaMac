@@ -12,11 +12,14 @@ final class WordListState {
     var expanded: Set<String> = ["food"]
     var mode: Mode = .list
     var level: LevelFilter = .both
-    var shuffled = false
+    /// Typing mode only: random order every time (remembered between launches).
+    var randomOrder: Bool = UserDefaults.standard.object(forKey: "wordList.randomOrder") as? Bool ?? true {
+        didSet { UserDefaults.standard.set(randomOrder, forKey: "wordList.randomOrder") }
+    }
     var showKana = true
     var showRomaji = true
 
-    var order: [String] = []            // ids in the order shown (set when the list is opened)
+    var order: [String] = []            // typing mode: shuffled ids (fresh on every start)
     var onlyIDs: Set<String>? = nil     // "retry wrong": just these words
     var answers: [String: String] = [:] // typed meanings
     var checked = false
@@ -47,7 +50,8 @@ struct MacWordListView: View {
         .onAppear { prepareOrder() }
         .onChange(of: state.selection) { _, _ in prepareOrder() }
         .onChange(of: state.level) { _, _ in prepareOrder() }
-        .onChange(of: state.shuffled) { _, _ in state.order = []; prepareOrder() }
+        .onChange(of: state.mode) { _, _ in prepareOrder() }
+        .onChange(of: state.randomOrder) { _, _ in prepareOrder() }
         .onChange(of: focus) { _, f in router.typing = f != nil }
         .onDisappear { router.typing = false }
     }
@@ -69,28 +73,27 @@ struct MacWordListView: View {
         }
     }
 
-    /// Current list in display order: N5 block then N4 block (shuffled within each when asked).
+    /// Words in display order. Reading: by subcategory, N5 then N4.
+    /// Typing with Random on: the shuffled order, so position gives nothing away.
     private func words() -> [ListWord] {
         let base = baseWords().filter { state.onlyIDs?.contains($0.id) ?? true }
-        let pos = Dictionary(uniqueKeysWithValues: state.order.enumerated().map { ($1, $0) })
         let subRank = Dictionary(uniqueKeysWithValues: wl.categories.flatMap(\.subs).enumerated().map { ($1.id, $0) })
         let byCategory: Bool = { if case .category = state.selection { return true }; return false }()
-        return base.enumerated().sorted { a, b in
+        let ordered = base.enumerated().sorted { a, b in
             if byCategory, a.element.meta.sub != b.element.meta.sub {
                 return (subRank[a.element.meta.sub] ?? 0) < (subRank[b.element.meta.sub] ?? 0)
             }
             if a.element.level != b.element.level { return a.element.level == .n5 }
-            return (pos[a.element.id] ?? a.offset) < (pos[b.element.id] ?? b.offset)
+            return a.offset < b.offset
         }.map(\.element)
+        guard state.mode == .test, state.randomOrder, !state.order.isEmpty else { return ordered }
+        let pos = Dictionary(uniqueKeysWithValues: state.order.enumerated().map { ($1, $0) })
+        return ordered.sorted { (pos[$0.id] ?? .max) < (pos[$1.id] ?? .max) }
     }
 
+    /// A fresh shuffle for typing mode (on opening a list, Again, Retry, Random).
     private func prepareOrder() {
-        let base = baseWords()
-        if state.shuffled {
-            state.order = (base.filter { $0.level == .n5 }.shuffled() + base.filter { $0.level == .n4 }.shuffled()).map(\.id)
-        } else {
-            state.order = base.map(\.id)
-        }
+        state.order = state.mode == .test && state.randomOrder ? baseWords().map(\.id).shuffled() : []
     }
 
     private func select(_ s: WordListState.Selection) {
@@ -114,7 +117,6 @@ struct MacWordListView: View {
                 if let c = wl.category(of: s.id) { state.expanded.insert(c.id) }
                 state.selection = .sub(s.id)
                 state.mode = .test
-                state.shuffled = true
                 state.restart()
                 prepareOrder()
                 DispatchQueue.main.async { focus = words().first?.id }
@@ -263,7 +265,9 @@ struct MacWordListView: View {
         return VStack(spacing: 0) {
             VStack(alignment: .leading, spacing: 14) {
                 PaneHeader(kicker: t.kicker, title: t.title,
-                           subtitle: "\(t.sub)  ·  \(ws.count) words (N5 \(n5.count) · N4 \(n4.count))  ·  รู้แล้ว \(known)/\(ws.count)") {
+                           subtitle: state.mode == .test
+                               ? "\(t.sub)  ·  \(ws.count) words  ·  รู้แล้ว \(known)/\(ws.count)"
+                               : "\(t.sub)  ·  \(ws.count) words (N5 \(n5.count) · N4 \(n4.count))  ·  รู้แล้ว \(known)/\(ws.count)") {
                     Button(action: randomPick) { Label("Random", systemImage: "die.face.5") }
                         .buttonStyle(InkButtonStyle(kind: .akaneOutline, height: 40)).frame(width: 120)
                 }
@@ -274,7 +278,9 @@ struct MacWordListView: View {
                     Spacer()
                     ToggleSquare(text: "かな", on: $state.showKana, label: "Show hiragana")
                     ToggleSquare(text: "Romaji", on: $state.showRomaji, label: "Show romaji")
-                    ToggleSquare(text: "Shuffle", on: $state.shuffled, label: "Shuffle order")
+                    if state.mode == .test {
+                        ToggleSquare(text: "สุ่ม Random", on: $state.randomOrder, label: "Random order")
+                    }
                 }
                 if state.mode == .test {
                     Text("พิมพ์ความหมายเป็นภาษาไทยหรืออังกฤษ แล้วกด ⌘↩ ตรวจ · Return ไปคำถัดไป · Type each meaning in Thai or English, Return moves to the next word.")
@@ -291,16 +297,22 @@ struct MacWordListView: View {
                             Text("ไม่มีคำในหมวดนี้สำหรับระดับที่เลือก · No words at this level here.")
                                 .font(Typo.ui(13)).foregroundStyle(Ink.soft).padding(30)
                         }
+                        let numbered = Dictionary(uniqueKeysWithValues: ws.enumerated().map { ($1.id, $0 + 1) })
                         ForEach(sections(ws), id: \.id) { sec in
-                            sectionHeader(sec)
+                            if !sec.tag.isEmpty { sectionHeader(sec) }
                             ForEach(sec.words, id: \.id) { w in
-                                row(w, (ws.firstIndex(of: w) ?? 0) + 1, next: nextID(after: w, in: ws), tagLevel: sec.tagLevel).id(w.id)
+                                row(w, numbered[w.id] ?? 0, next: nextID(after: w, in: ws), tagLevel: sec.tagLevel)
+                                    .id("\(w.id)#\(numbered[w.id] ?? 0)")
                             }
                         }
                     }
                     .padding(.horizontal, 32).padding(.bottom, 24)
                 }
-                .onChange(of: focus) { _, f in if let f { withAnimation(.easeOut(duration: 0.15)) { proxy.scrollTo(f, anchor: .center) } } }
+                .onChange(of: focus) { _, f in
+                    if let f, let n = ws.firstIndex(where: { $0.id == f }) {
+                        withAnimation(.easeOut(duration: 0.15)) { proxy.scrollTo("\(f)#\(n + 1)", anchor: .center) }
+                    }
+                }
             }
             if state.mode == .test { footer(ws) }
         }
@@ -336,6 +348,8 @@ struct MacWordListView: View {
 
     /// A subcategory: N5 block then N4 block. A whole category: one block per subcategory.
     private func sections(_ ws: [ListWord]) -> [Section] {
+        // Typing: one plain list — no level or subcategory headers to hint at the answer.
+        if state.mode == .test { return [Section(id: "all", tag: "", tagIsLevel: true, note: "", words: ws)] }
         if case .category = state.selection {
             var out: [Section] = []
             for s in wl.categories.flatMap(\.subs) {
