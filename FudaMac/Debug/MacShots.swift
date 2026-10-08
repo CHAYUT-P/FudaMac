@@ -98,6 +98,34 @@ enum MacShots {
         ]
         let only = d.string(forKey: "FudaShotsSet")
         if only == "tb" { steps = tb } else if only == nil { steps += tb }
+        if only == "words" {
+            // 語 Word list: read mode, a typed test with mixed answers, then a whole category.
+            let wl = router.wordList
+            func open(_ sub: String, _ mode: WordListState.Mode) {
+                router.section = .words
+                wl.expanded = [String(sub.split(separator: ".")[0])]
+                wl.selection = .sub(sub); wl.mode = mode; wl.shuffled = false; wl.restart()
+            }
+            steps = [
+                ("w-1-read", { open("food.seasoning", .list) }),
+                ("w-2-typing", {
+                    open("food.drink", .test)
+                    let ws = WordList.shared.words(sub: "food.drink")
+                    let typed = ["เหล้า", "tea", "", "milk", "coffe", "น้ำร้อน", "beer"]
+                    for (w, t) in zip(ws, typed) where !t.isEmpty { wl.answers[w.id] = t }
+                }),
+                ("w-3-checked", {
+                    for w in WordList.shared.words(sub: "food.drink") {
+                        let ok = MeaningCheck.isCorrect(wl.answers[w.id] ?? "", w)
+                        wl.results[w.id] = ok
+                        store.recordList(w.id, correct: ok)
+                        print("CHECK", w.word, "|", wl.answers[w.id] ?? "", "→", ok)
+                    }
+                    wl.checked = true
+                }),
+                ("w-4-category", { router.section = .words; wl.expanded = ["action"]; wl.selection = .category("action"); wl.mode = .list; wl.restart() }),
+            ]
+        }
         if let n = d.string(forKey: "FudaShotsLesson").flatMap(Int.init) {
             // One lesson, every textbook step (for reviewing authored lessons).
             steps = LessonStep.steps(for: n).enumerated().map { i, st in

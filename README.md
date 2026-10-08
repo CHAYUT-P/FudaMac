@@ -56,6 +56,7 @@ depth (examples, explanations, beats, drills, quiz size).
 |---|---|
 | 今 Today | Continue the course, reviews due, today's conversation / story / essential |
 | 道 Course | The 33 lessons above |
+| 語 Word List | All N5 + N4 words (1,423) as lists by theme — 20 categories, 79 subcategories (e.g. 食べ物 → 調味料 seasonings, 食の動詞 eating verbs). Kanji, hiragana and romaji side by side, N5 first then N4. Read the list, or type every meaning in Thai or English and check (⌘↩); **Random** (⌘R) opens the subcategory with the most words you don't know yet |
 | 札 Decks · 練 Practice | 1,373 words, 284 kanji, 185 grammar points and kana as flashcards (SM-2 scheduling) and quizzes |
 | 話 Conversations | 17 real-life scenes (konbini, station, clinic, …) to read with notes or role-play |
 | 読 Stories | 17 graded stories, horizontal or vertical (縦書き), read aloud, comprehension check |
@@ -71,6 +72,23 @@ Keyboard: Space next / flip, 1–4 answer or grade, ← → back / next, P play 
 K pause the video, ⌘1–9 sections, ⌘K search, ⌥1–9 lesson steps, Esc back.
 
 ![Drills](docs/screenshots/drills.png)
+
+## Word list
+
+`Tools/wordlist/` is the source: `taxonomy.json` (categories), `assignments.json`
+(every word → subcategory, English gloss, extra Thai answers) and `extra_vocab.json`
+(words the Tone export lacked). Build after editing:
+
+```bash
+python3 Tools/wordlist/build_wordlist.py                       # writes Fuda/Resources/wordlist.json + vocab-extra.json
+python3 Tools/wordlist/build_wordlist.py --reference DIR       # also check coverage (DIR has n5.csv, n4.csv)
+```
+
+Coverage was checked against the tanos.co.uk JLPT lists (the usual reference since
+the JLPT stopped publishing lists): 72 missing words were added (犬, 水, 肉, 猫, 冬,
+出る, 教える, 気, 火, 市 …); what remains are spelling variants (朝御飯 ↔ 朝ご飯).
+Duplicate spellings in the source (しょうゆ / 醬油 / 醤油, 入院 / 入院する) show as one
+entry with the other forms listed under it.
 
 ## Layout
 

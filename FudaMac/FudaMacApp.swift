@@ -35,7 +35,7 @@ struct FudaMacApp: App {
             CommandMenu("Go") {
                 ForEach(MacSection.allCases) { s in
                     Button(s.title) { router.section = s }
-                        .keyboardShortcut(s.shortcut, modifiers: .command)
+                        .keyboardShortcut(s.shortcut.map { KeyboardShortcut($0, modifiers: .command) })
                 }
             }
             CommandGroup(after: .textEditing) {
@@ -56,30 +56,32 @@ struct FudaMacApp: App {
 // MARK: - Navigation
 
 enum MacSection: String, CaseIterable, Identifiable {
-    case today, course, decks, practice, talk, read, essentials, dictionary, progress
+    case today, course, words, decks, practice, talk, read, essentials, dictionary, progress
     var id: String { rawValue }
     var glyph: String {
         switch self {
-        case .today: "今"; case .course: "道"; case .decks: "札"; case .practice: "練"; case .talk: "話"
+        case .today: "今"; case .course: "道"; case .words: "語"; case .decks: "札"; case .practice: "練"; case .talk: "話"
         case .read: "読"; case .essentials: "基"; case .dictionary: "辞"; case .progress: "績"
         }
     }
     var title: String {
         switch self {
-        case .today: "Today"; case .course: "Course"; case .decks: "Decks"; case .practice: "Practice"
+        case .today: "Today"; case .course: "Course"; case .words: "Word List"; case .decks: "Decks"; case .practice: "Practice"
         case .talk: "Conversations"; case .read: "Stories"; case .essentials: "Essentials"
         case .dictionary: "Dictionary"; case .progress: "Progress"
         }
     }
     var group: String {
         switch self {
-        case .today, .course, .decks, .practice: "STUDY"
+        case .today, .course, .words, .decks, .practice: "STUDY"
         case .talk, .read: "LISTEN & READ"
         case .essentials, .dictionary, .progress: "REFERENCE"
         }
     }
-    var shortcut: KeyEquivalent {
-        KeyEquivalent(Character(String(MacSection.allCases.firstIndex(of: self)! + 1)))
+    /// ⌘1–⌘9 for the first nine sections.
+    var shortcut: KeyEquivalent? {
+        let i = MacSection.allCases.firstIndex(of: self)! + 1
+        return i <= 9 ? KeyEquivalent(Character(String(i))) : nil
     }
 }
 
@@ -95,6 +97,7 @@ final class MacRouter {
     var notesSection: Int?               // 文法: scroll to this grammar section when opened
     var typing = false                   // a text field is being edited: Esc / ⌘→ belong to it
     var deckCategory: Category?
+    var wordList = WordListState()       // 語 Word List: selection + typed answers survive switching sections
     var talkID: String?
     var storyKey: String?
     var essentialID = 1
@@ -140,6 +143,7 @@ struct MacRoot: View {
                 switch router.section {
                 case .today: MacTodayView()
                 case .course: MacCourseView()
+                case .words: MacWordListView()
                 case .decks: MacDecksView()
                 case .practice: MacPracticeView()
                 case .talk: MacTalkView()
@@ -228,6 +232,9 @@ struct MacSidebar: View {
         switch s {
         case .today: let d = store.dueCount(); return d > 0 ? ("\(d)", true) : nil
         case .course: return course.currentLesson.map { ("L\($0.n)", false) }
+        case .words:
+            let all = WordList.shared.all
+            return ("\(store.listKnown(all.map(\.id)))/\(all.count)", false)
         case .talk: return ("\(Talk.scenes.count)", false)
         case .read: return ("\(Course.shared.stories.count)", false)
         case .essentials: return ("\(Essentials.chapters.count)", false)

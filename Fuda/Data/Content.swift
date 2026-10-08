@@ -137,7 +137,16 @@ final class DB {
             vocab = []; kanji = []; grammar = []; lessons = []; kana = KanaData.all
             return
         }
-        vocab = file.vocab
+        // Words the Tone export lacked (found by the N5/N4 coverage check) live in
+        // their own file so regenerating content.json never drops them.
+        var words = file.vocab
+        if let url = Bundle.main.url(forResource: "vocab-extra", withExtension: "json"),
+           let data = try? Data(contentsOf: url),
+           let extra = try? JSONDecoder().decode([Vocab].self, from: data) {
+            let have = Set(words.map(\.id))
+            words += extra.filter { !have.contains($0.id) }
+        }
+        vocab = words
         kanji = file.kanji
         grammar = file.grammar
         lessons = file.lessons

@@ -1,0 +1,9348 @@
+{
+"〜側_〜がわ": {
+"sub": "town.position",
+"en": "side; -side; on the side",
+"thAlt": [
+"ข้าง"
+]
+},
+"〜人_〜にん": {
+"sub": "number.counter",
+"en": "counter for people; people; persons",
+"thAlt": []
+},
+"〜本_〜ほん": {
+"sub": "number.counter",
+"en": "counter for long objects; long things; bottles",
+"thAlt": []
+},
+"〜回_〜かい": {
+"sub": "number.counter",
+"en": "times; counter for times; occurrences",
+"thAlt": []
+},
+"〜階_〜かい": {
+"sub": "number.counter",
+"en": "floor; counter for floors; storey",
+"thAlt": []
+},
+"〜か月_〜かげつ": {
+"sub": "number.counter",
+"en": "months; counter for months",
+"thAlt": []
+},
+"〜がります_〜がります": {
+"sub": "basic.affix",
+"en": "to show signs of; to seem to want; appears to want",
+"thAlt": [
+"ทำท่าอยาก"
+]
+},
+"〜個_〜こ": {
+"sub": "number.counter",
+"en": "counter for small objects; pieces; items",
+"thAlt": []
+},
+"〜語_〜ご": {
+"sub": "school.language",
+"en": "language; -language",
+"thAlt": []
+},
+"〜歳_〜さい": {
+"sub": "number.counter",
+"en": "years old; age",
+"thAlt": []
+},
+"冊_〜さつ": {
+"sub": "number.counter",
+"en": "counter for books; volumes; copies",
+"thAlt": []
+},
+"〜さん_〜さん": {
+"sub": "basic.affix",
+"en": "Mr.; Ms.; Mrs.; -san",
+"thAlt": []
+},
+"〜週間_〜しゅうかん": {
+"sub": "number.counter",
+"en": "weeks; for weeks",
+"thAlt": [
+"อาทิตย์"
+]
+},
+"〜時_〜じ": {
+"sub": "time.clock",
+"en": "o'clock; hour",
+"thAlt": []
+},
+"〜時間_〜じかん": {
+"sub": "number.counter",
+"en": "hours; hour",
+"thAlt": []
+},
+"〜過ぎ_〜すぎ": {
+"sub": "time.clock",
+"en": "past; after; over",
+"thAlt": []
+},
+"〜ずつ_〜ずつ": {
+"sub": "basic.affix",
+"en": "each; at a time; apiece",
+"thAlt": []
+},
+"〜達_〜たち": {
+"sub": "basic.affix",
+"en": "plural; and others; and company",
+"thAlt": []
+},
+"〜台_〜だい": {
+"sub": "number.counter",
+"en": "counter for machines; vehicles; machines",
+"thAlt": []
+},
+"〜中_〜ちゅう": {
+"sub": "basic.affix",
+"en": "during; in the middle of; currently",
+"thAlt": [
+"ขณะ"
+]
+},
+"〜度_〜ど": {
+"sub": "number.counter",
+"en": "times; degrees",
+"thAlt": []
+},
+"〜など_〜など": {
+"sub": "basic.affix",
+"en": "etc.; and so on; such as",
+"thAlt": [
+"ฯลฯ"
+]
+},
+"〜日_〜にち": {
+"sub": "number.counter",
+"en": "days; day",
+"thAlt": []
+},
+"〜年_〜ねん": {
+"sub": "number.counter",
+"en": "years; year",
+"thAlt": []
+},
+"〜番_〜ばん": {
+"sub": "number.counter",
+"en": "number; No.; -th place",
+"thAlt": [
+"เบอร์"
+]
+},
+"〜分_〜ふん": {
+"sub": "time.clock",
+"en": "minutes; minute",
+"thAlt": []
+},
+"〜枚_〜まい": {
+"sub": "number.counter",
+"en": "counter for flat things; sheets; flat objects",
+"thAlt": []
+},
+"〜目_〜め": {
+"sub": "basic.affix",
+"en": "-th; ordinal suffix; number",
+"thAlt": []
+},
+"〜屋_〜や": {
+"sub": "basic.affix",
+"en": "shop; store; -shop",
+"thAlt": [
+"ร้านค้า"
+]
+},
+"〜杯_〜はい": {
+"sub": "number.counter",
+"en": "cups; glasses; counter for drinks",
+"thAlt": []
+},
+"〜半_〜はん": {
+"sub": "time.clock",
+"en": "half past; half; thirty minutes",
+"thAlt": [
+"ครึ่งชั่วโมง"
+]
+},
+"〜匹_〜ひき": {
+"sub": "number.counter",
+"en": "counter for small animals; animals",
+"thAlt": []
+},
+"ああ_ああ": {
+"sub": "basic.greeting",
+"en": "ah; oh",
+"thAlt": [
+"โอ้"
+]
+},
+"会う_あう": {
+"sub": "people.relation",
+"en": "to meet; meet; to see",
+"thAlt": [
+"พบกัน"
+]
+},
+"青い_あおい": {
+"sub": "clothes.color",
+"en": "blue; green",
+"thAlt": []
+},
+"赤い_あかい": {
+"sub": "clothes.color",
+"en": "red",
+"thAlt": []
+},
+"明るい_あかるい": {
+"sub": "describe.state",
+"en": "bright; light; cheerful",
+"thAlt": [
+"สดใส"
+]
+},
+"秋_あき": {
+"sub": "time.season",
+"en": "autumn; fall",
+"thAlt": [
+"หน้าใบไม้ร่วง"
+]
+},
+"開く_あく": {
+"sub": "action.hand",
+"en": "to open; open; to be opened",
+"thAlt": []
+},
+"開ける_あける": {
+"sub": "action.hand",
+"en": "to open; open",
+"thAlt": []
+},
+"あげる_あげる": {
+"sub": "action.giving",
+"en": "to give; give",
+"thAlt": [
+"มอบให้"
+]
+},
+"朝_あさ": {
+"sub": "time.clock",
+"en": "morning",
+"thAlt": []
+},
+"朝ご飯_あさごはん": {
+"sub": "food.dish",
+"en": "breakfast",
+"thAlt": [
+"ข้าวเช้า"
+]
+},
+"あさって_あさって": {
+"sub": "time.day",
+"en": "day after tomorrow",
+"thAlt": []
+},
+"足_あし": {
+"sub": "body.part",
+"en": "foot; leg",
+"thAlt": []
+},
+"明日_あした": {
+"sub": "time.day",
+"en": "tomorrow",
+"thAlt": []
+},
+"あそこ_あそこ": {
+"sub": "basic.pointing",
+"en": "over there; that place",
+"thAlt": [
+"ที่โน่น"
+]
+},
+"遊ぶ_あそぶ": {
+"sub": "hobby.leisure",
+"en": "to play; play; to hang out",
+"thAlt": []
+},
+"温かい_あたたかい": {
+"sub": "describe.state",
+"en": "warm",
+"thAlt": []
+},
+"頭_あたま": {
+"sub": "body.part",
+"en": "head",
+"thAlt": []
+},
+"新しい_あたらしい": {
+"sub": "describe.quality",
+"en": "new; fresh",
+"thAlt": []
+},
+"あちら_あちら": {
+"sub": "basic.pointing",
+"en": "over there; that way; that direction",
+"thAlt": [
+"ที่โน่น"
+]
+},
+"あっち_あっち": {
+"sub": "basic.pointing",
+"en": "over there; that way",
+"thAlt": [
+"ทางนู้น"
+]
+},
+"暑い_あつい": {
+"sub": "nature.weather",
+"en": "hot",
+"thAlt": []
+},
+"厚い_あつい": {
+"sub": "describe.size",
+"en": "thick",
+"thAlt": []
+},
+"後_あと": {
+"sub": "time.relative",
+"en": "after; later; afterwards",
+"thAlt": [
+"ทีหลัง"
+]
+},
+"貴方_あなた": {
+"sub": "basic.pointing",
+"en": "you",
+"thAlt": [
+"ท่าน"
+]
+},
+"兄_あに": {
+"sub": "people.family",
+"en": "older brother; elder brother; big brother",
+"thAlt": []
+},
+"姉_あね": {
+"sub": "people.family",
+"en": "older sister; elder sister; big sister",
+"thAlt": []
+},
+"あの_あの": {
+"sub": "basic.pointing",
+"en": "that; that over there",
+"thAlt": [
+"นั้น"
+]
+},
+"浴びる_あびる": {
+"sub": "home.routine",
+"en": "to take a shower; to bathe; take a shower",
+"thAlt": [
+"อาบน้ำ"
+]
+},
+"危ない_あぶない": {
+"sub": "describe.state",
+"en": "dangerous; risky",
+"thAlt": [
+"เสี่ยง"
+]
+},
+"甘い_あまい": {
+"sub": "food.taste",
+"en": "sweet",
+"thAlt": []
+},
+"あまり_あまり": {
+"sub": "adverb.degree",
+"en": "not very; not much; not really",
+"thAlt": []
+},
+"雨_あめ": {
+"sub": "nature.weather",
+"en": "rain",
+"thAlt": []
+},
+"洗う_あらう": {
+"sub": "home.routine",
+"en": "to wash; wash",
+"thAlt": []
+},
+"ある_ある": {
+"sub": "action.basic",
+"en": "to be; to exist; to have; there is",
+"thAlt": []
+},
+"歩く_あるく": {
+"sub": "action.move",
+"en": "to walk; walk",
+"thAlt": []
+},
+"あれ_あれ": {
+"sub": "basic.pointing",
+"en": "that; that one over there",
+"thAlt": [
+"อันนู้น"
+]
+},
+"良い_いい / よい": {
+"sub": "describe.quality",
+"en": "good; nice; fine",
+"thAlt": []
+},
+"いいえ_いいえ": {
+"sub": "basic.greeting",
+"en": "no; not at all; you're welcome",
+"thAlt": []
+},
+"言う_いう": {
+"sub": "action.talk",
+"en": "to say; say; to tell",
+"thAlt": []
+},
+"家_いえ": {
+"sub": "home.house",
+"en": "house; home",
+"thAlt": []
+},
+"行く_いく": {
+"sub": "transport.verb",
+"en": "to go; go",
+"thAlt": []
+},
+"いくつ_いくつ": {
+"sub": "basic.question",
+"en": "how many; how old",
+"thAlt": [
+"กี่ขวบ",
+"กี่ชิ้น"
+]
+},
+"いくら_いくら": {
+"sub": "basic.question",
+"en": "how much",
+"thAlt": [
+"เท่าไร"
+]
+},
+"池_いけ": {
+"sub": "nature.nature",
+"en": "pond",
+"thAlt": [
+"บึง"
+]
+},
+"医者_いしゃ": {
+"sub": "people.job",
+"en": "doctor; physician",
+"thAlt": []
+},
+"椅子_いす": {
+"sub": "home.furniture",
+"en": "chair",
+"thAlt": []
+},
+"忙しい_いそがしい": {
+"sub": "describe.state",
+"en": "busy",
+"thAlt": []
+},
+"痛い_いたい": {
+"sub": "body.state",
+"en": "painful; hurts; sore",
+"thAlt": []
+},
+"一_いち": {
+"sub": "number.number",
+"en": "one; 1",
+"thAlt": []
+},
+"一月_いちがつ": {
+"sub": "time.season",
+"en": "January",
+"thAlt": [
+"ม.ค."
+]
+},
+"一日_いちにち": {
+"sub": "time.day",
+"en": "one day; a day; all day",
+"thAlt": [
+"ทั้งวัน"
+]
+},
+"一番_いちばん": {
+"sub": "adverb.degree",
+"en": "most; number one; best; first",
+"thAlt": []
+},
+"一緒_いっしょ": {
+"sub": "adverb.manner",
+"en": "together; with",
+"thAlt": []
+},
+"いつ_いつ": {
+"sub": "basic.question",
+"en": "when",
+"thAlt": [
+"ตอนไหน"
+]
+},
+"五日_いつか": {
+"sub": "time.day",
+"en": "the fifth; five days",
+"thAlt": []
+},
+"五つ_いつつ": {
+"sub": "number.number",
+"en": "five; five things",
+"thAlt": [
+"ห้า"
+]
+},
+"いつも_いつも": {
+"sub": "adverb.timing",
+"en": "always; usually",
+"thAlt": []
+},
+"今_いま": {
+"sub": "time.relative",
+"en": "now; the present",
+"thAlt": [
+"เดี๋ยวนี้"
+]
+},
+"意味_いみ": {
+"sub": "school.language",
+"en": "meaning; sense",
+"thAlt": []
+},
+"妹_いもうと": {
+"sub": "people.family",
+"en": "younger sister; little sister",
+"thAlt": []
+},
+"いや_いや": {
+"sub": "heart.emotion",
+"en": "unpleasant; disliked; no way",
+"thAlt": [
+"เกลียด"
+]
+},
+"入口_いりぐち": {
+"sub": "town.building",
+"en": "entrance; entry; way in",
+"thAlt": []
+},
+"いる_いる": {
+"sub": "action.basic",
+"en": "to be; to exist; there is",
+"thAlt": []
+},
+"入れる_いれる": {
+"sub": "action.hand",
+"en": "to put in; put in; to insert",
+"thAlt": []
+},
+"色_いろ": {
+"sub": "clothes.color",
+"en": "colour; color",
+"thAlt": []
+},
+"いろいろ_いろいろ": {
+"sub": "describe.state",
+"en": "various; all kinds of",
+"thAlt": []
+},
+"色々_いろいろ": {
+"sub": "describe.state",
+"en": "various; all kinds of",
+"thAlt": []
+},
+"上_うえ": {
+"sub": "town.position",
+"en": "on; above; up; top",
+"thAlt": [
+"ด้านบน"
+]
+},
+"後ろ_うしろ": {
+"sub": "town.position",
+"en": "behind; back",
+"thAlt": [
+"ด้านหลัง"
+]
+},
+"薄い_うすい": {
+"sub": "describe.size",
+"en": "thin; light; weak",
+"thAlt": [
+"อ่อน"
+]
+},
+"歌_うた": {
+"sub": "hobby.art",
+"en": "song",
+"thAlt": []
+},
+"歌う_うたう": {
+"sub": "hobby.art",
+"en": "to sing; sing",
+"thAlt": []
+},
+"内_うち": {
+"sub": "home.house",
+"en": "home; house; inside",
+"thAlt": []
+},
+"生まれる_うまれる": {
+"sub": "people.person",
+"en": "to be born; be born",
+"thAlt": []
+},
+"海_うみ": {
+"sub": "nature.nature",
+"en": "sea; ocean; beach",
+"thAlt": []
+},
+"売る_うる": {
+"sub": "money.shopping",
+"en": "to sell; sell",
+"thAlt": []
+},
+"上着_うわぎ": {
+"sub": "clothes.wear",
+"en": "jacket; coat; outerwear",
+"thAlt": [
+"เสื้อคลุม"
+]
+},
+"絵_え": {
+"sub": "hobby.art",
+"en": "picture; painting; drawing",
+"thAlt": []
+},
+"映画_えいが": {
+"sub": "hobby.art",
+"en": "movie; film",
+"thAlt": []
+},
+"映画館_えいがかん": {
+"sub": "town.building",
+"en": "movie theater; cinema",
+"thAlt": [
+"โรงหนัง"
+]
+},
+"英語_えいご": {
+"sub": "school.language",
+"en": "English; English language",
+"thAlt": []
+},
+"ええ_ええ": {
+"sub": "basic.greeting",
+"en": "yes; yeah",
+"thAlt": []
+},
+"駅_えき": {
+"sub": "transport.travel",
+"en": "station; train station",
+"thAlt": []
+},
+"エレベーター_エレベーター": {
+"sub": "town.building",
+"en": "elevator; lift",
+"thAlt": []
+},
+"円_えん": {
+"sub": "money.money",
+"en": "yen",
+"thAlt": []
+},
+"鉛筆_えんぴつ": {
+"sub": "school.stationery",
+"en": "pencil",
+"thAlt": []
+},
+"お〜 / 御〜_お": {
+"sub": "basic.affix",
+"en": "honorific prefix; polite prefix",
+"thAlt": []
+},
+"御_お": {
+"sub": "basic.affix",
+"en": "honorific prefix; polite prefix",
+"thAlt": []
+},
+"美味しい_おいしい": {
+"sub": "food.taste",
+"en": "delicious; tasty",
+"thAlt": []
+},
+"大きい_おおきい": {
+"sub": "describe.size",
+"en": "big; large",
+"thAlt": [
+"โต"
+]
+},
+"おおぜい_おおぜい": {
+"sub": "number.amount",
+"en": "many people; crowd; a lot",
+"thAlt": [
+"คนเยอะ"
+]
+},
+"お母さん_おかあさん": {
+"sub": "people.family",
+"en": "mother; mom",
+"thAlt": []
+},
+"お菓子_おかし": {
+"sub": "food.sweet",
+"en": "sweets; snacks; candy",
+"thAlt": []
+},
+"お金_おかね": {
+"sub": "money.money",
+"en": "money",
+"thAlt": []
+},
+"起きる_おきる": {
+"sub": "home.routine",
+"en": "to wake up; to get up; wake up",
+"thAlt": []
+},
+"置く_おく": {
+"sub": "action.hand",
+"en": "to put; put; to place",
+"thAlt": []
+},
+"奥さん_おくさん": {
+"sub": "people.family",
+"en": "wife; someone's wife; Mrs.",
+"thAlt": [
+"ภริยา"
+]
+},
+"送る_おくる": {
+"sub": "action.giving",
+"en": "to send; send; to see off",
+"thAlt": []
+},
+"お酒_おさけ": {
+"sub": "food.drink",
+"en": "alcohol; sake; liquor",
+"thAlt": []
+},
+"お皿_おさら": {
+"sub": "food.tableware",
+"en": "plate; dish",
+"thAlt": []
+},
+"おじいさん_おじいさん": {
+"sub": "people.family",
+"en": "grandfather; old man; grandpa",
+"thAlt": []
+},
+"伯父さん / 叔父さん_おじさん": {
+"sub": "people.family",
+"en": "uncle; middle-aged man",
+"thAlt": []
+},
+"押す_おす": {
+"sub": "action.hand",
+"en": "to push; push; to press",
+"thAlt": []
+},
+"遅い_おそい": {
+"sub": "describe.state",
+"en": "slow; late",
+"thAlt": []
+},
+"お茶_おちゃ": {
+"sub": "food.drink",
+"en": "tea; green tea",
+"thAlt": []
+},
+"お手洗い_おてあらい": {
+"sub": "home.house",
+"en": "toilet; restroom; bathroom",
+"thAlt": [
+"ส้วม"
+]
+},
+"お父さん_おとうさん": {
+"sub": "people.family",
+"en": "father; dad",
+"thAlt": []
+},
+"弟_おとうと": {
+"sub": "people.family",
+"en": "younger brother; little brother",
+"thAlt": []
+},
+"男_おとこ": {
+"sub": "people.person",
+"en": "man; male",
+"thAlt": []
+},
+"男の子_おとこのこ": {
+"sub": "people.person",
+"en": "boy",
+"thAlt": []
+},
+"一昨日_おととい": {
+"sub": "time.day",
+"en": "day before yesterday",
+"thAlt": []
+},
+"一昨年_おととし": {
+"sub": "time.season",
+"en": "year before last; two years ago",
+"thAlt": []
+},
+"大人_おとな": {
+"sub": "people.person",
+"en": "adult; grown-up",
+"thAlt": []
+},
+"お腹_おなか": {
+"sub": "body.part",
+"en": "stomach; belly; tummy",
+"thAlt": []
+},
+"同じ_おなじ": {
+"sub": "describe.state",
+"en": "same; identical",
+"thAlt": []
+},
+"お兄さん_おにいさん": {
+"sub": "people.family",
+"en": "older brother; elder brother",
+"thAlt": []
+},
+"お肉_おにく": {
+"sub": "food.ingredient",
+"en": "meat",
+"thAlt": []
+},
+"お姉さん_おねえさん": {
+"sub": "people.family",
+"en": "older sister; elder sister",
+"thAlt": []
+},
+"おばあさん_おばあさん": {
+"sub": "people.family",
+"en": "grandmother; old woman; grandma",
+"thAlt": []
+},
+"伯母さん_おばさん": {
+"sub": "people.family",
+"en": "aunt; middle-aged woman",
+"thAlt": []
+},
+"お風呂_おふろ": {
+"sub": "home.house",
+"en": "bath; bathtub",
+"thAlt": [
+"ห้องอาบน้ำ"
+]
+},
+"お弁当_おべんとう": {
+"sub": "food.dish",
+"en": "boxed lunch; bento; lunch box",
+"thAlt": [
+"เบนโตะ"
+]
+},
+"覚える_おぼえる": {
+"sub": "school.verb",
+"en": "to remember; to memorize; remember",
+"thAlt": []
+},
+"おまわりさん_おまわりさん": {
+"sub": "people.job",
+"en": "police officer; policeman",
+"thAlt": []
+},
+"お水_おみず": {
+"sub": "food.drink",
+"en": "water",
+"thAlt": [
+"น้ำเปล่า"
+]
+},
+"重い_おもい": {
+"sub": "describe.size",
+"en": "heavy",
+"thAlt": []
+},
+"面白い_おもしろい": {
+"sub": "describe.quality",
+"en": "interesting; fun; funny",
+"thAlt": [
+"ตลก"
+]
+},
+"泳ぐ_およぐ": {
+"sub": "action.move",
+"en": "to swim; swim",
+"thAlt": []
+},
+"降りる_おりる": {
+"sub": "transport.verb",
+"en": "to get off; get off; to get out",
+"thAlt": []
+},
+"終わる_おわる": {
+"sub": "action.change",
+"en": "to end; end; to finish",
+"thAlt": [
+"เสร็จ"
+]
+},
+"音楽_おんがく": {
+"sub": "hobby.art",
+"en": "music",
+"thAlt": []
+},
+"女_おんな": {
+"sub": "people.person",
+"en": "woman; female",
+"thAlt": []
+},
+"女の子_おんなのこ": {
+"sub": "people.person",
+"en": "girl",
+"thAlt": []
+},
+"会社_かいしゃ": {
+"sub": "work.company",
+"en": "company; office; firm",
+"thAlt": []
+},
+"階段_かいだん": {
+"sub": "town.building",
+"en": "stairs; staircase; steps",
+"thAlt": []
+},
+"買物_かいもの": {
+"sub": "money.shopping",
+"en": "shopping",
+"thAlt": []
+},
+"買う_かう": {
+"sub": "money.shopping",
+"en": "to buy; buy; to purchase",
+"thAlt": []
+},
+"返す_かえす": {
+"sub": "action.giving",
+"en": "to return; to give back; give back",
+"thAlt": []
+},
+"帰る_かえる": {
+"sub": "transport.verb",
+"en": "to go home; to return; go back",
+"thAlt": []
+},
+"顔_かお": {
+"sub": "body.part",
+"en": "face",
+"thAlt": []
+},
+"かかる_かかる": {
+"sub": "action.basic",
+"en": "to take; to cost; take time",
+"thAlt": [
+"เสีย"
+]
+},
+"鍵_かぎ": {
+"sub": "home.belonging",
+"en": "key; lock",
+"thAlt": []
+},
+"書く_かく": {
+"sub": "school.verb",
+"en": "to write; write; to draw",
+"thAlt": []
+},
+"かける_かける": {
+"sub": "hobby.media",
+"en": "to call; to hang; to put on",
+"thAlt": []
+},
+"傘_かさ": {
+"sub": "home.belonging",
+"en": "umbrella",
+"thAlt": []
+},
+"貸す_かす": {
+"sub": "action.giving",
+"en": "to lend; lend",
+"thAlt": []
+},
+"風_かぜ": {
+"sub": "nature.weather",
+"en": "wind",
+"thAlt": []
+},
+"風邪_かぜ": {
+"sub": "body.illness",
+"en": "cold; common cold",
+"thAlt": []
+},
+"家族_かぞく": {
+"sub": "people.family",
+"en": "family",
+"thAlt": []
+},
+"方_かた": {
+"sub": "people.person",
+"en": "person; polite for person",
+"thAlt": [
+"คน"
+]
+},
+"片仮名_かたかな": {
+"sub": "school.language",
+"en": "katakana",
+"thAlt": []
+},
+"角_かど": {
+"sub": "town.street",
+"en": "corner",
+"thAlt": []
+},
+"家内_かない": {
+"sub": "people.family",
+"en": "my wife; wife",
+"thAlt": [
+"เมีย"
+]
+},
+"かばん_かばん": {
+"sub": "home.belonging",
+"en": "bag; briefcase",
+"thAlt": []
+},
+"花瓶_かびん": {
+"sub": "home.furniture",
+"en": "vase; flower vase",
+"thAlt": []
+},
+"被る_かぶる": {
+"sub": "clothes.verb",
+"en": "to put on; to wear; wear",
+"thAlt": [
+"ใส่หมวก"
+]
+},
+"冠る_かぶる": {
+"sub": "clothes.verb",
+"en": "to put on; to wear; wear",
+"thAlt": [
+"ใส่หมวก"
+]
+},
+"紙_かみ": {
+"sub": "school.stationery",
+"en": "paper",
+"thAlt": []
+},
+"カメラ_カメラ": {
+"sub": "hobby.media",
+"en": "camera",
+"thAlt": []
+},
+"火曜日_かようび": {
+"sub": "time.day",
+"en": "Tuesday",
+"thAlt": []
+},
+"辛い_からい": {
+"sub": "food.taste",
+"en": "spicy; hot",
+"thAlt": []
+},
+"体_からだ": {
+"sub": "body.part",
+"en": "body",
+"thAlt": []
+},
+"借りる_かりる": {
+"sub": "action.giving",
+"en": "to borrow; borrow",
+"thAlt": []
+},
+"軽い_かるい": {
+"sub": "describe.size",
+"en": "light",
+"thAlt": []
+},
+"川_かわ": {
+"sub": "nature.nature",
+"en": "river",
+"thAlt": []
+},
+"かわいい_かわいい": {
+"sub": "describe.quality",
+"en": "cute; pretty; adorable",
+"thAlt": []
+},
+"漢字_かんじ": {
+"sub": "school.language",
+"en": "kanji; Chinese characters",
+"thAlt": []
+},
+"外国_がいこく": {
+"sub": "town.region",
+"en": "foreign country; abroad",
+"thAlt": []
+},
+"外国人_がいこくじん": {
+"sub": "people.person",
+"en": "foreigner",
+"thAlt": [
+"คนต่างชาติ"
+]
+},
+"学生_がくせい": {
+"sub": "school.school",
+"en": "student",
+"thAlt": []
+},
+"学校_がっこう": {
+"sub": "school.school",
+"en": "school",
+"thAlt": []
+},
+"木_き": {
+"sub": "nature.animal",
+"en": "tree; wood",
+"thAlt": []
+},
+"黄色い_きいろい": {
+"sub": "clothes.color",
+"en": "yellow",
+"thAlt": []
+},
+"消える_きえる": {
+"sub": "action.change",
+"en": "to go out; to disappear; to vanish",
+"thAlt": []
+},
+"聞く_きく": {
+"sub": "action.talk",
+"en": "to listen; to hear; to ask",
+"thAlt": []
+},
+"北_きた": {
+"sub": "town.position",
+"en": "north",
+"thAlt": []
+},
+"汚い_きたない": {
+"sub": "describe.state",
+"en": "dirty",
+"thAlt": []
+},
+"喫茶店_きっさてん": {
+"sub": "food.eatout",
+"en": "café; coffee shop",
+"thAlt": []
+},
+"切手_きって": {
+"sub": "hobby.media",
+"en": "stamp; postage stamp",
+"thAlt": []
+},
+"切符_きっぷ": {
+"sub": "transport.travel",
+"en": "ticket",
+"thAlt": []
+},
+"昨日_きのう": {
+"sub": "time.day",
+"en": "yesterday",
+"thAlt": []
+},
+"九_きゅう / く": {
+"sub": "number.number",
+"en": "nine; 9",
+"thAlt": []
+},
+"今日_きょう": {
+"sub": "time.day",
+"en": "today",
+"thAlt": []
+},
+"教室_きょうしつ": {
+"sub": "school.school",
+"en": "classroom",
+"thAlt": []
+},
+"兄弟_きょうだい": {
+"sub": "people.family",
+"en": "siblings; brothers",
+"thAlt": []
+},
+"去年_きょねん": {
+"sub": "time.season",
+"en": "last year",
+"thAlt": []
+},
+"嫌い_きらい": {
+"sub": "heart.emotion",
+"en": "dislike; hate",
+"thAlt": []
+},
+"切る_きる": {
+"sub": "action.hand",
+"en": "to cut; cut",
+"thAlt": []
+},
+"着る_きる": {
+"sub": "clothes.verb",
+"en": "to wear; to put on; wear",
+"thAlt": []
+},
+"きれい_きれい": {
+"sub": "describe.quality",
+"en": "beautiful; clean; pretty",
+"thAlt": [
+"งาม"
+]
+},
+"金曜日_きんようび": {
+"sub": "time.day",
+"en": "Friday",
+"thAlt": []
+},
+"牛肉_ぎゅうにく": {
+"sub": "food.ingredient",
+"en": "beef",
+"thAlt": []
+},
+"牛乳_ぎゅうにゅう": {
+"sub": "food.drink",
+"en": "milk; cow's milk",
+"thAlt": []
+},
+"銀行_ぎんこう": {
+"sub": "town.building",
+"en": "bank",
+"thAlt": []
+},
+"九月_くがつ": {
+"sub": "time.season",
+"en": "September",
+"thAlt": [
+"ก.ย."
+]
+},
+"薬_くすり": {
+"sub": "body.illness",
+"en": "medicine; drug",
+"thAlt": []
+},
+"ください_ください": {
+"sub": "basic.greeting",
+"en": "please; please give me; give me",
+"thAlt": [
+"โปรด",
+"ขอหน่อย"
+]
+},
+"下さい_ください": {
+"sub": "basic.greeting",
+"en": "please; please give me; give me",
+"thAlt": [
+"โปรด",
+"ขอหน่อย"
+]
+},
+"果物_くだもの": {
+"sub": "food.ingredient",
+"en": "fruit; fruits",
+"thAlt": []
+},
+"口_くち": {
+"sub": "body.part",
+"en": "mouth",
+"thAlt": []
+},
+"靴_くつ": {
+"sub": "clothes.wear",
+"en": "shoes; shoe",
+"thAlt": []
+},
+"靴下_くつした": {
+"sub": "clothes.wear",
+"en": "socks; sock",
+"thAlt": []
+},
+"国_くに": {
+"sub": "town.region",
+"en": "country; home country; homeland",
+"thAlt": [
+"ชาติ"
+]
+},
+"曇り_くもり": {
+"sub": "nature.weather",
+"en": "cloudy; cloudy weather; overcast",
+"thAlt": [
+"ฟ้าครึ้ม",
+"เมฆครึ้ม"
+]
+},
+"暗い_くらい": {
+"sub": "describe.state",
+"en": "dark; dim; gloomy",
+"thAlt": []
+},
+"来る_くる": {
+"sub": "transport.verb",
+"en": "to come; come",
+"thAlt": []
+},
+"車_くるま": {
+"sub": "transport.vehicle",
+"en": "car; vehicle; automobile",
+"thAlt": [
+"รถ"
+]
+},
+"黒い_くろい": {
+"sub": "clothes.color",
+"en": "black",
+"thAlt": [
+"ดำ"
+]
+},
+"ぐらい_ぐらい": {
+"sub": "basic.affix",
+"en": "about; approximately; around",
+"thAlt": [
+"ราว"
+]
+},
+"警官_けいかん": {
+"sub": "people.job",
+"en": "police officer; policeman; cop",
+"thAlt": [
+"นายตำรวจ"
+]
+},
+"今朝_けさ": {
+"sub": "time.day",
+"en": "this morning",
+"thAlt": [
+"เช้านี้"
+]
+},
+"消す_けす": {
+"sub": "action.hand",
+"en": "to turn off; turn off; to erase; switch off",
+"thAlt": [
+"ปิดไฟ"
+]
+},
+"けっこう_けっこう": {
+"sub": "basic.greeting",
+"en": "fine; enough; no thank you; quite",
+"thAlt": [
+"ไม่เป็นไร",
+"ไม่ต้อง"
+]
+},
+"結婚_けっこん": {
+"sub": "people.relation",
+"en": "marriage; to marry; wedding",
+"thAlt": [
+"แต่งงาน"
+]
+},
+"月曜日_げつようび": {
+"sub": "time.day",
+"en": "Monday",
+"thAlt": [
+"จันทร์"
+]
+},
+"玄関_げんかん": {
+"sub": "home.house",
+"en": "entrance; front door; entryway; genkan",
+"thAlt": [
+"ทางเข้าบ้าน",
+"ประตูหน้าบ้าน"
+]
+},
+"元気_げんき": {
+"sub": "body.state",
+"en": "healthy; well; energetic; fine",
+"thAlt": [
+"ร่าเริง",
+"มีชีวิตชีวา"
+]
+},
+"公園_こうえん": {
+"sub": "town.building",
+"en": "park",
+"thAlt": [
+"สวน"
+]
+},
+"交番_こうばん": {
+"sub": "town.building",
+"en": "police box; koban; police post",
+"thAlt": [
+"ตู้ตำรวจ"
+]
+},
+"声_こえ": {
+"sub": "body.part",
+"en": "voice",
+"thAlt": []
+},
+"ここ_ここ": {
+"sub": "basic.pointing",
+"en": "here; this place",
+"thAlt": []
+},
+"九日_ここのか": {
+"sub": "time.day",
+"en": "the 9th; ninth day; nine days",
+"thAlt": [
+"วันที่เก้า"
+]
+},
+"九つ_ここのつ": {
+"sub": "number.number",
+"en": "nine; nine things; nine items",
+"thAlt": [
+"เก้า",
+"เก้าอัน"
+]
+},
+"答える_こたえる": {
+"sub": "action.talk",
+"en": "to answer; answer; to reply",
+"thAlt": [
+"ตอบคำถาม"
+]
+},
+"こちら_こちら": {
+"sub": "basic.pointing",
+"en": "this way; this side; this person",
+"thAlt": [
+"ที่นี่"
+]
+},
+"こっち_こっち": {
+"sub": "basic.pointing",
+"en": "this way; here; this side",
+"thAlt": [
+"ที่นี่"
+]
+},
+"今年_ことし": {
+"sub": "time.season",
+"en": "this year",
+"thAlt": []
+},
+"言葉_ことば": {
+"sub": "school.language",
+"en": "word; words; language",
+"thAlt": [
+"คำ"
+]
+},
+"子供_こども": {
+"sub": "people.person",
+"en": "child; children; kid",
+"thAlt": [
+"เด็กๆ"
+]
+},
+"この_この": {
+"sub": "basic.pointing",
+"en": "this",
+"thAlt": []
+},
+"困る_こまる": {
+"sub": "heart.emotion",
+"en": "to be troubled; be troubled; to be stuck",
+"thAlt": [
+"ลำบากใจ",
+"มีปัญหา"
+]
+},
+"これ_これ": {
+"sub": "basic.pointing",
+"en": "this; this one",
+"thAlt": []
+},
+"今月_こんげつ": {
+"sub": "time.season",
+"en": "this month",
+"thAlt": []
+},
+"今週_こんしゅう": {
+"sub": "time.day",
+"en": "this week",
+"thAlt": [
+"อาทิตย์นี้"
+]
+},
+"こんな_こんな": {
+"sub": "basic.pointing",
+"en": "this kind of; such; like this",
+"thAlt": [
+"อย่างนี้"
+]
+},
+"今晩_こんばん": {
+"sub": "time.day",
+"en": "tonight; this evening",
+"thAlt": [
+"เย็นนี้"
+]
+},
+"五_ご": {
+"sub": "number.number",
+"en": "five; 5",
+"thAlt": [
+"5"
+]
+},
+"五月_ごがつ": {
+"sub": "time.season",
+"en": "May",
+"thAlt": [
+"พฤษภาคม",
+"เดือน 5"
+]
+},
+"午後_ごご": {
+"sub": "time.clock",
+"en": "afternoon; p.m.; PM",
+"thAlt": [
+"บ่าย",
+"ตอนบ่าย"
+]
+},
+"ご主人_ごしゅじん": {
+"sub": "people.family",
+"en": "husband; your husband; her husband",
+"thAlt": [
+"สามีคุณ"
+]
+},
+"午前_ごぜん": {
+"sub": "time.clock",
+"en": "morning; a.m.; AM",
+"thAlt": [
+"ตอนเช้า",
+"ก่อนเที่ยง"
+]
+},
+"御飯_ごはん": {
+"sub": "food.dish",
+"en": "cooked rice; rice; meal",
+"thAlt": [
+"อาหาร"
+]
+},
+"ごろ_ごろ": {
+"sub": "basic.affix",
+"en": "around; about; approximately",
+"thAlt": [
+"ราว"
+]
+},
+"さあ_さあ": {
+"sub": "basic.greeting",
+"en": "come on; well; now then",
+"thAlt": [
+"เอาละ",
+"มาเลย"
+]
+},
+"〜歳 / 〜才_さい": {
+"sub": "number.counter",
+"en": "years old; age counter",
+"thAlt": [
+"อายุ",
+"ปี"
+]
+},
+"財布_さいふ": {
+"sub": "home.belonging",
+"en": "wallet; purse",
+"thAlt": [
+"กระเป๋าเงิน"
+]
+},
+"魚_さかな": {
+"sub": "food.ingredient",
+"en": "fish",
+"thAlt": []
+},
+"先_さき": {
+"sub": "time.relative",
+"en": "ahead; first; previous; the tip",
+"thAlt": [
+"ก่อน"
+]
+},
+"咲く_さく": {
+"sub": "nature.animal",
+"en": "to bloom; bloom; to blossom",
+"thAlt": [
+"ผลิบาน"
+]
+},
+"作文_さくぶん": {
+"sub": "school.study",
+"en": "composition; essay; writing",
+"thAlt": [
+"การเขียนเรียงความ"
+]
+},
+"さす_さす": {
+"sub": "action.hand",
+"en": "to put up; to open an umbrella; to hold up",
+"thAlt": [
+"กางร่ม"
+]
+},
+"砂糖_さとう": {
+"sub": "food.seasoning",
+"en": "sugar",
+"thAlt": []
+},
+"寒い_さむい": {
+"sub": "nature.weather",
+"en": "cold; chilly",
+"thAlt": []
+},
+"皿_さら": {
+"sub": "food.tableware",
+"en": "plate; dish",
+"thAlt": [
+"จานข้าว"
+]
+},
+"再来年_さらいねん": {
+"sub": "time.season",
+"en": "the year after next; in two years",
+"thAlt": [
+"ปีถัดจากปีหน้า"
+]
+},
+"三_さん": {
+"sub": "number.number",
+"en": "three; 3",
+"thAlt": [
+"3"
+]
+},
+"三月_さんがつ": {
+"sub": "time.season",
+"en": "March",
+"thAlt": [
+"มีนาคม",
+"เดือน 3"
+]
+},
+"散歩_さんぽ": {
+"sub": "hobby.leisure",
+"en": "walk; stroll; to take a walk",
+"thAlt": [
+"เดินเล่น"
+]
+},
+"さ来年_さらいねん": {
+"sub": "time.season",
+"en": "the year after next; in two years",
+"thAlt": [
+"ปีถัดจากปีหน้า"
+]
+},
+"雑誌_ざっし": {
+"sub": "hobby.media",
+"en": "magazine",
+"thAlt": [
+"แมกกาซีน"
+]
+},
+"四_し": {
+"sub": "number.number",
+"en": "four; 4",
+"thAlt": [
+"4"
+]
+},
+"塩_しお": {
+"sub": "food.seasoning",
+"en": "salt",
+"thAlt": []
+},
+"しかし_しかし": {
+"sub": "adverb.connector",
+"en": "however; but",
+"thAlt": [
+"แต่ทว่า"
+]
+},
+"四月_しがつ": {
+"sub": "time.season",
+"en": "April",
+"thAlt": [
+"เมษายน",
+"เดือน 4"
+]
+},
+"仕事_しごと": {
+"sub": "work.work",
+"en": "work; job; occupation",
+"thAlt": [
+"การงาน"
+]
+},
+"静か_しずか": {
+"sub": "describe.state",
+"en": "quiet; calm; peaceful",
+"thAlt": [
+"เงียบ",
+"สงบ"
+]
+},
+"下_した": {
+"sub": "town.position",
+"en": "below; under; beneath; down",
+"thAlt": [
+"ล่าง"
+]
+},
+"七月_しちがつ": {
+"sub": "time.season",
+"en": "July",
+"thAlt": [
+"กรกฎาคม",
+"เดือน 7"
+]
+},
+"質問_しつもん": {
+"sub": "school.study",
+"en": "question; to ask a question",
+"thAlt": [
+"ข้อสงสัย"
+]
+},
+"死ぬ_しぬ": {
+"sub": "body.state",
+"en": "to die; die; to pass away",
+"thAlt": []
+},
+"閉まる_しまる": {
+"sub": "action.hand",
+"en": "to close; close; to be closed; to shut",
+"thAlt": [
+"ปิด"
+]
+},
+"閉める_しめる": {
+"sub": "action.hand",
+"en": "to close; close; to shut",
+"thAlt": [
+"ปิดประตู"
+]
+},
+"締める_しめる": {
+"sub": "clothes.verb",
+"en": "to tie; tie; to fasten; to put on",
+"thAlt": [
+"ผูกเนกไท",
+"คาด"
+]
+},
+"写真_しゃしん": {
+"sub": "hobby.art",
+"en": "photo; photograph; picture",
+"thAlt": [
+"รูป",
+"ภาพ"
+]
+},
+"宿題_しゅくだい": {
+"sub": "school.study",
+"en": "homework",
+"thAlt": []
+},
+"しょうゆ_しょうゆ": {
+"sub": "food.seasoning",
+"en": "soy sauce",
+"thAlt": [
+"ซีอิ๊ว",
+"ซีอิ๊วญี่ปุ่น"
+]
+},
+"醬油_しょうゆ": {
+"sub": "food.seasoning",
+"en": "soy sauce",
+"thAlt": [
+"ซอสถั่วเหลือง",
+"ซีอิ๊ว"
+]
+},
+"醤油_しょうゆ": {
+"sub": "food.seasoning",
+"en": "soy sauce",
+"thAlt": [
+"ซอสถั่วเหลือง",
+"ซีอิ๊ว"
+]
+},
+"食堂_しょくどう": {
+"sub": "food.eatout",
+"en": "cafeteria; dining hall; canteen",
+"thAlt": [
+"ห้องอาหาร",
+"แคนทีน"
+]
+},
+"知る_しる": {
+"sub": "heart.mind",
+"en": "to know; know; to get to know",
+"thAlt": [
+"ทราบ"
+]
+},
+"白い_しろい": {
+"sub": "clothes.color",
+"en": "white",
+"thAlt": [
+"ขาว"
+]
+},
+"新聞_しんぶん": {
+"sub": "hobby.media",
+"en": "newspaper",
+"thAlt": []
+},
+"時間_じかん": {
+"sub": "time.clock",
+"en": "time; hour; hours",
+"thAlt": []
+},
+"辞書_じしょ": {
+"sub": "school.stationery",
+"en": "dictionary",
+"thAlt": [
+"ดิกชันนารี"
+]
+},
+"自転車_じてんしゃ": {
+"sub": "transport.vehicle",
+"en": "bicycle; bike",
+"thAlt": [
+"รถจักรยาน"
+]
+},
+"自動車_じどうしゃ": {
+"sub": "transport.vehicle",
+"en": "car; automobile; motor vehicle",
+"thAlt": [
+"รถ"
+]
+},
+"字引_じびき": {
+"sub": "school.stationery",
+"en": "dictionary",
+"thAlt": [
+"ดิกชันนารี"
+]
+},
+"自分_じぶん": {
+"sub": "basic.pointing",
+"en": "oneself; myself; self",
+"thAlt": [
+"ตัวเรา"
+]
+},
+"じゃ_じゃ": {
+"sub": "adverb.connector",
+"en": "well then; then; so",
+"thAlt": [
+"งั้น"
+]
+},
+"じゃ / じゃあ_じゃ / じゃあ": {
+"sub": "adverb.connector",
+"en": "well then; then; so",
+"thAlt": [
+"ถ้างั้น",
+"เอาล่ะ"
+]
+},
+"十_じゅう / とお": {
+"sub": "number.number",
+"en": "ten; 10",
+"thAlt": [
+"10"
+]
+},
+"十一月_じゅういちがつ": {
+"sub": "time.season",
+"en": "November",
+"thAlt": [
+"พฤศจิกายน",
+"เดือน 11"
+]
+},
+"十月_じゅうがつ": {
+"sub": "time.season",
+"en": "October",
+"thAlt": [
+"ตุลาคม",
+"เดือน 10"
+]
+},
+"十二月_じゅうにがつ": {
+"sub": "time.season",
+"en": "December",
+"thAlt": [
+"ธันวาคม",
+"เดือน 12"
+]
+},
+"授業_じゅぎょう": {
+"sub": "school.school",
+"en": "class; lesson; lecture",
+"thAlt": [
+"คาบเรียน",
+"บทเรียน"
+]
+},
+"上手_じょうず": {
+"sub": "describe.quality",
+"en": "good at; skilled; skillful",
+"thAlt": [
+"เชี่ยวชาญ"
+]
+},
+"丈夫_じょうぶ": {
+"sub": "describe.quality",
+"en": "sturdy; durable; strong; healthy",
+"thAlt": [
+"ทน"
+]
+},
+"水曜日_すいようび": {
+"sub": "time.day",
+"en": "Wednesday",
+"thAlt": [
+"พุธ"
+]
+},
+"吸う_すう": {
+"sub": "body.state",
+"en": "to smoke; smoke; to inhale; to breathe in",
+"thAlt": [
+"หายใจเข้า",
+"ดูด"
+]
+},
+"好き_すき": {
+"sub": "heart.emotion",
+"en": "like; liked; fond of; favorite",
+"thAlt": [
+"ชื่นชอบ"
+]
+},
+"すぐに_すぐに": {
+"sub": "adverb.timing",
+"en": "immediately; right away; at once",
+"thAlt": [
+"เดี๋ยวนี้",
+"ทันใด"
+]
+},
+"少し_すこし": {
+"sub": "adverb.degree",
+"en": "a little; a few; slightly",
+"thAlt": [
+"นิดนึง",
+"หน่อย"
+]
+},
+"涼しい_すずしい": {
+"sub": "nature.weather",
+"en": "cool; refreshing",
+"thAlt": [
+"เย็น"
+]
+},
+"住む_すむ": {
+"sub": "home.routine",
+"en": "to live; live; to reside",
+"thAlt": [
+"อยู่",
+"อาศัย"
+]
+},
+"する_する": {
+"sub": "action.basic",
+"en": "to do; do; to make",
+"thAlt": [
+"กระทำ"
+]
+},
+"座る_すわる": {
+"sub": "action.move",
+"en": "to sit; sit; sit down",
+"thAlt": [
+"นั่งลง"
+]
+},
+"背 / 背丈_せ": {
+"sub": "body.part",
+"en": "height; stature; back",
+"thAlt": [
+"ความสูง"
+]
+},
+"背_せい": {
+"sub": "body.part",
+"en": "height; stature; back",
+"thAlt": [
+"ความสูง"
+]
+},
+"生徒_せいと": {
+"sub": "school.school",
+"en": "student; pupil",
+"thAlt": [
+"ลูกศิษย์"
+]
+},
+"せっけん_せっけん": {
+"sub": "home.belonging",
+"en": "soap",
+"thAlt": []
+},
+"背広_せびろ": {
+"sub": "clothes.wear",
+"en": "suit; business suit",
+"thAlt": [
+"สูท"
+]
+},
+"狭い_せまい": {
+"sub": "describe.size",
+"en": "narrow; small; cramped",
+"thAlt": [
+"คับแคบ"
+]
+},
+"千_せん": {
+"sub": "number.number",
+"en": "thousand; one thousand; 1000",
+"thAlt": [
+"หนึ่งพัน",
+"1000"
+]
+},
+"先月_せんげつ": {
+"sub": "time.season",
+"en": "last month",
+"thAlt": [
+"เดือนก่อน"
+]
+},
+"先週_せんしゅう": {
+"sub": "time.day",
+"en": "last week",
+"thAlt": [
+"อาทิตย์ที่แล้ว",
+"อาทิตย์ก่อน"
+]
+},
+"先生_せんせい": {
+"sub": "school.school",
+"en": "teacher; instructor; doctor",
+"thAlt": [
+"ครู"
+]
+},
+"洗濯_せんたく": {
+"sub": "home.routine",
+"en": "laundry; washing; to do laundry",
+"thAlt": [
+"ซักผ้า"
+]
+},
+"ゼロ / 零_ぜろ / れい": {
+"sub": "number.number",
+"en": "zero; 0",
+"thAlt": [
+"0"
+]
+},
+"全部_ぜんぶ": {
+"sub": "number.amount",
+"en": "all; everything; the whole",
+"thAlt": [
+"ทุกอัน"
+]
+},
+"そう_そう": {
+"sub": "basic.pointing",
+"en": "so; like that; that way",
+"thAlt": [
+"ใช่"
+]
+},
+"そうして_そうして": {
+"sub": "adverb.connector",
+"en": "and then; and; so",
+"thAlt": [
+"จากนั้น"
+]
+},
+"掃除_そうじ": {
+"sub": "home.routine",
+"en": "cleaning; to clean",
+"thAlt": [
+"ทำความสะอาด"
+]
+},
+"そこ_そこ": {
+"sub": "basic.pointing",
+"en": "there; that place",
+"thAlt": []
+},
+"そちら_そちら": {
+"sub": "basic.pointing",
+"en": "that way; there; that person",
+"thAlt": []
+},
+"そっち_そっち": {
+"sub": "basic.pointing",
+"en": "that way; there",
+"thAlt": []
+},
+"外_そと": {
+"sub": "town.position",
+"en": "outside; outdoors; exterior",
+"thAlt": [
+"นอกบ้าน"
+]
+},
+"その_その": {
+"sub": "basic.pointing",
+"en": "that",
+"thAlt": [
+"นั้น"
+]
+},
+"そば_そば": {
+"sub": "town.position",
+"en": "near; beside; nearby; side",
+"thAlt": [
+"ใกล้"
+]
+},
+"空_そら": {
+"sub": "nature.nature",
+"en": "sky",
+"thAlt": [
+"ฟ้า"
+]
+},
+"それ_それ": {
+"sub": "basic.pointing",
+"en": "that; that one",
+"thAlt": []
+},
+"それから_それから": {
+"sub": "adverb.connector",
+"en": "after that; and then; then",
+"thAlt": [
+"จากนั้น"
+]
+},
+"それでは_それでは": {
+"sub": "adverb.connector",
+"en": "well then; in that case; then",
+"thAlt": [
+"งั้น"
+]
+},
+"大使館_たいしかん": {
+"sub": "town.building",
+"en": "embassy",
+"thAlt": [
+"สถานทูต"
+]
+},
+"大切_たいせつ": {
+"sub": "describe.quality",
+"en": "important; precious; valuable",
+"thAlt": [
+"ล้ำค่า"
+]
+},
+"たいてい_たいてい": {
+"sub": "adverb.timing",
+"en": "usually; generally; mostly",
+"thAlt": [
+"ส่วนใหญ่",
+"มักจะ"
+]
+},
+"大変_たいへん": {
+"sub": "describe.state",
+"en": "hard; tough; terrible; very",
+"thAlt": [
+"ยากลำบาก",
+"แย่"
+]
+},
+"高い_たかい": {
+"sub": "describe.size",
+"en": "high; tall; expensive",
+"thAlt": []
+},
+"沢山_たくさん": {
+"sub": "number.amount",
+"en": "many; a lot; plenty",
+"thAlt": [
+"มากมาย",
+"เยอะแยะ"
+]
+},
+"立つ_たつ": {
+"sub": "action.move",
+"en": "to stand; stand; stand up",
+"thAlt": [
+"ลุกขึ้นยืน"
+]
+},
+"建物_たてもの": {
+"sub": "town.building",
+"en": "building",
+"thAlt": [
+"สิ่งก่อสร้าง"
+]
+},
+"楽しい_たのしい": {
+"sub": "heart.emotion",
+"en": "fun; enjoyable; pleasant",
+"thAlt": [
+"สนุก"
+]
+},
+"頼む_たのむ": {
+"sub": "action.talk",
+"en": "to ask; to request; to order",
+"thAlt": [
+"ขอ",
+"ไหว้วาน"
+]
+},
+"たばこ_たばこ": {
+"sub": "home.belonging",
+"en": "cigarette; tobacco",
+"thAlt": [
+"ยาสูบ"
+]
+},
+"多分_たぶん": {
+"sub": "adverb.manner",
+"en": "probably; perhaps; maybe",
+"thAlt": [
+"คงจะ"
+]
+},
+"食べ物_たべもの": {
+"sub": "food.dish",
+"en": "food",
+"thAlt": []
+},
+"食べる_たべる": {
+"sub": "food.verb",
+"en": "to eat; eat; to have a meal",
+"thAlt": [
+"ทาน"
+]
+},
+"卵_たまご": {
+"sub": "food.ingredient",
+"en": "egg; eggs",
+"thAlt": [
+"ไข่ไก่"
+]
+},
+"誕生日_たんじょうび": {
+"sub": "time.day",
+"en": "birthday",
+"thAlt": [
+"วันคล้ายวันเกิด"
+]
+},
+"大学_だいがく": {
+"sub": "school.school",
+"en": "university; college",
+"thAlt": [
+"มหาลัย"
+]
+},
+"大丈夫_だいじょうぶ": {
+"sub": "describe.state",
+"en": "all right; OK; fine; safe",
+"thAlt": [
+"โอเค",
+"สบายดี"
+]
+},
+"大好き_だいすき": {
+"sub": "heart.emotion",
+"en": "to love; love; really like",
+"thAlt": [
+"รักมาก",
+"ชอบมากๆ"
+]
+},
+"台所_だいどころ": {
+"sub": "home.house",
+"en": "kitchen",
+"thAlt": [
+"ครัว"
+]
+},
+"出す_だす": {
+"sub": "action.hand",
+"en": "to take out; take out; to send; to hand in",
+"thAlt": [
+"หยิบออก",
+"ยื่น"
+]
+},
+"誰_だれ": {
+"sub": "basic.question",
+"en": "who",
+"thAlt": []
+},
+"誰も_だれも": {
+"sub": "basic.question",
+"en": "nobody; no one; anyone",
+"thAlt": [
+"ไม่มีใคร",
+"ไม่มีใครเลย"
+]
+},
+"だんだん_だんだん": {
+"sub": "adverb.timing",
+"en": "gradually; little by little; step by step",
+"thAlt": [
+"เรื่อยๆ",
+"ทีละนิด"
+]
+},
+"小さい_ちいさい": {
+"sub": "describe.size",
+"en": "small; little",
+"thAlt": [
+"เล็กๆ"
+]
+},
+"近い_ちかい": {
+"sub": "town.position",
+"en": "near; close",
+"thAlt": [
+"ใกล้ๆ"
+]
+},
+"地下鉄_ちかてつ": {
+"sub": "transport.vehicle",
+"en": "subway; underground; metro",
+"thAlt": [
+"รถไฟฟ้าใต้ดิน",
+"เมโทร"
+]
+},
+"違う_ちがう": {
+"sub": "describe.state",
+"en": "to be different; differ; to be wrong",
+"thAlt": [
+"ผิด",
+"ต่างกัน"
+]
+},
+"地図_ちず": {
+"sub": "town.street",
+"en": "map",
+"thAlt": []
+},
+"父_ちち": {
+"sub": "people.family",
+"en": "father; my father; dad",
+"thAlt": [
+"พ่อ"
+]
+},
+"茶色_ちゃいろ": {
+"sub": "clothes.color",
+"en": "brown",
+"thAlt": [
+"น้ำตาล"
+]
+},
+"茶碗_ちゃわん": {
+"sub": "food.tableware",
+"en": "rice bowl; teacup; bowl",
+"thAlt": [
+"ถ้วย",
+"ชาม"
+]
+},
+"ちょうど_ちょうど": {
+"sub": "adverb.manner",
+"en": "exactly; just; precisely",
+"thAlt": [
+"เป๊ะ",
+"พอดีเลย"
+]
+},
+"ちょっと_ちょっと": {
+"sub": "adverb.degree",
+"en": "a little; a bit; a moment",
+"thAlt": [
+"หน่อย",
+"แป๊บนึง"
+]
+},
+"一日_ついたち": {
+"sub": "time.day",
+"en": "the 1st; first of the month",
+"thAlt": [
+"วันที่หนึ่ง"
+]
+},
+"使う_つかう": {
+"sub": "action.hand",
+"en": "to use; use",
+"thAlt": [
+"ใช้สอย"
+]
+},
+"疲れる_つかれる": {
+"sub": "body.state",
+"en": "to get tired; be tired; tired",
+"thAlt": [
+"เพลีย"
+]
+},
+"次_つぎ": {
+"sub": "time.relative",
+"en": "next; following",
+"thAlt": [
+"คราวหน้า"
+]
+},
+"着く_つく": {
+"sub": "transport.verb",
+"en": "to arrive; arrive; to reach",
+"thAlt": [
+"มาถึง"
+]
+},
+"机_つくえ": {
+"sub": "home.furniture",
+"en": "desk",
+"thAlt": [
+"โต๊ะ"
+]
+},
+"作る_つくる": {
+"sub": "food.verb",
+"en": "to make; make; to cook; to build",
+"thAlt": [
+"ทำอาหาร"
+]
+},
+"付ける_つける": {
+"sub": "action.hand",
+"en": "to turn on; turn on; to attach; switch on",
+"thAlt": [
+"เปิดไฟ"
+]
+},
+"点ける_つける": {
+"sub": "action.hand",
+"en": "to turn on; turn on; to light; switch on",
+"thAlt": [
+"เปิดไฟ",
+"เปิด"
+]
+},
+"勤める_つとめる": {
+"sub": "work.verb",
+"en": "to work for; work at; be employed",
+"thAlt": [
+"ทำงาน"
+]
+},
+"詰らない_つまらない": {
+"sub": "heart.emotion",
+"en": "boring; dull; uninteresting",
+"thAlt": [
+"ไม่สนุก"
+]
+},
+"冷たい_つめたい": {
+"sub": "describe.state",
+"en": "cold; chilly; cold to touch",
+"thAlt": [
+"เย็นชา"
+]
+},
+"強い_つよい": {
+"sub": "describe.quality",
+"en": "strong; powerful",
+"thAlt": [
+"แรง"
+]
+},
+"手_て": {
+"sub": "body.part",
+"en": "hand; hands; arm",
+"thAlt": []
+},
+"手紙_てがみ": {
+"sub": "hobby.media",
+"en": "letter",
+"thAlt": []
+},
+"天気_てんき": {
+"sub": "nature.weather",
+"en": "weather; nice weather",
+"thAlt": [
+"อากาศ"
+]
+},
+"出かける_でかける": {
+"sub": "transport.verb",
+"en": "to go out; go out; to leave",
+"thAlt": [
+"ไปข้างนอก",
+"ออกไปเที่ยว"
+]
+},
+"出来る_できる": {
+"sub": "action.basic",
+"en": "to be able to; can; to be done",
+"thAlt": [
+"ได้"
+]
+},
+"出口_でぐち": {
+"sub": "town.building",
+"en": "exit; way out",
+"thAlt": [
+"ประตูทางออก"
+]
+},
+"では_では": {
+"sub": "adverb.connector",
+"en": "well then; then; in that case",
+"thAlt": [
+"งั้น"
+]
+},
+"出ます_でます": {
+"sub": "transport.verb",
+"en": "to leave; leave; to go out; to exit",
+"thAlt": [
+"ออกจากบ้าน"
+]
+},
+"でも_でも": {
+"sub": "adverb.connector",
+"en": "but; however",
+"thAlt": [
+"แต่ทว่า"
+]
+},
+"電気_でんき": {
+"sub": "home.furniture",
+"en": "electricity; light; lights",
+"thAlt": [
+"ไฟ"
+]
+},
+"電車_でんしゃ": {
+"sub": "transport.vehicle",
+"en": "train; electric train",
+"thAlt": [
+"รถไฟฟ้า"
+]
+},
+"電話_でんわ": {
+"sub": "hobby.media",
+"en": "telephone; phone; phone call",
+"thAlt": [
+"โทร"
+]
+},
+"戸_と": {
+"sub": "home.house",
+"en": "door; sliding door",
+"thAlt": [
+"ประตู"
+]
+},
+"遠い_とおい": {
+"sub": "town.position",
+"en": "far; distant",
+"thAlt": [
+"ห่างไกล"
+]
+},
+"十日_とおか": {
+"sub": "time.day",
+"en": "the 10th; tenth day; ten days",
+"thAlt": [
+"วันที่สิบ"
+]
+},
+"通り_とおり": {
+"sub": "town.street",
+"en": "street; avenue; road",
+"thAlt": [
+"ทาง"
+]
+},
+"時々_ときどき": {
+"sub": "adverb.timing",
+"en": "sometimes; occasionally",
+"thAlt": [
+"บางที"
+]
+},
+"時計_とけい": {
+"sub": "home.belonging",
+"en": "clock; watch",
+"thAlt": [
+"นาฬิกาข้อมือ"
+]
+},
+"所_ところ": {
+"sub": "town.position",
+"en": "place; spot",
+"thAlt": [
+"แห่ง",
+"ตรง"
+]
+},
+"図書館_としょかん": {
+"sub": "town.building",
+"en": "library",
+"thAlt": []
+},
+"とても_とても": {
+"sub": "adverb.degree",
+"en": "very; extremely",
+"thAlt": [
+"มากๆ"
+]
+},
+"隣り_となり": {
+"sub": "town.position",
+"en": "next to; next door; neighbor",
+"thAlt": [
+"ติดกัน",
+"ข้างบ้าน"
+]
+},
+"飛ぶ_とぶ": {
+"sub": "action.move",
+"en": "to fly; fly; to jump",
+"thAlt": [
+"บินไป"
+]
+},
+"止まる_とまる": {
+"sub": "action.change",
+"en": "to stop; stop; to halt",
+"thAlt": []
+},
+"友達_ともだち": {
+"sub": "people.relation",
+"en": "friend; friends",
+"thAlt": [
+"เพื่อนๆ"
+]
+},
+"鳥_とり": {
+"sub": "nature.animal",
+"en": "bird",
+"thAlt": []
+},
+"鶏肉_とりにく": {
+"sub": "food.ingredient",
+"en": "chicken; chicken meat",
+"thAlt": [
+"ไก่"
+]
+},
+"取る_とる": {
+"sub": "action.hand",
+"en": "to take; take; to pick up; to pass",
+"thAlt": [
+"ส่งให้",
+"เอามา"
+]
+},
+"撮る_とる": {
+"sub": "hobby.art",
+"en": "to take a photo; take a picture; to shoot",
+"thAlt": [
+"ถ่ายรูป",
+"ถ่ายภาพ"
+]
+},
+"どう_どう": {
+"sub": "basic.question",
+"en": "how; what about",
+"thAlt": [
+"ยังไง",
+"เป็นไง"
+]
+},
+"どうして_どうして": {
+"sub": "basic.question",
+"en": "why; how come",
+"thAlt": [
+"เพราะอะไร"
+]
+},
+"どうぞ_どうぞ": {
+"sub": "basic.greeting",
+"en": "please; go ahead; here you are",
+"thAlt": [
+"เชิญเลย",
+"เชิญค่ะ"
+]
+},
+"動物_どうぶつ": {
+"sub": "nature.animal",
+"en": "animal; animals",
+"thAlt": []
+},
+"どうも_どうも": {
+"sub": "basic.greeting",
+"en": "thanks; thank you; very much",
+"thAlt": [
+"ขอบใจ"
+]
+},
+"どこ_どこ": {
+"sub": "basic.question",
+"en": "where; what place",
+"thAlt": [
+"ตรงไหน"
+]
+},
+"どちら_どちら": {
+"sub": "basic.question",
+"en": "which; which way; where",
+"thAlt": [
+"ที่ไหน"
+]
+},
+"どなた_どなた": {
+"sub": "basic.question",
+"en": "who",
+"thAlt": [
+"ท่านใด"
+]
+},
+"どの_どの": {
+"sub": "basic.question",
+"en": "which",
+"thAlt": [
+"อันไหน"
+]
+},
+"土曜日_どようび": {
+"sub": "time.day",
+"en": "Saturday",
+"thAlt": [
+"เสาร์"
+]
+},
+"どれ_どれ": {
+"sub": "basic.question",
+"en": "which; which one",
+"thAlt": []
+},
+"どんな_どんな": {
+"sub": "basic.question",
+"en": "what kind of; what sort of",
+"thAlt": [
+"ประเภทไหน",
+"แบบใด"
+]
+},
+"中_なか": {
+"sub": "town.position",
+"en": "inside; in; middle",
+"thAlt": [
+"ใน",
+"ตรงกลาง"
+]
+},
+"長い_ながい": {
+"sub": "describe.size",
+"en": "long",
+"thAlt": []
+},
+"鳴く_なく": {
+"sub": "nature.animal",
+"en": "to cry; to chirp; to bark; to sing",
+"thAlt": [
+"ส่งเสียงร้อง"
+]
+},
+"夏_なつ": {
+"sub": "time.season",
+"en": "summer",
+"thAlt": [
+"หน้าร้อน"
+]
+},
+"夏休み_なつやすみ": {
+"sub": "hobby.leisure",
+"en": "summer vacation; summer holidays; summer break",
+"thAlt": [
+"ปิดเทอม",
+"หยุดหน้าร้อน"
+]
+},
+"七つ_ななつ": {
+"sub": "number.counter",
+"en": "seven things; seven; 7 items",
+"thAlt": [
+"เจ็ด",
+"เจ็ดอัน",
+"7"
+]
+},
+"何_なに": {
+"sub": "basic.question",
+"en": "what",
+"thAlt": []
+},
+"七日_なのか": {
+"sub": "time.day",
+"en": "the seventh; 7th day; seven days",
+"thAlt": [
+"วันที่เจ็ด",
+"เจ็ดวัน"
+]
+},
+"名前_なまえ": {
+"sub": "people.person",
+"en": "name",
+"thAlt": []
+},
+"習う_ならう": {
+"sub": "school.verb",
+"en": "to learn; learn; to take lessons",
+"thAlt": [
+"เรียน",
+"เรียนรู้",
+"ฝึกฝน"
+]
+},
+"並ぶ_ならぶ": {
+"sub": "action.move",
+"en": "to line up; line up; to stand in line; to queue",
+"thAlt": [
+"ต่อแถว",
+"เรียงแถว"
+]
+},
+"並べる_ならべる": {
+"sub": "action.hand",
+"en": "to arrange; arrange; to line up; to lay out",
+"thAlt": [
+"เรียง",
+"จัดวาง"
+]
+},
+"なる_なる": {
+"sub": "action.basic",
+"en": "to become; become; to get",
+"thAlt": [
+"เป็น",
+"กลาย"
+]
+},
+"何時_なんじ": {
+"sub": "basic.question",
+"en": "what time; what hour",
+"thAlt": [
+"ตอนกี่โมง"
+]
+},
+"何日_なんにち": {
+"sub": "basic.question",
+"en": "what date; what day; how many days",
+"thAlt": [
+"วันที่อะไร"
+]
+},
+"何人_なんにん": {
+"sub": "basic.question",
+"en": "how many people",
+"thAlt": [
+"กี่ท่าน"
+]
+},
+"何分_なんぷん": {
+"sub": "basic.question",
+"en": "how many minutes; what minute",
+"thAlt": []
+},
+"二_に": {
+"sub": "number.number",
+"en": "two; 2",
+"thAlt": [
+"สอง",
+"2"
+]
+},
+"二月_にがつ": {
+"sub": "time.season",
+"en": "February; Feb",
+"thAlt": [
+"กุมภาพันธ์",
+"กุมภา",
+"ก.พ."
+]
+},
+"賑やか_にぎやか": {
+"sub": "describe.state",
+"en": "lively; busy; bustling",
+"thAlt": [
+"จอแจ",
+"พลุกพล่าน"
+]
+},
+"西_にし": {
+"sub": "town.position",
+"en": "west",
+"thAlt": [
+"ตะวันตก",
+"ทิศตก"
+]
+},
+"日曜日_にちようび": {
+"sub": "time.day",
+"en": "Sunday",
+"thAlt": [
+"อาทิตย์",
+"วันอา"
+]
+},
+"荷物_にもつ": {
+"sub": "transport.travel",
+"en": "luggage; baggage; package",
+"thAlt": [
+"กระเป๋าเดินทาง",
+"พัสดุ"
+]
+},
+"庭_にわ": {
+"sub": "home.house",
+"en": "garden; yard",
+"thAlt": [
+"สนาม"
+]
+},
+"脱ぐ_ぬぐ": {
+"sub": "clothes.verb",
+"en": "to take off; take off; to remove clothes",
+"thAlt": [
+"ถอด",
+"ถอดเสื้อ",
+"ถอดรองเท้า"
+]
+},
+"寝る_ねる": {
+"sub": "home.routine",
+"en": "to sleep; sleep; to go to bed",
+"thAlt": [
+"หลับ",
+"นอนหลับ"
+]
+},
+"登る_のぼる": {
+"sub": "action.move",
+"en": "to climb; climb; to go up",
+"thAlt": [
+"ขึ้น",
+"ปีนเขา",
+"ขึ้นเขา"
+]
+},
+"飲物_のみもの": {
+"sub": "food.drink",
+"en": "drink; beverage; drinks",
+"thAlt": []
+},
+"飲む_のむ": {
+"sub": "food.verb",
+"en": "to drink; drink; to take medicine",
+"thAlt": []
+},
+"乗る_のる": {
+"sub": "transport.verb",
+"en": "to ride; ride; to get on; to board",
+"thAlt": [
+"ขึ้นรถ",
+"นั่ง",
+"ขี่"
+]
+},
+"歯_は": {
+"sub": "body.part",
+"en": "tooth; teeth",
+"thAlt": []
+},
+"はい_はい": {
+"sub": "basic.greeting",
+"en": "yes",
+"thAlt": [
+"ใช่ครับ",
+"ใช่ค่ะ"
+]
+},
+"灰皿_はいざら": {
+"sub": "home.belonging",
+"en": "ashtray",
+"thAlt": [
+"ที่เขี่ย"
+]
+},
+"入る_はいる": {
+"sub": "transport.verb",
+"en": "to enter; enter; to go in; to come in",
+"thAlt": [
+"เข้าไป",
+"เข้ามา"
+]
+},
+"葉書_はがき": {
+"sub": "hobby.media",
+"en": "postcard",
+"thAlt": [
+"การ์ด"
+]
+},
+"履く_はく": {
+"sub": "clothes.verb",
+"en": "to wear; wear; to put on",
+"thAlt": [
+"ใส่",
+"สวม",
+"ใส่รองเท้า"
+]
+},
+"箱_はこ": {
+"sub": "home.belonging",
+"en": "box; case",
+"thAlt": [
+"หีบ"
+]
+},
+"箸_はし": {
+"sub": "food.tableware",
+"en": "chopsticks",
+"thAlt": []
+},
+"橋_はし": {
+"sub": "town.street",
+"en": "bridge",
+"thAlt": []
+},
+"走る_はしる": {
+"sub": "action.move",
+"en": "to run; run",
+"thAlt": []
+},
+"始まる_はじまる": {
+"sub": "action.change",
+"en": "to begin; begin; to start",
+"thAlt": [
+"เริ่ม"
+]
+},
+"始め_はじめ": {
+"sub": "time.relative",
+"en": "beginning; start; the first",
+"thAlt": [
+"ตอนต้น",
+"เริ่มแรก"
+]
+},
+"初めて_はじめて": {
+"sub": "adverb.timing",
+"en": "for the first time; first time",
+"thAlt": [
+"ครั้งแรก"
+]
+},
+"二十歳_はたち": {
+"sub": "number.counter",
+"en": "twenty years old; age 20; 20 years old",
+"thAlt": [
+"20 ปี",
+"ยี่สิบปี",
+"อายุยี่สิบ"
+]
+},
+"働く_はたらく": {
+"sub": "work.verb",
+"en": "to work; work",
+"thAlt": []
+},
+"八_はち": {
+"sub": "number.number",
+"en": "eight; 8",
+"thAlt": [
+"แปด",
+"8"
+]
+},
+"八月_はちがつ": {
+"sub": "time.season",
+"en": "August; Aug",
+"thAlt": [
+"สิงหาคม",
+"สิงหา",
+"ส.ค."
+]
+},
+"二十日_はつか": {
+"sub": "time.day",
+"en": "the twentieth; 20th day; twenty days",
+"thAlt": [
+"วันที่ยี่สิบ",
+"ยี่สิบวัน"
+]
+},
+"花_はな": {
+"sub": "nature.animal",
+"en": "flower; flowers",
+"thAlt": [
+"ดอก"
+]
+},
+"鼻_はな": {
+"sub": "body.part",
+"en": "nose",
+"thAlt": []
+},
+"話_はなし": {
+"sub": "action.talk",
+"en": "story; talk; conversation",
+"thAlt": [
+"เรื่อง",
+"การพูดคุย"
+]
+},
+"話す_はなす": {
+"sub": "action.talk",
+"en": "to speak; speak; to talk; to tell",
+"thAlt": [
+"พูดคุย",
+"คุย"
+]
+},
+"母_はは": {
+"sub": "people.family",
+"en": "mother; my mother; mom",
+"thAlt": [
+"แม่",
+"มารดา"
+]
+},
+"早い_はやい": {
+"sub": "time.relative",
+"en": "early; quick; soon",
+"thAlt": [
+"แต่เช้า",
+"ไว"
+]
+},
+"速い_はやい": {
+"sub": "describe.state",
+"en": "fast; quick; rapid",
+"thAlt": [
+"ไว",
+"รวดเร็ว"
+]
+},
+"春_はる": {
+"sub": "time.season",
+"en": "spring; springtime",
+"thAlt": [
+"ใบไม้ผลิ",
+"หน้าใบไม้ผลิ"
+]
+},
+"張る_はる": {
+"sub": "action.hand",
+"en": "to stick; stick; to put up; to paste",
+"thAlt": [
+"แปะติด"
+]
+},
+"春休み_はるやすみ": {
+"sub": "time.season",
+"en": "spring break; spring vacation; spring holiday",
+"thAlt": [
+"ปิดเทอมฤดูใบไม้ผลิ",
+"ปิดเทอม"
+]
+},
+"晴れる_はれる": {
+"sub": "nature.weather",
+"en": "to clear up; clear up; to be sunny",
+"thAlt": [
+"ฟ้าใส",
+"แดดออก",
+"แจ่มใส"
+]
+},
+"半_はん": {
+"sub": "time.clock",
+"en": "half; half past; thirty minutes",
+"thAlt": [
+"ครึ่งชั่วโมง",
+"สามสิบนาที"
+]
+},
+"半分_はんぶん": {
+"sub": "number.amount",
+"en": "half; one half",
+"thAlt": [
+"ครึ่ง"
+]
+},
+"晩_ばん": {
+"sub": "time.clock",
+"en": "evening; night",
+"thAlt": [
+"ค่ำ",
+"ตอนค่ำ"
+]
+},
+"番号_ばんごう": {
+"sub": "number.number",
+"en": "number; ID number",
+"thAlt": [
+"เลข",
+"เลขที่"
+]
+},
+"晩ご飯_ばんごはん": {
+"sub": "food.dish",
+"en": "dinner; supper; evening meal",
+"thAlt": [
+"ข้าวเย็น",
+"มื้อเย็น"
+]
+},
+"東_ひがし": {
+"sub": "town.position",
+"en": "east",
+"thAlt": [
+"ตะวันออก",
+"ทิศออก"
+]
+},
+"引く_ひく": {
+"sub": "action.hand",
+"en": "to pull; pull; to look up; to draw",
+"thAlt": [
+"เปิดพจนานุกรม",
+"ค้น"
+]
+},
+"弾く_ひく": {
+"sub": "hobby.art",
+"en": "to play; play; to play an instrument",
+"thAlt": [
+"เล่นดนตรี",
+"ดีดกีตาร์",
+"เล่นเปียโน"
+]
+},
+"低い_ひくい": {
+"sub": "describe.size",
+"en": "low; short",
+"thAlt": [
+"ไม่สูง"
+]
+},
+"飛行機_ひこうき": {
+"sub": "transport.vehicle",
+"en": "airplane; plane; aircraft",
+"thAlt": []
+},
+"左_ひだり": {
+"sub": "town.position",
+"en": "left; left side",
+"thAlt": [
+"ทางซ้าย",
+"ข้างซ้าย"
+]
+},
+"人_ひと": {
+"sub": "people.person",
+"en": "person; people; human",
+"thAlt": [
+"ผู้คน"
+]
+},
+"一つ_ひとつ": {
+"sub": "number.counter",
+"en": "one thing; one; 1 item",
+"thAlt": [
+"หนึ่ง",
+"หนึ่งอัน",
+"1"
+]
+},
+"一月_ひとつき": {
+"sub": "time.season",
+"en": "one month; a month",
+"thAlt": [
+"หนึ่งเดือน",
+"เดือนหนึ่ง"
+]
+},
+"一人_ひとり": {
+"sub": "number.counter",
+"en": "one person; alone; by oneself",
+"thAlt": [
+"หนึ่งคน",
+"คนหนึ่ง",
+"ลำพัง"
+]
+},
+"暇_ひま": {
+"sub": "describe.state",
+"en": "free time; free; not busy",
+"thAlt": [
+"ไม่ยุ่ง",
+"มีเวลาว่าง"
+]
+},
+"百_ひゃく": {
+"sub": "number.number",
+"en": "hundred; one hundred; 100",
+"thAlt": [
+"ร้อย",
+"100"
+]
+},
+"平仮名_ひらがな": {
+"sub": "school.language",
+"en": "hiragana",
+"thAlt": [
+"ฮิรางานะ",
+"ฮิระงะนะ"
+]
+},
+"昼_ひる": {
+"sub": "time.clock",
+"en": "noon; daytime; lunch",
+"thAlt": [
+"กลางวัน",
+"เที่ยง"
+]
+},
+"昼ご飯_ひるごはん": {
+"sub": "food.dish",
+"en": "lunch; midday meal",
+"thAlt": [
+"ข้าวกลางวัน",
+"มื้อเที่ยง"
+]
+},
+"広い_ひろい": {
+"sub": "describe.size",
+"en": "wide; spacious; broad",
+"thAlt": [
+"กว้างใหญ่"
+]
+},
+"病院_びょういん": {
+"sub": "body.illness",
+"en": "hospital; clinic",
+"thAlt": [
+"รพ."
+]
+},
+"病気_びょうき": {
+"sub": "body.illness",
+"en": "illness; sickness; disease",
+"thAlt": [
+"ป่วย",
+"ไม่สบาย"
+]
+},
+"封筒_ふうとう": {
+"sub": "hobby.media",
+"en": "envelope",
+"thAlt": [
+"ซอง"
+]
+},
+"服_ふく": {
+"sub": "clothes.wear",
+"en": "clothes; clothing",
+"thAlt": [
+"เสื้อ",
+"ชุด"
+]
+},
+"吹く_ふく": {
+"sub": "nature.weather",
+"en": "to blow; blow",
+"thAlt": [
+"ลมพัด"
+]
+},
+"二つ_ふたつ": {
+"sub": "number.counter",
+"en": "two things; two; 2 items",
+"thAlt": [
+"สอง",
+"สองอัน",
+"2"
+]
+},
+"二人_ふたり": {
+"sub": "number.counter",
+"en": "two people; two persons; a couple",
+"thAlt": []
+},
+"二日_ふつか": {
+"sub": "time.day",
+"en": "the second; 2nd day; two days",
+"thAlt": [
+"วันที่ 2",
+"2 วัน",
+"สองวัน"
+]
+},
+"太い_ふとい": {
+"sub": "describe.size",
+"en": "thick; fat; wide",
+"thAlt": [
+"เส้นหนา"
+]
+},
+"冬休み_ふゆやすみ": {
+"sub": "time.season",
+"en": "winter break; winter vacation; winter holiday",
+"thAlt": [
+"ปิดเทอมฤดูหนาว",
+"ปิดเทอม"
+]
+},
+"降る_ふる": {
+"sub": "nature.weather",
+"en": "to fall; fall; to rain; to snow",
+"thAlt": [
+"ตก",
+"ฝนตก",
+"หิมะตก"
+]
+},
+"古い_ふるい": {
+"sub": "describe.quality",
+"en": "old; aged; ancient",
+"thAlt": [
+"โบราณ"
+]
+},
+"豚肉_ぶたにく": {
+"sub": "food.ingredient",
+"en": "pork",
+"thAlt": [
+"หมู"
+]
+},
+"下手_へた": {
+"sub": "describe.quality",
+"en": "bad at; unskillful; poor at",
+"thAlt": [
+"ห่วย",
+"ไม่ชำนาญ"
+]
+},
+"部屋_へや": {
+"sub": "home.house",
+"en": "room",
+"thAlt": []
+},
+"辺_へん": {
+"sub": "town.position",
+"en": "area; vicinity; around here",
+"thAlt": [
+"แถว",
+"บริเวณ"
+]
+},
+"勉強_べんきょう": {
+"sub": "school.study",
+"en": "to study; study; studying",
+"thAlt": [
+"เรียน",
+"เรียนหนังสือ"
+]
+},
+"便利_べんり": {
+"sub": "describe.quality",
+"en": "convenient; handy; useful",
+"thAlt": [
+"สะดวก"
+]
+},
+"ペン_ペン": {
+"sub": "school.stationery",
+"en": "pen",
+"thAlt": []
+},
+"方_ほう": {
+"sub": "town.position",
+"en": "direction; side; way",
+"thAlt": [
+"ทาง",
+"ทิศทาง"
+]
+},
+"他_ほか": {
+"sub": "basic.pointing",
+"en": "other; another; else",
+"thAlt": [
+"อย่างอื่น",
+"ที่อื่น"
+]
+},
+"欲しい_ほしい": {
+"sub": "heart.emotion",
+"en": "want; to want; wanted",
+"thAlt": [
+"อยาก"
+]
+},
+"細い_ほそい": {
+"sub": "describe.size",
+"en": "thin; slender; narrow",
+"thAlt": [
+"บาง",
+"แคบ"
+]
+},
+"本_ほん": {
+"sub": "school.stationery",
+"en": "book",
+"thAlt": []
+},
+"本棚_ほんだな": {
+"sub": "home.furniture",
+"en": "bookshelf; bookcase",
+"thAlt": [
+"ชั้นหนังสือ"
+]
+},
+"本当に_ほんとうに": {
+"sub": "adverb.degree",
+"en": "really; truly; indeed",
+"thAlt": [
+"จริง",
+"แท้จริง"
+]
+},
+"帽子_ぼうし": {
+"sub": "clothes.wear",
+"en": "hat; cap",
+"thAlt": []
+},
+"ポスト_ポスト": {
+"sub": "hobby.media",
+"en": "postbox; mailbox",
+"thAlt": [
+"ตู้จดหมาย"
+]
+},
+"毎朝_まいあさ": {
+"sub": "time.clock",
+"en": "every morning",
+"thAlt": []
+},
+"毎週_まいしゅう": {
+"sub": "time.day",
+"en": "every week; weekly",
+"thAlt": [
+"ทุกอาทิตย์"
+]
+},
+"毎月_まいつき / まいげつ": {
+"sub": "time.season",
+"en": "every month; monthly",
+"thAlt": []
+},
+"毎年_まいとし / まいねん": {
+"sub": "time.season",
+"en": "every year; yearly; annually",
+"thAlt": []
+},
+"毎日_まいにち": {
+"sub": "time.day",
+"en": "every day; daily",
+"thAlt": []
+},
+"毎晩_まいばん": {
+"sub": "time.clock",
+"en": "every night; every evening",
+"thAlt": [
+"ทุกค่ำ"
+]
+},
+"前_まえ": {
+"sub": "town.position",
+"en": "front; in front; before",
+"thAlt": [
+"ด้านหน้า",
+"ก่อน"
+]
+},
+"曲がる_まがる": {
+"sub": "town.street",
+"en": "to turn; turn; to bend",
+"thAlt": []
+},
+"不味い_まずい": {
+"sub": "food.taste",
+"en": "tastes bad; not tasty; unpleasant",
+"thAlt": []
+},
+"また_また": {
+"sub": "adverb.timing",
+"en": "again; also; once more",
+"thAlt": [
+"อีก"
+]
+},
+"まだ_まだ": {
+"sub": "adverb.timing",
+"en": "still; not yet; yet",
+"thAlt": [
+"ยังไม่"
+]
+},
+"町_まち": {
+"sub": "town.region",
+"en": "town; city; neighborhood",
+"thAlt": [
+"ตัวเมือง",
+"เมืองเล็ก"
+]
+},
+"真直ぐに_まっすぐに": {
+"sub": "town.street",
+"en": "straight; straight ahead; directly",
+"thAlt": [
+"ตรง",
+"ตรงไปเลย"
+]
+},
+"待つ_まつ": {
+"sub": "action.basic",
+"en": "to wait; wait; to wait for",
+"thAlt": []
+},
+"窓_まど": {
+"sub": "home.house",
+"en": "window",
+"thAlt": []
+},
+"丸い_まるい": {
+"sub": "describe.size",
+"en": "round; circular",
+"thAlt": []
+},
+"万_まん": {
+"sub": "number.number",
+"en": "ten thousand; 10,000",
+"thAlt": [
+"หมื่น",
+"10000"
+]
+},
+"万年筆_まんねんひつ": {
+"sub": "school.stationery",
+"en": "fountain pen",
+"thAlt": []
+},
+"磨く_みがく": {
+"sub": "home.routine",
+"en": "to brush; brush; to polish",
+"thAlt": [
+"แปรง",
+"แปรงฟัน"
+]
+},
+"右_みぎ": {
+"sub": "town.position",
+"en": "right; right side",
+"thAlt": [
+"ทางขวา",
+"ข้างขวา"
+]
+},
+"短い_みじかい": {
+"sub": "describe.size",
+"en": "short; brief",
+"thAlt": []
+},
+"店_みせ": {
+"sub": "town.shop",
+"en": "shop; store",
+"thAlt": [
+"ร้าน"
+]
+},
+"見せる_みせる": {
+"sub": "action.hand",
+"en": "to show; show; to let see",
+"thAlt": [
+"โชว์",
+"ให้ชม"
+]
+},
+"道_みち": {
+"sub": "town.street",
+"en": "road; street; way; path",
+"thAlt": [
+"ทาง",
+"เส้นทาง"
+]
+},
+"三日_みっか": {
+"sub": "time.day",
+"en": "the third; 3rd day; three days",
+"thAlt": [
+"วันที่สาม",
+"สามวัน"
+]
+},
+"三つ_みっつ": {
+"sub": "number.counter",
+"en": "three things; three; 3 items",
+"thAlt": [
+"สาม",
+"สามอัน",
+"3"
+]
+},
+"皆さん_みなさん": {
+"sub": "basic.pointing",
+"en": "everyone; everybody; ladies and gentlemen",
+"thAlt": [
+"ทุกท่าน"
+]
+},
+"南_みなみ": {
+"sub": "town.position",
+"en": "south",
+"thAlt": [
+"ใต้"
+]
+},
+"耳_みみ": {
+"sub": "body.part",
+"en": "ear; ears",
+"thAlt": []
+},
+"見る_みる": {
+"sub": "action.basic",
+"en": "to see; see; to look; to watch",
+"thAlt": [
+"เห็น"
+]
+},
+"皆_みんな": {
+"sub": "basic.pointing",
+"en": "everyone; all; everybody",
+"thAlt": []
+},
+"六日_むいか": {
+"sub": "time.day",
+"en": "the sixth; 6th day; six days",
+"thAlt": [
+"วันที่หก",
+"หกวัน"
+]
+},
+"向こう_むこう": {
+"sub": "town.position",
+"en": "over there; the other side; beyond",
+"thAlt": [
+"ฝั่งโน้น",
+"อีกฝั่ง"
+]
+},
+"難しい_むずかしい": {
+"sub": "describe.quality",
+"en": "difficult; hard",
+"thAlt": []
+},
+"六つ_むっつ": {
+"sub": "number.counter",
+"en": "six things; six; 6 items",
+"thAlt": [
+"หก",
+"หกอัน",
+"6"
+]
+},
+"目_め": {
+"sub": "body.part",
+"en": "eye; eyes",
+"thAlt": []
+},
+"眼鏡_めがね": {
+"sub": "clothes.wear",
+"en": "glasses; eyeglasses; spectacles",
+"thAlt": [
+"แว่น"
+]
+},
+"もう_もう": {
+"sub": "adverb.timing",
+"en": "already; another; more",
+"thAlt": [
+"อีก",
+"อีกครั้ง"
+]
+},
+"木曜日_もくようび": {
+"sub": "time.day",
+"en": "Thursday",
+"thAlt": [
+"พฤหัส",
+"วันพฤหัส"
+]
+},
+"もしもし_もしもし": {
+"sub": "basic.greeting",
+"en": "hello; hello on the phone",
+"thAlt": [
+"ฮัลโหล",
+"ฮาโหล"
+]
+},
+"勿論_もちろん": {
+"sub": "adverb.manner",
+"en": "of course; certainly; naturally",
+"thAlt": []
+},
+"もっと_もっと": {
+"sub": "adverb.degree",
+"en": "more; even more",
+"thAlt": [
+"อีก",
+"มากขึ้น"
+]
+},
+"持つ_もつ": {
+"sub": "action.hand",
+"en": "to hold; hold; to have; to carry",
+"thAlt": [
+"มี",
+"ถือของ"
+]
+},
+"物_もの": {
+"sub": "home.belonging",
+"en": "thing; object; stuff",
+"thAlt": [
+"สิ่ง"
+]
+},
+"門_もん": {
+"sub": "town.building",
+"en": "gate",
+"thAlt": [
+"ประตู",
+"ประตูใหญ่"
+]
+},
+"問題_もんだい": {
+"sub": "school.study",
+"en": "problem; question; issue",
+"thAlt": [
+"ข้อสอบ"
+]
+},
+"八百屋_やおや": {
+"sub": "town.shop",
+"en": "greengrocer; vegetable store; produce shop",
+"thAlt": [
+"ร้านผัก",
+"ร้านผลไม้"
+]
+},
+"野菜_やさい": {
+"sub": "food.ingredient",
+"en": "vegetable; vegetables",
+"thAlt": []
+},
+"優しい_やさしい": {
+"sub": "heart.character",
+"en": "kind; gentle; tender",
+"thAlt": [
+"นุ่มนวล"
+]
+},
+"安い_やすい": {
+"sub": "money.shopping",
+"en": "cheap; inexpensive; low-priced",
+"thAlt": [
+"ถูก"
+]
+},
+"休み_やすみ": {
+"sub": "hobby.leisure",
+"en": "holiday; day off; rest; break",
+"thAlt": [
+"หยุด",
+"พัก"
+]
+},
+"休む_やすむ": {
+"sub": "work.verb",
+"en": "to rest; rest; to take off; to be absent",
+"thAlt": [
+"หยุด",
+"พัก",
+"ขาดเรียน"
+]
+},
+"八つ_やっつ": {
+"sub": "number.counter",
+"en": "eight things; eight; 8 items",
+"thAlt": [
+"แปด",
+"แปดอัน",
+"8"
+]
+},
+"山_やま": {
+"sub": "nature.nature",
+"en": "mountain; hill",
+"thAlt": [
+"เขา",
+"ดอย"
+]
+},
+"やる_やる": {
+"sub": "action.giving",
+"en": "to give; give; to do",
+"thAlt": [
+"ให้",
+"ให้อาหาร"
+]
+},
+"夕方_ゆうがた": {
+"sub": "time.clock",
+"en": "evening; dusk; late afternoon",
+"thAlt": [
+"เย็น",
+"ช่วงเย็น"
+]
+},
+"郵便局_ゆうびんきょく": {
+"sub": "town.building",
+"en": "post office",
+"thAlt": [
+"ไปรษณีย์"
+]
+},
+"八日_ようか": {
+"sub": "time.day",
+"en": "the eighth; 8th day; eight days",
+"thAlt": [
+"วันที่แปด",
+"แปดวัน"
+]
+},
+"洋服_ようふく": {
+"sub": "clothes.wear",
+"en": "clothes; western clothes; clothing",
+"thAlt": [
+"เสื้อผ้า",
+"ชุด"
+]
+},
+"よく_よく": {
+"sub": "adverb.timing",
+"en": "often; well; frequently",
+"thAlt": [
+"บ่อย",
+"อย่างดี"
+]
+},
+"横_よこ": {
+"sub": "town.position",
+"en": "side; beside; next to",
+"thAlt": [
+"ข้าง",
+"ข้างๆ"
+]
+},
+"四日_よっか": {
+"sub": "time.day",
+"en": "the fourth; 4th day; four days",
+"thAlt": [
+"วันที่สี่",
+"สี่วัน"
+]
+},
+"四つ_よっつ": {
+"sub": "number.counter",
+"en": "four things; four; 4 items",
+"thAlt": [
+"สี่",
+"สี่อัน",
+"4"
+]
+},
+"呼ぶ_よぶ": {
+"sub": "action.talk",
+"en": "to call; call; to invite",
+"thAlt": [
+"เรียกหา"
+]
+},
+"読む_よむ": {
+"sub": "school.verb",
+"en": "to read; read",
+"thAlt": []
+},
+"夜_よる": {
+"sub": "time.clock",
+"en": "night; evening",
+"thAlt": [
+"กลางคืน",
+"ค่ำ"
+]
+},
+"来月_らいげつ": {
+"sub": "time.season",
+"en": "next month",
+"thAlt": []
+},
+"来週_らいしゅう": {
+"sub": "time.day",
+"en": "next week",
+"thAlt": [
+"อาทิตย์หน้า"
+]
+},
+"来年_らいねん": {
+"sub": "time.season",
+"en": "next year",
+"thAlt": []
+},
+"立派_りっぱ": {
+"sub": "describe.quality",
+"en": "splendid; magnificent; fine; great",
+"thAlt": [
+"ดีเยี่ยม",
+"โอ่อ่า"
+]
+},
+"留学生_りゅうがくせい": {
+"sub": "school.school",
+"en": "international student; foreign student; exchange student",
+"thAlt": [
+"นักศึกษาต่างชาติ",
+"นักเรียนนอก"
+]
+},
+"両親_りょうしん": {
+"sub": "people.family",
+"en": "parents; both parents",
+"thAlt": [
+"พ่อและแม่"
+]
+},
+"料理_りょうり": {
+"sub": "food.dish",
+"en": "cooking; cuisine; dish; food",
+"thAlt": [
+"ทำอาหาร",
+"กับข้าว"
+]
+},
+"旅行_りょこう": {
+"sub": "transport.travel",
+"en": "trip; travel; journey",
+"thAlt": [
+"เที่ยว",
+"ท่องเที่ยว"
+]
+},
+"れい_れい": {
+"sub": "number.number",
+"en": "zero; 0; nought",
+"thAlt": [
+"ศูนย์",
+"0"
+]
+},
+"冷蔵庫_れいぞうこ": {
+"sub": "home.furniture",
+"en": "refrigerator; fridge",
+"thAlt": []
+},
+"練習_れんしゅう": {
+"sub": "school.study",
+"en": "practice; training; exercise",
+"thAlt": [
+"ฝึก",
+"ซ้อม"
+]
+},
+"廊下_ろうか": {
+"sub": "home.house",
+"en": "hallway; corridor",
+"thAlt": [
+"ระเบียง"
+]
+},
+"六_ろく": {
+"sub": "number.number",
+"en": "six; 6",
+"thAlt": [
+"หก",
+"6"
+]
+},
+"六月_ろくがつ": {
+"sub": "time.season",
+"en": "June; Jun",
+"thAlt": [
+"มิถุนายน",
+"มิถุนา",
+"มิ.ย."
+]
+},
+"若い_わかい": {
+"sub": "describe.state",
+"en": "young; youthful",
+"thAlt": [
+"หนุ่ม",
+"สาว",
+"ยังเด็ก"
+]
+},
+"分かる_わかる": {
+"sub": "heart.mind",
+"en": "to understand; understand; to know",
+"thAlt": [
+"รู้"
+]
+},
+"忘れる_わすれる": {
+"sub": "heart.mind",
+"en": "to forget; forget; to leave behind",
+"thAlt": [
+"ลืมของ",
+"ลืมไว้"
+]
+},
+"私_わたし": {
+"sub": "basic.pointing",
+"en": "I; me; myself",
+"thAlt": [
+"ผม",
+"ดิฉัน"
+]
+},
+"渡す_わたす": {
+"sub": "action.giving",
+"en": "to hand over; hand over; to give; to pass",
+"thAlt": [
+"ให้",
+"ยื่น",
+"ส่งให้"
+]
+},
+"渡る_わたる": {
+"sub": "town.street",
+"en": "to cross; cross; to go across",
+"thAlt": [
+"ข้ามถนน",
+"ข้ามสะพาน"
+]
+},
+"悪い_わるい": {
+"sub": "describe.quality",
+"en": "bad; poor; wrong",
+"thAlt": [
+"เลว",
+"ผิด"
+]
+},
+"アパート_アパート": {
+"sub": "home.house",
+"en": "apartment; flat",
+"thAlt": [
+"ห้องเช่า",
+"แฟลต"
+]
+},
+"エレベータ_エレベータ": {
+"sub": "town.building",
+"en": "elevator; lift",
+"thAlt": [
+"ลิฟท์"
+]
+},
+"カップ_カップ": {
+"sub": "food.tableware",
+"en": "cup; mug",
+"thAlt": [
+"แก้ว",
+"ถ้วยกาแฟ"
+]
+},
+"カレンダー_カレンダー": {
+"sub": "time.day",
+"en": "calendar",
+"thAlt": []
+},
+"カレー_カレー": {
+"sub": "food.dish",
+"en": "curry; curry rice",
+"thAlt": [
+"แกง",
+"ข้าวแกงกะหรี่"
+]
+},
+"キロ_キロ": {
+"sub": "number.counter",
+"en": "kilo; kilogram; kilometer",
+"thAlt": [
+"กิโล"
+]
+},
+"キロ / キログラム_キロ / キログラム": {
+"sub": "number.counter",
+"en": "kilogram; kilo; kg",
+"thAlt": [
+"กิโล",
+"กก."
+]
+},
+"キロ / キロメートル_キロ / キロメートル": {
+"sub": "number.counter",
+"en": "kilometer; kilo; km",
+"thAlt": [
+"กิโล",
+"กม."
+]
+},
+"ギター_ギター": {
+"sub": "hobby.art",
+"en": "guitar",
+"thAlt": []
+},
+"クラス_クラス": {
+"sub": "school.school",
+"en": "class; classroom",
+"thAlt": [
+"คลาส",
+"ห้อง"
+]
+},
+"グラム_グラム": {
+"sub": "number.counter",
+"en": "gram; grams; g",
+"thAlt": []
+},
+"コップ_コップ": {
+"sub": "food.tableware",
+"en": "glass; cup; tumbler",
+"thAlt": [
+"แก้ว"
+]
+},
+"コピーする_コピーする": {
+"sub": "work.verb",
+"en": "to copy; copy; to photocopy",
+"thAlt": [
+"ก๊อปปี้",
+"ถ่ายสำเนา"
+]
+},
+"コート_コート": {
+"sub": "clothes.wear",
+"en": "coat; overcoat",
+"thAlt": [
+"เสื้อคลุม"
+]
+},
+"コーヒー_コーヒー": {
+"sub": "food.drink",
+"en": "coffee",
+"thAlt": []
+},
+"シャツ_シャツ": {
+"sub": "clothes.wear",
+"en": "shirt",
+"thAlt": [
+"เสื้อ"
+]
+},
+"シャワー_シャワー": {
+"sub": "home.house",
+"en": "shower",
+"thAlt": [
+"อาบน้ำ",
+"ฝักบัว"
+]
+},
+"スカート_スカート": {
+"sub": "clothes.wear",
+"en": "skirt",
+"thAlt": []
+},
+"ストーブ_ストーブ": {
+"sub": "home.furniture",
+"en": "heater; stove",
+"thAlt": [
+"เครื่องทำความร้อน"
+]
+},
+"スプーン_スプーン": {
+"sub": "food.tableware",
+"en": "spoon",
+"thAlt": []
+},
+"スポーツ_スポーツ": {
+"sub": "hobby.sport",
+"en": "sport; sports",
+"thAlt": []
+},
+"スリッパ_スリッパ": {
+"sub": "clothes.wear",
+"en": "slippers",
+"thAlt": [
+"รองเท้าแตะ",
+"สลิปเปอร์"
+]
+},
+"ズボン_ズボン": {
+"sub": "clothes.wear",
+"en": "trousers; pants",
+"thAlt": [
+"กางเกง"
+]
+},
+"セーター_セーター": {
+"sub": "clothes.wear",
+"en": "sweater; jumper",
+"thAlt": [
+"เสื้อกันหนาว"
+]
+},
+"ゼロ_ゼロ": {
+"sub": "number.number",
+"en": "zero; 0",
+"thAlt": [
+"ศูนย์",
+"0"
+]
+},
+"タクシー_タクシー": {
+"sub": "transport.vehicle",
+"en": "taxi; cab",
+"thAlt": [
+"แท็กซี่"
+]
+},
+"テスト_テスト": {
+"sub": "school.study",
+"en": "test; exam; quiz",
+"thAlt": [
+"สอบ",
+"ข้อสอบ"
+]
+},
+"テレビ_テレビ": {
+"sub": "home.furniture",
+"en": "television; TV",
+"thAlt": []
+},
+"テーブル_テーブル": {
+"sub": "home.furniture",
+"en": "table",
+"thAlt": []
+},
+"テープ_テープ": {
+"sub": "school.stationery",
+"en": "tape; cassette tape",
+"thAlt": [
+"เทป",
+"สก็อตเทป"
+]
+},
+"テープレコーダー_テープレコーダー": {
+"sub": "hobby.media",
+"en": "tape recorder",
+"thAlt": [
+"เครื่องอัดเสียง"
+]
+},
+"デパート_デパート": {
+"sub": "town.shop",
+"en": "department store",
+"thAlt": [
+"ห้าง"
+]
+},
+"トイレ_トイレ": {
+"sub": "home.house",
+"en": "toilet; restroom; bathroom",
+"thAlt": [
+"ส้วม"
+]
+},
+"ドア_ドア": {
+"sub": "home.house",
+"en": "door",
+"thAlt": []
+},
+"ナイフ_ナイフ": {
+"sub": "food.tableware",
+"en": "knife",
+"thAlt": []
+},
+"ニュース_ニュース": {
+"sub": "hobby.media",
+"en": "news",
+"thAlt": [
+"ข่าว"
+]
+},
+"ネクタイ_ネクタイ": {
+"sub": "clothes.wear",
+"en": "necktie; tie",
+"thAlt": [
+"เน็คไท"
+]
+},
+"ノート_ノート": {
+"sub": "school.stationery",
+"en": "notebook",
+"thAlt": [
+"สมุด"
+]
+},
+"ハンカチ_ハンカチ": {
+"sub": "home.belonging",
+"en": "handkerchief; hankie",
+"thAlt": []
+},
+"バス_バス": {
+"sub": "transport.vehicle",
+"en": "bus; city bus",
+"thAlt": [
+"รถโดยสาร"
+]
+},
+"バター_バター": {
+"sub": "food.ingredient",
+"en": "butter",
+"thAlt": [
+"บัตเตอร์"
+]
+},
+"パン_パン": {
+"sub": "food.dish",
+"en": "bread",
+"thAlt": []
+},
+"パーテイー_パーテイー": {
+"sub": "hobby.leisure",
+"en": "party",
+"thAlt": [
+"งานปาร์ตี้"
+]
+},
+"フィルム_フィルム": {
+"sub": "hobby.art",
+"en": "film; camera film; roll of film",
+"thAlt": [
+"ฟิล์ม"
+]
+},
+"フォーク_フォーク": {
+"sub": "food.tableware",
+"en": "fork",
+"thAlt": []
+},
+"プール_プール": {
+"sub": "hobby.sport",
+"en": "pool; swimming pool",
+"thAlt": [
+"สระ",
+"สระน้ำ"
+]
+},
+"ベッド_ベッド": {
+"sub": "home.furniture",
+"en": "bed",
+"thAlt": [
+"เตียง"
+]
+},
+"ページ_ページ": {
+"sub": "school.stationery",
+"en": "page",
+"thAlt": [
+"หน้า",
+"หน้ากระดาษ"
+]
+},
+"ホテル_ホテル": {
+"sub": "transport.travel",
+"en": "hotel",
+"thAlt": []
+},
+"ボタン_ボタン": {
+"sub": "hobby.media",
+"en": "button; switch; push button",
+"thAlt": [
+"ปุ่ม",
+"กระดุมเสื้อ"
+]
+},
+"ボールペン_ボールペン": {
+"sub": "school.stationery",
+"en": "ballpoint pen; pen; ballpen",
+"thAlt": [
+"ปากกา"
+]
+},
+"ポケット_ポケット": {
+"sub": "clothes.wear",
+"en": "pocket",
+"thAlt": [
+"กระเป๋า",
+"พ็อกเก็ต"
+]
+},
+"マッチ_マッチ": {
+"sub": "home.belonging",
+"en": "match; matches; matchstick",
+"thAlt": [
+"ไม้ขีด"
+]
+},
+"メートル_メートル": {
+"sub": "number.counter",
+"en": "meter; metre; m",
+"thAlt": []
+},
+"ラジオ_ラジオ": {
+"sub": "hobby.media",
+"en": "radio",
+"thAlt": []
+},
+"レコード_レコード": {
+"sub": "hobby.art",
+"en": "record; vinyl record; LP",
+"thAlt": [
+"แผ่นเพลง"
+]
+},
+"レストラン_レストラン": {
+"sub": "food.eatout",
+"en": "restaurant",
+"thAlt": []
+},
+"ワイシャツ_ワイシャツ": {
+"sub": "clothes.wear",
+"en": "dress shirt; shirt; white shirt",
+"thAlt": [
+"เสื้อเชิ้ต"
+]
+},
+"熱い_あつい": {
+"sub": "describe.state",
+"en": "hot; hot to the touch; heated",
+"thAlt": []
+},
+"緑_みどり": {
+"sub": "clothes.color",
+"en": "green",
+"thAlt": [
+"เขียว"
+]
+},
+"思う_おもう": {
+"sub": "heart.mind",
+"en": "to think; think; to feel",
+"thAlt": [
+"รู้สึก"
+]
+},
+"考える_かんがえる": {
+"sub": "heart.mind",
+"en": "to think; think; to consider",
+"thAlt": [
+"คิด",
+"ไตร่ตรอง"
+]
+},
+"決める_きめる": {
+"sub": "heart.mind",
+"en": "to decide; decide; to choose",
+"thAlt": [
+"ตกลง",
+"กำหนด"
+]
+},
+"泣く_なく": {
+"sub": "heart.emotion",
+"en": "to cry; cry; to weep",
+"thAlt": []
+},
+"笑う_わらう": {
+"sub": "heart.emotion",
+"en": "to laugh; laugh; to smile",
+"thAlt": []
+},
+"落ちる_おちる": {
+"sub": "action.move",
+"en": "to fall; fall; to drop; to fail",
+"thAlt": [
+"ร่วง"
+]
+},
+"捨てる_すてる": {
+"sub": "action.hand",
+"en": "to throw away; throw away; to discard",
+"thAlt": []
+},
+"足りる_たりる": {
+"sub": "number.amount",
+"en": "to be enough; be enough; to suffice",
+"thAlt": [
+"พอ"
+]
+},
+"続く_つづく": {
+"sub": "action.change",
+"en": "to continue; continue; to last",
+"thAlt": [
+"ต่อไป"
+]
+},
+"続ける_つづける": {
+"sub": "action.change",
+"en": "to continue; continue; to keep doing",
+"thAlt": []
+},
+"慣れる_なれる": {
+"sub": "action.change",
+"en": "to get used to; get used to; to be accustomed",
+"thAlt": [
+"เคยชิน"
+]
+},
+"逃げる_にげる": {
+"sub": "action.move",
+"en": "to run away; run away; to escape; flee",
+"thAlt": [
+"วิ่งหนี"
+]
+},
+"残る_のこる": {
+"sub": "number.amount",
+"en": "to remain; remain; to be left over",
+"thAlt": [
+"เหลืออยู่"
+]
+},
+"増える_ふえる": {
+"sub": "number.amount",
+"en": "to increase; increase; to grow",
+"thAlt": [
+"มากขึ้น"
+]
+},
+"戻る_もどる": {
+"sub": "transport.verb",
+"en": "to return; return; to go back",
+"thAlt": [
+"กลับมา"
+]
+},
+"焼く_やく": {
+"sub": "food.verb",
+"en": "to grill; grill; to bake; to roast",
+"thAlt": [
+"ปิ้ง",
+"เผา"
+]
+},
+"辞める_やめる": {
+"sub": "work.verb",
+"en": "to quit; quit; to resign",
+"thAlt": [
+"ออกจากงาน"
+]
+},
+"喜ぶ_よろこぶ": {
+"sub": "heart.emotion",
+"en": "to be glad; be happy; to rejoice",
+"thAlt": [
+"ยินดี"
+]
+},
+"見つける_みつける": {
+"sub": "action.hand",
+"en": "to find; find; to discover",
+"thAlt": [
+"หาเจอ"
+]
+},
+"間に合う_まにあう": {
+"sub": "time.relative",
+"en": "to be in time; make it; to be on time",
+"thAlt": [
+"ทัน"
+]
+},
+"迎える_むかえる": {
+"sub": "people.relation",
+"en": "to meet; to pick up; to welcome; welcome",
+"thAlt": [
+"รับ"
+]
+},
+"謝る_あやまる": {
+"sub": "action.talk",
+"en": "to apologize; apologize; to say sorry",
+"thAlt": [
+"ขออภัย"
+]
+},
+"急ぐ_いそぐ": {
+"sub": "action.move",
+"en": "to hurry; hurry; to rush",
+"thAlt": []
+},
+"受ける_うける": {
+"sub": "school.verb",
+"en": "to take; take; to receive; to take an exam",
+"thAlt": [
+"เข้าสอบ"
+]
+},
+"運ぶ_はこぶ": {
+"sub": "action.hand",
+"en": "to carry; carry; to transport",
+"thAlt": [
+"ขน",
+"ย้าย"
+]
+},
+"変える_かえる": {
+"sub": "action.change",
+"en": "to change; change; to alter",
+"thAlt": []
+},
+"変わる_かわる": {
+"sub": "action.change",
+"en": "to change; change; to be changed",
+"thAlt": [
+"เปลี่ยน"
+]
+},
+"比べる_くらべる": {
+"sub": "heart.mind",
+"en": "to compare; compare",
+"thAlt": []
+},
+"直す_なおす": {
+"sub": "action.hand",
+"en": "to fix; fix; to repair; to correct",
+"thAlt": [
+"แก้"
+]
+},
+"直る_なおる": {
+"sub": "action.change",
+"en": "to be fixed; be repaired; to get better",
+"thAlt": [
+"ดีขึ้น"
+]
+},
+"集める_あつめる": {
+"sub": "action.hand",
+"en": "to collect; collect; to gather",
+"thAlt": [
+"เก็บ",
+"รวม"
+]
+},
+"集まる_あつまる": {
+"sub": "people.relation",
+"en": "to gather; gather; to assemble; to meet",
+"thAlt": [
+"รวมตัว"
+]
+},
+"進む_すすむ": {
+"sub": "action.move",
+"en": "to advance; advance; to progress; go forward",
+"thAlt": [
+"คืบหน้า"
+]
+},
+"壊す_こわす": {
+"sub": "action.hand",
+"en": "to break; break; to destroy",
+"thAlt": [
+"ทำเสีย"
+]
+},
+"壊れる_こわれる": {
+"sub": "action.change",
+"en": "to break; be broken; to break down",
+"thAlt": [
+"ชำรุด"
+]
+},
+"通う_かよう": {
+"sub": "transport.verb",
+"en": "to commute; commute; to attend regularly",
+"thAlt": [
+"ไปเรียน",
+"ไปทำงาน"
+]
+},
+"届ける_とどける": {
+"sub": "action.giving",
+"en": "to deliver; deliver; to send",
+"thAlt": [
+"ส่ง"
+]
+},
+"掛ける_かける": {
+"sub": "hobby.media",
+"en": "to call; call; to make a call; to hang",
+"thAlt": [
+"โทรหา"
+]
+},
+"思い出す_おもいだす": {
+"sub": "heart.mind",
+"en": "to remember; remember; to recall",
+"thAlt": [
+"นึกได้"
+]
+},
+"見える_みえる": {
+"sub": "action.basic",
+"en": "to be visible; can see; be seen",
+"thAlt": [
+"เห็น"
+]
+},
+"聞こえる_きこえる": {
+"sub": "action.basic",
+"en": "to be audible; can hear; hear",
+"thAlt": [
+"ได้ยินเสียง"
+]
+},
+"寄る_よる": {
+"sub": "transport.verb",
+"en": "to drop by; drop by; to stop by",
+"thAlt": [
+"แวะไป"
+]
+},
+"拾う_ひろう": {
+"sub": "action.hand",
+"en": "to pick up; pick up; to find",
+"thAlt": [
+"เก็บของ"
+]
+},
+"始める_はじめる": {
+"sub": "action.change",
+"en": "to begin; begin; to start",
+"thAlt": [
+"เริ่มทำ"
+]
+},
+"沸かす_わかす": {
+"sub": "food.verb",
+"en": "to boil; boil; to heat water",
+"thAlt": [
+"ต้ม",
+"ต้มน้ำ"
+]
+},
+"折る_おる": {
+"sub": "action.hand",
+"en": "to fold; fold; to break; to snap",
+"thAlt": []
+},
+"倒れる_たおれる": {
+"sub": "action.move",
+"en": "to fall down; fall over; to collapse",
+"thAlt": [
+"ล้ม"
+]
+},
+"乾く_かわく": {
+"sub": "describe.state",
+"en": "to dry; dry; to get dry",
+"thAlt": []
+},
+"濡れる_ぬれる": {
+"sub": "describe.state",
+"en": "to get wet; get wet; to be wet",
+"thAlt": []
+},
+"冷える_ひえる": {
+"sub": "nature.weather",
+"en": "to get cold; get cold; to cool down",
+"thAlt": [
+"หนาว"
+]
+},
+"役に立つ_やくにたつ": {
+"sub": "describe.quality",
+"en": "to be useful; useful; to be helpful",
+"thAlt": [
+"เป็นประโยชน์"
+]
+},
+"挨拶_あいさつ": {
+"sub": "basic.greeting",
+"en": "greeting; greetings; to greet",
+"thAlt": [
+"ทักทาย"
+]
+},
+"案内_あんない": {
+"sub": "transport.travel",
+"en": "guidance; guide; showing around",
+"thAlt": [
+"นำทาง",
+"พาเที่ยว"
+]
+},
+"安心_あんしん": {
+"sub": "heart.emotion",
+"en": "relief; peace of mind; feeling safe",
+"thAlt": [
+"โล่งใจ"
+]
+},
+"安全_あんぜん": {
+"sub": "describe.state",
+"en": "safety; safe; security",
+"thAlt": [
+"ปลอดภัย"
+]
+},
+"意見_いけん": {
+"sub": "heart.mind",
+"en": "opinion; view; idea",
+"thAlt": [
+"ความเห็น"
+]
+},
+"石_いし": {
+"sub": "nature.nature",
+"en": "stone; rock",
+"thAlt": []
+},
+"一生懸命_いっしょうけんめい": {
+"sub": "adverb.manner",
+"en": "very hard; with all one's might; one's best",
+"thAlt": [
+"ตั้งใจ",
+"สุดความสามารถ"
+]
+},
+"糸_いと": {
+"sub": "home.belonging",
+"en": "thread; string; yarn",
+"thAlt": []
+},
+"以内_いない": {
+"sub": "basic.affix",
+"en": "within; less than; inside of",
+"thAlt": [
+"ภายใน"
+]
+},
+"田舎_いなか": {
+"sub": "town.region",
+"en": "countryside; rural area; hometown",
+"thAlt": [
+"บ้านเกิด"
+]
+},
+"受付_うけつけ": {
+"sub": "town.building",
+"en": "reception; reception desk; front desk",
+"thAlt": [
+"แผนกต้อนรับ"
+]
+},
+"嘘_うそ": {
+"sub": "action.talk",
+"en": "lie; falsehood; fib",
+"thAlt": [
+"โกหก"
+]
+},
+"腕_うで": {
+"sub": "body.part",
+"en": "arm",
+"thAlt": []
+},
+"裏_うら": {
+"sub": "town.position",
+"en": "back; rear; reverse side",
+"thAlt": [
+"ข้างหลัง"
+]
+},
+"売り場_うりば": {
+"sub": "money.shopping",
+"en": "sales counter; department; sales floor",
+"thAlt": [
+"แผนก"
+]
+},
+"運転手_うんてんしゅ": {
+"sub": "people.job",
+"en": "driver; chauffeur",
+"thAlt": [
+"คนขับ"
+]
+},
+"枝_えだ": {
+"sub": "nature.animal",
+"en": "branch; tree branch; twig",
+"thAlt": [
+"กิ่ง"
+]
+},
+"遠慮_えんりょ": {
+"sub": "people.relation",
+"en": "reserve; restraint; hesitation",
+"thAlt": []
+},
+"お祝い_おいわい": {
+"sub": "hobby.leisure",
+"en": "celebration; congratulations; congratulatory gift",
+"thAlt": [
+"แสดงความยินดี"
+]
+},
+"壁_かべ": {
+"sub": "home.house",
+"en": "wall",
+"thAlt": []
+},
+"髪_かみ": {
+"sub": "body.part",
+"en": "hair",
+"thAlt": []
+},
+"関係_かんけい": {
+"sub": "people.relation",
+"en": "relationship; relation; connection",
+"thAlt": [
+"เกี่ยวข้อง"
+]
+},
+"機会_きかい": {
+"sub": "describe.state",
+"en": "opportunity; chance; occasion",
+"thAlt": []
+},
+"機械_きかい": {
+"sub": "hobby.media",
+"en": "machine; machinery",
+"thAlt": [
+"เครื่อง"
+]
+},
+"危険_きけん": {
+"sub": "describe.state",
+"en": "danger; dangerous; hazard",
+"thAlt": [
+"เสี่ยง"
+]
+},
+"季節_きせつ": {
+"sub": "time.season",
+"en": "season",
+"thAlt": [
+"ฤดู"
+]
+},
+"規則_きそく": {
+"sub": "work.society",
+"en": "rule; rules; regulation",
+"thAlt": [
+"กฎ"
+]
+},
+"気分_きぶん": {
+"sub": "heart.emotion",
+"en": "mood; feeling",
+"thAlt": []
+},
+"気持ち_きもち": {
+"sub": "heart.emotion",
+"en": "feeling; feelings; mood",
+"thAlt": []
+},
+"着物_きもの": {
+"sub": "clothes.wear",
+"en": "kimono; Japanese clothing",
+"thAlt": [
+"ชุดกิโมโน"
+]
+},
+"客_きゃく": {
+"sub": "people.person",
+"en": "customer; guest; visitor",
+"thAlt": []
+},
+"急行_きゅうこう": {
+"sub": "transport.vehicle",
+"en": "express; express train",
+"thAlt": [
+"รถด่วน"
+]
+},
+"教育_きょういく": {
+"sub": "school.school",
+"en": "education",
+"thAlt": []
+},
+"興味_きょうみ": {
+"sub": "heart.emotion",
+"en": "interest",
+"thAlt": [
+"สนใจ"
+]
+},
+"近所_きんじょ": {
+"sub": "town.position",
+"en": "neighborhood; vicinity; neighbors",
+"thAlt": [
+"แถวบ้าน",
+"ใกล้บ้าน"
+]
+},
+"具合_ぐあい": {
+"sub": "body.state",
+"en": "condition; state; health",
+"thAlt": []
+},
+"空気_くうき": {
+"sub": "nature.nature",
+"en": "air; atmosphere",
+"thAlt": []
+},
+"草_くさ": {
+"sub": "nature.animal",
+"en": "grass; weeds",
+"thAlt": [
+"วัชพืช"
+]
+},
+"毛_け": {
+"sub": "body.part",
+"en": "hair; fur",
+"thAlt": []
+},
+"血_ち": {
+"sub": "body.part",
+"en": "blood",
+"thAlt": []
+},
+"経験_けいけん": {
+"sub": "heart.mind",
+"en": "experience",
+"thAlt": []
+},
+"計画_けいかく": {
+"sub": "work.work",
+"en": "plan; project; scheme",
+"thAlt": []
+},
+"会議_かいぎ": {
+"sub": "work.company",
+"en": "meeting; conference",
+"thAlt": []
+},
+"試合_しあい": {
+"sub": "hobby.sport",
+"en": "match; game; competition",
+"thAlt": [
+"แข่ง"
+]
+},
+"仕方_しかた": {
+"sub": "describe.state",
+"en": "way; method; how to do",
+"thAlt": [
+"วิธีการ"
+]
+},
+"試験_しけん": {
+"sub": "school.study",
+"en": "exam; test; examination",
+"thAlt": [
+"สอบ"
+]
+},
+"事故_じこ": {
+"sub": "work.society",
+"en": "accident; traffic accident",
+"thAlt": []
+},
+"地震_じしん": {
+"sub": "nature.nature",
+"en": "earthquake",
+"thAlt": []
+},
+"時代_じだい": {
+"sub": "time.season",
+"en": "era; period; age",
+"thAlt": []
+},
+"失敗_しっぱい": {
+"sub": "describe.quality",
+"en": "failure; mistake; to fail",
+"thAlt": [
+"ผิดพลาด"
+]
+},
+"辞典_じてん": {
+"sub": "school.stationery",
+"en": "dictionary",
+"thAlt": [
+"ดิกชันนารี"
+]
+},
+"品物_しなもの": {
+"sub": "money.shopping",
+"en": "goods; item; merchandise",
+"thAlt": [
+"สิ่งของ"
+]
+},
+"市民_しみん": {
+"sub": "work.society",
+"en": "citizen; citizens; city resident",
+"thAlt": [
+"พลเมือง"
+]
+},
+"社会_しゃかい": {
+"sub": "work.society",
+"en": "society; the world",
+"thAlt": []
+},
+"住所_じゅうしょ": {
+"sub": "home.house",
+"en": "address",
+"thAlt": []
+},
+"準備_じゅんび": {
+"sub": "work.work",
+"en": "preparation; preparations; to prepare",
+"thAlt": [
+"เตรียม",
+"เตรียมตัว"
+]
+},
+"将来_しょうらい": {
+"sub": "time.relative",
+"en": "future; in the future",
+"thAlt": []
+},
+"心配_しんぱい": {
+"sub": "heart.mind",
+"en": "worry; concern; anxiety",
+"thAlt": [
+"ห่วง"
+]
+},
+"神社_じんじゃ": {
+"sub": "town.building",
+"en": "shrine; Shinto shrine",
+"thAlt": [
+"ศาลเจ้า"
+]
+},
+"数学_すうがく": {
+"sub": "school.study",
+"en": "mathematics; math; maths",
+"thAlt": [
+"เลข",
+"คณิต"
+]
+},
+"砂_すな": {
+"sub": "nature.nature",
+"en": "sand",
+"thAlt": []
+},
+"生活_せいかつ": {
+"sub": "home.routine",
+"en": "life; daily life; living",
+"thAlt": [
+"ชีวิต"
+]
+},
+"説明_せつめい": {
+"sub": "action.talk",
+"en": "explanation; to explain; explain",
+"thAlt": [
+"อธิบาย"
+]
+},
+"相談_そうだん": {
+"sub": "action.talk",
+"en": "consultation; discussion; advice",
+"thAlt": [
+"ขอคำปรึกษา"
+]
+},
+"大事_だいじ": {
+"sub": "describe.quality",
+"en": "important; precious; valuable",
+"thAlt": []
+},
+"男性_だんせい": {
+"sub": "people.person",
+"en": "man; male",
+"thAlt": [
+"ชาย"
+]
+},
+"女性_じょせい": {
+"sub": "people.person",
+"en": "woman; female",
+"thAlt": [
+"หญิง"
+]
+},
+"注意_ちゅうい": {
+"sub": "work.society",
+"en": "caution; attention; care",
+"thAlt": [
+"ระวัง"
+]
+},
+"注射_ちゅうしゃ": {
+"sub": "body.illness",
+"en": "injection; shot",
+"thAlt": [
+"ฉีดยา"
+]
+},
+"駐車場_ちゅうしゃじょう": {
+"sub": "town.building",
+"en": "parking lot; car park; parking",
+"thAlt": []
+},
+"特別_とくべつ": {
+"sub": "describe.quality",
+"en": "special; extraordinary",
+"thAlt": []
+},
+"場合_ばあい": {
+"sub": "describe.state",
+"en": "case; situation; in case of",
+"thAlt": []
+},
+"番組_ばんぐみ": {
+"sub": "hobby.media",
+"en": "program; TV program; show",
+"thAlt": [
+"รายการทีวี"
+]
+},
+"反対_はんたい": {
+"sub": "heart.mind",
+"en": "opposite; opposition; objection",
+"thAlt": [
+"ค้าน",
+"ไม่เห็นด้วย"
+]
+},
+"引き出し_ひきだし": {
+"sub": "home.furniture",
+"en": "drawer",
+"thAlt": []
+},
+"必要_ひつよう": {
+"sub": "describe.quality",
+"en": "necessary; need; required",
+"thAlt": [
+"ต้องการ",
+"ต้องใช้"
+]
+},
+"文化_ぶんか": {
+"sub": "work.society",
+"en": "culture",
+"thAlt": []
+},
+"文法_ぶんぽう": {
+"sub": "school.language",
+"en": "grammar",
+"thAlt": []
+},
+"味_あじ": {
+"sub": "food.taste",
+"en": "taste; flavor; flavour",
+"thAlt": [
+"รส"
+]
+},
+"約束_やくそく": {
+"sub": "people.relation",
+"en": "promise; appointment; date",
+"thAlt": [
+"นัด"
+]
+},
+"予定_よてい": {
+"sub": "work.work",
+"en": "plan; schedule; plans",
+"thAlt": [
+"แผน"
+]
+},
+"予約_よやく": {
+"sub": "transport.travel",
+"en": "reservation; booking; to reserve",
+"thAlt": []
+},
+"夢_ゆめ": {
+"sub": "heart.mind",
+"en": "dream",
+"thAlt": []
+},
+"理由_りゆう": {
+"sub": "heart.mind",
+"en": "reason; cause",
+"thAlt": [
+"สาเหตุ"
+]
+},
+"利用_りよう": {
+"sub": "action.hand",
+"en": "use; utilization; to make use of",
+"thAlt": [
+"ใช้"
+]
+},
+"旅館_りょかん": {
+"sub": "transport.travel",
+"en": "ryokan; Japanese inn; inn",
+"thAlt": [
+"โรงแรม"
+]
+},
+"留守_るす": {
+"sub": "home.routine",
+"en": "being away; absence; not at home",
+"thAlt": [
+"ไม่อยู่"
+]
+},
+"歴史_れきし": {
+"sub": "school.study",
+"en": "history",
+"thAlt": []
+},
+"連絡_れんらく": {
+"sub": "hobby.media",
+"en": "contact; to contact; communication",
+"thAlt": []
+},
+"贈り物_おくりもの": {
+"sub": "action.giving",
+"en": "gift; present",
+"thAlt": []
+},
+"赤ん坊_あかんぼう": {
+"sub": "people.family",
+"en": "baby; infant",
+"thAlt": [
+"เด็กอ่อน"
+]
+},
+"人口_じんこう": {
+"sub": "work.society",
+"en": "population",
+"thAlt": []
+},
+"科学_かがく": {
+"sub": "school.study",
+"en": "science",
+"thAlt": []
+},
+"国際_こくさい": {
+"sub": "town.region",
+"en": "international",
+"thAlt": [
+"อินเตอร์"
+]
+},
+"最近_さいきん": {
+"sub": "time.relative",
+"en": "recently; lately; these days",
+"thAlt": [
+"ช่วงหลังนี้",
+"เร็วๆ นี้"
+]
+},
+"夫_おっと": {
+"sub": "people.family",
+"en": "husband; my husband",
+"thAlt": []
+},
+"妻_つま": {
+"sub": "people.family",
+"en": "wife; my wife",
+"thAlt": []
+},
+"息子_むすこ": {
+"sub": "people.family",
+"en": "son; my son",
+"thAlt": [
+"ลูกชาย"
+]
+},
+"娘_むすめ": {
+"sub": "people.family",
+"en": "daughter; my daughter",
+"thAlt": [
+"ลูกสาว"
+]
+},
+"先輩_せんぱい": {
+"sub": "people.relation",
+"en": "senior; upperclassman; senior colleague",
+"thAlt": [
+"พี่"
+]
+},
+"以上_いじょう": {
+"sub": "basic.affix",
+"en": "or more; more than; above",
+"thAlt": [
+"ขึ้นไป",
+"มากกว่า"
+]
+},
+"以下_いか": {
+"sub": "basic.affix",
+"en": "or less; below; under",
+"thAlt": [
+"ไม่เกิน",
+"น้อยกว่า"
+]
+},
+"以外_いがい": {
+"sub": "basic.affix",
+"en": "except; other than; besides",
+"thAlt": []
+},
+"代わり_かわり": {
+"sub": "basic.affix",
+"en": "instead; substitute; replacement",
+"thAlt": [
+"ตัวแทน"
+]
+},
+"ため_ため": {
+"sub": "basic.affix",
+"en": "for; for the sake of; because of",
+"thAlt": [
+"เพื่อที่จะ"
+]
+},
+"うち_うち": {
+"sub": "time.relative",
+"en": "while; during; within",
+"thAlt": [
+"ตอนที่",
+"ระหว่าง"
+]
+},
+"ばかり_ばかり": {
+"sub": "basic.affix",
+"en": "just; only; nothing but",
+"thAlt": [
+"เพิ่งจะ",
+"อย่างเดียว"
+]
+},
+"浅い_あさい": {
+"sub": "describe.size",
+"en": "shallow",
+"thAlt": []
+},
+"硬い_かたい": {
+"sub": "describe.state",
+"en": "hard; firm; stiff",
+"thAlt": []
+},
+"悲しい_かなしい": {
+"sub": "heart.emotion",
+"en": "sad; sorrowful",
+"thAlt": []
+},
+"苦い_にがい": {
+"sub": "food.taste",
+"en": "bitter",
+"thAlt": []
+},
+"柔らかい_やわらかい": {
+"sub": "describe.state",
+"en": "soft; tender",
+"thAlt": [
+"นิ่ม"
+]
+},
+"正しい_ただしい": {
+"sub": "describe.quality",
+"en": "correct; right; proper",
+"thAlt": [
+"ถูก"
+]
+},
+"珍しい_めずらしい": {
+"sub": "describe.quality",
+"en": "rare; unusual; uncommon",
+"thAlt": [
+"แปลก"
+]
+},
+"厳しい_きびしい": {
+"sub": "heart.character",
+"en": "strict; severe; harsh",
+"thAlt": []
+},
+"真面目_まじめ": {
+"sub": "heart.character",
+"en": "serious; earnest; diligent",
+"thAlt": [
+"เอาจริงเอาจัง"
+]
+},
+"丁寧_ていねい": {
+"sub": "heart.character",
+"en": "polite; careful; thorough",
+"thAlt": [
+"ละเอียด",
+"สุภาพเรียบร้อย"
+]
+},
+"邪魔_じゃま": {
+"sub": "describe.state",
+"en": "hindrance; in the way; nuisance",
+"thAlt": [
+"เกะกะ"
+]
+},
+"複雑_ふくざつ": {
+"sub": "describe.quality",
+"en": "complicated; complex",
+"thAlt": [
+"ยุ่งยาก"
+]
+},
+"変_へん": {
+"sub": "describe.quality",
+"en": "strange; weird; odd",
+"thAlt": [
+"ประหลาด"
+]
+},
+"十分_じゅうぶん": {
+"sub": "number.amount",
+"en": "enough; sufficient; plenty",
+"thAlt": []
+},
+"無理_むり": {
+"sub": "describe.state",
+"en": "impossible; unreasonable; overdoing it",
+"thAlt": [
+"ไม่ไหว"
+]
+},
+"不便_ふべん": {
+"sub": "describe.quality",
+"en": "inconvenient",
+"thAlt": []
+},
+"普通_ふつう": {
+"sub": "describe.quality",
+"en": "normal; ordinary; usual",
+"thAlt": [
+"ทั่วไป"
+]
+},
+"自由_じゆう": {
+"sub": "describe.state",
+"en": "freedom; free; liberty",
+"thAlt": []
+},
+"親切_しんせつ": {
+"sub": "heart.character",
+"en": "kind; kindness; helpful",
+"thAlt": []
+},
+"特に_とくに": {
+"sub": "adverb.degree",
+"en": "especially; particularly",
+"thAlt": []
+},
+"必ず_かならず": {
+"sub": "adverb.manner",
+"en": "surely; without fail; always",
+"thAlt": [
+"ต้อง"
+]
+},
+"ぜひ_ぜひ": {
+"sub": "adverb.manner",
+"en": "by all means; definitely; certainly",
+"thAlt": []
+},
+"もし_もし": {
+"sub": "adverb.connector",
+"en": "if; in case; suppose",
+"thAlt": [
+"ถ้า"
+]
+},
+"例えば_たとえば": {
+"sub": "adverb.connector",
+"en": "for example; for instance; e.g.",
+"thAlt": [
+"เช่น"
+]
+},
+"もうすぐ_もうすぐ": {
+"sub": "adverb.timing",
+"en": "soon; shortly; almost",
+"thAlt": [
+"เร็วๆ นี้"
+]
+},
+"そろそろ_そろそろ": {
+"sub": "adverb.timing",
+"en": "soon; it's about time; gradually",
+"thAlt": [
+"ถึงเวลาแล้ว"
+]
+},
+"やっと_やっと": {
+"sub": "adverb.timing",
+"en": "finally; at last",
+"thAlt": []
+},
+"ほとんど_ほとんど": {
+"sub": "adverb.degree",
+"en": "almost; mostly; nearly all",
+"thAlt": [
+"เกือบ"
+]
+},
+"すっかり_すっかり": {
+"sub": "adverb.degree",
+"en": "completely; totally; entirely",
+"thAlt": [
+"ทั้งหมด"
+]
+},
+"ずいぶん_ずいぶん": {
+"sub": "adverb.degree",
+"en": "very; quite; considerably",
+"thAlt": [
+"มาก"
+]
+},
+"しっかり_しっかり": {
+"sub": "adverb.manner",
+"en": "firmly; tightly; properly",
+"thAlt": []
+},
+"はっきり_はっきり": {
+"sub": "adverb.manner",
+"en": "clearly; distinctly",
+"thAlt": []
+},
+"きっと_きっと": {
+"sub": "adverb.manner",
+"en": "surely; certainly; definitely",
+"thAlt": []
+},
+"さっき_さっき": {
+"sub": "time.relative",
+"en": "a moment ago; just now; earlier",
+"thAlt": [
+"เมื่อสักครู่"
+]
+},
+"しばらく_しばらく": {
+"sub": "adverb.timing",
+"en": "for a while; a moment; a little while",
+"thAlt": [
+"สักครู่"
+]
+},
+"やはり_やはり": {
+"sub": "adverb.manner",
+"en": "as expected; after all; still",
+"thAlt": [
+"ตามคาด"
+]
+},
+"どんどん_どんどん": {
+"sub": "adverb.manner",
+"en": "rapidly; steadily; more and more",
+"thAlt": [
+"เรื่อย ๆ"
+]
+},
+"なかなか_なかなか": {
+"sub": "adverb.degree",
+"en": "quite; rather; not easily",
+"thAlt": []
+},
+"動く_うごく": {
+"sub": "action.move",
+"en": "to move; move; to work; to run",
+"thAlt": [
+"ทำงาน"
+]
+},
+"写す_うつす": {
+"sub": "school.verb",
+"en": "to copy; copy; to take a photo",
+"thAlt": [
+"ลอก"
+]
+},
+"移る_うつる": {
+"sub": "transport.verb",
+"en": "to move; move; to transfer; to spread",
+"thAlt": [
+"ย้ายไป"
+]
+},
+"起こす_おこす": {
+"sub": "home.routine",
+"en": "to wake up; wake someone up; to cause",
+"thAlt": []
+},
+"起こる_おこる": {
+"sub": "action.change",
+"en": "to happen; happen; to occur",
+"thAlt": []
+},
+"怒る_おこる": {
+"sub": "heart.emotion",
+"en": "to get angry; be angry; to scold",
+"thAlt": []
+},
+"落とす_おとす": {
+"sub": "action.hand",
+"en": "to drop; drop; to lose",
+"thAlt": [
+"ทำหาย"
+]
+},
+"踊る_おどる": {
+"sub": "hobby.art",
+"en": "to dance; dance",
+"thAlt": [
+"รำ"
+]
+},
+"驚く_おどろく": {
+"sub": "heart.emotion",
+"en": "to be surprised; surprised; to be shocked",
+"thAlt": [
+"ตกตะลึง"
+]
+},
+"折れる_おれる": {
+"sub": "action.change",
+"en": "to break; be broken; to snap",
+"thAlt": []
+},
+"飾る_かざる": {
+"sub": "action.hand",
+"en": "to decorate; decorate; to display",
+"thAlt": []
+},
+"勝つ_かつ": {
+"sub": "hobby.sport",
+"en": "to win; win; to beat",
+"thAlt": []
+},
+"代わる_かわる": {
+"sub": "action.change",
+"en": "to replace; replace; to substitute; to take over",
+"thAlt": [
+"แทนที่",
+"เปลี่ยน"
+]
+},
+"決まる_きまる": {
+"sub": "action.change",
+"en": "to be decided; be decided; to be settled",
+"thAlt": [
+"กำหนด",
+"ตกลง"
+]
+},
+"探す_さがす": {
+"sub": "action.hand",
+"en": "to look for; look for; to search; search",
+"thAlt": [
+"หา",
+"ค้น"
+]
+},
+"下がる_さがる": {
+"sub": "action.change",
+"en": "to go down; go down; to fall; to drop",
+"thAlt": [
+"ลง",
+"ต่ำลง"
+]
+},
+"触る_さわる": {
+"sub": "action.hand",
+"en": "to touch; touch; to feel",
+"thAlt": [
+"จับ"
+]
+},
+"叱る_しかる": {
+"sub": "people.relation",
+"en": "to scold; scold; to tell off",
+"thAlt": [
+"ว่า",
+"ดุด่า"
+]
+},
+"滑る_すべる": {
+"sub": "action.move",
+"en": "to slip; slip; to slide",
+"thAlt": [
+"ลื่นล้ม"
+]
+},
+"済む_すむ": {
+"sub": "action.change",
+"en": "to be finished; be finished; to end; to be settled",
+"thAlt": [
+"เสร็จ",
+"จบแล้ว"
+]
+},
+"育てる_そだてる": {
+"sub": "people.family",
+"en": "to raise; raise; to bring up; to grow",
+"thAlt": [
+"เลี้ยง",
+"เลี้ยงลูก",
+"ปลูก"
+]
+},
+"足す_たす": {
+"sub": "number.number",
+"en": "to add; add; to plus",
+"thAlt": [
+"เติม"
+]
+},
+"立てる_たてる": {
+"sub": "action.hand",
+"en": "to set up; set up; to stand up; to put up",
+"thAlt": [
+"ตั้งขึ้น",
+"ปัก"
+]
+},
+"建てる_たてる": {
+"sub": "home.house",
+"en": "to build; build; to construct",
+"thAlt": [
+"ก่อสร้าง",
+"สร้างบ้าน"
+]
+},
+"付く_つく": {
+"sub": "action.hand",
+"en": "to be attached; to stick; to come with; be attached",
+"thAlt": [
+"แปะ",
+"ติดอยู่"
+]
+},
+"伝える_つたえる": {
+"sub": "action.talk",
+"en": "to tell; to convey; tell; to pass on",
+"thAlt": [
+"บอก",
+"แจ้ง",
+"สื่อสาร"
+]
+},
+"包む_つつむ": {
+"sub": "action.hand",
+"en": "to wrap; wrap; to wrap up",
+"thAlt": [
+"ห่อของ"
+]
+},
+"釣る_つる": {
+"sub": "hobby.leisure",
+"en": "to fish; fish; to catch fish",
+"thAlt": [
+"ตกปลา"
+]
+},
+"連れる_つれる": {
+"sub": "transport.verb",
+"en": "to take along; to bring along; take along",
+"thAlt": [
+"พา",
+"พาไปด้วย"
+]
+},
+"泊まる_とまる": {
+"sub": "transport.travel",
+"en": "to stay overnight; stay; to stay at",
+"thAlt": [
+"ค้าง",
+"ค้างคืน",
+"พักค้างคืน"
+]
+},
+"取り替える_とりかえる": {
+"sub": "action.change",
+"en": "to replace; to exchange; replace; to swap",
+"thAlt": [
+"เปลี่ยนใหม่",
+"แลก"
+]
+},
+"盗む_ぬすむ": {
+"sub": "work.society",
+"en": "to steal; steal; to rob",
+"thAlt": [
+"ลัก",
+"ขโมยของ"
+]
+},
+"払う_はらう": {
+"sub": "money.money",
+"en": "to pay; pay; to pay for",
+"thAlt": [
+"จ่ายเงิน",
+"ชำระเงิน"
+]
+},
+"褒める_ほめる": {
+"sub": "people.relation",
+"en": "to praise; praise; to compliment",
+"thAlt": [
+"ชมเชย",
+"ยกย่อง"
+]
+},
+"参る_まいる": {
+"sub": "keigo.humble",
+"en": "to go; to come; go; come",
+"thAlt": []
+},
+"負ける_まける": {
+"sub": "hobby.sport",
+"en": "to lose; lose; to be defeated",
+"thAlt": [
+"พ่ายแพ้"
+]
+},
+"間違える_まちがえる": {
+"sub": "heart.mind",
+"en": "to make a mistake; to get wrong; make a mistake; to mistake",
+"thAlt": [
+"ผิด",
+"พลาด",
+"ทำพลาด"
+]
+},
+"回る_まわる": {
+"sub": "action.move",
+"en": "to turn; to spin; to go around; turn",
+"thAlt": [
+"วน",
+"หมุนรอบ"
+]
+},
+"見つかる_みつかる": {
+"sub": "action.hand",
+"en": "to be found; be found; to turn up",
+"thAlt": [
+"พบ",
+"หาเจอ"
+]
+},
+"向かう_むかう": {
+"sub": "transport.verb",
+"en": "to head for; head for; to go towards",
+"thAlt": [
+"ไปทาง",
+"มุ่งไป"
+]
+},
+"申す_もうす": {
+"sub": "keigo.humble",
+"en": "to say; to be called; say; to be named",
+"thAlt": [
+"ชื่อ",
+"กล่าว"
+]
+},
+"揺れる_ゆれる": {
+"sub": "action.move",
+"en": "to shake; shake; to sway",
+"thAlt": [
+"โยก",
+"แกว่ง"
+]
+},
+"分かれる_わかれる": {
+"sub": "people.relation",
+"en": "to part; to separate; part; to split",
+"thAlt": [
+"แยกทาง",
+"แยก"
+]
+},
+"沸く_わく": {
+"sub": "food.verb",
+"en": "to boil; boil; to heat up",
+"thAlt": [
+"ต้ม",
+"น้ำเดือด"
+]
+},
+"頑張る_がんばる": {
+"sub": "heart.mind",
+"en": "to do one's best; try hard; to hang in there",
+"thAlt": [
+"สู้",
+"สู้ๆ",
+"พยายามเต็มที่"
+]
+},
+"選ぶ_えらぶ": {
+"sub": "heart.mind",
+"en": "to choose; choose; to select; to pick",
+"thAlt": [
+"คัดเลือก"
+]
+},
+"運転する_うんてんする": {
+"sub": "transport.verb",
+"en": "to drive; drive; to operate",
+"thAlt": [
+"ขับ"
+]
+},
+"上がる_あがる": {
+"sub": "action.change",
+"en": "to rise; to go up; rise; go up",
+"thAlt": [
+"สูงขึ้น",
+"ขึ้นไป"
+]
+},
+"移す_うつす": {
+"sub": "action.hand",
+"en": "to move; move; to transfer; to shift",
+"thAlt": [
+"เคลื่อนย้าย"
+]
+},
+"引っ越す_ひっこす": {
+"sub": "home.house",
+"en": "to move house; move house; to move; to relocate",
+"thAlt": [
+"ย้าย",
+"ย้ายที่อยู่"
+]
+},
+"乗り換える_のりかえる": {
+"sub": "transport.verb",
+"en": "to transfer; to change trains; transfer",
+"thAlt": [
+"ต่อรถ",
+"เปลี่ยนรถ",
+"เปลี่ยนรถไฟ"
+]
+},
+"混む_こむ": {
+"sub": "describe.state",
+"en": "to be crowded; be crowded; crowded",
+"thAlt": [
+"คนเยอะ",
+"แน่น"
+]
+},
+"空く_あく": {
+"sub": "describe.state",
+"en": "to be empty; to be vacant; be free; empty",
+"thAlt": [
+"ว่างอยู่",
+"ไม่มีคน"
+]
+},
+"片付ける_かたづける": {
+"sub": "home.routine",
+"en": "to tidy up; tidy up; to clean up; to put away",
+"thAlt": [
+"จัดเก็บ",
+"เก็บกวาด"
+]
+},
+"投げる_なげる": {
+"sub": "action.hand",
+"en": "to throw; throw; to toss",
+"thAlt": [
+"ปา"
+]
+},
+"亡くなる_なくなる": {
+"sub": "body.state",
+"en": "to pass away; to die; die; pass away",
+"thAlt": [
+"ตาย",
+"เสีย",
+"ถึงแก่กรรม"
+]
+},
+"捕まえる_つかまえる": {
+"sub": "action.hand",
+"en": "to catch; catch; to arrest; to capture",
+"thAlt": [
+"จับตัว",
+"จับกุม"
+]
+},
+"楽しむ_たのしむ": {
+"sub": "heart.emotion",
+"en": "to enjoy; enjoy; to have fun",
+"thAlt": [
+"สนุกสนาน",
+"เพลิน"
+]
+},
+"写る_うつる": {
+"sub": "hobby.art",
+"en": "to be photographed; be photographed; to appear; to show up",
+"thAlt": [
+"ติดกล้อง",
+"ถ่ายติด"
+]
+},
+"入学する_にゅうがくする": {
+"sub": "school.school",
+"en": "to enter school; to enroll; enroll; enter school",
+"thAlt": [
+"เข้าโรงเรียน",
+"เข้ามหาวิทยาลัย"
+]
+},
+"生きる_いきる": {
+"sub": "body.state",
+"en": "to live; live; to be alive",
+"thAlt": [
+"อยู่",
+"ดำรงชีวิต"
+]
+},
+"入院する_にゅういんする": {
+"sub": "body.illness",
+"en": "to be hospitalized; be hospitalized; to enter hospital",
+"thAlt": [
+"เข้าโรงพยาบาล",
+"แอดมิท"
+]
+},
+"退院する_たいいんする": {
+"sub": "body.illness",
+"en": "to leave hospital; to be discharged; leave hospital",
+"thAlt": [
+"ออกโรงพยาบาล"
+]
+},
+"眠る_ねむる": {
+"sub": "home.routine",
+"en": "to sleep; sleep; to fall asleep",
+"thAlt": [
+"นอน",
+"หลับใหล"
+]
+},
+"汚れる_よごれる": {
+"sub": "describe.state",
+"en": "to get dirty; get dirty; to be stained",
+"thAlt": [
+"เลอะ"
+]
+},
+"割れる_われる": {
+"sub": "describe.state",
+"en": "to break; break; to crack; to shatter",
+"thAlt": [
+"แตกหัก",
+"ร้าว"
+]
+},
+"煮る_にる": {
+"sub": "food.verb",
+"en": "to boil; to simmer; boil; to stew",
+"thAlt": [
+"เคี่ยว"
+]
+},
+"揚げる_あげる": {
+"sub": "food.verb",
+"en": "to deep-fry; deep-fry; to fry",
+"thAlt": [
+"ทอดน้ำมัน"
+]
+},
+"調べる_しらべる": {
+"sub": "school.verb",
+"en": "to look up; to check; to investigate; look up",
+"thAlt": [
+"ค้นหา",
+"หาข้อมูล",
+"สืบ"
+]
+},
+"尋ねる_たずねる": {
+"sub": "action.talk",
+"en": "to ask; ask; to inquire",
+"thAlt": [
+"ถามทาง"
+]
+},
+"経験する_けいけんする": {
+"sub": "heart.mind",
+"en": "to experience; experience; to go through",
+"thAlt": [
+"เคย",
+"ประสบการณ์"
+]
+},
+"招待する_しょうたいする": {
+"sub": "people.relation",
+"en": "to invite; invite",
+"thAlt": [
+"ชวน",
+"เชิญชวน"
+]
+},
+"相談する_そうだんする": {
+"sub": "action.talk",
+"en": "to consult; consult; to ask advice; to discuss",
+"thAlt": [
+"ขอคำปรึกษา",
+"หารือ"
+]
+},
+"会場_かいじょう": {
+"sub": "town.building",
+"en": "venue; meeting place; hall",
+"thAlt": [
+"ที่จัดงาน",
+"ฮอลล์"
+]
+},
+"海岸_かいがん": {
+"sub": "nature.nature",
+"en": "coast; seashore; beach",
+"thAlt": [
+"ริมทะเล",
+"ชายหาด"
+]
+},
+"家事_かじ": {
+"sub": "home.routine",
+"en": "housework; chores; household chores",
+"thAlt": [
+"งานในบ้าน"
+]
+},
+"形_かたち": {
+"sub": "describe.size",
+"en": "shape; form",
+"thAlt": [
+"ทรง"
+]
+},
+"課長_かちょう": {
+"sub": "work.company",
+"en": "section chief; section manager; manager",
+"thAlt": [
+"ผู้จัดการแผนก",
+"หัวหน้า"
+]
+},
+"汽車_きしゃ": {
+"sub": "transport.vehicle",
+"en": "steam train; train",
+"thAlt": []
+},
+"教会_きょうかい": {
+"sub": "town.building",
+"en": "church",
+"thAlt": [
+"คริสตจักร"
+]
+},
+"競争_きょうそう": {
+"sub": "work.society",
+"en": "competition; contest; rivalry",
+"thAlt": [
+"แข่งขัน",
+"การแข่ง"
+]
+},
+"空港_くうこう": {
+"sub": "transport.travel",
+"en": "airport",
+"thAlt": [
+"ท่าอากาศยาน"
+]
+},
+"首_くび": {
+"sub": "body.part",
+"en": "neck",
+"thAlt": [
+"ต้นคอ"
+]
+},
+"雲_くも": {
+"sub": "nature.weather",
+"en": "cloud; clouds",
+"thAlt": []
+},
+"経済_けいざい": {
+"sub": "work.society",
+"en": "economy; economics",
+"thAlt": [
+"เศรษฐศาสตร์"
+]
+},
+"警察_けいさつ": {
+"sub": "work.society",
+"en": "police; the police; police department",
+"thAlt": [
+"สถานีตำรวจ"
+]
+},
+"怪我_けが": {
+"sub": "body.illness",
+"en": "injury; wound; hurt",
+"thAlt": [
+"แผล",
+"เจ็บ"
+]
+},
+"原因_げんいん": {
+"sub": "heart.mind",
+"en": "cause; reason; origin",
+"thAlt": [
+"เหตุ",
+"ต้นเหตุ"
+]
+},
+"研究室_けんきゅうしつ": {
+"sub": "school.school",
+"en": "laboratory; lab; research room",
+"thAlt": [
+"แล็บ",
+"ห้องแล็บ"
+]
+},
+"見物_けんぶつ": {
+"sub": "transport.travel",
+"en": "sightseeing; viewing; watching",
+"thAlt": [
+"ดู",
+"ชม",
+"เที่ยวชม"
+]
+},
+"工場_こうじょう": {
+"sub": "town.building",
+"en": "factory; plant",
+"thAlt": []
+},
+"講義_こうぎ": {
+"sub": "school.study",
+"en": "lecture; class; course",
+"thAlt": [
+"เลคเชอร์",
+"คาบเรียน"
+]
+},
+"高校_こうこう": {
+"sub": "school.school",
+"en": "high school; senior high school",
+"thAlt": [
+"ม.ปลาย",
+"มัธยมปลาย"
+]
+},
+"交通_こうつう": {
+"sub": "transport.travel",
+"en": "traffic; transportation; transport",
+"thAlt": [
+"คมนาคม",
+"ขนส่ง"
+]
+},
+"行動_こうどう": {
+"sub": "action.basic",
+"en": "action; behavior; conduct",
+"thAlt": [
+"การทำ",
+"ความประพฤติ"
+]
+},
+"公務員_こうむいん": {
+"sub": "people.job",
+"en": "civil servant; government worker; public servant",
+"thAlt": [
+"เจ้าหน้าที่รัฐ"
+]
+},
+"心_こころ": {
+"sub": "heart.emotion",
+"en": "heart; mind; spirit",
+"thAlt": [
+"ใจ",
+"จิต"
+]
+},
+"故障_こしょう": {
+"sub": "describe.state",
+"en": "breakdown; malfunction; out of order",
+"thAlt": [
+"พัง",
+"เสียหาย"
+]
+},
+"小説_しょうせつ": {
+"sub": "hobby.art",
+"en": "novel; fiction; story",
+"thAlt": [
+"นวนิยาย"
+]
+},
+"招待_しょうたい": {
+"sub": "people.relation",
+"en": "invitation",
+"thAlt": [
+"คำเชิญ"
+]
+},
+"食料品_しょくりょうひん": {
+"sub": "food.ingredient",
+"en": "groceries; food; foodstuffs",
+"thAlt": [
+"ของสด",
+"ของชำ"
+]
+},
+"食事_しょくじ": {
+"sub": "food.dish",
+"en": "meal; a meal; dining",
+"thAlt": [
+"ข้าว",
+"การกิน"
+]
+},
+"新聞社_しんぶんしゃ": {
+"sub": "work.company",
+"en": "newspaper company; newspaper office",
+"thAlt": [
+"บริษัทหนังสือพิมพ์"
+]
+},
+"水泳_すいえい": {
+"sub": "hobby.sport",
+"en": "swimming",
+"thAlt": [
+"ว่ายน้ำ"
+]
+},
+"水道_すいどう": {
+"sub": "home.house",
+"en": "water supply; tap water; water service",
+"thAlt": [
+"น้ำประปา",
+"ก๊อกน้ำ"
+]
+},
+"隅_すみ": {
+"sub": "town.position",
+"en": "corner; nook",
+"thAlt": [
+"มุมห้อง"
+]
+},
+"戦争_せんそう": {
+"sub": "work.society",
+"en": "war",
+"thAlt": []
+},
+"世話_せわ": {
+"sub": "people.relation",
+"en": "care; help; looking after",
+"thAlt": [
+"ดูแล",
+"ช่วยเหลือ"
+]
+},
+"線_せん": {
+"sub": "describe.size",
+"en": "line; stripe; track",
+"thAlt": [
+"ลายเส้น"
+]
+},
+"祖母_そぼ": {
+"sub": "people.family",
+"en": "grandmother; grandma",
+"thAlt": [
+"ยาย",
+"คุณย่า",
+"คุณยาย"
+]
+},
+"祖父_そふ": {
+"sub": "people.family",
+"en": "grandfather; grandpa",
+"thAlt": [
+"คุณปู่",
+"คุณตา"
+]
+},
+"台風_たいふう": {
+"sub": "nature.weather",
+"en": "typhoon",
+"thAlt": [
+"พายุ"
+]
+},
+"畳_たたみ": {
+"sub": "home.house",
+"en": "tatami mat; tatami",
+"thAlt": [
+"ทาทามิ",
+"เสื่อ"
+]
+},
+"下着_したぎ": {
+"sub": "clothes.wear",
+"en": "underwear; undergarments",
+"thAlt": [
+"กางเกงใน",
+"เสื้อใน"
+]
+},
+"支度_したく": {
+"sub": "home.routine",
+"en": "preparation; getting ready; preparations",
+"thAlt": [
+"เตรียม",
+"เตรียมตัว",
+"เตรียมพร้อม"
+]
+},
+"社長_しゃちょう": {
+"sub": "work.company",
+"en": "company president; president; CEO; boss",
+"thAlt": [
+"ประธาน",
+"เจ้าของบริษัท",
+"ผู้บริหาร"
+]
+},
+"柔道_じゅうどう": {
+"sub": "hobby.sport",
+"en": "judo",
+"thAlt": []
+},
+"趣味_しゅみ": {
+"sub": "hobby.leisure",
+"en": "hobby; interest; pastime",
+"thAlt": [
+"ความชอบ"
+]
+},
+"背中_せなか": {
+"sub": "body.part",
+"en": "back; one's back",
+"thAlt": [
+"แผ่นหลัง"
+]
+},
+"専門_せんもん": {
+"sub": "school.study",
+"en": "specialty; major; field of study",
+"thAlt": [
+"สาขา",
+"วิชาเอก",
+"ความเชี่ยวชาญ"
+]
+},
+"為_ため": {
+"sub": "basic.affix",
+"en": "for; for the sake of; because of",
+"thAlt": [
+"เพราะ",
+"สำหรับ"
+]
+},
+"手袋_てぶくろ": {
+"sub": "clothes.wear",
+"en": "gloves; glove",
+"thAlt": []
+},
+"展覧会_てんらんかい": {
+"sub": "hobby.art",
+"en": "exhibition; art exhibition; show",
+"thAlt": [
+"นิทรรศการศิลปะ"
+]
+},
+"伝統_でんとう": {
+"sub": "work.society",
+"en": "tradition",
+"thAlt": [
+"วัฒนธรรม",
+"ธรรมเนียม"
+]
+},
+"途中_とちゅう": {
+"sub": "transport.travel",
+"en": "on the way; midway; halfway",
+"thAlt": [
+"กลางทาง"
+]
+},
+"特急_とっきゅう": {
+"sub": "transport.vehicle",
+"en": "limited express; express train; express",
+"thAlt": [
+"รถด่วน",
+"รถไฟด่วน"
+]
+},
+"泥棒_どろぼう": {
+"sub": "work.society",
+"en": "thief; burglar; robber",
+"thAlt": [
+"หัวขโมย",
+"คนร้าย"
+]
+},
+"日記_にっき": {
+"sub": "school.stationery",
+"en": "diary; journal",
+"thAlt": [
+"บันทึก"
+]
+},
+"人形_にんぎょう": {
+"sub": "hobby.leisure",
+"en": "doll; puppet",
+"thAlt": []
+},
+"値段_ねだん": {
+"sub": "money.shopping",
+"en": "price; cost",
+"thAlt": []
+},
+"熱_ねつ": {
+"sub": "body.illness",
+"en": "fever; heat; temperature",
+"thAlt": [
+"มีไข้",
+"อุณหภูมิ"
+]
+},
+"熱心_ねっしん": {
+"sub": "heart.character",
+"en": "enthusiastic; eager; earnest",
+"thAlt": [
+"ขยัน",
+"จริงจัง"
+]
+},
+"喉_のど": {
+"sub": "body.part",
+"en": "throat",
+"thAlt": [
+"คอหอย"
+]
+},
+"乗り物_のりもの": {
+"sub": "transport.vehicle",
+"en": "vehicle; transportation; ride",
+"thAlt": [
+"ยานพาหนะ",
+"รถ"
+]
+},
+"葉_は": {
+"sub": "nature.animal",
+"en": "leaf; leaves",
+"thAlt": [
+"ใบ"
+]
+},
+"倍_ばい": {
+"sub": "number.amount",
+"en": "double; twice; times",
+"thAlt": [
+"สองเท่า"
+]
+},
+"復習_ふくしゅう": {
+"sub": "school.study",
+"en": "review; revision",
+"thAlt": [
+"ทบทวน",
+"ทวนบทเรียน"
+]
+},
+"文学_ぶんがく": {
+"sub": "school.study",
+"en": "literature",
+"thAlt": [
+"วรรณคดี"
+]
+},
+"返事_へんじ": {
+"sub": "action.talk",
+"en": "reply; answer; response",
+"thAlt": [
+"ตอบ",
+"ตอบกลับ"
+]
+},
+"法律_ほうりつ": {
+"sub": "work.society",
+"en": "law; the law",
+"thAlt": [
+"กฎ"
+]
+},
+"翻訳_ほんやく": {
+"sub": "school.language",
+"en": "translation",
+"thAlt": [
+"แปล"
+]
+},
+"漫画_まんが": {
+"sub": "hobby.art",
+"en": "manga; comics; comic",
+"thAlt": [
+"หนังสือการ์ตูน"
+]
+},
+"最も_もっとも": {
+"sub": "adverb.degree",
+"en": "most; the most; extremely",
+"thAlt": [
+"มากที่สุด"
+]
+},
+"森_もり": {
+"sub": "nature.nature",
+"en": "forest; woods",
+"thAlt": []
+},
+"指輪_ゆびわ": {
+"sub": "clothes.wear",
+"en": "ring",
+"thAlt": []
+},
+"用事_ようじ": {
+"sub": "home.routine",
+"en": "errand; business; things to do",
+"thAlt": [
+"ติดธุระ",
+"เรื่องต้องทำ"
+]
+},
+"予習_よしゅう": {
+"sub": "school.study",
+"en": "lesson preparation; preparing for class; preview",
+"thAlt": [
+"เตรียมบทเรียน",
+"อ่านล่วงหน้า"
+]
+},
+"訳_わけ": {
+"sub": "heart.mind",
+"en": "reason; meaning; cause",
+"thAlt": [
+"เหตุ",
+"สาเหตุ"
+]
+},
+"忘れ物_わすれもの": {
+"sub": "home.belonging",
+"en": "something forgotten; lost item; left-behind item",
+"thAlt": [
+"ของหาย",
+"ลืม"
+]
+},
+"割合_わりあい": {
+"sub": "number.amount",
+"en": "ratio; proportion; rate; percentage",
+"thAlt": [
+"อัตรา",
+"เปอร์เซ็นต์"
+]
+},
+"意志_いし": {
+"sub": "heart.mind",
+"en": "will; intention; willpower",
+"thAlt": [
+"เจตจำนง"
+]
+},
+"運_うん": {
+"sub": "describe.quality",
+"en": "luck; fortune; fate",
+"thAlt": [
+"โชคดี",
+"โชคชะตา"
+]
+},
+"お釣り_おつり": {
+"sub": "money.money",
+"en": "change; small change",
+"thAlt": [
+"ทอน"
+]
+},
+"お見舞い_おみまい": {
+"sub": "body.illness",
+"en": "hospital visit; visiting the sick",
+"thAlt": [
+"เยี่ยมไข้",
+"เยี่ยมผู้ป่วย"
+]
+},
+"おもちゃ_おもちゃ": {
+"sub": "hobby.leisure",
+"en": "toy; toys; plaything",
+"thAlt": []
+},
+"親_おや": {
+"sub": "people.family",
+"en": "parents; parent",
+"thAlt": [
+"บุพการี"
+]
+},
+"終わり_おわり": {
+"sub": "action.change",
+"en": "end; the end; finish",
+"thAlt": [
+"ตอนจบ",
+"เสร็จ"
+]
+},
+"音_おと": {
+"sub": "hobby.art",
+"en": "sound; noise",
+"thAlt": []
+},
+"帰り_かえり": {
+"sub": "transport.travel",
+"en": "return; way home; way back",
+"thAlt": [
+"ตอนกลับ",
+"ทางกลับ"
+]
+},
+"間_あいだ": {
+"sub": "town.position",
+"en": "between; interval; during",
+"thAlt": [
+"ตรงกลาง",
+"ช่วงเวลา"
+]
+},
+"記者_きしゃ": {
+"sub": "people.job",
+"en": "reporter; journalist",
+"thAlt": [
+"ผู้สื่อข่าว"
+]
+},
+"好調_こうちょう": {
+"sub": "describe.quality",
+"en": "good condition; going well; favorable",
+"thAlt": [
+"ดีขึ้น",
+"ราบรื่น"
+]
+},
+"自信_じしん": {
+"sub": "heart.emotion",
+"en": "confidence; self-confidence",
+"thAlt": [
+"มั่นใจ"
+]
+},
+"時点_じてん": {
+"sub": "time.relative",
+"en": "point in time; moment; time",
+"thAlt": [
+"ตอนนั้น",
+"ณ เวลานั้น"
+]
+},
+"習慣_しゅうかん": {
+"sub": "home.routine",
+"en": "habit; custom; practice",
+"thAlt": [
+"ความเคยชิน",
+"ประเพณี"
+]
+},
+"承知_しょうち": {
+"sub": "keigo.humble",
+"en": "understood; acknowledged; certainly",
+"thAlt": [
+"ทราบ",
+"เข้าใจแล้ว"
+]
+},
+"祈る_いのる": {
+"sub": "heart.mind",
+"en": "to pray; pray; to wish",
+"thAlt": [
+"ขอพร",
+"สวดมนต์"
+]
+},
+"誤る_あやまる": {
+"sub": "heart.mind",
+"en": "to err; to make a mistake; err; to be wrong",
+"thAlt": [
+"ผิด",
+"พลาด"
+]
+},
+"おっしゃる_おっしゃる": {
+"sub": "keigo.honorific",
+"en": "to say; say; to speak",
+"thAlt": [
+"บอก"
+]
+},
+"深い_ふかい": {
+"sub": "describe.size",
+"en": "deep",
+"thAlt": [
+"ลึกซึ้ง"
+]
+},
+"眠い_ねむい": {
+"sub": "body.state",
+"en": "sleepy; drowsy",
+"thAlt": []
+},
+"素晴らしい_すばらしい": {
+"sub": "describe.quality",
+"en": "wonderful; splendid; great; magnificent",
+"thAlt": [
+"ดีมาก",
+"เยี่ยม"
+]
+},
+"寂しい_さびしい": {
+"sub": "heart.emotion",
+"en": "lonely; sad; lonesome",
+"thAlt": [
+"ว้าเหว่",
+"เปล่าเปลี่ยว"
+]
+},
+"怖い_こわい": {
+"sub": "heart.emotion",
+"en": "scary; frightening; afraid; scared",
+"thAlt": [
+"หวาดกลัว"
+]
+},
+"細かい_こまかい": {
+"sub": "describe.size",
+"en": "small; fine; detailed; picky",
+"thAlt": [
+"เล็กๆ",
+"ละเอียดอ่อน"
+]
+},
+"凄い_すごい": {
+"sub": "describe.quality",
+"en": "amazing; great; awesome; terrific",
+"thAlt": [
+"เจ๋ง",
+"เก่ง",
+"ยอดเยี่ยม"
+]
+},
+"おかしい_おかしい": {
+"sub": "describe.quality",
+"en": "funny; strange; odd; weird",
+"thAlt": [
+"แปลกๆ",
+"ขำ"
+]
+},
+"意外_いがい": {
+"sub": "heart.emotion",
+"en": "unexpected; surprising",
+"thAlt": [
+"ไม่คาดคิด",
+"เหนือความคาดหมาย"
+]
+},
+"急_きゅう": {
+"sub": "describe.state",
+"en": "sudden; urgent; steep",
+"thAlt": [
+"กะทันหัน",
+"ทันที"
+]
+},
+"確か_たしか": {
+"sub": "heart.mind",
+"en": "certain; sure; definite",
+"thAlt": [
+"แน่",
+"จริง"
+]
+},
+"適当_てきとう": {
+"sub": "describe.quality",
+"en": "suitable; appropriate; careless; random",
+"thAlt": [
+"พอดี",
+"ลวกๆ",
+"ส่งๆ"
+]
+},
+"簡単_かんたん": {
+"sub": "describe.quality",
+"en": "easy; simple",
+"thAlt": [
+"ไม่ยาก",
+"เรียบง่าย"
+]
+},
+"なるほど_なるほど": {
+"sub": "basic.greeting",
+"en": "I see; indeed; that makes sense",
+"thAlt": [
+"อ้อ",
+"อย่างนี้นี่เอง"
+]
+},
+"やっぱり_やっぱり": {
+"sub": "adverb.manner",
+"en": "as expected; after all; still",
+"thAlt": [
+"ตามคาด",
+"สุดท้ายก็"
+]
+},
+"約_やく": {
+"sub": "number.amount",
+"en": "about; approximately; around",
+"thAlt": [
+"ราวๆ",
+"เกือบ"
+]
+},
+"すると_すると": {
+"sub": "adverb.connector",
+"en": "then; and then; thereupon",
+"thAlt": [
+"แล้ว",
+"ทันใดนั้น"
+]
+},
+"それに_それに": {
+"sub": "adverb.connector",
+"en": "besides; moreover; in addition; also",
+"thAlt": [
+"นอกจากนี้",
+"อีกทั้ง"
+]
+},
+"または_または": {
+"sub": "adverb.connector",
+"en": "or; or else; either",
+"thAlt": [
+"หรือไม่ก็"
+]
+},
+"かつ_かつ": {
+"sub": "adverb.connector",
+"en": "and; also; moreover",
+"thAlt": [
+"และยัง",
+"พร้อมทั้ง"
+]
+},
+"〜代_〜だい": {
+"sub": "basic.affix",
+"en": "fee; charge; cost; bill",
+"thAlt": [
+"ค่าบริการ",
+"ราคา"
+]
+},
+"〜員_〜いん": {
+"sub": "basic.affix",
+"en": "member; staff; employee",
+"thAlt": [
+"เจ้าหน้าที่"
+]
+},
+"〜倍_〜ばい": {
+"sub": "number.counter",
+"en": "times; -fold; double",
+"thAlt": [
+"เท่าตัว"
+]
+},
+"〜以下_〜いか": {
+"sub": "basic.affix",
+"en": "or less; under; below",
+"thAlt": [
+"ไม่เกิน",
+"ลงมา"
+]
+},
+"〜以上_〜いじょう": {
+"sub": "basic.affix",
+"en": "or more; over; above",
+"thAlt": [
+"ขึ้นไป"
+]
+},
+"〜以内_〜いない": {
+"sub": "basic.affix",
+"en": "within; inside of; not more than",
+"thAlt": []
+},
+"〜以外_〜いがい": {
+"sub": "basic.affix",
+"en": "except; other than; besides",
+"thAlt": [
+"นอกเหนือจาก"
+]
+},
+"〜様_〜さま": {
+"sub": "basic.affix",
+"en": "Mr.; Ms.; Mrs.; Dear",
+"thAlt": []
+},
+"〜式_〜しき": {
+"sub": "basic.affix",
+"en": "ceremony; style; type",
+"thAlt": [
+"งานพิธี"
+]
+},
+"あ_あ": {
+"sub": "basic.greeting",
+"en": "ah; oh",
+"thAlt": [
+"อ๊ะ",
+"อ้อ"
+]
+},
+"赤ちゃん_あかちゃん": {
+"sub": "people.person",
+"en": "baby; infant",
+"thAlt": [
+"เด็กอ่อน",
+"เบบี๋"
+]
+},
+"朝寝坊_あさねぼう": {
+"sub": "home.routine",
+"en": "oversleeping; sleeping in; late riser",
+"thAlt": [
+"ตื่นสาย",
+"นอนตื่นสาย"
+]
+},
+"あんな_あんな": {
+"sub": "basic.pointing",
+"en": "that kind of; like that; such",
+"thAlt": [
+"อย่างโน้น",
+"แบบโน้น"
+]
+},
+"医学_いがく": {
+"sub": "school.study",
+"en": "medicine; medical science",
+"thAlt": [
+"การแพทย์"
+]
+},
+"いくら〜ても_いくら〜ても": {
+"sub": "adverb.degree",
+"en": "no matter how; however much",
+"thAlt": [
+"ต่อให้",
+"ถึงจะ"
+]
+},
+"いじめる_いじめる": {
+"sub": "people.relation",
+"en": "to bully; bully; to tease; to pick on",
+"thAlt": [
+"แกล้ง"
+]
+},
+"致す_いたす": {
+"sub": "keigo.humble",
+"en": "to do; do",
+"thAlt": [
+"จัดการ"
+]
+},
+"頂く_いただく": {
+"sub": "keigo.humble",
+"en": "to receive; to eat; to drink; receive",
+"thAlt": [
+"ได้รับ",
+"ทาน"
+]
+},
+"一度_いちど": {
+"sub": "adverb.timing",
+"en": "once; one time; once more",
+"thAlt": [
+"หนึ่งครั้ง",
+"อีกครั้ง"
+]
+},
+"一杯_いっぱい": {
+"sub": "number.amount",
+"en": "full; a lot; plenty; one cup",
+"thAlt": [
+"เต็มไปหมด",
+"หนึ่งแก้ว"
+]
+},
+"いらっしゃる_いらっしゃる": {
+"sub": "keigo.honorific",
+"en": "to come; to go; to be; come",
+"thAlt": []
+},
+"伺う_うかがう": {
+"sub": "keigo.humble",
+"en": "to visit; to ask; visit; to hear",
+"thAlt": [
+"เยี่ยม",
+"ไปหา"
+]
+},
+"打つ_うつ": {
+"sub": "action.hand",
+"en": "to hit; hit; to strike; to type",
+"thAlt": [
+"ต่อย",
+"พิมพ์"
+]
+},
+"美しい_うつくしい": {
+"sub": "describe.quality",
+"en": "beautiful; lovely; pretty",
+"thAlt": [
+"สวย",
+"งาม"
+]
+},
+"うまい_うまい": {
+"sub": "food.taste",
+"en": "delicious; tasty; good at; skillful",
+"thAlt": [
+"อร่อยมาก"
+]
+},
+"嬉しい_うれしい": {
+"sub": "heart.emotion",
+"en": "happy; glad; pleased",
+"thAlt": [
+"มีความสุข",
+"ปลื้ม"
+]
+},
+"運動_うんどう": {
+"sub": "hobby.sport",
+"en": "exercise; sports; physical exercise",
+"thAlt": [
+"ออกกำลังกาย",
+"กีฬา"
+]
+},
+"おいでになる_おいでになる": {
+"sub": "keigo.honorific",
+"en": "to come; to go; to be; come",
+"thAlt": []
+},
+"お陰_おかげ": {
+"sub": "basic.greeting",
+"en": "thanks to; owing to; because of",
+"thAlt": [
+"ต้องขอบคุณ"
+]
+},
+"屋上_おくじょう": {
+"sub": "town.building",
+"en": "rooftop; roof",
+"thAlt": [
+"หลังคา",
+"ชั้นดาดฟ้า"
+]
+},
+"遅れる_おくれる": {
+"sub": "time.relative",
+"en": "to be late; be late; to be delayed",
+"thAlt": [
+"มาสาย",
+"ช้า",
+"ไม่ทัน"
+]
+},
+"お子さん_おこさん": {
+"sub": "people.family",
+"en": "your child; child; someone's child",
+"thAlt": [
+"ลูก",
+"ลูกคุณ"
+]
+},
+"行う_おこなう": {
+"sub": "work.verb",
+"en": "to carry out; to hold; to do; conduct",
+"thAlt": [
+"จัดงาน",
+"ปฏิบัติ"
+]
+},
+"押し入れ_おしいれ": {
+"sub": "home.house",
+"en": "closet; Japanese closet; cupboard",
+"thAlt": [
+"ตู้",
+"ตู้เก็บของ",
+"ตู้ผนัง"
+]
+},
+"お嬢さん_おじょうさん": {
+"sub": "people.family",
+"en": "your daughter; daughter; young lady",
+"thAlt": [
+"ลูกสาว",
+"คุณหนู"
+]
+},
+"お宅_おたく": {
+"sub": "home.house",
+"en": "your home; someone's house; house",
+"thAlt": [
+"บ้าน",
+"บ้านคุณ"
+]
+},
+"踊り_おどり": {
+"sub": "hobby.art",
+"en": "dance; dancing",
+"thAlt": [
+"เต้น",
+"รำ"
+]
+},
+"お祭り_おまつり": {
+"sub": "hobby.leisure",
+"en": "festival; fair",
+"thAlt": [
+"งานเทศกาล",
+"มัตสึริ"
+]
+},
+"お土産_おみやげ": {
+"sub": "transport.travel",
+"en": "souvenir; gift; present",
+"thAlt": [
+"ของที่ระลึก"
+]
+},
+"表_おもて": {
+"sub": "town.position",
+"en": "front; surface; face; outside",
+"thAlt": [
+"ด้านนอก",
+"หน้า"
+]
+},
+"お礼_おれい": {
+"sub": "people.relation",
+"en": "thanks; gratitude; thank-you gift",
+"thAlt": [
+"ขอบคุณ",
+"คำขอบคุณ"
+]
+},
+"会議室_かいぎしつ": {
+"sub": "work.company",
+"en": "meeting room; conference room",
+"thAlt": []
+},
+"会話_かいわ": {
+"sub": "school.language",
+"en": "conversation; dialogue; talk",
+"thAlt": [
+"สนทนา",
+"การพูดคุย"
+]
+},
+"鏡_かがみ": {
+"sub": "home.furniture",
+"en": "mirror",
+"thAlt": [
+"กระจก"
+]
+},
+"格好_かっこう": {
+"sub": "clothes.wear",
+"en": "appearance; look; style; outfit",
+"thAlt": [
+"การแต่งตัว",
+"ภาพลักษณ์",
+"เท่"
+]
+},
+"お金持ち_おかねもち": {
+"sub": "money.money",
+"en": "rich person; wealthy; rich",
+"thAlt": [
+"เศรษฐี",
+"รวย"
+]
+},
+"彼女_かのじょ": {
+"sub": "basic.pointing",
+"en": "she; her; girlfriend",
+"thAlt": [
+"แฟน",
+"หล่อน"
+]
+},
+"かまう_かまう": {
+"sub": "heart.mind",
+"en": "to mind; to care about; mind; to bother",
+"thAlt": [
+"สนใจ",
+"แคร์"
+]
+},
+"噛む_かむ": {
+"sub": "food.verb",
+"en": "to bite; to chew; bite; chew",
+"thAlt": [
+"งับ"
+]
+},
+"彼_かれ": {
+"sub": "basic.pointing",
+"en": "he; him; boyfriend",
+"thAlt": [
+"แฟน",
+"แฟนผู้ชาย"
+]
+},
+"彼ら_かれら": {
+"sub": "basic.pointing",
+"en": "they; them",
+"thAlt": [
+"พวกเค้า",
+"เขาเหล่านั้น"
+]
+},
+"看護婦_かんごふ": {
+"sub": "people.job",
+"en": "nurse",
+"thAlt": [
+"นางพยาบาล"
+]
+},
+"絹_きぬ": {
+"sub": "clothes.wear",
+"en": "silk",
+"thAlt": [
+"ไหม"
+]
+},
+"技術_ぎじゅつ": {
+"sub": "work.society",
+"en": "technology; technique; skill",
+"thAlt": [
+"เทคนิค",
+"ฝีมือ"
+]
+},
+"くださる_くださる": {
+"sub": "keigo.honorific",
+"en": "to give me; give; to kindly give",
+"thAlt": [
+"ให้ฉัน"
+]
+},
+"暮れる_くれる": {
+"sub": "time.clock",
+"en": "to get dark; get dark; to end",
+"thAlt": [
+"มืด",
+"ค่ำ"
+]
+},
+"くれる_くれる": {
+"sub": "action.giving",
+"en": "to give me; give; to give to me",
+"thAlt": [
+"ให้ฉัน"
+]
+},
+"けがする_けがする": {
+"sub": "body.illness",
+"en": "to get injured; get hurt; to be injured",
+"thAlt": [
+"เจ็บตัว",
+"เจ็บ"
+]
+},
+"景色_けしき": {
+"sub": "nature.nature",
+"en": "scenery; view; landscape",
+"thAlt": [
+"ทัศนียภาพ",
+"วิวทิวทัศน์"
+]
+},
+"消しゴム_けしごむ": {
+"sub": "school.stationery",
+"en": "eraser; rubber",
+"thAlt": []
+},
+"決して_けっして": {
+"sub": "adverb.manner",
+"en": "never; by no means; not at all",
+"thAlt": [
+"ไม่มีทาง",
+"เด็ดขาด"
+]
+},
+"けれど_けれど": {
+"sub": "adverb.connector",
+"en": "but; however; although",
+"thAlt": [
+"แม้ว่า"
+]
+},
+"喧嘩_けんか": {
+"sub": "people.relation",
+"en": "quarrel; fight; argument",
+"thAlt": [
+"ทะเลาะ",
+"ทะเลาะกัน"
+]
+},
+"研究_けんきゅう": {
+"sub": "school.study",
+"en": "research; study",
+"thAlt": [
+"วิจัย",
+"ค้นคว้า"
+]
+},
+"下宿_げしゅく": {
+"sub": "home.house",
+"en": "lodging; boarding house; rented room",
+"thAlt": [
+"ห้องเช่า"
+]
+},
+"子_こ": {
+"sub": "people.person",
+"en": "child; kid",
+"thAlt": []
+},
+"こう_こう": {
+"sub": "basic.pointing",
+"en": "like this; this way; in this way",
+"thAlt": []
+},
+"郊外_こうがい": {
+"sub": "town.region",
+"en": "suburbs; outskirts",
+"thAlt": [
+"นอกเมือง"
+]
+},
+"工業_こうぎょう": {
+"sub": "work.society",
+"en": "industry; manufacturing industry",
+"thAlt": []
+},
+"高校生_こうこうせい": {
+"sub": "school.school",
+"en": "high school student; high schooler",
+"thAlt": [
+"นักเรียนม.ปลาย",
+"เด็กมัธยมปลาย"
+]
+},
+"高等学校_こうとうがっこう": {
+"sub": "school.school",
+"en": "high school; senior high school",
+"thAlt": [
+"ม.ปลาย",
+"โรงเรียนมัธยม"
+]
+},
+"答_こたえ": {
+"sub": "school.study",
+"en": "answer; reply; solution",
+"thAlt": [
+"เฉลย",
+"คำเฉลย"
+]
+},
+"事_こと": {
+"sub": "basic.affix",
+"en": "thing; matter; fact",
+"thAlt": [
+"สิ่งที่",
+"เรื่องราว"
+]
+},
+"小鳥_ことり": {
+"sub": "nature.animal",
+"en": "small bird; little bird; songbird",
+"thAlt": [
+"นก",
+"นกน้อย"
+]
+},
+"この間_このあいだ": {
+"sub": "time.relative",
+"en": "the other day; recently; lately",
+"thAlt": [
+"วันก่อน"
+]
+},
+"この頃_このごろ": {
+"sub": "time.relative",
+"en": "these days; recently; nowadays",
+"thAlt": [
+"หมู่นี้",
+"ระยะนี้"
+]
+},
+"米_こめ": {
+"sub": "food.ingredient",
+"en": "rice; uncooked rice",
+"thAlt": [
+"ข้าวสาร"
+]
+},
+"これから_これから": {
+"sub": "time.relative",
+"en": "from now on; after this; from now",
+"thAlt": [
+"ต่อไปนี้",
+"หลังจากนี้"
+]
+},
+"今度_こんど": {
+"sub": "time.relative",
+"en": "next time; this time; soon",
+"thAlt": [
+"คราวหน้า",
+"คราวนี้"
+]
+},
+"今夜_こんや": {
+"sub": "time.day",
+"en": "tonight; this evening",
+"thAlt": [
+"คืนวันนี้"
+]
+},
+"ご存じ_ごぞんじ": {
+"sub": "keigo.honorific",
+"en": "to know; know; be aware of",
+"thAlt": [
+"รู้"
+]
+},
+"ごちそう_ごちそう": {
+"sub": "food.dish",
+"en": "feast; treat; delicious meal",
+"thAlt": [
+"เลี้ยงอาหาร",
+"อาหารมื้อพิเศษ"
+]
+},
+"ごみ_ごみ": {
+"sub": "home.routine",
+"en": "garbage; trash; rubbish",
+"thAlt": []
+},
+"ご覧になる_ごらんになる": {
+"sub": "keigo.honorific",
+"en": "to see; see; to look at; to watch",
+"thAlt": [
+"ชม"
+]
+},
+"最後_さいご": {
+"sub": "time.relative",
+"en": "last; the end; final",
+"thAlt": [
+"ท้ายสุด",
+"ตอนจบ"
+]
+},
+"最初_さいしょ": {
+"sub": "time.relative",
+"en": "first; beginning; at first",
+"thAlt": [
+"ตอนแรก",
+"ครั้งแรก"
+]
+},
+"坂_さか": {
+"sub": "town.street",
+"en": "slope; hill",
+"thAlt": [
+"เนินเขา",
+"ทางขึ้นเนิน"
+]
+},
+"盛ん_さかん": {
+"sub": "describe.state",
+"en": "thriving; prosperous; popular",
+"thAlt": [
+"คึกคัก",
+"เฟื่องฟู"
+]
+},
+"下げる_さげる": {
+"sub": "action.change",
+"en": "to lower; lower; to reduce; to hang",
+"thAlt": [
+"ทำให้ต่ำลง",
+"ลดราคา"
+]
+},
+"差し上げる_さしあげる": {
+"sub": "keigo.humble",
+"en": "to give; give; to offer",
+"thAlt": [
+"มอบให้",
+"ถวาย"
+]
+},
+"再来月_さらいげつ": {
+"sub": "time.season",
+"en": "month after next; the month after next",
+"thAlt": [
+"สองเดือนข้างหน้า"
+]
+},
+"再来週_さらいしゅう": {
+"sub": "time.day",
+"en": "week after next; the week after next",
+"thAlt": [
+"อีกสองสัปดาห์",
+"อาทิตย์หน้าหน้า"
+]
+},
+"騒ぐ_さわぐ": {
+"sub": "action.talk",
+"en": "to make noise; make noise; to be noisy; to fuss",
+"thAlt": [
+"เสียงดัง",
+"เอะอะ"
+]
+},
+"産業_さんぎょう": {
+"sub": "work.society",
+"en": "industry",
+"thAlt": []
+},
+"残念_ざんねん": {
+"sub": "heart.emotion",
+"en": "regrettable; too bad; disappointing",
+"thAlt": [
+"เสียดาย",
+"น่าเสียใจ"
+]
+},
+"失礼_しつれい": {
+"sub": "basic.greeting",
+"en": "rudeness; excuse me; impolite",
+"thAlt": [
+"ขอโทษ",
+"เสียมารยาท"
+]
+},
+"島_しま": {
+"sub": "nature.nature",
+"en": "island",
+"thAlt": []
+},
+"出席_しゅっせき": {
+"sub": "school.school",
+"en": "attendance; presence; to attend",
+"thAlt": [
+"เข้าร่วม",
+"เช็คชื่อ"
+]
+},
+"出発_しゅっぱつ": {
+"sub": "transport.verb",
+"en": "departure; to depart; leaving",
+"thAlt": [
+"ออกเดินทาง",
+"ออกจาก"
+]
+},
+"紹介_しょうかい": {
+"sub": "people.relation",
+"en": "introduction; to introduce",
+"thAlt": [
+"แนะนำ",
+"แนะนำตัว"
+]
+},
+"小学校_しょうがっこう": {
+"sub": "school.school",
+"en": "elementary school; primary school",
+"thAlt": [
+"ประถม",
+"โรงเรียนประถมศึกษา"
+]
+},
+"正月_しょうがつ": {
+"sub": "time.season",
+"en": "New Year; New Year holidays",
+"thAlt": [
+"ปีใหม่",
+"เทศกาลปีใหม่"
+]
+},
+"知らせる_しらせる": {
+"sub": "action.talk",
+"en": "to inform; inform; to notify; to let know",
+"thAlt": [
+"บอก",
+"แจ้งให้ทราบ"
+]
+},
+"字_じ": {
+"sub": "school.language",
+"en": "character; letter; handwriting",
+"thAlt": [
+"ลายมือ",
+"อักษร"
+]
+},
+"事務所_じむしょ": {
+"sub": "work.company",
+"en": "office",
+"thAlt": [
+"ออฟฟิศ"
+]
+},
+"過ぎる_すぎる": {
+"sub": "action.change",
+"en": "to pass; pass; to exceed; too much",
+"thAlt": [
+"เกินไป",
+"มากเกินไป"
+]
+},
+"すっと_すっと": {
+"sub": "adverb.manner",
+"en": "quickly; smoothly; swiftly",
+"thAlt": [
+"ทันที",
+"ฉับพลัน"
+]
+},
+"すり_すり": {
+"sub": "work.society",
+"en": "pickpocket; pickpocketing",
+"thAlt": [
+"นักล้วงกระเป๋า",
+"ล้วงกระเป๋า"
+]
+},
+"生産_せいさん": {
+"sub": "work.society",
+"en": "production; manufacturing; to produce",
+"thAlt": [
+"ผลิต"
+]
+},
+"政治_せいじ": {
+"sub": "work.society",
+"en": "politics; government",
+"thAlt": []
+},
+"西洋_せいよう": {
+"sub": "town.region",
+"en": "the West; Western countries; Occident",
+"thAlt": [
+"ฝรั่ง",
+"โลกตะวันตก"
+]
+},
+"世界_せかい": {
+"sub": "town.region",
+"en": "world; the world",
+"thAlt": [
+"ทั่วโลก"
+]
+},
+"席_せき": {
+"sub": "transport.travel",
+"en": "seat; place",
+"thAlt": [
+"ที่",
+"เก้าอี้"
+]
+},
+"全然_ぜんぜん": {
+"sub": "adverb.degree",
+"en": "not at all; at all; totally",
+"thAlt": [
+"ไม่เลย"
+]
+},
+"卒業_そつぎょう": {
+"sub": "school.school",
+"en": "graduation; to graduate",
+"thAlt": [
+"เรียนจบ",
+"จบ"
+]
+},
+"それで_それで": {
+"sub": "adverb.connector",
+"en": "and so; therefore; because of that",
+"thAlt": [
+"ก็เลย",
+"แล้ว"
+]
+},
+"それほど_それほど": {
+"sub": "adverb.degree",
+"en": "to that extent; not so much; that much",
+"thAlt": [
+"ไม่ค่อย"
+]
+},
+"そんな_そんな": {
+"sub": "basic.pointing",
+"en": "such; like that; that kind of",
+"thAlt": []
+},
+"そんなに_そんなに": {
+"sub": "adverb.degree",
+"en": "so much; that much; to that extent",
+"thAlt": [
+"ขนาดนั้นเลย"
+]
+},
+"退院_たいいん": {
+"sub": "body.illness",
+"en": "leaving hospital; hospital discharge; to be discharged",
+"thAlt": [
+"ออกโรงพยาบาล"
+]
+},
+"棚_たな": {
+"sub": "home.furniture",
+"en": "shelf; shelves; rack",
+"thAlt": [
+"ชั้น",
+"ชั้นวาง"
+]
+},
+"楽しみ_たのしみ": {
+"sub": "heart.emotion",
+"en": "looking forward; pleasure; enjoyment",
+"thAlt": [
+"ตั้งตารอ",
+"รอคอย"
+]
+},
+"たまに_たまに": {
+"sub": "adverb.timing",
+"en": "occasionally; sometimes; once in a while",
+"thAlt": [
+"นานๆ ครั้ง",
+"บางที"
+]
+},
+"大学生_だいがくせい": {
+"sub": "school.school",
+"en": "university student; college student",
+"thAlt": [
+"นักศึกษามหาวิทยาลัย"
+]
+},
+"大体_だいたい": {
+"sub": "adverb.degree",
+"en": "about; roughly; mostly; generally",
+"thAlt": [
+"ประมาณ",
+"เกือบทั้งหมด"
+]
+},
+"大分_だいぶ": {
+"sub": "adverb.degree",
+"en": "considerably; quite; greatly",
+"thAlt": [
+"มาก",
+"ทีเดียว"
+]
+},
+"だから_だから": {
+"sub": "adverb.connector",
+"en": "so; therefore; that's why",
+"thAlt": [
+"เพราะงั้น",
+"ก็เลย"
+]
+},
+"駄目_だめ": {
+"sub": "describe.quality",
+"en": "no good; not allowed; useless",
+"thAlt": [
+"ใช้ไม่ได้",
+"ไม่ได้นะ"
+]
+},
+"暖房_だんぼう": {
+"sub": "home.furniture",
+"en": "heating; heater",
+"thAlt": [
+"เครื่องทำความอุ่น",
+"ฮีทเตอร์"
+]
+},
+"力_ちから": {
+"sub": "body.state",
+"en": "power; strength; force",
+"thAlt": [
+"ความสามารถ",
+"แรงกาย"
+]
+},
+"ちっとも_ちっとも": {
+"sub": "adverb.degree",
+"en": "not at all; not a bit; not in the least",
+"thAlt": [
+"ไม่เลย",
+"นิดเดียวก็ไม่"
+]
+},
+"中学校_ちゅうがっこう": {
+"sub": "school.school",
+"en": "junior high school; middle school",
+"thAlt": [
+"ม.ต้น",
+"มัธยมต้น"
+]
+},
+"地理_ちり": {
+"sub": "school.study",
+"en": "geography",
+"thAlt": []
+},
+"都合_つごう": {
+"sub": "describe.state",
+"en": "convenience; circumstances; schedule",
+"thAlt": [
+"สะดวก",
+"เวลาว่าง"
+]
+},
+"つもり_つもり": {
+"sub": "heart.mind",
+"en": "intention; plan; intend to",
+"thAlt": [
+"ตั้งใจจะ",
+"ตั้งใจว่า"
+]
+},
+"手伝う_てつだう": {
+"sub": "people.relation",
+"en": "to help; help; to assist",
+"thAlt": [
+"ช่วยงาน"
+]
+},
+"寺_てら": {
+"sub": "town.building",
+"en": "temple; Buddhist temple",
+"thAlt": []
+},
+"点_てん": {
+"sub": "school.study",
+"en": "point; score; mark; dot",
+"thAlt": [
+"แต้ม"
+]
+},
+"店員_てんいん": {
+"sub": "people.job",
+"en": "shop clerk; salesclerk; store staff",
+"thAlt": [
+"พนักงานขาย",
+"พนักงาน"
+]
+},
+"天気予報_てんきよほう": {
+"sub": "nature.weather",
+"en": "weather forecast",
+"thAlt": [
+"พยากรณ์"
+]
+},
+"できるだけ_できるだけ": {
+"sub": "adverb.degree",
+"en": "as much as possible; as far as possible",
+"thAlt": [
+"ให้ได้มากที่สุด",
+"พยายามให้มากที่สุด"
+]
+},
+"電報_でんぽう": {
+"sub": "hobby.media",
+"en": "telegram",
+"thAlt": []
+},
+"遠く_とおく": {
+"sub": "town.position",
+"en": "far away; distance; distant place",
+"thAlt": [
+"ไกล",
+"แดนไกล"
+]
+},
+"通る_とおる": {
+"sub": "town.street",
+"en": "to pass through; pass; to go through",
+"thAlt": [
+"ผ่านทาง"
+]
+},
+"床屋_とこや": {
+"sub": "town.shop",
+"en": "barber; barbershop",
+"thAlt": [
+"ช่างตัดผม",
+"ร้านตัดผมชาย"
+]
+},
+"止める_とめる": {
+"sub": "action.change",
+"en": "to stop; stop; to park",
+"thAlt": [
+"จอด",
+"ห้าม"
+]
+},
+"道具_どうぐ": {
+"sub": "home.belonging",
+"en": "tool; tools; equipment",
+"thAlt": [
+"ของใช้"
+]
+},
+"動物園_どうぶつえん": {
+"sub": "town.building",
+"en": "zoo",
+"thAlt": []
+},
+"なさる_なさる": {
+"sub": "keigo.honorific",
+"en": "to do; do",
+"thAlt": [
+"กระทำ"
+]
+},
+"なるべく_なるべく": {
+"sub": "adverb.degree",
+"en": "as much as possible; if possible",
+"thAlt": [
+"เท่าที่จะทำได้",
+"พยายาม"
+]
+},
+"匂い_におい": {
+"sub": "describe.state",
+"en": "smell; scent; odor",
+"thAlt": [
+"กลิ่นหอม"
+]
+},
+"二階建て_にかいだて": {
+"sub": "home.house",
+"en": "two-story building; two-story house",
+"thAlt": [
+"บ้านสองชั้น",
+"สองชั้น"
+]
+},
+"入院_にゅういん": {
+"sub": "body.illness",
+"en": "hospitalization; to be hospitalized",
+"thAlt": [
+"เข้าโรงพยาบาล",
+"นอนโรงพยาบาล"
+]
+},
+"入学_にゅうがく": {
+"sub": "school.school",
+"en": "school entrance; enrollment; to enter school",
+"thAlt": [
+"เข้าโรงเรียน",
+"เข้ามหาวิทยาลัย"
+]
+},
+"塗る_ぬる": {
+"sub": "action.hand",
+"en": "to paint; paint; to apply; to spread",
+"thAlt": [
+"ป้าย",
+"ระบาย"
+]
+},
+"寝坊_ねぼう": {
+"sub": "home.routine",
+"en": "oversleeping; to oversleep; sleeping late",
+"thAlt": [
+"ตื่นสาย",
+"นอนเกิน"
+]
+},
+"拝見_はいけん": {
+"sub": "keigo.humble",
+"en": "to see; see; to look at; to read",
+"thAlt": [
+"ขอดู"
+]
+},
+"歯医者_はいしゃ": {
+"sub": "people.job",
+"en": "dentist; dental clinic",
+"thAlt": [
+"หมอ",
+"คลินิกทันตกรรม"
+]
+},
+"はず_はず": {
+"sub": "heart.mind",
+"en": "should be; expected to; supposed to",
+"thAlt": [
+"คงจะ",
+"น่าจะเป็น"
+]
+},
+"発音_はつおん": {
+"sub": "school.language",
+"en": "pronunciation",
+"thAlt": [
+"ออกเสียง",
+"สำเนียง"
+]
+},
+"花見_はなみ": {
+"sub": "hobby.leisure",
+"en": "cherry blossom viewing; flower viewing; hanami",
+"thAlt": [
+"ดูซากุระ",
+"ชมซากุระ"
+]
+},
+"林_はやし": {
+"sub": "nature.nature",
+"en": "woods; grove; forest",
+"thAlt": [
+"ป่าไม้",
+"สวนป่า"
+]
+},
+"場所_ばしょ": {
+"sub": "town.position",
+"en": "place; location; spot",
+"thAlt": [
+"ตำแหน่ง",
+"ที่ตั้ง"
+]
+},
+"日_ひ": {
+"sub": "nature.nature",
+"en": "sun; day; sunlight",
+"thAlt": [
+"พระอาทิตย์",
+"แสงแดด"
+]
+},
+"光_ひかり": {
+"sub": "nature.nature",
+"en": "light; ray; glow",
+"thAlt": [
+"แสงไฟ",
+"ลำแสง"
+]
+},
+"光る_ひかる": {
+"sub": "nature.nature",
+"en": "to shine; shine; to glitter; to glow",
+"thAlt": [
+"เปล่งแสง",
+"ระยิบระยับ"
+]
+},
+"引き出す_ひきだす": {
+"sub": "action.hand",
+"en": "to pull out; pull out; to withdraw",
+"thAlt": [
+"ดึง",
+"ถอนเงิน"
+]
+},
+"髭_ひげ": {
+"sub": "body.part",
+"en": "beard; mustache; whiskers",
+"thAlt": [
+"หนวดเครา"
+]
+},
+"飛行場_ひこうじょう": {
+"sub": "transport.travel",
+"en": "airport; airfield",
+"thAlt": [
+"ท่าอากาศยาน"
+]
+},
+"久しぶり_ひさしぶり": {
+"sub": "basic.greeting",
+"en": "long time no see; after a long time",
+"thAlt": [
+"ไม่ได้เจอกันนานเลย",
+"นานๆ ที"
+]
+},
+"非常に_ひじょうに": {
+"sub": "adverb.degree",
+"en": "extremely; very; greatly",
+"thAlt": [
+"มาก",
+"สุดๆ"
+]
+},
+"酷い_ひどい": {
+"sub": "describe.quality",
+"en": "terrible; awful; cruel",
+"thAlt": [
+"แย่มาก",
+"ใจร้าย"
+]
+},
+"昼間_ひるま": {
+"sub": "time.clock",
+"en": "daytime; during the day",
+"thAlt": [
+"เวลากลางวัน"
+]
+},
+"昼休み_ひるやすみ": {
+"sub": "time.clock",
+"en": "lunch break; noon recess",
+"thAlt": [
+"เวลาพักกลางวัน"
+]
+},
+"美術館_びじゅつかん": {
+"sub": "town.building",
+"en": "art museum; art gallery",
+"thAlt": [
+"หอศิลป์",
+"แกลเลอรี"
+]
+},
+"びっくりする_びっくりする": {
+"sub": "heart.emotion",
+"en": "to be surprised; be surprised; to be startled",
+"thAlt": [
+"ตกใจมาก",
+"แปลกใจ"
+]
+},
+"太る_ふとる": {
+"sub": "body.state",
+"en": "to gain weight; get fat; to put on weight",
+"thAlt": [
+"อ้วน"
+]
+},
+"布団_ふとん": {
+"sub": "home.furniture",
+"en": "futon; bedding",
+"thAlt": [
+"ที่นอน",
+"ผ้าห่ม"
+]
+},
+"舟_ふね": {
+"sub": "transport.vehicle",
+"en": "boat; small boat",
+"thAlt": [
+"เรือพาย"
+]
+},
+"踏む_ふむ": {
+"sub": "action.move",
+"en": "to step on; step on; to tread",
+"thAlt": []
+},
+"降り出す_ふりだす": {
+"sub": "nature.weather",
+"en": "to start raining; start to fall; to begin to rain",
+"thAlt": [
+"ฝนเริ่มตก",
+"หิมะเริ่มตก"
+]
+},
+"部長_ぶちょう": {
+"sub": "work.company",
+"en": "department head; manager; division chief",
+"thAlt": [
+"ผู้จัดการ",
+"หัวหน้า"
+]
+},
+"葡萄_ぶどう": {
+"sub": "food.ingredient",
+"en": "grapes; grape",
+"thAlt": []
+},
+"別_べつ": {
+"sub": "describe.state",
+"en": "different; separate; another",
+"thAlt": [
+"อีกอัน",
+"คนละ"
+]
+},
+"放送_ほうそう": {
+"sub": "hobby.media",
+"en": "broadcast; broadcasting; program",
+"thAlt": [
+"ถ่ายทอด",
+"ประกาศ"
+]
+},
+"星_ほし": {
+"sub": "nature.nature",
+"en": "star; stars",
+"thAlt": [
+"ดวงดาว"
+]
+},
+"程_ほど": {
+"sub": "basic.affix",
+"en": "extent; degree; about",
+"thAlt": [
+"ประมาณ",
+"เท่ากับ"
+]
+},
+"まず_まず": {
+"sub": "adverb.timing",
+"en": "first of all; first; to begin with",
+"thAlt": [
+"อย่างแรก",
+"แรกสุด"
+]
+},
+"周り_まわり": {
+"sub": "town.position",
+"en": "surroundings; around; vicinity",
+"thAlt": [
+"รอบ",
+"แถวๆ"
+]
+},
+"真中_まんなか": {
+"sub": "town.position",
+"en": "middle; center; the very middle",
+"thAlt": [
+"กลาง",
+"ใจกลาง"
+]
+},
+"湖_みずうみ": {
+"sub": "nature.nature",
+"en": "lake",
+"thAlt": [
+"บึง"
+]
+},
+"味噌_みそ": {
+"sub": "food.seasoning",
+"en": "miso; soybean paste",
+"thAlt": [
+"มิโซะ",
+"เต้าเจี้ยว"
+]
+},
+"港_みなと": {
+"sub": "transport.travel",
+"en": "port; harbor",
+"thAlt": [
+"ท่าเทียบเรือ"
+]
+},
+"昔_むかし": {
+"sub": "time.relative",
+"en": "long ago; old days; the past",
+"thAlt": [
+"สมัยโบราณ",
+"แต่ก่อน"
+]
+},
+"虫_むし": {
+"sub": "nature.animal",
+"en": "insect; bug; worm",
+"thAlt": [
+"หนอน",
+"แมง"
+]
+},
+"召し上がる_めしあがる": {
+"sub": "keigo.honorific",
+"en": "to eat; eat; to drink",
+"thAlt": [
+"รับประทาน",
+"ทาน"
+]
+},
+"申し上げる_もうしあげる": {
+"sub": "keigo.humble",
+"en": "to say; say; to tell",
+"thAlt": [
+"เรียน",
+"กราบเรียน"
+]
+},
+"木綿_もめん": {
+"sub": "clothes.wear",
+"en": "cotton",
+"thAlt": [
+"ฝ้าย"
+]
+},
+"貰う_もらう": {
+"sub": "action.giving",
+"en": "to receive; receive; to get",
+"thAlt": [
+"ได้"
+]
+},
+"焼ける_やける": {
+"sub": "food.verb",
+"en": "to be baked; be grilled; to burn",
+"thAlt": [
+"อบ",
+"ถูกย่าง"
+]
+},
+"痩せる_やせる": {
+"sub": "body.state",
+"en": "to lose weight; get thin; to become slim",
+"thAlt": [
+"ผอม"
+]
+},
+"止む_やむ": {
+"sub": "nature.weather",
+"en": "to stop; stop; to cease",
+"thAlt": [
+"ฝนหยุด",
+"ฝนหยุดตก"
+]
+},
+"湯_ゆ": {
+"sub": "food.drink",
+"en": "hot water; boiling water",
+"thAlt": [
+"น้ำอุ่น"
+]
+},
+"輸出_ゆしゅつ": {
+"sub": "work.society",
+"en": "export; exporting",
+"thAlt": [
+"ส่งออก"
+]
+},
+"輸入_ゆにゅう": {
+"sub": "work.society",
+"en": "import; importing",
+"thAlt": [
+"นำเข้า"
+]
+},
+"指_ゆび": {
+"sub": "body.part",
+"en": "finger; toe",
+"thAlt": [
+"นิ้วมือ",
+"นิ้วเท้า"
+]
+},
+"用_よう": {
+"sub": "work.work",
+"en": "errand; business; something to do",
+"thAlt": [
+"มีธุระ",
+"งาน"
+]
+},
+"用意_ようい": {
+"sub": "home.routine",
+"en": "preparation; to prepare; ready",
+"thAlt": [
+"เตรียม",
+"เตรียมตัว"
+]
+},
+"宜しい_よろしい": {
+"sub": "keigo.polite",
+"en": "good; all right; fine",
+"thAlt": [
+"ใช้ได้",
+"ตกลง"
+]
+},
+"両方_りょうほう": {
+"sub": "number.amount",
+"en": "both; both sides",
+"thAlt": [
+"ทั้งสองอย่าง",
+"ทั้งสองฝ่าย"
+]
+},
+"冷房_れいぼう": {
+"sub": "home.furniture",
+"en": "air conditioning; air conditioner; cooling",
+"thAlt": [
+"ระบบทำความเย็น"
+]
+},
+"アクセサリー_あくせさりー": {
+"sub": "clothes.wear",
+"en": "accessories; accessory; jewelry",
+"thAlt": [
+"เครื่องประดับกาย",
+"จิวเวลรี่"
+]
+},
+"アジア_あじあ": {
+"sub": "town.region",
+"en": "Asia",
+"thAlt": [
+"ทวีปเอเชีย"
+]
+},
+"アナウンサー_あなうんさー": {
+"sub": "people.job",
+"en": "announcer; newsreader; broadcaster",
+"thAlt": [
+"ผู้ประกาศ",
+"พิธีกร"
+]
+},
+"アフリカ_あふりか": {
+"sub": "town.region",
+"en": "Africa",
+"thAlt": [
+"ทวีปแอฟริกา"
+]
+},
+"アメリカ_あめりか": {
+"sub": "town.region",
+"en": "America; USA; United States",
+"thAlt": [
+"สหรัฐอเมริกา",
+"อเมริกัน"
+]
+},
+"アルコール_あるこーる": {
+"sub": "food.drink",
+"en": "alcohol; alcoholic drinks",
+"thAlt": [
+"เหล้า",
+"เครื่องดื่มแอลกอฮอล์"
+]
+},
+"アルバイト_あるばいと": {
+"sub": "work.work",
+"en": "part-time job; side job",
+"thAlt": [
+"พาร์ทไทม์",
+"ทำงานพิเศษ"
+]
+},
+"エスカレーター_えすかれーたー": {
+"sub": "town.building",
+"en": "escalator",
+"thAlt": []
+},
+"オートバイ_おーとばい": {
+"sub": "transport.vehicle",
+"en": "motorcycle; motorbike",
+"thAlt": [
+"มอไซค์",
+"รถจักรยานยนต์"
+]
+},
+"オーバー_おーばー": {
+"sub": "clothes.wear",
+"en": "overcoat; coat",
+"thAlt": [
+"เสื้อคลุม",
+"เสื้อกันหนาว"
+]
+},
+"カーテン_かーてん": {
+"sub": "home.furniture",
+"en": "curtain; curtains",
+"thAlt": []
+},
+"ガス_がす": {
+"sub": "home.furniture",
+"en": "gas",
+"thAlt": [
+"แก๊สหุงต้ม"
+]
+},
+"ガソリン_がそりん": {
+"sub": "transport.vehicle",
+"en": "gasoline; petrol; gas",
+"thAlt": [
+"น้ำมัน",
+"เบนซิน"
+]
+},
+"ガソリンスタンド_がそりんすたんど": {
+"sub": "town.shop",
+"en": "gas station; petrol station",
+"thAlt": [
+"ปั๊ม",
+"สถานีบริการน้ำมัน"
+]
+},
+"ガラス_がらす": {
+"sub": "home.house",
+"en": "glass; pane of glass",
+"thAlt": [
+"กระจกหน้าต่าง"
+]
+},
+"ケーキ_けーき": {
+"sub": "food.sweet",
+"en": "cake",
+"thAlt": []
+},
+"コンサート_こんさーと": {
+"sub": "hobby.art",
+"en": "concert",
+"thAlt": []
+},
+"コンピューター_こんぴゅーたー": {
+"sub": "hobby.media",
+"en": "computer",
+"thAlt": [
+"คอม"
+]
+},
+"サラダ_さらだ": {
+"sub": "food.dish",
+"en": "salad",
+"thAlt": []
+},
+"サンダル_さんだる": {
+"sub": "clothes.wear",
+"en": "sandals; sandal",
+"thAlt": [
+"แตะ"
+]
+},
+"サンドイッチ_さんどいっち": {
+"sub": "food.dish",
+"en": "sandwich",
+"thAlt": []
+},
+"ジャム_じゃむ": {
+"sub": "food.seasoning",
+"en": "jam",
+"thAlt": []
+},
+"スクリーン_すくりーん": {
+"sub": "hobby.media",
+"en": "screen",
+"thAlt": [
+"หน้าจอ",
+"จอหนัง"
+]
+},
+"ステレオ_すてれお": {
+"sub": "home.furniture",
+"en": "stereo; sound system",
+"thAlt": []
+},
+"ステーキ_すてーき": {
+"sub": "food.dish",
+"en": "steak",
+"thAlt": []
+},
+"スーツ_すーつ": {
+"sub": "clothes.wear",
+"en": "suit; business suit",
+"thAlt": [
+"ชุดสูท"
+]
+},
+"スーツケース_すーつけーす": {
+"sub": "transport.travel",
+"en": "suitcase",
+"thAlt": [
+"กระเป๋าเสื้อผ้า"
+]
+},
+"スーパー_すーぱー": {
+"sub": "town.shop",
+"en": "supermarket",
+"thAlt": [
+"ซูเปอร์"
+]
+},
+"ソフト_そふと": {
+"sub": "hobby.media",
+"en": "software; program",
+"thAlt": [
+"โปรแกรม"
+]
+},
+"タイプ_たいぷ": {
+"sub": "describe.quality",
+"en": "type; kind; style",
+"thAlt": [
+"แบบ",
+"สเปค"
+]
+},
+"チェックする_ちぇっくする": {
+"sub": "work.verb",
+"en": "to check; check; to verify",
+"thAlt": [
+"ตรวจ"
+]
+},
+"テキスト_てきすと": {
+"sub": "school.stationery",
+"en": "textbook; text",
+"thAlt": [
+"ตำราเรียน"
+]
+},
+"テニス_てにす": {
+"sub": "hobby.sport",
+"en": "tennis",
+"thAlt": []
+},
+"ハンバーグ_はんばーぐ": {
+"sub": "food.dish",
+"en": "hamburger steak; hamburg steak; hamburg",
+"thAlt": [
+"แฮมเบิร์กสเต็ก"
+]
+},
+"ハンドバッグ_はんどばっぐ": {
+"sub": "home.belonging",
+"en": "handbag; purse",
+"thAlt": [
+"กระเป๋า"
+]
+},
+"パソコン_ぱそこん": {
+"sub": "hobby.media",
+"en": "personal computer; PC; computer",
+"thAlt": [
+"คอม",
+"คอมพิวเตอร์"
+]
+},
+"パパ_ぱぱ": {
+"sub": "people.family",
+"en": "dad; daddy; papa",
+"thAlt": [
+"ป๊า",
+"พ่อจ๋า"
+]
+},
+"パート_ぱーと": {
+"sub": "work.work",
+"en": "part-time work; part-timer",
+"thAlt": [
+"พาร์ทไทม์",
+"งานพิเศษ"
+]
+},
+"ビル_びる": {
+"sub": "town.building",
+"en": "building; office building",
+"thAlt": [
+"ตึกสูง"
+]
+},
+"ピアノ_ぴあの": {
+"sub": "hobby.art",
+"en": "piano",
+"thAlt": []
+},
+"ファックス_ふぁっくす": {
+"sub": "hobby.media",
+"en": "fax; fax machine",
+"thAlt": []
+},
+"プレゼント_ぷれぜんと": {
+"sub": "action.giving",
+"en": "present; gift",
+"thAlt": [
+"ของกำนัล"
+]
+},
+"ベル_べる": {
+"sub": "home.furniture",
+"en": "bell; doorbell; buzzer",
+"thAlt": [
+"ออด",
+"ระฆัง"
+]
+},
+"レジ_れじ": {
+"sub": "money.shopping",
+"en": "cash register; checkout; cashier",
+"thAlt": [
+"จุดจ่ายเงิน",
+"ที่จ่ายเงิน"
+]
+},
+"レポート_れぽーと": {
+"sub": "school.study",
+"en": "report; paper; essay",
+"thAlt": []
+},
+"ワープロ_わーぷろ": {
+"sub": "hobby.media",
+"en": "word processor",
+"thAlt": []
+},
+"〜てしまう_〜てしまう": {
+"sub": "basic.affix",
+"en": "end up doing; finish completely; do by mistake",
+"thAlt": [
+"เผลอ",
+"ไปซะแล้ว"
+]
+},
+"〜について_〜について": {
+"sub": "basic.affix",
+"en": "about; concerning; regarding",
+"thAlt": []
+},
+"〜によると_〜によると": {
+"sub": "basic.affix",
+"en": "according to",
+"thAlt": [
+"ตามที่"
+]
+},
+"〜おき_〜おき": {
+"sub": "basic.affix",
+"en": "every other; at intervals of",
+"thAlt": [
+"เว้น",
+"วันเว้นวัน"
+]
+},
+"〜おわる_〜おわる": {
+"sub": "basic.affix",
+"en": "finish doing; to finish; end",
+"thAlt": [
+"เสร็จ",
+"ทำเสร็จ"
+]
+},
+"〜会_〜かい": {
+"sub": "basic.affix",
+"en": "meeting; party; gathering",
+"thAlt": [
+"งานเลี้ยง",
+"ประชุม"
+]
+},
+"〜学部_〜がくぶ": {
+"sub": "basic.affix",
+"en": "faculty; department; school of",
+"thAlt": [
+"คณะ"
+]
+},
+"〜区_〜く": {
+"sub": "basic.affix",
+"en": "ward; district",
+"thAlt": [
+"เขต"
+]
+},
+"〜君_〜くん": {
+"sub": "basic.affix",
+"en": "-kun; Mr.; suffix for boys",
+"thAlt": [
+"คุง",
+"นาย"
+]
+},
+"〜軒_〜けん": {
+"sub": "number.counter",
+"en": "counter for houses; houses; buildings",
+"thAlt": [
+"หลังคาเรือน"
+]
+},
+"〜ございます_〜ございます": {
+"sub": "keigo.polite",
+"en": "to be; to have; there is",
+"thAlt": [
+"ครับ",
+"ค่ะ"
+]
+},
+"〜製_〜せい": {
+"sub": "basic.affix",
+"en": "made in; made by; made of",
+"thAlt": [
+"ผลิตใน",
+"ทำจาก"
+]
+},
+"〜だす_〜だす": {
+"sub": "basic.affix",
+"en": "start to; begin doing; suddenly start",
+"thAlt": [
+"เริ่ม",
+"เริ่มจะ"
+]
+},
+"〜建て_〜だて": {
+"sub": "basic.affix",
+"en": "-story building; storied; floors",
+"thAlt": [
+"ชั้น"
+]
+},
+"〜ちゃん_〜ちゃん": {
+"sub": "basic.affix",
+"en": "-chan; little; dear",
+"thAlt": [
+"จัง",
+"หนู"
+]
+},
+"〜月_〜つき": {
+"sub": "time.season",
+"en": "month; months",
+"thAlt": []
+},
+"〜にくい_〜にくい": {
+"sub": "basic.affix",
+"en": "hard to; difficult to",
+"thAlt": [
+"ยาก",
+"ทำยาก"
+]
+},
+"〜まま_〜まま": {
+"sub": "basic.affix",
+"en": "as it is; unchanged; still in",
+"thAlt": [
+"ทั้งๆ ที่",
+"อย่างนั้น"
+]
+},
+"〜やすい_〜やすい": {
+"sub": "basic.affix",
+"en": "easy to",
+"thAlt": [
+"ง่าย",
+"ทำง่าย"
+]
+},
+"貿易_ぼうえき": {
+"sub": "work.society",
+"en": "trade; foreign trade; commerce",
+"thAlt": [
+"การค้า",
+"ค้าขาย"
+]
+},
+"僕_ぼく": {
+"sub": "basic.pointing",
+"en": "I; me",
+"thAlt": [
+"ผม"
+]
+},
+"月_つき": {
+"sub": "nature.nature",
+"en": "moon; the moon",
+"thAlt": [
+"ดวงจันทร์",
+"จันทร์"
+]
+},
+"君_きみ": {
+"sub": "basic.pointing",
+"en": "you",
+"thAlt": [
+"นาย",
+"เอ็ง"
+]
+}
+}
