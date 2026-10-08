@@ -177,3 +177,67 @@ enum MeaningCheck {
         return prev[b.count]
     }
 }
+
+// MARK: - Checking typed Japanese (meaning → word)
+
+enum JapaneseCheck {
+    /// Right if it is the word as written (kanji or any listed spelling), or its
+    /// reading typed in hiragana, katakana or romaji.
+    static func isCorrect(_ typed: String, _ w: ListWord) -> Bool {
+        let t = clean(halfwidth(typed))
+        guard !t.isEmpty else { return false }
+
+        // 1. Written form: 醤油, 醬油, お〜 / 御〜 (split), コーヒー …
+        let surfaces = ([w.vocab.kanji] + w.meta.also).flatMap { $0.components(separatedBy: " / ") }.map(clean)
+        if surfaces.contains(t) { return true }
+
+        // 2. Reading: romaji is turned into kana first (Hepburn and keyboard-style "nn" both tried).
+        let isRomaji = t.contains(where: { $0.isASCII && $0.isLetter })
+        let typedKana = isRomaji ? [Romaji.toHiragana(t), Romaji.toHiragana(t, imeStyle: true)] : [KanaData.toHiragana(t)]
+        let readings = [w.vocab.kana] + surfaces.filter { !$0.contains(where: { $0.unicodeScalars.contains { $0.properties.isIdeographic } }) }
+        for kana in Set(typedKana) where !kana.contains(where: { $0.unicodeScalars.contains { $0.properties.isIdeographic } }) {
+            if readings.contains(where: { key($0) == key(kana) }) { return true }
+            // Same sound spelled the other way (とう/とお, せい/せえ, は/わ), or without the polite お/ご.
+            if readings.contains(where: { looseKey($0) == looseKey(kana) }) { return true }
+        }
+        return false
+    }
+
+    /// Hiragana, no 〜 / spaces / punctuation, ー spelled out as its vowel.
+    static func key(_ s: String) -> String {
+        var out = ""
+        for c in KanaData.toHiragana(clean(s)) where c != "'" {
+            if c == "ー", let last = out.last, let v = Romaji.vowel(of: last) {
+                out += String(v == "a" ? "あ" : v == "i" ? "い" : v == "u" ? "う" : v == "e" ? "え" : "お")
+            } else {
+                out.append(c)
+            }
+        }
+        return out
+    }
+
+    private static func looseKey(_ s: String) -> String {
+        var chars = Array(key(s))
+        if chars.count > 2, chars.first == "お" || chars.first == "ご" { chars.removeFirst() }
+        var out = ""
+        for (i, c) in chars.enumerated() {
+            let prev: Character? = i > 0 ? chars[i - 1] : nil
+            let v = prev.flatMap(Romaji.vowel(of:))
+            if c == "う", v == "o" { out += "お"; continue }       // とう → とお
+            if c == "い", v == "e" { out += "え"; continue }       // せい → せえ
+            out += c == "は" ? "わ" : c == "を" ? "お" : c == "へ" ? "え" : String(c)
+        }
+        return out
+    }
+
+    private static func clean(_ s: String) -> String {
+        s.lowercased().filter { !"〜~～ 　・、。,.!?！？\"()（）".contains($0) }
+    }
+
+    /// Full-width ASCII from the Japanese keyboard (ｋａｎ) → normal letters.
+    private static func halfwidth(_ s: String) -> String {
+        String(String.UnicodeScalarView(s.unicodeScalars.map { u in
+            (0xFF01...0xFF5E).contains(u.value) ? Unicode.Scalar(u.value - 0xFEE0)! : u
+        }))
+    }
+}

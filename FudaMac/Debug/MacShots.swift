@@ -112,7 +112,7 @@ enum MacShots {
                     open("food.drink", .test)
                     let ws = WordList.shared.words(sub: "food.drink")
                     let typed = ["เหล้า", "tea", "", "milk", "coffe", "น้ำร้อน", "beer"]
-                    for (w, t) in zip(ws, typed) where !t.isEmpty { wl.answers[w.id] = t }
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) { for (w, t) in zip(ws, typed) where !t.isEmpty { wl.answers[w.id] = t } }
                 }),
                 ("w-3-checked", {
                     for w in WordList.shared.words(sub: "food.drink") {
@@ -125,6 +125,21 @@ enum MacShots {
                 }),
                 ("w-4-category", { router.section = .words; wl.expanded = ["action"]; wl.selection = .category("action"); wl.mode = .list; wl.restart() }),
                 ("w-5-category-typing", { router.section = .words; wl.expanded = ["food"]; wl.selection = .category("food"); wl.mode = .test; wl.restart() }),
+                ("w-6-japanese", {
+                    open("food.taste", .recall)
+                    // romaji, hiragana, kanji, a near miss and a blank
+                    let typed: [String: String] = ["甘い_あまい": "amai", "辛い_からい": "からい", "美味しい_おいしい": "美味しい", "苦い_にがい": "niga"]
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) { for (k, v) in typed { wl.answers[k] = v } }
+                }),
+                ("w-7-japanese-checked", {
+                    for w in WordList.shared.words(sub: "food.taste") {
+                        let ok = JapaneseCheck.isCorrect(wl.answers[w.id] ?? "", w)
+                        wl.results[w.id] = ok
+                        store.recordList("jp:" + w.id, correct: ok)
+                        print("JPCHECK", w.word, "|", wl.answers[w.id] ?? "", "→", ok)
+                    }
+                    wl.checked = true
+                }),
             ]
         }
         if let n = d.string(forKey: "FudaShotsLesson").flatMap(Int.init) {

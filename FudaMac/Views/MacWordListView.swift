@@ -5,7 +5,13 @@ import SwiftUI
 @Observable
 final class WordListState {
     enum Selection: Hashable { case category(String), sub(String) }
-    enum Mode: String { case list, test }
+    /// list = read; test = see the word, type its meaning; recall = see the meaning, type the word.
+    enum Mode: String {
+        case list, test, recall
+        var isTyping: Bool { self != .list }
+        /// Results are kept per direction: "" = meaning, "jp:" = typing the Japanese.
+        var markPrefix: String { self == .recall ? "jp:" : "" }
+    }
     enum LevelFilter: String { case both, n5, n4 }
 
     var selection: Selection = .sub("food.dish")
@@ -50,7 +56,7 @@ struct MacWordListView: View {
         .onAppear { prepareOrder() }
         .onChange(of: state.selection) { _, _ in prepareOrder() }
         .onChange(of: state.level) { _, _ in prepareOrder() }
-        .onChange(of: state.mode) { _, _ in prepareOrder() }
+        .onChange(of: state.mode) { _, _ in state.restart(); prepareOrder() }
         .onChange(of: state.randomOrder) { _, _ in prepareOrder() }
         .onChange(of: focus) { _, f in router.typing = f != nil }
         .onDisappear { router.typing = false }
@@ -86,14 +92,14 @@ struct MacWordListView: View {
             if a.element.level != b.element.level { return a.element.level == .n5 }
             return a.offset < b.offset
         }.map(\.element)
-        guard state.mode == .test, state.randomOrder, !state.order.isEmpty else { return ordered }
+        guard state.mode.isTyping, state.randomOrder, !state.order.isEmpty else { return ordered }
         let pos = Dictionary(uniqueKeysWithValues: state.order.enumerated().map { ($1, $0) })
         return ordered.sorted { (pos[$0.id] ?? .max) < (pos[$1.id] ?? .max) }
     }
 
     /// A fresh shuffle for typing mode (on opening a list, Again, Retry, Random).
     private func prepareOrder() {
-        state.order = state.mode == .test && state.randomOrder ? baseWords().map(\.id).shuffled() : []
+        state.order = state.mode.isTyping && state.randomOrder ? baseWords().map(\.id).shuffled() : []
     }
 
     private func select(_ s: WordListState.Selection) {
@@ -106,7 +112,7 @@ struct MacWordListView: View {
     private func randomPick() {
         let subs = wl.categories.flatMap(\.subs).filter { !wl.words(sub: $0.id).isEmpty }
         let weighted = subs.map { s -> (WordSub, Int) in
-            let ids = wl.words(sub: s.id).map(\.id)
+            let ids = wl.words(sub: s.id).map(markKey)
             return (s, max(1, ids.count - store.listKnown(ids)))
         }.filter { $0.0.id != currentSubID }
         let total = weighted.reduce(0) { $0 + $1.1 }
@@ -116,7 +122,7 @@ struct MacWordListView: View {
             if r < w {
                 if let c = wl.category(of: s.id) { state.expanded.insert(c.id) }
                 state.selection = .sub(s.id)
-                state.mode = .test
+                if state.mode == .list { state.mode = .test }
                 state.restart()
                 prepareOrder()
                 DispatchQueue.main.async { focus = words().first?.id }
@@ -125,6 +131,9 @@ struct MacWordListView: View {
             r -= w
         }
     }
+
+    /// Progress key for the direction on screen (reading counts as the meaning direction).
+    private func markKey(_ w: ListWord) -> String { state.mode.markPrefix + w.id }
 
     private var currentSubID: String? {
         if case .sub(let s) = state.selection { return s }
@@ -135,7 +144,7 @@ struct MacWordListView: View {
 
     private var sidebar: some View {
         let all = wl.all
-        let known = store.listKnown(all.map(\.id))
+        let known = store.listKnown(all.map(markKey))
         return ListColumn(width: 330) {
             VStack(alignment: .leading, spacing: 12) {
                 TrackedLabel(text: "語 · Word list")
@@ -153,7 +162,9 @@ struct MacWordListView: View {
                 }
                 .buttonStyle(InkButtonStyle(kind: .akane, height: 44))
                 .keyboardShortcut("r", modifiers: .command)
-                Text("รู้แล้ว \(known) จาก \(all.count) คำ · known = last answer right")
+                Text(state.mode == .recall
+                     ? "พิมพ์ญี่ปุ่นได้ \(known) จาก \(all.count) คำ · typing the word"
+                     : "รู้ความหมาย \(known) จาก \(all.count) คำ · known = last answer right")
                     .font(Typo.ui(11)).foregroundStyle(Ink.soft)
             }
             .padding(.horizontal, 22).padding(.top, 22).padding(.bottom, 8)
@@ -163,7 +174,7 @@ struct MacWordListView: View {
     }
 
     private func levelBar(_ label: String, _ ws: [ListWord]) -> some View {
-        let known = store.listKnown(ws.map(\.id))
+        let known = store.listKnown(ws.map(markKey))
         let f = ws.isEmpty ? 0 : Double(known) / Double(ws.count)
         return HStack(spacing: 8) {
             Text(label).font(Typo.ui(11, .heavy)).frame(width: 24, alignment: .leading)
@@ -181,7 +192,7 @@ struct MacWordListView: View {
 
     private func categoryRow(_ c: WordCategory) -> some View {
         let ws = wl.words(category: c.id)
-        let known = store.listKnown(ws.map(\.id))
+        let known = store.listKnown(ws.map(markKey))
         let f = ws.isEmpty ? 0 : Double(known) / Double(ws.count)
         let open = state.expanded.contains(c.id)
         let on = state.selection == .category(c.id)
@@ -221,7 +232,7 @@ struct MacWordListView: View {
     @ViewBuilder private func subRow(_ s: WordSub) -> some View {
         let ws = wl.words(sub: s.id)
         if !ws.isEmpty {
-            let known = store.listKnown(ws.map(\.id))
+            let known = store.listKnown(ws.map(markKey))
             let on = state.selection == .sub(s.id)
             Button { select(.sub(s.id)) } label: {
                 HStack(spacing: 8) {
@@ -260,30 +271,38 @@ struct MacWordListView: View {
         @Bindable var state = state
         let ws = words()
         let n5 = ws.filter { $0.level == .n5 }, n4 = ws.filter { $0.level == .n4 }
-        let known = store.listKnown(ws.map(\.id))
+        let known = store.listKnown(ws.map(markKey))
         let t = titles
         return VStack(spacing: 0) {
             VStack(alignment: .leading, spacing: 14) {
                 PaneHeader(kicker: t.kicker, title: t.title,
-                           subtitle: state.mode == .test
+                           subtitle: state.mode.isTyping
                                ? "\(t.sub)  ·  \(ws.count) words  ·  รู้แล้ว \(known)/\(ws.count)"
                                : "\(t.sub)  ·  \(ws.count) words (N5 \(n5.count) · N4 \(n4.count))  ·  รู้แล้ว \(known)/\(ws.count)") {
                     Button(action: randomPick) { Label("Random", systemImage: "die.face.5") }
                         .buttonStyle(InkButtonStyle(kind: .akaneOutline, height: 40)).frame(width: 120)
                 }
                 HStack(spacing: 10) {
-                    Segmented(options: [(WordListState.Mode.list, "一覧 Read"), (.test, "書く Type meanings")],
-                              selection: Binding(get: { state.mode }, set: { state.mode = $0; if $0 == .test { focus = ws.first?.id } }), height: 32)
+                    Segmented(options: [(WordListState.Mode.list, "一覧 Read"), (.test, "意味 Type meaning"), (.recall, "日本語 Type Japanese")],
+                              selection: Binding(get: { state.mode }, set: { m in
+                                  state.mode = m
+                                  if m.isTyping { DispatchQueue.main.async { focus = words().first?.id } }
+                              }), height: 32)
                     Segmented(options: [(WordListState.LevelFilter.both, "N5+N4"), (.n5, "N5"), (.n4, "N4")], selection: $state.level, height: 32)
                     Spacer()
-                    ToggleSquare(text: "かな", on: $state.showKana, label: "Show hiragana")
-                    ToggleSquare(text: "Romaji", on: $state.showRomaji, label: "Show romaji")
-                    if state.mode == .test {
+                    if state.mode != .recall {
+                        ToggleSquare(text: "かな", on: $state.showKana, label: "Show hiragana")
+                        ToggleSquare(text: "Romaji", on: $state.showRomaji, label: "Show romaji")
+                    }
+                    if state.mode.isTyping {
                         ToggleSquare(text: "สุ่ม Random", on: $state.randomOrder, label: "Random order")
                     }
                 }
                 if state.mode == .test {
                     Text("พิมพ์ความหมายเป็นภาษาไทยหรืออังกฤษ แล้วกด ⌘↩ ตรวจ · Return ไปคำถัดไป · Type each meaning in Thai or English, Return moves to the next word.")
+                        .font(Typo.ui(12)).foregroundStyle(Ink.soft)
+                } else if state.mode == .recall {
+                    Text("อ่านความหมายแล้วพิมพ์คำภาษาญี่ปุ่น เป็นคันจิ ฮิรางานะ หรือโรมาจิก็ได้ แล้วกด ⌘↩ ตรวจ · Read the meaning and type the word — kanji, hiragana or romaji (taberu, たべる, 食べる).")
                         .font(Typo.ui(12)).foregroundStyle(Ink.soft)
                 }
             }
@@ -314,7 +333,7 @@ struct MacWordListView: View {
                     }
                 }
             }
-            if state.mode == .test { footer(ws) }
+            if state.mode.isTyping { footer(ws) }
         }
     }
 
@@ -324,6 +343,24 @@ struct MacWordListView: View {
     }
 
     private var header: some View {
+        Group {
+            if state.mode == .recall {
+                HStack(spacing: 14) {
+                    Text("#").frame(width: 30, alignment: .trailing)
+                    Text("ความหมาย · MEANING").frame(width: 360, alignment: .leading)
+                    Text("คำตอบ · 漢字 / かな / ROMAJI").frame(maxWidth: .infinity, alignment: .leading)
+                    Text("").frame(width: 30)
+                }
+            } else {
+                columnsHeader
+            }
+        }
+        .font(.system(size: 10, weight: .heavy)).tracking(1.4).foregroundStyle(Ink.soft)
+        .padding(.horizontal, 32).padding(.vertical, 6)
+        .overlay(alignment: .bottom) { Rectangle().fill(Ink.ink).frame(height: 2).padding(.horizontal, 32) }
+    }
+
+    private var columnsHeader: some View {
         HStack(spacing: 14) {
             Text("#").frame(width: 30, alignment: .trailing)
             Text("漢字").frame(width: 150, alignment: .leading)
@@ -332,9 +369,6 @@ struct MacWordListView: View {
             Text(state.mode == .test ? "ความหมาย · YOUR ANSWER" : "ความหมาย · MEANING").frame(maxWidth: .infinity, alignment: .leading)
             Text("").frame(width: 30)
         }
-        .font(.system(size: 10, weight: .heavy)).tracking(1.4).foregroundStyle(Ink.soft)
-        .padding(.horizontal, 32).padding(.vertical, 6)
-        .overlay(alignment: .bottom) { Rectangle().fill(Ink.ink).frame(height: 2).padding(.horizontal, 32) }
     }
 
     private struct Section {
@@ -349,7 +383,7 @@ struct MacWordListView: View {
     /// A subcategory: N5 block then N4 block. A whole category: one block per subcategory.
     private func sections(_ ws: [ListWord]) -> [Section] {
         // Typing: one plain list — no level or subcategory headers to hint at the answer.
-        if state.mode == .test { return [Section(id: "all", tag: "", tagIsLevel: true, note: "", words: ws)] }
+        if state.mode.isTyping { return [Section(id: "all", tag: "", tagIsLevel: true, note: "", words: ws)] }
         if case .category = state.selection {
             var out: [Section] = []
             for s in wl.categories.flatMap(\.subs) {
@@ -384,6 +418,68 @@ struct MacWordListView: View {
     // MARK: Row
 
     @ViewBuilder private func row(_ w: ListWord, _ n: Int, next: String?, tagLevel: Bool = false) -> some View {
+        if state.mode == .recall { recallRow(w, n, next: next) } else { wordRow(w, n, next: next, tagLevel: tagLevel) }
+    }
+
+    /// Meaning → Japanese: the word stays hidden until the list is checked.
+    @ViewBuilder private func recallRow(_ w: ListWord, _ n: Int, next: String?) -> some View {
+        let result = state.results[w.id]
+        HStack(alignment: .firstTextBaseline, spacing: 14) {
+            Text("\(n)").font(Typo.ui(12, .bold)).foregroundStyle(Ink.soft).frame(width: 30, alignment: .trailing)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(w.th).font(Typo.ui(16, .semibold)).foregroundStyle(Ink.ink)
+                Text(w.en).font(Typo.ui(12)).foregroundStyle(Ink.soft)
+            }
+            .frame(width: 360, alignment: .leading)
+            VStack(alignment: .leading, spacing: 4) {
+                HStack(spacing: 8) {
+                    TextField("漢字 / かな / romaji…", text: Binding(get: { state.answers[w.id] ?? "" }, set: { state.answers[w.id] = $0 }))
+                        .textFieldStyle(.plain).font(Typo.mincho(18, bold: false))
+                        .padding(.horizontal, 10).frame(height: 36)
+                        .inkBox(Ink.card, border: result == nil ? (focus == w.id ? Ink.ink : Ink.line) : (result! ? Ink.ink : Ink.akane), width: focus == w.id || result != nil ? 2 : 1.5)
+                        .focused($focus, equals: w.id)
+                        .onSubmit { focus = next }
+                        .disabled(state.checked)
+                    if let result {
+                        Image(systemName: result ? "checkmark.circle.fill" : "xmark.circle.fill")
+                            .font(.system(size: 18)).foregroundStyle(result ? Ink.ink : Ink.akane)
+                            .accessibilityLabel(result ? "Correct" : "Wrong")
+                    }
+                }
+                if let result {
+                    HStack(alignment: .firstTextBaseline, spacing: 10) {
+                        Text(w.word).font(Typo.mincho(20)).foregroundStyle(result ? Ink.soft : Ink.ink)
+                        if !w.kanaOnly { Text(w.kana).font(Typo.ui(14, .medium)).foregroundStyle(Ink.ink) }
+                        Text(w.romaji).font(Typo.ui(13)).foregroundStyle(Ink.soft)
+                        if !w.meta.also.isEmpty { Text("also " + w.meta.also.joined(separator: " · ")).font(Typo.ui(11)).foregroundStyle(Ink.soft).lineLimit(1) }
+                        if !result {
+                            Button("ฉันตอบถูก · I was right") {
+                                state.results[w.id] = true
+                                store.fixListMark(markKey(w))
+                            }
+                            .buttonStyle(.plain).font(Typo.ui(11, .heavy)).foregroundStyle(Ink.akane)
+                            .lineLimit(1).fixedSize()
+                        }
+                    }
+                }
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            Group {
+                if result != nil {
+                    Button { Speech.shared.say(w.kana.replacingOccurrences(of: "〜", with: "")) } label: {
+                        Image(systemName: "speaker.wave.2").foregroundStyle(Ink.soft)
+                    }
+                    .buttonStyle(.plain).accessibilityLabel("Play \(w.kana)")
+                }
+            }
+            .frame(width: 30, alignment: .trailing)
+        }
+        .padding(.vertical, 9)
+        .background(result == false ? Ink.akane.opacity(0.06) : .clear)
+        .overlay(alignment: .bottom) { Rectangle().fill(Ink.line).frame(height: 1) }
+    }
+
+    @ViewBuilder private func wordRow(_ w: ListWord, _ n: Int, next: String?, tagLevel: Bool) -> some View {
         let result = state.results[w.id]
         HStack(alignment: .firstTextBaseline, spacing: 14) {
             Text("\(n)").font(Typo.ui(12, .bold)).foregroundStyle(Ink.soft).frame(width: 30, alignment: .trailing)
@@ -461,7 +557,7 @@ struct MacWordListView: View {
                     if !result {
                         Button("ฉันตอบถูก · I was right") {
                             state.results[w.id] = true
-                            store.fixListMark(w.id)
+                            store.fixListMark(markKey(w))
                         }
                         .buttonStyle(.plain).font(Typo.ui(11, .heavy)).foregroundStyle(Ink.akane)
                         .lineLimit(1).fixedSize()
@@ -521,9 +617,15 @@ struct MacWordListView: View {
     private func check(_ ws: [ListWord]) {
         focus = nil
         for w in ws {
-            let ok = MeaningCheck.isCorrect(state.answers[w.id] ?? "", w)
+            let typed = state.answers[w.id] ?? ""
+            var ok = state.mode == .recall ? JapaneseCheck.isCorrect(typed, w) : MeaningCheck.isCorrect(typed, w)
+            if !ok, state.mode == .recall {
+                // Two words in the list can share a meaning (美味しい / うまい = อร่อย): either one is right.
+                let mine = Set(MeaningCheck.answers(w))
+                ok = ws.contains { o in o.id != w.id && !mine.isDisjoint(with: MeaningCheck.answers(o)) && JapaneseCheck.isCorrect(typed, o) }
+            }
             state.results[w.id] = ok
-            store.recordList(w.id, correct: ok)
+            store.recordList(markKey(w), correct: ok)
         }
         state.checked = true
         let right = state.results.values.filter { $0 }.count
