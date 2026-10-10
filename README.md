@@ -21,7 +21,12 @@ shared core folders is part of the target automatically.
 
 ## The course
 
-33 lessons: 0 kana, 1–14 N5, 15–32 N4. Each textbook lesson
+One path of 33 lessons (0 kana, then 1–32) that teaches all of N5 and N4
+together, in six parts (第一部–第六部). Grammar goes in teaching order; every
+one of the 1,403 words, 284 kanji and 185 grammar points is taught in exactly
+one lesson, words mixed by topic (`Tools/course_words.py`). Each part ends with
+a 復習 review test, and 総まとめ is a final review over the whole course.
+Each textbook lesson
 (`FudaMac/Resources/textbook-LNN.json`) has nine steps:
 
 | | Step | What you do |

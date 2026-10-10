@@ -72,7 +72,7 @@ struct MacTodayView: View {
                 VStack(spacing: 2) {
                     TrackedLabel(text: "Lesson", color: Ink.onInk.opacity(0.7), size: 10)
                     Text(l.numeral).font(Typo.mincho(l.n > 10 ? 54 : 88)).minimumScaleFactor(0.5).lineLimit(1)
-                    Text("of \(Course.shared.lessons.count) · \(l.level.title)").font(Typo.ui(12, .bold)).opacity(0.7)
+                    Text("of \(Course.shared.lessons.count) · 第\(l.part.numeral)部").font(Typo.ui(12, .bold)).opacity(0.7)
                 }
                 .foregroundStyle(Ink.onInk)
                 .frame(width: 180)

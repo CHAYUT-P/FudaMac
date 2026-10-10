@@ -98,6 +98,13 @@ enum MacShots {
         ]
         let only = d.string(forKey: "FudaShotsSet")
         if only == "tb" { steps = tb } else if only == nil { steps += tb }
+        if only == "course" {
+            steps = [
+                ("c-1-map", { router.section = .course; router.lessonN = nil }),
+                ("c-2-lesson10-words", { router.openLesson(10, step: .words) }),
+                ("c-3-lesson20", { router.lessonN = nil; router.section = .course }),
+            ]
+        }
         if only == "words" {
             // 語 Word list: read mode, a typed test with mixed answers, then a whole category.
             let wl = router.wordList

@@ -40,7 +40,7 @@ struct MacLessonView: View {
             HStack(spacing: 14) {
                 Button { router.lessonN = nil } label: { Text("‹ Course").font(Typo.ui(13, .bold)) }
                     .buttonStyle(.plain).keyboardShortcut(router.typing ? nil : KeyboardShortcut(.escape, modifiers: []))
-                Text("LESSON \(lesson.n) · \(lesson.level.title)").font(.system(size: 11, weight: .heavy)).tracking(2)
+                Text("LESSON \(lesson.n) · 第\(lesson.part.numeral)部").font(.system(size: 11, weight: .heavy)).tracking(2)
                     .padding(.horizontal, 8).padding(.vertical, 3).background(Ink.ink).foregroundStyle(Ink.onInk)
                 MixedText(lesson.ja, size: 21, weight: .bold)
                 Text(lesson.en).font(Typo.ui(14)).foregroundStyle(Ink.soft).lineLimit(1)

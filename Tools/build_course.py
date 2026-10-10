@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Builds FudaMac/Resources/course.json: 33 lessons (N5 0-14, N4 15-32),
 Tone's lesson dialogues and stories.  Input: the JSON written by
-Tools/ExportCourse.swift, proto/n5_course.json and Fuda/Resources/content.json."""
+Tools/ExportCourse.swift, proto/n5_course.json and Fuda/Resources/content.json.
+Then run Tools/course_words.py: it spreads every N5 + N4 word over the one course."""
 import json, sys
 raw = json.load(open(sys.argv[1]))
 content = json.load(open('Fuda/Resources/content.json'))
