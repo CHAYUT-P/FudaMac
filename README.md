@@ -23,7 +23,7 @@ shared core folders is part of the target automatically.
 
 One path of 33 lessons (0 kana, then 1–32) that teaches all of N5 and N4
 together, in six parts (第一部–第六部). Grammar goes in teaching order; every
-one of the 1,575 words (all N5 + N4, plus 172 everyday N4+ words just above N4), 284 kanji and 185 grammar points is taught in exactly
+one of the 1,887 words (all N5 + N4 from the JLPT lists and the beginner textbook vocabulary, greetings, plus 172 everyday N4+ words just above N4), 284 kanji and 185 grammar points is taught in exactly
 one lesson, words mixed by topic (`Tools/course_words.py`). Each part ends with
 a 復習 review test, and 総まとめ is a final review over the whole course.
 Each textbook lesson
@@ -92,7 +92,10 @@ python3 Tools/build_conversations.py            # → Fuda/Resources/conversatio
 `Tools/wordlist/` is the source: `taxonomy.json` (categories), `assignments.json`
 (every word → subcategory, English gloss, extra Thai answers) and `extra_vocab.json`
 (words the Tone export lacked, and the `"plus": true` N4+ words: everyday words a step
-above N4, mostly N3, for real conversation). Build after editing:
+above N4, mostly N3, for real conversation). `course_anchor.json` pins words to the
+course lesson where they are first taught (greetings, textbook words). A word can be
+listed in a second subcategory with `"more"` (切る: hand actions and cooking).
+Build after editing:
 
 ```bash
 python3 Tools/wordlist/fix_vocab.py                             # applies vocab_fixes.json (corrections, duplicate removal)

@@ -151,6 +151,8 @@ enum MacShots {
                     }
                     wl.checked = true
                 }),
+                ("w-8-search", { wl.mode = .list; wl.query = "หั่น" }),
+                ("w-9-greetings", { wl.query = ""; open("basic.greeting", .list) }),
             ]
         }
         if let n = d.string(forKey: "FudaShotsLesson").flatMap(Int.init) {

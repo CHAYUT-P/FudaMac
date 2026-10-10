@@ -86,9 +86,10 @@ for e in extra:
         "exEN": e["exEN"], "exTH": e["exTH"],
         **({"plus": True} if e.get("plus") else {}),
     })
-    assign[vid] = {"sub": e["sub"], "en": e["en"], "thAlt": e.get("thAlt", [])}
+    assign[vid] = {"sub": e["sub"], "en": e["en"], "thAlt": e.get("thAlt", []), **({"more": e["more"]} if e.get("more") else {})}
 
 bad = {i: a["sub"] for i, a in assign.items() if a["sub"] not in subs}
+bad.update({i: a["more"] for i, a in assign.items() if any(m not in subs for m in a.get("more", []))})
 if bad:
     fail(f"unknown subcategories: {list(bad.items())[:5]}")
 for i, a in assign.items():

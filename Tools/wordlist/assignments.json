@@ -367,7 +367,10 @@
 "洗う_あらう": {
 "sub": "home.routine",
 "en": "to wash; wash",
-"thAlt": []
+"thAlt": [],
+"more": [
+"food.verb"
+]
 },
 "ある_ある": {
 "sub": "action.basic",
@@ -549,7 +552,10 @@
 "入れる_いれる": {
 "sub": "action.hand",
 "en": "to put in; put in; to insert",
-"thAlt": []
+"thAlt": [],
+"more": [
+"food.verb"
+]
 },
 "色_いろ": {
 "sub": "clothes.color",
@@ -1213,7 +1219,10 @@
 "切る_きる": {
 "sub": "action.hand",
 "en": "to cut; cut",
-"thAlt": []
+"thAlt": [],
+"more": [
+"food.verb"
+]
 },
 "着る_きる": {
 "sub": "clothes.verb",

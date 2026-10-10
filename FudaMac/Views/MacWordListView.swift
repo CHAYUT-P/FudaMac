@@ -4,7 +4,7 @@ import SwiftUI
 
 @Observable
 final class WordListState {
-    enum Selection: Hashable { case category(String), sub(String) }
+    enum Selection: Hashable { case category(String), sub(String), search(String) }
     /// list = read; test = see the word, type its meaning; recall = see the meaning, type the word.
     enum Mode: String {
         case list, test, recall
@@ -15,6 +15,8 @@ final class WordListState {
     enum LevelFilter: String { case both, n5, n4 }
 
     var selection: Selection = .sub("food.dish")
+    var query = ""                      // search box; a non-empty query shows .search results
+    var beforeSearch: Selection?
     var expanded: Set<String> = ["food"]
     var mode: Mode = .list
     var level: LevelFilter = .both
@@ -69,6 +71,7 @@ struct MacWordListView: View {
         switch state.selection {
         case .category(let c): all = wl.words(category: c)
         case .sub(let s): all = wl.words(sub: s)
+        case .search(let q): all = wl.search(q)
         }
         return all.filter { w in
             switch state.level {
@@ -103,6 +106,7 @@ struct MacWordListView: View {
     }
 
     private func select(_ s: WordListState.Selection) {
+        state.query = ""
         guard s != state.selection else { return }
         state.selection = s
         state.restart()
@@ -121,6 +125,7 @@ struct MacWordListView: View {
         for (s, w) in weighted {
             if r < w {
                 if let c = wl.category(of: s.id) { state.expanded.insert(c.id) }
+                state.query = ""
                 state.selection = .sub(s.id)
                 if state.mode == .list { state.mode = .test }
                 state.restart()
@@ -151,6 +156,7 @@ struct MacWordListView: View {
                 Text("N5 + N4 · \(all.count) words").font(Typo.ui(13, .bold))
                 levelBar("N5", all.filter { $0.level == .n5 })
                 levelBar("N4", all.filter { $0.level == .n4 })
+                searchField
                 Button(action: randomPick) {
                     HStack(spacing: 8) {
                         Image(systemName: "die.face.5")
@@ -171,6 +177,31 @@ struct MacWordListView: View {
 
             ForEach(wl.categories) { c in categoryRow(c) }
         }
+    }
+
+    /// Find any word: kanji, kana, romaji, Thai or English.
+    private var searchField: some View {
+        @Bindable var state = state
+        return HStack(spacing: 8) {
+            Image(systemName: "magnifyingglass").foregroundStyle(Ink.soft)
+            TextField("ค้นหาคำ · search (切る, kiru, หั่น, cut)", text: $state.query)
+                .textFieldStyle(.plain).font(Typo.ui(13))
+                .focused($focus, equals: "search")
+                .onChange(of: state.query) { _, q in
+                    let t = q.trimmingCharacters(in: .whitespaces)
+                    if t.isEmpty {
+                        if case .search = state.selection { state.selection = state.beforeSearch ?? .sub("food.dish") }
+                    } else {
+                        if case .search = state.selection {} else { state.beforeSearch = state.selection }
+                        state.selection = .search(t)
+                    }
+                }
+            if !state.query.isEmpty {
+                Button { state.query = "" } label: { Image(systemName: "xmark.circle.fill").foregroundStyle(Ink.soft) }.buttonStyle(.plain)
+            }
+        }
+        .padding(.horizontal, 10).frame(height: 34)
+        .background(Ink.card).overlay(Rectangle().strokeBorder(Ink.ink, lineWidth: 1.5))
     }
 
     private func levelBar(_ label: String, _ ws: [ListWord]) -> some View {
@@ -264,6 +295,8 @@ struct MacWordListView: View {
         case .sub(let id):
             let c = wl.category(of: id), s = wl.sub(id)
             return ("\(c?.en.uppercased() ?? "") · \(c?.ja ?? "")", s?.ja ?? "", "\(s?.th ?? "") · \(s?.en ?? "")")
+        case .search(let q):
+            return ("ค้นหา · SEARCH", "「\(q)」", "ผลการค้นหา · results")
         }
     }
 

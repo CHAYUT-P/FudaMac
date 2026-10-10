@@ -25,14 +25,16 @@ struct WordMeta: Codable, Hashable {
     let en: String
     var thAlt: [String] = []
     var also: [String] = []          // other spellings merged into this entry
+    var more: [String] = []          // other subcategories it is also listed in (切る: hand actions + cooking)
 
-    enum CodingKeys: String, CodingKey { case sub, en, thAlt, also }
+    enum CodingKeys: String, CodingKey { case sub, en, thAlt, also, more }
     init(from d: Decoder) throws {
         let c = try d.container(keyedBy: CodingKeys.self)
         sub = try c.decode(String.self, forKey: .sub)
         en = try c.decode(String.self, forKey: .en)
         thAlt = try c.decodeIfPresent([String].self, forKey: .thAlt) ?? []
         also = try c.decodeIfPresent([String].self, forKey: .also) ?? []
+        more = try c.decodeIfPresent([String].self, forKey: .more) ?? []
     }
 }
 
@@ -91,8 +93,27 @@ final class WordList {
             guard let meta = file.words[v.id] else { continue }
             let w = ListWord(vocab: v, meta: meta)
             all.append(w)
-            bySub[meta.sub, default: []].append(w)
-            byCategory[String(meta.sub.split(separator: ".").first ?? ""), default: []].append(w)
+            var cats: [String] = []
+            for sub in [meta.sub] + meta.more {
+                bySub[sub, default: []].append(w)
+                let cat = String(sub.split(separator: ".").first ?? "")
+                if !cats.contains(cat) { cats.append(cat); byCategory[cat, default: []].append(w) }
+            }
+        }
+    }
+
+    /// Words matching a search: kanji, kana, romaji (typed as romaji or kana), Thai or English.
+    func search(_ query: String) -> [ListWord] {
+        let q = query.lowercased().trimmingCharacters(in: .whitespaces)
+        guard !q.isEmpty else { return [] }
+        let kana = KanaData.toHiragana(q.contains(where: { $0.isASCII && $0.isLetter }) ? Romaji.toHiragana(q) : q)
+        let isASCII = q.allSatisfy(\.isASCII)
+        return all.filter { w in
+            if w.word.contains(q) || w.meta.also.contains(where: { $0.contains(q) }) { return true }
+            if !kana.isEmpty, KanaData.toHiragana(w.kana).replacingOccurrences(of: "〜", with: "").contains(kana) { return true }
+            if isASCII, w.romaji.replacingOccurrences(of: " ", with: "").lowercased().contains(q.replacingOccurrences(of: " ", with: "")) { return true }
+            if w.th.contains(q) || w.meta.thAlt.contains(where: { $0.contains(q) }) { return true }
+            return isASCII && q.count >= 3 && w.en.lowercased().contains(q)
         }
     }
 

@@ -5,7 +5,9 @@ The course is a single path, lesson 0 → 32: grammar in teaching order (N4 gram
 builds on N5 grammar), words mixed by topic. Every word in the word list is taught
 in exactly one lesson:
 
-  1. Lessons 1–14 keep the words their textbook chapters use (proto n5_course.json).
+  1. Lessons 1–14 keep the words their textbook chapters use (proto n5_course.json),
+     and words in Tools/wordlist/course_anchor.json go to their pinned lesson
+     (greetings early; textbook words where the textbook teaches them).
   2. Every other word goes to a lesson with room (about 44 words each):
      a lesson whose grammar examples use it, else a lesson already teaching that
      topic, else the lightest lesson. Easier (N5) words go as early as they fit;
@@ -62,14 +64,21 @@ for n, l in lessons.items():
     if n > 14:
         l["sections"] = []
 
+# 1b. Words pinned to the lesson where a textbook teaches them (greetings, Minna words).
+anchors = json.loads((ROOT / "Tools/wordlist/course_anchor.json").read_text())
+pinned = collections.defaultdict(list)
+for i, n in anchors.items():
+    if i in meta and i not in taught and n in lessons:
+        pinned[n].append(i); taught.add(i)
+
 # 2. Everything else, by room, grammar examples and topic.
 order = [n for n in sorted(lessons) if n > 0]
 cap = math.ceil(len(every) / len(order))
-load = collections.Counter({n: sum(len(s["ids"]) for s in lessons[n]["sections"]) for n in order})
+load = collections.Counter({n: sum(len(s["ids"]) for s in lessons[n]["sections"]) + len(pinned[n]) for n in order})
 topics = {n: collections.Counter(cat_of(i) for s in lessons[n]["sections"] for i in s["ids"]) for n in order}
 gram = {g["key"]: g for g in content["grammar"]}
 examples = {n: " ".join(e["ja"] for k in lessons[n]["grammar"] if k in gram for e in gram[k]["examples"]) for n in order}
-added = collections.defaultdict(list)
+added = collections.defaultdict(list, {n: list(ids) for n, ids in pinned.items()})
 
 for i in every:
     if i in taught:
@@ -77,7 +86,7 @@ for i in every:
     first = {"n5": 1, "n4": 6, "plus": 15}[level[i]]
     room = [n for n in order if n >= first and load[n] < cap] or [n for n in order if n >= first]
     word = kanji_of[i].replace("〜", "")
-    used = [n for n in room if len(word) > 1 and word in examples[n]]
+    used = [n for n in room if len(word) > 1 and word in examples[n] and (level[i] != "n5" or n <= 14)]
     topical = [n for n in room if topics[n][cat_of(i)]]
     if used:
         n = used[0]
