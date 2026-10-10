@@ -1,0 +1,99 @@
+@scene l08_casual
+title: えっ、今日テスト！？
+en: Wait, there's a test today!? (with friends)
+th: หา วันนี้มีสอบเหรอ!? (กับเพื่อน)
+glyph: 八
+level: n5
+place: people
+lesson: 8
+register: casual
+pair: l08
+about: Monday morning after the Mt Takao trip. Everyone is tired, and then Ms Yamada walks in with a pile of paper. Casual て-requests (見て, 貸して), 〜てる for what's happening now, and Vて、V to tell what you did. | เช้าวันจันทร์หลังไปเขาทาคาโอะ ทุกคนยังเหนื่อย แล้วครูยามาดะก็เดินมาพร้อมกระดาษปึกใหญ่ ฝึกขอร้องแบบกันเองด้วย て (見て, 貸して) 〜てる บอกสิ่งที่กำลังเกิด และ Vて、V เล่าสิ่งที่ทำ
+--- 月曜日の朝 | Monday morning | เช้าวันจันทร์
+ジョン: おはよう…。まだ足が痛いよ。 | おはよう…。まだあしがいたいよ。 | หวัดดี… ขายังปวดอยู่เลย | Morning… My legs still hurt.
+You: 僕も。昨日は家に帰って、すぐ寝た。 | ぼくも。きのうはいえにかえって、すぐねた。 | เราด้วย เมื่อวานกลับถึงบ้านก็นอนเลย | Me too. Yesterday I got home and went straight to bed.
+g: n5.t.connect, n5.v.te
+note: 帰る → 帰って (る-ending group 1 verbs take って). Vて、V = "did this, then that". 寝た is the casual past of 寝ました. | 帰る → 帰って (กริยากลุ่ม 1 ที่ลงท้าย る เปลี่ยนเป็น って) Vて、V = "ทำสิ่งนี้แล้วก็…" ส่วน 寝た คือรูปอดีตแบบกันเองของ 寝ました
+リン: 私はお風呂に入って、写真を見て、十時に寝た。 | わたしはおふろにはいって、しゃしんをみて、じゅうじにねた。 | เราอาบน้ำ ดูรูป แล้วนอนตอนสี่ทุ่ม | I had a bath, looked at the photos, and slept at ten.
+g: n5.t.connect, n5.v.te
+ジョン: 高尾山、楽しかったね。また行きたい。 | たかおさん、たのしかったね。またいきたい。 | เขาทาคาโอะสนุกเนอะ อยากไปอีก | Mt Takao was fun. I want to go again.
+g: n5.e.iadj, n5.e.tai
+--- 先生が来た | Here comes the teacher | ครูมาแล้ว
+リン*: あっ、見て！先生、紙をたくさん持ってる。 | あっ、みて！せんせい、かみをたくさんもってる。 | อ้ะ ดูสิ! ครูถือกระดาษมาเพียบเลย | Oh, look! The teacher's carrying a ton of paper.
+g: n5.t.kudasai, n5.t.teiru, n5.v.te
+note: Among friends a request is just the て-form: 見て！ = 見てください. 持ってる is the spoken short form of 持っている. | เพื่อนกันขอร้องด้วยรูป て อย่างเดียว 見て！ = 見てください ส่วน 持ってる คือรูปย่อภาษาพูดของ 持っている
+ジョン: えっ、テスト？聞いてないよ！ | えっ、テスト？きいてないよ！ | หา สอบเหรอ ไม่เห็นรู้เรื่องเลย! | What, a test? Nobody told me!
+g: n5.t.teiru
+note: 聞いてない = "I haven't heard (about it)". 〜てない is the spoken 〜ていない: something that hasn't happened. | 聞いてない = "ไม่ได้ยินมาก่อนเลย" 〜てない คือ 〜ていない ในภาษาพูด ใช้กับเรื่องที่ยังไม่เกิด
+You*: ジョン、知らないの？今日は漢字のテストだよ。 | ジョン、しらないの？きょうはかんじのテストだよ。 | จอห์น ไม่รู้เหรอ วันนี้สอบคันจินะ | John, you didn't know? It's the kanji test today.
+note: "Know" is 知っている (a state), but "don't know" is 知らない, not 知っていない. | "รู้" ใช้ 知っている (บอกสภาพ) แต่ "ไม่รู้" ใช้ 知らない ไม่ใช่ 知っていない
+ジョン: 全然勉強してない…。 | ぜんぜんべんきょうしてない…。 | ไม่ได้อ่านหนังสือเลยสักนิด… | I haven't studied at all…
+g: n5.t.teiru
+リン: 私も。昨日は疲れて、何もしなかった。 | わたしも。きのうはつかれて、なにもしなかった。 | เราด้วย เมื่อวานเหนื่อยเลยไม่ได้ทำอะไรเลย | Me neither. I was tired yesterday, so I did nothing.
+g: n5.t.connect
+note: The て-form can also give a reason: 疲れて、何もしなかった = I was tired, so I didn't do anything. | รูป て ใช้บอกเหตุผลได้ด้วย 疲れて、何もしなかった = เหนื่อยก็เลยไม่ได้ทำอะไร
+You: リン、漢字のノート、ちょっと見せて！ | リン、かんじのノート、ちょっとみせて！ | หลิน ขอดูสมุดคันจิหน่อย! | Lin, let me see your kanji notes for a sec!
+g: n5.t.kudasai, n5.v.te
+alt: ノート、見せてくれない？ | ノート、みせてくれない？ | ขอดูสมุดหน่อยได้ไหม | Could you show me your notes?
+リン: いいよ。はい、どうぞ。 | いいよ。はい、どうぞ。 | ได้สิ นี่ เอาไป | Sure. Here you go.
+ジョン: 俺にも貸して！ | おれにもかして！ | ให้เรายืมด้วย! | Lend them to me too!
+g: n5.t.kudasai, n5.v.te
+You*: 先生、まだ廊下で話してる。あと五分くらいあるよ。 | せんせい、まだろうかではなしてる。あとごふんくらいあるよ。 | ครูยังคุยอยู่ที่ทางเดิน ยังมีเวลาอีกประมาณห้านาที | She's still talking in the hallway. We've got about five minutes.
+g: n5.t.teiru, n5.p.kurai
+リン: じゃあ、早く読んで！ | じゃあ、はやくよんで！ | งั้นรีบอ่านเร็ว! | Then read, quick!
+g: n5.t.kudasai, n5.v.te
+You: えーと、「休む」、「体」…。似てる！ | えーと、「やすむ」、「からだ」…。にてる！ | เอ่อ 「休む」 กับ 「体」… หน้าตาคล้ายกันเลย! | Um, 休む, 体… They look alike!
+g: n5.t.teiru2
+note: 似ている (look alike) is a state, so it's almost always in the ている form: 似てる. | 似ている (คล้ายกัน) บอกสภาพ จึงใช้รูป ている แทบตลอด ภาษาพูดคือ 似てる
+ジョン: うわ、先生が来た！ | うわ、せんせいがきた！ | แย่แล้ว ครูมาแล้ว! | Uh-oh, here she comes!
+山田先生*: はい、皆さん、座ってください。 | はい、みなさん、すわってください。 | เอาล่ะ ทุกคนนั่งลงค่ะ | OK everyone, please sit down.
+g: n5.t.kudasai, n5.v.te
+You: あー、始まった…。 | あー、はじまった…。 | อ้า เริ่มแล้ว… | Ugh, here we go…
+
+@scene l08_polite
+title: 名前を書いてください
+en: Please write your name (polite)
+th: กรุณาเขียนชื่อ (แบบสุภาพ)
+glyph: 八
+level: n5
+place: people
+lesson: 8
+register: polite
+pair: l08
+about: Ms Yamada runs the kanji test. Following classroom instructions (〜てください), asking politely for a repeat or to borrow a pen, offering to close the window, and 〜ています for states and actions in progress. | ครูยามาดะคุมสอบคันจิ ฝึกฟังคำสั่งในห้องเรียน (〜てください) ขอให้พูดซ้ำหรือขอยืมปากกาอย่างสุภาพ เสนอปิดหน้าต่าง และ 〜ています บอกสภาพและสิ่งที่กำลังทำ
+--- テストの前 | Before the test | ก่อนสอบ
+山田先生*: おはようございます。今日は漢字のテストをします。 | おはようございます。きょうはかんじのテストをします。 | อรุณสวัสดิ์ค่ะ วันนี้จะสอบคันจินะคะ | Good morning. Today we'll have a kanji test.
+山田先生: 教科書とノートを、かばんに入れてください。 | きょうかしょとノートを、かばんにいれてください。 | เก็บหนังสือเรียนกับสมุดใส่กระเป๋าค่ะ | Please put your textbooks and notebooks in your bags.
+g: n5.t.kudasai, n5.v.te
+note: Vて + ください = "please do". Teachers use it for every instruction, so learn to catch the verb before ください. | Vて + ください = "กรุณา…" ครูใช้สั่งทุกอย่างในห้องเรียน ให้ฝึกจับกริยาที่อยู่หน้า ください ให้ได้
+You: 先生、すみません。窓が開いています。閉めましょうか。 | せんせい、すみません。まどがあいています。しめましょうか。 | ครูครับ ขอโทษครับ หน้าต่างเปิดอยู่ ให้ผมปิดไหมครับ | Excuse me, Ms Yamada. The window is open. Shall I close it?
+g: n5.t.teiru2, n5.v.invite
+note: 開いています = "is (in the state of being) open": the window opened and stays open. 閉めましょうか offers to do it for her. | 開いています = "เปิดอยู่" คือหน้าต่างเปิดแล้วยังค้างอยู่ในสภาพนั้น ส่วน 閉めましょうか เป็นการเสนอว่าจะช่วยปิดให้
+山田先生: ああ、ありがとう。お願いします。 | ああ、ありがとう。おねがいします。 | อ้อ ขอบใจนะคะ ฝากด้วยค่ะ | Oh, thank you. Please do.
+山田先生*: では、紙を一枚取って、後ろの人に渡してください。 | では、かみをいちまいとって、うしろのひとにわたしてください。 | เอาล่ะ หยิบกระดาษคนละแผ่นแล้วส่งต่อให้คนข้างหลังค่ะ | Now, take one sheet and pass the rest to the person behind you.
+g: n5.t.connect, n5.t.kudasai, n5.v.te
+You: すみません、もう一度ゆっくり言ってください。 | すみません、もういちどゆっくりいってください。 | ขอโทษครับ ช่วยพูดอีกครั้งช้าๆ ได้ไหมครับ | Sorry, could you say that again slowly?
+g: n5.t.kudasai, n5.v.te
+alt: すみません、もう一度お願いします。 | すみません、もういちどおねがいします。 | ขอโทษครับ อีกครั้งได้ไหมครับ | Sorry, once more please.
+note: The most useful sentence in class. 言う → 言って (う → って). Start with すみません so it sounds soft. | ประโยคที่มีประโยชน์ที่สุดในห้องเรียน 言う → 言って (う เปลี่ยนเป็น って) ขึ้นต้นด้วย すみません จะฟังนุ่มนวลขึ้น
+山田先生: 紙を一枚取って、後ろの人に渡してください。 | かみをいちまいとって、うしろのひとにわたしてください。 | หยิบกระดาษหนึ่งแผ่น แล้วส่งให้คนข้างหลังค่ะ | Take one sheet, and pass them to the person behind you.
+g: n5.t.connect, n5.t.kudasai
+You: あのう、先生。ペンを持っていません。一本貸してください。 | あのう、せんせい。ペンをもっていません。いっぽんかしてください。 | เอ่อ ครูครับ ผมไม่ได้เอาปากกามา ขอยืมสักด้ามได้ไหมครับ | Um, Ms Yamada. I don't have a pen. Could you lend me one?
+g: n5.t.teiru2, n5.t.kudasai, n5.v.te
+note: 持っていません = "I don't have one (on me)". To have/carry something is 持っている, a state. 貸す → 貸して (す → して). | 持っていません = "ไม่มีติดตัว" การมีหรือพกของใช้ 持っている ซึ่งบอกสภาพ ส่วน 貸す → 貸して (す เปลี่ยนเป็น して)
+山田先生: はい、どうぞ。 | はい、どうぞ。 | นี่ค่ะ | Here you go.
+You: ありがとうございます。テストのあとで返します。 | ありがとうございます。テストのあとでかえします。 | ขอบคุณครับ สอบเสร็จแล้วจะคืนครับ | Thank you. I'll give it back after the test.
+--- テスト中 | During the test | ระหว่างสอบ
+山田先生*: 名前を書いて、それから問題を読んでください。 | なまえをかいて、それからもんだいをよんでください。 | เขียนชื่อ แล้วค่อยอ่านโจทย์นะคะ | Write your name, and then read the questions.
+g: n5.t.connect, n5.t.kudasai, n5.v.te
+山田先生: あと十分です。タムさん、まだ書いていますか。 | あとじゅっぷんです。タムさん、まだかいていますか。 | เหลืออีกสิบนาทีค่ะ ตัมยังเขียนอยู่ไหมคะ | Ten minutes left. Tam, are you still writing?
+g: n5.t.teiru
+You: はい、まだ書いています。今、最後の問題をしています。 | はい、まだかいています。いま、さいごのもんだいをしています。 | ครับ ยังเขียนอยู่ครับ ตอนนี้กำลังทำข้อสุดท้ายครับ | Yes, I'm still writing. I'm doing the last question now.
+g: n5.t.teiru
+note: Vています = "am doing (right now)". まだ書いています = still writing. | Vています = "กำลังทำอยู่" まだ書いています = ยังเขียนอยู่
+--- テストのあと | After the test | หลังสอบ
+You: 先生、すみません。三番の漢字がわかりませんでした。 | せんせい、すみません。さんばんのかんじがわかりませんでした。 | ครูครับ ขอโทษครับ คันจิข้อสามผมไม่รู้ครับ | Excuse me, Ms Yamada. I didn't know the kanji in number three.
+g: n5.e.suki
+山田先生*: ああ、あれは「借りる」です。「貸す」の反対ですよ。 | ああ、あれは「かりる」です。「かす」のはんたいですよ。 | อ๋อ นั่นคือ 「借りる」 ค่ะ ตรงข้ามกับ 「貸す」 นะคะ | Ah, that one is 借りる (borrow). It's the opposite of 貸す (lend).
+You: あっ！先生にペンを借りました。ありがとうございました。 | あっ！せんせいにペンをかりました。ありがとうございました。 | อ้อ! ผมยืมปากกาครูไปครับ ขอบคุณมากครับ | Oh! I borrowed a pen from you. Thank you very much.
+note: 借りる = borrow (from someone: に), 貸す = lend. Hand the pen back and use the past ありがとうございました, because the favor is finished. | 借りる = ยืม (ยืมจากใครใช้ に) 貸す = ให้ยืม ตอนคืนปากกาใช้รูปอดีต ありがとうございました เพราะความช่วยเหลือจบแล้ว

@@ -1,0 +1,114 @@
+@scene l05_casual
+title: 寒くなったね
+en: It got cold! (with friends)
+th: หนาวขึ้นแล้วนะ (กับเพื่อน)
+glyph: 五
+level: n5
+place: food
+lesson: 5
+register: casual
+pair: l05
+about: After a Sunday movie with Yuki and Lin, the wind turns cold and you duck into a cheap little restaurant by the station. Plain adjectives (面白かった, 高くない), が好き, 〜くなる/〜になる, and Nにする for ordering. | หลังดูหนังวันอาทิตย์กับยูกิและหลิน ลมเริ่มเย็นเลยแวะร้านอาหารเล็กๆ หน้าสถานี ฝึกคุณศัพท์แบบกันเอง (面白かった, 高くない) が好き 〜くなる/〜になる และ Nにする ตอนสั่งอาหาร
+--- 映画のあと | After the movie | หลังดูหนัง
+ゆき*: 映画、面白かったね！ | えいが、おもしろかったね！ | หนังสนุกเนอะ | That movie was fun, huh!
+g: n5.e.iadj
+note: 面白かった is the past of 面白い: drop the final い and add かった. With friends there's no です; just add ね to share the feeling. | 面白かった คือรูปอดีตของ 面白い ตัด い ตัวท้ายแล้วเติม かった เพื่อนกันไม่ต้องมี です แค่เติม ね เพื่อชวนอีกฝ่ายให้รู้สึกเหมือนกัน
+You: うん、すごく面白かった。でも、ちょっと長かったね。 | うん、すごくおもしろかった。でも、ちょっとながかったね。 | อืม สนุกมาก แต่ยาวไปหน่อยเนอะ | Yeah, really fun. A bit long, though.
+g: n5.e.iadj
+リン: 音楽もきれいだったね。 | おんがくもきれいだったね。 | เพลงก็เพราะเนอะ | The music was beautiful too.
+g: n5.e.naadj
+note: きれい ends in い but it is a な-adjective, so its casual past is きれいだった (never きれかった). | きれい ลงท้ายด้วย い ก็จริง แต่เป็นคุณศัพท์ な รูปอดีตแบบกันเองจึงเป็น きれいだった ห้ามพูด きれかった
+ゆき: あ、風が冷たい。急に寒くなったね。 | あ、かぜがつめたい。きゅうにさむくなったね。 | อ้าว ลมเย็นจัง หนาวขึ้นมาทันทีเลย | Oh, the wind's cold. It suddenly got cold.
+g: n5.e.naru, n5.e.iadj
+note: 寒い → 寒くなる "get cold": change い to く and add なる. なった is the casual past of なりました. | 寒い → 寒くなる แปลว่า "หนาวขึ้น" เปลี่ยน い เป็น く แล้วต่อ なる ส่วน なった คือรูปอดีตแบบกันเองของ なりました
+You*: 本当だ。ねえ、何か温かいもの、食べない？ | ほんとだ。ねえ、なにかあったかいもの、たべない？ | จริงด้วย นี่ กินอะไรอุ่นๆ กันไหม | You're right. Hey, want to eat something warm?
+g: n5.e.iadj, n5.v.invite
+note: 食べない？ said with a rising tone is the friend version of 食べませんか: an invitation, not a negative. | 食べない？ พูดเสียงขึ้นท้าย คือแบบกันเองของ 食べませんか เป็นการชวน ไม่ได้แปลว่า "ไม่กิน"
+ゆき: いいね！駅の前の店、安くておいしいよ。 | いいね！えきのまえのみせ、やすくておいしいよ。 | ดีเลย ร้านหน้าสถานีถูกแล้วก็อร่อยนะ | Good idea! The place in front of the station is cheap and tasty.
+g: n5.e.iadj
+note: 安くて = 安い with い → くて, meaning "cheap and…". This is how you chain い-adjectives. | 安くて มาจาก 安い เปลี่ยน い เป็น くて แปลว่า "ถูกและ…" ใช้เชื่อมคุณศัพท์ い หลายตัวเข้าด้วยกัน
+--- 店で | In the restaurant | ในร้าน
+You: わあ、メニューがいろいろあるね。ゆきは何が好き？ | わあ、メニューがいろいろあるね。ゆきはなにがすき？ | ว้าว เมนูมีหลายอย่างเลย ยูกิชอบอะไร | Wow, there's lots on the menu. What do you like, Yuki?
+g: n5.e.suki
+ゆき: 私はここの醤油ラーメンが好き。リンは？ | わたしはここのしょうゆラーメンがすき。リンは？ | เราชอบราเมงโชยุร้านนี้ หลินล่ะ | I like their soy-sauce ramen. Lin?
+g: n5.e.suki
+リン*: 私は辛いものが嫌い。甘いものが好き。 | わたしはからいものがきらい。あまいものがすき。 | เราไม่ชอบของเผ็ด ชอบของหวาน | I don't like spicy food. I like sweet stuff.
+g: n5.e.suki
+note: 好き and 嫌い take が, not を. 嫌い sounds strong, so people often soften it: 辛いもの、ちょっと… | 好き และ 嫌い ใช้ が ไม่ใช่ を คำว่า 嫌い ฟังแรง คนญี่ปุ่นมักพูดอ้อมๆ ว่า 辛いもの、ちょっと… (ของเผ็ดนี่…ไม่ค่อยไหว)
+You: えっ、僕は辛いもの、大好きだよ。 | えっ、ぼくはからいもの、だいすきだよ。 | เอ๊ะ เราชอบของเผ็ดมากเลยนะ | Really? I love spicy food.
+g: n5.e.suki
+ゆき: じゃあ、私は醤油ラーメンにする。 | じゃあ、わたしはしょうゆラーメンにする。 | งั้นเราเอาราเมงโชยุ | OK, I'll go with the soy-sauce ramen.
+g: n5.e.suru
+note: Nにする = "I'll have N / I'll go with N". The everyday way to say what you choose when ordering with friends. | Nにする แปลว่า "เอา N / เลือก N" เป็นวิธีบอกว่าจะสั่งอะไรเวลากินกับเพื่อน
+You*: 僕は辛いラーメンにする。リンは？ | ぼくはからいラーメンにする。リンは？ | เราเอาราเมงเผ็ด หลินล่ะ | I'll have the spicy ramen. You, Lin?
+g: n5.e.suru
+alt: 僕は、これにする。 | ぼくは、これにする。 | เราเอาอันนี้ | I'll get this one.
+リン: 私も醤油ラーメンにする。 | わたしもしょうゆラーメンにする。 | เราก็เอาราเมงโชยุ | I'll have the soy-sauce one too.
+g: n5.e.suru
+--- いただきます | Digging in | ลงมือกิน
+You: 熱っ！でも、おいしい！ | あつっ！でも、おいしい！ | ร้อนอะ! แต่อร่อย! | Hot! But so good!
+g: n5.e.iadj
+note: 熱っ！ is 熱い cut short: what people blurt out when something is hot. Same with 寒っ！ and 痛っ！ | 熱っ！ คือ 熱い ที่พูดตัดสั้น เป็นคำอุทานตอนเจอของร้อน แบบเดียวกับ 寒っ！ (หนาว!) และ 痛っ！ (เจ็บ!)
+ゆき*: でしょ？それに、あまり高くないよね。 | でしょ？それに、あまりたかくないよね。 | ใช่ไหมล่ะ แถมไม่ค่อยแพงด้วย | Right? And it's not that expensive.
+g: n5.e.iadj, n5.e.degree
+You: うん。店もきれいで静かだね。 | うん。みせもきれいでしずかだね。 | อืม ร้านก็สะอาดแล้วก็เงียบดี | Yeah. And the place is clean and quiet.
+g: n5.e.naadj
+リン*: 体が温かくなったね。 | からだがあったかくなったね。 | ตัวอุ่นขึ้นแล้วเนอะ | I've warmed up.
+g: n5.e.naru
+You: うん、元気になった！ | うん、げんきになった！ | อืม สดชื่นขึ้นแล้ว! | Yeah, I'm full of energy again!
+g: n5.e.naru
+
+@scene l05_polite
+title: 温かいものを食べませんか
+en: Shall we eat something warm? (polite)
+th: ไปทานอะไรอุ่นๆ กันไหมคะ (แบบสุภาพ)
+glyph: 五
+level: n5
+place: food
+lesson: 5
+register: polite
+pair: l05
+about: Coming out of the cinema you bump into Ms Yamada, and she takes you to a small restaurant where Mr Suzuki works. Polite adjectives (面白かったです, 上手じゃありません), 〜くなりました, and Nにします when ordering. | ออกจากโรงหนังแล้วเจอครูยามาดะ ครูชวนไปร้านอาหารเล็กๆ ที่คุณซูซูกิทำงานอยู่ ฝึกคุณศัพท์แบบสุภาพ (面白かったです, 上手じゃありません) 〜くなりました และ Nにします ตอนสั่งอาหาร
+--- 映画館の前 | Outside the cinema | หน้าโรงหนัง
+山田先生: あら、タムさん。こんにちは。 | あら、タムさん。こんにちは。 | อ้าว ตัม สวัสดีค่ะ | Oh, Tam. Hello.
+You: あ、山田先生！こんにちは。先生も映画ですか。 | あ、やまだせんせい！こんにちは。せんせいもえいがですか。 | อ้าว ครูยามาดะ สวัสดีครับ ครูก็มาดูหนังเหรอครับ | Oh, Ms Yamada! Hello. Were you at the movies too?
+note: Call a teacher 先生, never あなた. 先生も映画ですか is a short, natural way to ask "you came to see a movie too?" | เรียกครูว่า 先生 ห้ามใช้ あなた ส่วน 先生も映画ですか เป็นวิธีถามสั้นๆ แบบธรรมชาติว่า "ครูก็มาดูหนังเหมือนกันเหรอ"
+山田先生*: ええ。映画はどうでしたか。 | ええ。えいがはどうでしたか。 | ค่ะ หนังเป็นยังไงบ้างคะ | Yes. How was the movie?
+You: とても面白かったです。でも、日本語が少し難しかったです。 | とてもおもしろかったです。でも、にほんごがすこしむずかしかったです。 | สนุกมากครับ แต่ภาษาญี่ปุ่นยากนิดหน่อยครับ | It was very interesting. But the Japanese was a little hard.
+g: n5.e.iadj
+note: Polite past of an い-adjective = 面白かった + です. A very common mistake is 面白いでした; it is wrong. | รูปอดีตสุภาพของคุณศัพท์ い คือ 面白かった + です ผู้เรียนมักพลาดพูดว่า 面白いでした ซึ่งผิด
+山田先生: タムさんは日本の映画が好きですか。 | タムさんはにほんのえいががすきですか。 | ตัมชอบหนังญี่ปุ่นไหมคะ | Do you like Japanese movies, Tam?
+g: n5.e.suki
+You: はい、好きです。でも、私の日本語はまだ上手じゃありません。 | はい、すきです。でも、わたしのにほんごはまだじょうずじゃありません。 | ชอบครับ แต่ภาษาญี่ปุ่นของผมยังไม่เก่งครับ | Yes, I do. But my Japanese isn't good yet.
+g: n5.e.suki, n5.e.naadj, n5.e.moumada
+note: Polite negative of a な-adjective: 上手じゃありません (or 上手じゃないです). Never call your own skill 上手; being modest is the Japanese way. | รูปปฏิเสธสุภาพของคุณศัพท์ な คือ 上手じゃありません (หรือ 上手じゃないです) คนญี่ปุ่นไม่ชมความสามารถตัวเองว่า 上手 การถ่อมตัวคือมารยาท
+山田先生: いえいえ、上手になりましたよ。…あら、寒くなりましたね。 | いえいえ、じょうずになりましたよ。…あら、さむくなりましたね。 | ไม่หรอกค่ะ เก่งขึ้นแล้วนะคะ… อ้าว หนาวขึ้นแล้วนะคะ | Oh no, you've gotten good. …Oh, it's gotten cold.
+g: n5.e.naru
+note: Two kinds of なる: 上手になりました (な-adjective + に) and 寒くなりました (い-adjective, い → く). | なる มีสองแบบ คือ 上手になりました (คุณศัพท์ な + に) และ 寒くなりました (คุณศัพท์ い เปลี่ยน い เป็น く)
+You*: 本当ですね。風が冷たいです。 | ほんとうですね。かぜがつめたいです。 | จริงด้วยครับ ลมเย็นมากครับ | It really has. The wind is cold.
+g: n5.e.iadj
+山田先生: 何か温かいものを食べませんか。駅の前に、安くておいしい店がありますよ。 | なにかあたたかいものをたべませんか。えきのまえに、やすくておいしいみせがありますよ。 | ไปทานอะไรอุ่นๆ กันไหมคะ หน้าสถานีมีร้านที่ถูกแล้วก็อร่อยค่ะ | Shall we eat something warm? There's a cheap, tasty place in front of the station.
+g: n5.e.iadj, n5.v.invite
+You: いいですね。ぜひ。 | いいですね。ぜひ。 | ดีครับ ไปครับ | That sounds great. I'd love to.
+note: ぜひ = "by all means / I'd love to". A warm, polite way to accept an invitation. | ぜひ แปลว่า "ยินดีเลย / อยากไปมาก" เป็นวิธีตอบรับคำชวนที่สุภาพและฟังอบอุ่น
+--- 店で | In the restaurant | ในร้าน
+鈴木さん*: いらっしゃいませ。お二人様ですか。 | いらっしゃいませ。おふたりさまですか。 | ยินดีต้อนรับครับ สองท่านใช่ไหมครับ | Welcome. Two people?
+You: はい。…きれいで静かなお店ですね。 | はい。…きれいでしずかなおみせですね。 | ครับ …ร้านสะอาดแล้วก็เงียบดีนะครับ | Yes. …What a clean, quiet place.
+g: n5.e.naadj
+note: な-adjective before a noun takes な: 静かなお店. Linking two: きれいで静かな. お店 is the polite way to say 店. | คุณศัพท์ な ที่ขยายคำนามต้องมี な เช่น 静かなお店 ถ้าเชื่อมสองตัวใช้ きれいで静かな ส่วน お店 คือคำสุภาพของ 店
+山田先生: ええ、私の好きな店です。私はうどんにします。タムさんは？ | ええ、わたしのすきなみせです。わたしはうどんにします。タムさんは？ | ค่ะ เป็นร้านที่ครูชอบ ครูเอาอุด้งค่ะ ตัมล่ะคะ | Yes, it's a favorite of mine. I'll have udon. And you, Tam?
+g: n5.e.suki, n5.e.suru
+You: 私もうどんにします。あのう、辛いうどんはありますか。 | わたしもうどんにします。あのう、からいうどんはありますか。 | ผมก็เอาอุด้งครับ เอ่อ มีอุด้งเผ็ดไหมครับ | I'll have udon too. Um, do you have a spicy udon?
+g: n5.e.suru
+鈴木さん: はい、カレーうどんがございます。少し辛いですよ。 | はい、カレーうどんがございます。すこしからいですよ。 | มีครับ มีอุด้งแกงกะหรี่ครับ เผ็ดนิดหน่อยนะครับ | Yes, we have curry udon. It's a little spicy.
+g: n5.e.iadj
+You*: では、それにします。 | では、それにします。 | งั้นเอาอันนั้นครับ | Then I'll have that.
+g: n5.e.suru
+note: では is the polite じゃあ. Compare: with friends 辛いラーメンにする, politely それにします. | では คือ じゃあ แบบสุภาพ เทียบกัน กับเพื่อนพูดว่า 辛いラーメンにする แต่แบบสุภาพพูดว่า それにします
+--- 温かいうどん | Hot udon | อุด้งร้อนๆ
+You: 熱いです！でも、とてもおいしいです。 | あついです！でも、とてもおいしいです。 | ร้อนครับ! แต่อร่อยมากครับ | It's hot! But it's really good.
+g: n5.e.iadj
+山田先生*: 体が温かくなりましたね。 | からだがあたたかくなりましたね。 | ตัวอุ่นขึ้นแล้วนะคะ | We've warmed up, haven't we.
+g: n5.e.naru
+You: はい、元気になりました。今日はとても楽しかったです。 | はい、げんきになりました。きょうはとてもたのしかったです。 | ครับ สดชื่นขึ้นแล้วครับ วันนี้สนุกมากครับ | Yes, I feel much better. Today was really fun.
+g: n5.e.naru, n5.e.iadj

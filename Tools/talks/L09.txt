@@ -1,0 +1,106 @@
+@scene l09_casual
+title: 自転車、どこに止める？
+en: Where can I park my bike? (with a friend)
+th: จอดจักรยานตรงไหนดี (กับเพื่อน)
+glyph: 九
+level: n5
+place: food
+lesson: 9
+register: casual
+pair: l09
+about: Friday dinner with Yuki at Mr Suzuki's little restaurant. Asking if something is OK (〜ていい？), hearing it's not (〜ちゃいけない), plain negatives (飲まない), casual "don't" (〜ないで), "you don't have to" (〜なくていい) and "I've got to go" (〜なきゃ). | มื้อเย็นวันศุกร์กับยูกิที่ร้านเล็กๆ ของคุณซูซูกิ ขออนุญาตแบบกันเอง (〜ていい？) ได้ยินว่าห้าม (〜ちゃいけない) ปฏิเสธรูปธรรมดา (飲まない) บอกว่าอย่า (〜ないで) บอกว่าไม่ต้อง (〜なくていい) และบอกว่าต้องไปแล้ว (〜なきゃ)
+--- 店の前 | Outside the restaurant | หน้าร้าน
+ゆき: あ、タム！えっ、自転車で来たの？ | あ、タム！えっ、じてんしゃできたの？ | อ้าว ตัม! เอ๊ะ ปั่นจักรยานมาเหรอ | Oh, Tam! Wait, you came by bike?
+note: 来たの？ is a casual question: plain past + の with a rising tone. You'll learn the past form (た形) properly in lesson 11. | 来たの？ เป็นคำถามแบบกันเอง ใช้รูปอดีตธรรมดา + の แล้วขึ้นเสียงท้าย รูป た จะได้เรียนอย่างจริงจังในบทที่ 11
+You: うん、新しい自転車！ここに止めてもいい？ | うん、あたらしいじてんしゃ！ここにとめてもいい？ | อืม คันใหม่! จอดตรงนี้ได้ไหม | Yep, my new bike! Can I park it here?
+g: n5.t.temoii
+alt: ここに止めていい？ | ここにとめていい？ | จอดตรงนี้ได้มะ | OK if I park here?
+note: Vて + もいい？ asks "is it OK if I…?". With a friend it's just いい？ with a rising tone, no ですか. Many people drop も too: 止めていい？ | Vて + もいい？ ใช้ถามว่า "…ได้ไหม" กับเพื่อนพูดแค่ いい？ แล้วขึ้นเสียงท้าย ไม่ต้องมี ですか และหลายคนตัด も ออกเป็น 止めていい？ ก็ได้
+ゆき*: あ、だめだめ。店の前に止めちゃいけないよ。 | あ、だめだめ。みせのまえにとめちゃいけないよ。 | อ๊ะ ไม่ได้ๆ ห้ามจอดหน้าร้านนะ | Oh, no, no. You can't park in front of the shop.
+g: n5.t.tewaikenai
+note: 〜ちゃいけない is how 〜てはいけない sounds in real speech (止めては → 止めちゃ, 飲んでは → 飲んじゃ). In Japan a bike parked in the wrong place can get taken away. | 〜ちゃいけない คือเสียงพูดจริงของ 〜てはいけない (止めては → 止めちゃ, 飲んでは → 飲んじゃ) ที่ญี่ปุ่นถ้าจอดจักรยานผิดที่ อาจโดนยกไปเลย
+You: えっ、そうなの？じゃあ、どこに止める？ | えっ、そうなの？じゃあ、どこにとめる？ | เอ๊ะ งั้นเหรอ แล้วจอดที่ไหนดี | Oh, really? Then where do I park?
+ゆき: 駅の自転車置き場。あの角を右に曲がって、すぐだよ。 | えきのじてんしゃおきば。あのかどをみぎにまがって、すぐだよ。 | ที่จอดจักรยานของสถานี เลี้ยวขวาตรงหัวมุมนั้นแล้วถึงเลย | The station bike parking. Turn right at that corner and it's right there.
+You: わかった。ちょっと待ってて。 | わかった。ちょっとまってて。 | โอเค รอแป๊บนะ | Got it. Wait a sec.
+--- 店の中 | Inside | ในร้าน
+ゆき: 何飲む？ここ、日本酒がおいしいよ。 | なにのむ？ここ、にほんしゅがおいしいよ。 | ดื่มอะไรดี ร้านนี้สาเกอร่อยนะ | What are you drinking? The sake here is good.
+You: ううん、お酒は飲まない。自転車だから。 | ううん、おさけはのまない。じてんしゃだから。 | ไม่ล่ะ ไม่ดื่มเหล้า ขี่จักรยานมา | Nah, I'm not drinking. I'm on my bike.
+g: n5.v.nai
+alt: 今日は飲まない。自転車だし。 | きょうはのまない。じてんしゃだし。 | วันนี้ไม่ดื่ม ขี่จักรยานมาด้วย | Not drinking today. I've got the bike.
+note: 飲まない is the ない形 of 飲む, the casual way to say 飲みません. In Japan, riding a bike after drinking is against the law, just like driving. | 飲まない คือรูป ない ของ 飲む เป็นแบบกันเองของ 飲みません ที่ญี่ปุ่นดื่มแล้วขี่จักรยานผิดกฎหมายเหมือนเมาแล้วขับรถเลย
+ゆき: あ、そっか。飲んで乗っちゃだめだよね。じゃ、お茶？ | あ、そっか。のんでのっちゃだめだよね。じゃ、おちゃ？ | อ๋อ จริงด้วย ดื่มแล้วขี่ไม่ได้เนอะ งั้นเอาชาไหม | Oh, right. You can't ride after drinking. Tea, then?
+g: n5.t.tewaikenai
+note: 〜ちゃだめ (= 〜てはだめ) is an even more everyday way to say "you mustn't". | 〜ちゃだめ (= 〜てはだめ) เป็นอีกแบบที่ได้ยินบ่อยมากในชีวิตประจำวัน แปลว่า "ห้าม…"
+You: うん、冷たいお茶。あ、料理の写真、撮ってもいい？ | うん、つめたいおちゃ。あ、りょうりのしゃしん、とってもいい？ | อืม ชาเย็น อ้อ ถ่ายรูปอาหารได้ไหม | Yeah, cold tea. Oh, can I take a photo of the food?
+g: n5.t.temoii
+ゆき*: いいよ。でも、ほかのお客さんは撮らないでね。 | いいよ。でも、ほかのおきゃくさんはとらないでね。 | ได้สิ แต่อย่าถ่ายติดลูกค้าคนอื่นนะ | Sure. But don't take pictures of the other customers.
+g: n5.t.naide, n5.v.nai
+note: Vない + で(ね) is the casual "please don't". Friends drop ください, and ね makes it softer. | Vない + で(ね) คือ "อย่า…นะ" แบบกันเอง เพื่อนกันตัด ください ออก แล้วใส่ ね ให้ฟังนุ่มลง
+--- 帰る時間 | Time to go | ได้เวลากลับ
+You: あ、もう九時だ。明日早いから、帰らなきゃ。 | あ、もうくじだ。あしたはやいから、かえらなきゃ。 | อ้าว สามทุ่มแล้ว พรุ่งนี้ต้องตื่นเช้า ต้องกลับแล้วล่ะ | Oh, it's nine already. I've got an early start tomorrow, I have to go.
+g: n5.t.must, n5.v.nai
+alt: そろそろ帰らないと。 | そろそろかえらないと。 | ต้องกลับแล้วล่ะ | I should get going.
+note: 帰らなきゃ is the spoken short form of 帰らなければならない. With friends nobody says the full form; it's 〜なきゃ or 〜ないと. | 帰らなきゃ คือรูปย่อภาษาพูดของ 帰らなければならない เพื่อนกันไม่มีใครพูดรูปเต็ม ใช้แค่ 〜なきゃ หรือ 〜ないと
+ゆき*: そっか。今日は私が払うから、タムは払わなくていいよ。 | そっか。きょうはわたしがはらうから、タムははらわなくていいよ。 | งั้นเหรอ วันนี้เราเลี้ยงเอง ตัมไม่ต้องจ่ายนะ | OK. I'll pay today, so you don't have to.
+g: n5.t.nakute, n5.v.nai
+note: 払わなくていい is 払わなくてもいい with も dropped: "you don't have to pay". | 払わなくていい คือ 払わなくてもいい ที่ตัด も ออก แปลว่า "ไม่ต้องจ่ายก็ได้"
+You: えっ、悪いよ。半分払う。 | えっ、わるいよ。はんぶんはらう。 | เฮ้ย เกรงใจ จ่ายครึ่งนึงเถอะ | Oh, I'd feel bad. I'll pay half.
+ゆき: いいの、いいの。次はタムね。 | いいの、いいの。つぎはタムね。 | ไม่เป็นไรๆ ครั้งหน้าตาตัมเลี้ยงนะ | It's fine, it's fine. Next time's on you.
+You: わかった。ごちそうさま！ | わかった。ごちそうさま！ | โอเค ขอบใจที่เลี้ยงนะ | OK. Thanks for dinner!
+ゆき*: 外、暗いから、急がないでね。電気もつけてね。 | そと、くらいから、いそがないでね。でんきもつけてね。 | ข้างนอกมืดแล้ว อย่ารีบนะ เปิดไฟจักรยานด้วย | It's dark out, so don't rush. And turn your light on.
+g: n5.t.naide, n5.v.nai
+You: うん。じゃ、また月曜日！ | うん。じゃ、またげつようび！ | อืม แล้วเจอกันวันจันทร์! | Yep. See you Monday!
+
+@scene l09_polite
+title: 自転車はだめです
+en: No bikes here (polite)
+th: ห้ามจอดจักรยาน (สุภาพ)
+glyph: 九
+level: n5
+place: food
+lesson: 9
+register: polite
+pair: l09
+about: The same evening with Mr Suzuki, the restaurant owner. Asking permission (〜てもいいですか), hearing the rules (〜てはいけません, 〜ないでください), "you don't need to" (〜なくてもいいです) and "I must" (〜なければなりません). | เย็นวันเดียวกัน คุยกับคุณซูซูกิเจ้าของร้าน ขออนุญาตอย่างสุภาพ (〜てもいいですか) ฟังกฎของร้าน (〜てはいけません, 〜ないでください) บอกว่าไม่ต้อง (〜なくてもいいです) และบอกว่าต้อง… (〜なければなりません)
+--- 店の前 | Outside the restaurant | หน้าร้าน
+You: すみません、自転車をここに止めてもいいですか。 | すみません、じてんしゃをここにとめてもいいですか。 | ขอโทษครับ จอดจักรยานตรงนี้ได้ไหมครับ | Excuse me, may I park my bike here?
+g: n5.t.temoii
+alt: ここに自転車を止めてもよろしいですか。 | ここにじてんしゃをとめてもよろしいですか。 | ขออนุญาตจอดจักรยานตรงนี้ได้ไหมครับ | Would it be all right to park my bike here?
+note: 〜てもいいですか is the standard polite way to ask permission. 〜てもよろしいですか is even more polite. | 〜てもいいですか คือรูปมาตรฐานในการขออนุญาตอย่างสุภาพ ถ้าใช้ 〜てもよろしいですか จะสุภาพยิ่งขึ้นไปอีก
+鈴木さん*: あ、すみません。店の前は、自転車を止めてはいけないんです。 | あ、すみません。みせのまえは、じてんしゃをとめてはいけないんです。 | อ้อ ขอโทษครับ หน้าร้านห้ามจอดจักรยานครับ | Oh, I'm sorry. You're not allowed to park bikes in front of the shop.
+g: n5.t.tewaikenai
+note: 〜てはいけません states a rule. Staff soften it with すみません first and 〜んです ("you see…") at the end. | 〜てはいけません ใช้บอกกฎ พนักงานร้านมักพูด すみません ก่อนให้นุ่มลง แล้วลงท้ายด้วย 〜んです ให้ฟังเหมือนอธิบายเหตุผล
+You: そうですか。じゃあ、どこがいいですか。 | そうですか。じゃあ、どこがいいですか。 | อย่างนั้นเหรอครับ แล้วจอดตรงไหนดีครับ | I see. Where should I go, then?
+鈴木さん: 駅の自転車置き場を使ってください。あの角を右に曲がって、すぐですよ。 | えきのじてんしゃおきばをつかってください。あのかどをみぎにまがって、すぐですよ。 | ใช้ที่จอดจักรยานของสถานีนะครับ เลี้ยวขวาตรงหัวมุมนั้นก็ถึงเลยครับ | Please use the station bike parking. Turn right at that corner and it's right there.
+You: わかりました。ありがとうございます。 | わかりました。ありがとうございます。 | เข้าใจแล้วครับ ขอบคุณครับ | I see. Thank you.
+--- 席で | At the table | ที่โต๊ะ
+鈴木さん: いらっしゃいませ。どうぞ、こちらに座ってください。 | いらっしゃいませ。どうぞ、こちらにすわってください。 | ยินดีต้อนรับครับ เชิญนั่งทางนี้ครับ | Welcome. Please have a seat here.
+You: あのう、靴は脱がなければなりませんか。 | あのう、くつはぬがなければなりませんか。 | เอ่อ ต้องถอดรองเท้าไหมครับ | Um, do I have to take my shoes off?
+g: n5.t.must, n5.v.nai
+note: 〜なければなりませんか asks "do I have to…?". A good question at restaurants with tatami seating. | 〜なければなりませんか ใช้ถามว่า "ต้อง…ไหม" ควรถามไว้เวลาไปร้านญี่ปุ่นที่นั่งบนเสื่อทาทามิ
+鈴木さん*: いいえ、脱がなくてもいいですよ。そのままどうぞ。 | いいえ、ぬがなくてもいいですよ。そのままどうぞ。 | ไม่ต้องถอดก็ได้ครับ เชิญตามสบายเลยครับ | No, you don't need to take them off. Come in as you are.
+g: n5.t.nakute, n5.v.nai
+note: 〜なくてもいいです = "you don't have to". It's the natural answer to 〜なければなりませんか. | 〜なくてもいいです = "ไม่ต้อง…ก็ได้" เป็นคำตอบที่คู่กับคำถาม 〜なければなりませんか
+鈴木さん: お飲み物はどうしますか。ビールはいかがですか。 | おのみものはどうしますか。ビールはいかがですか。 | รับเครื่องดื่มอะไรดีครับ เบียร์ไหมครับ | What would you like to drink? How about a beer?
+You: すみません、お酒は飲みません。今日は自転車ですから。 | すみません、おさけはのみません。きょうはじてんしゃですから。 | ขอโทษครับ ผมไม่ดื่มเหล้า วันนี้ขี่จักรยานมาครับ | Sorry, I won't have alcohol. I came by bike today.
+note: Politely you say 飲みません; with a friend, the ない形 飲まない. | เวลาพูดสุภาพใช้ 飲みません ถ้าคุยกับเพื่อนใช้รูป ない คือ 飲まない
+鈴木さん: ああ、そうですね。飲んで乗ってはいけませんからね。 | ああ、そうですね。のんでのってはいけませんからね。 | อ๋อ จริงด้วยครับ ดื่มแล้วขี่ไม่ได้นะครับ | Ah, of course. You mustn't ride after drinking.
+g: n5.t.tewaikenai
+You: はい。あのう、料理の写真を撮ってもいいですか。 | はい。あのう、りょうりのしゃしんをとってもいいですか。 | ครับ เอ่อ ขอถ่ายรูปอาหารได้ไหมครับ | Yes. Um, may I take photos of the food?
+g: n5.t.temoii
+鈴木さん*: ええ、どうぞ。でも、ほかのお客さんは撮らないでくださいね。 | ええ、どうぞ。でも、ほかのおきゃくさんはとらないでくださいね。 | ได้ครับ เชิญเลย แต่กรุณาอย่าถ่ายลูกค้าคนอื่นนะครับ | Sure, go ahead. But please don't photograph the other customers.
+g: n5.t.naide, n5.v.nai
+note: Vない + でください = "please don't…". Compare Yuki's casual 撮らないでね. | Vない + でください = "กรุณาอย่า…" เทียบกับแบบกันเองที่ยูกิพูดว่า 撮らないでね
+--- お会計 | Paying | จ่ายเงิน
+You: すみません、明日早く起きなければなりませんから、お会計をお願いします。 | すみません、あしたはやくおきなければなりませんから、おかいけいをおねがいします。 | ขอโทษครับ พรุ่งนี้ผมต้องตื่นเช้า ขอเช็คบิลด้วยครับ | Excuse me, I have to get up early tomorrow, so could I have the bill?
+g: n5.t.must, n5.v.nai
+alt: お会計、お願いします。 | おかいけい、おねがいします。 | เช็คบิลด้วยครับ | The bill, please.
+鈴木さん: はい。千二百円です。 | はい。せんにひゃくえんです。 | ครับ 1,200 เยนครับ | Sure. That's 1,200 yen.
+You: カードを使ってもいいですか。 | カードをつかってもいいですか。 | ใช้บัตรได้ไหมครับ | May I pay by card?
+g: n5.t.temoii
+鈴木さん: すみません、カードはちょっと…。現金でお願いします。 | すみません、カードはちょっと…。げんきんでおねがいします。 | ขอโทษครับ บัตรไม่สะดวกน่ะครับ… รบกวนเป็นเงินสดนะครับ | Sorry, cards are a bit… Cash, please.
+note: 〜はちょっと… is the polite way to say no without saying no. Many small restaurants are still cash only. | 〜はちょっと… คือการปฏิเสธอย่างสุภาพโดยไม่พูดตรงๆ ร้านเล็กๆ ในญี่ปุ่นหลายร้านยังรับแค่เงินสด
+You: わかりました。じゃあ、これで。ごちそうさまでした。 | わかりました。じゃあ、これで。ごちそうさまでした。 | ได้ครับ งั้นนี่ครับ ขอบคุณสำหรับอาหารครับ | All right. Here you are. Thank you for the meal.
+鈴木さん*: ありがとうございました。暗いですから、急がないでくださいね。 | ありがとうございました。くらいですから、いそがないでくださいね。 | ขอบคุณมากครับ มืดแล้ว อย่ารีบนะครับ | Thank you very much. It's dark, so please don't rush.
+g: n5.t.naide, n5.v.nai
+You: はい、気をつけます。また来ます。 | はい、きをつけます。またきます。 | ครับ จะระวังครับ แล้วจะมาอีกนะครับ | I will, thanks. I'll come again.

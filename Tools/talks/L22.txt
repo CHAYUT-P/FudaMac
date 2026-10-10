@@ -1,0 +1,100 @@
+@scene l22_casual
+title: リン、元気そう？
+en: Is Lin doing OK? (with a friend)
+th: หลินดูเป็นไงบ้าง (กับเพื่อน)
+glyph: 噂
+level: n4
+place: people
+lesson: 22
+register: casual
+pair: l22
+about: Tam is leaving to visit Lin in hospital and bumps into Yuki at the door. They guess, share what they've heard and give advice: 〜そう (looks), 〜そうだ／〜って (heard), らしい, みたい, かもしれない／かも, はず, べき and にちがいない. | ตัมกำลังจะออกไปเยี่ยมหลินที่โรงพยาบาล แล้วเจอยูกิที่หน้าประตู ทั้งคู่เดา เล่าเรื่องที่ได้ยินมา และให้คำแนะนำ ฝึก 〜そう (ดูเหมือน), 〜そうだ／〜って (ได้ยินมา), らしい, みたい, かもしれない／かも, はず, べき และ にちがいない
+--- ドアの前で | At the door | หน้าประตู
+ゆき*: あ、タム、おはよう。どこか行くの？ | あ、タム、おはよう。どこかいくの？ | อ้าว ตัม อรุณสวัสดิ์ จะไปไหนเหรอ | Oh, morning, Tam. Going somewhere?
+You: うん、リンのお見舞い。今から病院に行くんだ。 | うん、リンのおみまい。いまからびょういんにいくんだ。 | อืม ไปเยี่ยมหลิน กำลังจะไปโรงพยาบาล | Yeah, I'm visiting Lin. I'm off to the hospital now.
+g: n4.e.ndesu
+ゆき: そっか、リン、入院してるんだよね。具合はどう？ | そっか、リン、にゅういんしてるんだよね。ぐあいはどう？ | จริงด้วย หลินนอนโรงพยาบาลอยู่นี่นา อาการเป็นไงบ้าง | Right, Lin's in hospital, isn't she? How is she?
+You: 昨日電話したら、けっこう元気そうだったよ。 | きのうでんわしたら、けっこうげんきそうだったよ。 | เมื่อวานโทรไป ฟังดูสบายดีเลยนะ | When I called yesterday, she sounded pretty well.
+g: n4.e.souda1, n4.c.tara
+note: 元気そう = "looks/sounds well": your own impression. Don't mix it up with 元気だそう = "I heard she's well". | 元気そう = ดู/ฟังดูสบายดี เป็นความรู้สึกที่เราเห็นเอง อย่าสับสนกับ 元気だそう = ได้ยินมาว่าสบายดี
+ゆき: よかった。でも、病院のご飯って、あんまりおいしくないらしいね。 | よかった。でも、びょういんのごはんって、あんまりおいしくないらしいね。 | ดีจัง แต่ได้ยินว่าข้าวโรงพยาบาลไม่ค่อยอร่อยนะ | Good. But apparently hospital food isn't very tasty.
+g: n4.e.rashii
+note: らしい = "apparently / I hear" — something you know from what people say, not from your own experience. | らしい = ดูเหมือนว่า/ได้ยินมาว่า ใช้กับเรื่องที่รู้จากคนอื่นพูดกัน ไม่ใช่ประสบการณ์ของตัวเอง
+You: そうみたい。リンも「早くラーメンが食べたい」って言ってた。 | そうみたい。リンも「はやくラーメンがたべたい」っていってた。 | ท่าจะจริง หลินก็บอกว่า "อยากกินราเม็งเร็วๆ" | Seems so. Lin was saying "I want ramen, quick!"
+g: n4.e.youda
+note: みたい = "seems like", the casual form of ようだ. In speech みたい is far more common; ようです sounds formal. | みたい = ดูเหมือนว่า เป็นรูปกันเองของ ようだ เวลาพูดใช้ みたい บ่อยกว่ามาก ส่วน ようです ฟังเป็นทางการ
+ゆき*: あはは、リンらしいね。 | あはは、リンらしいね。 | ฮ่าๆ สมเป็นหลินเลย | Haha, that's so Lin.
+g: n4.e.rashii
+note: Person + らしい = "typical of them". リンらしい = "that's just like Lin". | ชื่อคน + らしい = สมเป็นคนนั้น リンらしい = สมเป็นหลินจริงๆ
+--- おみやげ | The gift | ของฝาก
+ゆき: その箱、何？おいしそう！ | そのはこ、なに？おいしそう！ | กล่องนั่นอะไรน่ะ ดูน่าอร่อยจัง | What's in the box? Looks delicious!
+g: n4.e.souda1
+You: ケーキ。駅前の店のだよ。今、すごく人気があるそうだよ。 | ケーキ。えきまえのみせのだよ。いま、すごくにんきがあるそうだよ。 | เค้ก ของร้านหน้าสถานี ได้ยินว่าตอนนี้ดังมากเลย | Cake, from the shop by the station. I heard it's really popular right now.
+g: n4.e.souda2
+note: Plain form + そうだ = "I heard that…". Among friends people often say 人気があるんだって instead. | รูปธรรมดา + そうだ = ได้ยินมาว่า… เพื่อนกันมักพูดแทนว่า 人気があるんだって
+ゆき: あ、あそこね！いつも人が並んでるもん。おいしいにちがいないよ。 | あ、あそこね！いつもひとがならんでるもん。おいしいにちがいないよ。 | อ๋อ ร้านนั้นเอง คนต่อคิวตลอดเลย ต้องอร่อยแน่ๆ | Oh, that place! There's always a queue. It must be good.
+g: n4.e.nitigainai
+note: にちがいない = "must be / I'm sure". It sounds a bit bookish, so in chat it's said for emphasis; 絶対おいしいよ is the everyday way. | にちがいない = ต้อง…แน่ๆ ฟังค่อนข้างเป็นภาษาเขียน เวลาคุยกับเพื่อนจะใช้เน้นความมั่นใจ ถ้าพูดธรรมดาจะใช้ 絶対おいしいよ
+You: でも、病院に食べ物って持っていってもいいのかな。 | でも、びょういんにたべものってもっていってもいいのかな。 | แต่เอาของกินเข้าโรงพยาบาลได้หรือเปล่านะ | But I wonder if you're allowed to take food into a hospital.
+g: n5.t.temoii, n4.e.kana
+ゆき*: うーん、だめな病院もあるかもしれないね。先に看護師さんに聞くべきだよ。 | うーん、だめなびょういんもあるかもしれないね。さきにかんごしさんにきくべきだよ。 | อืม บางโรงพยาบาลอาจจะไม่ได้นะ ควรถามพยาบาลก่อน | Hmm, some hospitals might not allow it. You should ask a nurse first.
+g: n4.e.kamoshirenai, n4.e.beki
+note: べき = "should" (strong advice). Fine between friends; to someone older say 〜たほうがいいと思います instead. 看護師 = nurse. | べき = ควรจะ เป็นคำแนะนำที่หนักแน่น ใช้กับเพื่อนได้ แต่กับผู้ใหญ่ควรพูดว่า 〜たほうがいいと思います แทน 看護師 = พยาบาล
+You: そうだね。そうする。 | そうだね。そうする。 | จริงด้วย จะทำแบบนั้น | You're right. I'll do that.
+ゆき: お見舞いの時間って、何時から？ | おみまいのじかんって、なんじから？ | เวลาเยี่ยมเริ่มกี่โมงเหรอ | What time do visiting hours start?
+You: 十時からのはず。 | じゅうじからのはず。 | น่าจะสิบโมง | Ten o'clock, I think.
+g: n4.e.hazu
+note: はず = "should be (as far as I know)", based on information you have. After a noun use の: 十時からのはず. | はず = น่าจะ… (ตามข้อมูลที่รู้มา) ถ้าต่อจากคำนามต้องใส่ の เช่น 十時からのはず
+ゆき*: え、もう九時半だよ。バス、行っちゃったかもよ。 | え、もうくじはんだよ。バス、いっちゃったかもよ。 | อ้าว นี่เก้าโมงครึ่งแล้วนะ รถบัสอาจจะไปแล้วก็ได้ | What, it's already half past nine. The bus might have gone.
+g: n4.e.kamoshirenai, n4.t.teshimau
+note: かも is the casual short form of かもしれない. Friends use it all the time. | かも เป็นรูปย่อแบบกันเองของ かもしれない เพื่อนกันใช้บ่อยมาก
+You: やばい！じゃ、行ってくるね。 | やばい！じゃ、いってくるね。 | แย่แล้ว งั้นไปก่อนนะ | Oh no! OK, I'm off.
+ゆき: いってらっしゃい。リンによろしくね！ | いってらっしゃい。リンによろしくね！ | ไปดีมาดีนะ ฝากสวัสดีหลินด้วย | See you. Say hi to Lin for me!
+
+@scene l22_polite
+title: お出かけですか
+en: Going out? (with the landlady)
+th: จะออกไปข้างนอกเหรอ (กับเจ้าของห้องเช่า)
+glyph: 噂
+level: n4
+place: people
+lesson: 22
+register: polite
+pair: l22
+role: 大家さん | Landlady | เจ้าของห้องเช่า
+about: On his way to the hospital, Tam meets his landlady in front of the apartment and tells her about his friend. Polite guessing and hearsay: 〜そうでした, 〜そうです, らしいです, ようです, かもしれません, はずです, べきです and にちがいありません. | ระหว่างจะไปโรงพยาบาล ตัมเจอเจ้าของห้องเช่าที่หน้าอพาร์ตเมนต์ เลยเล่าเรื่องเพื่อนให้ฟัง ฝึกการเดาและเล่าเรื่องที่ได้ยินมาแบบสุภาพ 〜そうでした, 〜そうです, らしいです, ようです, かもしれません, はずです, べきです และ にちがいありません
+--- アパートの前で | In front of the apartment | หน้าอพาร์ตเมนต์
+大家さん*: タムさん、おはようございます。お出かけですか。 | タムさん、おはようございます。おでかけですか。 | ตัม อรุณสวัสดิ์ จะออกไปข้างนอกเหรอ | Good morning, Tam. Going out?
+note: お出かけですか is a friendly greeting between neighbours. You don't have to say exactly where you're going. | お出かけですか เป็นคำทักทายระหว่างเพื่อนบ้าน ไม่จำเป็นต้องบอกละเอียดว่าจะไปไหน
+You: おはようございます。友達のお見舞いに行くところです。 | おはようございます。ともだちのおみまいにいくところです。 | อรุณสวัสดิ์ครับ กำลังจะไปเยี่ยมเพื่อนที่ป่วยครับ | Good morning. I'm just on my way to visit a friend in hospital.
+g: n4.e.tokoro
+大家さん: まあ、お友達が入院しているんですか。 | まあ、おともだちがにゅういんしているんですか。 | อุ๊ย เพื่อนนอนโรงพยาบาลอยู่เหรอ | Oh dear, is your friend in hospital?
+You: はい。でも、昨日電話で話したら、元気そうでした。 | はい。でも、きのうでんわではなしたら、げんきそうでした。 | ครับ แต่เมื่อวานคุยโทรศัพท์ ฟังดูสบายดีครับ | Yes. But when I spoke to her on the phone yesterday, she sounded well.
+g: n4.e.souda1, n4.c.tara
+note: Polite: 元気そうでした. With a friend: 元気そうだった. | แบบสุภาพพูดว่า 元気そうでした ถ้ากับเพื่อนพูดว่า 元気そうだった
+大家さん: それはよかったですね。 | それはよかったですね。 | ดีจังเลยนะ | That's good to hear.
+You: 来週には退院するそうです。 | らいしゅうにはたいいんするそうです。 | ได้ยินว่าอาทิตย์หน้าก็จะออกจากโรงพยาบาลแล้วครับ | I heard she'll leave hospital next week.
+g: n4.e.souda2
+note: Plain form + そうです = "I heard that…". This is the polite way to pass on news; with friends 〜んだって is more common. | รูปธรรมดา + そうです = ได้ยินมาว่า… เป็นวิธีเล่าข่าวแบบสุภาพ ถ้ากับเพื่อนมักใช้ 〜んだって
+大家さん: 病院の食事は、あまりおいしくないらしいですからね。早く帰りたいでしょう。 | びょういんのしょくじは、あまりおいしくないらしいですからね。はやくかえりたいでしょう。 | ได้ยินว่าอาหารโรงพยาบาลไม่ค่อยอร่อยนี่นะ คงอยากกลับบ้านเร็วๆ | Hospital food isn't very good, apparently. She must want to come home soon.
+g: n4.e.rashii, n5.e.deshou
+You: ええ。家のご飯が食べたいようです。 | ええ。いえのごはんがたべたいようです。 | ครับ ดูเหมือนเขาอยากกินข้าวที่บ้านครับ | Yes. She seems to be missing home cooking.
+g: n4.e.youda
+note: ようです = "seems", the polite and slightly formal partner of casual みたい. Use it when guessing from what you saw or heard. | ようです = ดูเหมือนว่า เป็นคู่แบบสุภาพและค่อนข้างทางการของ みたい ใช้เดาจากสิ่งที่เห็นหรือได้ยินมา
+--- おみやげ | The gift | ของฝาก
+大家さん: あら、そのきれいな箱は？ | あら、そのきれいなはこは？ | อ้าว กล่องสวยๆ นั่นอะไรเหรอ | Oh, what's that pretty box?
+You: ケーキです。駅前のお店で買いました。 | ケーキです。えきまえのおみせでかいました。 | เค้กครับ ซื้อจากร้านหน้าสถานีครับ | It's cake. I bought it at the shop by the station.
+大家さん*: ああ、あのお店。いつも人が並んでいますから、おいしいにちがいありませんね。 | ああ、あのおみせ。いつもひとがならんでいますから、おいしいにちがいありませんね。 | อ๋อ ร้านนั้น คนต่อแถวตลอดเลย ต้องอร่อยแน่ๆ | Ah, that shop. There's always a queue, so it must be delicious.
+g: n4.e.nitigainai
+note: にちがいありません is the polite form of にちがいない: "I'm sure that…". | にちがいありません เป็นรูปสุภาพของ にちがいない = แน่ใจว่าต้อง…
+You: でも、病院に食べ物を持っていってもいいでしょうか。 | でも、びょういんにたべものをもっていってもいいでしょうか。 | แต่เอาของกินเข้าโรงพยาบาลได้หรือเปล่าครับ | But is it all right to take food into a hospital?
+g: n5.t.temoii, n5.e.deshou
+大家さん*: そうですねえ。だめな病院もあるかもしれません。先に看護師さんに聞くべきですね。 | そうですねえ。だめなびょういんもあるかもしれません。さきにかんごしさんにきくべきですね。 | นั่นสิ บางโรงพยาบาลอาจจะไม่ได้นะ ควรถามพยาบาลก่อน | Hmm. Some hospitals might not allow it. You ought to ask a nurse first.
+g: n4.e.kamoshirenai, n4.e.beki
+note: An older person can give advice with べきですね. When you advise someone older, soften it: 〜たほうがいいかもしれません. | ผู้ใหญ่ให้คำแนะนำด้วย べきですね ได้ แต่ถ้าเราแนะนำผู้ใหญ่ ควรพูดให้นุ่มลงว่า 〜たほうがいいかもしれません
+You: そうですね。お見舞いの時間は十時からのはずですから、着いたら聞いてみます。 | そうですね。おみまいのじかんはじゅうじからのはずですから、ついたらきいてみます。 | จริงด้วยครับ เวลาเยี่ยมน่าจะเริ่มสิบโมง ไปถึงแล้วจะลองถามดูครับ | You're right. Visiting hours should start at ten, so I'll ask when I get there.
+g: n4.e.hazu, n4.t.temiru
+note: はずです = "should be, as far as I know". It sounds confident because it's based on information you have. | はずです = น่าจะ…ตามที่รู้มา ฟังมั่นใจเพราะมีข้อมูลรองรับ
+大家さん: お友達、早くよくなるといいですね。気をつけて、いってらっしゃい。 | おともだち、はやくよくなるといいですね。きをつけて、いってらっしゃい。 | ขอให้เพื่อนหายเร็วๆ นะ เดินทางปลอดภัย | I hope your friend gets better soon. Take care.
+g: n4.c.taraii
+You: ありがとうございます。いってきます。 | ありがとうございます。いってきます。 | ขอบคุณครับ ไปก่อนนะครับ | Thank you. I'll be off.

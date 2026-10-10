@@ -74,3 +74,89 @@ extension KanaData {
         }))
     }
 }
+
+// MARK: - Romaji → hiragana (for typed answers)
+
+extension Romaji {
+    /// Vowel a kana ends in ("か" → "a", "ゃ" → "a"), used to spell out ー.
+    static func vowel(of c: Character) -> Character? {
+        let h = Character(KanaData.toHiragana(String(c)))
+        if let y = smallY[h] { return y.first }
+        guard let r = base[h], let last = r.last, "aeiou".contains(last) else { return nil }
+        return last
+    }
+
+    private static let toKana: [String: String] = {
+        var t: [String: String] = [
+            "a": "あ", "i": "い", "u": "う", "e": "え", "o": "お",
+            "ka": "か", "ki": "き", "ku": "く", "ke": "け", "ko": "こ",
+            "ga": "が", "gi": "ぎ", "gu": "ぐ", "ge": "げ", "go": "ご",
+            "sa": "さ", "si": "し", "shi": "し", "su": "す", "se": "せ", "so": "そ",
+            "za": "ざ", "zi": "じ", "ji": "じ", "zu": "ず", "ze": "ぜ", "zo": "ぞ",
+            "ta": "た", "ti": "ち", "chi": "ち", "tu": "つ", "tsu": "つ", "te": "て", "to": "と",
+            "da": "だ", "di": "ぢ", "du": "づ", "de": "で", "do": "ど",
+            "na": "な", "ni": "に", "nu": "ぬ", "ne": "ね", "no": "の",
+            "ha": "は", "hi": "ひ", "hu": "ふ", "fu": "ふ", "he": "へ", "ho": "ほ",
+            "ba": "ば", "bi": "び", "bu": "ぶ", "be": "べ", "bo": "ぼ",
+            "pa": "ぱ", "pi": "ぴ", "pu": "ぷ", "pe": "ぺ", "po": "ぽ",
+            "ma": "ま", "mi": "み", "mu": "む", "me": "め", "mo": "も",
+            "ya": "や", "yu": "ゆ", "yo": "よ",
+            "ra": "ら", "ri": "り", "ru": "る", "re": "れ", "ro": "ろ",
+            "la": "ら", "li": "り", "lu": "る", "le": "れ", "lo": "ろ",
+            "wa": "わ", "wo": "を", "wi": "うぃ", "we": "うぇ",
+            "fa": "ふぁ", "fi": "ふぃ", "fe": "ふぇ", "fo": "ふぉ",
+            "va": "ゔぁ", "vi": "ゔぃ", "vu": "ゔ", "ve": "ゔぇ", "vo": "ゔぉ",
+            "ja": "じゃ", "ju": "じゅ", "je": "じぇ", "jo": "じょ",
+            "sha": "しゃ", "shu": "しゅ", "she": "しぇ", "sho": "しょ",
+            "cha": "ちゃ", "chu": "ちゅ", "che": "ちぇ", "cho": "ちょ",
+            "thi": "てぃ", "dhi": "でぃ", "tsa": "つぁ",
+            "xa": "ぁ", "xi": "ぃ", "xu": "ぅ", "xe": "ぇ", "xo": "ぉ", "xtu": "っ", "ltu": "っ",
+            "xya": "ゃ", "xyu": "ゅ", "xyo": "ょ", "lya": "ゃ", "lyu": "ゅ", "lyo": "ょ",
+        ]
+        // Contracted sounds: kya, nyu, ryo … plus the j / sh / ch spellings typed as jya, sya, tya, cya.
+        let rows: [(String, String)] = [("k", "き"), ("g", "ぎ"), ("n", "に"), ("h", "ひ"), ("b", "び"), ("p", "ぴ"),
+                                        ("m", "み"), ("r", "り"), ("s", "し"), ("z", "じ"), ("j", "じ"), ("t", "ち"), ("c", "ち"), ("d", "ぢ")]
+        for (c, k) in rows {
+            for (v, small) in [("a", "ゃ"), ("u", "ゅ"), ("o", "ょ")] { t[c + "y" + v] = k + small }
+        }
+        return t
+    }()
+
+    /// "koohii" → "こおひい", "konnichiwa" → "こんにちわ", "gakkou" → "がっこう". Non-romaji passes through.
+    /// `imeStyle`: "nn" is always ん, as on a Japanese keyboard ("gennin" → げんいん);
+    /// otherwise Hepburn ("konnichiwa" → こんにちわ).
+    static func toHiragana(_ input: String, imeStyle: Bool = false) -> String {
+        var s = input.lowercased().replacingOccurrences(of: "’", with: "'")
+        for (m, r) in [("ā", "aa"), ("ī", "ii"), ("ū", "uu"), ("ē", "ee"), ("ō", "ou"), ("ô", "ou"), ("â", "aa"), ("û", "uu")] {
+            s = s.replacingOccurrences(of: m, with: r)
+        }
+        let c = Array(s)
+        let vowels: Set<Character> = ["a", "i", "u", "e", "o"]
+        var out = ""
+        var i = 0
+        while i < c.count {
+            let ch = c[i]
+            let next: Character? = i + 1 < c.count ? c[i + 1] : nil
+            if ch == "-" || ch == "ー" { out += "ー"; i += 1; continue }
+            if ch == "n" {
+                if next == "'" { out += "ん"; i += 2; continue }
+                if next == "n" {
+                    let after: Character? = i + 2 < c.count ? c[i + 2] : nil
+                    if !imeStyle, let a = after, vowels.contains(a) || a == "y" { out += "ん"; i += 1 } else { out += "ん"; i += 2 }
+                    continue
+                }
+                if next == nil || !(vowels.contains(next!) || next == "y") { out += "ん"; i += 1; continue }
+            }
+            // Doubled consonant → っ (kk, tt, ss, pp …; "tch" as in matcha).
+            if let n = next, ch.isLetter, !vowels.contains(ch), ch != "n", n == ch || (ch == "t" && n == "c") {
+                out += "っ"; i += 1; continue
+            }
+            var matched = false
+            for len in [3, 2, 1] where i + len <= c.count {
+                if let k = toKana[String(c[i..<(i + len)])] { out += k; i += len; matched = true; break }
+            }
+            if !matched { out.append(ch); i += 1 }
+        }
+        return out
+    }
+}

@@ -1,0 +1,101 @@
+@scene l26_casual
+title: ゆきへのプレゼント
+en: A present for Yuki (with a friend)
+th: ของขวัญให้ยูกิ (กับเพื่อน)
+glyph: 贈
+level: n4
+place: shop
+lesson: 26
+register: casual
+pair: l26
+about: Choosing a birthday present for Yuki with Lin. Casual quoting with 〜って, 〜っていう for names, relative clauses, 〜かどうか and questions inside sentences. | เลือกของขวัญวันเกิดให้ยูกิกับหลิน ฝึกยกคำพูดแบบกันเองด้วย 〜って ใช้ 〜っていう บอกชื่อ ประโยคขยายคำนาม 〜かどうか และการซ้อนคำถามในประโยค
+--- カフェで | At the café | ที่ร้านกาแฟ
+リン*: タム、さっきからずっとスマホ見てるね。何見てるの？ | タム、さっきからずっとスマホみてるね。なにみてるの？ | ตัม จ้องมือถือมาตั้งนานแล้วนะ ดูอะไรอยู่ | Tam, you've been staring at your phone for ages. What are you looking at?
+g: n5.t.teiru
+You: 来週、ゆきの誕生日なんだ。でも、何をあげたらいいか、全然分からなくて。 | らいしゅう、ゆきのたんじょうびなんだ。でも、なにをあげたらいいか、ぜんぜんわからなくて。 | อาทิตย์หน้าวันเกิดยูกิน่ะ แต่ไม่รู้เลยว่าควรให้อะไรดี | Next week is Yuki's birthday. But I have no idea what to give her.
+g: n4.e.embedded, n4.c.taraii, n4.e.ndesu
+note: Question + か + 分からない = "I don't know what…". The question just sits inside the bigger sentence. | คำถาม + か + 分からない = "ไม่รู้ว่า…" เอาประโยคคำถามไปวางซ้อนในประโยคใหญ่ได้เลย
+リン: ゆきって、何が好きなの？ | ゆきって、なにがすきなの？ | ยูกิน่ะ ชอบอะไรเหรอ | What does Yuki like?
+g: n4.e.tte
+note: Nって is a casual topic marker, like は: "Yuki — what does she like?" | Nって ใช้แทน は ในภาษาพูด ประมาณ "ยูกิเนี่ย ชอบอะไร"
+You: 確か、コーヒーが大好きだって言ってた。 | たしか、コーヒーがだいすきだっていってた。 | ถ้าจำไม่ผิด เธอบอกว่าชอบกาแฟมาก | If I remember right, she said she loves coffee.
+g: n4.e.tte
+note: 〜って言ってた is the casual 〜と言っていた: "(she) said that…". | 〜って言ってた คือ 〜と言っていた แบบภาษาพูด แปลว่า "เขาบอกว่า…"
+リン*: じゃあ、カップは？駅前のデパートに、「モリノ」っていうカップのお店があるよ。 | じゃあ、カップは？えきまえのデパートに、「モリノ」っていうカップのおみせがあるよ。 | งั้นแก้วกาแฟล่ะ ที่ห้างหน้าสถานีมีร้านแก้วชื่อ "โมริโนะ" อยู่นะ | Then how about a cup? There's a cup shop called "Morino" in the department store by the station.
+g: n4.e.toiu, n4.e.tte
+note: 〜っていう is the casual 〜という: "a shop called …". | 〜っていう คือ 〜という แบบภาษาพูด แปลว่า "ร้านที่ชื่อว่า…"
+You: いいね。でも、ゆきがカップをもう持ってるかどうか、分からないなあ。 | いいね。でも、ゆきがカップをもうもってるかどうか、わからないなあ。 | ดีนะ แต่ไม่รู้ว่ายูกิมีแก้วอยู่แล้วหรือเปล่า | Nice. But I don't know whether she already has cups.
+g: n4.e.kadouka
+note: 〜かどうか = "whether or not". Use it for yes/no questions; with 何・どこ・だれ just use か. | 〜かどうか = "…หรือเปล่า" ใช้กับคำถามแบบใช่/ไม่ใช่ ถ้ามี 何・どこ・だれ ใช้แค่ か
+リン: 本人に聞いてみたら？ | ほんにんにきいてみたら？ | ลองถามเจ้าตัวดูไหมล่ะ | Why not ask her?
+g: n4.t.temiru, n4.c.taradou
+You: だめだよ。聞いたら、プレゼントだってすぐばれちゃう。 | だめだよ。きいたら、プレゼントだってすぐばれちゃう。 | ไม่ได้หรอก ถ้าถาม เดี๋ยวเธอก็รู้ทันทีว่าเป็นของขวัญ | No way. If I ask, she'll know right away it's a present.
+g: n4.e.tte, n4.t.teshimau
+note: ばれる = "to be found out" (casual). プレゼントだって = "that it's a present". | ばれる = "ถูกจับได้/ความแตก" (ภาษาพูด) プレゼントだって = "ว่าเป็นของขวัญ"
+リン: そっか。じゃあ、ゆきが毎朝飲んでるコーヒーの豆は？ | そっか。じゃあ、ゆきがまいあさのんでるコーヒーのまめは？ | งั้นเหรอ งั้นเมล็ดกาแฟที่ยูกิดื่มทุกเช้าล่ะ | I see. Then what about the coffee beans she drinks every morning?
+g: n4.e.relative
+note: ゆきが毎朝飲んでる sits right before コーヒー: "the coffee Yuki drinks every morning". No word for "that/which" is needed. | ゆきが毎朝飲んでる วางไว้หน้า コーヒー ได้เลย = "กาแฟที่ยูกิดื่มทุกเช้า" ไม่ต้องมีคำว่า "ที่"
+You: いいね！でも、どこの豆を飲んでるか、知らないんだよね。 | いいね！でも、どこのまめをのんでるか、しらないんだよね。 | ดีเลย! แต่ไม่รู้ว่าเธอดื่มเมล็ดกาแฟของที่ไหนน่ะสิ | Great idea! But I don't know where her beans are from.
+g: n4.e.embedded, n4.e.ndesu
+--- デパートで | At the department store | ที่ห้าง
+リン*: 見て、このカップ、かわいい。日本製だって。 | みて、このカップ、かわいい。にほんせいだって。 | ดูสิ แก้วใบนี้น่ารักจัง เขาว่าทำในญี่ปุ่นด้วย | Look, this cup is cute. It says it's made in Japan.
+g: n4.e.tte
+note: Sentence + だって = "they say / it says". Here Lin is reading the label. | ประโยค + だって = "เขาว่า…" ตรงนี้หลินอ่านจากป้ายสินค้า
+You: あ、ゆきが好きな色だ。値段は…三千円か。 | あ、ゆきがすきないろだ。ねだんは…さんぜんえんか。 | อ้อ เป็นสีที่ยูกิชอบเลย ราคา…สามพันเยนเหรอ | Oh, it's the color Yuki likes. The price is... three thousand yen, huh.
+g: n4.e.relative
+リン: ちょっと高いけど、一生懸命選んだプレゼントなら、きっと喜ぶよ。 | ちょっとたかいけど、いっしょうけんめいえらんだプレゼントなら、きっとよろこぶよ。 | แพงนิดนึง แต่ถ้าเป็นของขวัญที่ตั้งใจเลือก เธอต้องดีใจแน่ | It's a bit pricey, but if it's a present you chose so carefully, she'll love it.
+g: n4.e.relative, n4.c.nara
+You: そうだね。カードも書こうかな。「いつもありがとう」って。 | そうだね。カードもかこうかな。「いつもありがとう」って。 | จริงด้วย เขียนการ์ดด้วยดีกว่า ว่า "ขอบคุณสำหรับทุกอย่างนะ" | True. Maybe I'll write a card too — "Thanks for everything."
+g: n4.e.tte, n4.v.volitional, n4.e.kana
+リン*: いいじゃん。ゆき、絶対喜ぶって。 | いいじゃん。ゆき、ぜったいよろこぶって。 | ดีนี่ ยูกิดีใจแน่นอน เชื่อสิ | Nice. Yuki will definitely be happy, trust me.
+g: n4.e.tte
+note: Sentence-final って can also mean "I'm telling you": 絶対喜ぶって = "she'll love it, I'm telling you". | って ท้ายประโยคใช้ยืนยันได้ด้วย 絶対喜ぶって = "ดีใจแน่ เชื่อฉันสิ"
+You: でも、本当に気に入ってくれるかどうか、どきどきするなあ。 | でも、ほんとうにきにいってくれるかどうか、どきどきするなあ。 | แต่ไม่รู้ว่าเธอจะชอบจริงหรือเปล่า ใจเต้นตึกตักเลย | Still, I'm nervous about whether she'll really like it.
+g: n4.e.kadouka, n4.t.teageru
+
+@scene l26_polite
+title: プレゼントを探しています
+en: Looking for a present (polite)
+th: กำลังหาของขวัญอยู่ (สุภาพ)
+glyph: 贈
+level: n4
+place: shop
+lesson: 26
+register: polite
+pair: l26
+about: Asking a department-store clerk for help with a birthday present. 〜という for names, relative clauses, 〜かどうか and embedded questions in polite speech. | ขอให้พนักงานห้างช่วยเลือกของขวัญวันเกิด ฝึก 〜という บอกชื่อ ประโยคขยายคำนาม 〜かどうか และการซ้อนคำถามในประโยคแบบสุภาพ
+--- 売り場で | On the shop floor | ในแผนก
+店員*: いらっしゃいませ。何かお探しですか。 | いらっしゃいませ。なにかおさがしですか。 | ยินดีต้อนรับค่ะ กำลังหาอะไรอยู่หรือคะ | Welcome. Are you looking for something?
+g: n4.e.dareka
+You: はい。友達にあげる誕生日プレゼントを探しているんですが。 | はい。ともだちにあげるたんじょうびプレゼントをさがしているんですが。 | ครับ กำลังหาของขวัญวันเกิดที่จะให้เพื่อนอยู่ครับ | Yes. I'm looking for a birthday present to give a friend.
+g: n4.e.relative, n4.e.ndesu
+note: 友達にあげる modifies プレゼント: "a present (that I'll) give a friend". 〜んですが softly opens a request. | 友達にあげる ขยาย プレゼント = "ของขวัญที่จะให้เพื่อน" ส่วน 〜んですが เป็นการเกริ่นขอความช่วยเหลืออย่างนุ่มนวล
+店員*: どのような物がお好きか、ご存じですか。 | どのようなものがおすきか、ごぞんじですか。 | ทราบไหมคะว่าเพื่อนชอบของแบบไหน | Do you know what kind of things she likes?
+g: n4.e.embedded
+note: Staff say ご存じですか (respectful "do you know"). About yourself never say ご存じ: answer with 知っています or just tell them. | พนักงานพูด ご存じですか ("ทราบไหม" แบบยกย่อง) แต่เวลาพูดถึงตัวเองห้ามใช้ ご存じ ให้ตอบด้วย 知っています หรือเล่าไปเลยก็ได้
+You: コーヒーが大好きだと言っていました。 | コーヒーがだいすきだといっていました。 | เธอเคยบอกว่าชอบกาแฟมากครับ | She told me she loves coffee.
+note: With staff, use 〜と言っていました instead of the casual 〜って言ってた. | กับพนักงานใช้ 〜と言っていました แทน 〜って言ってた แบบภาษาพูด
+You: 友達に、このデパートに「モリノ」というお店があると聞いたんですが。 | ともだちに、このデパートに「モリノ」というおみせがあるときいたんですが。 | ได้ยินจากเพื่อนว่าในห้างนี้มีร้านชื่อ "โมริโนะ" ครับ | A friend told me there's a shop called "Morino" in this store.
+g: n4.e.toiu, n4.e.ndesu
+note: 「name」という + noun = "a … called (name)". The polite version of っていう. | 「ชื่อ」という + คำนาม = "…ที่ชื่อว่า…" เป็นรูปสุภาพของ っていう
+店員: はい、三階でございます。カップがとても人気のお店です。 | はい、さんがいでございます。カップがとてもにんきのおみせです。 | มีค่ะ อยู่ชั้นสามค่ะ เป็นร้านที่แก้วกาแฟขายดีมากค่ะ | Yes, it's on the third floor. Their cups are very popular.
+You: カップもいいんですが、友達がもう持っているかどうか、分からなくて…。 | カップもいいんですが、ともだちがもうもっているかどうか、わからなくて…。 | แก้วก็ดีครับ แต่ไม่รู้ว่าเพื่อนมีอยู่แล้วหรือเปล่า… | A cup sounds nice, but I don't know whether she already has some...
+g: n4.e.kadouka
+note: 〜かどうか分からない = "I don't know whether…". Trailing off with 〜て… sounds soft and asks for advice. | 〜かどうか分からない = "ไม่รู้ว่า…หรือเปล่า" การพูดค้างไว้ด้วย 〜て… ฟังนุ่มนวลและเป็นการขอคำแนะนำ
+店員*: それでしたら、こちらのコーヒー豆のセットはいかがでしょうか。 | それでしたら、こちらのコーヒーまめのセットはいかがでしょうか。 | ถ้าอย่างนั้น ชุดเมล็ดกาแฟนี้เป็นอย่างไรคะ | In that case, how about this coffee bean set?
+店員: 毎朝飲むコーヒーが、もっとおいしくなる豆ですよ。 | まいあさのむコーヒーが、もっとおいしくなるまめですよ。 | เป็นเมล็ดที่ทำให้กาแฟที่ดื่มทุกเช้าอร่อยขึ้นอีกค่ะ | They're beans that make your morning coffee even better.
+g: n4.e.relative
+--- レジで | At the register | ที่แคชเชียร์
+You: いいですね。これにします。どこの国の豆か、書いてありますか。 | いいですね。これにします。どこのくにのまめか、かいてありますか。 | ดีครับ เอาอันนี้ครับ มีเขียนไว้ไหมครับว่าเป็นเมล็ดจากประเทศไหน | Nice. I'll take this. Does it say which country the beans are from?
+g: n4.e.embedded, n4.t.tearu
+note: どこの国の豆か = "which country the beans are from". The question goes inside the sentence with か, and 書いてありますか asks whether it's written. | どこの国の豆か = "ว่าเป็นเมล็ดจากประเทศไหน" ซ้อนคำถามไว้ในประโยคด้วย か แล้วถามต่อว่า 書いてありますか (มีเขียนไว้ไหม)
+店員: はい、こちらに。ブラジル産の豆でございます。 | はい、こちらに。ブラジルさんのまめでございます。 | มีค่ะ ตรงนี้ค่ะ เป็นเมล็ดจากบราซิลค่ะ | Yes, right here. They're from Brazil.
+You: プレゼント用に包んでいただけますか。 | プレゼントようにつつんでいただけますか。 | ช่วยห่อแบบของขวัญให้หน่อยได้ไหมครับ | Could you gift-wrap it, please?
+g: n4.t.request
+店員*: かしこまりました。メッセージカードはお付けしますか。 | かしこまりました。メッセージカードはおつけしますか。 | รับทราบค่ะ จะรับการ์ดข้อความด้วยไหมคะ | Certainly. Would you like a message card with it?
+You: はい、お願いします。「いつもありがとう」と書きたいんです。 | はい、おねがいします。「いつもありがとう」とかきたいんです。 | ครับ ขอด้วยครับ อยากเขียนว่า "ขอบคุณสำหรับทุกอย่างนะ" ครับ | Yes, please. I want to write "Thanks for everything."
+g: n4.e.ndesu, n5.e.tai
+店員: すてきですね。お友達、きっと喜ばれると思いますよ。 | すてきですね。おともだち、きっとよろこばれるとおもいますよ。 | น่ารักจังเลยค่ะ เพื่อนต้องดีใจแน่ๆ ค่ะ | How lovely. I'm sure your friend will be delighted.
+note: 喜ばれる here is respectful (keigo) for 喜ぶ — staff talk about your friend with respect. | 喜ばれる ตรงนี้เป็นคำยกย่อง (敬語) ของ 喜ぶ พนักงานพูดถึงเพื่อนเราอย่างให้เกียรติ
+You: ありがとうございます。気に入ってくれるかどうか、楽しみです。 | ありがとうございます。きにいってくれるかどうか、たのしみです。 | ขอบคุณครับ ตื่นเต้นอยากรู้ว่าเธอจะชอบหรือเปล่าครับ | Thank you. I can't wait to see whether she likes it.
+g: n4.e.kadouka, n4.t.teageru

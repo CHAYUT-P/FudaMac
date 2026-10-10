@@ -58,7 +58,7 @@ struct TextbookBookView: View {
                 HStack(alignment: .top, spacing: 34) {
                     VStack(alignment: .leading, spacing: 18) {
                         VStack(alignment: .leading, spacing: 4) {
-                            TrackedLabel(text: "第\(lesson.numeral)課 · Lesson \(lesson.n) · \(lesson.level.title)")
+                            TrackedLabel(text: "第\(lesson.numeral)課 · Lesson \(lesson.n) · 第\(lesson.part.numeral)部 \(lesson.part.ja)")
                             MixedText(tb.titleJA, size: 36, weight: .bold)
                             Text(tb.titleTH).font(Typo.ui(17, .semibold)).foregroundStyle(Ink.soft)
                         }
@@ -293,6 +293,7 @@ struct GrammarSectionView: View {
             .padding(.bottom, 4)
             .overlay(alignment: .bottom) { Rectangle().fill(Ink.ink).frame(height: 2).offset(y: 8) }
             ForEach(Array(g.blocks.enumerated()), id: \.offset) { _, b in block(b) }
+            GrammarInConversation(keys: g.allKeys, pattern: g.titleJA)
         }
     }
 

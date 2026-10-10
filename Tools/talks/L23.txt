@@ -1,0 +1,113 @@
+@scene l23_casual
+title: 退院おめでとう！
+en: Welcome back, Lin! (with friends)
+th: ยินดีด้วยที่ออกจากโรงพยาบาล (กับเพื่อน)
+glyph: 機
+level: n4
+place: food
+lesson: 23
+register: casual
+pair: l23
+about: Dinner at Yuki's place to celebrate Lin leaving hospital. Yuki is grilling steak and John can't work the Japanese rice cooker. Potential forms, 開く／開ける and 焼く／焼ける, 〜方, 〜やすい／〜にくい, 〜すぎる, 〜さ, 〜がする, なかなか and ありえない. | กินข้าวที่ห้องยูกิฉลองที่หลินออกจากโรงพยาบาล ยูกิย่างสเต็กอยู่ ส่วนจอห์นใช้หม้อหุงข้าวญี่ปุ่นไม่เป็น ฝึกรูปสามารถ, 開く／開ける และ 焼く／焼ける, 〜方, 〜やすい／〜にくい, 〜すぎる, 〜さ, 〜がする, なかなか และ ありえない
+--- ゆきの部屋で | At Yuki's place | ที่ห้องยูกิ
+ゆき*: いらっしゃい！もうすぐステーキが焼けるから、座ってて。 | いらっしゃい！もうすぐステーキがやけるから、すわってて。 | มาแล้วเหรอ สเต็กใกล้สุกแล้ว นั่งรอก่อนนะ | Come in! The steak's almost done, so sit down.
+g: n4.e.jita
+note: 焼ける = "to get cooked" (intransitive, が). Its partner 焼く = "to cook something" (transitive, を): ステーキを焼く. | 焼ける = สุก (อกรรมกริยา ใช้ が) คู่ของมันคือ 焼く = ย่าง (สกรรมกริยา ใช้ を) เช่น ステーキを焼く
+You: うわ、いい匂いがする！ | うわ、いいにおいがする！ | ว้าว หอมจัง | Wow, something smells good!
+g: n4.e.gasuru
+note: 匂いがする = "there's a smell". Use がする for things you sense: 音がする (hear a sound), 味がする (taste). | 匂いがする = ได้กลิ่น ใช้ がする กับสิ่งที่รับรู้ได้ด้วยประสาทสัมผัส เช่น 音がする (ได้ยินเสียง) 味がする (มีรสชาติ)
+リン: 本当。病院のご飯は味が薄すぎたから、うれしい！ | ほんとう。びょういんのごはんはあじがうすすぎたから、うれしい！ | จริงด้วย ข้าวโรงพยาบาลจืดเกินไป เลยดีใจมาก | Really. Hospital food was way too bland, so I'm so happy!
+g: n4.e.sugiru
+note: 薄い → 薄すぎる = "too bland/weak". For い-adjectives drop い and add すぎる. | 薄い → 薄すぎる = จืดเกินไป คำคุณศัพท์ い ให้ตัด い แล้วเติม すぎる
+ゆき: リン、退院おめでとう。今日はたくさん食べてね。 | リン、たいいんおめでとう。きょうはたくさんたべてね。 | หลิน ยินดีด้วยที่ออกจากโรงพยาบาล วันนี้กินเยอะๆ นะ | Lin, congrats on getting out. Eat lots today.
+--- 炊飯器 | The rice cooker | หม้อหุงข้าว
+ジョン*: ねえ、これ、どうやって開けるの？なかなか開かないんだけど。 | ねえ、これ、どうやってあけるの？なかなかあかないんだけど。 | นี่ อันนี้เปิดยังไง เปิดไม่ออกสักที | Hey, how do you open this? It just won't open.
+g: n4.e.jita, n4.e.nakanaka
+note: 開ける = "open something" (I open it); 開く = "it opens". なかなか + negative = "just won't…, not easily". | 開ける = เปิด (เราเป็นคนเปิด) ส่วน 開く = เปิดออก (มันเปิดเอง) なかなか + ปฏิเสธ = …ไม่ออกสักที ไม่ง่ายเลย
+You: ああ、炊飯器ね。この横のボタンを押せば開くよ。 | ああ、すいはんきね。このよこのボタンをおせばあくよ。 | อ๋อ หม้อหุงข้าวน่ะ กดปุ่มข้างๆ นี่ก็เปิดแล้ว | Oh, the rice cooker. Press this button on the side and it opens.
+g: n4.e.jita, n4.c.ba
+note: 炊飯器 (すいはんき) = rice cooker. Every Japanese kitchen has one. | 炊飯器 (すいはんき) = หม้อหุงข้าว มีทุกครัวในญี่ปุ่น
+ジョン: …あ、開いた！でも、ボタンが多すぎて、使い方が全然分からない。 | …あ、あいた！でも、ボタンがおおすぎて、つかいかたがぜんぜんわからない。 | …อ้า เปิดแล้ว แต่ปุ่มเยอะเกินไป ไม่รู้วิธีใช้เลย | …Oh, it opened! But there are way too many buttons. I've no idea how to use it.
+g: n4.e.jita, n4.e.sugiru, n4.e.kata
+note: Verb stem + 方 = "way of doing": 使う → 使い方 (how to use). | ก้านกริยา + 方 = วิธี… เช่น 使う → 使い方 = วิธีใช้
+You: 字も小さくて、読みにくいよね。 | じもちいさくて、よみにくいよね。 | ตัวหนังสือก็เล็ก อ่านยากเนอะ | The writing's tiny too, so it's hard to read.
+g: n4.e.yasui
+ゆき*: タムは漢字が読めるからいいじゃん。 | タムはかんじがよめるからいいじゃん。 | ตัมอ่านคันจิออกนี่ ดีจะตาย | You can read kanji, Tam, so you're fine.
+g: n4.v.potential
+note: 読む → 読める = "can read". With the potential form the object usually takes が: 漢字が読める. | 読む → 読める = อ่านออก/อ่านได้ ในรูปสามารถ กรรมมักใช้ が เช่น 漢字が読める
+You: 少しだけね。でも、慣れれば使いやすいよ。 | すこしだけね。でも、なれればつかいやすいよ。 | นิดหน่อยเอง แต่ถ้าชินแล้วก็ใช้ง่ายนะ | Only a little. But once you get used to it, it's easy to use.
+g: n4.e.yasui, n4.c.ba
+--- いただきます | Let's eat | กินกันเถอะ
+ゆき: はい、できたよ。どうぞ！ | はい、できたよ。どうぞ！ | เอ้า เสร็จแล้ว เชิญเลย | Here, it's ready. Dig in!
+リン*: わあ、見て、この大きさ！ | わあ、みて、このおおきさ！ | ว้าว ดูขนาดสิ | Wow, look at the size of it!
+g: n4.e.sa
+note: 大きい → 大きさ = "size". Drop い and add さ to make a noun: 高さ (height), 長さ (length). | 大きい → 大きさ = ขนาด ตัด い แล้วเติม さ จะกลายเป็นคำนาม เช่น 高さ (ความสูง) 長さ (ความยาว)
+You: 柔らかくて、すごくおいしい！ゆき、料理上手だね。 | やわらかくて、すごくおいしい！ゆき、りょうりじょうずだね。 | นุ่มมาก อร่อยสุดๆ ยูกิทำอาหารเก่งจัง | It's so tender and delicious! You're a great cook, Yuki.
+ゆき: ありがとう。でも、ちょっと焼きすぎたかも。 | ありがとう。でも、ちょっとやきすぎたかも。 | ขอบใจ แต่อาจจะย่างนานไปหน่อยนะ | Thanks. But I might have overcooked it a bit.
+g: n4.e.sugiru, n4.e.kamoshirenai
+ジョン: 全然！これなら毎日でも食べられるよ。 | ぜんぜん！これならまいにちでもたべられるよ。 | ไม่เลย แบบนี้กินทุกวันยังได้ | Not at all! I could eat this every day.
+g: n4.v.potential, n4.c.nara
+リン: 病院でこんなステーキ、ありえないよね。 | びょういんでこんなステーキ、ありえないよね。 | ที่โรงพยาบาลไม่มีทางได้กินสเต็กแบบนี้หรอก | You'd never get a steak like this in hospital.
+g: n4.e.uru
+note: ありえない = "impossible / no way". It's the everyday face of 〜得る (あり得る = can happen), and young people say it all the time. | ありえない = เป็นไปไม่ได้/ไม่มีทาง มาจาก 〜得る (あり得る = เป็นไปได้) วัยรุ่นญี่ปุ่นพูดคำนี้บ่อยมาก
+You: リン、全部食べられる？ | リン、ぜんぶたべられる？ | หลิน กินหมดไหวไหม | Lin, can you eat all that?
+g: n4.v.potential
+note: 食べる → 食べられる = "can eat". Group 2 verbs: る → られる. | 食べる → 食べられる = กินได้ กริยากลุ่ม 2 เปลี่ยน る เป็น られる
+リン: もちろん！一週間ぶりのお肉だもん。 | もちろん！いっしゅうかんぶりのおにくだもん。 | แน่นอน ไม่ได้กินเนื้อมาอาทิตย์นึงแล้วนะ | Of course! It's my first meat in a week.
+g: n4.e.buri
+
+@scene l23_polite
+title: お母さんのハンバーグ
+en: Dinner at a friend's home (with a friend's mother)
+th: กินข้าวบ้านเพื่อน (กับแม่ของเพื่อน)
+glyph: 機
+level: n4
+place: food
+lesson: 23
+register: polite
+pair: l23
+role: ゆきのお母さん | Yuki's mother | แม่ของยูกิ
+about: Tam has dinner at Yuki's family home. He offers to help, fights with a new rice cooker, and praises the cooking. Polite potential forms, 開く／開ける, 〜方, 〜にくい, 〜すぎる, 〜さ, 〜がします, なかなか and ありえない. | ตัมไปกินข้าวเย็นที่บ้านครอบครัวของยูกิ อาสาช่วยงานครัว งงกับหม้อหุงข้าวใหม่ และชมฝีมือทำอาหาร ฝึกรูปสามารถ, 開く／開ける, 〜方, 〜にくい, 〜すぎる, 〜さ, 〜がします, なかなか และ ありえない แบบสุภาพ
+--- 台所で | In the kitchen | ในครัว
+You: お邪魔します。わあ、いい匂いがしますね。 | おじゃまします。わあ、いいにおいがしますね。 | ขออนุญาตรบกวนครับ ว้าว หอมจังเลยครับ | Excuse me for intruding. Wow, it smells wonderful.
+g: n4.e.gasuru
+note: お邪魔します = what you say when you enter someone's home. 匂いがします is the polite form of 匂いがする. | お邪魔します = พูดตอนเข้าบ้านคนอื่น (ขออนุญาตรบกวน) ส่วน 匂いがします เป็นรูปสุภาพของ 匂いがする
+ゆきのお母さん*: いらっしゃい。今、ハンバーグを焼いているところなんですよ。 | いらっしゃい。いま、ハンバーグをやいているところなんですよ。 | ยินดีต้อนรับจ้ะ ตอนนี้กำลังย่างแฮมเบิร์กอยู่เลย | Welcome. I'm just cooking some hamburg steaks.
+g: n4.e.jita, n4.e.tokoro
+You: 何かお手伝いできることはありますか。 | なにかおてつだいできることはありますか。 | มีอะไรให้ผมช่วยได้ไหมครับ | Is there anything I can help with?
+g: n4.v.potential
+note: できる is the potential form of する. お手伝いできること = "something I can help with": a polite, natural offer in someone's home. | できる คือรูปสามารถของ する お手伝いできること = สิ่งที่ช่วยได้ เป็นการอาสาช่วยที่สุภาพและเป็นธรรมชาติเวลาไปบ้านคนอื่น
+ゆきのお母さん: ありがとう。じゃあ、炊飯器を開けて、ご飯をお茶碗に入れてくれますか。 | ありがとう。じゃあ、すいはんきをあけて、ごはんをおちゃわんにいれてくれますか。 | ขอบใจจ้ะ งั้นช่วยเปิดหม้อหุงข้าว แล้วตักข้าวใส่ถ้วยให้หน่อยได้ไหม | Thank you. Then could you open the rice cooker and put the rice into the bowls?
+g: n4.e.jita
+You: はい。…あれ、すみません、なかなか開かないんですが。 | はい。…あれ、すみません、なかなかあかないんですが。 | ได้ครับ …เอ๊ะ ขอโทษครับ มันเปิดไม่ออกเลยครับ | Sure. …Huh, sorry, it won't open.
+g: n4.e.nakanaka, n4.e.jita
+note: 開かないんですが, ending in が, is a soft polite way to report a problem and ask for help without asking directly. | 開かないんですが ลงท้ายด้วย が เป็นวิธีบอกปัญหาอย่างสุภาพและขอความช่วยเหลือแบบอ้อมๆ
+ゆきのお母さん: 横のボタンを押すと開きますよ。 | よこのボタンをおすとあきますよ。 | กดปุ่มข้างๆ ก็จะเปิดจ้ะ | If you press the button on the side, it opens.
+g: n4.e.jita, n4.c.to
+You: あ、開きました。新しい炊飯器ですね。ボタンがたくさんあって、使い方が難しそうです。 | あ、あきました。あたらしいすいはんきですね。ボタンがたくさんあって、つかいかたがむずかしそうです。 | อ้า เปิดแล้วครับ หม้อหุงข้าวใหม่นะครับ ปุ่มเยอะ ดูวิธีใช้ยากจังครับ | Oh, it opened. It's a new rice cooker, isn't it? So many buttons. It looks hard to use.
+g: n4.e.jita, n4.e.kata, n4.e.souda1
+ゆきのお母さん*: 先月買ったんですけど、私も使いにくくて…。 | せんげつかったんですけど、わたしもつかいにくくて…。 | ซื้อมาเมื่อเดือนที่แล้ว แต่ฉันเองก็ใช้ยากเหมือนกัน… | I bought it last month, but I find it hard to use too…
+g: n4.e.yasui
+ゆきのお母さん: 説明書は字が小さすぎて、よく読めないんです。 | せつめいしょはじがちいさすぎて、よくよめないんです。 | คู่มือตัวหนังสือเล็กเกินไป อ่านไม่ค่อยออก | The writing in the manual is too small, so I can't really read it.
+g: n4.e.sugiru, n4.v.potential
+You: よかったら、後で一緒に読みましょうか。 | よかったら、あとでいっしょによみましょうか。 | ถ้าไม่ว่าอะไร เดี๋ยวผมช่วยอ่านด้วยกันไหมครับ | If you like, shall we read it together later?
+g: n5.v.invite
+--- 食事 | Dinner | มื้อเย็น
+ゆきのお母さん: さあ、できました。たくさん食べてくださいね。 | さあ、できました。たくさんたべてくださいね。 | เอาล่ะ เสร็จแล้ว กินเยอะๆ นะ | There, it's ready. Please eat as much as you like.
+You: いただきます。…とても柔らかくて、おいしいです！ | いただきます。…とてもやわらかくて、おいしいです！ | ขอทานนะครับ …นุ่มมาก อร่อยครับ | Thank you for the meal. …It's so tender and delicious!
+ゆきのお母さん*: よかった。ハンバーグの柔らかさは、焼き方で決まるんですよ。 | よかった。ハンバーグのやわらかさは、やきかたできまるんですよ。 | ดีจัง ความนุ่มของแฮมเบิร์กขึ้นอยู่กับวิธีย่างนะ | I'm glad. How tender a hamburg steak is depends on how you cook it.
+g: n4.e.sa, n4.e.kata
+note: 柔らかい → 柔らかさ (tenderness), 焼く → 焼き方 (the way of cooking). Two of this lesson's patterns in one line. | 柔らかい → 柔らかさ (ความนุ่ม) และ 焼く → 焼き方 (วิธีย่าง) ประโยคเดียวมีไวยากรณ์บทนี้สองแบบ
+You: そうなんですか。今度、作り方を教えていただけませんか。 | そうなんですか。こんど、つくりかたをおしえていただけませんか。 | อย่างนั้นเหรอครับ คราวหน้าช่วยสอนวิธีทำให้ผมได้ไหมครับ | Really? Could you teach me how to make it some time?
+g: n4.e.kata, n4.t.request
+note: To a friend's parent ask with 〜ていただけませんか. With a friend: 作り方、教えて！ | กับพ่อแม่ของเพื่อนให้ขอร้องด้วย 〜ていただけませんか ถ้ากับเพื่อนพูดแค่ 作り方、教えて！
+ゆきのお母さん: もちろん。でも、ゆきは料理をしないでしょう？ | もちろん。でも、ゆきはりょうりをしないでしょう？ | ได้สิ แต่ยูกิไม่ทำอาหารใช่ไหมล่ะ | Of course. But Yuki doesn't cook, does she?
+g: n5.e.deshou
+You: いいえ、この前、ステーキを焼いてくれましたよ。 | いいえ、このまえ、ステーキをやいてくれましたよ。 | ไม่หรอกครับ เมื่อวันก่อนเขาย่างสเต็กให้กินด้วยครับ | Not at all. She grilled steak for us the other day.
+g: n4.t.teageru, n4.e.jita
+ゆきのお母さん: まあ、あの子が？そんなこと、ありえないと思っていたわ。 | まあ、あのこが？そんなこと、ありえないとおもっていたわ。 | อุ๊ย ลูกคนนั้นน่ะเหรอ นึกว่าไม่มีทางเป็นไปได้ซะอีก | Goodness, her? I thought that could never happen.
+g: n4.e.uru
+note: ありえない = "impossible". わ at the end is a soft ending used mostly by older women. | ありえない = เป็นไปไม่ได้ ส่วน わ ท้ายประโยคเป็นคำลงท้ายนุ่มๆ ที่ผู้หญิงวัยผู้ใหญ่มักใช้
+You: 本当ですよ。なかなか上手でした。 | ほんとうですよ。なかなかじょうずでした。 | จริงๆ ครับ ทำได้ดีทีเดียวครับ | It's true. She was pretty good.
+g: n4.e.nakanaka
+note: なかなか + positive = "quite, pretty (better than expected)". Compare なかなか開かない above (= just won't open). | なかなか + ประโยคบอกเล่า = ทีเดียว/ใช้ได้เลย (ดีกว่าที่คิด) ต่างจาก なかなか開かない ข้างบนที่แปลว่า เปิดไม่ออกสักที

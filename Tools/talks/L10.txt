@@ -1,0 +1,93 @@
+@scene l10_casual
+title: パーティーで何する？
+en: What are you doing at the party? (with a friend)
+th: ปาร์ตี้จะแสดงอะไร (กับเพื่อน)
+glyph: 十
+level: n5
+place: people
+lesson: 10
+register: casual
+pair: l10
+about: After class, Lin asks what Tam will do at next month's class party, and she knows his secret. Friends use the dictionary form as everyday "I do / I'll do", and 〜こと(が)できる for "can". | หลังเลิกเรียน หลินถามตัมว่าจะแสดงอะไรในปาร์ตี้ของห้องเดือนหน้า แถมรู้ความลับของเขาด้วย เพื่อนกันใช้รูปพจนานุกรมเป็นรูปปกติ "ทำ / จะทำ" และใช้ 〜こと(が)できる บอกว่า "ทำได้"
+--- 授業のあと | After class | หลังเลิกเรียน
+リン: ねえ、タム。来月のパーティー、何する？ | ねえ、タム。らいげつのパーティー、なにする？ | นี่ ตัม ปาร์ตี้เดือนหน้าจะทำอะไร | Hey, Tam. What are you doing for next month's party?
+g: n5.v.jisho
+note: する is the dictionary form of します. Between friends the dictionary form is the normal "I do / I will do". | する คือรูปพจนานุกรมของ します เพื่อนกันใช้รูปพจนานุกรมเป็นรูปปกติ แปลว่า "ทำ / จะทำ"
+You: 僕？何もしない。見るだけ。 | ぼく？なにもしない。みるだけ。 | เรา? ไม่ทำอะไรหรอก แค่ดูเฉยๆ | Me? Nothing. I'll just watch.
+g: n5.v.jisho, n5.v.nai
+alt: 僕はいいよ。見てる。 | ぼくはいいよ。みてる。 | เราไม่เอาหรอก ดูอย่างเดียว | I'm good. I'll just watch.
+リン: だめだよ。先生、「みんな何かしてください」って。 | だめだよ。せんせい、「みんななにかしてください」って。 | ไม่ได้นะ ครูบอกว่า "ทุกคนต้องแสดงอะไรสักอย่าง" | No way. Sensei said, "Everyone, please do something."
+note: 〜って at the end means "(she) said…". It's the casual way to quote someone. | 〜って ท้ายประโยคแปลว่า "(เขา)บอกว่า…" เป็นวิธียกคำพูดคนอื่นแบบกันเอง
+You: でも、僕、何もできないよ。 | でも、ぼく、なにもできないよ。 | แต่เราทำอะไรไม่เป็นเลยนะ | But I can't do anything.
+g: n5.v.nai
+リン*: うそ。タム、ギター弾くことできるでしょ？ | うそ。タム、ギターひくことできるでしょ？ | โกหก ตัมเล่นกีตาร์ได้ไม่ใช่เหรอ | Come on. You can play the guitar, right?
+g: n5.e.kotogadekiru, n5.v.jisho
+note: Dictionary form + ことができる = "can do". In casual speech を and が are often dropped: ギター(を)弾くこと(が)できる. Later you'll learn the shorter 弾ける. | รูปพจนานุกรม + ことができる = "ทำ…ได้" พูดแบบกันเองมักตัด を และ が ออก เป็น ギター(を)弾くこと(が)できる ต่อไปจะได้เรียนรูปสั้น 弾ける
+You: えっ、なんで知ってるの？ | えっ、なんでしってるの？ | เอ๊ะ รู้ได้ไง | Huh? How do you know?
+alt: えっ、誰に聞いたの？ | えっ、だれにきいたの？ | เอ๊ะ ฟังมาจากใคร | Huh? Who told you?
+リン: ジョンが言ってたよ。すごく上手だって。 | ジョンがいってたよ。すごくじょうずだって。 | จอห์นบอกน่ะ ว่าเล่นเก่งมาก | John told me. He says you're really good.
+You: 上手じゃないよ…。それに、みんなの前はちょっと恥ずかしい。 | じょうずじゃないよ…。それに、みんなのまえはちょっとはずかしい。 | ไม่เก่งหรอก… แล้วต่อหน้าทุกคนก็อายนิดๆ | I'm not good… And in front of everyone, it's kind of embarrassing.
+--- 二人で | As a duo | ทำด้วยกันสองคน
+リン: じゃあ、二人でやらない？私、歌う。 | じゃあ、ふたりでやらない？わたし、うたう。 | งั้นทำด้วยกันสองคนไหม เราร้องเพลงเอง | Then why don't we do it together? I'll sing.
+g: n5.v.jisho, n5.v.nai
+note: やらない？ with a rising tone is a casual invitation, the friend version of やりませんか. 歌う on its own = "I'll sing". | やらない？ ขึ้นเสียงท้าย คือการชวนแบบกันเอง เทียบเท่า やりませんか แบบสุภาพ ส่วน 歌う คำเดียว = "เราจะร้องเอง"
+You: えっ、リン、日本語の歌、歌うことできるの？ | えっ、リン、にほんごのうた、うたうことできるの？ | เอ๊ะ หลินร้องเพลงญี่ปุ่นได้เหรอ | Wait, you can sing Japanese songs?
+g: n5.e.kotogadekiru, n5.v.jisho
+リン*: できるよ！カラオケでよく歌う。 | できるよ！カラオケでよくうたう。 | ได้สิ! ไปคาราโอเกะก็ร้องบ่อย | Sure I can! I sing at karaoke all the time.
+g: n5.e.kotogadekiru, n5.v.jisho
+note: To answer "can you?", できる alone is enough: できるよ！ = "Sure I can!" | ตอบคำถาม "ทำได้ไหม" ใช้ できる คำเดียวก็พอ できるよ！ = "ได้สิ!"
+You: いいね。何の歌にする？ | いいね。なんのうたにする？ | ดีเลย จะเอาเพลงอะไรดี | Nice. Which song should we do?
+g: n5.v.jisho
+リン: 古い歌がいいな。先生も知ってる歌。 | ふるいうたがいいな。せんせいもしってるうた。 | เพลงเก่าดีกว่า เพลงที่ครูก็รู้จัก | An old song would be good. One Sensei knows too.
+You: じゃあ、今晩、いい歌を探す。 | じゃあ、こんばん、いいうたをさがす。 | งั้นคืนนี้เราจะหาเพลงดีๆ ให้ | OK, I'll look for a good one tonight.
+g: n5.v.jisho
+リン: ありがとう。練習はいつする？ | ありがとう。れんしゅうはいつする？ | ขอบใจ แล้วจะซ้อมเมื่อไหร่ดี | Thanks. When shall we practise?
+g: n5.v.jisho
+You: 毎日、昼休みにちょっと練習する？ | まいにち、ひるやすみにちょっとれんしゅうする？ | ซ้อมทุกวันตอนพักเที่ยงสักหน่อยไหม | A bit every day at lunch break?
+g: n5.v.jisho
+note: A dictionary-form question with a rising tone can be a suggestion: 練習する？ = "shall we practise?" | ประโยคคำถามรูปพจนานุกรมที่ขึ้นเสียงท้ายใช้ชวนได้ 練習する？ = "ซ้อมกันไหม"
+リン*: うん！あ、まだ先生には言わないでね。 | うん！あ、まだせんせいにはいわないでね。 | โอเค! อ้อ อย่าเพิ่งบอกครูนะ | Yes! Oh, and don't tell Sensei yet.
+g: n5.t.naide, n5.v.nai
+You: わかった。ちょっと楽しみ！ | わかった。ちょっとたのしみ！ | โอเค ชักตื่นเต้นแล้วสิ! | Got it. I'm kind of looking forward to it!
+
+@scene l10_polite
+title: ギターを弾くことができます
+en: I can play the guitar (polite)
+th: ผมเล่นกีตาร์ได้ (สุภาพ)
+glyph: 十
+level: n5
+place: people
+lesson: 10
+register: polite
+pair: l10
+about: After class, Ms Yamada asks Tam about the party. Saying what you and others can do (〜ことができます), asking if something is possible (〜ことができますか), and staying modest about your own skills. | หลังเลิกเรียน ครูยามาดะถามตัมเรื่องปาร์ตี้ บอกว่าตัวเองและคนอื่นทำอะไรได้ (〜ことができます) ถามว่าทำสิ่งใดได้ไหม (〜ことができますか) และถ่อมตัวเรื่องความสามารถของตัวเอง
+--- 授業のあと | After class | หลังเลิกเรียน
+山田先生: タムさん、パーティーで何をしますか。 | タムさん、パーティーでなにをしますか。 | คุณตัม ในปาร์ตี้จะแสดงอะไรคะ | Tam, what will you do at the party?
+You: すみません、まだ決めていません。僕は何もできませんから…。 | すみません、まだきめていません。ぼくはなにもできませんから…。 | ขอโทษครับ ยังไม่ได้ตัดสินใจเลยครับ ผมทำอะไรไม่ค่อยเป็น… | Sorry, I haven't decided yet. I can't really do anything…
+山田先生*: そうですか。でも、タムさんはギターを弾くことができますね。リンさんに聞きましたよ。 | そうですか。でも、タムさんはギターをひくことができますね。リンさんにききましたよ。 | งั้นเหรอคะ แต่คุณตัมเล่นกีตาร์ได้นี่คะ ครูได้ยินมาจากคุณหลินค่ะ | Is that so? But you can play the guitar, can't you? Lin told me.
+g: n5.e.kotogadekiru, n5.v.jisho
+note: 弾く (dictionary form) + ことができます = "can play". This is the full, polite way to say what someone is able to do. | 弾く (รูปพจนานุกรม) + ことができます = "เล่น…ได้" เป็นรูปเต็มแบบสุภาพ ใช้บอกว่าใครสามารถทำอะไรได้
+You: はい、少しだけです。あまり上手じゃありません。 | はい、すこしだけです。あまりじょうずじゃありません。 | ครับ นิดหน่อยเองครับ ไม่ค่อยเก่งครับ | Yes, just a little. I'm not very good.
+note: Japanese people usually play down their own skills. 少しだけです is the modest, polite answer. | คนญี่ปุ่นมักถ่อมตัวเรื่องความสามารถของตัวเอง 少しだけです เป็นคำตอบที่สุภาพและถ่อมตัว
+山田先生: 大丈夫ですよ。ぜひ一曲お願いします。 | だいじょうぶですよ。ぜひいっきょくおねがいします。 | ไม่เป็นไรค่ะ ขอสักเพลงนะคะ | That's fine. Please play us a song.
+You: じゃあ、リンさんと一緒にやってもいいですか。リンさんは日本語の歌を歌うことができます。 | じゃあ、リンさんといっしょにやってもいいですか。リンさんはにほんごのうたをうたうことができます。 | ถ้างั้น ขอทำร่วมกับคุณหลินได้ไหมครับ คุณหลินร้องเพลงญี่ปุ่นได้ครับ | Then may I do it together with Lin? She can sing Japanese songs.
+g: n5.t.temoii, n5.e.kotogadekiru, n5.v.jisho
+山田先生: いいですね。何を歌いますか。 | いいですね。なにをうたいますか。 | ดีจังค่ะ จะร้องเพลงอะไรคะ | Lovely. What will you sing?
+You: それは、まだ秘密です。 | それは、まだひみつです。 | อันนั้น…ยังเป็นความลับครับ | That's… still a secret.
+note: Lin asked Tam not to tell Sensei yet. With a teacher you still say です even for a playful answer. | หลินขอไว้ว่าอย่าเพิ่งบอกครู แม้จะตอบแบบเล่นๆ กับครูก็ยังต้องลงท้ายด้วย です
+--- 練習 | Practice | การซ้อม
+You: 先生、昼休みに、この教室で練習することができますか。 | せんせい、ひるやすみに、このきょうしつでれんしゅうすることができますか。 | ครูครับ ตอนพักเที่ยงซ้อมในห้องนี้ได้ไหมครับ | Sensei, can we practise in this classroom at lunchtime?
+g: n5.e.kotogadekiru, n5.v.jisho
+note: 〜ことができますか asks whether something is possible (allowed by the rules); 〜てもいいですか asks for personal permission. Both work here. | 〜ことができますか ใช้ถามว่าทำได้หรือไม่ (ตามกฎ) ส่วน 〜てもいいですか เป็นการขออนุญาตโดยตรง ประโยคนี้ใช้ได้ทั้งสองแบบ
+山田先生*: ええ、できますよ。でも、隣の教室は授業がありますから、あまり大きな音を出さないでくださいね。 | ええ、できますよ。でも、となりのきょうしつはじゅぎょうがありますから、あまりおおきなおとをださないでくださいね。 | ได้ค่ะ แต่ห้องข้างๆ มีเรียนอยู่ อย่าเล่นเสียงดังเกินไปนะคะ | Yes, you can. But there's a class next door, so please don't make too much noise.
+g: n5.e.kotogadekiru, n5.t.naide, n5.v.nai
+You: はい、わかりました。パーティーで、みんなも一緒に歌うことができますか。 | はい、わかりました。パーティーで、みんなもいっしょにうたうことができますか。 | ครับ เข้าใจแล้วครับ ในปาร์ตี้ ให้ทุกคนร้องด้วยกันได้ไหมครับ | Understood. At the party, can everyone sing along too?
+g: n5.e.kotogadekiru, n5.v.jisho
+山田先生: もちろんです。みんな、きっと喜びますよ。 | もちろんです。みんな、きっとよろこびますよ。 | ได้แน่นอนค่ะ ทุกคนต้องชอบแน่ๆ ค่ะ | Of course. I'm sure everyone will love it.
+You: 先生も一緒に何かしませんか。 | せんせいもいっしょになにかしませんか。 | ครูมาร่วมแสดงด้วยกันไหมครับ | Sensei, would you like to do something with us?
+山田先生*: えっ、私ですか。…実は、私はピアノを弾くことができます。 | えっ、わたしですか。…じつは、わたしはピアノをひくことができます。 | เอ๊ะ ครูเหรอคะ …ความจริงครูเล่นเปียโนได้นะคะ | Huh, me? …Actually, I can play the piano.
+g: n5.e.kotogadekiru, n5.v.jisho
+You: 本当ですか！じゃあ、先生もぜひお願いします。 | ほんとうですか！じゃあ、せんせいもぜひおねがいします。 | จริงเหรอครับ! งั้นครูมาร่วมด้วยนะครับ | Really? Then please join us, Sensei!
+山田先生*: わかりました。じゃあ、私も毎日練習しなければなりませんね。 | わかりました。じゃあ、わたしもまいにちれんしゅうしなければなりませんね。 | ได้ค่ะ งั้นครูก็ต้องซ้อมทุกวันแล้วล่ะค่ะ | All right. Then I'll have to practise every day too.
+g: n5.t.must
+You: はい！僕たちも頑張ります。 | はい！ぼくたちもがんばります。 | ครับ! พวกผมก็จะพยายามครับ | Great! We'll do our best too.

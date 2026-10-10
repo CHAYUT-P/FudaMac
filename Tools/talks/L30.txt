@@ -1,0 +1,103 @@
+@scene l30_casual
+title: 挨拶の練習
+en: Rehearsing the speech (with a friend)
+th: ซ้อมกล่าวสุนทรพจน์ (กับเพื่อน)
+glyph: 卒
+level: n4
+place: people
+lesson: 30
+register: casual
+pair: l30
+about: Tam has been chosen to give the students' thank-you speech at graduation. In the evening he rehearses for Yuki next door. Start, finish and keep doing (〜はじめる・〜おわる・〜つづける), bursting out (〜出す), redoing (〜直す) and getting all the way through (〜切る・〜切れる). | ตัมได้รับเลือกให้กล่าวขอบคุณในพิธีจบการศึกษา ตอนเย็นเขาไปซ้อมให้ยูกิห้องข้างๆ ฟัง ฝึกเริ่ม จบ และทำต่อ (〜はじめる・〜おわる・〜つづける) อยู่ๆ ก็… (〜出す) ทำใหม่ (〜直す) และทำจนจบ (〜切る・〜切れる)
+--- 隣の部屋で | Next door | ห้องข้างๆ
+You: ゆき、今ちょっといい？卒業式の挨拶、聞いてほしいんだけど。 | ゆき、いまちょっといい？そつぎょうしきのあいさつ、きいてほしいんだけど。 | ยูกิ ว่างแป๊บนึงไหม อยากให้ช่วยฟังคำกล่าวในพิธีจบการศึกษาหน่อย | Yuki, got a minute? I'd like you to listen to my graduation speech.
+g: n4.t.tehoshii, n5.e.ga_kedo
+alt: ゆき、ちょっと挨拶の練習、付き合ってくれない？ | ゆき、ちょっとあいさつのれんしゅう、つきあってくれない？ | ยูกิ ช่วยมาฟังซ้อมกล่าวหน่อยได้ไหม | Yuki, could you help me practise my speech?
+ゆき: いいよ！もう書き終わったの？ | いいよ！もうかきおわったの？ | ได้สิ! เขียนเสร็จแล้วเหรอ | Sure! Have you finished writing it already?
+g: n4.e.hajimeru, n5.e.moumada
+note: Verb stem + 終わる = finish doing: 書き終わる = finish writing. Casual question: just add の？ | กริยาตัด ます + 終わる = ทำ…เสร็จ เช่น 書き終わる = เขียนเสร็จ ถามแบบกันเองแค่เติม の？ ท้ายประโยค
+You: うん。でも、先生に言われて、後ろの半分を書き直したんだ。 | うん。でも、せんせいにいわれて、うしろのはんぶんをかきなおしたんだ。 | อืม แต่ครูบอกให้แก้ เลยเขียนครึ่งหลังใหม่ | Yeah. But Sensei told me to, so I rewrote the second half.
+g: n4.e.naosu, n4.v.passive, n4.e.ndesu
+note: Verb stem + 直す = do it again (to fix it): 書き直す = rewrite, 読み直す = reread, やり直す = redo. | กริยาตัด ます + 直す = ทำใหม่ให้ถูก เช่น 書き直す = เขียนใหม่ 読み直す = อ่านใหม่ やり直す = ทำใหม่
+ゆき: そっか。じゃあ、本番だと思って読んでみて。 | そっか。じゃあ、ほんばんだとおもってよんでみて。 | งั้นเหรอ งั้นลองอ่านเหมือนเป็นวันจริงเลย | I see. OK, read it like it's the real thing.
+g: n4.t.temiru, n5.e.toomou
+You: 「皆さん、今日は…」あ、間違えた。最初から読み直していい？ | 「みなさん、きょうは…」あ、まちがえた。さいしょからよみなおしていい？ | "ทุกคน วันนี้…" อ๊ะ ผิด ขออ่านใหม่ตั้งแต่ต้นได้ไหม | "Everyone, today..." Oops, I messed up. Can I start again from the top?
+g: n4.e.naosu, n5.t.temoii
+ゆき*: いいけど、本番では止まらないで、そのまま読み続けてね。 | いいけど、ほんばんではとまらないで、そのままよみつづけてね。 | ได้ แต่วันจริงอย่าหยุดนะ อ่านต่อไปเลย | Sure, but on the day, don't stop. Just keep reading.
+g: n4.e.hajimeru, n4.t.naide
+note: Verb stem + 続ける = keep doing: 読み続ける = keep reading. 止まらないで、〜 = "without stopping, ...". | กริยาตัด ます + 続ける = ทำต่อไปเรื่อยๆ เช่น 読み続ける = อ่านต่อไป ส่วน 止まらないで、〜 = "โดยไม่หยุด…"
+--- 読み終わって | When he finishes | อ่านจบ
+ゆき: すごくいいじゃん！ちょっと泣きそうになった。 | すごくいいじゃん！ちょっとなきそうになった。 | ดีมากเลยนี่! เกือบร้องไห้แน่ะ | That's really good! I almost cried.
+g: n4.e.souda1
+You: ほんと？先生も「泣き出してもいい」って言ってた。 | ほんと？せんせいも「なきだしてもいい」っていってた。 | จริงเหรอ ครูก็บอกว่า "จะร้องไห้ออกมาก็ได้นะ" | Really? Sensei also said "it's OK to burst into tears".
+g: n4.e.dasu, n5.t.temoii, n4.e.tte
+ゆき*: でも、タムのほうが先に泣き出しそう。 | でも、タムのほうがさきになきだしそう。 | แต่ดูท่าตัมจะร้องไห้ออกมาก่อนนะ | But you look like you'll burst into tears first.
+g: n4.e.dasu, n4.e.souda1
+note: Verb stem + 出す = suddenly start: 泣き出す = burst into tears, 笑い出す = burst out laughing, 降り出す = start to rain. | กริยาตัด ます + 出す = อยู่ๆ ก็เริ่ม… เช่น 泣き出す = ร้องไห้ออกมา 笑い出す = หัวเราะออกมา 降り出す = ฝนเริ่มตก
+You: それが心配なんだよね。あと、三分で読み切れるかな。 | それがしんぱいなんだよね。あと、さんぷんでよみきれるかな。 | นั่นแหละที่กังวล แล้วก็จะอ่านจบในสามนาทีไหมนะ | That's what I'm worried about. And can I get through it in three minutes?
+g: n4.e.kiru, n4.e.kana, n4.e.ndesu
+note: 読み切れる = be able to read all the way to the end. 切る adds "completely", 切れる adds "can ... completely". | 読み切れる = อ่านได้จนจบ 切る เพิ่มความหมาย "จนหมด/จนสุด" ส่วน 切れる = "ทำ…ได้จนหมด"
+ゆき: 今、ちょうど三分だったよ。ちゃんと読み切れてた。 | いま、ちょうどさんぷんだったよ。ちゃんとよみきれてた。 | เมื่อกี้สามนาทีพอดีเลย อ่านจบทันพอดี | That was exactly three minutes. You got all the way through.
+g: n4.e.kiru
+--- もう一回 | One more time | อีกรอบ
+ゆき: でも、講堂は広いから、もっと大きい声で話したほうがいいかも。 | でも、こうどうはひろいから、もっとおおきいこえではなしたほうがいいかも。 | แต่หอประชุมกว้าง พูดเสียงดังกว่านี้น่าจะดีกว่านะ | But the hall is big, so you might want to speak louder.
+g: n5.e.hougaii, n4.e.kamoshirenai, n5.e.node
+You: 大きい声、苦手なんだよね。じゃあ、もう一回やり直していい？ | おおきいこえ、にがてなんだよね。じゃあ、もういっかいやりなおしていい？ | เสียงดังนี่ไม่ถนัดเลย งั้นขอทำใหม่อีกรอบได้ไหม | I'm bad at speaking loudly. OK, can I do it once more?
+g: n4.e.naosu, n5.t.temoii
+ゆき*: もちろん。話し終わったら、ちゃんと頭も下げてね。 | もちろん。はなしおわったら、ちゃんとあたまもさげてね。 | แน่นอน พูดจบแล้วอย่าลืมโค้งด้วยนะ | Of course. When you finish speaking, remember to bow, too.
+g: n4.e.hajimeru, n4.c.tara
+You: 了解。じゃあ、いくよ。「皆さん、今日は…」 | りょうかい。じゃあ、いくよ。「みなさん、きょうは…」 | รับทราบ งั้นเริ่มนะ "ทุกคน วันนี้…" | Got it. OK, here goes. "Everyone, today..."
+note: 了解 is a casual "roger, got it" between friends. To a teacher, say わかりました or 承知しました instead. | 了解 = "รับทราบ" แบบกันเองใช้กับเพื่อน ถ้าพูดกับครูให้ใช้ わかりました หรือ 承知しました แทน
+
+@scene l30_polite
+title: 挨拶の原稿を見てもらう
+en: Showing the speech draft to the teacher (polite)
+th: ให้ครูช่วยดูร่างคำกล่าว (สุภาพ)
+glyph: 卒
+level: n4
+place: people
+lesson: 30
+register: polite
+pair: l30
+about: After class Tam shows Ms Yamada the draft of his graduation thank-you speech. She suggests rewrites, checks the length and calms his nerves. 〜はじめる・〜おわる・〜つづける, 〜出す, 〜直す and 〜切れる in polite talk with a teacher. | หลังเลิกเรียนตัมเอาร่างคำกล่าวขอบคุณในพิธีจบการศึกษาไปให้ครูยามาดะดู ครูแนะนำให้แก้ เช็กความยาว และช่วยให้หายตื่นเต้น ฝึก 〜はじめる・〜おわる・〜つづける 〜出す 〜直す และ 〜切れる ในบทสนทนาสุภาพกับครู
+--- 放課後 | After class | หลังเลิกเรียน
+You: 先生、今よろしいですか。挨拶の原稿、書き終わりました。 | せんせい、いまよろしいですか。あいさつのげんこう、かきおわりました。 | ครูครับ ตอนนี้สะดวกไหมครับ ผมเขียนร่างคำกล่าวเสร็จแล้วครับ | Sensei, do you have a moment? I've finished writing my speech draft.
+g: n4.e.hajimeru
+note: よろしいですか is the polite いい？. With a friend: 今ちょっといい？ With a teacher: 今よろしいですか. | よろしいですか คือ いい？ แบบสุภาพ กับเพื่อนพูด 今ちょっといい？ กับครูพูด 今よろしいですか
+山田先生: もう書き終わったんですか。早いですね。見せてください。 | もうかきおわったんですか。はやいですね。みせてください。 | เขียนเสร็จแล้วเหรอคะ เร็วจัง ขอดูหน่อยค่ะ | You've finished already? That was quick. Let me see.
+g: n4.e.hajimeru, n4.e.ndesu
+You: 昨日の夜、書き始めたら、止まらなくなってしまって。 | きのうのよる、かきはじめたら、とまらなくなってしまって。 | เมื่อคืนพอเริ่มเขียนแล้วก็หยุดไม่ได้เลยครับ | Once I started writing last night, I just couldn't stop.
+g: n4.e.hajimeru, n4.c.tara, n4.t.teshimau
+note: Verb stem + 始める = start doing: 書き始める = start writing. | กริยาตัด ます + 始める = เริ่มทำ… เช่น 書き始める = เริ่มเขียน
+山田先生*: いいですね。でも、ここはちょっと変なので、書き直したほうがいいと思います。 | いいですね。でも、ここはちょっとへんなので、かきなおしたほうがいいとおもいます。 | ดีค่ะ แต่ตรงนี้แปลกๆ หน่อย ครูว่าเขียนใหม่ดีกว่านะคะ | It's good. But this part is a bit odd, so I think you should rewrite it.
+g: n4.e.naosu, n5.e.hougaii, n5.e.toomou, n5.e.node
+You: どこがおかしいでしょうか。 | どこがおかしいでしょうか。 | ตรงไหนแปลกเหรอครับ | Which part is wrong?
+g: n5.e.deshou
+note: 〜でしょうか is softer than 〜ですか. It's how you question a teacher's comment without sounding pushy. | 〜でしょうか นุ่มนวลกว่า 〜ですか เหมาะกับการถามครูโดยไม่ฟังดูเหมือนเถียง
+山田先生: 「教えてくれました」より、「教えてくださいました」のほうがいいですね。先生たちのことですから。 | 「おしえてくれました」より、「おしえてくださいました」のほうがいいですね。せんせいたちのことですから。 | ใช้ "教えてくださいました" ดีกว่า "教えてくれました" นะคะ เพราะพูดถึงครูทั้งหลาย | 教えてくださいました is better than 教えてくれました, since it's about the teachers.
+g: n5.p.yori, n4.t.teageru
+note: くださる is the respectful くれる. You'll learn this kind of keigo properly in lesson 32. | くださる คือ くれる แบบยกย่อง จะได้เรียนคำยกย่องแบบนี้อย่างละเอียดในบทที่ 32
+You: あ、そうですね。すぐ書き直します。 | あ、そうですね。すぐかきなおします。 | อ๋อ จริงด้วยครับ จะรีบเขียนใหม่ครับ | Ah, you're right. I'll rewrite it right away.
+g: n4.e.naosu
+--- 長さと本番 | Length and the big day | ความยาวและวันจริง
+山田先生*: それから、少し長いですね。三分で読み切れますか。 | それから、すこしながいですね。さんぷんでよみきれますか。 | แล้วก็ ยาวไปนิดนะคะ อ่านจบในสามนาทีไหวไหมคะ | Also, it's a little long. Can you get through it in three minutes?
+g: n4.e.kiru
+You: 昨日練習したら、四分かかってしまいました。 | きのうれんしゅうしたら、よんぷんかかってしまいました。 | เมื่อวานลองซ้อมแล้ว ใช้ไปสี่นาทีครับ | When I practised yesterday, it took four minutes.
+g: n4.c.tara, n4.t.teshimau
+山田先生: じゃあ、最後のところを短くしましょう。当日は講堂で、校長先生のあとに話してもらいます。 | じゃあ、さいごのところをみじかくしましょう。とうじつはこうどうで、こうちょうせんせいのあとにはなしてもらいます。 | งั้นตัดตอนท้ายให้สั้นลงนะคะ วันจริงจะให้พูดที่หอประชุม ต่อจากครูใหญ่ค่ะ | Then let's shorten the last part. On the day, you'll speak in the hall, after the principal.
+g: n5.e.suru, n4.t.teageru
+You: 講堂ですか…。実は、人の前で話すと、緊張して途中で止まってしまうんです。 | こうどうですか…。じつは、ひとのまえではなすと、きんちょうしてとちゅうでとまってしまうんです。 | หอประชุมเหรอครับ… ที่จริงพอพูดต่อหน้าคน ผมจะตื่นเต้นจนหยุดกลางคันครับ | The hall... Actually, when I speak in front of people, I get nervous and freeze halfway.
+g: n4.c.to, n4.t.teshimau, n4.e.ndesu
+山田先生*: 止まっても大丈夫。深呼吸して、また話し続ければいいんですよ。 | とまってもだいじょうぶ。しんこきゅうして、またはなしつづければいいんですよ。 | หยุดก็ไม่เป็นไรค่ะ หายใจลึกๆ แล้วพูดต่อก็พอ | It's fine if you stop. Just take a deep breath and keep going.
+g: n4.c.temo, n4.e.hajimeru, n4.c.taraii
+You: もし泣き出したら、どうすればいいですか。 | もしなきだしたら、どうすればいいですか。 | ถ้าร้องไห้ออกมา ควรทำยังไงดีครับ | What should I do if I burst into tears?
+g: n4.e.dasu, n4.c.tara, n4.c.taraii
+山田先生*: 泣き出してもいいんですよ。卒業式ですから。私も泣き出すかもしれません。 | なきだしてもいいんですよ。そつぎょうしきですから。わたしもなきだすかもしれません。 | ร้องไห้ออกมาก็ได้ค่ะ ก็พิธีจบการศึกษานี่นา ครูเองก็อาจจะร้องไห้เหมือนกัน | It's fine to burst into tears. It's a graduation. I might start crying myself.
+g: n4.e.dasu, n5.t.temoii, n4.e.kamoshirenai
+You: ありがとうございます。今夜、ゆきさんに聞いてもらって、練習します。 | ありがとうございます。こんや、ゆきさんにきいてもらって、れんしゅうします。 | ขอบคุณครับ คืนนี้จะให้ยูกิช่วยฟังแล้วซ้อมครับ | Thank you. Tonight I'll practise with Yuki listening.
+g: n4.t.teageru
+note: To the teacher, Yuki becomes ゆきさん. With Yuki herself, Tam just says ゆき. | เวลาพูดกับครู ตัมเรียกยูกิว่า ゆきさん แต่เวลาคุยกับยูกิเองจะเรียกแค่ ゆき
+山田先生: 書き直したら、明日もう一度見せてくださいね。 | かきなおしたら、あしたもういちどみせてくださいね。 | เขียนใหม่เสร็จแล้ว พรุ่งนี้เอามาให้ดูอีกทีนะคะ | Once you've rewritten it, show it to me again tomorrow.
+g: n4.e.naosu, n4.c.tara, n5.t.kudasai
+You: はい。よろしくお願いします。 | はい。よろしくおねがいします。 | ครับ รบกวนด้วยนะครับ | Yes. Thank you for your help.
+alt: はい、承知しました。 | はい、しょうちしました。 | ครับ รับทราบครับ | Yes, understood.

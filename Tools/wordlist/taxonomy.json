@@ -1,0 +1,656 @@
+[
+ {
+  "id": "food",
+  "glyph": "食",
+  "ja": "食べ物・飲み物",
+  "th": "อาหารและเครื่องดื่ม",
+  "en": "Food & drink",
+  "subs": [
+   {
+    "id": "food.dish",
+    "ja": "料理・食事",
+    "th": "อาหารและมื้ออาหาร",
+    "en": "Dishes & meals"
+   },
+   {
+    "id": "food.ingredient",
+    "ja": "食材",
+    "th": "วัตถุดิบ เนื้อ ผัก ผลไม้",
+    "en": "Ingredients"
+   },
+   {
+    "id": "food.seasoning",
+    "ja": "調味料",
+    "th": "เครื่องปรุง",
+    "en": "Seasonings"
+   },
+   {
+    "id": "food.drink",
+    "ja": "飲み物",
+    "th": "เครื่องดื่ม",
+    "en": "Drinks"
+   },
+   {
+    "id": "food.sweet",
+    "ja": "お菓子",
+    "th": "ขนม",
+    "en": "Sweets & snacks"
+   },
+   {
+    "id": "food.tableware",
+    "ja": "食器",
+    "th": "ภาชนะและอุปกรณ์การกิน",
+    "en": "Tableware"
+   },
+   {
+    "id": "food.taste",
+    "ja": "味",
+    "th": "รสชาติ",
+    "en": "Taste"
+   },
+   {
+    "id": "food.verb",
+    "ja": "食の動詞",
+    "th": "กริยาเรื่องกินและทำอาหาร",
+    "en": "Eating & cooking verbs"
+   },
+   {
+    "id": "food.eatout",
+    "ja": "外食",
+    "th": "ร้านอาหารและการกินนอกบ้าน",
+    "en": "Eating out"
+   }
+  ]
+ },
+ {
+  "id": "people",
+  "glyph": "人",
+  "ja": "人・家族",
+  "th": "คนและครอบครัว",
+  "en": "People & family",
+  "subs": [
+   {
+    "id": "people.family",
+    "ja": "家族",
+    "th": "ครอบครัว",
+    "en": "Family"
+   },
+   {
+    "id": "people.person",
+    "ja": "人",
+    "th": "คนทั่วไป",
+    "en": "People"
+   },
+   {
+    "id": "people.job",
+    "ja": "職業",
+    "th": "อาชีพ",
+    "en": "Jobs"
+   },
+   {
+    "id": "people.relation",
+    "ja": "付き合い",
+    "th": "ความสัมพันธ์",
+    "en": "Relationships & social verbs"
+   }
+  ]
+ },
+ {
+  "id": "body",
+  "glyph": "体",
+  "ja": "体・健康",
+  "th": "ร่างกายและสุขภาพ",
+  "en": "Body & health",
+  "subs": [
+   {
+    "id": "body.part",
+    "ja": "体の部分",
+    "th": "อวัยวะ",
+    "en": "Body parts"
+   },
+   {
+    "id": "body.illness",
+    "ja": "病気・けが",
+    "th": "ความเจ็บป่วย",
+    "en": "Illness & injury"
+   },
+   {
+    "id": "body.state",
+    "ja": "体の様子",
+    "th": "สภาพร่างกาย",
+    "en": "Body states & verbs"
+   }
+  ]
+ },
+ {
+  "id": "home",
+  "glyph": "家",
+  "ja": "家・生活",
+  "th": "บ้านและชีวิตประจำวัน",
+  "en": "Home & daily life",
+  "subs": [
+   {
+    "id": "home.house",
+    "ja": "家・部屋",
+    "th": "บ้านและห้อง",
+    "en": "House & rooms"
+   },
+   {
+    "id": "home.furniture",
+    "ja": "家具・家電",
+    "th": "เฟอร์นิเจอร์และเครื่องใช้ไฟฟ้า",
+    "en": "Furniture & appliances"
+   },
+   {
+    "id": "home.belonging",
+    "ja": "持ち物",
+    "th": "ของใช้ส่วนตัว",
+    "en": "Belongings"
+   },
+   {
+    "id": "home.routine",
+    "ja": "毎日の動作",
+    "th": "กิจวัตรประจำวัน",
+    "en": "Daily routine verbs"
+   }
+  ]
+ },
+ {
+  "id": "clothes",
+  "glyph": "服",
+  "ja": "服・色",
+  "th": "เสื้อผ้าและสี",
+  "en": "Clothes & colours",
+  "subs": [
+   {
+    "id": "clothes.wear",
+    "ja": "服・靴",
+    "th": "เสื้อผ้าและรองเท้า",
+    "en": "Clothes & shoes"
+   },
+   {
+    "id": "clothes.verb",
+    "ja": "着る動詞",
+    "th": "กริยาการแต่งตัว",
+    "en": "Wearing verbs"
+   },
+   {
+    "id": "clothes.color",
+    "ja": "色",
+    "th": "สี",
+    "en": "Colours"
+   }
+  ]
+ },
+ {
+  "id": "town",
+  "glyph": "町",
+  "ja": "町・場所",
+  "th": "เมืองและสถานที่",
+  "en": "Town & places",
+  "subs": [
+   {
+    "id": "town.building",
+    "ja": "建物・施設",
+    "th": "อาคารและสถานที่",
+    "en": "Buildings & facilities"
+   },
+   {
+    "id": "town.shop",
+    "ja": "店",
+    "th": "ร้านค้า",
+    "en": "Shops"
+   },
+   {
+    "id": "town.street",
+    "ja": "道",
+    "th": "ถนนและเส้นทาง",
+    "en": "Streets & directions"
+   },
+   {
+    "id": "town.position",
+    "ja": "位置",
+    "th": "ตำแหน่งและทิศ",
+    "en": "Position & direction"
+   },
+   {
+    "id": "town.region",
+    "ja": "国・地域",
+    "th": "ประเทศและภูมิภาค",
+    "en": "Countries & regions"
+   }
+  ]
+ },
+ {
+  "id": "transport",
+  "glyph": "車",
+  "ja": "交通・旅行",
+  "th": "การเดินทาง",
+  "en": "Transport & travel",
+  "subs": [
+   {
+    "id": "transport.vehicle",
+    "ja": "乗り物",
+    "th": "ยานพาหนะ",
+    "en": "Vehicles"
+   },
+   {
+    "id": "transport.travel",
+    "ja": "旅行",
+    "th": "การท่องเที่ยว",
+    "en": "Travel"
+   },
+   {
+    "id": "transport.verb",
+    "ja": "移動の動詞",
+    "th": "กริยาการเคลื่อนที่",
+    "en": "Coming & going verbs"
+   }
+  ]
+ },
+ {
+  "id": "school",
+  "glyph": "学",
+  "ja": "学校・勉強",
+  "th": "โรงเรียนและการเรียน",
+  "en": "School & study",
+  "subs": [
+   {
+    "id": "school.school",
+    "ja": "学校",
+    "th": "โรงเรียน",
+    "en": "School"
+   },
+   {
+    "id": "school.study",
+    "ja": "勉強",
+    "th": "การเรียน",
+    "en": "Studying"
+   },
+   {
+    "id": "school.language",
+    "ja": "言葉",
+    "th": "ภาษาและตัวอักษร",
+    "en": "Language & writing"
+   },
+   {
+    "id": "school.stationery",
+    "ja": "文房具",
+    "th": "เครื่องเขียนและหนังสือ",
+    "en": "Stationery & books"
+   },
+   {
+    "id": "school.verb",
+    "ja": "勉強の動詞",
+    "th": "กริยาการเรียน",
+    "en": "Study verbs"
+   }
+  ]
+ },
+ {
+  "id": "work",
+  "glyph": "仕",
+  "ja": "仕事・社会",
+  "th": "งานและสังคม",
+  "en": "Work & society",
+  "subs": [
+   {
+    "id": "work.work",
+    "ja": "仕事",
+    "th": "งาน",
+    "en": "Work"
+   },
+   {
+    "id": "work.company",
+    "ja": "会社",
+    "th": "บริษัท",
+    "en": "Company & office"
+   },
+   {
+    "id": "work.society",
+    "ja": "社会",
+    "th": "สังคม",
+    "en": "Society & rules"
+   },
+   {
+    "id": "work.verb",
+    "ja": "仕事の動詞",
+    "th": "กริยาเรื่องงาน",
+    "en": "Work verbs"
+   }
+  ]
+ },
+ {
+  "id": "time",
+  "glyph": "時",
+  "ja": "時間・暦",
+  "th": "เวลาและปฏิทิน",
+  "en": "Time & calendar",
+  "subs": [
+   {
+    "id": "time.clock",
+    "ja": "時間",
+    "th": "เวลาในแต่ละวัน",
+    "en": "Time of day"
+   },
+   {
+    "id": "time.day",
+    "ja": "日・曜日",
+    "th": "วันและวันที่",
+    "en": "Days & dates"
+   },
+   {
+    "id": "time.season",
+    "ja": "月・季節・年",
+    "th": "เดือน ฤดู ปี",
+    "en": "Months, seasons & years"
+   },
+   {
+    "id": "time.relative",
+    "ja": "前後",
+    "th": "ก่อน หลัง ตอนนี้",
+    "en": "Before, after & now"
+   }
+  ]
+ },
+ {
+  "id": "number",
+  "glyph": "数",
+  "ja": "数・量",
+  "th": "ตัวเลขและปริมาณ",
+  "en": "Numbers & amounts",
+  "subs": [
+   {
+    "id": "number.number",
+    "ja": "数字",
+    "th": "ตัวเลข",
+    "en": "Numbers"
+   },
+   {
+    "id": "number.counter",
+    "ja": "助数詞",
+    "th": "ลักษณนาม",
+    "en": "Counters"
+   },
+   {
+    "id": "number.amount",
+    "ja": "量",
+    "th": "ปริมาณ",
+    "en": "Amounts"
+   }
+  ]
+ },
+ {
+  "id": "money",
+  "glyph": "円",
+  "ja": "買い物・お金",
+  "th": "ซื้อของและเงิน",
+  "en": "Shopping & money",
+  "subs": [
+   {
+    "id": "money.shopping",
+    "ja": "買い物",
+    "th": "การซื้อของ",
+    "en": "Shopping"
+   },
+   {
+    "id": "money.money",
+    "ja": "お金",
+    "th": "เงิน",
+    "en": "Money"
+   }
+  ]
+ },
+ {
+  "id": "nature",
+  "glyph": "天",
+  "ja": "自然・天気",
+  "th": "ธรรมชาติและอากาศ",
+  "en": "Nature & weather",
+  "subs": [
+   {
+    "id": "nature.weather",
+    "ja": "天気",
+    "th": "อากาศ",
+    "en": "Weather"
+   },
+   {
+    "id": "nature.nature",
+    "ja": "自然",
+    "th": "ธรรมชาติ",
+    "en": "Nature"
+   },
+   {
+    "id": "nature.animal",
+    "ja": "動植物",
+    "th": "สัตว์และพืช",
+    "en": "Animals & plants"
+   }
+  ]
+ },
+ {
+  "id": "hobby",
+  "glyph": "遊",
+  "ja": "趣味・娯楽",
+  "th": "งานอดิเรก",
+  "en": "Hobbies & fun",
+  "subs": [
+   {
+    "id": "hobby.sport",
+    "ja": "スポーツ",
+    "th": "กีฬา",
+    "en": "Sports"
+   },
+   {
+    "id": "hobby.art",
+    "ja": "音楽・芸術",
+    "th": "ดนตรีและศิลปะ",
+    "en": "Music, film & art"
+   },
+   {
+    "id": "hobby.leisure",
+    "ja": "遊び",
+    "th": "การพักผ่อนและงานเลี้ยง",
+    "en": "Leisure & events"
+   },
+   {
+    "id": "hobby.media",
+    "ja": "機械・通信",
+    "th": "เทคโนโลยีและการสื่อสาร",
+    "en": "Tech & communication"
+   }
+  ]
+ },
+ {
+  "id": "heart",
+  "glyph": "心",
+  "ja": "気持ち・考え",
+  "th": "อารมณ์และความคิด",
+  "en": "Feelings & thinking",
+  "subs": [
+   {
+    "id": "heart.emotion",
+    "ja": "気持ち",
+    "th": "อารมณ์",
+    "en": "Emotions"
+   },
+   {
+    "id": "heart.character",
+    "ja": "性格",
+    "th": "นิสัย",
+    "en": "Character"
+   },
+   {
+    "id": "heart.mind",
+    "ja": "考える",
+    "th": "การคิดและความรู้",
+    "en": "Thinking & knowing"
+   }
+  ]
+ },
+ {
+  "id": "describe",
+  "glyph": "形",
+  "ja": "様子",
+  "th": "คำบอกลักษณะ",
+  "en": "Describing things",
+  "subs": [
+   {
+    "id": "describe.size",
+    "ja": "大きさ・形",
+    "th": "ขนาดและรูปทรง",
+    "en": "Size & shape"
+   },
+   {
+    "id": "describe.quality",
+    "ja": "良し悪し",
+    "th": "คุณภาพ",
+    "en": "Good, bad & quality"
+   },
+   {
+    "id": "describe.state",
+    "ja": "状態",
+    "th": "สภาพ",
+    "en": "States & conditions"
+   }
+  ]
+ },
+ {
+  "id": "action",
+  "glyph": "動",
+  "ja": "基本の動作",
+  "th": "กริยาพื้นฐาน",
+  "en": "Everyday verbs",
+  "subs": [
+   {
+    "id": "action.basic",
+    "ja": "ある・する",
+    "th": "กริยาพื้นฐานที่สุด",
+    "en": "Core verbs"
+   },
+   {
+    "id": "action.hand",
+    "ja": "手の動作",
+    "th": "การใช้มือ วาง ถือ",
+    "en": "Hands & objects"
+   },
+   {
+    "id": "action.move",
+    "ja": "体の動き",
+    "th": "การเคลื่อนไหวร่างกาย",
+    "en": "Body movement"
+   },
+   {
+    "id": "action.giving",
+    "ja": "あげる・もらう",
+    "th": "ให้และรับ",
+    "en": "Giving & receiving"
+   },
+   {
+    "id": "action.talk",
+    "ja": "言う・聞く",
+    "th": "การพูดและสื่อสาร",
+    "en": "Speaking & asking"
+   },
+   {
+    "id": "action.change",
+    "ja": "始まる・変わる",
+    "th": "เริ่ม จบ เปลี่ยน",
+    "en": "Start, end & change"
+   }
+  ]
+ },
+ {
+  "id": "basic",
+  "glyph": "基",
+  "ja": "基本の言葉",
+  "th": "คำพื้นฐาน",
+  "en": "Basic words",
+  "subs": [
+   {
+    "id": "basic.pointing",
+    "ja": "こそあど",
+    "th": "คำชี้และคำสรรพนาม",
+    "en": "Pronouns & pointing words"
+   },
+   {
+    "id": "basic.question",
+    "ja": "疑問詞",
+    "th": "คำถาม",
+    "en": "Question words"
+   },
+   {
+    "id": "basic.greeting",
+    "ja": "あいさつ",
+    "th": "คำทักทายและสำนวน",
+    "en": "Greetings & set phrases"
+   },
+   {
+    "id": "basic.affix",
+    "ja": "助詞・接尾語",
+    "th": "คำเติมหน้าหลัง",
+    "en": "Particles, prefixes & suffixes"
+   }
+  ]
+ },
+ {
+  "id": "adverb",
+  "glyph": "副",
+  "ja": "副詞・接続詞",
+  "th": "คำวิเศษณ์และคำเชื่อม",
+  "en": "Adverbs & connectors",
+  "subs": [
+   {
+    "id": "adverb.degree",
+    "ja": "程度",
+    "th": "ระดับ มาก น้อย",
+    "en": "Degree"
+   },
+   {
+    "id": "adverb.timing",
+    "ja": "時の副詞",
+    "th": "เวลาและความถี่",
+    "en": "Timing & frequency"
+   },
+   {
+    "id": "adverb.manner",
+    "ja": "様子・気持ち",
+    "th": "ท่าทางและความมั่นใจ",
+    "en": "Manner & certainty"
+   },
+   {
+    "id": "adverb.connector",
+    "ja": "接続詞",
+    "th": "คำเชื่อม",
+    "en": "Connectors"
+   }
+  ]
+ },
+ {
+  "id": "keigo",
+  "glyph": "敬",
+  "ja": "敬語",
+  "th": "ภาษาสุภาพ",
+  "en": "Keigo (polite speech)",
+  "subs": [
+   {
+    "id": "keigo.honorific",
+    "ja": "尊敬語",
+    "th": "คำยกย่อง",
+    "en": "Honorific"
+   },
+   {
+    "id": "keigo.humble",
+    "ja": "謙譲語",
+    "th": "คำถ่อมตัว",
+    "en": "Humble"
+   },
+   {
+    "id": "keigo.polite",
+    "ja": "丁寧語",
+    "th": "คำสุภาพ",
+    "en": "Polite forms"
+   }
+  ]
+ }
+]

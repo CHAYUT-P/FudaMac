@@ -1,0 +1,96 @@
+@scene l27_casual
+title: ついてない朝
+en: What a bad-luck morning (with friends)
+th: เช้าวันซวยๆ (กับเพื่อน)
+glyph: 雨
+level: n4
+place: people
+lesson: 27
+register: casual
+pair: l27
+about: At lunch Tam tells John and Lin about his terrible morning. The passive for things done to you (雨に降られた, 足を踏まれた), the causative (〜させる) and the causative-passive for being made to do something (読まされた). | ตอนพักเที่ยง ตัมเล่าเรื่องเช้าวันซวยๆ ให้จอห์นกับหลินฟัง ฝึกรูปถูกกระทำ (雨に降られた 足を踏まれた) รูปให้ทำ (〜させる) และรูปถูกบังคับให้ทำ (読まされた)
+--- 昼休み | Lunch break | พักกลางวัน
+ジョン*: タム、今朝どうしたの？びしょびしょだったじゃん。 | タム、けさどうしたの？びしょびしょだったじゃん。 | ตัม เมื่อเช้าเป็นอะไรไป เปียกโชกเลยนี่ | Tam, what happened this morning? You were soaking wet.
+g: n4.e.dewanaika
+You: もう、最悪だったよ。駅から歩いてたら、急に雨に降られてさ。 | もう、さいあくだったよ。えきからあるいてたら、きゅうにあめにふられてさ。 | โอ๊ย แย่สุดๆ เลย เดินจากสถานีอยู่ดีๆ ก็โดนฝนเทใส่ | Ugh, it was the worst. I was walking from the station and suddenly got caught in the rain.
+g: n4.v.passive, n4.c.tara
+note: 雨に降られる is the "suffering passive": something happened and it was bad for you — like Thai โดน. | 雨に降られる เป็น passive แบบ "โดน" ใช้เมื่อมีเรื่องไม่ดีเกิดกับเรา เหมือนภาษาไทย "โดนฝน"
+リン: え、傘、持ってなかったの？ | え、かさ、もってなかったの？ | อ้าว ไม่ได้พกร่มมาเหรอ | What, you didn't have an umbrella?
+You: 持ってたよ。でも、電車の中でだれかに持っていかれちゃった。 | もってたよ。でも、でんしゃのなかでだれかにもっていかれちゃった。 | พกมาสิ แต่โดนใครไม่รู้เอาไปบนรถไฟ | I did. But someone took it on the train.
+g: n4.v.passive, n4.e.dareka, n4.t.teshimau
+note: だれかに持っていかれた = "it got taken by someone". The person who did it is marked with に. | だれかに持っていかれた = "โดนใครสักคนเอาไป" คนที่ทำใช้คำช่วย に
+ジョン: うわ、ひどい。 | うわ、ひどい。 | โห แย่จัง | Ugh, that's awful.
+You: それに、満員電車で、隣の人に足を踏まれて、すごく痛かった。 | それに、まんいんでんしゃで、となりのひとにあしをふまれて、すごくいたかった。 | แถมบนรถไฟที่คนแน่นๆ ยังโดนคนข้างๆ เหยียบเท้า เจ็บมากเลย | And on the packed train, the person next to me stepped on my foot. It really hurt.
+g: n4.v.passive
+note: 足を踏まれた = "(my) foot was stepped on". Japanese says it this way round, from the victim's side. | 足を踏まれた = "โดนเหยียบเท้า" ภาษาญี่ปุ่นนิยมเล่าจากมุมของคนที่โดนกระทำ
+リン*: かわいそう…。それで、山田先生に叱られた？ | かわいそう…。それで、やまだせんせいにしかられた？ | น่าสงสารจัง… แล้วโดนครูยามาดะดุไหม | Poor you... So did Ms Yamada scold you?
+g: n4.v.passive
+You: うん、みんなの前で叱られた。それから、前に立って教科書を読まされたよ。 | うん、みんなのまえでしかられた。それから、まえにたってきょうかしょをよまされたよ。 | อืม โดนดุต่อหน้าทุกคน แล้วยังโดนให้ยืนอ่านหนังสือเรียนหน้าห้องอีก | Yeah, she scolded me in front of everyone. Then I was made to stand at the front and read the textbook.
+g: n4.v.passive, n4.v.causativepassive
+note: 読まされた = causative-passive: "I was made to read" — and I didn't want to. Godan verbs often use the short form 〜される (読ませられる → 読まされる). | 読まされた เป็นรูป 使役受身 "ถูกบังคับให้อ่าน" แสดงว่าไม่ได้อยากทำเอง กริยากลุ่ม 1 มักใช้รูปสั้น 〜される (読ませられる → 読まされる)
+ジョン*: 山田先生って、遅刻した学生に、いつも教科書を読ませるよね。 | やまだせんせいって、ちこくしたがくせいに、いつもきょうかしょをよませるよね。 | ครูยามาดะน่ะ ชอบให้นักเรียนที่มาสายอ่านหนังสือเรียนทุกทีเลยเนอะ | Ms Yamada always makes late students read from the textbook, huh.
+g: n4.v.causative, n4.e.relative
+note: 読ませる = causative, "make/let someone read". The person made to do it takes に: 学生に読ませる. | 読ませる เป็นรูป 使役 "ให้…อ่าน" คนที่ถูกให้ทำใช้ に เช่น 学生に読ませる
+--- 本当の理由 | The real reason | สาเหตุจริงๆ
+リン: でも、どうしてあんなに遅れたの？ | でも、どうしてあんなにおくれたの？ | แต่ทำไมมาสายขนาดนั้นล่ะ | But why were you so late?
+g: n4.e.ndesu
+You: 実は、出かける前に、大家さんにゴミ出しを手伝わされて…。 | じつは、でかけるまえに、おおやさんにゴミだしをてつだわされて…。 | จริงๆ แล้วก่อนออกจากบ้าน โดนเจ้าของห้องเช่าให้ช่วยขนขยะไปทิ้งน่ะ… | Actually, before I left, the landlady made me help take out the garbage...
+g: n4.v.causativepassive, n5.e.maeni
+note: 手伝わされる = "be made to help". It shows Tam had no choice. | 手伝わされる = "ถูกให้ช่วย" แสดงว่าตัมไม่มีทางเลือก
+ジョン: 朝から？大変だったね。 | あさから？たいへんだったね。 | ตั้งแต่เช้าเลยเหรอ ลำบากแย่เลยนะ | From first thing in the morning? Rough.
+リン*: じゃあ、お昼は私たちがおごるよ。好きな物、何でも食べさせてあげる。 | じゃあ、おひるはわたしたちがおごるよ。すきなもの、なんでもたべさせてあげる。 | งั้นมื้อเที่ยงพวกเราเลี้ยงเอง อยากกินอะไรก็กินได้เลย | Then lunch is on us. We'll let you eat whatever you like.
+g: n4.v.causative, n4.t.teageru, n4.e.daredemo
+note: 食べさせてあげる = "I'll let you eat". The causative can mean "let" as well as "make". | 食べさせてあげる = "จะให้กิน" รูป 使役 แปลได้ทั้ง "ให้ทำ (อนุญาต)" และ "บังคับให้ทำ"
+You: 本当？ありがとう！…あ、でも、財布を家に忘れてきちゃった。 | ほんとう？ありがとう！…あ、でも、さいふをいえにわすれてきちゃった。 | จริงเหรอ ขอบใจนะ! …อ้าว แต่ลืมกระเป๋าตังค์ไว้ที่บ้านอีก | Really? Thanks! ...Oh, but I left my wallet at home.
+g: n4.t.teshimau, n4.t.tekuru
+ジョン: えっ、財布まで？今日は本当についてないね。 | えっ、さいふまで？きょうはほんとうについてないね。 | เอ๊ะ กระเป๋าตังค์ด้วยเหรอ วันนี้ซวยจริงๆ เลยนะ | What, your wallet too? You're really out of luck today.
+note: ついてない = "unlucky, having a bad day" — very common casual phrase. | ついてない = "ดวงไม่ดี/ซวย" เป็นสำนวนที่ใช้บ่อยมากในภาษาพูด
+You: ごめんね、二人とも。朝から心配させちゃって。 | ごめんね、ふたりとも。あさからしんぱいさせちゃって。 | ขอโทษนะทั้งสองคน ทำให้เป็นห่วงตั้งแต่เช้าเลย | Sorry, you two. I've had you worried since this morning.
+g: n4.v.causative, n4.t.teshimau
+note: 心配させる = "make someone worry". 心配させちゃって is a casual way to apologise for it. | 心配させる = "ทำให้…เป็นห่วง" 心配させちゃって เป็นการขอโทษแบบกันเองที่ทำให้อีกฝ่ายห่วง
+
+@scene l27_polite
+title: 遅刻の理由
+en: Why I was late (polite)
+th: เหตุผลที่มาสาย (สุภาพ)
+glyph: 雨
+level: n4
+place: people
+lesson: 27
+register: polite
+pair: l27
+about: Tam explains to Ms Yamada why he arrived late and soaking wet. Polite passive (雨に降られてしまいました), causative-passive for things you were made to do, and 〜させていただけませんか to ask permission. | ตัมอธิบายให้ครูยามาดะฟังว่าทำไมมาสายแถมเปียกโชก ฝึกรูปถูกกระทำแบบสุภาพ รูปถูกบังคับให้ทำ และ 〜させていただけませんか เวลาขออนุญาต
+--- 教室で | In the classroom | ในห้องเรียน
+山田先生*: タムさん、二十分の遅刻ですよ。…あら、びしょびしょじゃないですか。 | タムさん、にじゅっぷんのちこくですよ。…あら、びしょびしょじゃないですか。 | คุณตัม สายไปยี่สิบนาทีนะคะ …อุ๊ย เปียกโชกเลยนี่คะ | Tam, you're twenty minutes late. ...Oh dear, you're soaking wet!
+g: n4.e.dewanaika
+You: 遅れてすみません。駅から歩いている時に、雨に降られてしまいました。 | おくれてすみません。えきからあるいているときに、あめにふられてしまいました。 | ขอโทษที่มาสายครับ ระหว่างเดินมาจากสถานีโดนฝนครับ | I'm sorry I'm late. I got caught in the rain walking from the station.
+g: n4.v.passive, n4.t.teshimau, n5.e.toki
+note: てしまいました adds "unfortunately": 降られてしまいました sounds regretful, which suits an apology to a teacher. | てしまいました เพิ่มความรู้สึก "โชคร้ายที่…" 降られてしまいました ฟังดูเสียดาย เหมาะกับการขอโทษครู
+山田先生: 傘は持っていなかったんですか。 | かさはもっていなかったんですか。 | ไม่ได้พกร่มมาหรือคะ | Didn't you have an umbrella?
+g: n4.e.ndesu
+You: 持っていたんですが、電車の中でだれかに持っていかれてしまったんです。 | もっていたんですが、でんしゃのなかでだれかにもっていかれてしまったんです。 | พกมาครับ แต่โดนใครไม่รู้เอาไปบนรถไฟครับ | I did, but someone took it on the train.
+g: n4.v.passive, n4.e.dareka, n4.e.ndesu
+山田先生: まあ、それは大変でしたね。 | まあ、それはたいへんでしたね。 | ตายจริง แย่เลยนะคะ | Oh, that's terrible.
+You: それに、混んでいる電車で、足を踏まれてしまって…。 | それに、こんでいるでんしゃで、あしをふまれてしまって…。 | แถมบนรถไฟที่คนแน่นยังโดนเหยียบเท้าอีกครับ… | And on the crowded train, someone stepped on my foot...
+g: n4.v.passive, n4.t.teshimau
+山田先生*: でも、いつもはもっと早く来ますよね。何かあったんですか。 | でも、いつもはもっとはやくきますよね。なにかあったんですか。 | แต่ปกติมาเร็วกว่านี้นี่คะ มีอะไรเกิดขึ้นหรือเปล่าคะ | But you usually come earlier. Did something happen?
+g: n4.e.dareka, n4.e.ndesu
+You: 実は、出かける前に、大家さんにゴミ置き場の掃除を手伝わされまして…。 | じつは、でかけるまえに、おおやさんにゴミおきばのそうじをてつだわされまして…。 | ที่จริงก่อนออกจากบ้าน โดนเจ้าของห้องเช่าให้ช่วยทำความสะอาดที่ทิ้งขยะครับ… | Actually, before I left, my landlady had me help clean the garbage area...
+g: n4.v.causativepassive, n5.e.maeni
+note: 手伝わされまして is the polite causative-passive. 〜まして is a softer, more formal 〜て, good for explaining to a teacher. | 手伝わされまして คือรูปถูกบังคับให้ทำแบบสุภาพ 〜まして เป็น 〜て ที่สุภาพและนุ่มนวลกว่า เหมาะกับการอธิบายเหตุผลให้ครูฟัง
+山田先生: そうでしたか。朝から大変でしたね。 | そうでしたか。あさからたいへんでしたね。 | อย่างนั้นเองหรือคะ ลำบากตั้งแต่เช้าเลยนะคะ | I see. What a rough morning.
+You: 先生、すみませんが、トイレで着替えさせていただけませんか。 | せんせい、すみませんが、トイレできがえさせていただけませんか。 | ครูครับ ขอโทษนะครับ ขออนุญาตไปเปลี่ยนเสื้อผ้าที่ห้องน้ำได้ไหมครับ | Ms Yamada, excuse me — could you let me change clothes in the restroom?
+g: n4.v.causative, n4.t.request
+note: 〜させていただけませんか = "would you let me…?" — the most polite way to ask permission. With a friend you'd just say 着替えてもいい？ | 〜させていただけませんか = "ขออนุญาต…ได้ไหม" เป็นวิธีขออนุญาตที่สุภาพที่สุด ถ้ากับเพื่อนพูดแค่ 着替えてもいい？
+山田先生: ええ、どうぞ。風邪をひかないように、早く着替えてください。 | ええ、どうぞ。かぜをひかないように、はやくきがえてください。 | ได้ค่ะ เชิญเลย รีบเปลี่ยนนะคะ จะได้ไม่เป็นหวัด | Yes, go ahead. Change quickly so you don't catch a cold.
+g: n4.e.youni1
+--- 戻ってから | After changing | หลังเปลี่ยนเสื้อ
+You: お待たせしました。 | おまたせしました。 | ขอโทษที่ให้รอครับ | Sorry to keep you waiting.
+note: お待たせしました comes from the causative 待たせる ("make someone wait"). It's a set polite phrase. | お待たせしました มาจากรูป 使役 待たせる (ทำให้…รอ) เป็นสำนวนสุภาพสำเร็จรูป
+山田先生*: では、タムさん。遅刻した学生には、教科書を一ページ読ませることにしています。前に来てください。 | では、タムさん。ちこくしたがくせいには、きょうかしょをいちページよませることにしています。まえにきてください。 | เอาล่ะค่ะ คุณตัม นักเรียนที่มาสาย ครูจะให้อ่านหนังสือเรียนหนึ่งหน้าเป็นกฎค่ะ เชิญออกมาข้างหน้าค่ะ | Now then, Tam. I have late students read one page of the textbook. Please come to the front.
+g: n4.v.causative, n4.e.kotonisuru
+note: 学生に読ませる = "have the students read". The teacher decides; the students do it. | 学生に読ませる = "ให้นักเรียนอ่าน" ครูเป็นคนสั่ง นักเรียนเป็นคนทำ
+You: はい…。では、読ませていただきます。 | はい…。では、よませていただきます。 | ครับ… ถ้าอย่างนั้น ขออนุญาตอ่านนะครับ | Yes... Then, allow me to read.
+g: n4.v.causative
+note: 読ませていただきます = humble "I will (humbly) read". You'll hear 〜させていただきます everywhere in polite Japan. | 読ませていただきます = "ขออนุญาตอ่าน" แบบถ่อมตัว ในญี่ปุ่นได้ยิน 〜させていただきます บ่อยมากในที่สุภาพ
+山田先生: はい、どうぞ。…ゆっくりで大丈夫ですよ。 | はい、どうぞ。…ゆっくりでだいじょうぶですよ。 | ค่ะ เชิญค่ะ …อ่านช้าๆ ก็ได้นะคะ | Go ahead. ...Take your time.

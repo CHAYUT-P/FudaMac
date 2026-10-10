@@ -1,0 +1,102 @@
+@scene l20_casual
+title: 京都、どうやって行く？
+en: How shall we get to Kyoto? (with a friend)
+th: ไปเกียวโตยังไงดี (กับเพื่อน)
+glyph: 京
+level: n4
+place: people
+lesson: 20
+register: casual
+pair: l20
+about: Tam and Lin plan a Golden Week trip to Kyoto: train or bus, where to stay, what if it rains. All four conditionals (〜たら, 〜ば, 〜と, 〜なら), plus 〜ても, いくら〜ても, 〜ばいい, 〜場合は, 〜としたら and 〜たら？ | ตัมกับหลินวางแผนเที่ยวเกียวโตช่วงโกลเด้นวีค จะไปรถไฟหรือรถบัส พักที่ไหน ถ้าฝนตกจะทำยังไง ฝึกประโยคเงื่อนไขทั้งสี่แบบ (〜たら 〜ば 〜と 〜なら) และ 〜ても いくら〜ても 〜ばいい 〜場合は 〜としたら 〜たら？
+--- 行き方 | Getting there | วิธีเดินทาง
+リン: ねえ、ゴールデンウィーク、本当に京都に行く？ | ねえ、ゴールデンウィーク、ほんとうにきょうとにいく？ | นี่ โกลเด้นวีคจะไปเกียวโตจริงๆ ใช่ไหม | Hey, are we really going to Kyoto for Golden Week?
+You: うん、行きたい！でも、どうやって行く？ | うん、いきたい！でも、どうやっていく？ | อืม อยากไป! แต่จะไปยังไงดี | Yeah, I want to! But how do we get there?
+リン*: 京都に行くなら、やっぱり新幹線が便利だよ。 | きょうとにいくなら、やっぱりしんかんせんがべんりだよ。 | ถ้าจะไปเกียวโต ชินคันเซ็นสะดวกสุดอยู่แล้ว | If we're going to Kyoto, the shinkansen is the easiest.
+g: n4.c.nara
+note: 〜なら = "if that's the plan…", used to give advice about what the other person said. | 〜なら = "ถ้าเป็นเรื่อง… / ถ้าจะ…ล่ะก็" ใช้ให้คำแนะนำต่อจากเรื่องที่อีกฝ่ายพูดขึ้นมา
+You: でも、新幹線は高いよね。夜行バスで行けば、半分ぐらいだよ。 | でも、しんかんせんはたかいよね。やこうバスでいけば、はんぶんぐらいだよ。 | แต่ชินคันเซ็นแพงนะ ถ้าไปรถบัสกลางคืน ราคาแค่ครึ่งเดียว | But the shinkansen is expensive. If we take the night bus, it's about half.
+g: n4.c.ba
+note: 〜ば = "if…": the condition for a result. 行く → 行けば. | 〜ば = "ถ้า…" บอกเงื่อนไขที่ทำให้เกิดผล 行く → 行けば
+リン: バスは八時間もかかるじゃん。いくら安くても、八時間はちょっと…。 | バスははちじかんもかかるじゃん。いくらやすくても、はちじかんはちょっと…。 | รถบัสตั้งแปดชั่วโมงเลยนะ ถึงจะถูกแค่ไหน แปดชั่วโมงก็ไม่ไหวอะ… | The bus takes eight hours, though. No matter how cheap it is, eight hours is a bit…
+g: n4.e.donnani, n4.c.temo
+note: いくら〜ても = "no matter how…". いAい → くても: 安い → 安くても. ちょっと… left unfinished = a soft "no". | いくら〜ても = "ไม่ว่าจะ…แค่ไหนก็ตาม" คำคุณศัพท์ い เปลี่ยนเป็น くても เช่น 安い → 安くても ส่วน ちょっと… ที่พูดไม่จบ คือการปฏิเสธแบบนุ่มๆ
+You: そっか。じゃ、早く予約すれば、新幹線も少し安くなるかな。 | そっか。じゃ、はやくよやくすれば、しんかんせんもすこしやすくなるかな。 | งั้นเหรอ ถ้าจองเร็วๆ ชินคันเซ็นจะถูกลงหน่อยไหมนะ | I see. Then maybe if we book early, the shinkansen will be a bit cheaper.
+g: n4.c.ba
+リン: うん、今週中に買えばいいね。 | うん、こんしゅうちゅうにかえばいいね。 | อืม ซื้อภายในอาทิตย์นี้ก็โอเคแล้ว | Yeah, we just need to buy them this week.
+g: n4.c.taraii
+note: 〜ばいい = "it'd be good to… / we just need to…". | 〜ばいい = "…ก็ได้แล้ว / …ก็พอ"
+--- 宿 | Where to stay | ที่พัก
+You: このサイト、日にちを入れると、空いてる旅館が出てくるよ。 | このサイト、ひにちをいれると、あいてるりょかんがでてくるよ。 | เว็บนี้ ใส่วันที่ลงไป ก็จะขึ้นเรียวกังที่ว่างมาให้เลย | On this site, when you enter the dates, the free inns come up.
+g: n4.c.to, n4.c.compare
+note: 〜と = "when A, B always happens", for machines, nature and habits. You can't use と for requests or plans; then use 〜たら. | 〜と = "พอ A ก็จะเกิด B เสมอ" ใช้กับเครื่องจักร ธรรมชาติ หรือนิสัย แต่ใช้ と กับการขอร้องหรือแผนการไม่ได้ ต้องใช้ 〜たら แทน
+リン*: あ、この旅館、いいじゃん！でも、一泊一万四千円か…。 | あ、このりょかん、いいじゃん！でも、いっぱくいちまんよんせんえんか…。 | อ๊ะ เรียวกังนี้ดีนี่! แต่คืนละหนึ่งหมื่นสี่พันเยนเหรอ… | Oh, this inn looks great! But 14,000 yen a night…
+You: 二人で泊まったら、一人七千円だよ。 | ふたりでとまったら、ひとりななせんえんだよ。 | ถ้าพักสองคน ก็ตกคนละเจ็ดพันเยน | If we stay together, it's 7,000 each.
+g: n4.c.tara
+note: 〜たら is the all-purpose "if / when". Vた + ら: 泊まった → 泊まったら. | 〜たら คือ "ถ้า / พอ…" ที่ใช้ได้แทบทุกสถานการณ์ Vた + ら เช่น 泊まった → 泊まったら
+リン: それならいいね。あ、でも、キャンセルする場合は、一週間前までに連絡しなきゃいけないって。 | それならいいね。あ、でも、キャンセルするばあいは、いっしゅうかんまえまでにれんらくしなきゃいけないって。 | ถ้างั้นก็โอเค อ๊ะ แต่ถ้าจะยกเลิก ต้องแจ้งก่อนหนึ่งอาทิตย์นะ | Then that's fine. Oh, but if we cancel, we have to tell them a week before.
+g: n4.e.baai, n4.c.nara
+note: 〜場合は = "in the case that…". It sounds like rules and notices, so Lin is reading it off the website. | 〜場合は = "ในกรณีที่…" ฟังเหมือนกฎหรือประกาศ หลินกำลังอ่านจากเว็บไซต์
+--- 雨だったら？ | What if it rains? | ถ้าฝนตกล่ะ
+リン: もし雨が降ったら、どうする？ | もしあめがふったら、どうする？ | ถ้าฝนตกจะทำยังไง | What if it rains?
+g: n4.c.tara
+You: 雨だったら、美術館とか、お寺の中を見て回ればいいじゃん。 | あめだったら、びじゅつかんとか、おてらのなかをみてまわればいいじゃん。 | ถ้าฝนตกก็ไปพิพิธภัณฑ์ศิลปะหรือดูข้างในวัดก็ได้นี่ | If it rains, we can just look around museums or inside temples.
+g: n4.c.tara, n4.c.taraii
+リン: そうだね。じゃ、もし一日しかないとしたら、どこに行きたい？ | そうだね。じゃ、もしいちにちしかないとしたら、どこにいきたい？ | จริงด้วย งั้นถ้าสมมติว่ามีแค่วันเดียว อยากไปที่ไหน | True. So, supposing we only had one day, where would you want to go?
+g: n4.e.toshitara
+note: もし〜としたら = "supposing…": imagining a situation that isn't real (yet). | もし〜としたら = "สมมติว่า…" ใช้จินตนาการถึงสถานการณ์ที่ยังไม่เกิดจริง
+You: うーん…やっぱり清水寺かな。 | うーん…やっぱりきよみずでらかな。 | อืม… ยังไงก็คงเป็นวัดคิโยมิสึ | Hmm… Kiyomizu-dera, I guess.
+リン*: 詳しいことは、山田先生に聞いてみたら？先生、京都出身だよ。 | くわしいことは、やまだせんせいにきいてみたら？せんせい、きょうとしゅっしんだよ。 | เรื่องรายละเอียด ลองถามครูยามาดะดูไหม ครูเป็นคนเกียวโตนะ | Why don't you ask Ms Yamada for the details? She's from Kyoto.
+g: n4.c.taradou
+note: 〜たら？ = "why don't you…?", a friendly suggestion (どう is dropped). To a teacher you'd never say this; it's advice from equal or above. | 〜たら？ = "ลอง…ดูไหม" เป็นคำแนะนำแบบเพื่อน (ตัด どう ออก) ห้ามพูดกับครู เพราะเป็นการแนะนำจากคนระดับเท่ากันหรือสูงกว่า
+You: いいね！授業が終わったら、一緒に聞きに行かない？ | いいね！じゅぎょうがおわったら、いっしょにききにいかない？ | ดีเลย! เลิกเรียนแล้วไปถามด้วยกันไหม | Good idea! Want to go ask her together after class?
+g: n4.c.tara
+リン: うん、行く行く！ | うん、いくいく！ | ไปๆ! | Yeah, definitely!
+
+@scene l20_polite
+title: 先生、京都のことで…
+en: Sensei, about Kyoto… (with the teacher)
+th: อาจารย์ครับ เรื่องเกียวโต… (กับครู)
+glyph: 京
+level: n4
+place: people
+lesson: 20
+register: polite
+pair: l20
+about: Tam and Lin ask Ms Yamada, who is from Kyoto, for travel advice. Asking politely with 〜たらいいでしょうか and 〜場合は, and understanding her suggestions with 〜なら, 〜たら, 〜と, 〜ば, どんなに〜ても and 〜たらどうですか. | ตัมกับหลินไปขอคำแนะนำเรื่องเที่ยวเกียวโตจากครูยามาดะซึ่งเป็นคนเกียวโต ฝึกถามสุภาพด้วย 〜たらいいでしょうか และ 〜場合は และเข้าใจคำแนะนำของครูที่ใช้ 〜なら 〜たら 〜と 〜ば どんなに〜ても และ 〜たらどうですか
+--- 行き方 | Getting there | วิธีเดินทาง
+You: 山田先生、今、少しよろしいでしょうか。京都のことで質問があるんですが…。 | やまだせんせい、いま、すこしよろしいでしょうか。きょうとのことでしつもんがあるんですが…。 | อาจารย์ยามาดะครับ ขอเวลาสักครู่ได้ไหมครับ มีคำถามเรื่องเกียวโตครับ… | Ms Yamada, do you have a moment? I have a question about Kyoto…
+山田先生: はい、どうぞ。京都に行くんですか。 | はい、どうぞ。きょうとにいくんですか。 | ได้จ้ะ จะไปเกียวโตเหรอ | Sure. Are you going to Kyoto?
+You: はい。ゴールデンウィークに、リンさんと二人で行きます。 | はい。ゴールデンウィークに、リンさんとふたりでいきます。 | ครับ ช่วงโกลเด้นวีคจะไปกับหลินสองคนครับ | Yes. Lin and I are going over Golden Week.
+山田先生*: いいですね。京都に行くなら、新幹線が便利ですよ。京都駅に着いたら、バスより地下鉄のほうが速いです。 | いいですね。きょうとにいくなら、しんかんせんがべんりですよ。きょうとえきについたら、バスよりちかてつのほうがはやいです。 | ดีจัง ถ้าจะไปเกียวโต ชินคันเซ็นสะดวกนะ พอถึงสถานีเกียวโตแล้ว รถไฟใต้ดินเร็วกว่ารถบัสจ้ะ | How nice. If you're going to Kyoto, the shinkansen is convenient. Once you arrive at Kyoto Station, the subway is faster than the bus.
+g: n4.c.nara, n4.c.tara, n4.c.compare
+note: Compare: 行くなら = advice for before you go (if that's your plan). 着いたら = after you arrive. なら looks ahead; たら means "once A has happened". | เทียบกัน: 行くなら = คำแนะนำก่อนไป (ถ้าวางแผนจะไป) ส่วน 着いたら = หลังจากไปถึงแล้ว なら มองล่วงหน้า ส่วน たら หมายถึง "พอ A เกิดขึ้นแล้ว"
+You: 新幹線は少し高いので…。安く行きたい場合は、どうしたらいいでしょうか。 | しんかんせんはすこしたかいので…。やすくいきたいばあいは、どうしたらいいでしょうか。 | ชินคันเซ็นค่อนข้างแพงครับ… ถ้าอยากไปแบบประหยัด ควรทำยังไงดีครับ | The shinkansen is a bit expensive… If we want to go cheaply, what should we do?
+g: n4.e.baai, n4.c.taraii
+note: どうしたらいいでしょうか = "what should I do?", the polite way to ask for advice. With a friend: どうしたらいい？ | どうしたらいいでしょうか = "ควรทำอย่างไรดี" เป็นวิธีขอคำแนะนำแบบสุภาพ ถ้ากับเพื่อนพูดว่า どうしたらいい？
+山田先生*: じゃあ、夜行バスに乗ったらどうですか。 | じゃあ、やこうバスにのったらどうですか。 | งั้นลองนั่งรถบัสกลางคืนดูไหม | Then how about taking the night bus?
+g: n4.c.taradou
+note: 〜たらどうですか = "how about…?". It's advice, so a teacher can say it to you, but don't say it to a teacher. | 〜たらどうですか = "ลอง…ดูไหม" เป็นการแนะนำ ครูพูดกับเราได้ แต่เราไม่ควรพูดกับครู
+You: でも、バスは八時間もかかりますよね。 | でも、バスははちじかんもかかりますよね。 | แต่รถบัสใช้เวลาตั้งแปดชั่วโมงใช่ไหมครับ | But the bus takes eight hours, doesn't it?
+山田先生: どんなに疲れても、一晩寝れば元気になりますよ。まだ若いんですから。 | どんなにつかれても、ひとばんねればげんきになりますよ。まだわかいんですから。 | ไม่ว่าจะเหนื่อยแค่ไหน นอนสักคืนก็หายแล้ว ยังหนุ่มยังสาวอยู่นี่นา | However tired you get, you'll be fine after a night's sleep. You're still young.
+g: n4.e.donnani, n4.c.temo, n4.c.ba
+--- 京都で | In Kyoto | ที่เกียวโต
+You: 清水寺は、朝早く行けば、人が少ないでしょうか。 | きよみずでらは、あさはやくいけば、ひとがすくないでしょうか。 | วัดคิโยมิสึ ถ้าไปเช้าๆ คนจะน้อยไหมครับ | At Kiyomizu-dera, if we go early in the morning, will there be fewer people?
+g: n4.c.ba
+山田先生: ええ、七時ごろ行くと、まだ静かですよ。 | ええ、しちじごろいくと、まだしずかですよ。 | ใช่ ไปประมาณเจ็ดโมงก็ยังเงียบอยู่เลย | Yes, if you go around seven, it's still quiet.
+g: n4.c.to
+リン: 先生、もし雨が降ったら、どこに行ったらいいですか。 | せんせい、もしあめがふったら、どこにいったらいいですか。 | อาจารย์คะ ถ้าฝนตก ควรไปที่ไหนดีคะ | Sensei, if it rains, where should we go?
+g: n4.c.tara, n4.c.taraii
+山田先生: 雨の場合は、美術館がいいですね。 | あめのばあいは、びじゅつかんがいいですね。 | ถ้าฝนตก ไปพิพิธภัณฑ์ศิลปะก็ดีนะ | If it rains, an art museum would be good.
+g: n4.e.baai
+You: 先生は京都のご出身ですよね。もし一日だけ京都にいるとしたら、どこに行ったらいいと思いますか。 | せんせいはきょうとのごしゅっしんですよね。もしいちにちだけきょうとにいるとしたら、どこにいったらいいとおもいますか。 | อาจารย์เป็นคนเกียวโตใช่ไหมครับ ถ้าสมมติว่าอยู่เกียวโตได้แค่วันเดียว ควรไปที่ไหนดีครับ | You're from Kyoto, aren't you? Supposing someone had just one day there, where do you think they should go?
+g: n4.e.toshitara
+note: ご出身 adds respect when asking about a teacher's hometown. もし〜としたら sets up an imagined situation. | ご出身 เพิ่มความสุภาพเวลาถามถึงบ้านเกิดของครู ส่วน もし〜としたら ใช้ตั้งสถานการณ์สมมติ
+山田先生*: そうですね…。私なら、夕方、鴨川のそばを歩きます。とてもきれいですよ。 | そうですね…。わたしなら、ゆうがた、かもがわのそばをあるきます。とてもきれいですよ。 | อืม… ถ้าเป็นครูนะ จะไปเดินริมแม่น้ำคาโมะตอนเย็น สวยมากเลย | Let me see… If it were me, I'd walk along the Kamo River in the evening. It's beautiful.
+g: n4.c.nara
+note: 私なら = "if it were me". N + なら picks up a topic: "as for…, if it's…". | 私なら = "ถ้าเป็นฉัน" คำนาม + なら ใช้ยกหัวข้อขึ้นมา หมายถึง "ถ้าเป็น…ล่ะก็"
+You: ありがとうございます。分からないことがあったら、また聞いてもいいですか。 | ありがとうございます。わからないことがあったら、またきいてもいいですか。 | ขอบคุณมากครับ ถ้ามีอะไรไม่เข้าใจ ขอถามอีกได้ไหมครับ | Thank you. If there's anything I don't understand, may I ask you again?
+g: n4.c.tara
+山田先生*: もちろん。何かあった場合は、いつでも連絡してくださいね。 | もちろん。なにかあったばあいは、いつでもれんらくしてくださいね。 | ได้แน่นอน ถ้ามีอะไรก็ติดต่อมาได้ตลอดนะ | Of course. If anything comes up, contact me anytime.
+g: n4.e.baai
+You: はい。お土産、買ってきますね！ | はい。おみやげ、かってきますね！ | ครับ จะซื้อของฝากมาฝากนะครับ! | Will do. I'll bring you back a souvenir!

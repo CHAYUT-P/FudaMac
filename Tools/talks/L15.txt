@@ -1,0 +1,95 @@
+@scene l15_casual
+title: 遅かったじゃん！
+en: You were late! (with a friend)
+th: มาสายนี่นา! (กับเพื่อน)
+glyph: 十五
+level: n4
+place: people
+lesson: 15
+register: casual
+pair: l15
+about: The Monday after the party: at break Lin asks why Tam was late, and where John is. Explaining with 〜んだ, guessing with 〜んじゃない？ and wondering with 〜かな. | วันจันทร์หลังปาร์ตี้ ช่วงพักหลินถามตัมว่าทำไมมาสาย แล้วจอห์นไปไหน ฝึกอธิบายด้วย 〜んだ เดาด้วย 〜んじゃない？ และสงสัยด้วย 〜かな
+--- 休み時間 | Break time | ช่วงพัก
+リン*: タム、今日遅かったじゃん。どうしたの？ | タム、きょうおそかったじゃん。どうしたの？ | ตัม วันนี้มาสายนี่ เป็นอะไรไป | Tam, you were late today! What happened?
+g: n4.e.njanai
+note: じゃん is a very casual じゃない: "…, you know!" Young people in Tokyo use it all the time. | じゃん คือ じゃない แบบกันเองมาก แปลประมาณ "…นี่นา/…เลยนะ" วัยรุ่นในโตเกียวใช้กันตลอด
+You: 寝坊したんだ。昨日のパーティーで、すごく疲れたから。 | ねぼうしたんだ。きのうのパーティーで、すごくつかれたから。 | ตื่นสายน่ะ เมื่อวานเหนื่อยมากจากปาร์ตี้ | I overslept. I was so tired from yesterday's party.
+g: n4.e.ndesu, n5.e.node
+note: 〜んだ is casual 〜んです: it explains the situation, "the thing is…". | 〜んだ คือ 〜んです แบบกันเอง ใช้อธิบายสถานการณ์ ประมาณ "คือว่า…"
+リン: えっ、何時に寝たの？ | えっ、なんじにねたの？ | เอ๊ะ นอนกี่โมง | Huh, what time did you go to bed?
+You: 三時。片付けが大変だったんだよ。 | さんじ。かたづけがたいへんだったんだよ。 | ตีสาม เก็บกวาดหนักมากเลย | Three. Cleaning up was a nightmare.
+g: n4.e.ndesu
+リン: 先生の顔、ちょっと怖かったよ。 | せんせいのかお、ちょっとこわかったよ。 | หน้าครูดูน่ากลัวนิดๆ นะ | Sensei's face looked a bit scary.
+You: うん、見た…。怒ってるかな。 | うん、みた…。おこってるかな。 | อืม เห็นแล้ว… ครูโกรธอยู่รึเปล่านะ | Yeah, I saw… I wonder if she's angry.
+g: n4.e.kana
+note: 〜かな = "I wonder…": asking yourself out loud. Very common in casual speech. | 〜かな = "…รึเปล่านะ/…น้า" เป็นการถามตัวเองออกมาดังๆ ใช้บ่อยมากในภาษาพูด
+リン*: 大丈夫じゃない？タムが遅れるのは珍しいから。 | だいじょうぶじゃない？タムがおくれるのはめずらしいから。 | น่าจะไม่เป็นไรมั้ง ปกติตัมไม่ค่อยมาสายนี่ | You're probably fine. It's rare for you to be late.
+g: n4.e.njanai, n5.e.noga, n5.e.node
+note: 大丈夫じゃない？ with a rising tone means "it's fine, isn't it?", not "it's not fine". The tone carries the meaning. | 大丈夫じゃない？ ขึ้นเสียงสูง แปลว่า "น่าจะไม่เป็นไรมั้ง" ไม่ได้แปลว่า "ไม่โอเค" น้ำเสียงเป็นตัวบอกความหมาย
+You: そうかな…。それより、ジョンは？まだ来てないね。 | そうかな…。それより、ジョンは？まだきてないね。 | งั้นเหรอ… ว่าแต่จอห์นล่ะ ยังไม่มาเลยนะ | You think so… More to the point, where's John? He's still not here.
+g: n4.e.kana
+--- ジョンはどこ？ | Where's John? | จอห์นอยู่ไหน
+リン: 本当だ。ジョンも昨日のパーティーにいたよね。 | ほんとうだ。ジョンもきのうのパーティーにいたよね。 | จริงด้วย จอห์นก็อยู่ปาร์ตี้เมื่อวานใช่มั้ย | You're right. John was at the party yesterday too, right?
+g: n5.p.yone
+You: うん。夜十二時ぐらいまでいたよ。 | うん。よるじゅうにじぐらいまでいたよ。 | อืม อยู่จนประมาณเที่ยงคืนเลย | Yeah. He stayed until about midnight.
+リン*: じゃあ、まだ寝てるんじゃない？ | じゃあ、まだねてるんじゃない？ | งั้นยังนอนอยู่รึเปล่า | Then isn't he still asleep?
+g: n4.e.njanai
+note: 〜んじゃない？ = "Isn't it that…? / Probably…": a soft guess. | 〜んじゃない？ = "…รึเปล่า/…มั้ง" เป็นการเดาแบบนุ่มๆ
+You: 多分ね。朝LINEしたけど、返事がないんだ。 | たぶんね。あさラインしたけど、へんじがないんだ。 | น่าจะใช่ เช้านี้ส่งไลน์ไปแล้วแต่ไม่ตอบเลย | Probably. I sent him a LINE this morning, but there's no reply.
+g: n4.e.ndesu, n5.e.ga_kedo
+note: 返事 = "reply". LINE is the chat app everyone in Japan uses, and LINEする = "send a LINE". | 返事 แปลว่า "คำตอบ/การตอบกลับ" LINE คือแอปแชตที่คนญี่ปุ่นใช้กันทุกคน LINEする แปลว่า "ส่งไลน์"
+リン: 電話は？ | でんわは？ | แล้วโทรไปรึยัง | Did you call him?
+You: 二回かけたけど、駄目だった。 | にかいかけたけど、だめだった。 | โทรไปสองรอบแล้ว ไม่ติดเลย | I called twice, but no luck.
+note: 駄目だった = "it was no good / it didn't work". A very handy casual phrase. | 駄目だった = "ไม่ได้ผล/ไม่ติด" เป็นวลีกันเองที่ใช้ได้บ่อยมาก
+リン: 先生、ジョンのことも聞くかな。 | せんせい、ジョンのこともきくかな。 | ครูจะถามเรื่องจอห์นด้วยมั้ยนะ | I wonder if Sensei will ask about John too.
+g: n4.e.kana
+You*: 聞くんじゃない？あ、先生が来た！ | きくんじゃない？あ、せんせいがきた！ | น่าจะถามแหละ อ๊ะ ครูมาแล้ว! | She probably will. Oh, here she comes!
+g: n4.e.njanai
+
+@scene l15_polite
+title: 遅くなってすみません
+en: Sorry I'm late (with your teacher)
+th: ขอโทษที่มาสาย (กับครู)
+glyph: 十五
+level: n4
+place: people
+lesson: 15
+register: polite
+pair: l15
+about: Tam walks into class twenty minutes late and explains himself to Ms Yamada, who also wonders where John is. Polite 〜んです, 〜んじゃないですか, and かな／かしら. | ตัมเดินเข้าห้องเรียนสายยี่สิบนาทีและอธิบายกับครูยามาดะ ซึ่งก็สงสัยว่าจอห์นอยู่ไหน ฝึก 〜んです 〜んじゃないですか และ かな／かしら แบบสุภาพ
+--- 教室のドアで | At the classroom door | ที่ประตูห้องเรียน
+You: 先生、すみません。遅くなりました。 | せんせい、すみません。おそくなりました。 | อาจารย์ครับ ขอโทษครับ ผมมาสายครับ | Sensei, I'm sorry. I'm late.
+note: 遅くなりました (literally "I became late") is the standard polite apology for being late. | 遅くなりました (แปลตรงตัวว่า "กลายเป็นช้า") เป็นประโยคขอโทษมาตรฐานเวลามาสายแบบสุภาพ
+山田先生*: 二十分の遅刻ですよ。どうしたんですか。 | にじゅっぷんのちこくですよ。どうしたんですか。 | สายไปยี่สิบนาทีนะคะ เกิดอะไรขึ้นคะ | You're twenty minutes late. What happened?
+g: n4.e.ndesu
+note: どうしたんですか = "What happened?" The ん asks for an explanation, so it sounds concerned, not just curious. | どうしたんですか = "เกิดอะไรขึ้นคะ" ん ทำให้เป็นการขอคำอธิบาย ฟังดูเป็นห่วง ไม่ใช่แค่อยากรู้
+You: 実は、寝坊したんです。 | じつは、ねぼうしたんです。 | ที่จริงคือผมตื่นสายครับ | The truth is, I overslept.
+g: n4.e.ndesu
+note: 実は〜んです = "Actually, the thing is…": the natural way to confess or explain to a teacher. | 実は〜んです = "ที่จริงคือ…" เป็นวิธีที่เป็นธรรมชาติในการสารภาพหรืออธิบายเหตุผลกับครู
+You: 昨日、うちでパーティーがあったんです。 | きのう、うちでパーティーがあったんです。 | เมื่อวานมีปาร์ตี้ที่ห้องผมครับ | There was a party at my place yesterday.
+g: n4.e.ndesu
+山田先生: パーティーですか。タムさんが遅れるのは珍しいですね。 | パーティーですか。タムさんがおくれるのはめずらしいですね。 | ปาร์ตี้เหรอคะ ปกติตัมไม่ค่อยมาสายเลยนะคะ | A party? It's unusual for you to be late, Tam.
+g: n5.e.noga
+You: 本当にすみません。次は気をつけます。 | ほんとうにすみません。つぎはきをつけます。 | ขอโทษจริงๆ ครับ คราวหน้าจะระวังครับ | I'm really sorry. I'll be careful next time.
+山田先生*: はい。じゃあ、あの空いている席に座ってください。 | はい。じゃあ、あのあいているせきにすわってください。 | ค่ะ งั้นไปนั่งที่ว่างตรงนั้นนะคะ | All right. Please sit in that empty seat.
+note: 空いている = "is free / empty" (空く + ている for a state). | 空いている = "ว่างอยู่" (空く + ている บอกสภาพ)
+--- ジョンさんは？ | And John? | แล้วจอห์นล่ะ
+山田先生*: ところで、ジョンさんもパーティーに来ていたんじゃないですか。 | ところで、ジョンさんもパーティーにきていたんじゃないですか。 | ว่าแต่ จอห์นก็ไปปาร์ตี้ด้วยไม่ใช่เหรอคะ | By the way, wasn't John at the party too?
+g: n4.e.njanai
+note: 〜んじゃないですか = polite "wasn't it that…?": a guess the speaker is fairly sure of. | 〜んじゃないですか = "…ไม่ใช่เหรอคะ" แบบสุภาพ เป็นการเดาที่ผู้พูดค่อนข้างมั่นใจ
+You: はい…。朝、電話をかけましたが、出ませんでした。 | はい…。あさ、でんわをかけましたが、でませんでした。 | ครับ… เช้านี้โทรไปแล้วแต่เขาไม่รับสายครับ | Yes… I called him this morning, but he didn't pick up.
+g: n5.e.ga_kedo
+note: 電話に出る = "answer the phone". | 電話に出る แปลว่า "รับโทรศัพท์"
+山田先生*: そうですか。大丈夫かしら。 | そうですか。だいじょうぶかしら。 | อย่างนั้นเหรอคะ จะเป็นอะไรรึเปล่านะ | I see. I wonder if he's all right.
+g: n4.e.kana
+note: かしら = "I wonder…", used mostly by women and a little old-fashioned. Learn to hear it; men say かな. | かしら = "…รึเปล่านะ" ส่วนใหญ่ผู้หญิงใช้และค่อนข้างเป็นภาษาแบบเก่า ฟังให้ออกไว้ ส่วนผู้ชายใช้ かな
+You: まだ寝ているんじゃないかと思います。 | まだねているんじゃないかとおもいます。 | ผมคิดว่าเขาน่าจะยังนอนอยู่ครับ | I suspect he's still asleep.
+g: n4.e.njanai, n5.e.toomou
+note: 〜んじゃないかと思います = "I suspect that…": a soft, polite guess. Very useful with teachers and bosses. | 〜んじゃないかと思います = "ผมคิดว่าน่าจะ…" เป็นการเดาที่นุ่มนวลและสุภาพ ใช้กับครูหรือหัวหน้าได้ดีมาก
+山田先生: 困りましたね。 | こまりましたね。 | ลำบากใจจังนะคะ | Well, that's a problem.
+You: 先生、休み時間に、もう一度電話してもいいですか。 | せんせい、やすみじかんに、もういちどでんわしてもいいですか。 | อาจารย์ครับ ช่วงพักขอโทรหาเขาอีกครั้งได้ไหมครับ | Sensei, may I call him once more at break?
+g: n5.t.temoii
+You: ジョンさん、お昼までに来るかな…。 | ジョンさん、おひるまでにくるかな…。 | จอห์นจะมาทันก่อนเที่ยงไหมนะ… | I wonder if John will make it by lunch…
+g: n4.e.kana
+note: Talking to yourself is fine in plain form, even in front of a teacher: かな is "thinking out loud". | การพูดกับตัวเองใช้รูปธรรมดาได้ แม้จะอยู่ต่อหน้าครู かな คือการ "คิดออกมาดังๆ"
+山田先生: ええ、どうぞ。きっと来ますよ。じゃあ、授業を始めましょう。 | ええ、どうぞ。きっときますよ。じゃあ、じゅぎょうをはじめましょう。 | ได้ค่ะ เขาต้องมาแน่ค่ะ งั้นเริ่มเรียนกันเลยนะคะ | Yes, go ahead. I'm sure he'll come. Now, let's start the lesson.

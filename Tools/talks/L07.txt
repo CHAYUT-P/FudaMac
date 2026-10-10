@@ -1,0 +1,97 @@
+@scene l07_casual
+title: 休み、何したい？
+en: What do you want to do on the break? (with friends)
+th: วันหยุดอยากทำอะไร (กับเพื่อน)
+glyph: 七
+level: n5
+place: people
+lesson: 7
+register: casual
+pair: l07
+about: Break time at language school. You, Lin and John plan next week's holiday: mountain or sea? 〜たい for what you want to do, 〜がほしい for things you want, and 〜に行く for going somewhere to do something. | ช่วงพักที่โรงเรียนภาษา ตัม หลิน และจอห์นวางแผนวันหยุดสัปดาห์หน้า จะไปภูเขาหรือทะเลดี ฝึก 〜たい (อยากทำ) 〜がほしい (อยากได้) และ 〜に行く (ไปเพื่อทำ)
+--- 休み時間 | Break time | เวลาพัก
+リン*: 来週、休みだね。タムは何したい？ | らいしゅう、やすみだね。タムはなにしたい？ | อาทิตย์หน้าวันหยุดเนอะ ตัมอยากทำอะไร | Next week's the break. What do you want to do, Tam?
+g: n5.e.tai
+note: Vます-stem + たい = "want to do": します → したい. With friends を and です disappear: 何したい？ | Vます ตัด ます แล้วเติม たい = "อยากทำ…" เช่น します → したい เพื่อนกันตัด を และ です ออก เหลือแค่ 何したい？
+You: 僕は山に行きたい。高尾山とか、どう？ | ぼくはやまにいきたい。たかおさんとか、どう？ | เราอยากไปภูเขา อย่างเขาทาคาโอะ เป็นไง | I want to go to the mountains. How about somewhere like Mt Takao?
+g: n5.e.tai
+alt: 山、行きたいな。 | やま、いきたいな。 | อยากไปภูเขาจัง | I'd like to go to the mountains.
+ジョン: いいね！俺も山に登りたい。 | いいね！おれもやまにのぼりたい。 | ดีเลย! เราก็อยากปีนเขา | Nice! I want to climb a mountain too.
+g: n5.e.tai
+リン: えー、山？私は海に行きたいな。 | えー、やま？わたしはうみにいきたいな。 | เอ๋ ภูเขาเหรอ เราอยากไปทะเลอะ | Eh, mountains? I'd rather go to the sea.
+g: n5.e.tai
+ジョン*: 今、海？泳ぎに行くの？寒いよ！ | いま、うみ？およぎにいくの？さむいよ！ | ทะเลตอนนี้เนี่ยนะ จะไปว่ายน้ำเหรอ หนาวนะ! | The sea, now? You're going swimming? It's cold!
+g: n5.e.niiku
+note: Vます-stem + に行く = "go (in order) to do": 泳ぎます → 泳ぎに行く = go swimming. 〜の？ is a casual question asking for an explanation. | Vます ตัด ます + に行く = "ไปเพื่อทำ…" เช่น 泳ぎます → 泳ぎに行く = ไปว่ายน้ำ ส่วน 〜の？ คือคำถามแบบกันเองที่อยากรู้เหตุผล
+リン: 泳がないよ。写真を撮りに行きたいの。 | およがないよ。しゃしんをとりにいきたいの。 | ไม่ว่ายหรอก อยากไปถ่ายรูปต่างหาก | I'm not swimming. I want to go take photos.
+g: n5.e.niiku, n5.e.tai
+note: You can stack them: 撮りに行く + たい = 撮りに行きたい "want to go to take (photos)". | ซ้อนกันได้ 撮りに行く + たい = 撮りに行きたい "อยากไปถ่าย(รูป)"
+You: 山の写真もきれいだよ。今、紅葉の季節だし。 | やまのしゃしんもきれいだよ。いま、こうようのきせつだし。 | รูปภูเขาก็สวยนะ ตอนนี้ก็หน้าใบไม้เปลี่ยนสีด้วย | Mountain photos are pretty too. And it's autumn-leaf season now.
+g: n5.e.naadj
+note: 〜し at the end adds one more reason: "and besides…". Very common in casual talk. | 〜し ท้ายประโยคใช้เพิ่มเหตุผลอีกข้อ แปลว่า "แถมยัง…ด้วย" ใช้บ่อยมากเวลาคุยกับเพื่อน
+リン: そっか…。じゃあ、山でいいよ。 | そっか…。じゃあ、やまでいいよ。 | งั้นเหรอ… งั้นภูเขาก็ได้ | Hmm, OK… The mountains it is, then.
+--- 準備の話 | Getting ready | คุยเรื่องเตรียมตัว
+ジョン: 電車で行く？ | でんしゃでいく？ | ไปรถไฟเหรอ | Are we going by train?
+You*: うん。新宿から一時間くらいだよ。 | うん。しんじゅくからいちじかんくらいだよ。 | อืม จากชินจูกุประมาณชั่วโมงนึง | Yeah. It's about an hour from Shinjuku.
+g: n5.p.kurai
+リン*: でも私、山用の靴がない…。新しい靴がほしいな。 | でもわたし、やまようのくつがない…。あたらしいくつがほしいな。 | แต่เราไม่มีรองเท้าเดินเขาเลย… อยากได้รองเท้าใหม่จัง | But I don't have hiking shoes… I want new shoes.
+g: n5.e.hoshii
+note: Nがほしい = "want (a thing)". For actions use たい: 靴がほしい (want shoes) / 靴を買いたい (want to buy shoes). | Nがほしい = "อยากได้(สิ่งของ)" ถ้าเป็นการกระทำใช้ たい เช่น 靴がほしい (อยากได้รองเท้า) / 靴を買いたい (อยากซื้อรองเท้า)
+ジョン: じゃあ、土曜日に一緒に買いに行こうよ。 | じゃあ、どようびにいっしょにかいにいこうよ。 | งั้นวันเสาร์ไปซื้อด้วยกันสิ | Then let's go buy some together on Saturday.
+g: n5.e.niiku
+note: 行こう is the casual 行きましょう ("let's go"). 買いに行こう = let's go shopping for it. | 行こう คือ 行きましょう แบบกันเอง ("ไปกันเถอะ") ส่วน 買いに行こう = ไปซื้อกันเถอะ
+You: いいね。僕も帽子がほしい。 | いいね。ぼくもぼうしがほしい。 | ดีเลย เราก็อยากได้หมวก | Good idea. I want a hat too.
+g: n5.e.hoshii
+リン: タムは新しいコートがあるじゃん。 | タムはあたらしいコートがあるじゃん。 | ตัมก็มีโค้ตใหม่แล้วไง | You've got a new coat, Tam.
+note: じゃん = "you know / come on, isn't it?". Very casual; never use it with teachers. | じゃん = "ก็…แล้วไง / ใช่ไหมล่ะ" เป็นภาษาพูดแบบกันเองมาก ห้ามใช้กับครู
+You: コートはある。でも、帽子はないよ。 | コートはある。でも、ぼうしはないよ。 | โค้ตมีแล้ว แต่หมวกไม่มีนะ | I've got a coat. But no hat.
+ジョン: 帰りに、温泉にも寄りたいなあ。 | かえりに、おんせんにもよりたいなあ。 | ขากลับอยากแวะออนเซ็นด้วยจัง | On the way back I'd love to stop by a hot spring too.
+g: n5.e.tai
+リン: いいね！温泉、入りたい！ | いいね！おんせん、はいりたい！ | ดีเลย! อยากแช่ออนเซ็น! | Yes! I want to get in a hot spring!
+g: n5.e.tai
+You: じゃあ、決まり！ | じゃあ、きまり！ | งั้นตกลงตามนี้! | Then it's decided!
+
+@scene l07_polite
+title: 紅葉を見に行きます
+en: Going to see the autumn leaves (polite)
+th: จะไปดูใบไม้เปลี่ยนสีครับ (แบบสุภาพ)
+glyph: 七
+level: n5
+place: people
+lesson: 7
+register: polite
+pair: l07
+about: Ms Yamada asks about your holiday plans and gives you tips. 〜たいです, 〜がほしいです and 〜に行きます in polite speech, and asking a teacher for advice. | ครูยามาดะถามเรื่องแผนวันหยุดและแนะนำสถานที่ ฝึก 〜たいです 〜がほしいです และ 〜に行きます แบบสุภาพ และการขอคำแนะนำจากครู
+--- 廊下で | In the hallway | ที่ทางเดิน
+山田先生*: タムさん、来週はお休みですね。どこかへ行きますか。 | タムさん、らいしゅうはおやすみですね。どこかへいきますか。 | ตัม อาทิตย์หน้าวันหยุดนะคะ จะไปเที่ยวไหนไหมคะ | Tam, next week is the break. Are you going anywhere?
+You: はい、リンさんとジョンさんと、高尾山へ行きます。 | はい、リンさんとジョンさんと、たかおさんへいきます。 | ครับ จะไปเขาทาคาโอะกับหลินและจอห์นครับ | Yes, I'm going to Mt Takao with Lin and John.
+note: Talking to a teacher about classmates, add さん to their names, even though you call them リン and ジョン among yourselves. | เวลาพูดกับครูถึงเพื่อนร่วมชั้น ให้เติม さん หลังชื่อ แม้ว่าตอนคุยกันเองจะเรียกแค่ リン กับ ジョン
+山田先生: いいですね。山で何をしたいですか。 | いいですね。やまでなにをしたいですか。 | ดีจังค่ะ ที่ภูเขาอยากทำอะไรคะ | How nice. What do you want to do there?
+g: n5.e.tai
+You: 紅葉が見たいです。それから、写真もたくさん撮りたいです。 | こうようがみたいです。それから、しゃしんもたくさんとりたいです。 | อยากดูใบไม้เปลี่ยนสีครับ แล้วก็อยากถ่ายรูปเยอะๆ ด้วยครับ | I want to see the autumn leaves. And I want to take lots of photos.
+g: n5.e.tai
+note: Polite たい = たいです. With たい, を may change to が: 紅葉が見たい / 紅葉を見たい are both correct. | たい แบบสุภาพคือ たいです และกับ たい เปลี่ยน を เป็น が ได้ 紅葉が見たい กับ 紅葉を見たい ถูกทั้งคู่
+山田先生: 高尾山の紅葉は、とてもきれいですよ。私も去年、見に行きました。 | たかおさんのこうようは、とてもきれいですよ。わたしもきょねん、みにいきました。 | ใบไม้เปลี่ยนสีที่เขาทาคาโอะสวยมากนะคะ ปีที่แล้วครูก็ไปดูมาค่ะ | The leaves at Mt Takao are beautiful. I went to see them last year too.
+g: n5.e.niiku
+note: 見に行きました = went (in order) to see. The purpose comes first (見に), then the movement verb (行く・来る・帰る). | 見に行きました = ไปเพื่อดู วางจุดประสงค์ไว้ข้างหน้า (見に) แล้วตามด้วยกริยาการเคลื่อนที่ (行く・来る・帰る)
+You*: そうですか。先生、新宿から、どのくらいかかりますか。 | そうですか。せんせい、しんじゅくから、どのくらいかかりますか。 | อย่างนั้นเหรอครับ ครูครับ จากชินจูกุใช้เวลาประมาณเท่าไรครับ | Really? How long does it take from Shinjuku?
+g: n5.p.kurai
+山田先生: 電車で一時間くらいですね。 | でんしゃでいちじかんくらいですね。 | ไปรถไฟประมาณหนึ่งชั่วโมงค่ะ | About an hour by train.
+g: n5.p.kurai
+--- 準備 | Getting ready | เตรียมตัว
+You: あのう、先生。山用の靴がほしいです。どの店がいいですか。 | あのう、せんせい。やまようのくつがほしいです。どのみせがいいですか。 | เอ่อ ครูครับ ผมอยากได้รองเท้าเดินเขา ร้านไหนดีครับ | Um, Ms Yamada. I want some hiking shoes. Which shop is good?
+g: n5.e.hoshii
+note: ほしいです is fine about yourself. But don't ask a teacher 何がほしいですか or 〜たいですか; it sounds too direct. Offer instead: 〜はいかがですか. | พูดถึงตัวเองว่า ほしいです ได้ แต่อย่าถามครูว่า 何がほしいですか หรือ 〜たいですか เพราะฟังตรงเกินไป ให้เสนอแทนว่า 〜はいかがですか
+山田先生*: 駅の前のデパートがいいですよ。四階に靴の売り場があります。 | えきのまえのデパートがいいですよ。よんかいにくつのうりばがあります。 | ห้างหน้าสถานีดีค่ะ ชั้นสี่มีแผนกรองเท้าค่ะ | The department store in front of the station is good. The shoe section is on the fourth floor.
+You: ありがとうございます。土曜日に買いに行きます。 | ありがとうございます。どようびにかいにいきます。 | ขอบคุณครับ วันเสาร์จะไปซื้อครับ | Thank you. I'll go buy them on Saturday.
+g: n5.e.niiku
+山田先生: 山の上は寒いですよ。帽子もありますか。 | やまのうえはさむいですよ。ぼうしもありますか。 | บนเขาหนาวนะคะ มีหมวกด้วยไหมคะ | It's cold at the top. Do you have a hat too?
+You: いいえ、ありません。帽子もほしいです。 | いいえ、ありません。ぼうしもほしいです。 | ไม่มีครับ อยากได้หมวกด้วยครับ | No, I don't. I want a hat as well.
+g: n5.e.hoshii
+山田先生*: 高尾山口の駅の近くに、温泉もありますよ。 | たかおさんぐちのえきのちかくに、おんせんもありますよ。 | ใกล้สถานีทาคาโอซังงุจิมีออนเซ็นด้วยนะคะ | There's also a hot spring near Takaosanguchi Station.
+You: 本当ですか。温泉にも行きたいです！ | ほんとうですか。おんせんにもいきたいです！ | จริงเหรอครับ อยากไปออนเซ็นด้วยครับ! | Really? I want to go to the hot spring too!
+g: n5.e.tai
+山田先生: いいですね。楽しい休みになりますね。 | いいですね。たのしいやすみになりますね。 | ดีจังค่ะ คงเป็นวันหยุดที่สนุกนะคะ | Lovely. It'll be a fun break.
+g: n5.e.naru
+You: はい。先生にお土産を買います！ | はい。せんせいにおみやげをかいます！ | ครับ จะซื้อของฝากมาให้ครูครับ! | Yes. I'll buy you a souvenir!
+note: お土産 is a gift you bring back from a trip. Bringing one for your teacher or coworkers is a common Japanese custom. | お土産 คือของฝากจากการไปเที่ยว การซื้อมาฝากครูหรือเพื่อนร่วมงานเป็นธรรมเนียมที่คนญี่ปุ่นทำกันทั่วไป

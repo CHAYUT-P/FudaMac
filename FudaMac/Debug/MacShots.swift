@@ -98,6 +98,67 @@ enum MacShots {
         ]
         let only = d.string(forKey: "FudaShotsSet")
         if only == "tb" { steps = tb } else if only == nil { steps += tb }
+        if only == "course" {
+            steps = [
+                ("c-1-map", { router.section = .course; router.lessonN = nil }),
+                ("c-2-lesson10-words", { router.openLesson(10, step: .words) }),
+                ("c-3-lesson20", { router.lessonN = nil; router.section = .course }),
+                ("c-4-talk-casual", { router.lessonN = nil; router.section = .talk; router.talkID = "l08_casual" }),
+                ("c-5-talk-polite", { router.talkID = "l08_polite" }),
+                ("c-6-lesson-talk", { router.openLesson(32, step: .talk) }),
+                ("c-7-grammar", { router.openLesson(20, step: .notes) }),
+            ]
+        }
+        if only == "words" {
+            // 語 Word list: read mode, a typed test with mixed answers, then a whole category.
+            let wl = router.wordList
+            func open(_ sub: String, _ mode: WordListState.Mode) {
+                router.section = .words
+                wl.expanded = [String(sub.split(separator: ".")[0])]
+                wl.selection = .sub(sub); wl.mode = mode; wl.restart()
+            }
+            steps = [
+                ("w-1-read", { open("food.seasoning", .list) }),
+                ("w-2-typing", {
+                    open("food.drink", .test)
+                    let ws = WordList.shared.words(sub: "food.drink")
+                    let typed = ["เหล้า", "tea", "", "milk", "coffe", "น้ำร้อน", "beer"]
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) { for (w, t) in zip(ws, typed) where !t.isEmpty { wl.answers[w.id] = t } }
+                }),
+                ("w-3-checked", {
+                    for w in WordList.shared.words(sub: "food.drink") {
+                        let ok = MeaningCheck.isCorrect(wl.answers[w.id] ?? "", w)
+                        wl.results[w.id] = ok
+                        store.recordList(w.id, correct: ok)
+                        print("CHECK", w.word, "|", wl.answers[w.id] ?? "", "→", ok)
+                    }
+                    wl.checked = true
+                }),
+                ("w-4-category", { router.section = .words; wl.expanded = ["action"]; wl.selection = .category("action"); wl.mode = .list; wl.restart() }),
+                ("w-5-category-typing", { router.section = .words; wl.expanded = ["food"]; wl.selection = .category("food"); wl.mode = .test; wl.restart() }),
+                ("w-6-japanese", {
+                    open("food.taste", .recall)
+                    // romaji, hiragana, kanji, a near miss and a blank
+                    let typed: [String: String] = ["甘い_あまい": "amai", "辛い_からい": "からい", "美味しい_おいしい": "美味しい", "苦い_にがい": "niga"]
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) { for (k, v) in typed { wl.answers[k] = v } }
+                }),
+                ("w-7-japanese-checked", {
+                    for w in WordList.shared.words(sub: "food.taste") {
+                        let ok = JapaneseCheck.isCorrect(wl.answers[w.id] ?? "", w)
+                        wl.results[w.id] = ok
+                        store.recordList("jp:" + w.id, correct: ok)
+                        print("JPCHECK", w.word, "|", wl.answers[w.id] ?? "", "→", ok)
+                    }
+                    wl.checked = true
+                }),
+                ("w-8-search", { wl.mode = .list; wl.query = "หั่น" }),
+                ("w-9-greetings", { wl.query = ""; open("basic.greeting", .list) }),
+                ("w-10-copy", {
+                    open("food.taste", .list)
+                    print("COPYTEXT-BEGIN\n" + WordExport.sentences.text(title: "味 รสชาติ · Taste", words: WordList.shared.words(sub: "food.taste")) + "\nCOPYTEXT-END")
+                }),
+            ]
+        }
         if let n = d.string(forKey: "FudaShotsLesson").flatMap(Int.init) {
             // One lesson, every textbook step (for reviewing authored lessons).
             steps = LessonStep.steps(for: n).enumerated().map { i, st in

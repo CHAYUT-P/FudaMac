@@ -319,6 +319,8 @@ struct GrammarExplainer: View {
                 }
             }
 
+            GrammarInConversation(keys: [g.key], pattern: g.pattern)
+
             HStack(alignment: .top, spacing: 14) {
                 if !g.mistakesEN.isEmpty || !g.mistakesTH.isEmpty {
                     note("注意 · Common mistake", g.mistakesEN.isEmpty ? g.mistakesTH : g.mistakesEN, g.mistakesEN.isEmpty ? "" : g.mistakesTH, accent: true)
@@ -370,6 +372,46 @@ struct GrammarExplainer: View {
     }
 
     private func mark(_ ja: String, _ pattern: String) -> String? {
+        let core = LessonScripts.coreOf(pattern)
+        return !core.isEmpty && ja.contains(core) ? core : nil
+    }
+}
+
+/// Where a grammar point is used in the lesson conversations: one line with a
+/// friend and one polite line, each opening its conversation.
+struct GrammarInConversation: View {
+    @Environment(MacRouter.self) private var router
+    let keys: [String]
+    var pattern: String = ""
+
+    var body: some View {
+        let uses = keys.flatMap { Talk.lines(using: $0) }
+        let picks = [uses.first { $0.scene.isCasual }, uses.first { !$0.scene.isCasual }].compactMap { $0 }
+        if !picks.isEmpty {
+            VStack(alignment: .leading, spacing: 8) {
+                TrackedLabel(text: "会話で · ใช้ในบทสนทนา · In conversation (\(uses.count))", color: Ink.ink, size: 10)
+                ForEach(picks, id: \.line.ja) { u in
+                    Button { router.lessonN = nil; router.talkID = u.scene.id; router.section = .talk } label: {
+                        HStack(alignment: .top, spacing: 12) {
+                            VStack(spacing: 2) {
+                                Text(u.scene.registerJA).font(Typo.mincho(13))
+                                Text(u.scene.isCasual ? "Casual" : "Polite").font(.system(size: 9, weight: .heavy))
+                            }
+                            .frame(width: 64, height: 40)
+                            .foregroundStyle(Ink.onInk).background(u.scene.isCasual ? Ink.akane : Ink.ink)
+                            SentenceBlock(ja: u.line.ja, kana: u.line.kana, romaji: u.line.romaji, th: u.line.th, en: u.line.en, size: 18, highlight: highlight(u.line.ja))
+                            Spacer()
+                            Text("\(u.scene.title) →").font(Typo.ui(11, .heavy)).foregroundStyle(Ink.akane).lineLimit(1)
+                        }
+                        .padding(12).inkBox().contentShape(Rectangle())
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+        }
+    }
+
+    private func highlight(_ ja: String) -> String? {
         let core = LessonScripts.coreOf(pattern)
         return !core.isEmpty && ja.contains(core) ? core : nil
     }

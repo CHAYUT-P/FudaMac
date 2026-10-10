@@ -1,0 +1,119 @@
+@scene l01_casual
+title: タイ人なんだ！
+en: Oh, you're Thai! (with a friend)
+th: เป็นคนไทยเหรอ (กับเพื่อน)
+glyph: 一
+level: n5
+place: people
+lesson: 1
+register: casual
+pair: l01
+about: First day of class: Tam meets Lin, a classmate his age. Casual self-introductions: うん／ううん, dropping です, じゃない and だった. | วันแรกของการเรียน ตัมเจอหลิน เพื่อนร่วมชั้นวัยเดียวกัน แนะนำตัวแบบกันเอง ใช้ うん／ううん ตัด です ทิ้ง และใช้ じゃない กับ だった
+--- はじめまして | Saying hi | ทักทายกัน
+リン*: ねえ、新しい学生？ | ねえ、あたらしいがくせい？ | นี่ นักเรียนใหม่เหรอ | Hey, are you new here?
+g: n5.question
+note: With friends you don't need ですか. Say the sentence with a rising tone and it becomes a question. | กับเพื่อนไม่ต้องใช้ ですか แค่พูดประโยคแล้วขึ้นเสียงสูงตอนท้าย ก็กลายเป็นคำถามแล้ว
+You: うん、そう。タムです。よろしく。 | うん、そう。タムです。よろしく。 | อืม ใช่ เราชื่อตัม ฝากตัวด้วยนะ | Yeah, that's right. I'm Tam. Nice to meet you.
+note: うん is the casual はい, and そう alone means "right". Young people often still say their name with です the first time they meet; よろしく is the short form of よろしくお願いします. | うん คือ はい แบบกันเอง ส่วน そう คำเดียวแปลว่า "ใช่" ตอนเจอกันครั้งแรก วัยรุ่นก็ยังมักบอกชื่อด้วย です อยู่ ส่วน よろしく คือรูปย่อของ よろしくお願いします
+alt: うん。タム。よろしくね。 | うん。タム。よろしくね。 | อืม เราตัม ฝากตัวด้วยนะ | Yeah. I'm Tam. Nice to meet you.
+リン: 私はリン。よろしくね。 | わたしはリン。よろしくね。 | เราชื่อหลิน ฝากตัวด้วยนะ | I'm Lin. Nice to meet you.
+g: n5.p.wa, n5.desu
+note: 私はリン — friends drop the です at the end: 私はリンです → 私はリン. ね makes it sound warm. | 私はリン เพื่อนกันมักตัด です ท้ายประโยคทิ้ง จาก 私はリンです เหลือแค่ 私はリン ส่วน ね ทำให้ฟังดูเป็นมิตร อบอุ่น
+リン: タムは韓国人？ | タムはかんこくじん？ | ตัมเป็นคนเกาหลีเหรอ | Are you Korean, Tam?
+g: n5.p.wa, n5.question
+note: Japanese uses the person's name instead of "you" (あなた sounds cold). Classmates your age use first names with no さん. | ภาษาญี่ปุ่นมักเรียกชื่ออีกฝ่ายแทนคำว่า "คุณ" เพราะ あなた ฟังดูห่างเหิน เพื่อนร่วมชั้นวัยเดียวกันเรียกชื่อเฉยๆ ไม่ต้องมี さん
+You*: ううん、韓国人じゃないよ。タイ人。 | ううん、かんこくじんじゃないよ。タイじん。 | เปล่า ไม่ใช่คนเกาหลีหรอก คนไทย | No, I'm not Korean. I'm Thai.
+g: n5.desu
+note: ううん is the casual いいえ. じゃない is the casual じゃありません, and よ adds "actually, let me tell you". | ううん คือ いいえ แบบกันเอง じゃない คือ じゃありません แบบกันเอง ส่วน よ เติมความรู้สึกว่า "บอกให้รู้นะ"
+リン: へえ、タイ人なんだ。 | へえ、タイじんなんだ。 | อ๋อ เป็นคนไทยนี่เอง | Oh, you're Thai!
+note: なんだ reacts to something new you just learned: "oh, so you are…". You'll hear it all the time. | なんだ ใช้ตอบรับเรื่องที่เพิ่งรู้ ประมาณ "อ๋อ…นี่เอง" ได้ยินบ่อยมากในบทสนทนา
+--- 国では | Back home | ตอนอยู่ที่ประเทศ
+リン*: 国でも学生だった？ | くにでもがくせいだった？ | ตอนอยู่ที่ประเทศก็เป็นนักเรียนเหรอ | Were you a student back home too?
+g: n5.deshita, n5.question
+note: だった is the casual でした. | だった คือ でした แบบกันเอง
+You: ううん、学生じゃなかった。英語の先生だった。 | ううん、がくせいじゃなかった。えいごのせんせいだった。 | เปล่า ไม่ได้เป็นนักเรียน เป็นครูสอนภาษาอังกฤษ | No, I wasn't a student. I was an English teacher.
+g: n5.deshita
+note: じゃなかった is the casual じゃなかったです (wasn't). | じゃなかった คือ じゃなかったです แบบกันเอง แปลว่า "ไม่ได้เป็น"
+リン*: えっ、先生だったの？すごい！ | えっ、せんせいだったの？すごい！ | ห๊ะ เคยเป็นครูเหรอ สุดยอด | What, you were a teacher? Wow!
+g: n5.deshita, n5.question
+note: Adding の to a casual question (だったの？) sounds curious and surprised. すごい = "wow, amazing". | เติม の ท้ายคำถามแบบกันเอง (だったの？) ฟังดูสงสัยและตื่นเต้น ส่วน すごい แปลว่า "สุดยอด เจ๋งมาก"
+You: うん。でも、今は僕も学生だよ。 | うん。でも、いまはぼくもがくせいだよ。 | อืม แต่ตอนนี้เราก็เป็นนักเรียนเหมือนกันนะ | Yeah. But now I'm a student too.
+g: n5.p.wa, n5.desu
+note: 僕 is the casual "I" for boys and men. 私 is fine too, but 僕 sounds more relaxed with friends. だよ = casual です + よ. | 僕 คือ "ผม/เรา" แบบกันเองของผู้ชาย ใช้ 私 ก็ได้ แต่กับเพื่อนพูด 僕 จะฟังสบายๆ กว่า ส่วน だよ คือ です + よ แบบกันเอง
+You: リンは？ | リンは？ | แล้วหลินล่ะ | What about you, Lin?
+g: n5.p.wa
+note: Name + は？ alone means "and you?". Very handy for keeping a conversation going. | ชื่อ + は？ คำเดียวแปลว่า "แล้ว…ล่ะ" ใช้ถามกลับได้ง่ายมาก ช่วยให้คุยต่อได้เรื่อยๆ
+リン: 私は大学生だったよ。 | わたしはだいがくせいだったよ。 | เราเคยเป็นนักศึกษามหาลัย | I was a university student.
+g: n5.p.wa, n5.deshita
+リン: あ、私、英語を勉強してるんだ。 | あ、わたし、えいごをべんきょうしてるんだ。 | อ้อ เรากำลังเรียนภาษาอังกฤษอยู่ด้วยนะ | Oh, I'm studying English, you know.
+g: n5.sov
+note: The verb always comes last: 私 (I) + 英語を (English) + 勉強してる (am studying). Friends often drop は after 私. してる is the spoken short form of している. | กริยาอยู่ท้ายประโยคเสมอ 私 (เรา) + 英語を (ภาษาอังกฤษ) + 勉強してる (กำลังเรียน) เพื่อนกันมักละ は หลัง 私 ส่วน してる คือรูปย่อของ している ในภาษาพูด
+リン: じゃあ、タムは私の英語の先生ね！ | じゃあ、タムはわたしのえいごのせんせいね！ | งั้นตัมเป็นครูสอนอังกฤษของเรานะ | Then you're my English teacher!
+g: n5.p.wa
+You*: いいよ。じゃあ、リンは僕の日本語の先生？ | いいよ。じゃあ、リンはぼくのにほんごのせんせい？ | ได้สิ งั้นหลินเป็นครูสอนญี่ปุ่นของเราไหม | Sure. So are you my Japanese teacher?
+g: n5.p.wa, n5.question
+リン: えー、それは無理！ | えー、それはむり！ | โห อันนั้นไม่ไหวหรอก | No way, I can't do that!
+note: 無理 = "impossible, no way". A very common casual reply. | 無理 แปลว่า "ไม่ไหว เป็นไปไม่ได้" เป็นคำตอบแบบกันเองที่ได้ยินบ่อยมาก
+--- 先生だ | Here comes the teacher | ครูมาแล้ว
+リン*: あ、先生だ！ | あ、せんせいだ！ | อ๊ะ ครูมาแล้ว | Oh, it's the teacher!
+g: n5.desu
+note: だ is the plain です. Here it's an exclamation: "oh, it's the teacher!". | だ คือ です แบบธรรมดา ตรงนี้ใช้เป็นคำอุทานว่า "อ๊ะ ครูมาแล้ว"
+You: ほんとだ。じゃあ、またあとで。 | ほんとだ。じゃあ、またあとで。 | จริงด้วย งั้นไว้คุยกันทีหลังนะ | Oh, right. Talk later, then.
+note: ほんとだ = "oh, you're right". またあとで = "later". To a teacher you'd say 失礼します instead. | ほんとだ แปลว่า "จริงด้วย" ส่วน またあとで แปลว่า "ไว้ทีหลังนะ" ถ้าพูดกับครูจะใช้ 失礼します แทน
+
+@scene l01_polite
+title: はじめまして
+en: Nice to meet you (polite)
+th: ยินดีที่ได้รู้จัก (แบบสุภาพ)
+glyph: 一
+level: n5
+place: people
+lesson: 1
+register: polite
+pair: l01
+role: キム | Mr Kim (classmate) | คุณคิม (เพื่อนร่วมชั้น)
+about: First day at the language school: Tam meets Ms Yamada and an older classmate. Polite です／ですか, じゃありません and でした. | วันแรกที่โรงเรียนสอนภาษา ตัมเจอครูยามาดะกับเพื่อนร่วมชั้นที่อายุมากกว่า ใช้ です／ですか じゃありません และ でした แบบสุภาพ
+--- 先生と | Meeting the teacher | พบครู
+山田先生*: おはようございます。新しい学生さんですか。 | おはようございます。あたらしいがくせいさんですか。 | สวัสดีค่ะ เป็นนักเรียนใหม่ใช่ไหมคะ | Good morning. Are you a new student?
+g: n5.question
+note: か at the end turns a sentence into a yes/no question. No word order change. 学生さん adds さん to be polite about someone else. | เติม か ท้ายประโยคก็เป็นคำถามแบบ ใช่/ไม่ใช่ ได้เลย ไม่ต้องสลับคำ ส่วน 学生さん คือเติม さん เพื่อให้สุภาพเวลาพูดถึงคนอื่น
+You: はい、そうです。はじめまして、タムです。 | はい、そうです。はじめまして、タムです。 | ครับ ใช่ครับ ยินดีที่ได้รู้จักครับ ผมชื่อตัม | Yes, that's right. Nice to meet you, I'm Tam.
+note: With a teacher keep the full はい、そうです. With a friend うん、そう is enough. | กับครูต้องพูดเต็มๆ ว่า はい、そうです ถ้าเป็นเพื่อนพูดแค่ うん、そう ก็พอ
+山田先生: 山田です。このクラスの先生です。 | やまだです。このクラスのせんせいです。 | ครูชื่อยามาดะค่ะ เป็นครูของห้องนี้ | I'm Yamada. I'm the teacher of this class.
+g: n5.desu
+You: よろしくお願いします。 | よろしくおねがいします。 | ฝากตัวด้วยครับ | Nice to meet you. / I look forward to working with you.
+note: The full よろしくお願いします for teachers and anyone older. Bow a little as you say it. | กับครูหรือคนที่อายุมากกว่า ต้องพูดเต็มๆ ว่า よろしくお願いします และโค้งเล็กน้อยไปด้วย
+山田先生: タムさんはタイの方ですか。 | タムさんはタイのかたですか。 | คุณตัมเป็นคนไทยใช่ไหมคะ | Are you from Thailand, Tam?
+g: n5.p.wa, n5.question
+note: 方 (かた) is the polite word for 人 when talking about someone else. | 方 (かた) เป็นคำสุภาพของ 人 ใช้เวลาพูดถึงคนอื่น
+You*: はい、タイ人です。 | はい、タイじんです。 | ครับ เป็นคนไทยครับ | Yes, I'm Thai.
+g: n5.desu
+note: About yourself say 人, never 方 or さん. 私は is left out because it's obvious. | พูดถึงตัวเองใช้ 人 ห้ามใช้ 方 หรือ さん กับตัวเอง และละ 私は ได้เพราะรู้อยู่แล้วว่าพูดถึงใคร
+alt: はい、私はタイ人です。 | はい、わたしはタイじんです。 | ครับ ผมเป็นคนไทยครับ | Yes, I'm Thai.
+山田先生*: 国では学生でしたか。 | くにではがくせいでしたか。 | ที่ประเทศเคยเป็นนักเรียนหรือเปล่าคะ | Were you a student back home?
+g: n5.deshita, n5.question, n5.p.wa
+You: いいえ、学生じゃなかったです。英語の先生でした。 | いいえ、がくせいじゃなかったです。えいごのせんせいでした。 | ไม่ใช่ครับ ไม่ได้เป็นนักเรียน เป็นครูสอนภาษาอังกฤษครับ | No, I wasn't a student. I was an English teacher.
+g: n5.deshita
+note: でした = was, じゃなかったです = wasn't. Compare the casual だった／じゃなかった. | でした แปลว่า "เคยเป็น" ส่วน じゃなかったです แปลว่า "ไม่ได้เป็น" ลองเทียบกับแบบกันเอง だった／じゃなかった
+alt: いいえ、学生じゃありませんでした。 | いいえ、がくせいじゃありませんでした。 | ไม่ใช่ครับ ไม่ได้เป็นนักเรียนครับ | No, I wasn't a student.
+山田先生: そうですか。ここでは、毎日日本語を勉強します。 | そうですか。ここでは、まいにちにほんごをべんきょうします。 | อย่างนั้นเหรอคะ ที่นี่เราจะเรียนภาษาญี่ปุ่นทุกวันนะคะ | I see. Here, we study Japanese every day.
+g: n5.sov, n5.p.wa
+note: Word order: place (ここでは) + time (毎日) + object (日本語を) + verb (勉強します). The verb comes last. | ลำดับคำ: สถานที่ (ここでは) + เวลา (毎日) + กรรม (日本語を) + กริยา (勉強します) กริยาอยู่ท้ายสุดเสมอ
+--- クラスメート | A classmate | เพื่อนร่วมชั้น
+山田先生: こちらはキムさんです。 | こちらはキムさんです。 | ท่านนี้คือคุณคิมค่ะ | This is Mr Kim.
+g: n5.p.wa, n5.desu
+note: こちら is the polite "this person" when you introduce someone. | こちら คือคำสุภาพแปลว่า "ท่านนี้" ใช้ตอนแนะนำคนอื่น
+キム*: はじめまして、キムです。どうぞよろしく。 | はじめまして、キムです。どうぞよろしく。 | ยินดีที่ได้รู้จัก ผมชื่อคิม ฝากตัวด้วยนะครับ | Nice to meet you, I'm Kim. Pleased to meet you.
+You: タムです。よろしくお願いします。キムさんは韓国の方ですか。 | タムです。よろしくおねがいします。キムさんはかんこくのかたですか。 | ผมตัมครับ ฝากตัวด้วยครับ คุณคิมเป็นคนเกาหลีใช่ไหมครับ | I'm Tam. Nice to meet you. Are you from Korea?
+g: n5.p.wa, n5.question
+キム: はい、そうです。 | はい、そうです。 | ใช่ครับ | Yes, that's right.
+You: キムさんも国では学生でしたか。 | キムさんもくにではがくせいでしたか。 | คุณคิมก็เคยเป็นนักเรียนที่ประเทศเหรอครับ | Were you a student back home too?
+g: n5.deshita, n5.question, n5.p.wa
+キム*: いいえ、医者でした。でも、今は日本語の学生です。 | いいえ、いしゃでした。でも、いまはにほんごのがくせいです。 | เปล่าครับ เคยเป็นหมอ แต่ตอนนี้เป็นนักเรียนภาษาญี่ปุ่นครับ | No, I was a doctor. But now I'm a Japanese student.
+g: n5.deshita, n5.p.wa, n5.desu
+note: 今は (now) uses は to contrast with the past: "back then a doctor, but NOW a student". | 今は ใช้ は เพื่อเทียบกับอดีต ประมาณว่า "เมื่อก่อนเป็นหมอ แต่ตอนนี้เป็นนักเรียน"
+You: そうですか。すごいですね。 | そうですか。すごいですね。 | อย่างนั้นเหรอครับ เก่งจังเลยครับ | Really? That's amazing.
+note: Compare the casual すごい！ — with someone older add ですね. | เทียบกับแบบกันเองที่พูดแค่ すごい！ ถ้าคุยกับคนที่อายุมากกว่าให้เติม ですね
+キム: いえいえ。今はみんな学生ですよ。 | いえいえ。いまはみんながくせいですよ。 | ไม่หรอกครับ ตอนนี้ทุกคนก็เป็นนักเรียนเหมือนกันครับ | Oh, no. Now we're all students.
+g: n5.p.wa, n5.desu
+You: そうですね。どうぞよろしくお願いします。 | そうですね。どうぞよろしくおねがいします。 | จริงด้วยครับ ฝากตัวด้วยนะครับ | That's true. I look forward to studying with you.

@@ -1,8 +1,10 @@
 import Foundation
 import Observation
 
-// The Mac course: 33 lessons (N5 0–14, N4 15–32) in Tone's teaching order,
-// plus Tone's lesson dialogues and graded stories. Built by Tools/build_course.py.
+// The Mac course: one path of 33 lessons (0–32) that teaches all of N5 and N4
+// together — grammar in teaching order, every word, kanji and grammar point in
+// exactly one lesson — plus Tone's lesson dialogues and graded stories.
+// Built by Tools/build_course.py, words spread by Tools/course_words.py.
 
 struct CourseSection: Codable, Hashable { let en: String; let th: String; let ids: [String] }
 
@@ -32,6 +34,31 @@ struct CourseLesson: Codable, Identifiable, Hashable {
     var kanjiCards: [Card] { kanji.compactMap { DB.shared.kanjiCard($0) } }
     var kanaCards: [Card] { isKana ? DB.shared.kana.map(Card.kana) : [] }
     var allCards: [Card] { kanaCards + wordCards + kanjiCards + grammarCards }
+    var part: CoursePart { CoursePart.all.first { $0.lessons.contains(n) } ?? CoursePart.all[0] }
+}
+
+/// The course in six parts, each closed by a review test over everything in it.
+struct CoursePart: Identifiable, Hashable {
+    let n: Int
+    let ja: String
+    let th: String
+    let en: String
+    let lessons: ClosedRange<Int>
+    var id: Int { n }
+    var numeral: String { ["一", "二", "三", "四", "五", "六"][n - 1] }
+
+    static let all: [CoursePart] = [
+        CoursePart(n: 1, ja: "はじめの一歩", th: "ก้าวแรก: อ่านเขียน ประโยคแรก ชี้ ถาม ที่ตั้ง กริยา", en: "First steps", lessons: 0...4),
+        CoursePart(n: 2, ja: "形と気持ち", th: "บอกลักษณะ เปรียบเทียบ อยากทำ รูป て ขออนุญาต", en: "Describing & wanting", lessons: 5...9),
+        CoursePart(n: 3, ja: "経験と時間", th: "รูปพจนานุกรม อดีตและประสบการณ์ เวลา เหตุผล จำนวน", en: "Experience & time", lessons: 10...14),
+        CoursePart(n: 4, ja: "説明とやりとり", th: "อธิบาย ให้-รับ ช่วงเวลา คำสั่ง เงื่อนไข", en: "Explaining & dealing with people", lessons: 15...20),
+        CoursePart(n: 5, ja: "考えと推量", th: "ความตั้งใจ การคาดเดา ทำได้ จุดประสงค์ การอ้างคำพูด", en: "Thoughts & guesses", lessons: 21...26),
+        CoursePart(n: 6, ja: "仕上げ", th: "ถูกกระทำ/ให้ทำ คำเชื่อม ความรู้สึก มุมมอง คำสุภาพ", en: "Putting it all together", lessons: 27...32),
+    ]
+
+    var courseLessons: [CourseLesson] { Course.shared.lessons.filter { lessons.contains($0.n) } }
+    /// Everything taught in this part (kana excluded), for the part review.
+    var cards: [Card] { courseLessons.flatMap { $0.wordCards + $0.kanjiCards + $0.grammarCards } }
 }
 
 struct StorySentence: Codable, Hashable { let ja: String; let kana: String; let th: String; let en: String; let romaji: String }

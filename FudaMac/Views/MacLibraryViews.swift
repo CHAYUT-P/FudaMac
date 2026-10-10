@@ -267,7 +267,7 @@ struct MacProgressView: View {
                     .padding(22).frame(maxWidth: .infinity).inkBox()
                     VStack(alignment: .leading, spacing: 12) {
                         TrackedLabel(text: "Course", color: Ink.ink)
-                        let lessons = Course.shared.lessons(level)
+                        let lessons = Course.shared.lessons
                         LazyVGrid(columns: Array(repeating: GridItem(.fixed(44), spacing: 6), count: 6), alignment: .leading, spacing: 6) {
                             ForEach(lessons) { l in
                                 let passed = course.passed(l.n), started = course.doneCount(l.n) > 0

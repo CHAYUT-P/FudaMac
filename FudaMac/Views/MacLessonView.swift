@@ -40,7 +40,7 @@ struct MacLessonView: View {
             HStack(spacing: 14) {
                 Button { router.lessonN = nil } label: { Text("‹ Course").font(Typo.ui(13, .bold)) }
                     .buttonStyle(.plain).keyboardShortcut(router.typing ? nil : KeyboardShortcut(.escape, modifiers: []))
-                Text("LESSON \(lesson.n) · \(lesson.level.title)").font(.system(size: 11, weight: .heavy)).tracking(2)
+                Text("LESSON \(lesson.n) · 第\(lesson.part.numeral)部").font(.system(size: 11, weight: .heavy)).tracking(2)
                     .padding(.horizontal, 8).padding(.vertical, 3).background(Ink.ink).foregroundStyle(Ink.onInk)
                 MixedText(lesson.ja, size: 21, weight: .bold)
                 Text(lesson.en).font(Typo.ui(14)).foregroundStyle(Ink.soft).lineLimit(1)
@@ -239,8 +239,12 @@ struct TalkStepView: View {
     var body: some View {
         let tb = Textbook.lesson(lesson.n)
         let dialogues = (tb.map { [$0.dialogue] } ?? []) + lesson.dialogues.compactMap { Course.shared.dialogue($0) }
+        let pair = Talk.lessonPair(lesson.n)            // the lesson talk: with a friend, then politely
+        let keys = dialogues.map(\.key) + pair.map(\.id)
+        let count = dialogues.count + pair.count
+        let cur = min(pick, max(count - 1, 0))
         VStack(spacing: 0) {
-            if dialogues.isEmpty {
+            if count == 0 {
                 VStack(spacing: 10) {
                     Text("話").font(Typo.mincho(64)).foregroundStyle(Ink.line)
                     Text("No lesson conversation here").font(Typo.ui(16, .heavy))
@@ -248,12 +252,15 @@ struct TalkStepView: View {
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             } else {
-                if dialogues.count > 1 {
+                if count > 1 {
                     HStack(spacing: 8) {
-                        ForEach(dialogues.indices, id: \.self) { i in
+                        ForEach(0..<count, id: \.self) { i in
+                            let title = i < dialogues.count
+                                ? "\(i == 0 && tb != nil ? "本文 · " : "")\(dialogues[i].jaTitle)"
+                                : "\(pair[i - dialogues.count].registerJA) · \(pair[i - dialogues.count].isCasual ? "Casual" : "Polite")"
                             Button { pick = i } label: {
-                                Text("\(i == 0 && tb != nil ? "本文 · " : "")\(dialogues[i].jaTitle)\(course.talks.contains(dialogues[i].key) ? "  済" : "")").font(Typo.mincho(14)).padding(.horizontal, 12).frame(height: 32)
-                                    .foregroundStyle(pick == i ? Ink.onInk : Ink.ink).background(pick == i ? Ink.ink : .clear)
+                                Text("\(title)\(course.talks.contains(keys[i]) ? "  済" : "")").font(Typo.mincho(14)).padding(.horizontal, 12).frame(height: 32)
+                                    .foregroundStyle(cur == i ? Ink.onInk : Ink.ink).background(cur == i ? (i >= dialogues.count ? Ink.akane : Ink.ink) : .clear)
                                     .overlay(Rectangle().strokeBorder(Ink.ink, lineWidth: 1.5))
                             }
                             .buttonStyle(.plain)
@@ -262,14 +269,24 @@ struct TalkStepView: View {
                     }
                     .padding(.horizontal, 30).padding(.top, 14)
                 }
-                DialoguePlayer(dialogue: dialogues[min(pick, dialogues.count - 1)],
-                               scene: pick == 0 ? tb?.conversation.sceneTH : nil) {
-                    course.markTalk(dialogues[min(pick, dialogues.count - 1)].key)
-                    if dialogues.allSatisfy({ course.talks.contains($0.key) }) { course.complete(lesson.n, .talk) }
+                if cur < dialogues.count {
+                    DialoguePlayer(dialogue: dialogues[cur], scene: cur == 0 ? tb?.conversation.sceneTH : nil) {
+                        course.markTalk(dialogues[cur].key)
+                        if keys.allSatisfy({ course.talks.contains($0) }) { course.complete(lesson.n, .talk) }
+                    }
+                    .id(cur)
+                } else {
+                    ScenePlayer(scene: pair[cur - dialogues.count], onSwitch: { s in
+                        if let j = pair.firstIndex(of: s) { pick = dialogues.count + j }
+                    })
+                    .id(cur)
                 }
-                .id(pick)
             }
             StepFooter(lesson: lesson, step: .talk)
+        }
+        .onChange(of: course.talks) {
+            let keys = ((Textbook.lesson(lesson.n).map { [$0.dialogue.key] } ?? []) + lesson.dialogues) + Talk.lessonPair(lesson.n).map(\.id)
+            if !keys.isEmpty, keys.allSatisfy({ course.talks.contains($0) }) { course.complete(lesson.n, .talk) }
         }
     }
 }

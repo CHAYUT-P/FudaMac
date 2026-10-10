@@ -9,17 +9,19 @@ struct MacTalkView: View {
 
     var body: some View {
         let scenes = Talk.scenes
+        let situations = Talk.situations
         let cur = scenes.first { $0.id == router.talkID } ?? scenes.first
+        let lessonCount = Set(scenes.compactMap(\.lesson)).count
         HStack(spacing: 0) {
             ListColumn(width: 290) {
                 VStack(alignment: .leading, spacing: 4) {
                     TrackedLabel(text: "話 · Conversations")
                     Text("Must-know talk").font(Typo.mincho(26))
-                    Text("\(scenes.count) real-life scenes · \(scenes.filter { course.talks.contains($0.id) }.count) done").font(Typo.ui(12)).foregroundStyle(Ink.soft)
+                    Text("\(situations.count) real-life scenes · \(lessonCount) lesson talks × 2 · \(scenes.filter { course.talks.contains($0.id) }.count) done").font(Typo.ui(12)).foregroundStyle(Ink.soft)
                 }
                 .padding(.horizontal, 22).padding(.top, 22).padding(.bottom, 4)
                 ForEach(TalkPlace.allCases) { place in
-                    let items = scenes.filter { $0.place == place }
+                    let items = situations.filter { $0.place == place }
                     if !items.isEmpty {
                         ListGroupLabel(text: "\(place.ja) · \(place.en.uppercased())")
                         ForEach(items) { s in
@@ -29,8 +31,22 @@ struct MacTalkView: View {
                         }
                     }
                 }
+                ForEach(CoursePart.all) { part in
+                    let pairs = part.lessons.map(Talk.lessonPair).filter { !$0.isEmpty }
+                    if !pairs.isEmpty {
+                        ListGroupLabel(text: "課の会話 第\(part.numeral)部 · LESSON TALKS \(part.lessons.lowerBound)–\(part.lessons.upperBound)")
+                        ForEach(pairs, id: \.first!.id) { pair in
+                            let first = pair[0]
+                            let done = pair.filter { course.talks.contains($0.id) }.count
+                            ListRow(title: first.title, subtitle: "Lesson \(first.lesson ?? 0) · 友達と + 丁寧に", trailing: done == pair.count ? "済" : done > 0 ? "\(done)/\(pair.count)" : "",
+                                    trailingAccent: true, selected: cur?.pair != nil && cur?.pair == first.pair) {
+                                router.talkID = first.id
+                            }
+                        }
+                    }
+                }
             }
-            if let s = cur { ScenePlayer(scene: s).id(s.id) }
+            if let s = cur { ScenePlayer(scene: s, onSwitch: { router.talkID = $0.id }).id(s.id) }
         }
     }
 }
@@ -39,6 +55,8 @@ struct ScenePlayer: View {
     @Environment(ProgressStore.self) private var store
     @Environment(CourseProgress.self) private var course
     let scene: TalkScene
+    /// Lesson conversations: switch to the other telling (friend ↔ polite).
+    var onSwitch: ((TalkScene) -> Void)? = nil
     @State private var mode = 0                 // 0 read, 1 role-play
     @State private var focus: TalkLine?
     @State private var turn = 0
@@ -62,12 +80,24 @@ struct ScenePlayer: View {
             HStack(alignment: .bottom, spacing: 14) {
                 VStack(alignment: .leading, spacing: 2) {
                     MixedText(scene.title, size: 30, weight: .bold).fixedSize()
-                    Text("\(scene.en) · \(scene.level.title) · \(scene.spoken.count) lines · you say \(scene.yourLines)").font(Typo.ui(13)).foregroundStyle(Ink.soft).lineLimit(1)
+                    Text("\(scene.lesson.map { "Lesson \($0)" } ?? scene.level.title) · \(scene.en) · \(scene.spoken.count) lines · you say \(scene.yourLines)").font(Typo.ui(13)).foregroundStyle(Ink.soft).lineLimit(1)
                 }
                 Spacer()
+
                 ReadingToggles()
             }
             MixedText(store.settings.showEnglish ? scene.aboutEN : scene.aboutTH, size: 13, color: Ink.soft)
+            if let other = scene.partner {
+                HStack(spacing: 12) {
+                    HStack(spacing: 0) {
+                        registerButton(scene.isCasual ? scene : other)
+                        registerButton(scene.isCasual ? other : scene)
+                    }
+                    .overlay(Rectangle().strokeBorder(Ink.ink, lineWidth: 2))
+                    .fixedSize()
+                    Text("สถานการณ์เดียวกัน พูดสองแบบ · the same situation, said two ways").font(Typo.ui(12, .bold)).foregroundStyle(Ink.soft)
+                }
+            }
             HStack(spacing: 0) {
                 tab("読む", "Read", 0)
                 tab("役", "Role-play", 1)
@@ -83,6 +113,22 @@ struct ScenePlayer: View {
         .padding(.horizontal, 30).padding(.top, 22)
         .background(Ink.card)
         .overlay(alignment: .bottom) { Rectangle().fill(Ink.ink).frame(height: 2) }
+    }
+
+    /// 友達と / 丁寧に: the same situation in the other register.
+    private func registerButton(_ s: TalkScene) -> some View {
+        let on = s.id == scene.id
+        return Button { if !on { onSwitch?(s) } } label: {
+            VStack(spacing: 0) {
+                Text(s.registerJA).font(Typo.mincho(15)).lineLimit(1)
+                Text(s.isCasual ? "Casual · กับเพื่อน" : "Polite · สุภาพ").font(.system(size: 10, weight: .heavy)).lineLimit(1)
+            }
+            .padding(.horizontal, 14).frame(height: 46)
+            .foregroundStyle(on ? Ink.onInk : Ink.ink).background(on ? (s.isCasual ? Ink.akane : Ink.ink) : Ink.card)
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+        .help(s.isCasual ? "How you'd say it to a friend" : "How you'd say it to a teacher, a stranger or staff")
     }
 
     private func tab(_ ja: String, _ en: String, _ i: Int) -> some View {
@@ -131,6 +177,19 @@ struct ScenePlayer: View {
                 VStack(alignment: .leading, spacing: 2) {
                     SentenceBlock(ja: line.ja, kana: line.kana, romaji: line.romaji, th: line.th, en: line.en, size: 19)
                     if line.key { Text("KEY PHRASE").font(.system(size: 9, weight: .heavy)).tracking(1).foregroundStyle(Ink.akane).padding(.top, 2) }
+                    if !line.grammar.isEmpty {
+                        Flow(spacing: 4) {
+                            ForEach(line.grammar, id: \.self) { k in
+                                if let g = DB.shared.grammarCard(k) {
+                                    Text("文法 " + g.prompt).font(.system(size: 10, weight: .bold)).lineLimit(1)
+                                        .padding(.horizontal, 5).padding(.vertical, 1)
+                                        .foregroundStyle(Ink.ink).background(Ink.chip)
+                                        .help(g.meaningEN)
+                                }
+                            }
+                        }
+                        .padding(.top, 3)
+                    }
                 }
                 .padding(.horizontal, 14).padding(.vertical, 10)
                 .frame(maxWidth: 520, alignment: .leading)

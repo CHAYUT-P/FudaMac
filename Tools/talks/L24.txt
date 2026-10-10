@@ -1,0 +1,104 @@
+@scene l24_casual
+title: 試験まであと二か月
+en: Two months to the exam (with friends)
+th: อีกสองเดือนจะสอบ (กับเพื่อน)
+glyph: 試
+level: n4
+place: people
+lesson: 24
+register: casual
+pair: l24
+about: Tam and Lin swap study tips in the library before the JLPT. Then John turns up with his arm bandaged. ために, 〜ように (so that), 〜ようにしてる／〜ようになった, 〜ようにって (told to), 〜のに (for) and 〜ば〜ほど. | ตัมกับหลินแลกเคล็ดลับการอ่านหนังสือสอบวัดระดับกันที่ห้องสมุด แล้วจอห์นก็โผล่มาพร้อมแขนที่พันผ้า ฝึก ために, 〜ように (เพื่อให้), 〜ようにしてる／〜ようになった, 〜ようにって (บอกให้), 〜のに (สำหรับ) และ 〜ば〜ほど
+--- 図書館で | At the library | ที่ห้องสมุด
+リン*: タム、最近毎日ここにいるね。 | タム、さいきんまいにちここにいるね。 | ตัม ช่วงนี้อยู่ที่นี่ทุกวันเลยนะ | Tam, you've been here every day lately.
+You: うん。N4に合格するために、毎日二時間勉強するようにしてるんだ。 | うん。エヌよんにごうかくするために、まいにちにじかんべんきょうするようにしてるんだ。 | อืม เพื่อจะสอบ N4 ให้ผ่าน เลยพยายามอ่านหนังสือวันละสองชั่วโมง | Yeah. To pass N4, I'm making a point of studying two hours a day.
+g: n4.e.tameni, n4.e.youni2
+note: ために = "in order to", for a goal you work towards yourself. ようにしてる = "I make a point of…": a habit you keep up. 合格 (ごうかく) = passing an exam. | ために = เพื่อ… ใช้กับเป้าหมายที่เราลงมือทำเอง ส่วน ようにしてる = พยายามทำเป็นประจำ เป็นนิสัยที่รักษาไว้ 合格 (ごうかく) = สอบผ่าน
+リン: えらいなあ。私、漢字がなかなか覚えられなくて…。 | えらいなあ。わたし、かんじがなかなかおぼえられなくて…。 | เก่งจัง ฉันจำคันจิไม่ค่อยได้เลย… | Good for you. I just can't get kanji to stick…
+g: n4.e.nakanaka, n4.v.potential
+You: 僕も最初はそうだった。でも、書けば書くほど覚えられるよ。 | ぼくもさいしょはそうだった。でも、かけばかくほどおぼえられるよ。 | ตอนแรกฉันก็เป็น แต่ยิ่งเขียนก็ยิ่งจำได้นะ | I was the same at first. But the more you write, the more you remember.
+g: n4.c.bahodo, n4.v.potential
+note: ば-form + the same verb + ほど = "the more you…, the more…". 書けば書くほど = the more you write. | รูป ば + กริยาเดิม + ほど = ยิ่ง…ยิ่ง… 書けば書くほど = ยิ่งเขียนมากเท่าไร
+You: 最近は、駅の案内も少し読めるようになったよ。 | さいきんは、えきのあんないもすこしよめるようになったよ。 | ช่วงนี้เริ่มอ่านป้ายในสถานีออกบ้างแล้วนะ | Lately I've started to be able to read some of the station signs.
+g: n4.e.youni2, n4.v.potential
+note: Potential + ようになった = "I've come to be able to…": a change that happened little by little. | รูปสามารถ + ようになった = ตอนนี้ทำ…ได้แล้ว ใช้กับการเปลี่ยนแปลงที่ค่อยๆ เกิดขึ้น
+リン: すごい！言葉はどうやって覚えてるの？ | すごい！ことばはどうやっておぼえてるの？ | สุดยอด แล้วคำศัพท์จำยังไงเหรอ | Amazing! How do you learn vocabulary?
+You: このアプリ。言葉を覚えるのに、すごく便利なんだ。 | このアプリ。ことばをおぼえるのに、すごくべんりなんだ。 | แอปนี้ ใช้จำคำศัพท์สะดวกมาก | This app. It's really handy for learning words.
+g: n4.e.noni2
+note: Dictionary form + のに = "for (doing)", usually with 便利, いい, 必要 or かかる. It's different from the のに meaning "although". | รูปพจนานุกรม + のに = สำหรับ (การทำ…) มักใช้กับ 便利, いい, 必要, かかる คนละความหมายกับ のに ที่แปลว่า ทั้งที่
+リン: へえ、私も入れてみよう。 | へえ、わたしもいれてみよう。 | เหรอ ฉันลองโหลดมั่งดีกว่า | Huh, I'll try getting it too.
+g: n4.v.volitional, n4.t.temiru
+You: 忘れないように、寝る前にもう一回見るようにしてる。 | わすれないように、ねるまえにもういっかいみるようにしてる。 | จะได้ไม่ลืม ก่อนนอนฉันจะดูอีกรอบ | So I don't forget, I make sure to look again before bed.
+g: n4.e.youni1, n4.e.youni2
+note: ない-form + ように = "so that I don't…". Use ように (not ために) when the goal isn't fully in your control: forgetting, being able to, etc. | รูป ない + ように = เพื่อจะได้ไม่… ใช้ ように (ไม่ใช่ ために) เมื่อผลลัพธ์ไม่ได้อยู่ในการควบคุมของเราโดยตรง เช่น การลืม การทำได้
+リン*: 先生も「寝る前に復習するように」って言ってたよね。 | せんせいも「ねるまえにふくしゅうするように」っていってたよね。 | ครูก็บอกว่า "ให้ทบทวนก่อนนอนนะ" ใช่ไหม | The teacher told us to review before bed too, didn't she?
+g: n4.e.youni3
+note: 〜ように言う = "tell someone to do…". It's a softer way to pass on an instruction than quoting 〜てください. | 〜ように言う = บอกให้ทำ… เป็นการเล่าคำสั่งหรือคำขอแบบนุ่มกว่าการยก 〜てください มาพูดตรงๆ
+--- ジョンの腕 | John's arm | แขนของจอห์น
+ジョン*: よう、二人とも…。 | よう、ふたりとも…。 | ไง ทั้งสองคน… | Hey, you two…
+リン: ジョン！その腕、どうしたの？ | ジョン！そのうで、どうしたの？ | จอห์น แขนเป็นอะไรน่ะ | John! What happened to your arm?
+ジョン: 昨日、自転車で転んじゃって。医者が、一か月は右手を使わないようにって。 | きのう、じてんしゃでころんじゃって。いしゃが、いっかげつはみぎてをつかわないようにって。 | เมื่อวานล้มจักรยาน หมอบอกว่าอย่าใช้มือขวาสักเดือนนึง | I fell off my bike yesterday. The doctor said not to use my right hand for a month.
+g: n4.e.youni3, n4.t.teshimau
+note: Casual speech often stops at ようにって, dropping 言った: "(he told me) not to…". | ภาษาพูดแบบกันเองมักจบแค่ ようにって โดยตัด 言った ออก = (หมอ) บอกว่าอย่า…
+You: えっ、一か月も？試験、大丈夫？ | えっ、いっかげつも？しけん、だいじょうぶ？ | ห๊ะ ตั้งเดือนนึงเลยเหรอ แล้วสอบจะไหวไหม | What, a whole month? Will you be OK for the exam?
+ジョン: 右手が使えないと、字を書くのに時間がかかるんだよなあ…。 | みぎてがつかえないと、じをかくのにじかんがかかるんだよなあ…。 | ใช้มือขวาไม่ได้ เขียนหนังสือทีก็ใช้เวลานานมาก… | Without my right hand, it takes forever to write anything…
+g: n4.e.noni2, n4.c.to, n4.v.potential
+note: 字を書くのに時間がかかる = "writing takes time". のに + かかる (time, money) is one of the most common uses of this pattern. | 字を書くのに時間がかかる = เขียนหนังสือต้องใช้เวลา のに + かかる (เวลา เงิน) เป็นรูปแบบที่ใช้บ่อยที่สุดของไวยากรณ์นี้
+リン: じゃあ、ジョンが困らないように、授業のノートは私たちがコピーしてあげるよ。 | じゃあ、ジョンがこまらないように、じゅぎょうのノートはわたしたちがコピーしてあげるよ。 | งั้นเราจะถ่ายเอกสารสมุดจดให้นะ จอห์นจะได้ไม่ลำบาก | Then we'll copy our class notes for you, so you won't be stuck.
+g: n4.e.youni1, n4.t.teageru
+ジョン: ありがとう！持つべきものは友達だね。 | ありがとう！もつべきものはともだちだね。 | ขอบใจ มีเพื่อนดีนี่มันดีจริงๆ | Thanks! What would I do without friends?
+g: n4.e.beki
+note: 持つべきものは友達 is a set saying: "friends are what you should have". Here it's said with a grin. | 持つべきものは友達 เป็นสำนวน แปลว่า สิ่งที่ควรมีคือเพื่อน ตรงนี้พูดแบบยิ้มๆ ขอบคุณเพื่อน
+You: 早く治るように、今日はゆっくり休んでね。 | はやくなおるように、きょうはゆっくりやすんでね。 | พักผ่อนเยอะๆ วันนี้นะ จะได้หายเร็วๆ | Get some proper rest today so it heals quickly.
+g: n4.e.youni1
+
+@scene l24_polite
+title: 勉強のやり方
+en: How to study (with the teacher)
+th: วิธีอ่านหนังสือ (กับครู)
+glyph: 試
+level: n4
+place: people
+lesson: 24
+register: polite
+pair: l24
+about: After class Ms Yamada checks how Tam's JLPT study is going. Then John comes in with his arm bandaged. Polite ために, 〜ように, 〜ようにしています／〜ようになりました, 〜ように言っていました, 〜のに (for) and 〜ば〜ほど. | หลังเลิกเรียน ครูยามาดะถามตัมว่าเตรียมสอบวัดระดับไปถึงไหนแล้ว แล้วจอห์นก็เดินเข้ามาพร้อมแขนที่พันผ้า ฝึก ために, 〜ように, 〜ようにしています／〜ようになりました, 〜ように言っていました, 〜のに (สำหรับ) และ 〜ば〜ほど แบบสุภาพ
+--- 放課後の教室で | In the classroom after school | ในห้องเรียนหลังเลิกเรียน
+山田先生*: タムさん、試験まであと二か月ですね。勉強は進んでいますか。 | タムさん、しけんまであとにかげつですね。べんきょうはすすんでいますか。 | ตัม อีกสองเดือนก็จะสอบแล้วนะ อ่านหนังสือไปถึงไหนแล้ว | Tam, two months until the exam. How's your studying going?
+You: はい。合格するために、毎日二時間勉強するようにしています。 | はい。ごうかくするために、まいにちにじかんべんきょうするようにしています。 | ครับ เพื่อจะสอบให้ผ่าน ผมพยายามอ่านหนังสือวันละสองชั่วโมงครับ | Yes. To pass, I'm making a point of studying two hours every day.
+g: n4.e.tameni, n4.e.youni2
+note: Polite: ようにしています. With a friend: ようにしてる. | แบบสุภาพใช้ ようにしています ถ้ากับเพื่อนพูดว่า ようにしてる
+山田先生: それはいいですね。漢字はどうですか。 | それはいいですね。かんじはどうですか。 | ดีมาก แล้วคันจิเป็นยังไงบ้าง | That's good. How about kanji?
+You: 前より読めるようになりましたが、書くのはまだ難しいです。 | まえよりよめるようになりましたが、かくのはまだむずかしいです。 | อ่านได้มากกว่าเมื่อก่อนแล้วครับ แต่เขียนยังยากอยู่ครับ | I can read more than before now, but writing is still hard.
+g: n4.e.youni2, n4.v.potential
+山田先生*: 漢字は、書けば書くほど覚えられますよ。毎日少し書くようにしてください。 | かんじは、かけばかくほどおぼえられますよ。まいにちすこしかくようにしてください。 | คันจิยิ่งเขียนก็ยิ่งจำได้นะ พยายามเขียนทุกวันสักนิดนะ | With kanji, the more you write, the more you remember. Try to write a little every day.
+g: n4.c.bahodo, n4.e.youni2
+note: ようにしてください = "please make a habit of…". A teacher's gentle instruction to keep doing something. | ようにしてください = พยายามทำ…เป็นประจำนะ เป็นคำแนะนำนุ่มๆ ของครูให้ทำอะไรต่อเนื่อง
+You: はい。それから、言葉を覚えるのに、いいやり方はありませんか。 | はい。それから、ことばをおぼえるのに、いいやりかたはありませんか。 | ครับ แล้วก็ มีวิธีจำคำศัพท์ดีๆ ไหมครับ | Yes. Also, is there a good way to memorise vocabulary?
+g: n4.e.noni2, n4.e.kata
+note: 〜のに、いいやり方はありませんか = "is there a good way to…?" A useful polite question for asking advice. | 〜のに、いいやり方はありませんか = มีวิธีดีๆ สำหรับ…ไหม เป็นคำถามสุภาพที่ใช้ขอคำแนะนำได้บ่อย
+山田先生: 忘れないように、寝る前にもう一度見るといいですよ。 | わすれないように、ねるまえにもういちどみるといいですよ。 | จะได้ไม่ลืม ก่อนนอนลองดูอีกรอบก็ดีนะ | So you don't forget, it's good to look at them once more before bed.
+g: n4.e.youni1, n4.c.taraii
+You: 分かりました。そうするようにします。 | わかりました。そうするようにします。 | เข้าใจแล้วครับ จะพยายามทำแบบนั้นครับ | I see. I'll make sure to do that.
+g: n4.e.youni2
+--- ジョンさんの腕 | John's arm | แขนของจอห์น
+ジョン*: 失礼します。先生、遅くなってすみません。 | しつれいします。せんせい、おそくなってすみません。 | ขออนุญาตครับ อาจารย์ ขอโทษที่มาช้าครับ | Excuse me. Sorry I'm late, sensei.
+山田先生: ジョンさん！その腕、どうしたんですか。 | ジョンさん！そのうで、どうしたんですか。 | จอห์น แขนเป็นอะไรไป | John! What happened to your arm?
+ジョン: 昨日、自転車で転んでしまいました。お医者さんが、一か月は右手を使わないようにと言っていました。 | きのう、じてんしゃでころんでしまいました。おいしゃさんが、いっかげつはみぎてをつかわないようにといっていました。 | เมื่อวานล้มจักรยานครับ คุณหมอบอกว่าไม่ให้ใช้มือขวาหนึ่งเดือนครับ | I fell off my bike yesterday. The doctor said not to use my right hand for a month.
+g: n4.e.youni3, n4.t.teshimau
+note: 〜ないようにと言っていました = "said (I should) not…". This is how you politely report what someone told you to do. | 〜ないようにと言っていました = บอกว่าไม่ให้… เป็นวิธีเล่าแบบสุภาพว่ามีคนสั่งหรือแนะนำให้ทำอะไร
+山田先生: それは大変でしたね。試験の勉強は大丈夫ですか。 | それはたいへんでしたね。しけんのべんきょうはだいじょうぶですか。 | แย่เลยนะ แล้วอ่านหนังสือสอบจะไหวไหม | That's awful. Will you manage with your exam studying?
+ジョン: 字を書くのに時間がかかりますが、頑張ります。 | じをかくのにじかんがかかりますが、がんばります。 | เขียนหนังสือต้องใช้เวลา แต่จะพยายามครับ | It takes me a while to write, but I'll do my best.
+g: n4.e.noni2
+You: 先生、ジョンさんのために、私が授業のノートをコピーしようと思います。 | せんせい、ジョンさんのために、わたしがじゅぎょうのノートをコピーしようとおもいます。 | อาจารย์ครับ ผมคิดว่าจะถ่ายเอกสารสมุดจดให้จอห์นครับ | Sensei, I'm thinking of copying the class notes for John.
+g: n4.e.tameni, n4.v.volitional2
+note: N + のために = "for (the sake of) N". ジョンさんのために = for John. | N + のために = เพื่อ N ジョンさんのために = เพื่อจอห์น
+山田先生*: ありがとう、タムさん。ジョンさん、無理をしないように気をつけてくださいね。 | ありがとう、タムさん。ジョンさん、むりをしないようにきをつけてくださいね。 | ขอบใจนะ ตัม จอห์นก็ระวังอย่าฝืนตัวเองนะ | Thank you, Tam. John, be careful not to overdo it.
+g: n4.e.youni1
+ジョン: はい。でも、休めば休むほど、勉強が遅れてしまいますから…。 | はい。でも、やすめばやすむほど、べんきょうがおくれてしまいますから…。 | ครับ แต่ยิ่งพักนาน การเรียนก็ยิ่งตามไม่ทันน่ะครับ… | Yes. But the longer I rest, the further behind I get…
+g: n4.c.bahodo, n4.t.teshimau
+山田先生: 大丈夫ですよ。早く治るように、祈っていますね。 | だいじょうぶですよ。はやくなおるように、いのっていますね。 | ไม่เป็นไรหรอก ครูขอให้หายเร็วๆ นะ | Don't worry. I hope it heals soon.
+g: n4.e.youni1
+note: 〜ように祈っています = "I'm praying that…", a warm way to wish someone well. | 〜ように祈っています = ขอภาวนาให้… เป็นวิธีอวยพรที่อบอุ่น
+You: ジョンさん、一緒に頑張りましょう。 | ジョンさん、いっしょにがんばりましょう。 | จอห์น มาพยายามไปด้วยกันนะครับ | John, let's do our best together.
+g: n5.v.invite

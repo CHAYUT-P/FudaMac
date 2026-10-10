@@ -41,6 +41,13 @@ struct Settings: Codable, Equatable {
     }
 }
 
+struct ListMark: Codable, Hashable {
+    var right = 0
+    var wrong = 0
+    var last = false
+    var date = Date.now
+}
+
 struct DayStat: Codable, Hashable {
     var reviews = 0
     var correct = 0
@@ -60,11 +67,13 @@ final class ProgressStore {
         var settings = Settings()
         var talkBest: [String: Int] = [:]
         var talkSeen: Set<String> = []
+        var listMarks: [String: ListMark] = [:]
 
         init(states: [String: CardState], starred: Set<String>, quizMisses: [String: Int], days: [String: DayStat],
-             settings: Settings, talkBest: [String: Int], talkSeen: Set<String>) {
+             settings: Settings, talkBest: [String: Int], talkSeen: Set<String>, listMarks: [String: ListMark]) {
             self.states = states; self.starred = starred; self.quizMisses = quizMisses; self.days = days
             self.settings = settings; self.talkBest = talkBest; self.talkSeen = talkSeen
+            self.listMarks = listMarks
         }
 
         // Every field optional on read, so adding fields never wipes old progress.
@@ -77,6 +86,7 @@ final class ProgressStore {
             settings = (try? c.decodeIfPresent(Settings.self, forKey: .settings)) ?? Settings()
             talkBest = try c.decodeIfPresent([String: Int].self, forKey: .talkBest) ?? [:]
             talkSeen = try c.decodeIfPresent(Set<String>.self, forKey: .talkSeen) ?? []
+            listMarks = (try? c.decodeIfPresent([String: ListMark].self, forKey: .listMarks)) ?? [:]
         }
     }
 
@@ -86,6 +96,7 @@ final class ProgressStore {
     private(set) var days: [String: DayStat] = [:]
     private(set) var talkBest: [String: Int] = [:]     // scene id → best role-play %
     private(set) var talkSeen: Set<String> = []
+    private(set) var listMarks: [String: ListMark] = [:]   // vocab id → typed-meaning results (word list)
     var settings = Settings() { didSet { if settings != oldValue { save() } } }
 
     @ObservationIgnored private let url: URL
@@ -100,9 +111,32 @@ final class ProgressStore {
             dec.dateDecodingStrategy = .secondsSince1970
             if let s = try? dec.decode(Snapshot.self, from: data) {
                 states = s.states; starred = s.starred; quizMisses = s.quizMisses; days = s.days; settings = s.settings
-                talkBest = s.talkBest; talkSeen = s.talkSeen
+                talkBest = s.talkBest; talkSeen = s.talkSeen; listMarks = s.listMarks
+                if followRenamedWords() { save() }
             }
         }
+    }
+
+    /// Words merged or re-keyed in the data (Resources/vocab-renames.json): move their
+    /// saved progress to the new id. Where both exist, the new id's record wins.
+    private func followRenamedWords() -> Bool {
+        guard let url = Bundle.main.url(forResource: "vocab-renames", withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let renames = try? JSONDecoder().decode([String: String].self, from: data) else { return false }
+        func move<V>(_ dict: inout [String: V], _ from: String, _ to: String) -> Bool {
+            guard let v = dict.removeValue(forKey: from) else { return false }
+            if dict[to] == nil { dict[to] = v }
+            return true
+        }
+        var changed = false
+        for (old, new) in renames {
+            changed = move(&states, "v:" + old, "v:" + new) || changed
+            changed = move(&quizMisses, "v:" + old, "v:" + new) || changed
+            changed = move(&listMarks, old, new) || changed
+            changed = move(&listMarks, "jp:" + old, "jp:" + new) || changed
+            if starred.remove("v:" + old) != nil { starred.insert("v:" + new); changed = true }
+        }
+        return changed
     }
 
     // MARK: Queries
@@ -249,8 +283,30 @@ final class ProgressStore {
         save()
     }
 
+    func recordList(_ id: String, correct: Bool) {
+        var m = listMarks[id] ?? ListMark()
+        if correct { m.right += 1 } else { m.wrong += 1 }
+        m.last = correct
+        m.date = .now
+        listMarks[id] = m
+        save()
+    }
+
+    /// "I was right": the checker rejected an answer the learner knows was fine.
+    func fixListMark(_ id: String) {
+        guard var m = listMarks[id], !m.last else { return }
+        m.wrong = max(0, m.wrong - 1)
+        m.right += 1
+        m.last = true
+        listMarks[id] = m
+        save()
+    }
+
+    /// Share of words whose most recent typed answer was right.
+    func listKnown(_ ids: [String]) -> Int { ids.filter { listMarks[$0]?.last == true }.count }
+
     func reset() {
-        states = [:]; starred = []; quizMisses = [:]; days = [:]; talkBest = [:]; talkSeen = []
+        states = [:]; starred = []; quizMisses = [:]; days = [:]; talkBest = [:]; talkSeen = []; listMarks = [:]
         save()
     }
 
@@ -270,7 +326,7 @@ final class ProgressStore {
     private func save() {
         saveWork?.cancel()
         let snap = Snapshot(states: states, starred: starred, quizMisses: quizMisses, days: days,
-                            settings: settings, talkBest: talkBest, talkSeen: talkSeen)
+                            settings: settings, talkBest: talkBest, talkSeen: talkSeen, listMarks: listMarks)
         let url = url
         let work = DispatchWorkItem {
             let enc = JSONEncoder()

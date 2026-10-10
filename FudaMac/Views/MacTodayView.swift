@@ -72,7 +72,7 @@ struct MacTodayView: View {
                 VStack(spacing: 2) {
                     TrackedLabel(text: "Lesson", color: Ink.onInk.opacity(0.7), size: 10)
                     Text(l.numeral).font(Typo.mincho(l.n > 10 ? 54 : 88)).minimumScaleFactor(0.5).lineLimit(1)
-                    Text("of \(Course.shared.lessons.count) · \(l.level.title)").font(Typo.ui(12, .bold)).opacity(0.7)
+                    Text("of \(Course.shared.lessons.count) · 第\(l.part.numeral)部").font(Typo.ui(12, .bold)).opacity(0.7)
                 }
                 .foregroundStyle(Ink.onInk)
                 .frame(width: 180)
@@ -189,12 +189,14 @@ struct MacTodayView: View {
     // MARK: Talk / story / essential
 
     private var talkCard: some View {
-        let scene = Talk.scenes.first { !$0.spoken.isEmpty && $0.level == store.settings.level } ?? Talk.scenes.first
+        // The current lesson's conversation first (friend, then polite), else a real-life scene.
+        let lessonTalk = course.currentLesson.flatMap { l in Talk.lessonPair(l.n).first { !course.talks.contains($0.id) } ?? Talk.lessonPair(l.n).first }
+        let scene = lessonTalk ?? Talk.situations.first { !course.talks.contains($0.id) } ?? Talk.scenes.first
         return Button { router.talkID = scene?.id; router.section = .talk } label: {
             VStack(alignment: .leading, spacing: 8) {
                 TrackedLabel(text: "話 · Conversation")
                 Text(scene?.title ?? "").font(Typo.mincho(22))
-                Text(scene?.en ?? "").font(Typo.ui(12)).foregroundStyle(Ink.soft)
+                Text(scene.map { $0.lesson != nil ? "Lesson \($0.lesson!) · \($0.registerJA) \($0.registerEN)" : $0.en } ?? "").font(Typo.ui(12)).foregroundStyle(Ink.soft)
                 ForEach(Array((scene?.spoken.prefix(2) ?? []).enumerated()), id: \.offset) { _, line in
                     HStack(alignment: .firstTextBaseline, spacing: 6) {
                         Text(line.you ? "あなた" : (line.speaker.isEmpty ? "—" : line.speaker))

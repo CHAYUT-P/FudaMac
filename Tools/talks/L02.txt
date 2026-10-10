@@ -1,0 +1,118 @@
+@scene l02_casual
+title: それ、いくら？
+en: How much is that? (with a friend)
+th: อันนั้นเท่าไหร่ (กับเพื่อน)
+glyph: 二
+level: n5
+place: shop
+lesson: 2
+register: casual
+pair: l02
+about: Tam and Lin look for a pen at a 100-yen shop. これ・それ・あれ, question words, の for "mine", も for "me too", and ちょうだい, the casual ください. | ตัมกับหลินหาปากกาที่ร้านร้อยเยน ใช้ これ・それ・あれ คำถาม の แปลว่า "ของ…" も แปลว่า "ด้วย" และ ちょうだい ซึ่งเป็น ください แบบกันเอง
+--- 百円ショップ | At the 100-yen shop | ที่ร้านร้อยเยน
+You: ねえ、リン、ペンはどこ？ | ねえ、リン、ペンはどこ？ | นี่ หลิน ปากกาอยู่ไหนอะ | Hey, Lin, where are the pens?
+g: n5.qwords, n5.p.wa
+note: Politely you'd say ペンはどこですか. With a friend just drop ですか and let your voice go up. | ถ้าสุภาพจะพูดว่า ペンはどこですか แต่กับเพื่อนตัด ですか ทิ้ง แล้วขึ้นเสียงสูงตอนท้ายก็พอ
+リン*: あっちだよ。 | あっちだよ。 | ทางโน้นแหละ | Over there.
+g: n5.kosoado
+note: あっち is the casual あちら (that way, over there). Friends say こっち・そっち・あっち・どっち. | あっち คือ あちら แบบกันเอง แปลว่า "ทางโน้น" เพื่อนกันมักพูด こっち・そっち・あっち・どっち
+You: どれがいいかな。 | どれがいいかな。 | อันไหนดีน้า | Which one's good, I wonder?
+g: n5.qwords
+note: どれ = which one (out of three or more). かな is "I wonder", half talking to yourself. | どれ แปลว่า "อันไหน" (เลือกจากสามอย่างขึ้นไป) ส่วน かな แปลว่า "…น้า" เหมือนพูดกับตัวเองครึ่งหนึ่ง
+リン: このペン、いいよ。私のもこれ。 | このペン、いいよ。わたしのもこれ。 | ปากกาด้ามนี้ดีนะ ของเราก็ด้ามนี้ | This pen is good. Mine's this one too.
+g: n5.kosoado, n5.p.no, n5.p.mo
+note: 私の = mine. The の stands in for ペン, so you don't repeat it. も = too / also. | 私の แปลว่า "ของเรา" の แทนคำว่า ペン ได้เลยไม่ต้องพูดซ้ำ ส่วน も แปลว่า "ก็…ด้วย"
+You: へえ。それ、いくら？ | へえ。それ、いくら？ | เหรอ อันนั้นเท่าไหร่ | Oh yeah? How much is it?
+g: n5.kosoado, n5.qwords
+note: In casual talk は is often dropped: それはいくらですか → それ、いくら？ | ในภาษาพูดแบบกันเองมักละ は เช่น それはいくらですか เหลือแค่ それ、いくら？
+リン: 百円。ここは全部百円だよ。 | ひゃくえん。ここはぜんぶひゃくえんだよ。 | ร้อยเยน ร้านนี้ทุกอย่างร้อยเยนเลย | 100 yen. Everything here is 100 yen.
+g: n5.kosoado, n5.p.wa
+You*: 安い！じゃあ、僕もこれ。 | やすい！じゃあ、ぼくもこれ。 | ถูกจัง งั้นเราก็เอาอันนี้ด้วย | Cheap! Then I'll get this one too.
+g: n5.p.mo, n5.kosoado
+note: 僕もこれ is a short way to say "I'll have this too". Friends leave out the verb when it's obvious. | 僕もこれ เป็นวิธีพูดสั้นๆ ว่า "เราก็เอาอันนี้ด้วย" เพื่อนกันมักละกริยาถ้ารู้กันอยู่แล้ว
+リン*: あ、そのノートもかわいいよ。 | あ、そのノートもかわいいよ。 | อ้อ สมุดเล่มนั้นก็น่ารักนะ | Oh, that notebook's cute too.
+g: n5.kosoado, n5.p.mo
+You: これ？うーん、ノートはいいや。 | これ？うーん、ノートはいいや。 | เล่มนี้เหรอ อืม สมุดไม่เอาดีกว่า | This one? Hmm, I'm fine for notebooks.
+g: n5.kosoado
+note: いいや = "nah, I'm good". A relaxed way to turn something down with friends. | いいや แปลว่า "ไม่เอาดีกว่า" เป็นการปฏิเสธแบบสบายๆ ที่ใช้กับเพื่อน
+--- 忘れ物 | Something left behind | ลืมของ
+リン*: ねえ、この財布、誰の？ | ねえ、このさいふ、だれの？ | นี่ กระเป๋าตังค์ใบนี้ของใครอะ | Hey, whose wallet is this?
+g: n5.kosoado, n5.qwords, n5.p.no
+note: 誰の = whose. Politely: この財布は誰のですか. | 誰の แปลว่า "ของใคร" ถ้าพูดสุภาพจะเป็น この財布は誰のですか
+You: あっ、僕の！ありがとう。 | あっ、ぼくの！ありがとう。 | อ๊ะ ของเราเอง ขอบใจนะ | Oh, it's mine! Thanks.
+g: n5.p.no
+note: With friends ありがとう is enough; ございます is for polite situations. | กับเพื่อนพูดแค่ ありがとう ก็พอ ส่วน ございます ใช้ตอนต้องสุภาพ
+--- レジ | At the register | ที่แคชเชียร์
+店員: いらっしゃいませ。 | いらっしゃいませ。 | ยินดีต้อนรับ | Welcome.
+You: これ、ください。 | これ、ください。 | ขออันนี้ครับ | This, please.
+g: n5.e.wokudasai, n5.kosoado
+note: Even when you're out with a friend, talk to staff politely. これ、ください is perfect. | แม้จะมากับเพื่อน แต่พูดกับพนักงานต้องสุภาพ พูด これ、ください ก็ใช้ได้ดีเลย
+店員: 百十円です。 | ひゃくじゅうえんです。 | หนึ่งร้อยสิบเยนค่ะ | That's 110 yen.
+note: 100-yen shops add tax, so the price at the register is 110 yen. | ร้านร้อยเยนจะบวกภาษีเพิ่ม ราคาที่แคชเชียร์เลยเป็น 110 เยน
+You: はい。 | はい。 | ครับ | Here you go.
+--- 外で | Outside | ข้างนอกร้าน
+リン: あ、タム、それ何？ | あ、タム、それなに？ | อ้าว ตัม นั่นอะไรอะ | Oh, Tam, what's that?
+g: n5.kosoado, n5.qwords
+You: タイのお菓子。リンも食べる？ | タイのおかし。リンもたべる？ | ขนมไทย หลินกินด้วยไหม | Thai snacks. Want some too?
+g: n5.p.no, n5.p.mo
+note: 食べる？ (plain form + rising tone) is how friends ask "want to eat?". You'll learn the polite 食べますか soon. | 食べる？ (รูปธรรมดา + ขึ้นเสียงสูง) คือวิธีที่เพื่อนถามว่า "กินไหม" แบบสุภาพคือ 食べますか ซึ่งจะได้เรียนเร็วๆ นี้
+リン*: うん！一つちょうだい。 | うん！ひとつちょうだい。 | เอา ขอชิ้นนึงนะ | Yes! Give me one.
+g: n5.e.wokudasai
+note: ちょうだい is the casual ください, used with friends and family. Don't use it with staff or teachers. | ちょうだい คือ ください แบบกันเอง ใช้กับเพื่อนและครอบครัว ห้ามใช้กับพนักงานหรือครู
+You: はい、どうぞ。 | はい、どうぞ。 | เอ้า นี่ | Here you go.
+
+@scene l02_polite
+title: これはいくらですか
+en: How much is this? (polite)
+th: อันนี้ราคาเท่าไหร่ครับ (แบบสุภาพ)
+glyph: 二
+level: n5
+place: shop
+lesson: 2
+register: polite
+pair: l02
+about: Tam buys a pen at Mr Suzuki's small stationery shop near school. これ・それ・あれ and こちら・そちら, いくら, どなたの, も and Nをください. | ตัมซื้อปากกาที่ร้านเครื่องเขียนเล็กๆ ของคุณซูซูกิใกล้โรงเรียน ใช้ これ・それ・あれ กับ こちら・そちら いくら どなたの も และ Nをください
+--- 店で | In the shop | ในร้าน
+鈴木さん*: いらっしゃいませ。 | いらっしゃいませ。 | ยินดีต้อนรับครับ | Welcome.
+You: すみません、ボールペンはどこですか。 | すみません、ボールペンはどこですか。 | ขอโทษครับ ปากกาลูกลื่นอยู่ตรงไหนครับ | Excuse me, where are the ballpoint pens?
+g: n5.qwords, n5.p.wa
+note: Start with すみません to get attention politely. Compare the casual ペンはどこ？ | เริ่มด้วย すみません เพื่อเรียกอีกฝ่ายอย่างสุภาพ ลองเทียบกับแบบกันเอง ペンはどこ？
+鈴木さん: ボールペンですか。そちらです。 | ボールペンですか。そちらです。 | ปากกาลูกลื่นเหรอครับ อยู่ทางนั้นครับ | Ballpoint pens? Over there.
+g: n5.kosoado
+note: そちら is the polite そっち (that way, near you). Shop staff use こちら・そちら・あちら. | そちら คือ そっち แบบสุภาพ แปลว่า "ทางนั้น (ใกล้คุณ)" พนักงานร้านมักใช้ こちら・そちら・あちら
+You: これはいくらですか。 | これはいくらですか。 | อันนี้ราคาเท่าไหร่ครับ | How much is this?
+g: n5.kosoado, n5.qwords
+鈴木さん*: それは百五十円です。 | それはひゃくごじゅうえんです。 | อันนั้นหนึ่งร้อยห้าสิบเยนครับ | That's 150 yen.
+g: n5.kosoado
+note: You say これ (it's in your hand); he says それ (it's near you, not him). | เราพูด これ เพราะของอยู่ในมือเรา แต่เขาพูด それ เพราะของอยู่ใกล้เรา ไม่ได้อยู่ใกล้เขา
+You: このペンはどこのペンですか。 | このペンはどこのペンですか。 | ปากกาด้ามนี้ผลิตที่ไหนครับ | Where is this pen made?
+g: n5.kosoado, n5.qwords, n5.p.no
+note: どこの + noun asks where something is from or made. | どこの + คำนาม ใช้ถามว่าของนั้นมาจากที่ไหนหรือผลิตที่ไหน
+鈴木さん: 日本のペンです。とてもいいですよ。 | にほんのペンです。とてもいいですよ。 | ปากกาญี่ปุ่นครับ ดีมากเลยนะครับ | It's a Japanese pen. It's very good.
+g: n5.p.no
+You*: じゃあ、これをください。 | じゃあ、これをください。 | งั้นขออันนี้ครับ | Then I'll take this one, please.
+g: n5.e.wokudasai, n5.kosoado
+note: Nをください = "please give me N". It's the basic way to buy something. With a friend it becomes ちょうだい. | Nをください แปลว่า "ขอ N" เป็นวิธีพื้นฐานเวลาซื้อของ ถ้าเป็นเพื่อนจะใช้ ちょうだい แทน
+--- もう一つ | One more thing | อีกอย่างหนึ่ง
+You: すみません、その封筒もください。 | すみません、そのふうとうもください。 | ขอโทษครับ ขอซองจดหมายนั่นด้วยครับ | Excuse me, I'll take those envelopes too.
+g: n5.kosoado, n5.p.mo, n5.e.wokudasai
+note: も replaces を: その封筒をください → その封筒もください (those too). | も ใช้แทน を ได้เลย จาก その封筒をください เป็น その封筒もください (อันนั้นด้วย)
+鈴木さん*: これですか。何枚ですか。 | これですか。なんまいですか。 | อันนี้เหรอครับ กี่ซองครับ | These? How many?
+g: n5.kosoado, n5.qwords
+note: 枚 counts flat things like paper, envelopes and stamps. 何枚 = how many (sheets). | 枚 เป็นลักษณนามของของแบนๆ เช่น กระดาษ ซองจดหมาย แสตมป์ ส่วน 何枚 แปลว่า "กี่แผ่น/กี่ซอง"
+You: 五枚ください。 | ごまいください。 | ขอห้าซองครับ | Five, please.
+g: n5.e.wokudasai
+--- 傘 | Whose umbrella? | ร่มของใคร
+鈴木さん*: あの、この傘はどなたのですか。 | あの、このかさはどなたのですか。 | เอ่อ ร่มคันนี้ของท่านไหนครับ | Excuse me, whose umbrella is this?
+g: n5.kosoado, n5.qwords, n5.p.no
+note: どなた is the polite 誰 (who). どなたの = whose. | どなた คือ 誰 แบบสุภาพ แปลว่า "ใคร" ส่วน どなたの แปลว่า "ของใคร"
+You: 私のじゃありません。 | わたしのじゃありません。 | ไม่ใช่ของผมครับ | It's not mine.
+g: n5.p.no, n5.desu
+リン: あっ、それは私のです。すみません。 | あっ、それはわたしのです。すみません。 | อ๊ะ อันนั้นของฉันค่ะ ขอโทษค่ะ | Oh, that's mine. Sorry.
+g: n5.kosoado, n5.p.no
+鈴木さん: はい、どうぞ。 | はい、どうぞ。 | นี่ครับ เชิญครับ | Here you are.
+You: 全部でいくらですか。 | ぜんぶでいくらですか。 | ทั้งหมดเท่าไหร่ครับ | How much is it all together?
+g: n5.qwords
+鈴木さん: 二百円です。 | にひゃくえんです。 | สองร้อยเยนครับ | 200 yen.
+You: はい。ありがとうございました。 | はい。ありがとうございました。 | ครับ ขอบคุณมากครับ | Here. Thank you very much.
+note: After you've paid, say ありがとうございました (past tense) to thank the shop. With a friend it's just ありがとう. | หลังจ่ายเงินแล้ว พูด ありがとうございました (รูปอดีต) เพื่อขอบคุณร้าน ถ้าเป็นเพื่อนพูดแค่ ありがとう

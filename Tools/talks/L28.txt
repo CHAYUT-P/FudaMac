@@ -1,0 +1,113 @@
+@scene l28_casual
+title: 集まりの準備
+en: Getting the party ready (with friends)
+th: เตรียมงานพบปะ (กับเพื่อน)
+glyph: 集
+level: n4
+place: daily
+lesson: 28
+register: casual
+pair: l28
+about: Helping Yuki set up the neighbours' get-together, with John standing in for Lin. 〜のに, 〜代わりに, 〜くせに, 〜だけじゃなくて, 〜し, 〜せいで / 〜おかげで, 〜たとたん and それとも・つまり・たとえば in casual talk. | ช่วยยูกิเตรียมงานพบปะเพื่อนบ้าน โดยมีจอห์นมาแทนหลิน ฝึก 〜のに 〜代わりに 〜くせに 〜だけじゃなくて 〜し 〜せいで / 〜おかげで 〜たとたん และ それとも・つまり・たとえば แบบกันเอง
+--- 集会室で | In the common room | ที่ห้องส่วนกลาง
+ゆき*: タム、来てくれてありがとう！ | タム、きてくれてありがとう！ | ตัม ขอบใจนะที่มา! | Tam, thanks for coming!
+g: n4.t.teageru
+You: うん。あれ？リンは？絶対行くって言ってたのに。 | うん。あれ？リンは？ぜったいいくっていってたのに。 | อืม อ้าว หลินล่ะ ทั้งที่บอกว่าจะมาแน่ๆ แท้ๆ | Sure. Huh? Where's Lin? She said she'd definitely come.
+g: n4.e.noni1, n4.e.tte
+note: 〜のに = "even though" with disappointment or surprise: she promised, but she isn't here. It can end a sentence like this. | 〜のに = "ทั้งที่…แท้ๆ" แฝงความผิดหวังหรือแปลกใจ สัญญาแล้วแต่ไม่มา วางไว้ท้ายประโยคแบบนี้ได้เลย
+ゆき: 熱が出ちゃったんだって。代わりにジョンが来てくれたの。 | ねつがでちゃったんだって。かわりにジョンがきてくれたの。 | เห็นว่ามีไข้น่ะ เลยมีจอห์นมาแทน | She's got a fever, apparently. So John came instead.
+g: n4.e.kawarini, n4.e.tte
+ジョン*: そう、リンの代わりに来たよ！ | そう、リンのかわりにきたよ！ | ใช่ มาแทนหลินเอง! | Yep, I'm here in place of Lin!
+g: n4.e.kawarini
+note: Nの代わりに = "instead of N / in N's place". | Nの代わりに = "แทน N"
+You: え、ジョン、料理できないくせに、手伝いに来たの？ | え、ジョン、りょうりできないくせに、てつだいにきたの？ | เอ๊ะ จอห์น ทำอาหารก็ไม่เป็น ยังจะมาช่วยอีกเหรอ | Huh, John — you can't even cook, and you came to help?
+g: n4.e.kuseni
+note: 〜くせに criticises: "even though you can't cook…". Between close friends it's teasing; said to anyone else it sounds rude. | 〜くせに มีน้ำเสียงตำหนิ "ทั้งที่ทำอาหารไม่เป็นแท้ๆ" ระหว่างเพื่อนสนิทเป็นการแซว แต่พูดกับคนอื่นจะฟังดูหยาบคาย
+ジョン: 失礼だな。重い物を運ぶだけじゃなくて、掃除だってできるよ。 | しつれいだな。おもいものをはこぶだけじゃなくて、そうじだってできるよ。 | เสียมารยาทนะ ไม่ใช่แค่ขนของหนัก ทำความสะอาดก็ทำได้นะ | How rude. I can do more than carry heavy stuff — I can clean too, you know.
+g: n4.e.dakedenaku
+note: だけじゃなくて is the spoken form of だけでなく: "not only … but also". | だけじゃなくて คือรูปภาษาพูดของ だけでなく แปลว่า "ไม่ใช่แค่…แต่…ด้วย"
+ゆき: ふふ、助かる。今日は、このアパートの人だけじゃなくて、近所の人も来るから。 | ふふ、たすかる。きょうは、このアパートのひとだけじゃなくて、きんじょのひともくるから。 | หึหึ ช่วยได้เยอะเลย วันนี้ไม่ใช่แค่คนในอพาร์ตเมนต์ คนแถวนี้ก็มาด้วย | Ha, that helps. Today it's not just people from this building — the neighbours are coming too.
+g: n4.e.dakedenaku
+You: 何をすればいい？たとえば、テーブルを並べるとか？ | なにをすればいい？たとえば、テーブルをならべるとか？ | ให้ทำอะไรดี อย่างเช่นจัดโต๊ะไรงี้เหรอ | What should I do? Like, set up the tables?
+g: n4.e.conj, n4.c.taraii
+--- 準備 | Getting ready | เตรียมของ
+ゆき: うん、お願い。あと、飲み物も冷やしておいて。 | うん、おねがい。あと、のみものもひやしておいて。 | อืม ฝากด้วย แล้วก็แช่เครื่องดื่มไว้ด้วยนะ | Yeah, please. And put the drinks in to chill too.
+g: n4.t.teoku
+You: 飲み物は、お茶？それとも、ジュース？ | のみものは、おちゃ？それとも、ジュース？ | เครื่องดื่มเป็นชา หรือว่าน้ำผลไม้ | For drinks — tea? Or juice?
+g: n4.e.conj
+note: それとも = "or" between two questions — use it when asking someone to choose. | それとも = "หรือว่า" ใช้เชื่อมคำถามสองข้อ เวลาให้อีกฝ่ายเลือก
+ゆき: 両方。子供も来るし、お年寄りも来るし。 | りょうほう。こどももくるし、おとしよりもくるし。 | ทั้งสองอย่างเลย ทั้งเด็กก็มา ทั้งผู้สูงอายุก็มา | Both. Kids are coming, and older folks are coming too.
+g: n4.e.shi
+note: 〜し…〜し lists reasons: "kids are coming, old people are coming, (so both)". The conclusion is often left unsaid. | 〜し…〜し ใช้ยกเหตุผลหลายข้อ "ทั้งเด็กก็มา ทั้งผู้สูงอายุก็มา" ส่วนข้อสรุปมักละไว้ไม่พูด
+ジョン: ゆき、外のテーブルはどうする？ | ゆき、そとのテーブルはどうする？ | ยูกิ โต๊ะข้างนอกจะเอายังไง | Yuki, what about the tables outside?
+ゆき*: 雨のせいで、外は使えないの。つまり、全部この部屋でやるってこと。 | あめのせいで、そとはつかえないの。つまり、ぜんぶこのへやでやるってこと。 | เพราะฝนตก ข้างนอกเลยใช้ไม่ได้ สรุปคือจัดทุกอย่างในห้องนี้ | Because of the rain we can't use outside. In other words, we're doing everything in this room.
+g: n4.e.okage, n4.e.conj
+note: 〜せいで = "because of (something bad)"; for something good use おかげで. つまり = "in other words / so basically". | 〜せいで = "เพราะ…(เรื่องไม่ดี)" ถ้าเป็นเรื่องดีใช้ おかげで ส่วน つまり = "สรุปก็คือ"
+ジョン: えー、狭くない？ | えー、せまくない？ | เอ๊ ไม่แคบไปเหรอ | Ugh, won't it be cramped?
+You: 大丈夫。椅子の代わりに、座布団を使えばいいよ。 | だいじょうぶ。いすのかわりに、ざぶとんをつかえばいいよ。 | ไม่เป็นไร ใช้เบาะรองนั่งแทนเก้าอี้ก็ได้ | It's fine. We can use floor cushions instead of chairs.
+g: n4.e.kawarini, n4.c.taraii
+--- 準備が終わって | All done | เตรียมเสร็จ
+You: よし、終わった！…あ、座ったとたん、電話が鳴った。リンからだ。 | よし、おわった！…あ、すわったとたん、でんわがなった。リンからだ。 | เอาล่ะ เสร็จแล้ว! …อ้าว พอนั่งปุ๊บโทรศัพท์ก็ดังเลย หลินโทรมา | Right, done! ...Oh, the moment I sat down my phone rang. It's Lin.
+g: n4.e.tatotan
+note: Vたとたん = "the moment I did V" — and something happened right away, unexpectedly. | Vたとたん = "ทันทีที่…" แล้วมีอะไรเกิดขึ้นทันทีแบบไม่ทันตั้งตัว
+You: 「料理、残しておいて」だって。来られないのに、食べたいんだね。 | 「りょうり、のこしておいて」だって。こられないのに、たべたいんだね。 | เธอบอกว่า "เก็บอาหารไว้ให้ด้วยนะ" มาไม่ได้แท้ๆ แต่ยังอยากกิน | She says "Save me some food." She can't come, but she still wants to eat, huh.
+g: n4.e.tte, n4.e.noni1, n4.t.teoku
+ゆき*: ふふ。二人のおかげで、早く終わったよ。ありがとう！ | ふふ。ふたりのおかげで、はやくおわったよ。ありがとう！ | หึหึ ต้องขอบใจสองคนนะ เลยเสร็จเร็ว ขอบใจจริงๆ! | Heh. Thanks to you two, we finished early. Thank you!
+g: n4.e.okage
+note: Nのおかげで = "thanks to N" — the positive one. Use it to thank people. | Nのおかげで = "เพราะ…/ต้องขอบคุณ…" ใช้กับเรื่องดี เหมาะใช้ขอบคุณคน
+ジョン: ほら、「料理できないくせに」って言ったけど、役に立ったでしょ？ | ほら、「りょうりできないくせに」っていったけど、やくにたったでしょ？ | เห็นไหม ที่ว่า "ทำอาหารก็ไม่เป็น" น่ะ สุดท้ายก็มีประโยชน์ใช่ไหมล่ะ | See? You said "you can't even cook", but I was useful, right?
+g: n4.e.kuseni, n4.e.tte
+You: うん、ごめん。ジョンのおかげだよ。 | うん、ごめん。ジョンのおかげだよ。 | อืม ขอโทษนะ เพราะจอห์นเลยแหละ | Yeah, sorry. It's all thanks to you.
+g: n4.e.okage
+
+@scene l28_polite
+title: 大家さんのお手伝い
+en: Helping the landlady (polite)
+th: ช่วยงานเจ้าของอพาร์ตเมนต์ (สุภาพ)
+glyph: 集
+level: n4
+place: daily
+lesson: 28
+register: polite
+pair: l28
+role: 大家さん | Landlady | เจ้าของอพาร์ตเมนต์
+about: The same get-together, this time helping the landlady. 〜のに, 〜代わりに, 〜くせに (about her own husband), 〜だけでなく, 〜し, 〜せいで / 〜おかげで, 〜たとたん and または・それとも・つまり in polite speech. | งานพบปะแบบเดียวกัน แต่ช่วยเจ้าของอพาร์ตเมนต์ ฝึก 〜のに 〜代わりに 〜くせに (เธอพูดถึงสามีตัวเอง) 〜だけでなく 〜し 〜せいで / 〜おかげで 〜たとたん และ または・それとも・つまり แบบสุภาพ
+--- 集会室で | In the common room | ที่ห้องส่วนกลาง
+大家さん*: タムさん、お休みの日に来てくれて、ありがとうございます。 | タムさん、おやすみのひにきてくれて、ありがとうございます。 | คุณตัม ขอบคุณนะคะที่มาช่วยในวันหยุด | Tam, thank you for coming on your day off.
+g: n4.t.teageru
+You: いいえ。あの、リンさんも来ると言っていたのに、まだですか。 | いいえ。あの、リンさんもくるといっていたのに、まだですか。 | ไม่เป็นไรครับ เอ่อ คุณหลินก็บอกว่าจะมาแท้ๆ ยังไม่มาหรือครับ | Not at all. Um, Lin said she'd come too — is she not here yet?
+g: n4.e.noni1
+note: 〜のに works in polite speech too: 言っていたのに = "even though she said…". With staff or elders, keep it soft and don't sound like you're blaming. | 〜のに ใช้ในภาษาสุภาพได้ 言っていたのに = "ทั้งที่บอกไว้ว่า…" กับผู้ใหญ่ควรพูดเบาๆ อย่าให้ฟังเหมือนตำหนิ
+大家さん: 熱が出たそうです。でも、代わりにジョンさんが来てくれましたよ。 | ねつがでたそうです。でも、かわりにジョンさんがきてくれましたよ。 | ได้ยินว่ามีไข้ค่ะ แต่คุณจอห์นมาแทนให้แล้วนะคะ | I hear she has a fever. But John came instead.
+g: n4.e.kawarini, n4.e.souda2
+You: そうですか。ジョンさんは力があるので、助かりますね。 | そうですか。ジョンさんはちからがあるので、たすかりますね。 | อย่างนั้นหรือครับ คุณจอห์นแรงเยอะ ช่วยได้มากเลยนะครับ | I see. John's strong, so that's a big help.
+g: n5.e.node
+大家さん*: ええ。重い物を運ぶだけでなく、料理も手伝ってくれるそうです。うちの夫は料理ができないくせに、味にはうるさいんですよ。 | ええ。おもいものをはこぶだけでなく、りょうりもてつだってくれるそうです。うちのおっとはりょうりができないくせに、あじにはうるさいんですよ。 | ใช่ค่ะ ไม่ใช่แค่ขนของหนัก ได้ยินว่าจะช่วยทำอาหารด้วย สามีฉันน่ะ ทำอาหารไม่เป็นแท้ๆ แต่ชอบติเรื่องรสชาติจังเลยค่ะ | Yes. Not only carrying heavy things — I hear he'll help cook too. My husband can't cook, yet he's so fussy about taste!
+g: n4.e.dakedenaku, n4.e.kuseni, n4.e.souda2
+note: The landlady uses 〜くせに about her own husband, as a joke. Never use くせに about someone you should respect. | เจ้าของอพาร์ตเมนต์ใช้ 〜くせに พูดถึงสามีตัวเองแบบขำๆ ห้ามใช้ くせに กับคนที่เราควรให้ความเคารพ
+You: 今日は何人ぐらい来るんですか。 | きょうはなんにんぐらいくるんですか。 | วันนี้จะมากี่คนครับ | About how many people are coming today?
+g: n4.e.ndesu
+大家さん: 三十人ぐらいです。このアパートの方だけでなく、近所の方もいらっしゃいます。つまり、いつもの倍ですね。 | さんじゅうにんぐらいです。このアパートのかただけでなく、きんじょのかたもいらっしゃいます。つまり、いつものばいですね。 | ประมาณสามสิบคนค่ะ ไม่ใช่แค่คนในอพาร์ตเมนต์ คนแถวนี้ก็มาด้วย สรุปคือเยอะเป็นสองเท่าของปกติค่ะ | About thirty. Not only people from this building, but the neighbours too. So basically, twice the usual number.
+g: n4.e.dakedenaku, n4.e.conj
+note: だけでなく is the written/polite form of だけじゃなくて. つまり sums up what came before: "in other words". | だけでなく เป็นรูปสุภาพ/ภาษาเขียนของ だけじゃなくて ส่วน つまり ใช้สรุปสิ่งที่พูดมา "พูดง่ายๆ ก็คือ"
+--- 準備 | Getting ready | เตรียมของ
+You: 飲み物は、お茶にしますか。それとも、ジュースにしますか。 | のみものは、おちゃにしますか。それとも、ジュースにしますか。 | เครื่องดื่มจะเอาเป็นชา หรือว่าน้ำผลไม้ดีครับ | For drinks, shall we have tea? Or juice?
+g: n4.e.conj
+note: The polite way to offer a choice: 〜にしますか。それとも、〜にしますか。 | วิธีถามให้เลือกแบบสุภาพ: 〜にしますか。それとも、〜にしますか。
+大家さん: 両方お願いします。お子さんも来ますし、お年寄りも来ますから。 | りょうほうおねがいします。おこさんもきますし、おとしよりもきますから。 | ทั้งสองอย่างเลยค่ะ ทั้งเด็กๆ ก็มา ทั้งผู้สูงอายุก็มาค่ะ | Both, please. Children are coming, and older people too.
+g: n4.e.shi
+note: In polite speech, put し after the ます form: 来ますし. | ในภาษาสุภาพ ให้ต่อ し หลังรูป ます เช่น 来ますし
+You: 外のテーブルも使いますか。 | そとのテーブルもつかいますか。 | จะใช้โต๊ะข้างนอกด้วยไหมครับ | Will we use the tables outside too?
+大家さん*: いいえ、雨のせいで使えなくなりました。料理はこの机に置くか、または窓のそばのテーブルに置いてください。 | いいえ、あめのせいでつかえなくなりました。りょうりはこのつくえにおくか、またはまどのそばのテーブルにおいてください。 | ไม่ค่ะ เพราะฝนตกเลยใช้ไม่ได้แล้ว อาหารวางบนโต๊ะตัวนี้ หรือไม่ก็วางบนโต๊ะข้างหน้าต่างนะคะ | No, because of the rain we can't use them now. Please put the food on this desk, or else on the table by the window.
+g: n4.e.okage, n4.e.conj, n5.e.naru
+note: または = "or" in instructions and announcements (more formal than か…か alone). | または = "หรือ" ใช้ในคำสั่งหรือประกาศ ฟังเป็นทางการกว่า
+You: 分かりました。部屋が狭いので、椅子の代わりに座布団を出しましょうか。 | わかりました。へやがせまいので、いすのかわりにざぶとんをだしましょうか。 | เข้าใจแล้วครับ ห้องแคบ งั้นเอาเบาะรองนั่งออกมาแทนเก้าอี้ดีไหมครับ | Got it. The room's small, so shall I put out floor cushions instead of chairs?
+g: n4.e.kawarini, n5.v.invite, n5.e.node
+--- 準備が終わって | All done | เตรียมเสร็จ
+You: これで全部です。…あ、窓を開けたとたん、雨がやみましたね。 | これでぜんぶです。…あ、まどをあけたとたん、あめがやみましたね。 | เสร็จหมดแล้วครับ …อ้าว พอเปิดหน้าต่างปุ๊บ ฝนก็หยุดเลยนะครับ | That's everything. ...Oh, the moment I opened the window, the rain stopped.
+g: n4.e.tatotan
+note: 〜たとたん is for an unexpected event right after. You can't use it for your own planned action (not ×開けたとたん、掃除しました). | 〜たとたん ใช้กับเรื่องที่เกิดขึ้นทันทีแบบไม่คาดคิด ใช้กับการกระทำที่เราตั้งใจทำเองต่อไม่ได้
+大家さん*: あら、本当。タムさんたちのおかげで、準備が早く終わりました。 | あら、ほんとう。タムさんたちのおかげで、じゅんびがはやくおわりました。 | อุ๊ย จริงด้วย ต้องขอบคุณคุณตัมกับทุกคนนะคะ เตรียมเสร็จเร็วเลยค่ะ | Oh, so it did. Thanks to you all, we finished getting ready early.
+g: n4.e.okage
+You: いいえ。大家さんのおかげで、近所の方と知り合いになれて、嬉しいです。 | いいえ。おおやさんのおかげで、きんじょのかたとしりあいになれて、うれしいです。 | ไม่หรอกครับ ต้องขอบคุณคุณเจ้าของอพาร์ตเมนต์ต่างหาก ผมเลยได้รู้จักคนแถวนี้ ดีใจมากครับ | Not at all. Thanks to you, I've got to know the neighbours — I'm really happy.
+g: n4.e.okage, n4.v.potential
