@@ -153,6 +153,10 @@ enum MacShots {
                 }),
                 ("w-8-search", { wl.mode = .list; wl.query = "หั่น" }),
                 ("w-9-greetings", { wl.query = ""; open("basic.greeting", .list) }),
+                ("w-10-copy", {
+                    open("food.taste", .list)
+                    print("COPYTEXT-BEGIN\n" + WordExport.sentences.text(title: "味 รสชาติ · Taste", words: WordList.shared.words(sub: "food.taste")) + "\nCOPYTEXT-END")
+                }),
             ]
         }
         if let n = d.string(forKey: "FudaShotsLesson").flatMap(Int.init) {

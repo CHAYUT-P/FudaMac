@@ -45,7 +45,11 @@ final class WordListState {
 struct MacWordListView: View {
     @Environment(ProgressStore.self) private var store
     @Environment(MacRouter.self) private var router
+    @Environment(\.openURL) private var openURL
     @FocusState private var focus: String?
+    @State private var showCopy = false
+    @State private var copied: String?
+    @AppStorage("wordList.openGemini") private var openGemini = true
 
     private var state: WordListState { router.wordList }
     private let wl = WordList.shared
@@ -177,6 +181,48 @@ struct MacWordListView: View {
 
             ForEach(wl.categories) { c in categoryRow(c) }
         }
+    }
+
+    // MARK: Copy for Gemini
+
+    /// Copy the list on screen with a prompt, for pasting into Gemini.
+    private func copyMenu(_ ws: [ListWord]) -> some View {
+        let t = titles
+        let name = "\(t.title) \(t.sub)".trimmingCharacters(in: .whitespaces)
+        return VStack(alignment: .leading, spacing: 10) {
+            VStack(alignment: .leading, spacing: 2) {
+                Text("คัดลอกไปถาม Gemini").font(Typo.ui(16, .heavy))
+                Text("\(ws.count) คำในรายการนี้ · จำเป็นประโยคง่ายกว่า").font(Typo.ui(12)).foregroundStyle(Ink.soft)
+            }
+            ForEach(WordExport.allCases) { kind in
+                Button {
+                    WordExport.copy(kind.text(title: name, words: ws))
+                    showCopy = false
+                    copied = kind.rawValue
+                    if openGemini && kind != .list { openURL(WordExport.geminiURL) }
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) { if copied == kind.rawValue { copied = nil } }
+                } label: {
+                    HStack(alignment: .top, spacing: 12) {
+                        Text(kind.glyph).font(Typo.mincho(18)).frame(width: 34, height: 34)
+                            .foregroundStyle(kind == .sentences ? Ink.onAkane : Ink.onInk)
+                            .background(kind == .sentences ? Ink.akane : Ink.ink)
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(kind.title + (kind == .sentences ? "  · แนะนำ" : "")).font(Typo.ui(14, .bold))
+                            Text(kind.subtitle).font(Typo.ui(11)).foregroundStyle(Ink.soft).fixedSize(horizontal: false, vertical: true)
+                        }
+                        Spacer(minLength: 0)
+                    }
+                    .padding(8).contentShape(Rectangle())
+                }
+                .buttonStyle(.plain)
+                .disabled(ws.isEmpty)
+            }
+            Divider()
+            Toggle("เปิด Gemini ในเบราว์เซอร์หลังคัดลอก · open Gemini after copying", isOn: $openGemini)
+                .font(Typo.ui(12)).toggleStyle(.checkbox)
+            Text("แล้วกด ⌘V วางในช่องแชตของ Gemini").font(Typo.ui(11)).foregroundStyle(Ink.soft)
+        }
+        .padding(16).frame(width: 380)
     }
 
     /// Find any word: kanji, kana, romaji, Thai or English.
@@ -312,8 +358,17 @@ struct MacWordListView: View {
                            subtitle: state.mode.isTyping
                                ? "\(t.sub)  ·  \(ws.count) words  ·  รู้แล้ว \(known)/\(ws.count)"
                                : "\(t.sub)  ·  \(ws.count) words (N5 \(n5.count) · N4 \(n4.count)\(plus.isEmpty ? "" : " · N4+ \(plus.count)"))  ·  รู้แล้ว \(known)/\(ws.count)") {
-                    Button(action: randomPick) { Label("Random", systemImage: "die.face.5") }
-                        .buttonStyle(InkButtonStyle(kind: .akaneOutline, height: 40)).frame(width: 120)
+                    HStack(spacing: 10) {
+                        Button { showCopy = true } label: {
+                            Label(copied == nil ? "คัดลอก · Copy" : "คัดลอกแล้ว ✓", systemImage: copied == nil ? "doc.on.doc" : "checkmark")
+                        }
+                        .buttonStyle(InkButtonStyle(kind: .outline, height: 40)).frame(width: 160)
+                        .keyboardShortcut("c", modifiers: [.command, .shift])
+                        .help("Copy this list for Gemini (⇧⌘C)")
+                        .popover(isPresented: $showCopy, arrowEdge: .bottom) { copyMenu(ws) }
+                        Button(action: randomPick) { Label("Random", systemImage: "die.face.5") }
+                            .buttonStyle(InkButtonStyle(kind: .akaneOutline, height: 40)).frame(width: 120)
+                    }
                 }
                 HStack(spacing: 10) {
                     Segmented(options: [(WordListState.Mode.list, "一覧 Read"), (.test, "意味 Type meaning"), (.recall, "日本語 Type Japanese")],

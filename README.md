@@ -89,6 +89,11 @@ python3 Tools/build_conversations.py            # → Fuda/Resources/conversatio
 
 ## Word list
 
+**คัดลอก · Copy (⇧⌘C)** copies the list on screen for Gemini: one sentence per word,
+a short story using all the words, sentence-making practice where Gemini corrects you,
+or just the words. It can open gemini.google.com right after; paste with ⌘V.
+
+
 `Tools/wordlist/` is the source: `taxonomy.json` (categories), `assignments.json`
 (every word → subcategory, English gloss, extra Thai answers) and `extra_vocab.json`
 (words the Tone export lacked, and the `"plus": true` N4+ words: everyday words a step
