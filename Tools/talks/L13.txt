@@ -1,0 +1,100 @@
+@scene l13_casual
+title: 土曜日、映画に行ったでしょ？
+en: You went to a movie on Saturday, right? (with friends)
+th: วันเสาร์ไปดูหนังมาใช่มั้ย (กับเพื่อน)
+glyph: 十三
+level: n5
+place: people
+lesson: 13
+register: casual
+pair: l13
+about: Monday morning before class, Lin and John tease Tam about going to a movie with Yuki, until Ms Yamada walks in. Casual reasons with 〜から, けど, と思う and でしょ？ | เช้าวันจันทร์ก่อนเข้าเรียน หลินกับจอห์นแซวตัมเรื่องไปดูหนังกับยูกิ จนครูยามาดะเดินเข้ามา ฝึกบอกเหตุผลด้วย 〜から ใช้ けど と思う และ でしょ？ แบบกันเอง
+--- 月曜日の朝 | Monday morning | เช้าวันจันทร์
+リン*: ねえ、タム、土曜日にゆきと映画に行ったでしょ？ | ねえ、タム、どようびにゆきとえいがにいったでしょ？ | นี่ตัม วันเสาร์ไปดูหนังกับยูกิมาใช่มั้ย | Hey Tam, you went to a movie with Yuki on Saturday, right?
+g: n5.e.deshou
+note: でしょ？ with a rising voice = "…right?" when you're fairly sure already. It's the casual short form of でしょう. | でしょ？ ขึ้นเสียงสูงท้ายประโยค แปลว่า "…ใช่มั้ยล่ะ" ใช้ตอนที่ค่อนข้างมั่นใจอยู่แล้ว เป็นรูปย่อแบบกันเองของ でしょう
+You: えっ、どうして知ってるの？ | えっ、どうしてしってるの？ | เอ๊ะ รู้ได้ไงอะ | Huh? How do you know?
+alt: えっ、なんで知ってるの？ | えっ、なんでしってるの？ | เอ๊ะ ทำไมรู้อะ | Huh? Why do you know?
+note: なんで is the everyday casual "why"; どうして is a little softer and works in both registers. | なんで คือคำว่า "ทำไม" แบบกันเองที่ใช้บ่อยมาก ส่วน どうして นุ่มนวลกว่านิดหน่อย ใช้ได้ทั้งกับเพื่อนและกับคนที่ต้องพูดสุภาพ
+ジョン: ゆきのインスタで写真を見たから。 | ゆきのインスタでしゃしんをみたから。 | ก็เห็นรูปในไอจีของยูกิไง | 'Cause I saw the photo on Yuki's Instagram.
+g: n5.e.node
+note: A sentence can simply end in 〜から to answer "why?": "Because…". With friends that is all you need. | ประโยคจบด้วย 〜から ได้เลยเพื่อตอบคำถาม "ทำไม" ความหมายคือ "ก็เพราะ…" คุยกับเพื่อนพูดแค่นี้ก็พอ
+リン: で、どうだった？デートだったでしょ？ | で、どうだった？デートだったでしょ？ | แล้วเป็นไงบ้าง เดตใช่ป่ะ | So how was it? It was a date, wasn't it?
+g: n5.e.deshou
+You*: 違うよ！ゆきはただの友達だよ。 | ちがうよ！ゆきはただのともだちだよ。 | ไม่ใช่นะ! ยูกิเป็นแค่เพื่อน | No way! Yuki's just a friend.
+note: 違うよ = "No, that's not it!" Between friends it sounds far more natural than いいえ. | 違うよ แปลว่า "ไม่ใช่นะ" เวลาคุยกับเพื่อน พูดแบบนี้เป็นธรรมชาติกว่า いいえ มาก
+You: ゆきの友達も呼んだけど、風邪で来なかった。 | ゆきのともだちもよんだけど、かぜでこなかった。 | ชวนเพื่อนของยูกิมาด้วยนะ แต่เขาเป็นหวัดเลยไม่ได้มา | We invited Yuki's friend too, but she had a cold and didn't come.
+g: n5.e.ga_kedo
+note: けど = "but". It's the casual partner of が, and the one you'll hear among friends. | けど แปลว่า "แต่" เป็นคู่แบบกันเองของ が เวลาคุยกับเพื่อนจะได้ยิน けど เป็นหลัก
+ジョン: ふーん、本当に？ | ふーん、ほんとうに？ | อืมม จริงเหรอ | Hmm, really?
+You: 本当だよ！ | ほんとうだよ！ | จริงสิ! | It's true!
+--- 映画の話 | About the movie | เรื่องหนัง
+リン: じゃあ、映画はどうだった？ | じゃあ、えいがはどうだった？ | งั้นหนังเป็นไงบ้าง | OK then, how was the movie?
+You: すごく面白かった。リンも絶対好きだと思う。 | すごくおもしろかった。リンもぜったいすきだとおもう。 | สนุกมาก หลินก็ต้องชอบแน่เลย | Really good. I think you'd definitely like it too, Lin.
+g: n5.e.toomou
+note: Nouns and な-adjectives need だ before と思う: 好きだと思う. With a teacher just change the end: 好きだと思います. | คำนามและคุณศัพท์ な ต้องเติม だ ก่อน と思う เช่น 好きだと思う ถ้าพูดกับครูก็แค่เปลี่ยนท้ายเป็น 好きだと思います
+リン: どんな映画？怖い映画？私、怖い映画を見るのはちょっと…。 | どんなえいが？こわいえいが？わたし、こわいえいがをみるのはちょっと…。 | หนังแนวไหน หนังผีเหรอ ฉันไม่ค่อยไหวกับการดูหนังผีนะ | What kind of movie? A scary one? Watching scary movies is a bit much for me…
+g: n5.e.noga
+note: Verb + の turns an action into a noun: 見るの = "watching". Trailing off with ちょっと… is the soft Japanese way to say "not for me". | กริยา + の ทำให้การกระทำกลายเป็นคำนาม 見るの = "การดู" ส่วนการพูดค้างไว้ด้วย ちょっと… เป็นวิธีปฏิเสธแบบอ้อมๆ ว่า "ไม่ค่อยไหว"
+You: ううん、アクション映画だよ。それに、最後がすごくよかった。 | ううん、アクションえいがだよ。それに、さいごがすごくよかった。 | ไม่ใช่ หนังแอ็กชันน่ะ แถมตอนจบดีมากด้วย | No, it's an action movie. And the ending was really good, too.
+g: n5.e.conj
+note: それに = "on top of that": it adds one more good point. | それに แปลว่า "แถมยัง/อีกอย่าง" ใช้เพิ่มข้อดีอีกข้อหนึ่ง
+ジョン: いいなあ。じゃあ、今度みんなで行かない？ | いいなあ。じゃあ、こんどみんなでいかない？ | ดีจัง งั้นคราวหน้าไปกันทุกคนมั้ย | Nice. So shall we all go next time?
+You: いいね！ゆきも呼ぶ？ | いいね！ゆきもよぶ？ | ดีเลย! ชวนยูกิด้วยมั้ย | Sounds good! Shall we invite Yuki too?
+リン: もちろん。ゆきも多分来ると思う。タム、仲いいでしょ？だから、タムが電話して。 | もちろん。ゆきもたぶんくるとおもう。タム、なかいいでしょ？だから、タムがでんわして。 | แน่นอน ยูกิก็น่าจะมาแหละ ตัมสนิทกับยูกินี่ งั้นตัมเป็นคนโทรนะ | Of course. I think Yuki will probably come. You two are close, right? So you call her, Tam.
+g: n5.e.toomou, n5.e.deshou, n5.e.conj
+note: だから at the start of a sentence = "so / that's why". In polite speech it becomes ですから. | だから ขึ้นต้นประโยค แปลว่า "เพราะฉะนั้น/งั้น" ถ้าพูดสุภาพจะเปลี่ยนเป็น ですから
+You: えっ、なんで僕？…まあ、いいけど。 | えっ、なんでぼく？…まあ、いいけど。 | เอ๊ะ ทำไมต้องเป็นเราล่ะ …ก็ได้แหละ | Huh, why me? …Well, fine.
+g: n5.e.ga_kedo
+note: けど at the very end leaves the sentence hanging softly: いいけど = "it's fine, I guess…". | けど ท้ายประโยคทำให้ประโยคค้างไว้แบบนุ่มๆ いいけど = "ก็ได้แหละ…(แต่ก็นะ)"
+--- 先生が来た | The teacher walks in | ครูเข้ามา
+山田先生*: おはようございます。朝から元気ですね。何の話ですか。 | おはようございます。あさからげんきですね。なんのはなしですか。 | อรุณสวัสดิ์ค่ะ เช้านี้คึกคักกันจังนะคะ คุยเรื่องอะไรกันอยู่คะ | Good morning. You're all lively this early. What are you talking about?
+You: あ、先生…。えっと、それは友達の話です。 | あ、せんせい…。えっと、それはともだちのはなしです。 | อ๊ะ อาจารย์… เอ่อ เป็นเรื่องของเพื่อนน่ะครับ | Oh, Sensei… Um, it's about a friend.
+note: The moment the teacher appears, Tam switches back to です／ます. That switch is what these two scenes are about. | พอครูเข้ามา ตัมเปลี่ยนกลับมาพูด です／ます ทันที การสลับระดับภาษาแบบนี้คือหัวใจของบทสนทนาสองแบบในบทนี้
+
+@scene l13_polite
+title: 週末はどうでしたか
+en: How was your weekend? (with your teacher)
+th: วันหยุดสุดสัปดาห์เป็นอย่างไรบ้าง (กับครู)
+glyph: 十三
+level: n5
+place: people
+lesson: 13
+register: polite
+pair: l13
+about: After class Ms Yamada asks about Tam's weekend movie. Polite reasons with ので／ですから, opening a question with すみませんが, and と思います. | หลังเลิกเรียน ครูยามาดะถามตัมเรื่องหนังที่ไปดูเมื่อวันหยุด ฝึกบอกเหตุผลแบบสุภาพด้วย ので／ですから เกริ่นคำถามด้วย すみませんが และบอกความคิดด้วย と思います
+--- 週末の話 | About the weekend | เรื่องวันหยุด
+山田先生: タムさん、週末はどうでしたか。 | タムさん、しゅうまつはどうでしたか。 | ตัม วันหยุดเป็นอย่างไรบ้างคะ | Tam, how was your weekend?
+You: 土曜日に、友達と映画を見に行きました。 | どようびに、ともだちとえいがをみにいきました。 | วันเสาร์ไปดูหนังกับเพื่อนมาครับ | On Saturday I went to see a movie with a friend.
+山田先生*: いいですね。日本語の映画だったでしょう？ | いいですね。にほんごのえいがだったでしょう？ | ดีจังเลย เป็นหนังภาษาญี่ปุ่นใช่ไหมคะ | How nice. It was a Japanese-language movie, wasn't it?
+g: n5.e.deshou
+note: 〜でしょう？ with a rising tone checks something the speaker is fairly sure of. Friends shorten it to でしょ？ | 〜でしょう？ ขึ้นเสียงสูง ใช้ถามยืนยันสิ่งที่ผู้พูดค่อนข้างมั่นใจ ถ้าเป็นเพื่อนกันจะย่อเหลือ でしょ？
+You: はい。英語の字幕がありましたが、日本語も半分ぐらい分かりました。 | はい。えいごのじまくがありましたが、にほんごもはんぶんぐらいわかりました。 | ครับ มีซับภาษาอังกฤษ แต่ภาษาญี่ปุ่นผมก็เข้าใจได้ประมาณครึ่งหนึ่งครับ | Yes. It had English subtitles, but I understood about half the Japanese too.
+g: n5.e.ga_kedo
+note: 〜が = "but" in polite speech. With friends Tam said けど; after です／ます, が sounds more polished. 字幕 = subtitles. | 〜が แปลว่า "แต่" ในภาษาสุภาพ กับเพื่อนตัมใช้ けど แต่ถ้าต่อท้าย です／ます ใช้ が จะฟังเรียบร้อยกว่า ส่วน 字幕 แปลว่าซับไตเติล
+山田先生: すごいですね。難しかったでしょう。 | すごいですね。むずかしかったでしょう。 | เก่งจังเลย คงยากน่าดูเลยนะคะ | Impressive. That must have been hard.
+g: n5.e.deshou
+note: Here でしょう has a falling tone: it's a guess, "must have been…". Same word, different tone, different meaning. | ตรงนี้ でしょう เสียงลงท้าย เป็นการคาดเดาว่า "คงจะ…" คำเดียวกันแต่น้ำเสียงต่างกัน ความหมายจึงต่างกัน
+You: はい、少し。でも、映画を見るのは、いい勉強になると思います。 | はい、すこし。でも、えいがをみるのは、いいべんきょうになるとおもいます。 | ครับ นิดหน่อย แต่ผมคิดว่าการดูหนังเป็นการเรียนที่ดีครับ | Yes, a little. But I think watching movies is good study.
+g: n5.e.conj, n5.e.noga, n5.e.toomou
+note: 見るのは = "watching (movies)": verb + の becomes the topic of the sentence. | 見るのは = "การดู(หนัง)" กริยา + の กลายเป็นหัวเรื่องของประโยค
+山田先生: そうですね。どうしてその映画にしましたか。 | そうですね。どうしてそのえいがにしましたか。 | จริงด้วยค่ะ แล้วทำไมถึงเลือกเรื่องนั้นล่ะคะ | That's true. Why did you choose that movie?
+You: 友達が、面白いと言っていたので。 | ともだちが、おもしろいといっていたので。 | เพื่อนบอกว่าสนุกครับ | A friend said it was good.
+g: n5.e.node
+note: ので sounds softer and more polite than から, so it suits a teacher. Stopping right after ので politely leaves the rest unsaid. | ので ฟังนุ่มนวลและสุภาพกว่า から จึงเหมาะกับการพูดกับครู การหยุดประโยคไว้หลัง ので เป็นการละส่วนที่เหลือไว้อย่างสุภาพ
+You: それに、私はアクション映画を見るのが大好きです。 | それに、わたしはアクションえいがをみるのがだいすきです。 | อีกอย่าง ผมชอบดูหนังแอ็กชันมากครับ | Besides, I love watching action movies.
+g: n5.e.conj, n5.e.noga
+--- 質問 | A question | คำถาม
+You*: 先生、すみませんが、一つ質問してもいいですか。 | せんせい、すみませんが、ひとつしつもんしてもいいですか。 | อาจารย์ครับ ขอโทษนะครับ ขอถามอะไรสักข้อได้ไหมครับ | Sensei, excuse me, may I ask you a question?
+g: n5.e.ga_kedo, n5.t.temoii
+note: すみませんが、… = "Excuse me, but…": the polite way to open a question or a request. | すみませんが、… = "ขอโทษนะครับ แต่ว่า…" เป็นวิธีเกริ่นอย่างสุภาพก่อนถามคำถามหรือขอร้อง
+山田先生: はい、どうぞ。 | はい、どうぞ。 | ได้ค่ะ เชิญเลย | Yes, go ahead.
+You: 映画の中で、みんな「マジで」と言っていましたが、どういう意味ですか。 | えいがのなかで、みんな「マジで」といっていましたが、どういういみですか。 | ในหนังทุกคนพูดว่า "マジで" มันแปลว่าอะไรครับ | In the movie everyone kept saying "maji de". What does it mean?
+g: n5.e.ga_kedo
+note: This が isn't really "but": it just links the background to the question. Very common in polite speech. | が ตรงนี้ไม่ได้แปลว่า "แต่" จริงๆ แค่เชื่อมเรื่องที่เล่าไปสู่คำถาม ใช้บ่อยมากในภาษาสุภาพ
+山田先生*: 「本当に」という意味です。でも、友達と話すときの言葉ですから、先生には使わないでくださいね。 | 「ほんとうに」といういみです。でも、ともだちとはなすときのことばですから、せんせいにはつかわないでくださいね。 | แปลว่า "จริงๆ" ค่ะ แต่เป็นคำที่ใช้กับเพื่อน เพราะฉะนั้นอย่าใช้กับครูนะคะ | It means "really". But it's a word for friends, so please don't use it with teachers.
+g: n5.e.node
+note: ですから = polite から. 友達と話すときの言葉 = "words for talking with friends": casual words you keep for friends. | ですから คือ から แบบสุภาพ ส่วน 友達と話すときの言葉 หมายถึง "คำที่ใช้เวลาคุยกับเพื่อน" คือคำกันเองที่ใช้กับเพื่อนเท่านั้น
+You: 分かりました。気をつけます。 | わかりました。きをつけます。 | เข้าใจแล้วครับ จะระวังครับ | Understood. I'll be careful.
+山田先生: それでは、また明日。 | それでは、またあした。 | ถ้าอย่างนั้น เจอกันพรุ่งนี้นะคะ | Well then, see you tomorrow.
+You: はい、ありがとうございました。 | はい、ありがとうございました。 | ครับ ขอบคุณมากครับ | Yes, thank you very much.

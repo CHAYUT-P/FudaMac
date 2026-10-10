@@ -1,0 +1,108 @@
+@scene l18_casual
+title: 久しぶり！ここで働いてるの？
+en: Long time no see! You work here? (with a friend)
+th: ไม่เจอกันนาน! ทำงานที่นี่เหรอ (กับเพื่อน)
+glyph: 久
+level: n4
+place: food
+lesson: 18
+register: casual
+pair: l18
+about: Yuki walks into the café where Tam has worked for a month. Talking about time: 〜ぶり, 〜たばかり, 〜うちに, 〜たびに, 〜っぱなし, 〜てばかりいる, 〜ごろ, 〜間に, 〜ところ, 〜たまま. | ยูกิเดินเข้ามาในร้านกาแฟที่ตัมทำงานมาได้หนึ่งเดือน ฝึกพูดเรื่องเวลา: 〜ぶり 〜たばかり 〜うちに 〜たびに 〜っぱなし 〜てばかりいる 〜ごろ 〜間に 〜ところ 〜たまま
+--- 久しぶり！ | Long time no see! | ไม่เจอกันนาน
+ゆき: あれっ、タム？ここで働いてるの？ | あれっ、タム？ここではたらいてるの？ | อ้าว ตัม? ทำงานที่นี่เหรอ | Huh, Tam? You work here?
+You: いらっしゃいませ…って、ゆき！久しぶり！ | いらっしゃいませ…って、ゆき！ひさしぶり！ | ยินดีต้อนรับ… อ้าว ยูกิ! ไม่เจอกันนานเลย! | Welcome… oh, Yuki! Long time no see!
+g: n4.e.buri
+note: Tam starts with the shop greeting, sees it's Yuki, and switches to friend mode with 〜って. 久しぶり = "it's been a while". | ตัมพูดคำทักทายของร้านก่อน พอเห็นว่าเป็นยูกิก็เปลี่ยนเป็นโหมดเพื่อนด้วย 〜って ส่วน 久しぶり = "ไม่เจอกันนาน"
+ゆき*: 本当！会うの、二か月ぶりじゃない？ | ほんとう！あうの、にかげつぶりじゃない？ | จริงด้วย! ไม่ได้เจอกันสองเดือนแล้วใช่ไหม | Right! It's been two months, hasn't it?
+g: n4.e.buri
+note: (time) + ぶり = "for the first time in (time)". 二か月ぶり = after two months. じゃない？ with rising tone = "isn't it?". | (ช่วงเวลา) + ぶり = "ครั้งแรกในรอบ…" 二か月ぶり = ในรอบสองเดือน ส่วน じゃない？ เสียงขึ้นท้าย = "ใช่ไหม"
+You: そうだね。ここ、先月から働いてるんだ。 | そうだね。ここ、せんげつからはたらいてるんだ。 | ใช่ ทำงานที่นี่ตั้งแต่เดือนที่แล้วน่ะ | Yeah. I've been working here since last month.
+--- 注文 | Ordering | สั่งของ
+ゆき: あ、このアップルパイ、懐かしい！前はここに来るたびに食べてたんだ。 | あ、このアップルパイ、なつかしい！まえはここにくるたびにたべてたんだ。 | อ๊ะ พายแอปเปิลนี้ คิดถึงจัง! เมื่อก่อนมาที่นี่ทีไรก็กินทุกที | Oh, this apple pie brings back memories! I used to eat it every time I came here.
+g: n4.e.tabini
+note: V dictionary form + たびに = "every time I…". | Vรูปพจนานุกรม + たびに = "ทุกครั้งที่…"
+You: それ、さっき焼けたばかりだよ。 | それ、さっきやけたばかりだよ。 | อันนั้นเพิ่งอบเสร็จเมื่อกี้เลยนะ | That just came out of the oven.
+g: n4.t.tabakari
+note: Vた + ばかり = "just did". It feels recent to the speaker, even if it was a while ago. | Vた + ばかり = "เพิ่ง…" เน้นว่าผู้พูดรู้สึกว่าเพิ่งเกิดขึ้น แม้จะผ่านไปสักพักแล้วก็ตาม
+ゆき: じゃ、それとホットコーヒーで。 | じゃ、それとホットコーヒーで。 | งั้นเอาอันนั้นกับกาแฟร้อน | Then that and a hot coffee.
+You*: はい、どうぞ。温かいうちに食べてね。 | はい、どうぞ。あたたかいうちにたべてね。 | นี่จ้า กินตอนยังอุ่นๆ นะ | Here you go. Eat it while it's warm.
+g: n4.e.uchini
+note: 〜うちに = "while it's still…" (do it before it changes). 温かいうちに = before it gets cold. | 〜うちに = "ระหว่างที่ยัง…อยู่" ให้ทำก่อนสภาพจะเปลี่ยน 温かいうちに = ก่อนมันจะเย็น
+ゆき: ん〜、おいしい！仕事、どう？慣れた？ | ん〜、おいしい！しごと、どう？なれた？ | อืมม อร่อย! งานเป็นไงบ้าง ชินหรือยัง | Mmm, delicious! How's work? Used to it?
+You: まあね。でも、一日中立ちっぱなしで、足が痛いよ。 | まあね。でも、いちにちじゅうたちっぱなしで、あしがいたいよ。 | ก็พอได้ แต่ยืนทั้งวันเลย ปวดขาสุดๆ | Kind of. But I'm on my feet all day, so my legs hurt.
+g: n4.e.ppanashi
+note: Vます stem + っぱなし = keep doing / leave it that way. 立ちっぱなし = standing the whole time. | Vตัดます + っぱなし = ทำค้างไว้ตลอด / ปล่อยทิ้งไว้แบบนั้น 立ちっぱなし = ยืนตลอดไม่ได้นั่ง
+ゆき: 大変だね。私は春休み、家で寝てばっかりいるよ。 | たいへんだね。わたしははるやすみ、いえでねてばっかりいるよ。 | เหนื่อยแย่เลยนะ ส่วนเราปิดเทอมนี้เอาแต่นอนอยู่บ้าน | Sounds tough. Me, I've done nothing but sleep at home all spring break.
+g: n4.t.tebakari
+note: Vて + ばかりいる = "do nothing but…" (often a complaint). In casual speech ばかり becomes ばっかり. | Vて + ばかりいる = "เอาแต่…" มักใช้บ่นหรือตำหนิ ภาษาพูดแบบกันเองมักเปลี่ยน ばかり เป็น ばっかり
+You: いいなあ。おれ、五時ごろ終わるんだけど、一緒に帰らない？ | いいなあ。おれ、ごじごろおわるんだけど、いっしょにかえらない？ | ดีจัง เราจะเลิกงานประมาณห้าโมง กลับด้วยกันไหม | Lucky you. I finish around five. Want to go home together?
+g: n4.e.goro
+alt: 五時ごろ終わるから、待っててくれる？ | ごじごろおわるから、まっててくれる？ | เลิกประมาณห้าโมง รอหน่อยได้ไหม | I finish around five. Can you wait for me?
+ゆき*: いいよ。じゃ、タムが働いてる間に、駅前で買い物してくるね。 | いいよ。じゃ、タムがはたらいてるあいだに、えきまえでかいものしてくるね。 | ได้สิ งั้นระหว่างที่ตัมทำงาน เราไปช็อปปิ้งแถวหน้าสถานีก่อนนะ | Sure. Then while you're working, I'll go shopping near the station.
+g: n4.e.aida
+note: 〜間に = at some point during that time (one action happens). 〜間 without に = for the whole time. | 〜間に = ช่วงใดช่วงหนึ่งระหว่างนั้น (ทำอะไรสักอย่าง) ถ้าเป็น 〜間 ไม่มี に = ตลอดช่วงเวลานั้น
+--- 五時 | Five o'clock | ห้าโมงเย็น
+ゆき: お疲れ！終わった？ | おつかれ！おわった？ | เหนื่อยหน่อยนะ! เลิกแล้วเหรอ | Good work! Done?
+You: うん、ちょうど今、片付けが終わったところ。 | うん、ちょうどいま、かたづけがおわったところ。 | อืม เพิ่งเก็บร้านเสร็จพอดีเลย | Yeah, I just finished cleaning up.
+g: n4.e.tokoro
+note: Vた + ところ = "have just this moment done". Stronger "right now" feeling than 〜たばかり. | Vた + ところ = "เพิ่งทำเสร็จเดี๋ยวนี้เลย" ให้ความรู้สึก "เพิ่งเสร็จพอดี" ชัดกว่า 〜たばかり
+ゆき*: あれ、タム、エプロンつけたままだよ。 | あれ、タム、エプロンつけたままだよ。 | อ้าว ตัม ยังใส่ผ้ากันเปื้อนอยู่เลยนะ | Hey, Tam, you've still got your apron on.
+g: n4.e.tamama
+You: あっ、本当だ！それに、奥の電気もつけっぱなしだ。ちょっと待ってて！ | あっ、ほんとうだ！それに、おくのでんきもつけっぱなしだ。ちょっとまってて！ | อ๊ะ จริงด้วย! แล้วก็เปิดไฟด้านในทิ้งไว้ด้วย รอแป๊บนะ! | Oh, you're right! And I left the light on in the back. Wait a sec!
+g: n4.e.ppanashi
+ゆき: あはは。ゆっくりでいいよ。 | あはは。ゆっくりでいいよ。 | ฮ่าๆ ไม่ต้องรีบนะ | Haha. Take your time.
+You: ごめん、お待たせ！ | ごめん、おまたせ！ | ขอโทษ ให้รอนานเลย! | Sorry, thanks for waiting!
+
+@scene l18_polite
+title: お久しぶりです
+en: It's been a while (with a friend's mother)
+th: ไม่ได้พบกันนานเลยครับ (กับคุณแม่ของเพื่อน)
+glyph: 久
+level: n4
+place: food
+lesson: 18
+register: polite
+pair: l18
+role: ゆきのお母さん | Yuki's mother | คุณแม่ของยูกิ
+about: Yuki's mother walks into the café where Tam works. Serving a customer you know politely while talking about time: 〜ぶり, 〜たびに, 〜たばかり, 〜うちに, 〜っぱなし, 〜てばかりいる, 〜間, 〜ごろ, 〜ところ, 〜たまま. | คุณแม่ของยูกิเดินเข้ามาในร้านกาแฟที่ตัมทำงาน ฝึกบริการคนรู้จักอย่างสุภาพ พร้อมพูดเรื่องเวลา: 〜ぶり 〜たびに 〜たばかり 〜うちに 〜っぱなし 〜てばかりいる 〜間 〜ごろ 〜ところ 〜たまま
+--- お久しぶりです | It's been a while | ไม่ได้พบกันนาน
+ゆきのお母さん: あら、タムさん？ここで働いているの？ | あら、タムさん？ここではたらいているの？ | อ้าว ตัม ทำงานที่นี่เหรอจ๊ะ | Oh, Tam? Do you work here?
+note: Yuki's mother is older, so she speaks to Tam in a soft casual style. Tam still answers politely. | คุณแม่ของยูกิอายุมากกว่า เลยพูดกับตัมแบบกันเองนุ่มๆ แต่ตัมยังต้องตอบแบบสุภาพ
+You: いらっしゃいませ。あ、ゆきさんのお母さん！お久しぶりです。 | いらっしゃいませ。あ、ゆきさんのおかあさん！おひさしぶりです。 | ยินดีต้อนรับครับ อ้าว คุณแม่ของยูกิ! ไม่ได้พบกันนานเลยครับ | Welcome. Oh, Yuki's mother! It's been a long time.
+g: n4.e.buri
+note: Add お and です to make 久しぶり polite: お久しぶりです. | เติม お และ です ทำให้ 久しぶり สุภาพขึ้น เป็น お久しぶりです
+ゆきのお母さん*: 本当ね。お正月に会ったから…三か月ぶりかしら。 | ほんとうね。おしょうがつにあったから…さんかげつぶりかしら。 | จริงด้วย เจอกันตอนปีใหม่… ก็สามเดือนแล้วสินะ | It really has. We met at New Year… so it's been three months, hasn't it?
+g: n4.e.buri
+You: そうですね。先月から、ここでアルバイトをしているんです。 | そうですね。せんげつから、ここでアルバイトをしているんです。 | ใช่ครับ ผมทำงานพิเศษที่นี่ตั้งแต่เดือนที่แล้วครับ | Yes. I've been working part-time here since last month.
+--- ご注文 | Taking the order | รับออเดอร์
+ゆきのお母さん: このお店、好きなのよ。駅前に来るたびに寄っているの。 | このおみせ、すきなのよ。えきまえにくるたびによっているの。 | ชอบร้านนี้นะ มาแถวหน้าสถานีทีไรก็แวะทุกที | I love this place. I drop in every time I come to the station.
+g: n4.e.tabini
+You: ありがとうございます。今日はアップルパイがおすすめです。ちょうど焼けたばかりなんですよ。 | ありがとうございます。きょうはアップルパイがおすすめです。ちょうどやけたばかりなんですよ。 | ขอบคุณครับ วันนี้แนะนำพายแอปเปิลครับ เพิ่งอบเสร็จพอดีเลยครับ | Thank you. Today I recommend the apple pie. It's just come out of the oven.
+g: n4.t.tabakari
+ゆきのお母さん: じゃあ、それと紅茶をお願いします。 | じゃあ、それとこうちゃをおねがいします。 | งั้นขอพายนั้นกับชาดำนะ | Then that and a black tea, please.
+You*: お待たせしました。温かいうちにどうぞ。 | おまたせしました。あたたかいうちにどうぞ。 | ขอโทษที่ให้รอครับ เชิญทานตอนยังอุ่นๆ ครับ | Sorry to keep you waiting. Please enjoy it while it's warm.
+g: n4.e.uchini
+note: 温かいうちにどうぞ is a set phrase when serving hot food. With a friend it's 温かいうちに食べてね. | 温かいうちにどうぞ เป็นสำนวนตอนเสิร์ฟอาหารร้อน ถ้ากับเพื่อนจะพูดว่า 温かいうちに食べてね
+ゆきのお母さん: ありがとう。お仕事、大変でしょう？ | ありがとう。おしごと、たいへんでしょう？ | ขอบใจจ้ะ งานหนักน่าดูเลยใช่ไหม | Thank you. The work must be hard, isn't it?
+You: 一日中立ちっぱなしなので、少し疲れます。でも、楽しいです。 | いちにちじゅうたちっぱなしなので、すこしつかれます。でも、たのしいです。 | ต้องยืนทั้งวันเลยเหนื่อยนิดหน่อยครับ แต่ก็สนุกครับ | I'm on my feet all day, so it's a bit tiring. But it's fun.
+g: n4.e.ppanashi
+note: To someone older, use ので for reasons and end with a positive comment, rather than just complaining. | กับผู้ใหญ่ ใช้ ので บอกเหตุผล แล้วปิดด้วยเรื่องดีๆ ไม่บ่นอย่างเดียว
+ゆきのお母さん*: えらいわね。うちのゆきは、春休みの間、ずっと家で寝てばかりいるのよ。 | えらいわね。うちのゆきは、はるやすみのあいだ、ずっといえでねてばかりいるのよ。 | เก่งจังเลย ยูกิบ้านเรานะ ตลอดปิดเทอมเอาแต่นอนอยู่บ้าน | Good for you. Our Yuki has done nothing but sleep at home all spring break.
+g: n4.e.aida, n4.t.tebakari
+note: N + の間 (no に) = the whole time, so it goes with ずっと. 寝てばかりいる = does nothing but sleep. | N + の間 (ไม่มี に) = ตลอดช่วงเวลานั้น เลยใช้คู่กับ ずっと ส่วน 寝てばかりいる = เอาแต่นอน
+You: はは…。ゆきさんはお元気ですか。 | はは…。ゆきさんはおげんきですか。 | ฮะๆ… ยูกิสบายดีไหมครับ | Haha… Is Yuki doing well?
+ゆきのお母さん: 元気よ。今日、五時ごろ駅で会う約束なの。 | げんきよ。きょう、ごじごろえきであうやくそくなの。 | สบายดีจ้ะ วันนี้นัดเจอกันที่สถานีประมาณห้าโมง | She's fine. We're meeting at the station around five today.
+g: n4.e.goro
+You: そうですか。お待ちの間、こちらの雑誌もどうぞ。 | そうですか。おまちのあいだ、こちらのざっしもどうぞ。 | อย่างนั้นเหรอครับ ระหว่างรอ เชิญอ่านนิตยสารนี้ได้เลยครับ | I see. Please feel free to read this magazine while you wait.
+g: n4.e.aida
+note: お待ちの間 = "while you wait", a polite shop phrase built from N + の間. | お待ちの間 = "ระหว่างที่รอ" สำนวนสุภาพในร้าน สร้างจาก N + の間
+--- お会計 | Paying | จ่ายเงิน
+ゆきのお母さん: あら、ゆきから。今、駅に着いたところだって。お会計、お願いします。 | あら、ゆきから。いま、えきについたところだって。おかいけい、おねがいします。 | อ้าว ยูกิส่งมา บอกว่าเพิ่งถึงสถานีพอดี เช็กบิลด้วยจ้ะ | Oh, it's from Yuki. She says she's just got to the station. The bill, please.
+g: n4.e.tokoro
+You*: はい、八百五十円です。…あ、傘をいすに掛けたままですよ。 | はい、はっぴゃくごじゅうえんです。…あ、かさをいすにかけたままですよ。 | 850 เยนครับ… อ๊ะ ร่มยังแขวนไว้ที่เก้าอี้นะครับ | That's 850 yen. …Oh, your umbrella is still hanging on the chair.
+g: n4.e.tamama
+note: 掛けたまま = it's still hanging there (you haven't taken it). A polite, gentle way to point out something left behind. | 掛けたまま = ยังแขวนอยู่ตรงนั้น (ยังไม่ได้หยิบ) เป็นวิธีเตือนเรื่องของลืมอย่างสุภาพและนุ่มนวล
+ゆきのお母さん: あら、本当。ありがとう。 | あら、ほんとう。ありがとう。 | อ้าว จริงด้วย ขอบใจจ้ะ | Oh, so it is. Thank you.
+You: いいえ。ゆきさんによろしくお伝えください。 | いいえ。ゆきさんによろしくおつたえください。 | ไม่เป็นไรครับ ฝากสวัสดียูกิด้วยนะครับ | Not at all. Please say hello to Yuki for me.
+note: 〜によろしくお伝えください = "please give my regards to…", a very common polite goodbye. | 〜によろしくお伝えください = "ฝากความคิดถึงถึง…" เป็นคำลาแบบสุภาพที่ใช้บ่อยมาก

@@ -1,0 +1,101 @@
+@scene l06_casual
+title: どっちが暖かい？
+en: Which one's warmer? (with a friend)
+th: อันไหนอุ่นกว่า (กับเพื่อน)
+glyph: 六
+level: n5
+place: shop
+lesson: 6
+register: casual
+pair: l06
+about: Late October and you're still in a thin Thai-style shirt. Yuki takes you coat shopping. Comparing with より, どっち, のほうが, 一番, 〜ほど〜ない and くらい. | ปลายตุลาคมแล้วแต่ตัมยังใส่เสื้อเชิ้ตบางๆ แบบเมืองไทย ยูกิเลยพาไปซื้อเสื้อโค้ต ฝึกเปรียบเทียบด้วย より どっち のほうが 一番 〜ほど〜ない และ くらい
+--- アパートの前 | Outside the apartment | หน้าอพาร์ตเมนต์
+ゆき*: おはよう、タム。えっ、シャツ一枚？寒くない？ | おはよう、タム。えっ、シャツいちまい？さむくない？ | อรุณสวัสดิ์ ตัม เอ๊ะ ใส่เชิ้ตตัวเดียวเหรอ ไม่หนาวเหรอ | Morning, Tam. Huh, just a shirt? Aren't you cold?
+g: n5.e.iadj
+You: うーん、ちょっと寒い。今日は昨日より寒いね。 | うーん、ちょっとさむい。きょうはきのうよりさむいね。 | อืม หนาวนิดหน่อย วันนี้หนาวกว่าเมื่อวานเนอะ | Hmm, a bit cold. Today's colder than yesterday.
+g: n5.p.yori
+note: Aは Bより + adjective = "A is more … than B". Japanese needs no word for "more": 昨日より寒い = colder than yesterday. | Aは Bより + คุณศัพท์ = "A …กว่า B" ภาษาญี่ปุ่นไม่ต้องมีคำว่า "กว่า" แยก เช่น 昨日より寒い = หนาวกว่าเมื่อวาน
+ゆき: これから、もっと寒くなるよ。 | これから、もっとさむくなるよ。 | ต่อจากนี้จะหนาวขึ้นอีกนะ | It's going to get even colder from now on.
+g: n5.e.naru
+You: え、どのくらい寒くなる？ | え、どのくらいさむくなる？ | เอ๊ะ จะหนาวขนาดไหน | Huh, how cold does it get?
+g: n5.p.kurai, n5.e.naru
+note: どのくらい asks "how much / to what degree". The answer usually comes back with くらい: 零度くらい. | どのくらい ใช้ถามว่า "ประมาณเท่าไร / ขนาดไหน" คำตอบมักลงท้ายด้วย くらい เช่น 零度くらい (ประมาณศูนย์องศา)
+ゆき: 一月は、朝は零度くらいかな。 | いちがつは、あさはれいどくらいかな。 | เดือนมกรา ตอนเช้าก็ประมาณศูนย์องศามั้ง | In January, mornings are around zero degrees, I guess.
+g: n5.p.kurai
+note: かな at the end = "I think / I guess". It makes a casual answer sound soft and not too sure. | かな ท้ายประโยค = "มั้ง / คิดว่านะ" ทำให้คำตอบแบบกันเองฟังนุ่มลงและไม่ฟันธง
+You*: 零度！？バンコクは一番寒い月でも、二十五度くらいだよ。 | れいど！？バンコクはいちばんさむいつきでも、にじゅうごどくらいだよ。 | ศูนย์องศา!? กรุงเทพฯ เดือนที่หนาวที่สุดยังประมาณยี่สิบห้าองศาเลย | Zero!? In Bangkok even the coldest month is about 25 degrees.
+g: n5.e.compare, n5.p.kurai
+note: 一番 + adjective = "the most": 一番寒い月 = the coldest month. | 一番 + คุณศัพท์ = "…ที่สุด" เช่น 一番寒い月 = เดือนที่หนาวที่สุด
+ゆき: じゃあ、上着がいるね。今日、デパートに行かない？ | じゃあ、うわぎがいるね。きょう、デパートにいかない？ | งั้นต้องมีเสื้อตัวนอกแล้วล่ะ วันนี้ไปห้างกันไหม | Then you need a jacket. Want to go to the department store today?
+g: n5.v.invite
+You: うん、行こう！ | うん、いこう！ | อืม ไปกัน! | Yeah, let's go!
+--- デパートで | At the department store | ที่ห้าง
+You: ねえ、このコートとそのセーターと、どっちが暖かい？ | ねえ、このコートとそのセーターと、どっちがあたたかい？ | นี่ โค้ตตัวนี้กับสเวตเตอร์ตัวนั้น ตัวไหนอุ่นกว่า | Hey, which is warmer, this coat or that sweater?
+g: n5.e.compare
+alt: コートとセーター、どっちが暖かい？ | コートとセーター、どっちがあたたかい？ | โค้ตกับสเวตเตอร์ อันไหนอุ่นกว่า | Coat or sweater, which is warmer?
+note: AとBと、どっちが…？ asks which of two. どっち is the casual どちら, and in speech the second と is often dropped. | AとBと、どっちが…？ ใช้ถามว่าอันไหนในสองอย่าง どっち คือ どちら แบบกันเอง เวลาพูดมักตัด と ตัวที่สองทิ้ง
+ゆき*: そりゃ、コートのほうが暖かいよ。 | そりゃ、コートのほうがあたたかいよ。 | ก็ต้องโค้ตสิ อุ่นกว่า | The coat, obviously.
+g: n5.e.compare
+note: Answer a どっち question with Aのほうが…: "A is more…". そりゃ = "well, obviously". | ตอบคำถาม どっち ด้วย Aのほうが… = "A …กว่า" ส่วน そりゃ แปลว่า "ก็แหงล่ะ"
+You: でも、コートはセーターより高いね。 | でも、コートはセーターよりたかいね。 | แต่โค้ตแพงกว่าสเวตเตอร์เนอะ | But the coat costs more than the sweater.
+g: n5.p.yori
+ゆき: うん。でも、このコートはあの黒いのほど高くないよ。 | うん。でも、このコートはあのくろいのほどたかくないよ。 | อืม แต่โค้ตตัวนี้ไม่แพงเท่าตัวสีดำตัวนั้นนะ | Yeah. But this coat isn't as expensive as that black one.
+g: n5.p.hodo
+note: Aは Bほど〜ない = "A is not as … as B". ほど in this meaning always comes with a negative. | Aは Bほど〜ない = "A ไม่…เท่า B" ほど ในความหมายนี้ต้องใช้กับรูปปฏิเสธเสมอ
+You: 本当だ。これ、いくら？ | ほんとだ。これ、いくら？ | จริงด้วย ตัวนี้เท่าไร | You're right. How much is this one?
+ゆき: 七千九百八十円。八千円くらいだね。 | ななせんきゅうひゃくはちじゅうえん。はっせんえんくらいだね。 | เจ็ดพันเก้าร้อยแปดสิบเยน ประมาณแปดพันเยนเนอะ | 7,980 yen. About eight thousand.
+g: n5.p.kurai
+You: 色は、どれが一番いい？ | いろは、どれがいちばんいい？ | สีไหนดีที่สุด | Which color is best?
+g: n5.e.compare
+note: For three or more choices use どれが一番…？ (どっち is only for two). | ถ้ามีตัวเลือกสามอย่างขึ้นไปใช้ どれが一番…？ ส่วน どっち ใช้กับสองอย่างเท่านั้น
+ゆき*: 茶色が一番いいよ。タム、かっこいい！ | ちゃいろがいちばんいいよ。タム、かっこいい！ | สีน้ำตาลดีที่สุด ตัมดูเท่เลย! | Brown's the best. You look cool, Tam!
+g: n5.e.compare
+You: じゃあ、これにする！ | じゃあ、これにする！ | งั้นเอาตัวนี้! | Then I'll take this one!
+g: n5.e.suru
+ゆき: うん。これで冬も大丈夫だね。 | うん。これでふゆもだいじょうぶだね。 | อืม แค่นี้หน้าหนาวก็สบายแล้ว | Great. Now you'll be fine in winter too.
+
+@scene l06_polite
+title: どちらが暖かいですか
+en: Which one is warmer? (polite)
+th: ตัวไหนอุ่นกว่าครับ (แบบสุภาพ)
+glyph: 六
+level: n5
+place: shop
+lesson: 6
+register: polite
+pair: l06
+about: Buying your first winter coat and asking the shop assistant to compare. どちらが…ですか, より, 〜ほど〜ありません, 一番, くらい and 同じくらい. | ซื้อเสื้อโค้ตกันหนาวตัวแรกและให้พนักงานช่วยเปรียบเทียบ ฝึก どちらが…ですか より 〜ほど〜ありません 一番 くらい และ 同じくらい
+--- 売り場で | On the sales floor | ในแผนกเสื้อผ้า
+店員*: いらっしゃいませ。何かお探しですか。 | いらっしゃいませ。なにかおさがしですか。 | ยินดีต้อนรับค่ะ กำลังหาอะไรอยู่คะ | Welcome. Are you looking for something?
+note: お探しですか is shop-polite for "are you looking for…?". You'll hear it in every clothing store. | お探しですか เป็นภาษาสุภาพของร้านค้า แปลว่า "กำลังหาอะไรอยู่ไหม" เข้าร้านเสื้อผ้าที่ไหนก็ได้ยิน
+You: はい。冬のコートはありますか。 | はい。ふゆのコートはありますか。 | ครับ มีโค้ตหน้าหนาวไหมครับ | Yes. Do you have winter coats?
+店員: はい、こちらにございます。 | はい、こちらにございます。 | มีค่ะ อยู่ทางนี้ค่ะ | Yes, they're over here.
+You: すみません、このコートとあのコートと、どちらが暖かいですか。 | すみません、このコートとあのコートと、どちらがあたたかいですか。 | ขอโทษครับ โค้ตตัวนี้กับตัวนั้น ตัวไหนอุ่นกว่าครับ | Excuse me, which is warmer, this coat or that one?
+g: n5.e.compare
+note: Politely, use どちら (not どっち) and keep both と: AとBと、どちらが…ですか。 | ถ้าพูดสุภาพใช้ どちら (ไม่ใช่ どっち) และใส่ と ให้ครบทั้งสองตัว AとBと、どちらが…ですか。
+店員*: こちらのほうが暖かいですよ。でも、少し重いです。 | こちらのほうがあたたかいですよ。でも、すこしおもいです。 | ตัวนี้อุ่นกว่าค่ะ แต่หนักนิดหน่อยนะคะ | This one is warmer. But it's a little heavy.
+g: n5.e.compare, n5.e.iadj
+You: そうですか。あちらはこちらより軽いですか。 | そうですか。あちらはこちらよりかるいですか。 | อย่างนั้นเหรอครับ ตัวนั้นเบากว่าตัวนี้ไหมครับ | I see. Is that one lighter than this one?
+g: n5.p.yori
+店員: はい。でも、あちらはこちらほど暖かくありません。 | はい。でも、あちらはこちらほどあたたかくありません。 | ค่ะ แต่ตัวนั้นไม่อุ่นเท่าตัวนี้ค่ะ | Yes. But that one isn't as warm as this one.
+g: n5.p.hodo
+note: 暖かくありません is the polite negative (= 暖かくないです). With ほど: あちらはこちらほど暖かくありません = that one is not as warm. | 暖かくありません คือรูปปฏิเสธสุภาพ (เท่ากับ 暖かくないです) ใช้คู่กับ ほど ได้ว่า あちらはこちらほど暖かくありません = ตัวนั้นไม่อุ่นเท่าตัวนี้
+You: 東京の冬は、どのくらい寒いですか。 | とうきょうのふゆは、どのくらいさむいですか。 | หน้าหนาวที่โตเกียวหนาวขนาดไหนครับ | How cold is winter in Tokyo?
+g: n5.p.kurai
+店員*: 一月と二月が一番寒いです。朝は零度くらいですよ。 | いちがつとにがつがいちばんさむいです。あさはれいどくらいですよ。 | มกรากับกุมภาหนาวที่สุดค่ะ ตอนเช้าประมาณศูนย์องศาค่ะ | January and February are the coldest. Mornings are around zero degrees.
+g: n5.e.compare, n5.p.kurai
+You: えっ、零度ですか。タイの一番寒い日より、ずっと寒いです。 | えっ、れいどですか。タイのいちばんさむいひより、ずっとさむいです。 | หา ศูนย์องศาเหรอครับ หนาวกว่าวันที่หนาวที่สุดในไทยเยอะเลยครับ | What, zero? That's much colder than the coldest day in Thailand.
+g: n5.p.yori, n5.e.compare
+note: ずっと + より = "much more": ずっと寒い = much colder. | ずっと ใช้คู่กับ より แปลว่า "…กว่ามาก" เช่น ずっと寒い = หนาวกว่ามาก
+店員: では、こちらのコートがいいですね。 | では、こちらのコートがいいですね。 | ถ้าอย่างนั้นตัวนี้ดีค่ะ | Then this coat would be good.
+You: いくらですか。 | いくらですか。 | ราคาเท่าไรครับ | How much is it?
+店員: 一万二千円です。 | いちまんにせんえんです。 | หนึ่งหมื่นสองพันเยนค่ะ | It's 12,000 yen.
+You: うーん、ちょっと高いですね…。 | うーん、ちょっとたかいですね…。 | อืม แพงไปหน่อยนะครับ… | Hmm, that's a bit expensive…
+note: ちょっと高いですね… with a trailing voice is the polite way to say "too expensive" without saying no directly. | ちょっと高いですね… แล้วลากเสียงไว้ เป็นวิธีบอกอย่างสุภาพว่า "แพงไป" โดยไม่ต้องปฏิเสธตรงๆ
+店員*: では、こちらはいかがですか。同じくらい暖かくて、八千円です。 | では、こちらはいかがですか。おなじくらいあたたかくて、はっせんえんです。 | ถ้าอย่างนั้นตัวนี้เป็นยังไงคะ อุ่นพอๆ กัน ราคาแปดพันเยนค่ะ | Then how about this one? It's about as warm, and it's 8,000 yen.
+g: n5.p.kurai
+You: 色は何色がありますか。 | いろはなにいろがありますか。 | มีสีอะไรบ้างครับ | What colors does it come in?
+店員: 黒と白と茶色がございます。茶色が一番人気ですよ。 | くろとしろとちゃいろがございます。ちゃいろがいちばんにんきですよ。 | มีสีดำ สีขาว และสีน้ำตาลค่ะ สีน้ำตาลขายดีที่สุดค่ะ | We have black, white and brown. Brown is the most popular.
+g: n5.e.compare
+You: では、茶色にします。 | では、ちゃいろにします。 | งั้นเอาสีน้ำตาลครับ | Then I'll take the brown.
+g: n5.e.suru

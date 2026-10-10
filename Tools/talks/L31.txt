@@ -1,0 +1,102 @@
+@scene l31_casual
+title: 図書館で発表の準備
+en: Preparing the presentation in the library (with a classmate)
+th: เตรียมงานนำเสนอในห้องสมุด (กับเพื่อน)
+glyph: 寺
+level: n4
+place: people
+lesson: 31
+register: casual
+pair: l31
+about: Tam and Lin prepare a group presentation about Japanese temples in the school library. About (〜について), for someone (〜にとって), as (〜として), according to (〜によると), by or depending on (〜によって) and as planned (〜とおり・〜どおり). | ตัมกับหลินเตรียมงานนำเสนอกลุ่มเรื่องวัดญี่ปุ่นในห้องสมุดของโรงเรียน ฝึก เกี่ยวกับ (〜について) สำหรับ… (〜にとって) ในฐานะ (〜として) ตามที่…บอก (〜によると) โดย/ขึ้นอยู่กับ (〜によって) และตามที่… (〜とおり・〜どおり)
+--- テーマ決め | Choosing a topic | เลือกหัวข้อ
+リン: ねえ、発表、何について話す？ | ねえ、はっぴょう、なにについてはなす？ | นี่ งานนำเสนอจะพูดเรื่องอะไรดี | Hey, what should we talk about for the presentation?
+g: n4.e.tsuite
+note: Noun + について = about, on the topic of. 何について？ = "about what?" | คำนาม + について = เกี่ยวกับ… 何について？ = "เกี่ยวกับอะไร"
+You: お寺について調べるのはどう？タイにもいっぱいあるし。 | おてらについてしらべるのはどう？タイにもいっぱいあるし。 | ค้นเรื่องวัดดีไหม ที่ไทยก็มีเยอะด้วย | How about researching temples? There are loads in Thailand too.
+g: n4.e.tsuite, n5.e.noga, n4.e.shi
+alt: お寺についてやろうよ。比べたら面白そう。 | おてらについてやろうよ。くらべたらおもしろそう。 | ทำเรื่องวัดกันเถอะ เอามาเทียบกันน่าจะสนุก | Let's do temples. Comparing them sounds fun.
+リン*: いいね！あ、この本によると、日本にはお寺が七万以上あるんだって。 | いいね！あ、このほんによると、にほんにはおてらがななまんいじょうあるんだって。 | ดีเลย! อ้อ หนังสือเล่มนี้บอกว่าญี่ปุ่นมีวัดมากกว่าเจ็ดหมื่นแห่งแน่ะ | Nice! Oh, according to this book, Japan has over seventy thousand temples.
+g: n4.e.niyoru, n4.e.tte
+note: Source + によると = according to. The end of the sentence usually says it's hearsay: 〜んだって (casual) or 〜そうです (polite). | แหล่งข้อมูล + によると = ตามที่…บอก ท้ายประโยคมักบอกว่าเป็นข้อมูลที่ได้ยินมา เช่น 〜んだって (กันเอง) หรือ 〜そうです (สุภาพ)
+You: えっ、コンビニより多いじゃん！ | えっ、コンビニよりおおいじゃん！ | ห๊ะ เยอะกว่าร้านสะดวกซื้ออีกนี่! | What? That's more than convenience stores!
+g: n5.p.yori, n4.e.dewanaika
+リン*: ほら、ここ。法隆寺って、聖徳太子によって建てられたんだって。 | ほら、ここ。ほうりゅうじって、しょうとくたいしによってたてられたんだって。 | ดูนี่สิ เขาว่าวัดโฮริวจิสร้างโดยเจ้าชายโชโตกุ | Look, here. Horyuji was built by Prince Shotoku, apparently.
+g: n4.e.niyotte, n4.v.passive, n4.e.tte
+note: Passive + によって = "by" someone, for who made, built or wrote something. | กริยารูปถูกกระทำ + によって = "โดย…" ใช้บอกว่าใครเป็นคนสร้าง เขียน หรือทำสิ่งนั้น
+You: 聖徳太子って、昔のお札の人だよね？ | しょうとくたいしって、むかしのおさつのひとだよね？ | เจ้าชายโชโตกุคือคนที่อยู่บนธนบัตรสมัยก่อนใช่ไหม | Prince Shotoku, he's the guy on the old banknotes, right?
+g: n4.e.tte, n5.p.yone
+--- 何を伝える？ | What's our angle? | จะสื่ออะไร
+リン: でも、歴史だけだと、ちょっとつまらないかも。 | でも、れきしだけだと、ちょっとつまらないかも。 | แต่ถ้ามีแค่ประวัติศาสตร์ อาจจะน่าเบื่อไปหน่อย | But if it's only history, it might be a bit boring.
+g: n4.e.kamoshirenai, n4.c.to
+You: じゃあ、日本人にとってお寺はどんな場所か、聞いてみない？ | じゃあ、にほんじんにとっておてらはどんなばしょか、きいてみない？ | งั้นลองไปถามดูไหมว่าสำหรับคนญี่ปุ่น วัดเป็นสถานที่แบบไหน | Then why don't we ask what temples mean to Japanese people?
+g: n4.e.nitotte, n4.t.temiru, n4.e.embedded
+note: Person + にとって = "for / from the point of view of" that person. Use it for what something means to someone, not for gifts (that's のために or に). | คน + にとって = "สำหรับ…/ในมุมมองของ…" ใช้บอกว่าสิ่งนั้นมีความหมายต่อใครอย่างไร ไม่ใช้กับการให้ของ (แบบนั้นใช้ のために หรือ に)
+リン: いいね。タイ人にとっては、お寺ってどんな場所？ | いいね。タイじんにとっては、おてらってどんなばしょ？ | ดีเลย แล้วสำหรับคนไทย วัดเป็นที่แบบไหนเหรอ | Good idea. What kind of place is a temple for Thai people?
+g: n4.e.nitotte, n4.e.tte
+You: 生活の一部って感じかな。毎朝、お坊さんにご飯を渡す習慣もあるし。 | せいかつのいちぶってかんじかな。まいあさ、おぼうさんにごはんをわたすしゅうかんもあるし。 | ประมาณว่าเป็นส่วนหนึ่งของชีวิตมั้ง มีธรรมเนียมใส่บาตรพระทุกเช้าด้วย | Kind of a part of everyday life, I guess. We even have the custom of giving monks food every morning.
+g: n4.e.kana, n4.e.shi, n4.e.tte
+リン: へえ。日本だと、お寺は観光地としても有名だよね。 | へえ。にほんだと、おてらはかんこうちとしてもゆうめいだよね。 | อ๋อ ส่วนที่ญี่ปุ่น วัดก็ดังในฐานะสถานที่ท่องเที่ยวด้วยเนอะ | Huh. In Japan, temples are also famous as tourist spots.
+g: n4.e.toshite
+note: Noun + として = as, in the role of: 観光地として = as a tourist spot. | คำนาม + として = ในฐานะ… เช่น 観光地として = ในฐานะสถานที่ท่องเที่ยว
+You: うん。でも、お寺によってルールが違うから、それも調べよう。 | うん。でも、おてらによってルールがちがうから、それもしらべよう。 | อืม แต่กฎแต่ละวัดไม่เหมือนกัน หาข้อมูลเรื่องนั้นด้วยเถอะ | Yeah. But the rules are different depending on the temple, so let's look into that too.
+g: n4.e.niyotte, n4.v.volitional
+note: Another によって: "depending on". お寺によって違う = it differs from temple to temple. | によって อีกความหมายหนึ่งคือ "ขึ้นอยู่กับ…" お寺によって違う = แต่ละวัดไม่เหมือนกัน
+--- 計画 | The plan | แผนงาน
+リン*: 先生が言ったとおり、大事なところだけ選ぼうね。 | せんせいがいったとおり、だいじなところだけえらぼうね。 | เลือกแค่ส่วนสำคัญตามที่ครูบอกนะ | Like Sensei said, let's pick just the important parts.
+g: n4.e.touri, n5.p.dake, n4.v.volitional
+You: 了解。じゃあ、今日は資料を集めて、明日スライドを作ろう。 | りょうかい。じゃあ、きょうはしりょうをあつめて、あしたスライドをつくろう。 | โอเค งั้นวันนี้รวบรวมข้อมูล พรุ่งนี้ทำสไลด์กัน | Got it. So today we gather material, and tomorrow we make the slides.
+g: n5.t.connect, n4.v.volitional
+リン: 計画どおりにいくといいけどね。 | けいかくどおりにいくといいけどね。 | หวังว่าจะเป็นไปตามแผนนะ | Hope it goes according to plan.
+g: n4.e.touri, n4.c.taraii
+note: Verb + とおり / Noun + どおり = just as: 言ったとおり = as (someone) said, 計画どおり = as planned. | กริยา + とおり / คำนาม + どおり = ตามที่… เช่น 言ったとおり = ตามที่บอก 計画どおり = ตามแผน
+You: どうかな。僕たち、いつも計画どおりにいかないじゃん。 | どうかな。ぼくたち、いつもけいかくどおりにいかないじゃん。 | ไม่รู้สิ พวกเราไม่เคยเป็นไปตามแผนเลยนี่ | Who knows. Things never go to plan for us.
+g: n4.e.touri, n4.e.kana, n4.e.dewanaika
+
+@scene l31_polite
+title: お寺についての発表
+en: The presentation about temples (polite)
+th: นำเสนอเรื่องวัด (สุภาพ)
+glyph: 寺
+level: n4
+place: people
+lesson: 31
+register: polite
+pair: l31
+about: Presentation day. Tam and Lin present on Japanese temples in です/ます, then answer questions from John and Ms Yamada. In class even classmates speak politely. 〜について, 〜にとって, 〜として, 〜によると, 〜によって and 〜とおり in formal speech. | วันนำเสนอ ตัมกับหลินนำเสนอเรื่องวัดญี่ปุ่นด้วย です/ます แล้วตอบคำถามจากจอห์นและครูยามาดะ ในห้องเรียน แม้แต่เพื่อนร่วมชั้นก็พูดสุภาพกัน ฝึก 〜について 〜にとって 〜として 〜によると 〜によって และ 〜とおり ในภาษาทางการ
+--- 発表 | The presentation | การนำเสนอ
+You: では、始めます。私たちは、日本のお寺について調べました。 | では、はじめます。わたしたちは、にほんのおてらについてしらべました。 | ขอเริ่มเลยนะครับ พวกเราค้นคว้าเรื่องวัดของญี่ปุ่นครับ | Let's begin. We researched Japanese temples.
+g: n4.e.tsuite
+note: In a presentation Tam says 私たち, not 僕たち, and では instead of じゃあ. Same classmate, different setting. | ในการนำเสนอ ตัมใช้ 私たち แทน 僕たち และใช้ では แทน じゃあ เพื่อนคนเดิมแต่สถานการณ์ต่างกัน
+リン*: 日本には、お寺が七万以上あるそうです。コンビニより多いんです。 | にほんには、おてらがななまんいじょうあるそうです。コンビニよりおおいんです。 | ได้ยินว่าญี่ปุ่นมีวัดมากกว่าเจ็ดหมื่นแห่งค่ะ มากกว่าร้านสะดวกซื้ออีกค่ะ | There are said to be over seventy thousand temples in Japan. That's more than convenience stores.
+g: n4.e.souda2, n5.p.yori, n4.e.ndesu
+You: ある本によると、一番古いお寺は、千四百年ぐらい前に建てられたそうです。 | あるほんによると、いちばんふるいおてらは、せんよんひゃくねんぐらいまえにたてられたそうです。 | หนังสือเล่มหนึ่งบอกว่า วัดที่เก่าแก่ที่สุดสร้างขึ้นเมื่อประมาณหนึ่งพันสี่ร้อยปีก่อนครับ | According to one book, the oldest temple was built about fourteen hundred years ago.
+g: n4.e.niyoru, n4.v.passive, n5.p.kurai, n4.e.souda2
+リン: 奈良の法隆寺は、聖徳太子によって建てられたと言われています。 | ならのほうりゅうじは、しょうとくたいしによってたてられたといわれています。 | กล่าวกันว่าวัดโฮริวจิที่นาราสร้างโดยเจ้าชายโชโตกุค่ะ | Horyuji in Nara is said to have been built by Prince Shotoku.
+g: n4.e.niyotte, n4.v.passive
+note: 〜と言われています = "it is said that". Together with によって it gives the formal, textbook tone that presentations use. | 〜と言われています = "กล่าวกันว่า…" ใช้คู่กับ によって แล้วได้น้ำเสียงทางการแบบที่ใช้ในการนำเสนอ
+You: 今、お寺は観光地としても人気があります。 | いま、おてらはかんこうちとしてもにんきがあります。 | ปัจจุบันวัดเป็นที่นิยมในฐานะสถานที่ท่องเที่ยวด้วยครับ | Today, temples are also popular as tourist spots.
+g: n4.e.toshite
+リン: でも、日本人にとって、お寺はどんな場所なのでしょうか。 | でも、にほんじんにとって、おてらはどんなばしょなのでしょうか。 | แต่สำหรับคนญี่ปุ่น วัดเป็นสถานที่แบบไหนกันนะคะ | But what kind of place is a temple for Japanese people?
+g: n4.e.nitotte, n5.e.deshou
+You: お寺の方によると、お寺は「心を休める場所」だそうです。 | おてらのかたによると、おてらは「こころをやすめるばしょ」だそうです。 | ตามที่คนของวัดบอก วัดคือ "สถานที่ให้ใจได้พัก" ครับ | According to someone at the temple, a temple is "a place to rest your heart".
+g: n4.e.niyoru, n4.e.souda2
+note: 方 (かた) is the polite word for 人. In a presentation, お寺の方 sounds better than お寺の人. | 方 (かた) คือคำสุภาพของ 人 ในการนำเสนอ พูด お寺の方 จะฟังดีกว่า お寺の人
+--- 質問 | Questions | ช่วงถามตอบ
+山田先生: ありがとうございました。では、質問がある人はいますか。 | ありがとうございました。では、しつもんがあるひとはいますか。 | ขอบคุณค่ะ มีใครมีคำถามไหมคะ | Thank you. Does anyone have a question?
+ジョン*: タイのお寺と日本のお寺は、どう違いますか。 | タイのおてらとにほんのおてらは、どうちがいますか。 | วัดไทยกับวัดญี่ปุ่นต่างกันยังไงครับ | How are Thai temples and Japanese temples different?
+note: John is a classmate, but during class he asks in です/ます. The setting, not only the person, decides the register. | จอห์นเป็นเพื่อนร่วมชั้น แต่ในห้องเรียนเขาถามด้วย です/ます สถานการณ์ก็เป็นตัวกำหนดระดับภาษา ไม่ใช่แค่ตัวบุคคล
+You: タイ人にとって、お寺は生活に近い場所です。毎朝、お坊さんにご飯を渡す習慣があります。 | タイじんにとって、おてらはせいかつにちかいばしょです。まいあさ、おぼうさんにごはんをわたすしゅうかんがあります。 | สำหรับคนไทย วัดเป็นสถานที่ที่ใกล้ชิดกับชีวิตประจำวันครับ มีธรรมเนียมใส่บาตรพระทุกเช้าครับ | For Thai people, a temple is a place close to daily life. We have the custom of giving monks food every morning.
+g: n4.e.nitotte, n4.e.relative
+ジョン: へえ、知りませんでした。 | へえ、しりませんでした。 | อ๋อ ไม่รู้มาก่อนเลยครับ | Oh, I didn't know that.
+リン*: それから、お寺によって、ルールも違います。写真を撮ってはいけないお寺もあります。 | それから、おてらによって、ルールもちがいます。しゃしんをとってはいけないおてらもあります。 | แล้วก็ กฎก็ต่างกันไปแต่ละวัดค่ะ บางวัดห้ามถ่ายรูปค่ะ | Also, the rules differ from temple to temple. At some temples you can't take photos.
+g: n4.e.niyotte, n5.t.tewaikenai, n4.e.relative
+山田先生*: 準備はどうでしたか。計画どおりに進みましたか。 | じゅんびはどうでしたか。けいかくどおりにすすみましたか。 | การเตรียมงานเป็นยังไงบ้างคะ เป็นไปตามแผนไหมคะ | How was the preparation? Did it go according to plan?
+g: n4.e.touri
+You: いいえ、計画どおりにはいきませんでした。資料が多すぎて…。 | いいえ、けいかくどおりにはいきませんでした。しりょうがおおすぎて…。 | ไม่ครับ ไม่เป็นไปตามแผนเลยครับ ข้อมูลเยอะเกินไป… | No, it didn't go to plan. There was too much material...
+g: n4.e.touri, n4.e.sugiru
+リン: でも、先生がおっしゃったとおりに、大事なところだけ選びました。 | でも、せんせいがおっしゃったとおりに、だいじなところだけえらびました。 | แต่เราเลือกแค่ส่วนสำคัญตามที่ครูบอกค่ะ | But we picked only the important parts, just as you told us.
+g: n4.e.touri, n5.p.dake
+note: Compare the casual 先生が言ったとおり. Speaking TO the teacher, Lin raises her with おっしゃった (respectful 言った), a preview of lesson 32. | เทียบกับแบบกันเอง 先生が言ったとおり เวลาพูดกับครูโดยตรง หลินยกย่องครูด้วย おっしゃった (言った แบบยกย่อง) ซึ่งจะได้เรียนในบทที่ 32
+山田先生: とてもわかりやすい発表でした。皆さん、拍手！ | とてもわかりやすいはっぴょうでした。みなさん、はくしゅ！ | เป็นการนำเสนอที่เข้าใจง่ายมากค่ะ ทุกคน ปรบมือหน่อย! | That was a very clear presentation. Everyone, a round of applause!
+g: n4.e.yasui

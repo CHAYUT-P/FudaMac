@@ -146,10 +146,16 @@ def romanize(ja, kana):
                 if not word_like:
                     flush(); word(kana_to_romaji(m)); i += len(m); prev = "p"; continue
             is_particle = False
-            if run in ("を", "へ"):
+            word_start = prev == "p" and buf == ""           # は / へ opening a word: はい, へえ, はじめ
+            if run == "を":
                 is_particle = True
+            elif run == "へ":
+                is_particle = not word_start and nxt not in ("え", "ー")
             elif run == "は":
-                is_particle = not (nxt in ("い", "じ") and (prev == "p" or not buf))
+                is_particle = not (nxt in ("い", "じ") and (prev == "p" or not buf)) \
+                    and not (word_start and nxt not in ("、", "。", "")) \
+                    and hira(buf) not in ("お", "ご") \
+                    and nxt not in ("は", "ず", "っ") and not hira(buf).endswith("は")   # おはよう, あはは, はず, はっきり
             elif run in PARTICLES and after_word:
                 is_particle = not (run == "で" and nxt in ("す", "し")) and not (nxt in OKURI_AFTER)
                 if run == "の" and buf in ("こ", "そ", "あ", "ど"):

@@ -84,6 +84,7 @@ for e in extra:
         "romaji": kana_to_romaji(e["kana"].replace("〜", "")), "pos": e["pos"], "th": e["th"],
         "exJA": e["exJA"], "exKana": e["exKana"], "exRomaji": romanize(e["exJA"], e["exKana"]),
         "exEN": e["exEN"], "exTH": e["exTH"],
+        **({"plus": True} if e.get("plus") else {}),
     })
     assign[vid] = {"sub": e["sub"], "en": e["en"], "thAlt": e.get("thAlt", [])}
 

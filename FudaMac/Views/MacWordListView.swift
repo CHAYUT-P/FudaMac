@@ -270,7 +270,7 @@ struct MacWordListView: View {
     private var detail: some View {
         @Bindable var state = state
         let ws = words()
-        let n5 = ws.filter { $0.level == .n5 }, n4 = ws.filter { $0.level == .n4 }
+        let n5 = ws.filter { $0.level == .n5 }, n4 = ws.filter { $0.level == .n4 && !$0.isPlus }, plus = ws.filter(\.isPlus)
         let known = store.listKnown(ws.map(markKey))
         let t = titles
         return VStack(spacing: 0) {
@@ -278,7 +278,7 @@ struct MacWordListView: View {
                 PaneHeader(kicker: t.kicker, title: t.title,
                            subtitle: state.mode.isTyping
                                ? "\(t.sub)  ·  \(ws.count) words  ·  รู้แล้ว \(known)/\(ws.count)"
-                               : "\(t.sub)  ·  \(ws.count) words (N5 \(n5.count) · N4 \(n4.count))  ·  รู้แล้ว \(known)/\(ws.count)") {
+                               : "\(t.sub)  ·  \(ws.count) words (N5 \(n5.count) · N4 \(n4.count)\(plus.isEmpty ? "" : " · N4+ \(plus.count)"))  ·  รู้แล้ว \(known)/\(ws.count)") {
                     Button(action: randomPick) { Label("Random", systemImage: "die.face.5") }
                         .buttonStyle(InkButtonStyle(kind: .akaneOutline, height: 40)).frame(width: 120)
                 }
@@ -389,15 +389,16 @@ struct MacWordListView: View {
             for s in wl.categories.flatMap(\.subs) {
                 let part = ws.filter { $0.meta.sub == s.id }
                 guard !part.isEmpty else { continue }
-                let n5 = part.filter { $0.level == .n5 }.count
+                let n5 = part.filter { $0.level == .n5 }.count, plus = part.filter(\.isPlus).count
                 out.append(Section(id: s.id, tag: s.ja, tagIsLevel: false,
-                                   note: "\(s.th) · \(s.en) · \(part.count)  (N5 \(n5) · N4 \(part.count - n5))", words: part))
+                                   note: "\(s.th) · \(s.en) · \(part.count)  (N5 \(n5) · N4 \(part.count - n5 - plus)\(plus > 0 ? " · N4+ \(plus)" : ""))", words: part))
             }
             return out
         }
-        let n5 = ws.filter { $0.level == .n5 }, n4 = ws.filter { $0.level == .n4 }
+        let n5 = ws.filter { $0.level == .n5 }, n4 = ws.filter { $0.level == .n4 && !$0.isPlus }, plus = ws.filter(\.isPlus)
         return [Section(id: "n5", tag: "N5", tagIsLevel: true, note: "พื้นฐาน เรียนก่อน · learn first · \(n5.count)", words: n5),
-                Section(id: "n4", tag: "N4", tagIsLevel: true, note: "ต่อยอด · builds on N5 · \(n4.count)", words: n4)]
+                Section(id: "n4", tag: "N4", tagIsLevel: true, note: "ต่อยอด · builds on N5 · \(n4.count)", words: n4),
+                Section(id: "plus", tag: "N4+", tagIsLevel: true, note: "ใช้บ่อยในชีวิตจริง เหนือ N4 นิดหน่อย · everyday words a step above N4 · \(plus.count)", words: plus)]
             .filter { !$0.words.isEmpty }
     }
 
@@ -487,7 +488,7 @@ struct MacWordListView: View {
                 HStack(spacing: 6) {
                     Text(w.word).font(Typo.mincho(24)).lineLimit(1).minimumScaleFactor(0.5)
                     if tagLevel && w.level == .n4 {
-                        Text("N4").font(.system(size: 9, weight: .heavy)).foregroundStyle(Ink.akane)
+                        Text(w.vocab.levelTag).font(.system(size: 9, weight: .heavy)).foregroundStyle(Ink.akane)
                             .padding(.horizontal, 3).overlay(Rectangle().strokeBorder(Ink.akane, lineWidth: 1))
                     }
                 }

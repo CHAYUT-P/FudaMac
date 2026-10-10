@@ -409,7 +409,9 @@ enum AutoReading {
             let r = CFStringTokenizerGetCurrentTokenRange(tok)
             if r.location > cursor { out += plain(ns.substring(with: NSRange(location: cursor, length: r.location - cursor))) }
             let surface = ns.substring(with: NSRange(location: r.location, length: r.length))
-            let latin = CFStringTokenizerCopyCurrentTokenAttribute(tok, kCFStringTokenizerAttributeLatinTranscription) as? String ?? ""
+            // The system writes a final small っ as "~tsu" (えっ → "e~tsu"); in Hepburn it is simply dropped.
+            let latin = (CFStringTokenizerCopyCurrentTokenAttribute(tok, kCFStringTokenizerAttributeLatinTranscription) as? String ?? "")
+                .replacingOccurrences(of: "~tsu", with: "").replacingOccurrences(of: "~", with: "")
             out.append(make(surface, latin: latin, previous: out.last ?? previous))
             cursor = r.location + r.length
             type = CFStringTokenizerAdvanceToNextToken(tok)

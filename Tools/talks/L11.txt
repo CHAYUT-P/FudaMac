@@ -1,0 +1,105 @@
+@scene l11_casual
+title: 風邪、大丈夫？
+en: Are you OK? You look sick (with a friend)
+th: เป็นหวัดเหรอ ไหวไหม (กับเพื่อน)
+glyph: 風
+level: n5
+place: health
+lesson: 11
+register: casual
+pair: l11
+about: Saturday morning Yuki knocks to go to the movie, but Tam opens the door with a red face. All plain form (普通形): the た形 for the past, 〜たり〜たり for what you did, 〜たことない for "never", and 〜たほうがいい for advice. | เช้าวันเสาร์ยูกิมาเคาะประตูชวนไปดูหนัง แต่ตัมเปิดประตูมาหน้าแดง คุยกันด้วยรูปธรรมดา (普通形) ทั้งหมด ใช้รูป た เล่าอดีต 〜たり〜たり เล่าว่าทำอะไรบ้าง 〜たことない บอกว่าไม่เคย และ 〜たほうがいい ให้คำแนะนำ
+--- ドアの前 | At the door | หน้าประตู
+ゆき: おはよう！映画の時間だよ。…えっ、顔、赤いよ。大丈夫？ | おはよう！えいがのじかんだよ。…えっ、かお、あかいよ。だいじょうぶ？ | อรุณสวัสดิ์! ได้เวลาไปดูหนังแล้ว …เอ๊ะ หน้าแดงเชียว เป็นอะไรรึเปล่า | Morning! Time for the movie. …Huh, your face is red. Are you OK?
+g: n5.plain
+note: Friends use the plain form (普通形): 時間だよ instead of 時間ですよ, 大丈夫？ instead of 大丈夫ですか. | เพื่อนกันใช้รูปธรรมดา (普通形) เช่น 時間だよ แทน 時間ですよ และ 大丈夫？ แทน 大丈夫ですか
+You: うーん、頭が痛い。昨日の夜から熱がある。 | うーん、あたまがいたい。きのうのよるからねつがある。 | อืม ปวดหัว มีไข้ตั้งแต่เมื่อคืน | Ugh, my head hurts. I've had a fever since last night.
+g: n5.plain
+alt: ちょっと風邪みたい。 | ちょっとかぜみたい。 | ท่าจะเป็นหวัดนิดหน่อย | I think I've got a bit of a cold.
+ゆき*: え、熱？薬は飲んだ？ | え、ねつ？くすりはのんだ？ | ห๊ะ มีไข้? กินยารึยัง | A fever? Did you take any medicine?
+g: n5.v.ta, n5.plain
+note: 飲んだ is the た形 (plain past) of 飲む, the casual version of 飲みましたか. It's made like the て形: 飲んで → 飲んだ. | 飲んだ คือรูป た (อดีตธรรมดา) ของ 飲む เป็นแบบกันเองของ 飲みましたか วิธีผันเหมือนรูป て คือ 飲んで → 飲んだ
+You: ううん、まだ。家に薬がない。 | ううん、まだ。いえにくすりがない。 | ยังเลย ที่บ้านไม่มียา | No, not yet. I don't have any at home.
+g: n5.plain
+ゆき: 昨日、何したの？ | きのう、なにしたの？ | เมื่อวานไปทำอะไรมา | What did you do yesterday?
+g: n5.v.ta, n5.plain
+You: 雨の中、自転車に乗ったり、夜遅くまでゲームしたり…。 | あめのなか、じてんしゃにのったり、よるおそくまでゲームしたり…。 | ปั่นจักรยานตากฝนบ้าง เล่นเกมจนดึกบ้าง… | Riding my bike in the rain, playing games till late…
+g: n5.e.tari, n5.v.ta, n5.plain
+note: 〜たり〜たり lists a few things you did: "things like A and B". In casual speech you can just trail off after the list. | 〜たり〜たり ใช้ยกตัวอย่างสิ่งที่ทำ "ทำ A บ้าง B บ้าง" ภาษาพูดแบบกันเองพูดจบแค่นั้นแล้วลากเสียงไปได้เลย
+ゆき*: もう…。病院、行ったほうがいいよ。 | もう…。びょういん、いったほうがいいよ。 | โธ่เอ๊ย… ไปหาหมอดีกว่านะ | Oh, honestly… You should go to the doctor.
+g: n5.e.hougaii, n5.plain
+note: た形 + ほうがいい = "you'd better…". It's fairly strong advice, so friends add よ to sound caring. | รูป た + ほうがいい = "…ดีกว่า / ควร…" เป็นคำแนะนำที่ค่อนข้างหนักแน่น เพื่อนจึงใส่ よ ให้ฟังว่าเป็นห่วง
+You: 日本の病院、まだ行ったことない。ちょっと怖いな。 | にほんのびょういん、まだいったことない。ちょっとこわいな。 | ยังไม่เคยไปโรงพยาบาลที่ญี่ปุ่นเลย กลัวนิดๆ | I've never been to a hospital in Japan. I'm a bit scared.
+g: n5.e.takoto, n5.plain
+note: 行ったことない is 行ったことがない with が dropped: "have never been". | 行ったことない คือ 行ったことがない ที่ตัด が ออก แปลว่า "ไม่เคยไป"
+ゆき: 大丈夫。駅の前のクリニック、私、何回も行ったことあるよ。先生も優しいよ。 | だいじょうぶ。えきのまえのクリニック、わたし、なんかいもいったことあるよ。せんせいもやさしいよ。 | ไม่เป็นไร คลินิกหน้าสถานี เราไปมาหลายครั้งแล้ว หมอก็ใจดีด้วย | It's fine. I've been to the clinic by the station loads of times. The doctor's nice too.
+g: n5.e.takoto, n5.plain
+You: 保険証、持っていったほうがいい？ | ほけんしょう、もっていったほうがいい？ | ต้องเอาบัตรประกันไปด้วยไหม | Should I take my insurance card?
+g: n5.e.hougaii, n5.plain
+ゆき*: うん、絶対。あと、映画は今日はやめたほうがいいね。 | うん、ぜったい。あと、えいがはきょうはやめたほうがいいね。 | อือ ต้องเอาไปแน่นอน แล้วก็ วันนี้งดดูหนังดีกว่านะ | Yes, definitely. And we'd better skip the movie today.
+g: n5.e.hougaii, n5.plain
+You: ごめん。すごく見たかった…。 | ごめん。すごくみたかった…。 | ขอโทษนะ อยากดูมากเลยแท้ๆ… | Sorry. I really wanted to see it…
+g: n5.v.ta, n5.plain
+note: 見たかった is the past of 見たい: "I wanted to see it". い-adjectives and 〜たい make the past with 〜かった. | 見たかった คือรูปอดีตของ 見たい แปลว่า "อยากดู(มาก)" คำคุณศัพท์ い และ 〜たい เปลี่ยนเป็นอดีตด้วย 〜かった
+ゆき: いいよ、いいよ。また今度ね。 | いいよ、いいよ。またこんどね。 | ไม่เป็นไรๆ ไว้คราวหน้านะ | It's fine. Next time.
+--- 病院のあと | After the clinic | หลังไปหาหมอ
+ゆき: どうだった？ | どうだった？ | เป็นไงบ้าง | How did it go?
+g: n5.v.ta, n5.plain
+You: ただの風邪だった。薬ももらった。 | ただのかぜだった。くすりももらった。 | แค่หวัดธรรมดา ได้ยามาด้วย | Just a cold. I got some medicine too.
+g: n5.v.ta, n5.plain
+note: だった is the plain past of だ/です: ただの風邪だった = ただの風邪でした. | だった คือรูปอดีตธรรมดาของ だ/です ประโยคนี้เท่ากับ ただの風邪でした
+ゆき*: よかった！何か食べた？ | よかった！なにかたべた？ | ค่อยยังชั่ว! กินอะไรรึยัง | Thank goodness! Have you eaten anything?
+g: n5.v.ta, n5.plain
+You: ううん、朝から何も食べてない。 | ううん、あさからなにもたべてない。 | ยัง ตั้งแต่เช้ายังไม่ได้กินอะไรเลย | No, I haven't eaten anything since this morning.
+g: n5.plain
+ゆき: じゃあ、おかゆ作るね。今日は早く寝たほうがいいよ。 | じゃあ、おかゆつくるね。きょうははやくねたほうがいいよ。 | งั้นเดี๋ยวทำโจ๊กให้นะ วันนี้นอนเร็วๆ ดีกว่า | Then I'll make you some rice porridge. You should go to bed early today.
+g: n5.e.hougaii, n5.plain
+You: ありがとう、ゆき。本当に助かった。 | ありがとう、ゆき。ほんとうにたすかった。 | ขอบใจนะยูกิ ช่วยได้เยอะเลยจริงๆ | Thanks, Yuki. You really saved me.
+g: n5.v.ta, n5.plain
+alt: ありがとう。ゆき、優しいね。 | ありがとう。ゆき、やさしいね。 | ขอบใจนะ ยูกิใจดีจัง | Thanks. You're so kind, Yuki.
+
+@scene l11_polite
+title: 初めての病院
+en: My first clinic visit (polite)
+th: ไปหาหมอครั้งแรก (สุภาพ)
+glyph: 風
+level: n5
+place: health
+lesson: 11
+register: polite
+pair: l11
+about: The same morning at the clinic by the station. Telling reception you've never been (〜たことがありません), telling the doctor what you did (〜たり〜たりしました), and getting polite advice (〜たほうがいいです, 〜ないほうがいいです). | เช้าวันเดียวกันที่คลินิกหน้าสถานี บอกแผนกต้อนรับว่าไม่เคยมา (〜たことがありません) เล่าให้หมอฟังว่าทำอะไรมาบ้าง (〜たり〜たりしました) และฟังคำแนะนำอย่างสุภาพ (〜たほうがいいです, 〜ないほうがいいです)
+--- 受付 | Reception | แผนกต้อนรับ
+受付: おはようございます。こちらは初めてですか。 | おはようございます。こちらははじめてですか。 | สวัสดีค่ะ มาที่นี่ครั้งแรกไหมคะ | Good morning. Is this your first visit here?
+You: はい、初めてです。日本で病院に行ったことがありません。 | はい、はじめてです。にほんでびょういんにいったことがありません。 | ครับ ครั้งแรกครับ ผมไม่เคยไปโรงพยาบาลที่ญี่ปุ่นเลยครับ | Yes, it's my first time. I've never been to a hospital in Japan.
+g: n5.e.takoto, n5.v.ta
+note: た形 + ことがありません = "have never done". Compare the casual 行ったことない. | รูป た + ことがありません = "ไม่เคย…" เทียบกับแบบกันเอง 行ったことない
+受付*: 大丈夫ですよ。保険証をお願いします。 | だいじょうぶですよ。ほけんしょうをおねがいします。 | ไม่เป็นไรค่ะ ขอบัตรประกันสุขภาพด้วยค่ะ | No problem. Your insurance card, please.
+note: 保険証 = your health insurance card (these days usually your My Number card registered for health insurance). Always bring it; without it you pay the full price. | 保険証 คือบัตรประกันสุขภาพ (ปัจจุบันส่วนใหญ่ใช้บัตร My Number ที่ลงทะเบียนเป็นบัตรประกันแล้ว) ต้องพกไปทุกครั้ง ถ้าไม่มีต้องจ่ายเต็มราคา
+You: はい、これです。 | はい、これです。 | นี่ครับ | Here it is.
+--- 診察室 | With the doctor | ห้องตรวจ
+医者: どうしましたか。 | どうしましたか。 | เป็นอะไรมาครับ | What seems to be the problem?
+You: 昨日の夜から熱があって、頭も痛いです。 | きのうのよるからねつがあって、あたまもいたいです。 | มีไข้ตั้งแต่เมื่อคืน แล้วก็ปวดหัวด้วยครับ | I've had a fever since last night, and I have a headache too.
+g: n5.t.connect
+医者: そうですか。昨日は何をしましたか。 | そうですか。きのうはなにをしましたか。 | อย่างนั้นเหรอครับ เมื่อวานทำอะไรมาบ้างครับ | I see. What did you do yesterday?
+You: 雨の中で自転車に乗ったり、夜遅くまでゲームをしたりしました。 | あめのなかでじてんしゃにのったり、よるおそくまでゲームをしたりしました。 | ปั่นจักรยานตากฝนบ้าง เล่นเกมจนดึกบ้างครับ | I rode my bike in the rain, played games till late, that kind of thing.
+g: n5.e.tari, n5.v.ta
+note: In polite speech the list ends with 〜たりしました. With a friend you can just stop after 〜たり…. | เวลาพูดสุภาพต้องปิดท้ายด้วย 〜たりしました ส่วนกับเพื่อนพูดแค่ 〜たり… แล้วหยุดได้เลย
+医者*: なるほど。体が冷えましたね。この薬を飲んだことがありますか。 | なるほど。からだがひえましたね。このくすりをのんだことがありますか。 | เข้าใจแล้วครับ ตัวคงเย็นเกินไปนะครับ เคยกินยานี้ไหมครับ | I see. You got chilled. Have you ever taken this medicine?
+g: n5.e.takoto, n5.v.ta
+You: いいえ、ありません。 | いいえ、ありません。 | ไม่เคยครับ | No, I haven't.
+note: To 〜たことがありますか, just answer はい、あります or いいえ、ありません. | ตอบคำถาม 〜たことがありますか แค่ はい、あります หรือ いいえ、ありません ก็พอ
+医者: ただの風邪ですね。薬を三日分出します。一日三回飲んでください。 | ただのかぜですね。くすりをみっかぶんだします。いちにちさんかいのんでください。 | เป็นหวัดธรรมดาครับ จะให้ยาไปสามวัน กินวันละสามครั้งนะครับ | It's just a cold. I'll give you three days of medicine. Take it three times a day.
+You: 先生、明日、学校に行ってもいいですか。 | せんせい、あした、がっこうにいってもいいですか。 | คุณหมอครับ พรุ่งนี้ไปโรงเรียนได้ไหมครับ | Doctor, may I go to school tomorrow?
+g: n5.t.temoii
+note: You call a doctor 先生 too, not only teachers. | เรียกหมอว่า 先生 ได้ด้วย ไม่ใช่แค่ครูเท่านั้น
+医者*: 熱がありますから、二、三日は休んだほうがいいですね。 | ねつがありますから、に、さんにちはやすんだほうがいいですね。 | ยังมีไข้อยู่ พักสักสองสามวันดีกว่านะครับ | You have a fever, so you'd better rest for two or three days.
+g: n5.e.hougaii, n5.v.ta
+You: お風呂に入ってもいいですか。 | おふろにはいってもいいですか。 | อาบน้ำแช่อ่างได้ไหมครับ | May I take a bath?
+g: n5.t.temoii
+医者*: 今日は入らないほうがいいです。それから、水をたくさん飲んだほうがいいですよ。 | きょうははいらないほうがいいです。それから、みずをたくさんのんだほうがいいですよ。 | วันนี้อย่าเพิ่งแช่ดีกว่าครับ แล้วก็ควรดื่มน้ำเยอะๆ นะครับ | Better not today. And you should drink plenty of water.
+g: n5.e.hougaii, n5.v.nai
+note: For "better not", use the ない形: 入らないほうがいい (not a past form). | ถ้าจะบอกว่า "อย่า…ดีกว่า" ใช้รูป ない คือ 入らないほうがいい (ไม่ใช้รูปอดีต)
+You: わかりました。ありがとうございました。 | わかりました。ありがとうございました。 | เข้าใจแล้วครับ ขอบคุณมากครับ | I understand. Thank you very much.
+医者: お大事に。 | おだいじに。 | ขอให้หายเร็วๆ นะครับ | Take care of yourself.
+note: お大事に is what doctors, staff and friends say to someone who is ill: "get well soon". | お大事に คือคำที่หมอ พนักงาน หรือเพื่อนพูดกับคนป่วย แปลว่า "ขอให้หายเร็วๆ"

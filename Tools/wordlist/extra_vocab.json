@@ -1157,5 +1157,2923 @@
   "exEN": "I said goodbye to my family at the airport.",
   "exTH": "บอกลาครอบครัวที่สนามบิน",
   "sub": "people.relation"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "酸っぱい",
+  "kana": "すっぱい",
+  "pos": "adj",
+  "th": "เปรี้ยว",
+  "en": "sour",
+  "thAlt": [],
+  "exJA": "このレモンはとても酸っぱいです。",
+  "exKana": "このレモンはとてもすっぱいです。",
+  "exEN": "This lemon is very sour.",
+  "exTH": "มะนาวนี้เปรี้ยวมาก",
+  "sub": "food.taste"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "しょっぱい",
+  "kana": "しょっぱい",
+  "pos": "adj",
+  "th": "เค็ม",
+  "en": "salty",
+  "thAlt": [],
+  "exJA": "このスープはちょっとしょっぱいです。",
+  "exKana": "このスープはちょっとしょっぱいです。",
+  "exEN": "This soup is a bit salty.",
+  "exTH": "ซุปนี้เค็มไปหน่อย",
+  "sub": "food.taste"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "濃い",
+  "kana": "こい",
+  "pos": "adj",
+  "th": "เข้มข้น / (รส) จัด",
+  "en": "strong; rich; thick (taste, colour)",
+  "thAlt": [
+   "เข้ม",
+   "รสจัด"
+  ],
+  "exJA": "このコーヒーは濃いですね。",
+  "exKana": "このコーヒーはこいですね。",
+  "exEN": "This coffee is strong, isn't it?",
+  "exTH": "กาแฟนี้เข้มนะ",
+  "sub": "food.taste"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "炒める",
+  "kana": "いためる",
+  "pos": "verb",
+  "th": "ผัด",
+  "en": "to stir-fry; to fry",
+  "thAlt": [],
+  "exJA": "野菜を炒めて、塩を入れます。",
+  "exKana": "やさいをいためて、しおをいれます。",
+  "exEN": "Stir-fry the vegetables and add salt.",
+  "exTH": "ผัดผักแล้วใส่เกลือ",
+  "sub": "food.verb"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "茹でる",
+  "kana": "ゆでる",
+  "pos": "verb",
+  "th": "ต้ม (ในน้ำเดือด) / ลวก",
+  "en": "to boil (food in water)",
+  "thAlt": [
+   "ลวก",
+   "ต้ม"
+  ],
+  "exJA": "卵を七分茹でます。",
+  "exKana": "たまごをななふんゆでます。",
+  "exEN": "Boil the eggs for seven minutes.",
+  "exTH": "ต้มไข่เจ็ดนาที",
+  "sub": "food.verb"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "混ぜる",
+  "kana": "まぜる",
+  "pos": "verb",
+  "th": "ผสม / คน",
+  "en": "to mix; to stir",
+  "thAlt": [
+   "คน",
+   "ผสม"
+  ],
+  "exJA": "砂糖と卵をよく混ぜます。",
+  "exKana": "さとうとたまごをよくまぜます。",
+  "exEN": "Mix the sugar and eggs well.",
+  "exTH": "ผสมน้ำตาลกับไข่ให้เข้ากัน",
+  "sub": "food.verb"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "温める",
+  "kana": "あたためる",
+  "pos": "verb",
+  "th": "อุ่น / ทำให้ร้อน",
+  "en": "to warm up; to heat (food)",
+  "thAlt": [
+   "อุ่น"
+  ],
+  "exJA": "お弁当を温めますか。",
+  "exKana": "おべんとうをあたためますか。",
+  "exEN": "Shall I heat up your bento?",
+  "exTH": "จะอุ่นข้าวกล่องไหมครับ",
+  "sub": "food.verb"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "注文",
+  "kana": "ちゅうもん",
+  "pos": "noun",
+  "th": "การสั่ง (อาหาร/สินค้า)",
+  "en": "order (food, goods)",
+  "thAlt": [
+   "สั่งอาหาร",
+   "สั่ง"
+  ],
+  "exJA": "ご注文はお決まりですか。",
+  "exKana": "ごちゅうもんはおきまりですか。",
+  "exEN": "Are you ready to order?",
+  "exTH": "จะสั่งอะไรดีครับ",
+  "sub": "food.eatout"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "おかわり",
+  "kana": "おかわり",
+  "pos": "noun",
+  "th": "เติม / ขอเพิ่มอีกชาม",
+  "en": "second helping; refill",
+  "thAlt": [
+   "เติม"
+  ],
+  "exJA": "ご飯のおかわりをください。",
+  "exKana": "ごはんのおかわりをください。",
+  "exEN": "Another bowl of rice, please.",
+  "exTH": "ขอข้าวเพิ่มอีกถ้วยครับ",
+  "sub": "food.eatout"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "持ち帰り",
+  "kana": "もちかえり",
+  "pos": "noun",
+  "th": "กลับบ้าน (ห่อกลับ) / เทคอะเวย์",
+  "en": "takeaway; to go",
+  "thAlt": [
+   "ห่อกลับ",
+   "เทคอะเวย์"
+  ],
+  "exJA": "店内でお召し上がりですか、お持ち帰りですか。",
+  "exKana": "てんないでおめしあがりですか、おもちかえりですか。",
+  "exEN": "For here or to go?",
+  "exTH": "ทานที่ร้านหรือกลับบ้านครับ",
+  "sub": "food.eatout"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "会計",
+  "kana": "かいけい",
+  "pos": "noun",
+  "th": "การชำระเงิน / เช็กบิล",
+  "en": "bill; check; payment",
+  "thAlt": [
+   "เช็กบิล",
+   "คิดเงิน"
+  ],
+  "exJA": "すみません、お会計お願いします。",
+  "exKana": "すみません、おかいけいおねがいします。",
+  "exEN": "Excuse me, the bill please.",
+  "exTH": "ขอโทษครับ เช็กบิลด้วยครับ",
+  "sub": "food.eatout"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "恋人",
+  "kana": "こいびと",
+  "pos": "noun",
+  "th": "คนรัก / แฟน",
+  "en": "boyfriend; girlfriend; lover",
+  "thAlt": [
+   "แฟน"
+  ],
+  "exJA": "恋人はいますか。",
+  "exKana": "こいびとはいますか。",
+  "exEN": "Do you have a boyfriend or girlfriend?",
+  "exTH": "มีแฟนไหม",
+  "sub": "people.relation"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "知り合い",
+  "kana": "しりあい",
+  "pos": "noun",
+  "th": "คนรู้จัก",
+  "en": "acquaintance",
+  "thAlt": [],
+  "exJA": "東京に知り合いがいます。",
+  "exKana": "とうきょうにしりあいがいます。",
+  "exEN": "I have an acquaintance in Tokyo.",
+  "exTH": "ฉันมีคนรู้จักอยู่ที่โตเกียว",
+  "sub": "people.relation"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "後輩",
+  "kana": "こうはい",
+  "pos": "noun",
+  "th": "รุ่นน้อง",
+  "en": "junior (at school, work)",
+  "thAlt": [],
+  "exJA": "会社の後輩と昼ご飯を食べました。",
+  "exKana": "かいしゃのこうはいとひるごはんをたべました。",
+  "exEN": "I had lunch with a junior colleague.",
+  "exTH": "กินข้าวกลางวันกับรุ่นน้องที่บริษัท",
+  "sub": "people.relation"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "孫",
+  "kana": "まご",
+  "pos": "noun",
+  "th": "หลาน (ลูกของลูก)",
+  "en": "grandchild",
+  "thAlt": [
+   "หลาน"
+  ],
+  "exJA": "祖母は孫が五人います。",
+  "exKana": "そぼはまごがごにんいます。",
+  "exEN": "My grandmother has five grandchildren.",
+  "exTH": "คุณยายมีหลานห้าคน",
+  "sub": "people.family"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "親戚",
+  "kana": "しんせき",
+  "pos": "noun",
+  "th": "ญาติ",
+  "en": "relative; relatives",
+  "thAlt": [],
+  "exJA": "お正月に親戚が集まります。",
+  "exKana": "おしょうがつにしんせきがあつまります。",
+  "exEN": "Relatives gather at New Year.",
+  "exTH": "ช่วงปีใหม่ญาติ ๆ จะมารวมตัวกัน",
+  "sub": "people.family"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "付き合う",
+  "kana": "つきあう",
+  "pos": "verb",
+  "th": "คบ (เป็นแฟน) / ไปเป็นเพื่อน",
+  "en": "to date; to go out with; to keep someone company",
+  "thAlt": [
+   "คบกัน",
+   "ไปด้วย"
+  ],
+  "exJA": "二人は去年から付き合っています。",
+  "exKana": "ふたりはきょねんからつきあっています。",
+  "exEN": "The two of them have been dating since last year.",
+  "exTH": "สองคนนั้นคบกันมาตั้งแต่ปีที่แล้ว",
+  "sub": "people.relation"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "誘う",
+  "kana": "さそう",
+  "pos": "verb",
+  "th": "ชวน",
+  "en": "to invite; to ask out",
+  "thAlt": [
+   "ชักชวน"
+  ],
+  "exJA": "友達を映画に誘いました。",
+  "exKana": "ともだちをえいがにさそいました。",
+  "exEN": "I invited my friend to a movie.",
+  "exTH": "ชวนเพื่อนไปดูหนัง",
+  "sub": "people.relation"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "断る",
+  "kana": "ことわる",
+  "pos": "verb",
+  "th": "ปฏิเสธ",
+  "en": "to refuse; to turn down",
+  "thAlt": [],
+  "exJA": "忙しかったので、誘いを断りました。",
+  "exKana": "いそがしかったので、さそいをことわりました。",
+  "exEN": "I was busy, so I turned down the invitation.",
+  "exTH": "เพราะยุ่งเลยปฏิเสธคำชวนไป",
+  "sub": "people.relation"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "肩",
+  "kana": "かた",
+  "pos": "noun",
+  "th": "ไหล่",
+  "en": "shoulder",
+  "thAlt": [],
+  "exJA": "肩が痛いです。",
+  "exKana": "かたがいたいです。",
+  "exEN": "My shoulder hurts.",
+  "exTH": "ปวดไหล่",
+  "sub": "body.part"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "腰",
+  "kana": "こし",
+  "pos": "noun",
+  "th": "เอว / หลังส่วนล่าง",
+  "en": "lower back; hips; waist",
+  "thAlt": [
+   "เอว",
+   "หลัง"
+  ],
+  "exJA": "重い荷物を持って、腰が痛くなりました。",
+  "exKana": "おもいにもつをもって、こしがいたくなりました。",
+  "exEN": "I carried heavy luggage and my lower back started to hurt.",
+  "exTH": "ยกของหนักแล้วปวดหลัง",
+  "sub": "body.part"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "膝",
+  "kana": "ひざ",
+  "pos": "noun",
+  "th": "เข่า",
+  "en": "knee",
+  "thAlt": [],
+  "exJA": "転んで膝を怪我しました。",
+  "exKana": "ころんでひざをけがしました。",
+  "exEN": "I fell and hurt my knee.",
+  "exTH": "หกล้มแล้วเข่าเป็นแผล",
+  "sub": "body.part"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "咳",
+  "kana": "せき",
+  "pos": "noun",
+  "th": "ไอ / อาการไอ",
+  "en": "cough",
+  "thAlt": [
+   "ไอ"
+  ],
+  "exJA": "昨日から咳が出ます。",
+  "exKana": "きのうからせきがでます。",
+  "exEN": "I've had a cough since yesterday.",
+  "exTH": "ไอมาตั้งแต่เมื่อวาน",
+  "sub": "body.illness"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "鼻水",
+  "kana": "はなみず",
+  "pos": "noun",
+  "th": "น้ำมูก",
+  "en": "runny nose; nasal mucus",
+  "thAlt": [],
+  "exJA": "風邪で鼻水が止まりません。",
+  "exKana": "かぜではなみずがとまりません。",
+  "exEN": "I have a cold and my nose won't stop running.",
+  "exTH": "เป็นหวัด น้ำมูกไหลไม่หยุด",
+  "sub": "body.illness"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "頭痛",
+  "kana": "ずつう",
+  "pos": "noun",
+  "th": "อาการปวดหัว",
+  "en": "headache",
+  "thAlt": [
+   "ปวดหัว"
+  ],
+  "exJA": "今朝から頭痛がします。",
+  "exKana": "けさからずつうがします。",
+  "exEN": "I've had a headache since this morning.",
+  "exTH": "ปวดหัวมาตั้งแต่เช้า",
+  "sub": "body.illness"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "痒い",
+  "kana": "かゆい",
+  "pos": "adj",
+  "th": "คัน",
+  "en": "itchy",
+  "thAlt": [],
+  "exJA": "蚊に刺されて、腕が痒いです。",
+  "exKana": "かにさされて、うでがかゆいです。",
+  "exEN": "I got bitten by a mosquito and my arm is itchy.",
+  "exTH": "โดนยุงกัด แขนคัน",
+  "sub": "body.state"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "だるい",
+  "kana": "だるい",
+  "pos": "adj",
+  "th": "อ่อนเพลีย / ปวดเมื่อยตัว",
+  "en": "sluggish; tired; heavy (body)",
+  "thAlt": [
+   "เพลีย",
+   "ไม่มีแรง"
+  ],
+  "exJA": "熱はないけど、体がだるいです。",
+  "exKana": "ねつはないけど、からだがだるいです。",
+  "exEN": "I don't have a fever, but I feel sluggish.",
+  "exTH": "ไม่มีไข้ แต่รู้สึกเพลีย ๆ",
+  "sub": "body.state"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "体調",
+  "kana": "たいちょう",
+  "pos": "noun",
+  "th": "สภาพร่างกาย / สุขภาพ",
+  "en": "physical condition; health",
+  "thAlt": [
+   "สุขภาพ"
+  ],
+  "exJA": "今日は体調が悪いので、休みます。",
+  "exKana": "きょうはたいちょうがわるいので、やすみます。",
+  "exEN": "I'm not feeling well today, so I'll take the day off.",
+  "exTH": "วันนี้ไม่ค่อยสบาย เลยจะหยุด",
+  "sub": "body.state"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "汗",
+  "kana": "あせ",
+  "pos": "noun",
+  "th": "เหงื่อ",
+  "en": "sweat",
+  "thAlt": [],
+  "exJA": "暑くて汗をたくさんかきました。",
+  "exKana": "あつくてあせをたくさんかきました。",
+  "exEN": "It was hot and I sweated a lot.",
+  "exTH": "ร้อนจนเหงื่อออกเยอะ",
+  "sub": "body.state"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "電子レンジ",
+  "kana": "でんしレンジ",
+  "pos": "noun",
+  "th": "ไมโครเวฟ",
+  "en": "microwave oven",
+  "thAlt": [
+   "ไมโครเวฟ"
+  ],
+  "exJA": "電子レンジで一分温めてください。",
+  "exKana": "でんしレンジでいっぷんあたためてください。",
+  "exEN": "Heat it in the microwave for one minute.",
+  "exTH": "อุ่นในไมโครเวฟหนึ่งนาทีนะ",
+  "sub": "home.furniture"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "洗濯機",
+  "kana": "せんたくき",
+  "pos": "noun",
+  "th": "เครื่องซักผ้า",
+  "en": "washing machine",
+  "thAlt": [],
+  "exJA": "洗濯機が壊れてしまいました。",
+  "exKana": "せんたくきがこわれてしまいました。",
+  "exEN": "The washing machine broke.",
+  "exTH": "เครื่องซักผ้าเสียแล้ว",
+  "sub": "home.furniture"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "掃除機",
+  "kana": "そうじき",
+  "pos": "noun",
+  "th": "เครื่องดูดฝุ่น",
+  "en": "vacuum cleaner",
+  "thAlt": [],
+  "exJA": "週末に部屋に掃除機をかけます。",
+  "exKana": "しゅうまつにへやにそうじきをかけます。",
+  "exEN": "I vacuum my room on the weekend.",
+  "exTH": "สุดสัปดาห์จะดูดฝุ่นห้อง",
+  "sub": "home.furniture"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "エアコン",
+  "kana": "エアコン",
+  "pos": "noun",
+  "th": "แอร์ / เครื่องปรับอากาศ",
+  "en": "air conditioner",
+  "thAlt": [
+   "แอร์"
+  ],
+  "exJA": "暑いから、エアコンをつけましょう。",
+  "exKana": "あついから、エアコンをつけましょう。",
+  "exEN": "It's hot, so let's turn on the air conditioner.",
+  "exTH": "ร้อน เปิดแอร์กันเถอะ",
+  "sub": "home.furniture"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "家賃",
+  "kana": "やちん",
+  "pos": "noun",
+  "th": "ค่าเช่าบ้าน / ค่าเช่าห้อง",
+  "en": "rent",
+  "thAlt": [
+   "ค่าเช่า"
+  ],
+  "exJA": "この部屋の家賃は一か月六万円です。",
+  "exKana": "このへやのやちんはいっかげつろくまんえんです。",
+  "exEN": "The rent for this room is 60,000 yen a month.",
+  "exTH": "ค่าเช่าห้องนี้เดือนละหกหมื่นเยน",
+  "sub": "home.house"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "枕",
+  "kana": "まくら",
+  "pos": "noun",
+  "th": "หมอน",
+  "en": "pillow",
+  "thAlt": [],
+  "exJA": "この枕は柔らかくて気持ちいいです。",
+  "exKana": "このまくらはやわらかくてきもちいいです。",
+  "exEN": "This pillow is soft and comfortable.",
+  "exTH": "หมอนใบนี้นุ่มสบาย",
+  "sub": "home.furniture"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "干す",
+  "kana": "ほす",
+  "pos": "verb",
+  "th": "ตาก",
+  "en": "to hang out to dry; to air",
+  "thAlt": [
+   "ตากผ้า"
+  ],
+  "exJA": "いい天気だから、洗濯物を干します。",
+  "exKana": "いいてんきだから、せんたくものをほします。",
+  "exEN": "It's nice weather, so I'll hang out the laundry.",
+  "exTH": "อากาศดี เลยจะตากผ้า",
+  "sub": "home.routine"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "拭く",
+  "kana": "ふく",
+  "pos": "verb",
+  "th": "เช็ด",
+  "en": "to wipe",
+  "thAlt": [],
+  "exJA": "タオルでテーブルを拭いてください。",
+  "exKana": "タオルでテーブルをふいてください。",
+  "exEN": "Please wipe the table with a towel.",
+  "exTH": "ช่วยเอาผ้าเช็ดโต๊ะหน่อย",
+  "sub": "home.routine"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "袋",
+  "kana": "ふくろ",
+  "pos": "noun",
+  "th": "ถุง",
+  "en": "bag; plastic bag; sack",
+  "thAlt": [
+   "ถุงพลาสติก"
+  ],
+  "exJA": "袋はいりますか。",
+  "exKana": "ふくろはいりますか。",
+  "exEN": "Do you need a bag?",
+  "exTH": "รับถุงไหมครับ",
+  "sub": "home.belonging"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "似合う",
+  "kana": "にあう",
+  "pos": "verb",
+  "th": "เหมาะ / เข้ากัน (กับคน)",
+  "en": "to suit; to look good on",
+  "thAlt": [
+   "เข้ากัน",
+   "ดูดี"
+  ],
+  "exJA": "その帽子、よく似合いますね。",
+  "exKana": "そのぼうし、よくにあいますね。",
+  "exEN": "That hat really suits you.",
+  "exTH": "หมวกใบนั้นเข้ากับคุณมากเลย",
+  "sub": "clothes.verb"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "着替える",
+  "kana": "きがえる",
+  "pos": "verb",
+  "th": "เปลี่ยนเสื้อผ้า",
+  "en": "to change clothes",
+  "thAlt": [],
+  "exJA": "家に帰って、すぐ着替えました。",
+  "exKana": "いえにかえって、すぐきがえました。",
+  "exEN": "I got home and changed clothes right away.",
+  "exTH": "กลับบ้านแล้วเปลี่ยนเสื้อผ้าทันที",
+  "sub": "clothes.verb"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "試着",
+  "kana": "しちゃく",
+  "pos": "noun",
+  "th": "การลองสวม (เสื้อผ้า)",
+  "en": "trying on (clothes)",
+  "thAlt": [
+   "ลองใส่"
+  ],
+  "exJA": "これ、試着してもいいですか。",
+  "exKana": "これ、しちゃくしてもいいですか。",
+  "exEN": "May I try this on?",
+  "exTH": "ขอลองชุดนี้ได้ไหมครับ",
+  "sub": "clothes.verb"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "外す",
+  "kana": "はずす",
+  "pos": "verb",
+  "th": "ถอด (แว่น นาฬิกา ฯลฯ)",
+  "en": "to take off (glasses, watch); to remove",
+  "thAlt": [
+   "ถอด"
+  ],
+  "exJA": "寝る前に眼鏡を外します。",
+  "exKana": "ねるまえにめがねをはずします。",
+  "exEN": "I take off my glasses before going to bed.",
+  "exTH": "ถอดแว่นก่อนนอน",
+  "sub": "clothes.verb"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "半袖",
+  "kana": "はんそで",
+  "pos": "noun",
+  "th": "แขนสั้น",
+  "en": "short sleeves",
+  "thAlt": [
+   "เสื้อแขนสั้น"
+  ],
+  "exJA": "夏は半袖のシャツを着ます。",
+  "exKana": "なつははんそでのシャツをきます。",
+  "exEN": "In summer I wear short-sleeved shirts.",
+  "exTH": "หน้าร้อนใส่เสื้อแขนสั้น",
+  "sub": "clothes.wear"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "長袖",
+  "kana": "ながそで",
+  "pos": "noun",
+  "th": "แขนยาว",
+  "en": "long sleeves",
+  "thAlt": [
+   "เสื้อแขนยาว"
+  ],
+  "exJA": "朝は寒いから、長袖を着ました。",
+  "exKana": "あさはさむいから、ながそでをきました。",
+  "exEN": "It was cold in the morning, so I wore long sleeves.",
+  "exTH": "ตอนเช้าหนาว เลยใส่เสื้อแขนยาว",
+  "sub": "clothes.wear"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "紫",
+  "kana": "むらさき",
+  "pos": "noun",
+  "th": "สีม่วง",
+  "en": "purple",
+  "thAlt": [
+   "ม่วง"
+  ],
+  "exJA": "紫のセーターを買いました。",
+  "exKana": "むらさきのセーターをかいました。",
+  "exEN": "I bought a purple sweater.",
+  "exTH": "ซื้อเสื้อสเวตเตอร์สีม่วงมา",
+  "sub": "clothes.color"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "ピンク",
+  "kana": "ピンク",
+  "pos": "noun",
+  "th": "สีชมพู",
+  "en": "pink",
+  "thAlt": [
+   "ชมพู"
+  ],
+  "exJA": "妹はピンクが大好きです。",
+  "exKana": "いもうとはピンクがだいすきです。",
+  "exEN": "My little sister loves pink.",
+  "exTH": "น้องสาวชอบสีชมพูมาก",
+  "sub": "clothes.color"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "コンビニ",
+  "kana": "コンビニ",
+  "pos": "noun",
+  "th": "ร้านสะดวกซื้อ",
+  "en": "convenience store",
+  "thAlt": [
+   "เซเว่น"
+  ],
+  "exJA": "駅の前にコンビニがあります。",
+  "exKana": "えきのまえにコンビニがあります。",
+  "exEN": "There is a convenience store in front of the station.",
+  "exTH": "มีร้านสะดวกซื้ออยู่หน้าสถานี",
+  "sub": "town.shop"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "薬局",
+  "kana": "やっきょく",
+  "pos": "noun",
+  "th": "ร้านขายยา",
+  "en": "pharmacy; drugstore",
+  "thAlt": [
+   "ร้านยา"
+  ],
+  "exJA": "薬局で風邪の薬を買いました。",
+  "exKana": "やっきょくでかぜのくすりをかいました。",
+  "exEN": "I bought cold medicine at the pharmacy.",
+  "exTH": "ซื้อยาแก้หวัดที่ร้านขายยา",
+  "sub": "town.shop"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "本屋",
+  "kana": "ほんや",
+  "pos": "noun",
+  "th": "ร้านหนังสือ",
+  "en": "bookshop",
+  "thAlt": [
+   "ร้านหนังสือ"
+  ],
+  "exJA": "本屋で日本語の辞書を探しました。",
+  "exKana": "ほんやでにほんごのじしょをさがしました。",
+  "exEN": "I looked for a Japanese dictionary at the bookshop.",
+  "exTH": "หาพจนานุกรมภาษาญี่ปุ่นที่ร้านหนังสือ",
+  "sub": "town.shop"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "市役所",
+  "kana": "しやくしょ",
+  "pos": "noun",
+  "th": "ศาลาว่าการเมือง / สำนักงานเขต",
+  "en": "city hall; municipal office",
+  "thAlt": [
+   "ที่ว่าการเมือง"
+  ],
+  "exJA": "引っ越したら、市役所に行かなければなりません。",
+  "exKana": "ひっこしたら、しやくしょにいかなければなりません。",
+  "exEN": "After moving, you have to go to city hall.",
+  "exTH": "ถ้าย้ายบ้านต้องไปที่ว่าการเมือง",
+  "sub": "town.building"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "信号",
+  "kana": "しんごう",
+  "pos": "noun",
+  "th": "ไฟจราจร / สัญญาณไฟ",
+  "en": "traffic light; signal",
+  "thAlt": [
+   "ไฟแดง",
+   "สัญญาณไฟ"
+  ],
+  "exJA": "次の信号を右に曲がってください。",
+  "exKana": "つぎのしんごうをみぎにまがってください。",
+  "exEN": "Please turn right at the next traffic light.",
+  "exTH": "เลี้ยวขวาที่ไฟแดงถัดไปนะ",
+  "sub": "town.street"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "突き当たり",
+  "kana": "つきあたり",
+  "pos": "noun",
+  "th": "สุดทาง",
+  "en": "end of a road or hallway",
+  "thAlt": [
+   "สุดทาง"
+  ],
+  "exJA": "トイレは廊下の突き当たりです。",
+  "exKana": "トイレはろうかのつきあたりです。",
+  "exEN": "The toilet is at the end of the hallway.",
+  "exTH": "ห้องน้ำอยู่สุดทางเดิน",
+  "sub": "town.street"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "向かい",
+  "kana": "むかい",
+  "pos": "noun",
+  "th": "ฝั่งตรงข้าม",
+  "en": "opposite; across from",
+  "thAlt": [
+   "ตรงข้าม"
+  ],
+  "exJA": "銀行は郵便局の向かいにあります。",
+  "exKana": "ぎんこうはゆうびんきょくのむかいにあります。",
+  "exEN": "The bank is across from the post office.",
+  "exTH": "ธนาคารอยู่ตรงข้ามไปรษณีย์",
+  "sub": "town.position"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "迷う",
+  "kana": "まよう",
+  "pos": "verb",
+  "th": "หลง (ทาง) / ลังเล",
+  "en": "to get lost; to be unsure",
+  "thAlt": [
+   "หลงทาง",
+   "ลังเล"
+  ],
+  "exJA": "道に迷ってしまいました。",
+  "exKana": "みちにまよってしまいました。",
+  "exEN": "I got lost.",
+  "exTH": "ฉันหลงทางแล้ว",
+  "sub": "town.street"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "自動販売機",
+  "kana": "じどうはんばいき",
+  "pos": "noun",
+  "th": "ตู้ขายของอัตโนมัติ / ตู้กดน้ำ",
+  "en": "vending machine",
+  "thAlt": [
+   "ตู้กดน้ำ"
+  ],
+  "exJA": "自動販売機でお茶を買いました。",
+  "exKana": "じどうはんばいきでおちゃをかいました。",
+  "exEN": "I bought tea from a vending machine.",
+  "exTH": "ซื้อชาจากตู้กดน้ำ",
+  "sub": "town.street"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "改札",
+  "kana": "かいさつ",
+  "pos": "noun",
+  "th": "ประตูตรวจตั๋ว",
+  "en": "ticket gate",
+  "thAlt": [
+   "ที่ตรวจตั๋ว"
+  ],
+  "exJA": "改札の前で待っています。",
+  "exKana": "かいさつのまえでまっています。",
+  "exEN": "I'll be waiting in front of the ticket gate.",
+  "exTH": "รออยู่หน้าประตูตรวจตั๋วนะ",
+  "sub": "transport.travel"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "終電",
+  "kana": "しゅうでん",
+  "pos": "noun",
+  "th": "รถไฟเที่ยวสุดท้าย",
+  "en": "last train",
+  "thAlt": [],
+  "exJA": "急がないと、終電に間に合いません。",
+  "exKana": "いそがないと、しゅうでんにまにあいません。",
+  "exEN": "If we don't hurry, we'll miss the last train.",
+  "exTH": "ถ้าไม่รีบจะไม่ทันรถไฟเที่ยวสุดท้าย",
+  "sub": "transport.vehicle"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "快速",
+  "kana": "かいそく",
+  "pos": "noun",
+  "th": "รถไฟด่วน (จอดบางสถานี)",
+  "en": "rapid train",
+  "thAlt": [
+   "รถด่วน"
+  ],
+  "exJA": "この快速は新宿に止まりますか。",
+  "exKana": "このかいそくはしんじゅくにとまりますか。",
+  "exEN": "Does this rapid train stop at Shinjuku?",
+  "exTH": "รถไฟด่วนขบวนนี้จอดที่ชินจูกุไหม",
+  "sub": "transport.vehicle"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "各駅停車",
+  "kana": "かくえきていしゃ",
+  "pos": "noun",
+  "th": "รถไฟธรรมดา (จอดทุกสถานี)",
+  "en": "local train (stops at every station)",
+  "thAlt": [
+   "รถไฟจอดทุกสถานี"
+  ],
+  "exJA": "小さい駅には各駅停車しか止まりません。",
+  "exKana": "ちいさいえきにはかくえきていしゃしかとまりません。",
+  "exEN": "Only local trains stop at small stations.",
+  "exTH": "สถานีเล็ก ๆ มีแต่รถไฟธรรมดาที่จอด",
+  "sub": "transport.vehicle"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "乗り場",
+  "kana": "のりば",
+  "pos": "noun",
+  "th": "ที่ขึ้นรถ / ป้ายรถ",
+  "en": "boarding place; (bus/taxi) stop",
+  "thAlt": [
+   "ป้ายรถ",
+   "ท่ารถ"
+  ],
+  "exJA": "タクシー乗り場はどこですか。",
+  "exKana": "タクシーのりばはどこですか。",
+  "exEN": "Where is the taxi stand?",
+  "exTH": "ที่ขึ้นแท็กซี่อยู่ตรงไหน",
+  "sub": "transport.travel"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "ホーム",
+  "kana": "ホーム",
+  "pos": "noun",
+  "th": "ชานชาลา",
+  "en": "platform (station)",
+  "thAlt": [
+   "ชานชาลา"
+  ],
+  "exJA": "三番ホームから電車が出ます。",
+  "exKana": "さんばんホームからでんしゃがでます。",
+  "exEN": "The train leaves from platform 3.",
+  "exTH": "รถไฟออกจากชานชาลาที่สาม",
+  "sub": "transport.travel"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "片道",
+  "kana": "かたみち",
+  "pos": "noun",
+  "th": "เที่ยวเดียว",
+  "en": "one way",
+  "thAlt": [],
+  "exJA": "大阪まで片道いくらですか。",
+  "exKana": "おおさかまでかたみちいくらですか。",
+  "exEN": "How much is a one-way ticket to Osaka?",
+  "exTH": "ไปโอซาก้าเที่ยวเดียวเท่าไร",
+  "sub": "transport.travel"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "往復",
+  "kana": "おうふく",
+  "pos": "noun",
+  "th": "ไปกลับ",
+  "en": "round trip; return",
+  "thAlt": [
+   "ไป-กลับ"
+  ],
+  "exJA": "往復の切符を買いました。",
+  "exKana": "おうふくのきっぷをかいました。",
+  "exEN": "I bought a round-trip ticket.",
+  "exTH": "ซื้อตั๋วไปกลับ",
+  "sub": "transport.travel"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "乗り遅れる",
+  "kana": "のりおくれる",
+  "pos": "verb",
+  "th": "ตก (รถ) / ขึ้นรถไม่ทัน",
+  "en": "to miss (a train, bus)",
+  "thAlt": [
+   "ตกรถ"
+  ],
+  "exJA": "寝坊して、バスに乗り遅れました。",
+  "exKana": "ねぼうして、バスにのりおくれました。",
+  "exEN": "I overslept and missed the bus.",
+  "exTH": "ตื่นสายเลยตกรถเมล์",
+  "sub": "transport.verb"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "合格",
+  "kana": "ごうかく",
+  "pos": "noun",
+  "th": "สอบผ่าน / สอบได้",
+  "en": "passing (an exam)",
+  "thAlt": [
+   "สอบผ่าน"
+  ],
+  "exJA": "試験に合格しました。",
+  "exKana": "しけんにごうかくしました。",
+  "exEN": "I passed the exam.",
+  "exTH": "สอบผ่านแล้ว",
+  "sub": "school.study"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "成績",
+  "kana": "せいせき",
+  "pos": "noun",
+  "th": "ผลการเรียน / คะแนน",
+  "en": "grades; results",
+  "thAlt": [
+   "เกรด",
+   "คะแนน"
+  ],
+  "exJA": "今年は成績が上がりました。",
+  "exKana": "ことしはせいせきがあがりました。",
+  "exEN": "My grades went up this year.",
+  "exTH": "ปีนี้เกรดดีขึ้น",
+  "sub": "school.study"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "部活",
+  "kana": "ぶかつ",
+  "pos": "noun",
+  "th": "ชมรม (ในโรงเรียน)",
+  "en": "school club activities",
+  "thAlt": [
+   "ชมรม"
+  ],
+  "exJA": "高校のとき、部活でサッカーをしていました。",
+  "exKana": "こうこうのとき、ぶかつでサッカーをしていました。",
+  "exEN": "In high school I played soccer in a club.",
+  "exTH": "ตอนมัธยมปลายเล่นฟุตบอลในชมรม",
+  "sub": "school.school"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "休み時間",
+  "kana": "やすみじかん",
+  "pos": "noun",
+  "th": "เวลาพัก",
+  "en": "break; recess",
+  "thAlt": [
+   "ช่วงพัก"
+  ],
+  "exJA": "休み時間に友達と話しました。",
+  "exKana": "やすみじかんにともだちとはなしました。",
+  "exEN": "I talked with friends during the break.",
+  "exTH": "คุยกับเพื่อนตอนพัก",
+  "sub": "school.school"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "提出",
+  "kana": "ていしゅつ",
+  "pos": "noun",
+  "th": "การส่ง (งาน/เอกสาร)",
+  "en": "handing in; submission",
+  "thAlt": [
+   "ส่งงาน"
+  ],
+  "exJA": "レポートは金曜日までに提出してください。",
+  "exKana": "レポートはきんようびまでにていしゅつしてください。",
+  "exEN": "Please hand in the report by Friday.",
+  "exTH": "กรุณาส่งรายงานภายในวันศุกร์",
+  "sub": "school.study"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "発表",
+  "kana": "はっぴょう",
+  "pos": "noun",
+  "th": "การนำเสนอ / การประกาศ",
+  "en": "presentation; announcement",
+  "thAlt": [
+   "นำเสนอ",
+   "ประกาศ"
+  ],
+  "exJA": "明日、クラスで発表があります。",
+  "exKana": "あした、クラスではっぴょうがあります。",
+  "exEN": "I have a presentation in class tomorrow.",
+  "exTH": "พรุ่งนี้มีนำเสนอในห้อง",
+  "sub": "school.study"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "通訳",
+  "kana": "つうやく",
+  "pos": "noun",
+  "th": "ล่าม / การแปล (พูด)",
+  "en": "interpreting; interpreter",
+  "thAlt": [
+   "ล่าม"
+  ],
+  "exJA": "病院で通訳をお願いしました。",
+  "exKana": "びょういんでつうやくをおねがいしました。",
+  "exEN": "I asked for an interpreter at the hospital.",
+  "exTH": "ขอล่ามที่โรงพยาบาล",
+  "sub": "school.language"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "上司",
+  "kana": "じょうし",
+  "pos": "noun",
+  "th": "หัวหน้า / เจ้านาย",
+  "en": "boss; superior",
+  "thAlt": [
+   "หัวหน้า",
+   "เจ้านาย"
+  ],
+  "exJA": "上司に相談しました。",
+  "exKana": "じょうしにそうだんしました。",
+  "exEN": "I talked it over with my boss.",
+  "exTH": "ปรึกษาหัวหน้าแล้ว",
+  "sub": "work.company"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "同僚",
+  "kana": "どうりょう",
+  "pos": "noun",
+  "th": "เพื่อนร่วมงาน",
+  "en": "colleague; co-worker",
+  "thAlt": [],
+  "exJA": "同僚と飲みに行きました。",
+  "exKana": "どうりょうとのみにいきました。",
+  "exEN": "I went drinking with my co-workers.",
+  "exTH": "ไปดื่มกับเพื่อนร่วมงาน",
+  "sub": "work.company"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "店長",
+  "kana": "てんちょう",
+  "pos": "noun",
+  "th": "ผู้จัดการร้าน",
+  "en": "store manager",
+  "thAlt": [],
+  "exJA": "アルバイトを休みたいので、店長に電話しました。",
+  "exKana": "アルバイトをやすみたいので、てんちょうにでんわしました。",
+  "exEN": "I wanted a day off from my part-time job, so I called the manager.",
+  "exTH": "อยากหยุดงานพาร์ตไทม์ เลยโทรหาผู้จัดการร้าน",
+  "sub": "work.company"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "残業",
+  "kana": "ざんぎょう",
+  "pos": "noun",
+  "th": "การทำงานล่วงเวลา / โอที",
+  "en": "overtime work",
+  "thAlt": [
+   "โอที",
+   "ทำโอที"
+  ],
+  "exJA": "今日は残業で帰りが遅くなります。",
+  "exKana": "きょうはざんぎょうでかえりがおそくなります。",
+  "exEN": "I'll be home late today because of overtime.",
+  "exTH": "วันนี้ทำโอที จะกลับดึก",
+  "sub": "work.work"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "面接",
+  "kana": "めんせつ",
+  "pos": "noun",
+  "th": "การสัมภาษณ์",
+  "en": "interview",
+  "thAlt": [
+   "สัมภาษณ์งาน"
+  ],
+  "exJA": "明日、アルバイトの面接があります。",
+  "exKana": "あした、アルバイトのめんせつがあります。",
+  "exEN": "I have a part-time job interview tomorrow.",
+  "exTH": "พรุ่งนี้มีสัมภาษณ์งานพาร์ตไทม์",
+  "sub": "work.work"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "締め切り",
+  "kana": "しめきり",
+  "pos": "noun",
+  "th": "กำหนดส่ง / เดดไลน์",
+  "en": "deadline",
+  "thAlt": [
+   "เดดไลน์"
+  ],
+  "exJA": "締め切りは来週の月曜日です。",
+  "exKana": "しめきりはらいしゅうのげつようびです。",
+  "exEN": "The deadline is next Monday.",
+  "exTH": "กำหนดส่งคือวันจันทร์หน้า",
+  "sub": "work.work"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "遅刻",
+  "kana": "ちこく",
+  "pos": "noun",
+  "th": "การมาสาย",
+  "en": "being late",
+  "thAlt": [
+   "มาสาย",
+   "สาย"
+  ],
+  "exJA": "電車が遅れて、遅刻しました。",
+  "exKana": "でんしゃがおくれて、ちこくしました。",
+  "exEN": "The train was delayed, so I was late.",
+  "exTH": "รถไฟดีเลย์เลยมาสาย",
+  "sub": "work.work"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "休憩",
+  "kana": "きゅうけい",
+  "pos": "noun",
+  "th": "การพัก / เบรก",
+  "en": "break; rest",
+  "thAlt": [
+   "พัก",
+   "เบรก"
+  ],
+  "exJA": "ちょっと休憩しましょう。",
+  "exKana": "ちょっときゅうけいしましょう。",
+  "exEN": "Let's take a short break.",
+  "exTH": "พักกันสักหน่อยเถอะ",
+  "sub": "work.work"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "シフト",
+  "kana": "シフト",
+  "pos": "noun",
+  "th": "กะทำงาน",
+  "en": "work shift",
+  "thAlt": [
+   "กะ"
+  ],
+  "exJA": "来週のシフトはもう決まりましたか。",
+  "exKana": "らいしゅうのシフトはもうきまりましたか。",
+  "exEN": "Has next week's shift been decided yet?",
+  "exTH": "กะของสัปดาห์หน้าออกแล้วหรือยัง",
+  "sub": "work.work"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "週末",
+  "kana": "しゅうまつ",
+  "pos": "noun",
+  "th": "สุดสัปดาห์",
+  "en": "weekend",
+  "thAlt": [
+   "เสาร์อาทิตย์"
+  ],
+  "exJA": "週末は何をしますか。",
+  "exKana": "しゅうまつはなにをしますか。",
+  "exEN": "What are you doing this weekend?",
+  "exTH": "สุดสัปดาห์นี้จะทำอะไร",
+  "sub": "time.day"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "平日",
+  "kana": "へいじつ",
+  "pos": "noun",
+  "th": "วันธรรมดา",
+  "en": "weekday",
+  "thAlt": [],
+  "exJA": "平日は朝七時に起きます。",
+  "exKana": "へいじつはあさしちじにおきます。",
+  "exEN": "On weekdays I get up at seven.",
+  "exTH": "วันธรรมดาตื่นเจ็ดโมงเช้า",
+  "sub": "time.day"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "祝日",
+  "kana": "しゅくじつ",
+  "pos": "noun",
+  "th": "วันหยุดนักขัตฤกษ์",
+  "en": "public holiday",
+  "thAlt": [
+   "วันหยุดราชการ"
+  ],
+  "exJA": "月曜日は祝日なので、銀行は休みです。",
+  "exKana": "げつようびはしゅくじつなので、ぎんこうはやすみです。",
+  "exEN": "Monday is a public holiday, so the bank is closed.",
+  "exTH": "วันจันทร์เป็นวันหยุดนักขัตฤกษ์ ธนาคารเลยปิด",
+  "sub": "time.day"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "連休",
+  "kana": "れんきゅう",
+  "pos": "noun",
+  "th": "วันหยุดยาว",
+  "en": "consecutive holidays; long weekend",
+  "thAlt": [
+   "หยุดยาว"
+  ],
+  "exJA": "連休に京都へ旅行します。",
+  "exKana": "れんきゅうにきょうとへりょこうします。",
+  "exEN": "I'm going on a trip to Kyoto over the long weekend.",
+  "exTH": "วันหยุดยาวจะไปเที่ยวเกียวโต",
+  "sub": "time.day"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "夜中",
+  "kana": "よなか",
+  "pos": "noun",
+  "th": "กลางดึก",
+  "en": "middle of the night",
+  "thAlt": [
+   "ดึก ๆ"
+  ],
+  "exJA": "夜中に地震で目が覚めました。",
+  "exKana": "よなかにじしんでめがさめました。",
+  "exEN": "An earthquake woke me up in the middle of the night.",
+  "exTH": "กลางดึกตื่นเพราะแผ่นดินไหว",
+  "sub": "time.clock"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "午前中",
+  "kana": "ごぜんちゅう",
+  "pos": "noun",
+  "th": "ช่วงเช้า (ก่อนเที่ยง)",
+  "en": "during the morning; before noon",
+  "thAlt": [
+   "ตอนเช้า"
+  ],
+  "exJA": "荷物は午前中に届きます。",
+  "exKana": "にもつはごぜんちゅうにとどきます。",
+  "exEN": "The package will arrive in the morning.",
+  "exTH": "พัสดุจะมาถึงช่วงเช้า",
+  "sub": "time.clock"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "昼過ぎ",
+  "kana": "ひるすぎ",
+  "pos": "noun",
+  "th": "ตอนบ่าย (หลังเที่ยง)",
+  "en": "early afternoon; just after noon",
+  "thAlt": [
+   "บ่าย ๆ"
+  ],
+  "exJA": "昼過ぎに駅で会いましょう。",
+  "exKana": "ひるすぎにえきであいましょう。",
+  "exEN": "Let's meet at the station in the early afternoon.",
+  "exTH": "เจอกันที่สถานีตอนบ่าย ๆ นะ",
+  "sub": "time.clock"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "年末",
+  "kana": "ねんまつ",
+  "pos": "noun",
+  "th": "ปลายปี / สิ้นปี",
+  "en": "end of the year",
+  "thAlt": [
+   "สิ้นปี"
+  ],
+  "exJA": "年末は国に帰ります。",
+  "exKana": "ねんまつはくににかえります。",
+  "exEN": "I'm going back to my country at the end of the year.",
+  "exTH": "ช่วงสิ้นปีจะกลับประเทศ",
+  "sub": "time.season"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "数える",
+  "kana": "かぞえる",
+  "pos": "verb",
+  "th": "นับ",
+  "en": "to count",
+  "thAlt": [
+   "นับจำนวน"
+  ],
+  "exJA": "お釣りを数えてください。",
+  "exKana": "おつりをかぞえてください。",
+  "exEN": "Please count your change.",
+  "exTH": "กรุณานับเงินทอนด้วยนะ",
+  "sub": "number.number"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "減る",
+  "kana": "へる",
+  "pos": "verb",
+  "th": "ลดลง / น้อยลง",
+  "en": "to decrease; to go down; (お腹が減る) to get hungry",
+  "thAlt": [
+   "น้อยลง",
+   "หิว (お腹が減る)"
+  ],
+  "exJA": "お腹が減りました。",
+  "exKana": "おなかがへりました。",
+  "exEN": "I'm hungry.",
+  "exTH": "หิวแล้ว",
+  "sub": "number.amount"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "余る",
+  "kana": "あまる",
+  "pos": "verb",
+  "th": "เหลือ (เกิน)",
+  "en": "to be left over; to be in excess",
+  "thAlt": [
+   "เหลือ"
+  ],
+  "exJA": "料理がたくさん余りました。",
+  "exKana": "りょうりがたくさんあまりました。",
+  "exEN": "A lot of food was left over.",
+  "exTH": "อาหารเหลือเยอะเลย",
+  "sub": "number.amount"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "全員",
+  "kana": "ぜんいん",
+  "pos": "noun",
+  "th": "ทุกคน",
+  "en": "everyone; all members",
+  "thAlt": [
+   "ครบทุกคน"
+  ],
+  "exJA": "全員来ましたか。",
+  "exKana": "ぜんいんきましたか。",
+  "exEN": "Is everyone here?",
+  "exTH": "มากันครบทุกคนหรือยัง",
+  "sub": "number.amount"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "〜泊",
+  "kana": "〜はく",
+  "pos": "counter",
+  "th": "คืน (ลักษณนามนับคืนที่พัก)",
+  "en": "nights' stay (counter)",
+  "thAlt": [
+   "คืน"
+  ],
+  "exJA": "このホテルに二泊します。",
+  "exKana": "このホテルににはくします。",
+  "exEN": "I'll stay two nights at this hotel.",
+  "exTH": "จะพักที่โรงแรมนี้สองคืน",
+  "sub": "number.counter"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "〜名",
+  "kana": "〜めい",
+  "pos": "counter",
+  "th": "ท่าน / คน (ลักษณนามนับคนแบบสุภาพ)",
+  "en": "people (polite counter)",
+  "thAlt": [
+   "ท่าน"
+  ],
+  "exJA": "何名様ですか。",
+  "exKana": "なんめいさまですか。",
+  "exEN": "How many in your party?",
+  "exTH": "กี่ท่านคะ",
+  "sub": "number.counter"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "現金",
+  "kana": "げんきん",
+  "pos": "noun",
+  "th": "เงินสด",
+  "en": "cash",
+  "thAlt": [
+   "เงินสด"
+  ],
+  "exJA": "現金で払ってもいいですか。",
+  "exKana": "げんきんではらってもいいですか。",
+  "exEN": "Can I pay in cash?",
+  "exTH": "จ่ายเงินสดได้ไหม",
+  "sub": "money.money"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "無料",
+  "kana": "むりょう",
+  "pos": "noun",
+  "th": "ฟรี / ไม่เสียเงิน",
+  "en": "free (of charge)",
+  "thAlt": [
+   "ฟรี",
+   "ไม่คิดเงิน"
+  ],
+  "exJA": "水は無料です。",
+  "exKana": "みずはむりょうです。",
+  "exEN": "Water is free.",
+  "exTH": "น้ำเปล่าฟรีนะ",
+  "sub": "money.money"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "両替",
+  "kana": "りょうがえ",
+  "pos": "noun",
+  "th": "การแลกเงิน",
+  "en": "money exchange; changing money",
+  "thAlt": [
+   "แลกเงิน"
+  ],
+  "exJA": "空港で両替しました。",
+  "exKana": "くうこうでりょうがえしました。",
+  "exEN": "I changed money at the airport.",
+  "exTH": "แลกเงินที่สนามบินแล้ว",
+  "sub": "money.money"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "割引",
+  "kana": "わりびき",
+  "pos": "noun",
+  "th": "ส่วนลด",
+  "en": "discount",
+  "thAlt": [
+   "ลดราคา"
+  ],
+  "exJA": "学生割引はありますか。",
+  "exKana": "がくせいわりびきはありますか。",
+  "exEN": "Is there a student discount?",
+  "exTH": "มีส่วนลดนักศึกษาไหม",
+  "sub": "money.shopping"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "半額",
+  "kana": "はんがく",
+  "pos": "noun",
+  "th": "ลดครึ่งราคา",
+  "en": "half price",
+  "thAlt": [
+   "ครึ่งราคา"
+  ],
+  "exJA": "夜になると、お弁当が半額になります。",
+  "exKana": "よるになると、おべんとうがはんがくになります。",
+  "exEN": "At night, the bento boxes go half price.",
+  "exTH": "พอตกกลางคืน ข้าวกล่องจะลดครึ่งราคา",
+  "sub": "money.shopping"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "税込み",
+  "kana": "ぜいこみ",
+  "pos": "noun",
+  "th": "รวมภาษีแล้ว",
+  "en": "tax included",
+  "thAlt": [
+   "รวมภาษี"
+  ],
+  "exJA": "この値段は税込みですか。",
+  "exKana": "このねだんはぜいこみですか。",
+  "exEN": "Does this price include tax?",
+  "exTH": "ราคานี้รวมภาษีแล้วหรือยัง",
+  "sub": "money.shopping"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "売り切れ",
+  "kana": "うりきれ",
+  "pos": "noun",
+  "th": "ขายหมด",
+  "en": "sold out",
+  "thAlt": [
+   "ของหมด"
+  ],
+  "exJA": "すみません、今日はもう売り切れです。",
+  "exKana": "すみません、きょうはもううりきれです。",
+  "exEN": "Sorry, it's already sold out today.",
+  "exTH": "ขอโทษนะคะ วันนี้ขายหมดแล้ว",
+  "sub": "money.shopping"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "レシート",
+  "kana": "レシート",
+  "pos": "noun",
+  "th": "ใบเสร็จ",
+  "en": "receipt",
+  "thAlt": [
+   "สลิป"
+  ],
+  "exJA": "レシートはいりますか。",
+  "exKana": "レシートはいりますか。",
+  "exEN": "Do you need the receipt?",
+  "exTH": "รับใบเสร็จไหมคะ",
+  "sub": "money.shopping"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "蒸し暑い",
+  "kana": "むしあつい",
+  "pos": "adj",
+  "th": "ร้อนอบอ้าว",
+  "en": "hot and humid; muggy",
+  "thAlt": [
+   "ร้อนชื้น"
+  ],
+  "exJA": "日本の夏は蒸し暑いです。",
+  "exKana": "にほんのなつはむしあついです。",
+  "exEN": "Summer in Japan is hot and humid.",
+  "exTH": "หน้าร้อนที่ญี่ปุ่นร้อนอบอ้าว",
+  "sub": "nature.weather"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "梅雨",
+  "kana": "つゆ",
+  "pos": "noun",
+  "th": "ฤดูฝน (ญี่ปุ่น ช่วง มิ.ย.–ก.ค.)",
+  "en": "rainy season (June–July)",
+  "thAlt": [
+   "หน้าฝน"
+  ],
+  "exJA": "梅雨は毎日雨が降ります。",
+  "exKana": "つゆはまいにちあめがふります。",
+  "exEN": "In the rainy season it rains every day.",
+  "exTH": "ช่วงหน้าฝนฝนตกทุกวัน",
+  "sub": "nature.weather"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "雷",
+  "kana": "かみなり",
+  "pos": "noun",
+  "th": "ฟ้าร้อง / ฟ้าผ่า",
+  "en": "thunder; lightning",
+  "thAlt": [
+   "ฟ้าร้อง",
+   "ฟ้าผ่า"
+  ],
+  "exJA": "昨日の夜、雷がすごかったです。",
+  "exKana": "きのうのよる、かみなりがすごかったです。",
+  "exEN": "The thunder last night was terrible.",
+  "exTH": "เมื่อคืนฟ้าร้องแรงมาก",
+  "sub": "nature.weather"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "気温",
+  "kana": "きおん",
+  "pos": "noun",
+  "th": "อุณหภูมิ (อากาศ)",
+  "en": "air temperature",
+  "thAlt": [
+   "อุณหภูมิ"
+  ],
+  "exJA": "今日の気温は三十五度です。",
+  "exKana": "きょうのきおんはさんじゅうごどです。",
+  "exEN": "Today's temperature is 35 degrees.",
+  "exTH": "วันนี้อุณหภูมิ 35 องศา",
+  "sub": "nature.weather"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "桜",
+  "kana": "さくら",
+  "pos": "noun",
+  "th": "ซากุระ / ดอกซากุระ",
+  "en": "cherry blossom; cherry tree",
+  "thAlt": [
+   "ดอกซากุระ"
+  ],
+  "exJA": "桜がきれいに咲いています。",
+  "exKana": "さくらがきれいにさいています。",
+  "exEN": "The cherry blossoms are beautifully in bloom.",
+  "exTH": "ซากุระบานสวยเลย",
+  "sub": "nature.animal"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "紅葉",
+  "kana": "こうよう",
+  "pos": "noun",
+  "th": "ใบไม้เปลี่ยนสี",
+  "en": "autumn leaves; leaves turning red",
+  "thAlt": [
+   "ใบไม้แดง",
+   "โมมิจิ"
+  ],
+  "exJA": "秋は紅葉を見に行きたいです。",
+  "exKana": "あきはこうようをみにいきたいです。",
+  "exEN": "In autumn I want to go see the autumn leaves.",
+  "exTH": "หน้าใบไม้ร่วงอยากไปดูใบไม้เปลี่ยนสี",
+  "sub": "nature.animal"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "ゲーム",
+  "kana": "ゲーム",
+  "pos": "noun",
+  "th": "เกม",
+  "en": "game; video game",
+  "thAlt": [
+   "วิดีโอเกม"
+  ],
+  "exJA": "週末はうちでゲームをします。",
+  "exKana": "しゅうまつはうちでゲームをします。",
+  "exEN": "On weekends I play games at home.",
+  "exTH": "วันเสาร์อาทิตย์เล่นเกมอยู่บ้าน",
+  "sub": "hobby.leisure"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "カラオケ",
+  "kana": "カラオケ",
+  "pos": "noun",
+  "th": "คาราโอเกะ",
+  "en": "karaoke",
+  "thAlt": [
+   "ร้องคาราโอเกะ"
+  ],
+  "exJA": "今晩、カラオケに行きませんか。",
+  "exKana": "こんばん、カラオケにいきませんか。",
+  "exEN": "Shall we go to karaoke tonight?",
+  "exTH": "คืนนี้ไปคาราโอเกะกันไหม",
+  "sub": "hobby.leisure"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "アニメ",
+  "kana": "アニメ",
+  "pos": "noun",
+  "th": "อนิเมะ / การ์ตูน",
+  "en": "anime; animation",
+  "thAlt": [
+   "การ์ตูน"
+  ],
+  "exJA": "日本のアニメが大好きです。",
+  "exKana": "にほんのアニメがだいすきです。",
+  "exEN": "I love Japanese anime.",
+  "exTH": "ชอบอนิเมะญี่ปุ่นมาก",
+  "sub": "hobby.art"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "応援",
+  "kana": "おうえん",
+  "pos": "noun",
+  "th": "เชียร์ / เป็นกำลังใจ",
+  "en": "cheering; support (〜する: to root for)",
+  "thAlt": [
+   "เชียร์",
+   "ให้กำลังใจ"
+  ],
+  "exJA": "試験、頑張ってね。応援しているよ。",
+  "exKana": "しけん、がんばってね。おうえんしているよ。",
+  "exEN": "Good luck on the exam. I'm rooting for you.",
+  "exTH": "สอบสู้ๆ นะ เป็นกำลังใจให้",
+  "sub": "hobby.sport"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "スマホ",
+  "kana": "スマホ",
+  "pos": "noun",
+  "th": "สมาร์ตโฟน / มือถือ",
+  "en": "smartphone",
+  "thAlt": [
+   "มือถือ"
+  ],
+  "exJA": "スマホを家に忘れました。",
+  "exKana": "スマホをいえにわすれました。",
+  "exEN": "I left my phone at home.",
+  "exTH": "ลืมมือถือไว้ที่บ้าน",
+  "sub": "hobby.media"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "アプリ",
+  "kana": "アプリ",
+  "pos": "noun",
+  "th": "แอป",
+  "en": "app",
+  "thAlt": [
+   "แอปพลิเคชัน"
+  ],
+  "exJA": "このアプリは便利ですよ。",
+  "exKana": "このアプリはべんりですよ。",
+  "exEN": "This app is handy.",
+  "exTH": "แอปนี้สะดวกนะ",
+  "sub": "hobby.media"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "充電",
+  "kana": "じゅうでん",
+  "pos": "noun",
+  "th": "การชาร์จ (แบต)",
+  "en": "charging (a battery) (〜する: to charge)",
+  "thAlt": [
+   "ชาร์จแบต"
+  ],
+  "exJA": "ここで充電してもいいですか。",
+  "exKana": "ここでじゅうでんしてもいいですか。",
+  "exEN": "Can I charge my phone here?",
+  "exTH": "ขอชาร์จแบตตรงนี้ได้ไหม",
+  "sub": "hobby.media"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "動画",
+  "kana": "どうが",
+  "pos": "noun",
+  "th": "วิดีโอ / คลิป",
+  "en": "video; video clip",
+  "thAlt": [
+   "คลิป"
+  ],
+  "exJA": "寝る前に動画を見ます。",
+  "exKana": "ねるまえにどうがをみます。",
+  "exEN": "I watch videos before bed.",
+  "exTH": "ดูคลิปก่อนนอน",
+  "sub": "hobby.media"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "懐かしい",
+  "kana": "なつかしい",
+  "pos": "adj",
+  "th": "คิดถึง (เรื่องเก่าๆ)",
+  "en": "nostalgic; dear old",
+  "thAlt": [
+   "หวนนึกถึง"
+  ],
+  "exJA": "この歌は懐かしいですね。",
+  "exKana": "このうたはなつかしいですね。",
+  "exEN": "This song takes me back.",
+  "exTH": "เพลงนี้ทำให้คิดถึงวันเก่าๆ นะ",
+  "sub": "heart.emotion"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "悔しい",
+  "kana": "くやしい",
+  "pos": "adj",
+  "th": "เจ็บใจ / เสียดาย (ที่แพ้)",
+  "en": "frustrating; vexing (e.g. after losing)",
+  "thAlt": [
+   "แค้นใจ",
+   "เสียใจที่แพ้"
+  ],
+  "exJA": "試合に負けて、とても悔しいです。",
+  "exKana": "しあいにまけて、とてもくやしいです。",
+  "exEN": "I lost the match and I'm so frustrated.",
+  "exTH": "แพ้การแข่งขัน เจ็บใจมาก",
+  "sub": "heart.emotion"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "緊張",
+  "kana": "きんちょう",
+  "pos": "noun",
+  "th": "ตื่นเต้น / ประหม่า",
+  "en": "nervousness; tension (〜する: to be nervous)",
+  "thAlt": [
+   "ประหม่า",
+   "เกร็ง"
+  ],
+  "exJA": "面接の前は緊張します。",
+  "exKana": "めんせつのまえはきんちょうします。",
+  "exEN": "I get nervous before interviews.",
+  "exTH": "ก่อนสัมภาษณ์จะตื่นเต้น",
+  "sub": "heart.emotion"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "ほっとする",
+  "kana": "ほっとする",
+  "pos": "verb",
+  "th": "โล่งใจ",
+  "en": "to feel relieved",
+  "thAlt": [
+   "โล่งอก"
+  ],
+  "exJA": "試験が終わって、ほっとしました。",
+  "exKana": "しけんがおわって、ほっとしました。",
+  "exEN": "I was relieved the exam was over.",
+  "exTH": "สอบเสร็จแล้ว โล่งใจ",
+  "sub": "heart.emotion"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "感動",
+  "kana": "かんどう",
+  "pos": "noun",
+  "th": "ซาบซึ้ง / ประทับใจ",
+  "en": "being moved; deep impression (〜する: to be moved)",
+  "thAlt": [
+   "ซึ้ง",
+   "ประทับใจ"
+  ],
+  "exJA": "その映画にとても感動しました。",
+  "exKana": "そのえいがにとてもかんどうしました。",
+  "exEN": "That movie really moved me.",
+  "exTH": "ซึ้งกับหนังเรื่องนั้นมาก",
+  "sub": "heart.emotion"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "不安",
+  "kana": "ふあん",
+  "pos": "adj",
+  "th": "กังวล / ไม่สบายใจ",
+  "en": "anxious; uneasy; worry",
+  "thAlt": [
+   "กังวล"
+  ],
+  "exJA": "一人で日本に住むのは少し不安です。",
+  "exKana": "ひとりでにほんにすむのはすこしふあんです。",
+  "exEN": "I'm a little anxious about living in Japan alone.",
+  "exTH": "รู้สึกกังวลนิดหน่อยที่จะอยู่ญี่ปุ่นคนเดียว",
+  "sub": "heart.emotion"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "幸せ",
+  "kana": "しあわせ",
+  "pos": "adj",
+  "th": "มีความสุข",
+  "en": "happy; happiness",
+  "thAlt": [
+   "ความสุข"
+  ],
+  "exJA": "家族と一緒にいると幸せです。",
+  "exKana": "かぞくといっしょにいるとしあわせです。",
+  "exEN": "I'm happy when I'm with my family.",
+  "exTH": "เวลาอยู่กับครอบครัวมีความสุข",
+  "sub": "heart.emotion"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "落ち込む",
+  "kana": "おちこむ",
+  "pos": "verb",
+  "th": "หดหู่ / ท้อ / เซ็ง",
+  "en": "to feel down; to be depressed",
+  "thAlt": [
+   "ท้อ",
+   "เศร้า"
+  ],
+  "exJA": "失敗しても、落ち込まないでください。",
+  "exKana": "しっぱいしても、おちこまないでください。",
+  "exEN": "Even if you fail, don't feel down.",
+  "exTH": "ถึงจะพลาดก็อย่าท้อนะ",
+  "sub": "heart.emotion"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "我慢",
+  "kana": "がまん",
+  "pos": "noun",
+  "th": "ความอดทน / อดกลั้น",
+  "en": "patience; putting up with (〜する: to endure)",
+  "thAlt": [
+   "อดทน",
+   "ทน"
+  ],
+  "exJA": "もう我慢できません。",
+  "exKana": "もうがまんできません。",
+  "exEN": "I can't stand it any more.",
+  "exTH": "ทนไม่ไหวแล้ว",
+  "sub": "heart.emotion"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "気づく",
+  "kana": "きづく",
+  "pos": "verb",
+  "th": "สังเกตเห็น / รู้ตัว",
+  "en": "to notice; to realize",
+  "thAlt": [
+   "รู้ตัว"
+  ],
+  "exJA": "間違いに気づきました。",
+  "exKana": "まちがいにきづきました。",
+  "exEN": "I noticed the mistake.",
+  "exTH": "สังเกตเห็นที่ผิดแล้ว",
+  "sub": "heart.mind"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "諦める",
+  "kana": "あきらめる",
+  "pos": "verb",
+  "th": "ยอมแพ้ / ล้มเลิก",
+  "en": "to give up",
+  "thAlt": [
+   "ถอดใจ"
+  ],
+  "exJA": "最後まで諦めないでください。",
+  "exKana": "さいごまであきらめないでください。",
+  "exEN": "Don't give up until the end.",
+  "exTH": "อย่ายอมแพ้จนถึงที่สุดนะ",
+  "sub": "heart.mind"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "楽",
+  "kana": "らく",
+  "pos": "adj",
+  "th": "สบาย / ง่าย",
+  "en": "easy; comfortable; relaxed",
+  "thAlt": [
+   "สะดวกสบาย",
+   "ไม่ลำบาก"
+  ],
+  "exJA": "電車で行くほうが楽です。",
+  "exKana": "でんしゃでいくほうがらくです。",
+  "exEN": "Going by train is easier.",
+  "exTH": "ไปรถไฟสบายกว่า",
+  "sub": "describe.state"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "面倒くさい",
+  "kana": "めんどうくさい",
+  "pos": "adj",
+  "th": "น่ารำคาญ / ขี้เกียจทำ",
+  "en": "bothersome; what a pain (often said めんどくさい)",
+  "thAlt": [
+   "ยุ่งยาก",
+   "ขี้เกียจ"
+  ],
+  "exJA": "毎日料理するのは面倒くさいです。",
+  "exKana": "まいにちりょうりするのはめんどうくさいです。",
+  "exEN": "Cooking every day is a pain.",
+  "exTH": "ทำอาหารทุกวันมันขี้เกียจ",
+  "sub": "describe.state"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "迷惑",
+  "kana": "めいわく",
+  "pos": "noun",
+  "th": "ความเดือดร้อน / การรบกวน",
+  "en": "trouble; nuisance (迷惑をかける: to cause trouble)",
+  "thAlt": [
+   "รบกวน",
+   "เดือดร้อน"
+  ],
+  "exJA": "ご迷惑をおかけしました。",
+  "exKana": "ごめいわくをおかけしました。",
+  "exEN": "Sorry for the trouble I caused.",
+  "exTH": "ขอโทษที่ทำให้เดือดร้อน",
+  "sub": "describe.state"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "気持ちいい",
+  "kana": "きもちいい",
+  "pos": "adj",
+  "th": "รู้สึกดี / สบาย",
+  "en": "feels good; pleasant",
+  "thAlt": [
+   "สบายตัว"
+  ],
+  "exJA": "今日は風が気持ちいいですね。",
+  "exKana": "きょうはかぜがきもちいいですね。",
+  "exEN": "The breeze feels nice today.",
+  "exTH": "วันนี้ลมพัดสบายจัง",
+  "sub": "describe.state"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "もったいない",
+  "kana": "もったいない",
+  "pos": "adj",
+  "th": "เสียดาย (ของ)",
+  "en": "wasteful; what a waste",
+  "thAlt": [
+   "น่าเสียดาย"
+  ],
+  "exJA": "まだ食べられるのに、捨てるのはもったいないです。",
+  "exKana": "まだたべられるのに、すてるのはもったいないです。",
+  "exEN": "It's still edible — throwing it out is a waste.",
+  "exTH": "ยังกินได้อยู่ ทิ้งไปเสียดายนะ",
+  "sub": "describe.quality"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "最高",
+  "kana": "さいこう",
+  "pos": "adj",
+  "th": "สุดยอด / ดีที่สุด",
+  "en": "the best; awesome",
+  "thAlt": [
+   "เยี่ยม"
+  ],
+  "exJA": "この景色は最高ですね。",
+  "exKana": "このけしきはさいこうですね。",
+  "exEN": "This view is amazing.",
+  "exTH": "วิวนี้สุดยอดเลย",
+  "sub": "describe.quality"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "微妙",
+  "kana": "びみょう",
+  "pos": "adj",
+  "th": "ก็งั้นๆ / ไม่ค่อยแน่",
+  "en": "so-so; iffy; subtle",
+  "thAlt": [
+   "ไม่ค่อยดี",
+   "กำกวม"
+  ],
+  "exJA": "この料理の味はちょっと微妙です。",
+  "exKana": "このりょうりのあじはちょっとびみょうです。",
+  "exEN": "The taste of this dish is a bit so-so.",
+  "exTH": "รสชาติอาหารนี้ก็งั้นๆ นะ",
+  "sub": "describe.quality"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "苦手",
+  "kana": "にがて",
+  "pos": "adj",
+  "th": "ไม่ถนัด / ไม่ค่อยชอบ",
+  "en": "poor at; not fond of",
+  "thAlt": [
+   "ไม่เก่ง"
+  ],
+  "exJA": "辛い食べ物は苦手です。",
+  "exKana": "からいたべものはにがてです。",
+  "exEN": "I'm not good with spicy food.",
+  "exTH": "ไม่ค่อยถูกกับอาหารเผ็ด",
+  "sub": "describe.quality"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "得意",
+  "kana": "とくい",
+  "pos": "adj",
+  "th": "ถนัด / เก่ง",
+  "en": "good at; one's strong point",
+  "thAlt": [
+   "เก่ง"
+  ],
+  "exJA": "母は料理が得意です。",
+  "exKana": "はははりょうりがとくいです。",
+  "exEN": "My mother is good at cooking.",
+  "exTH": "แม่ทำอาหารเก่ง",
+  "sub": "describe.quality"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "かっこいい",
+  "kana": "かっこいい",
+  "pos": "adj",
+  "th": "เท่ / หล่อ",
+  "en": "cool; good-looking",
+  "thAlt": [
+   "เท่",
+   "หล่อ"
+  ],
+  "exJA": "その靴、かっこいいですね。",
+  "exKana": "そのくつ、かっこいいですね。",
+  "exEN": "Those shoes are cool.",
+  "exTH": "รองเท้าคู่นั้นเท่นะ",
+  "sub": "describe.quality"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "確認",
+  "kana": "かくにん",
+  "pos": "noun",
+  "th": "การตรวจสอบ / ยืนยัน",
+  "en": "confirmation; checking (〜する: to check)",
+  "thAlt": [
+   "เช็ก",
+   "ยืนยัน"
+  ],
+  "exJA": "もう一度確認してください。",
+  "exKana": "もういちどかくにんしてください。",
+  "exEN": "Please check once more.",
+  "exTH": "ช่วยตรวจสอบอีกครั้งนะ",
+  "sub": "action.basic"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "気をつける",
+  "kana": "きをつける",
+  "pos": "verb",
+  "th": "ระวัง",
+  "en": "to be careful; to watch out",
+  "thAlt": [
+   "ระมัดระวัง"
+  ],
+  "exJA": "車に気をつけてね。",
+  "exKana": "くるまにきをつけてね。",
+  "exEN": "Watch out for cars.",
+  "exTH": "ระวังรถนะ",
+  "sub": "action.basic"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "届く",
+  "kana": "とどく",
+  "pos": "verb",
+  "th": "ส่งมาถึง / ถึง",
+  "en": "to arrive (of mail or a parcel); to reach",
+  "thAlt": [
+   "มาถึง",
+   "เอื้อมถึง"
+  ],
+  "exJA": "昨日注文した本が届きました。",
+  "exKana": "きのうちゅうもんしたほんがとどきました。",
+  "exEN": "The book I ordered yesterday arrived.",
+  "exTH": "หนังสือที่สั่งเมื่อวานมาถึงแล้ว",
+  "sub": "action.giving"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "預ける",
+  "kana": "あずける",
+  "pos": "verb",
+  "th": "ฝาก",
+  "en": "to leave (with someone); to deposit",
+  "thAlt": [
+   "ฝากไว้"
+  ],
+  "exJA": "荷物を預けてもいいですか。",
+  "exKana": "にもつをあずけてもいいですか。",
+  "exEN": "May I leave my luggage with you?",
+  "exTH": "ขอฝากกระเป๋าไว้ได้ไหม",
+  "sub": "action.giving"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "おごる",
+  "kana": "おごる",
+  "pos": "verb",
+  "th": "เลี้ยง (จ่ายให้)",
+  "en": "to treat (someone to a meal); to pay for",
+  "thAlt": [
+   "เลี้ยงข้าว"
+  ],
+  "exJA": "今日は私がおごります。",
+  "exKana": "きょうはわたしがおごります。",
+  "exEN": "Today it's my treat.",
+  "exTH": "วันนี้ฉันเลี้ยงเอง",
+  "sub": "action.giving"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "話しかける",
+  "kana": "はなしかける",
+  "pos": "verb",
+  "th": "เข้าไปทัก / ชวนคุย",
+  "en": "to speak to; to start a conversation with",
+  "thAlt": [
+   "ทัก"
+  ],
+  "exJA": "駅で知らない人に話しかけられました。",
+  "exKana": "えきでしらないひとにはなしかけられました。",
+  "exEN": "A stranger spoke to me at the station.",
+  "exTH": "มีคนแปลกหน้ามาทักที่สถานี",
+  "sub": "action.talk"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "お疲れ様",
+  "kana": "おつかれさま",
+  "pos": "interj",
+  "th": "เหนื่อยหน่อยนะ / ขอบคุณที่เหนื่อยมาด้วยกัน",
+  "en": "thanks for your hard work; good work today",
+  "thAlt": [
+   "ขอบคุณสำหรับวันนี้"
+  ],
+  "exJA": "今日もお疲れ様でした。",
+  "exKana": "きょうもおつかれさまでした。",
+  "exEN": "Thanks for your hard work today.",
+  "exTH": "วันนี้ก็เหนื่อยหน่อยนะ",
+  "sub": "basic.greeting"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "よろしく",
+  "kana": "よろしく",
+  "pos": "interj",
+  "th": "ฝากเนื้อฝากตัว / ฝากด้วยนะ",
+  "en": "please treat me well; I'm counting on you",
+  "thAlt": [
+   "ฝากด้วย"
+  ],
+  "exJA": "これからよろしくお願いします。",
+  "exKana": "これからよろしくおねがいします。",
+  "exEN": "I look forward to getting to know you.",
+  "exTH": "ต่อจากนี้ฝากเนื้อฝากตัวด้วยนะครับ",
+  "sub": "basic.greeting"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "お大事に",
+  "kana": "おだいじに",
+  "pos": "interj",
+  "th": "หายไวๆ นะ",
+  "en": "get well soon; take care (to someone sick)",
+  "thAlt": [
+   "ดูแลตัวเองนะ"
+  ],
+  "exJA": "風邪ですか。お大事に。",
+  "exKana": "かぜですか。おだいじに。",
+  "exEN": "A cold? Take care of yourself.",
+  "exTH": "เป็นหวัดเหรอ หายไวๆ นะ",
+  "sub": "basic.greeting"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "うん",
+  "kana": "うん",
+  "pos": "interj",
+  "th": "อืม / ใช่ (กันเอง)",
+  "en": "yeah; uh-huh (casual yes)",
+  "thAlt": [
+   "ใช่",
+   "อือ"
+  ],
+  "exJA": "うん、分かった。",
+  "exKana": "うん、わかった。",
+  "exEN": "Yeah, got it.",
+  "exTH": "อืม เข้าใจแล้ว",
+  "sub": "basic.greeting"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "ううん",
+  "kana": "ううん",
+  "pos": "interj",
+  "th": "ไม่ (กันเอง)",
+  "en": "no; uh-uh (casual no)",
+  "thAlt": [
+   "เปล่า"
+  ],
+  "exJA": "ううん、大丈夫。",
+  "exKana": "ううん、だいじょうぶ。",
+  "exEN": "No, I'm fine.",
+  "exTH": "ไม่หรอก ไม่เป็นไร",
+  "sub": "basic.greeting"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "えっと",
+  "kana": "えっと",
+  "pos": "interj",
+  "th": "เอ่อ... / คือว่า...",
+  "en": "um; let me see",
+  "thAlt": [
+   "เอ่อ"
+  ],
+  "exJA": "えっと、駅はどこですか。",
+  "exKana": "えっと、えきはどこですか。",
+  "exEN": "Um, where's the station?",
+  "exTH": "เอ่อ สถานีอยู่ไหนครับ",
+  "sub": "basic.greeting"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "へえ",
+  "kana": "へえ",
+  "pos": "interj",
+  "th": "อ้อ / เหรอ (แปลกใจ สนใจ)",
+  "en": "oh really?; wow (surprise, interest)",
+  "thAlt": [
+   "จริงเหรอ"
+  ],
+  "exJA": "へえ、そうなんですか。",
+  "exKana": "へえ、そうなんですか。",
+  "exEN": "Oh, is that so?",
+  "exTH": "อ้อ อย่างนั้นเหรอ",
+  "sub": "basic.greeting"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "なんで",
+  "kana": "なんで",
+  "pos": "adv",
+  "th": "ทำไม (ภาษาพูด)",
+  "en": "why (casual); how come",
+  "thAlt": [
+   "ทำไมล่ะ"
+  ],
+  "exJA": "なんで日本語を勉強しているんですか。",
+  "exKana": "なんでにほんごをべんきょうしているんですか。",
+  "exEN": "Why are you studying Japanese?",
+  "exTH": "ทำไมถึงเรียนภาษาญี่ปุ่นล่ะ",
+  "sub": "basic.question"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "どうやって",
+  "kana": "どうやって",
+  "pos": "adv",
+  "th": "ทำยังไง / ไปยังไง",
+  "en": "how; in what way; by what means",
+  "thAlt": [
+   "ด้วยวิธีไหน"
+  ],
+  "exJA": "駅までどうやって行きますか。",
+  "exKana": "えきまでどうやっていきますか。",
+  "exEN": "How do I get to the station?",
+  "exTH": "ไปสถานีไปยังไงครับ",
+  "sub": "basic.question"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "何か",
+  "kana": "なにか",
+  "pos": "pron",
+  "th": "อะไรสักอย่าง",
+  "en": "something; anything",
+  "thAlt": [
+   "อะไรบางอย่าง"
+  ],
+  "exJA": "何か飲みますか。",
+  "exKana": "なにかのみますか。",
+  "exEN": "Would you like something to drink?",
+  "exTH": "ดื่มอะไรไหม",
+  "sub": "basic.pointing"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "実は",
+  "kana": "じつは",
+  "pos": "adv",
+  "th": "ที่จริงแล้ว / ความจริงคือ",
+  "en": "actually; to tell the truth",
+  "thAlt": [
+   "บอกตามตรง"
+  ],
+  "exJA": "実は、明日国へ帰ります。",
+  "exKana": "じつは、あしたくにへかえります。",
+  "exEN": "Actually, I'm going back to my country tomorrow.",
+  "exTH": "ที่จริงพรุ่งนี้จะกลับประเทศแล้ว",
+  "sub": "adverb.manner"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "結局",
+  "kana": "けっきょく",
+  "pos": "adv",
+  "th": "สุดท้ายแล้ว / ท้ายที่สุด",
+  "en": "in the end; after all",
+  "thAlt": [
+   "ในที่สุด"
+  ],
+  "exJA": "結局、どこにも行きませんでした。",
+  "exKana": "けっきょく、どこにもいきませんでした。",
+  "exEN": "In the end, I didn't go anywhere.",
+  "exTH": "สุดท้ายก็ไม่ได้ไปไหน",
+  "sub": "adverb.manner"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "一応",
+  "kana": "いちおう",
+  "pos": "adv",
+  "th": "เผื่อไว้ / ก็...ไว้ก่อน",
+  "en": "just in case; for now; more or less",
+  "thAlt": [
+   "เผื่อไว้"
+  ],
+  "exJA": "一応、傘を持って行きます。",
+  "exKana": "いちおう、かさをもっていきます。",
+  "exEN": "I'll take an umbrella just in case.",
+  "exTH": "พกร่มไปเผื่อไว้",
+  "sub": "adverb.manner"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "絶対",
+  "kana": "ぜったい",
+  "pos": "adv",
+  "th": "แน่นอน / ต้อง...แน่ๆ",
+  "en": "absolutely; definitely",
+  "thAlt": [
+   "เด็ดขาด"
+  ],
+  "exJA": "また絶対来ます。",
+  "exKana": "またぜったいきます。",
+  "exEN": "I'll definitely come again.",
+  "exTH": "จะมาอีกแน่นอน",
+  "sub": "adverb.manner"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "せっかく",
+  "kana": "せっかく",
+  "pos": "adv",
+  "th": "อุตส่าห์",
+  "en": "specially; with much effort; since (we) have the chance",
+  "thAlt": [
+   "อุตส่าห์"
+  ],
+  "exJA": "せっかく来たのに、店が休みでした。",
+  "exKana": "せっかくきたのに、みせがやすみでした。",
+  "exEN": "I came all this way, but the shop was closed.",
+  "exTH": "อุตส่าห์มา แต่ร้านปิด",
+  "sub": "adverb.manner"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "ちゃんと",
+  "kana": "ちゃんと",
+  "pos": "adv",
+  "th": "ให้ดีๆ / อย่างเรียบร้อย",
+  "en": "properly; correctly",
+  "thAlt": [
+   "อย่างถูกต้อง"
+  ],
+  "exJA": "ちゃんと朝ご飯を食べてください。",
+  "exKana": "ちゃんとあさごはんをたべてください。",
+  "exEN": "Make sure you eat a proper breakfast.",
+  "exTH": "กินข้าวเช้าให้เรียบร้อยนะ",
+  "sub": "adverb.manner"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "とりあえず",
+  "kana": "とりあえず",
+  "pos": "adv",
+  "th": "ก่อนอื่น / เอาไว้ก่อน",
+  "en": "for now; first of all; to start with",
+  "thAlt": [
+   "ไปก่อน"
+  ],
+  "exJA": "とりあえずビールをください。",
+  "exKana": "とりあえずビールをください。",
+  "exEN": "A beer to start with, please.",
+  "exTH": "ขอเบียร์ก่อนเลย",
+  "sub": "adverb.manner"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "かなり",
+  "kana": "かなり",
+  "pos": "adv",
+  "th": "ค่อนข้าง / มากทีเดียว",
+  "en": "quite; considerably; pretty",
+  "thAlt": [
+   "มากทีเดียว"
+  ],
+  "exJA": "今日はかなり寒いですね。",
+  "exKana": "きょうはかなりさむいですね。",
+  "exEN": "It's pretty cold today.",
+  "exTH": "วันนี้หนาวมากทีเดียวนะ",
+  "sub": "adverb.degree"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "ずっと",
+  "kana": "ずっと",
+  "pos": "adv",
+  "th": "ตลอด / มาตลอด / ...กว่ามาก",
+  "en": "all along; the whole time; much (more)",
+  "thAlt": [
+   "ตลอดเวลา"
+  ],
+  "exJA": "朝からずっと雨です。",
+  "exKana": "あさからずっとあめです。",
+  "exEN": "It's been raining since the morning.",
+  "exTH": "ฝนตกตลอดตั้งแต่เช้า",
+  "sub": "adverb.timing"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "ところで",
+  "kana": "ところで",
+  "pos": "adv",
+  "th": "ว่าแต่ / อนึ่ง",
+  "en": "by the way",
+  "thAlt": [
+   "ว่าแต่ว่า"
+  ],
+  "exJA": "ところで、週末は暇ですか。",
+  "exKana": "ところで、しゅうまつはひまですか。",
+  "exEN": "By the way, are you free this weekend?",
+  "exTH": "ว่าแต่ สุดสัปดาห์นี้ว่างไหม",
+  "sub": "adverb.connector"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "それとも",
+  "kana": "それとも",
+  "pos": "adv",
+  "th": "หรือว่า",
+  "en": "or (in questions)",
+  "thAlt": [
+   "หรือ"
+  ],
+  "exJA": "コーヒーにしますか、それとも紅茶にしますか。",
+  "exKana": "コーヒーにしますか、それともこうちゃにしますか。",
+  "exEN": "Would you like coffee, or tea?",
+  "exTH": "เอากาแฟ หรือว่าชาดี",
+  "sub": "adverb.connector"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "だって",
+  "kana": "だって",
+  "pos": "adv",
+  "th": "ก็...นี่นา (ให้เหตุผล)",
+  "en": "because; but (giving a reason, casual)",
+  "thAlt": [
+   "ก็เพราะ"
+  ],
+  "exJA": "行きたくない。だって、寒いから。",
+  "exKana": "いきたくない。だって、さむいから。",
+  "exEN": "I don't want to go. It's cold, that's why.",
+  "exTH": "ไม่อยากไป ก็มันหนาวนี่นา",
+  "sub": "adverb.connector"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "そういえば",
+  "kana": "そういえば",
+  "pos": "adv",
+  "th": "นึกขึ้นได้ว่า / พูดถึงเรื่องนี้",
+  "en": "come to think of it; that reminds me",
+  "thAlt": [
+   "นึกขึ้นได้"
+  ],
+  "exJA": "そういえば、田中さんは元気ですか。",
+  "exKana": "そういえば、たなかさんはげんきですか。",
+  "exEN": "That reminds me, how is Tanaka-san?",
+  "exTH": "นึกขึ้นได้ คุณทานากะสบายดีไหม",
+  "sub": "adverb.connector"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "少々",
+  "kana": "しょうしょう",
+  "pos": "adv",
+  "th": "สักครู่ / นิดหน่อย (สุภาพ)",
+  "en": "a little; a moment (polite)",
+  "thAlt": [
+   "สักครู่"
+  ],
+  "exJA": "少々お待ちください。",
+  "exKana": "しょうしょうおまちください。",
+  "exEN": "Please wait a moment.",
+  "exTH": "กรุณารอสักครู่",
+  "sub": "keigo.polite"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "恐れ入ります",
+  "kana": "おそれいります",
+  "pos": "interj",
+  "th": "ขออภัย / ขอบพระคุณ (สุภาพมาก)",
+  "en": "excuse me; thank you (very polite)",
+  "thAlt": [
+   "ขอโทษนะคะ"
+  ],
+  "exJA": "恐れ入りますが、お名前をお願いします。",
+  "exKana": "おそれいりますが、おなまえをおねがいします。",
+  "exEN": "Excuse me, may I have your name?",
+  "exTH": "ขออภัยค่ะ ขอทราบชื่อด้วยค่ะ",
+  "sub": "keigo.polite"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "申し訳ない",
+  "kana": "もうしわけない",
+  "pos": "adj",
+  "th": "ขอโทษอย่างยิ่ง / รู้สึกผิด",
+  "en": "I'm very sorry; inexcusable (申し訳ありません: polite apology)",
+  "thAlt": [
+   "ขอโทษจริงๆ"
+  ],
+  "exJA": "遅れて、申し訳ありません。",
+  "exKana": "おくれて、もうしわけありません。",
+  "exEN": "I'm very sorry for being late.",
+  "exTH": "ขอโทษอย่างยิ่งที่มาสาย",
+  "sub": "keigo.polite"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "かしこまりました",
+  "kana": "かしこまりました",
+  "pos": "interj",
+  "th": "รับทราบครับ/ค่ะ (สุภาพ)",
+  "en": "certainly; understood (staff to customer)",
+  "thAlt": [
+   "ได้ครับ",
+   "รับทราบ"
+  ],
+  "exJA": "はい、かしこまりました。",
+  "exKana": "はい、かしこまりました。",
+  "exEN": "Certainly, sir/madam.",
+  "exTH": "ได้ค่ะ รับทราบค่ะ",
+  "sub": "keigo.humble"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "おる",
+  "kana": "おる",
+  "pos": "verb",
+  "th": "อยู่ (ถ่อมตัว ของ いる)",
+  "en": "to be; to stay (humble form of いる)",
+  "thAlt": [
+   "อยู่"
+  ],
+  "exJA": "明日は一日中家におります。",
+  "exKana": "あしたはいちにちじゅういえにおります。",
+  "exEN": "I'll be home all day tomorrow.",
+  "exTH": "พรุ่งนี้จะอยู่บ้านทั้งวันครับ",
+  "sub": "keigo.humble"
+ },
+ {
+  "level": "n4",
+  "plus": true,
+  "kanji": "存じる",
+  "kana": "ぞんじる",
+  "pos": "verb",
+  "th": "ทราบ / รู้ (ถ่อมตัว)",
+  "en": "to know; to think (humble)",
+  "thAlt": [
+   "ทราบ"
+  ],
+  "exJA": "申し訳ありません、存じません。",
+  "exKana": "もうしわけありません、ぞんじません。",
+  "exEN": "I'm sorry, I don't know.",
+  "exTH": "ขอโทษค่ะ ไม่ทราบค่ะ",
+  "sub": "keigo.humble"
  }
 ]

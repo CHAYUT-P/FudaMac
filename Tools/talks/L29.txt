@@ -1,0 +1,106 @@
+@scene l29_casual
+title: ケンタくんと公園で
+en: Looking after Kenta in the park (with a friend)
+th: ดูแลเคนตะที่สวนสาธารณะ (กับเพื่อน)
+glyph: 公
+level: n4
+place: people
+lesson: 29
+register: casual
+pair: l29
+role: ケンタ | Kenta (Ms Yamada's son) | เคนตะ (ลูกชายครูยามาดะ)
+about: Tam and Yuki look after Ms Yamada's seven-year-old son in the park. Talking about what someone else feels and wants (〜がる), what someone is like (〜っぽい) and what tends to happen (〜がち). | ตัมกับยูกิช่วยดูแลลูกชายวัย 7 ขวบของครูยามาดะที่สวนสาธารณะ ฝึกพูดถึงความรู้สึกและความอยากของคนอื่น (〜がる) ลักษณะหรือนิสัย (〜っぽい) และสิ่งที่มักจะเกิดขึ้น (〜がち)
+--- 池のそばで | By the pond | ข้างสระน้ำ
+ゆき: タム、お待たせ！ケンタくんは？ | タム、おまたせ！ケンタくんは？ | ตัม โทษทีที่ให้รอ เคนตะล่ะ | Tam, sorry I'm late! Where's Kenta?
+You: あそこ。池の魚、ずっと見てる。 | あそこ。いけのさかな、ずっとみてる。 | นั่นไง จ้องปลาในสระไม่เลิกเลย | Over there. He's been staring at the fish in the pond the whole time.
+g: n5.t.teiru
+ゆき*: 先生が言ってたけど、ケンタくん、犬をすごく怖がるんだって。 | せんせいがいってたけど、ケンタくん、いぬをすごくこわがるんだって。 | ครูบอกว่าเคนตะกลัวหมามากเลยนะ | Sensei said Kenta's really scared of dogs.
+g: n4.e.garu, n4.e.tte
+note: 怖い is for your own fear. You can't feel someone else's fear from the inside, so Japanese adds がる: 怖がる = "acts scared, is scared (as far as we can see)". んだって = "I heard that". | 怖い ใช้บอกความกลัวของตัวเอง แต่เราไม่รู้ใจคนอื่นจริงๆ ภาษาญี่ปุ่นจึงเติม がる เป็น 怖がる แปลว่าแสดงท่าทางว่ากลัว ส่วน んだって แปลว่า "ได้ยินมาว่า"
+You: そうなんだ。じゃあ、犬が来たら気をつけなきゃ。 | そうなんだ。じゃあ、いぬがきたらきをつけなきゃ。 | งั้นเหรอ งั้นถ้ามีหมามาต้องระวังแล้ว | Oh really. Then we'll have to be careful if a dog comes.
+g: n4.c.tara, n4.t.naito
+ケンタ: タムお兄ちゃん、アイス食べたい！ | タムおにいちゃん、アイスたべたい！ | พี่ตัม อยากกินไอติม! | Big brother Tam, I want ice cream!
+note: Kenta talks about himself, so plain 食べたい is right. がる is only for other people. | เคนตะพูดถึงตัวเอง จึงใช้ 食べたい ธรรมดาได้เลย がる ใช้กับคนอื่นเท่านั้น
+You: ほらね。さっきからずっとアイスを食べたがってるんだよ。買っていいのかな。 | ほらね。さっきからずっとアイスをたべたがってるんだよ。かっていいのかな。 | เห็นไหม อยากกินไอติมตั้งแต่เมื่อกี้แล้ว จะซื้อให้ได้หรือเปล่านะ | See? He's been wanting ice cream all this time. I wonder if it's OK to buy him one.
+g: n4.e.garu, n4.e.kana, n5.t.temoii
+note: たい becomes たがる for someone else: 食べたがってる = he (clearly) wants to eat it. With a friend 〜ている shrinks to 〜てる. | ถ้าพูดถึงความอยากของคนอื่น たい จะเปลี่ยนเป็น たがる เช่น 食べたがってる = เขาแสดงออกว่าอยากกิน และเวลาคุยกับเพื่อน 〜ている จะย่อเหลือ 〜てる
+alt: ケンタくん、アイスほしがってるよ。 | ケンタくん、アイスほしがってるよ。 | เคนตะอยากได้ไอติมแน่ะ | Kenta wants an ice cream.
+ゆき: 一つならいいんじゃない？私、買ってくるよ。 | ひとつならいいんじゃない？わたし、かってくるよ。 | อันเดียวก็น่าจะได้มั้ง เดี๋ยวเราไปซื้อให้ | Just one should be fine, right? I'll go and get it.
+g: n4.c.nara, n4.e.njanai, n4.t.tekuru
+--- アイスのあと | After the ice cream | หลังกินไอติม
+ゆき*: ケンタくん、しゃべり方が大人っぽいよね。 | ケンタくん、しゃべりかたがおとなっぽいよね。 | เคนตะพูดจาเหมือนผู้ใหญ่เลยเนอะ | Kenta talks like a grown-up, doesn't he?
+g: n4.e.ppoi, n4.e.kata
+note: Noun + っぽい = "-ish, like a ...": 大人っぽい = grown-up-ish. Very common in casual talk. | คำนาม + っぽい แปลว่า "ดูเหมือน…/ออกแนว…" 大人っぽい = ดูเป็นผู้ใหญ่ ใช้บ่อยมากในภาษาพูด
+You: うん。でも、やっぱり飽きっぽいね。もう魚に飽きちゃったみたい。 | うん。でも、やっぱりあきっぽいね。もうさかなにあきちゃったみたい。 | อืม แต่ก็เบื่อง่ายจริงๆ ดูเหมือนจะเบื่อปลาไปแล้ว | Yeah. But he does get bored easily. Looks like he's already bored of the fish.
+g: n4.e.ppoi, n4.t.teshimau, n4.e.youda
+note: Verb stem + っぽい = "tends to": 飽きっぽい = gets bored easily, 忘れっぽい = forgetful. It describes a person's habit. | กริยาตัด ます + っぽい แปลว่า "มักจะ…ง่าย" เช่น 飽きっぽい = เบื่อง่าย 忘れっぽい = ขี้ลืม ใช้อธิบายนิสัยของคน
+ケンタ: ねえ、ボール遊びしよう！ | ねえ、ボールあそびしよう！ | นี่ๆ เล่นบอลกันเถอะ! | Hey, let's play ball!
+g: n4.v.volitional
+ゆき: いいよ。あれ、ケンタくん、帽子は？ | いいよ。あれ、ケンタくん、ぼうしは？ | ได้สิ อ้าว เคนตะ หมวกล่ะ | Sure. Huh, Kenta, where's your hat?
+ケンタ: あ、ベンチに忘れた！ | あ、ベンチにわすれた！ | อ๊ะ ลืมไว้ที่ม้านั่ง! | Oh, I left it on the bench!
+ゆき*: 子どもって、帽子とか忘れがちだよね。 | こどもって、ぼうしとかわすれがちだよね。 | เด็กๆ นี่ชอบลืมหมวกอะไรพวกนี้เนอะ | Kids tend to forget things like hats, don't they?
+g: n4.e.gachi, n4.e.tte, n5.p.toka
+note: Verb stem + がち = "tends to (and that's not great)": 忘れがち = often forgets. Compare っぽい: 忘れっぽい describes the person, 忘れがち describes what keeps happening. | กริยาตัด ます + がち แปลว่า "มักจะ…" ในทางไม่ค่อยดี 忘れがち = ลืมบ่อย ต่างจาก っぽい ตรงที่ 忘れっぽい บอกนิสัยของคน ส่วน 忘れがち บอกสิ่งที่เกิดขึ้นบ่อยๆ
+You: 子どもだけじゃないよ。僕も最近、忘れっぽくて…。 | こどもだけじゃないよ。ぼくもさいきん、わすれっぽくて…。 | ไม่ใช่แค่เด็กหรอก ช่วงนี้เราเองก็ขี้ลืม… | Not just kids. I've been forgetful lately too...
+g: n4.e.ppoi, n5.p.dake
+ゆき: 知ってる。タム、傘をよく電車に忘れるじゃん。 | しってる。タム、かさをよくでんしゃにわすれるじゃん。 | รู้แล้ว ตัมชอบลืมร่มไว้บนรถไฟประจำเลยนี่ | I know. You're always leaving your umbrella on the train.
+g: n4.e.dewanaika
+note: じゃん = casual "you know / isn't it?" (from じゃないか). Only with friends. | じゃん = "ก็…ไง/ใช่ไหมล่ะ" แบบกันเอง (มาจาก じゃないか) ใช้กับเพื่อนเท่านั้น
+--- 夕方 | Evening | ตอนเย็น
+ゆき: もう五時か。ケンタくん、眠そう。 | もうごじか。ケンタくん、ねむそう。 | ห้าโมงแล้วเหรอ เคนตะดูง่วงๆ นะ | Five already? Kenta looks sleepy.
+g: n4.e.souda1
+You: うん。でも、まだ帰りたがらないんだよね。 | うん。でも、まだかえりたがらないんだよね。 | อืม แต่ยังไม่ยอมกลับบ้านเลยนะ | Yeah. But he still doesn't want to go home.
+g: n4.e.garu, n4.e.ndesu
+note: たがる conjugates like a normal verb: 帰りたがらない = (he acts like he) doesn't want to go home. | たがる ผันได้เหมือนกริยาทั่วไป 帰りたがらない = (ดูจากท่าทาง) เขาไม่อยากกลับบ้าน
+ゆき: 先生が来るまで、ベンチで休もうか。 | せんせいがくるまで、ベンチでやすもうか。 | ไปพักที่ม้านั่งรอครูมากันไหม | Shall we rest on the bench till Sensei comes?
+g: n4.v.volitional
+You: そうしよう。ケンタくん、ジュース飲む？ | そうしよう。ケンタくん、ジュースのむ？ | เอาสิ เคนตะ กินน้ำผลไม้ไหม | Let's. Kenta, want some juice?
+alt: そうだね。ケンタくん、ちょっと座ろう。 | そうだね。ケンタくん、ちょっとすわろう。 | ใช่ เคนตะ นั่งพักแป๊บนึงกันนะ | Yeah. Kenta, let's sit down for a bit.
+
+@scene l29_polite
+title: ケンタくんのお迎え
+en: Handing Kenta back to his mother (polite)
+th: ส่งเคนตะคืนให้คุณแม่ (สุภาพ)
+glyph: 公
+level: n4
+place: people
+lesson: 29
+register: polite
+pair: l29
+about: Ms Yamada comes to the park to pick up her son. Tam reports politely what Kenta wanted and was scared of (〜がっていました), and she talks about her son's habits with 〜がち and 〜っぽい. | ครูยามาดะมารับลูกชายที่สวน ตัมรายงานอย่างสุภาพว่าเคนตะอยากได้อะไร กลัวอะไร (〜がっていました) และครูเล่าถึงนิสัยของลูกด้วย 〜がち และ 〜っぽい
+--- お迎え | Pick-up time | ตอนมารับ
+山田先生*: タムさん、日曜日なのに、急にすみませんでした。ケンタ、いい子にしていましたか。 | タムさん、にちようびなのに、きゅうにすみませんでした。ケンタ、いいこにしていましたか。 | ตัม ขอโทษนะคะที่รบกวนกะทันหันทั้งที่เป็นวันอาทิตย์ เคนตะเป็นเด็กดีไหมคะ | Tam, I'm sorry to ask at such short notice on a Sunday. Was Kenta good?
+g: n4.e.noni1
+You: はい、とても元気でしたよ。池の魚をずっと見ていました。 | はい、とてもげんきでしたよ。いけのさかなをずっとみていました。 | ครับ ร่าเริงมากเลยครับ ดูปลาในสระอยู่ตลอดเลยครับ | Yes, he was full of energy. He watched the fish in the pond the whole time.
+山田先生: 何か困ったことはありませんでしたか。 | なにかこまったことはありませんでしたか。 | มีอะไรลำบากไหมคะ | Was there any trouble?
+g: n4.e.dareka
+You: 一度、大きい犬が来たとき、すごく怖がっていました。 | いちど、おおきいいぬがきたとき、すごくこわがっていました。 | มีครั้งหนึ่งตอนหมาตัวใหญ่เดินมา เขากลัวมากเลยครับ | Once, when a big dog came by, he was really scared.
+g: n4.e.garu, n5.e.toki
+note: Reporting someone else's feelings to his parent: 怖がっていました, not 怖かったです (which would sound like you know his mind). The がる rule doesn't change with politeness; only the ending does. | เวลาเล่าความรู้สึกของคนอื่นให้พ่อแม่เขาฟัง ใช้ 怖がっていました ไม่ใช่ 怖かったです (ซึ่งฟังเหมือนเรารู้ใจเขา) กฎของ がる เหมือนเดิมทั้งแบบกันเองและสุภาพ เปลี่ยนแค่ท้ายประโยค
+山田先生*: ああ、あの子、犬を怖がるんです。小さいとき、かまれたことがあって。 | ああ、あのこ、いぬをこわがるんです。ちいさいとき、かまれたことがあって。 | อ๋อ เด็กคนนั้นกลัวหมาค่ะ ตอนเล็กๆ เคยโดนกัด | Ah, he's scared of dogs. He got bitten once when he was little.
+g: n4.e.garu, n4.v.passive, n5.e.takoto
+You: そうだったんですか。それから、アイスを食べたがっていたので、一つ買ってしまったんですが…。 | そうだったんですか。それから、アイスをたべたがっていたので、ひとつかってしまったんですが…。 | อย่างนั้นเองเหรอครับ แล้วก็ เขาอยากกินไอติม ผมเลยซื้อให้ไปอันหนึ่ง… | Oh, I see. Also, he wanted ice cream, so I went ahead and bought him one...
+g: n4.e.garu, n4.t.teshimau, n5.e.node
+note: Ending with 〜んですが… and leaving the sentence open is a polite way to check "was that OK?" without asking directly. | การจบด้วย 〜んですが… แล้วปล่อยประโยคค้างไว้ เป็นวิธีสุภาพในการถามว่า "แบบนี้ได้ไหม" โดยไม่ต้องถามตรงๆ
+山田先生: もちろん大丈夫ですよ。お金、あとで払いますね。 | もちろんだいじょうぶですよ。おかね、あとではらいますね。 | ไม่เป็นไรอยู่แล้วค่ะ เดี๋ยวครูคืนเงินให้นะคะ | Of course that's fine. I'll pay you back later.
+You: いえ、大丈夫です。ゆきさんと半分ずつ出しましたから。 | いえ、だいじょうぶです。ゆきさんとはんぶんずつだしましたから。 | ไม่เป็นไรครับ ผมกับยูกิช่วยกันออกคนละครึ่งครับ | No, it's fine. Yuki and I split it half and half.
+g: n4.e.zutsu
+--- ケンタくんのこと | About Kenta | เรื่องของเคนตะ
+山田先生*: すみません。あの子、家ではゲームばかりで、運動不足になりがちなんです。 | すみません。あのこ、いえではゲームばかりで、うんどうぶそくになりがちなんです。 | ขอบคุณนะคะ ที่บ้านเขาเอาแต่เล่นเกม เลยมักจะออกกำลังไม่พอค่ะ | Thank you. At home he only plays games, so he tends not to get enough exercise.
+g: n4.e.gachi, n5.p.bakari, n4.e.ndesu
+note: なりがち = "tends to end up (in a bad state)". がち works the same in polite speech: 〜がちです, 〜がちなんです. | なりがち = "มักจะกลายเป็น…" (ในทางไม่ดี) ในภาษาสุภาพก็ใช้ がち เหมือนกัน เช่น 〜がちです หรือ 〜がちなんです
+You: 今日はたくさん走っていましたよ。ボール遊びも上手でした。 | きょうはたくさんはしっていましたよ。ボールあそびもじょうずでした。 | วันนี้เขาวิ่งเยอะเลยครับ เล่นบอลก็เก่งด้วยครับ | He ran around a lot today. He was good at playing ball, too.
+山田先生: よかった。口は大人っぽいんですけど、中身はまだまだ子どもで。 | よかった。くちはおとなっぽいんですけど、なかみはまだまだこどもで。 | ดีจัง ปากพูดเหมือนผู้ใหญ่ แต่ข้างในยังเป็นเด็กอยู่เลยค่ะ | That's good. He talks like a grown-up, but inside he's still very much a kid.
+g: n4.e.ppoi, n5.e.ga_kedo
+You: そうですね。話し方は大人っぽいと思いました。 | そうですね。はなしかたはおとなっぽいとおもいました。 | จริงครับ ผมก็คิดว่าเขาพูดจาเหมือนผู้ใหญ่ครับ | Yes, I thought the way he talks was quite grown-up.
+g: n4.e.ppoi, n4.e.kata, n5.e.toomou
+note: っぽい is casual-sounding, but it's fine in です/ます sentences like this. In very formal writing you'd use 〜のような instead. | っぽい ฟังดูเป็นภาษาพูด แต่ใช้ในประโยค です/ます แบบนี้ได้ไม่มีปัญหา ถ้าเป็นภาษาเขียนทางการมากๆ จะใช้ 〜のような แทน
+山田先生*: それに、忘れっぽくて。今日も何か忘れませんでしたか。 | それに、わすれっぽくて。きょうもなにかわすれませんでしたか。 | แถมยังขี้ลืมอีก วันนี้ลืมอะไรไว้หรือเปล่าคะ | And he's forgetful, too. Did he forget anything today?
+g: n4.e.ppoi, n4.e.dareka
+You: 帽子をベンチに忘れていましたけど、ここにあります。どうぞ。 | ぼうしをベンチにわすれていましたけど、ここにあります。どうぞ。 | ลืมหมวกไว้ที่ม้านั่งครับ แต่อยู่นี่แล้วครับ เชิญครับ | He left his hat on the bench, but I have it here. Here you are.
+g: n5.e.ga_kedo
+山田先生: 本当に助かりました。今度、お礼をさせてくださいね。 | ほんとうにたすかりました。こんど、おれいをさせてくださいね。 | ช่วยได้มากจริงๆ ค่ะ ไว้คราวหน้าให้ครูได้ตอบแทนบ้างนะคะ | You've been a real help. Please let me thank you properly next time.
+g: n4.v.causative
+You: いえいえ、僕も楽しかったです。ケンタくん、またね！ | いえいえ、ぼくもたのしかったです。ケンタくん、またね！ | ไม่หรอกครับ ผมก็สนุกครับ เคนตะ ไว้เจอกันนะ! | Not at all, I had fun too. See you, Kenta!
+alt: いえ、こちらこそ楽しかったです。ケンタくん、バイバイ！ | いえ、こちらこそたのしかったです。ケンタくん、バイバイ！ | ไม่หรอกครับ ผมต่างหากที่สนุก บ๊ายบายเคนตะ! | No, I'm the one who had fun. Bye-bye, Kenta!
+note: Same breath, two registers: です to the teacher, then casual またね to her seven-year-old. Choose the register for each person you speak to. | ประโยคเดียวแต่สองระดับภาษา พูด です กับครู แล้วหันไปพูด またね แบบกันเองกับลูกชายวัย 7 ขวบ ให้เลือกระดับภาษาตามคนที่เรากำลังพูดด้วย

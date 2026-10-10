@@ -34,10 +34,11 @@ struct TalkLine: Codable, Hashable {
     var noteTH: String = ""
     var alts: [TalkAlt] = []
     var romaji: String = ""
+    var grammar: [String] = []          // grammar keys this line uses (lesson conversations)
 
     var isSection: Bool { kind == "section" }
 
-    enum CodingKeys: String, CodingKey { case kind, ja, th, en, speaker, you, key, kana, noteEN, noteTH, alts, romaji }
+    enum CodingKeys: String, CodingKey { case kind, ja, th, en, speaker, you, key, kana, noteEN, noteTH, alts, romaji, grammar }
     init(from d: Decoder) throws {
         let c = try d.container(keyedBy: CodingKeys.self)
         kind = try c.decode(String.self, forKey: .kind)
@@ -52,6 +53,7 @@ struct TalkLine: Codable, Hashable {
         noteTH = try c.decodeIfPresent(String.self, forKey: .noteTH) ?? ""
         alts = try c.decodeIfPresent([TalkAlt].self, forKey: .alts) ?? []
         romaji = try c.decodeIfPresent(String.self, forKey: .romaji) ?? Romaji.from(kana)
+        grammar = try c.decodeIfPresent([String].self, forKey: .grammar) ?? []
     }
 }
 
@@ -86,6 +88,16 @@ struct TalkScene: Codable, Identifiable, Hashable {
     let aboutTH: String
     let roles: [String: TalkRole]
     let lines: [TalkLine]
+    // Lesson conversations: one situation told with a friend and politely.
+    var lesson: Int? = nil
+    var register: String? = nil         // "casual" | "polite"
+    var pair: String? = nil
+
+    var isCasual: Bool { register == "casual" }
+    var registerJA: String { isCasual ? "友達と" : "丁寧に" }
+    var registerEN: String { isCasual ? "With a friend" : "Polite" }
+    /// The other telling of the same situation.
+    var partner: TalkScene? { pair.flatMap { p in Talk.scenes.first { $0.pair == p && $0.id != id } } }
 
     static func == (a: TalkScene, b: TalkScene) -> Bool { a.id == b.id }
     func hash(into h: inout Hasher) { h.combine(id) }
@@ -111,6 +123,19 @@ enum Talk {
         }
         return file.scenes
     }()
+
+    /// Real-life situations (shops, stations …), without the lesson conversations.
+    static var situations: [TalkScene] { scenes.filter { $0.lesson == nil } }
+    /// Conversation lines that use a grammar point: (scene, line), casual tellings first.
+    static func lines(using key: String) -> [(scene: TalkScene, line: TalkLine)] {
+        scenes.flatMap { s in s.spoken.filter { $0.grammar.contains(key) }.map { (s, $0) } }
+            .sorted { $0.scene.isCasual && !$1.scene.isCasual }
+    }
+
+    /// The casual + polite pair for a course lesson (casual first).
+    static func lessonPair(_ n: Int) -> [TalkScene] {
+        scenes.filter { $0.lesson == n }.sorted { $0.isCasual && !$1.isCasual }
+    }
 }
 
 // MARK: - Role-play turns

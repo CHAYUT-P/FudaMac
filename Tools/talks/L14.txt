@@ -1,0 +1,112 @@
+@scene l14_casual
+title: 何人来るの？
+en: How many are coming? (with a friend)
+th: มากี่คน (กับเพื่อน)
+glyph: 十四
+level: n5
+place: shop
+lesson: 14
+register: casual
+pair: l14
+about: Shopping with Yuki for Tam's Thai food party. Counting people, eggs, bottles and plates, and saying "only" three ways: だけ, しか〜ない, ばかり. | ไปซื้อของกับยูกิเพื่อเตรียมปาร์ตี้อาหารไทยของตัม ฝึกนับคน ไข่ ขวด และจาน และพูดว่า "แค่/มีแต่" สามแบบ: だけ, しか〜ない, ばかり
+--- 買い物リスト | The shopping list | รายการซื้อของ
+ゆき: で、今日のパーティー、何人来るの？ | で、きょうのパーティー、なんにんくるの？ | แล้วปาร์ตี้วันนี้มากี่คนอะ | So how many people are coming to the party today?
+You: リンとジョンと、クラスの友達が三人。それから、ゆきも入れて、全部で六人。 | リンとジョンと、クラスのともだちがさんにん。それから、ゆきもいれて、ぜんぶでろくにん。 | หลิน จอห์น เพื่อนในห้องอีกสามคน แล้วก็รวมยูกิด้วย ทั้งหมดหกคน | Lin, John and three classmates. Then with you, six in total.
+g: n5.e.counters
+note: People: 一人 (ひとり), 二人 (ふたり), then 三人 (さんにん), 四人 (よにん)… 全部で = "in total". | นับคน: 一人 (ひとり), 二人 (ふたり) จากนั้นเป็น 三人 (さんにん), 四人 (よにん)… ส่วน 全部で แปลว่า "ทั้งหมด"
+ゆき: 六人か。けっこう多いね。何を作るの？ | ろくにんか。けっこうおおいね。なにをつくるの？ | หกคนเหรอ เยอะเหมือนกันนะ จะทำอะไรบ้าง | Six, huh? That's quite a few. What are you making?
+g: n5.p.ne
+You: ガパオとか、トムヤムクンとか。あと、カオニャオマムアンも。 | ガパオとか、トムヤムクンとか。あと、カオニャオマムアンも。 | พวกกะเพรา ต้มยำกุ้งอะไรงี้ แล้วก็ข้าวเหนียวมะม่วงด้วย | Stuff like gapao and tom yum kung. And mango sticky rice too.
+g: n5.p.toka
+note: AとかBとか = "things like A and B". It's the casual version of AやBなど. | AとかBとか = "พวก A พวก B อะไรแบบนี้" เป็นรูปกันเองของ AやBなど
+ゆき*: でも、タイ料理って、辛いものばかりだよね？ | でも、タイりょうりって、からいものばかりだよね？ | แต่อาหารไทยมีแต่ของเผ็ดใช่มั้ยล่ะ | But Thai food is nothing but spicy stuff, right?
+g: n5.p.bakari, n5.p.yone
+note: ばかり = "nothing but". よね checks something you think you both already know: "…right?" | ばかり แปลว่า "มีแต่…" ส่วน よね ใช้ถามยืนยันสิ่งที่คิดว่าทั้งสองฝ่ายก็รู้อยู่แล้ว "…ใช่มั้ยล่ะ"
+You: ううん、カオニャオマムアンは甘いデザートだよ。 | ううん、カオニャオマムアンはあまいデザートだよ。 | ไม่หรอก ข้าวเหนียวมะม่วงเป็นของหวานนะ | Nope, mango sticky rice is a sweet dessert.
+g: n5.p.yo
+note: よ = "I'm telling you": it gives the listener information they didn't have. | よ = "บอกให้นะ" ใช้บอกข้อมูลที่อีกฝ่ายยังไม่รู้
+--- スーパーで | At the supermarket | ที่ซูเปอร์มาร์เก็ต
+ゆき: 鶏肉はどのぐらい買う？ | とりにくはどのぐらいかう？ | ไก่จะซื้อเท่าไหร่ | How much chicken are you getting?
+You: 一キロぐらい。それから、卵を十個。 | いちキロぐらい。それから、たまごをじゅっこ。 | ประมาณหนึ่งกิโล แล้วก็ไข่สิบฟอง | About a kilo. And ten eggs.
+g: n5.e.counters
+note: 個 counts small round things like eggs and apples. 十個 is read じゅっこ. | 個 ใช้นับของชิ้นเล็กๆ กลมๆ เช่น ไข่ แอปเปิ้ล ส่วน 十個 อ่านว่า じゅっこ
+ゆき*: あ、卵、一パックに六個しか入ってないよ。 | あ、たまご、ひとパックにろっこしかはいってないよ。 | อ้าว ไข่แพ็กหนึ่งมีแค่หกฟองเองนะ | Oh, there are only six eggs in a pack.
+g: n5.p.shika, n5.e.counters, n5.p.yo
+note: しか always comes with a negative verb: 六個しか入ってない = "only six in it" (and that's not enough). | しか ต้องใช้คู่กับกริยารูปปฏิเสธเสมอ 六個しか入ってない = "มีแค่หกฟอง" (ฟังว่าไม่พอ)
+You: じゃあ、二パック買う。 | じゃあ、ふたパックかう。 | งั้นซื้อสองแพ็ก | Then I'll get two packs.
+ゆき: 飲み物は？ビールとか、ジュースとか。 | のみものは？ビールとか、ジュースとか。 | เครื่องดื่มล่ะ เบียร์ น้ำผลไม้อะไรงี้ | What about drinks? Beer, juice…
+g: n5.p.toka
+You: みんなあまりお酒を飲まないから、ジュースを三本だけ。 | みんなあまりおさけをのまないから、ジュースをさんぼんだけ。 | ทุกคนไม่ค่อยดื่มเหล้า เอาแค่น้ำผลไม้สามขวดพอ | Nobody drinks much, so just three bottles of juice.
+g: n5.p.dake, n5.e.counters
+note: 本 counts long things like bottles: 一本 (いっぽん), 二本 (にほん), 三本 (さんぼん). だけ = "just", neutral, without the "not enough" feeling of しか. | 本 ใช้นับของยาวๆ เช่นขวด: 一本 (いっぽん), 二本 (にほん), 三本 (さんぼん) ส่วน だけ แปลว่า "แค่" แบบกลางๆ ไม่ได้บ่นว่าน้อยเหมือน しか
+ゆき: 紙のお皿もいるよね？ | かみのおさらもいるよね？ | จานกระดาษก็ต้องใช้ใช่มั้ย | We need paper plates too, right?
+g: n5.p.yone
+You*: うん。うちにはお皿が二枚しかないから。 | うん。うちにはおさらがにまいしかないから。 | อืม ที่ห้องมีจานแค่สองใบเอง | Yeah. I've only got two plates at home.
+g: n5.p.shika, n5.e.counters
+note: 枚 counts flat things: plates, paper, shirts, tickets. | 枚 ใช้นับของแบนๆ เช่น จาน กระดาษ เสื้อ ตั๋ว
+ゆき: じゃあ、これ一つでいいね。二十枚入ってるから。 | じゃあ、これひとつでいいね。にじゅうまいはいってるから。 | งั้นเอาอันนี้อันเดียวก็พอเนอะ มีตั้งยี่สิบใบ | Then just one of these is fine. There are twenty in it.
+g: n5.e.counters, n5.p.ne
+--- レジの前で | Before the register | ก่อนจ่ายเงิน
+ゆき*: タム、お菓子ばかり入れてる！ | タム、おかしばかりいれてる！ | ตัม ใส่แต่ขนมเลยนะ! | Tam, you're putting in nothing but snacks!
+g: n5.p.bakari
+You: だって、パーティーだよ！ | だって、パーティーだよ！ | ก็มันปาร์ตี้นี่นา! | Well, it's a party!
+g: n5.p.yo
+note: だって = "but / well…": a casual way to give your excuse. | だって = "ก็…นี่นา" ใช้แก้ตัวหรือให้เหตุผลแบบกันเอง
+ゆき: まあね。楽しみだね！ | まあね。たのしみだね！ | ก็จริง น่าสนุกจังเลยเนอะ! | Fair enough. Can't wait!
+g: n5.p.ne
+note: ね asks the listener to share the feeling: "isn't it?" Friends use it constantly. | ね ชวนให้อีกฝ่ายรู้สึกเหมือนกัน "…เนอะ" เพื่อนกันใช้แทบทุกประโยค
+
+@scene l14_polite
+title: ナンプラーはありますか
+en: Do you have fish sauce? (with shop staff)
+th: มีน้ำปลาไหมครับ (กับพนักงานร้าน)
+glyph: 十四
+level: n5
+place: shop
+lesson: 14
+register: polite
+pair: l14
+about: Tam shops for his party at a small food store and asks the staff for help. Counters, polite だけですね and しかありません, AやBなど, and ですよ／ですよね. | ตัมซื้อของเตรียมปาร์ตี้ที่ร้านขายอาหารเล็กๆ และถามพนักงาน ฝึกลักษณนาม だけですね และ しかありません แบบสุภาพ AやBなど และ ですよ／ですよね
+--- 売り場で | On the shop floor | ในร้าน
+You: すみません、ナンプラーはありますか。 | すみません、ナンプラーはありますか。 | ขอโทษครับ มีน้ำปลาไหมครับ | Excuse me, do you have fish sauce?
+店員*: はい、こちらです。ただ、今日は小さいのが一本しかありませんが…。 | はい、こちらです。ただ、きょうはちいさいのがいっぽんしかありませんが…。 | มีค่ะ อยู่ทางนี้ แต่วันนี้เหลือขวดเล็กแค่ขวดเดียวนะคะ | Yes, over here. But today we only have one small bottle…
+g: n5.p.shika, n5.e.counters
+note: Shop staff often end with 〜が… and stop: a polite, soft "but…" that leaves the choice to you. | พนักงานร้านมักลงท้ายด้วย 〜が… แล้วหยุดไว้ เป็นการพูด "แต่ว่า…" อย่างสุภาพ ปล่อยให้ลูกค้าตัดสินใจเอง
+You: そうですか。じゃあ、それを一本ください。 | そうですか。じゃあ、それをいっぽんください。 | อย่างนั้นเหรอครับ งั้นขอขวดนั้นหนึ่งขวดครับ | I see. Then I'll take that one, please.
+g: n5.e.counters
+You: それから、ココナッツミルクや、パクチーなどもありますか。 | それから、ココナッツミルクや、パクチーなどもありますか。 | แล้วก็มีพวกกะทิ ผักชีด้วยไหมครับ | Also, do you have things like coconut milk and coriander?
+g: n5.p.ya
+note: AやBなど = "things like A and B": the polite way to give a few examples. With friends, say AとかBとか. | AやBなど = "พวก A และ B เป็นต้น" เป็นวิธียกตัวอย่างแบบสุภาพ ถ้าคุยกับเพื่อนใช้ AとかBとか
+店員*: ココナッツミルクは三番の棚にありますよ。 | ココナッツミルクはさんばんのたなにありますよ。 | กะทิอยู่ที่ชั้นหมายเลขสามค่ะ | Coconut milk is on shelf number three.
+g: n5.p.yo, n5.e.counters
+note: 〜番 = "number…". ますよ adds a friendly "here's the info": staff use it to sound helpful, not pushy. | 〜番 แปลว่า "หมายเลข…" ส่วน ますよ ให้ความรู้สึก "บอกให้นะ" อย่างเป็นมิตร พนักงานใช้เพื่อให้ฟังเป็นการช่วยเหลือ ไม่ใช่การยัดเยียด
+店員: パクチーは野菜のコーナーです。 | パクチーはやさいのコーナーです。 | ผักชีอยู่ที่มุมผักค่ะ | Coriander is in the vegetable section.
+--- 肉と卵 | Meat and eggs | เนื้อสัตว์และไข่
+You: すみません、鶏肉は一キロのパックがありますか。 | すみません、とりにくはいちキロのパックがありますか。 | ขอโทษครับ ไก่มีแพ็กหนึ่งกิโลไหมครับ | Excuse me, do you have one-kilo packs of chicken?
+g: n5.e.counters
+店員: 五百グラムのパックだけですね。二つでちょうど一キロですよ。 | ごひゃくグラムのパックだけですね。ふたつでちょうどいちキロですよ。 | มีแค่แพ็กห้าร้อยกรัมนะคะ สองแพ็กก็หนึ่งกิโลพอดีค่ะ | Only 500-gram packs, I'm afraid. Two make exactly one kilo.
+g: n5.p.dake, n5.p.ne, n5.p.yo, n5.e.counters
+note: だけですね = "we only have…": ね here softens news the customer may not like. ちょうど = "exactly". | だけですね = "มีแค่…นะคะ" ね ตรงนี้ช่วยให้ข่าวที่ลูกค้าอาจไม่ชอบฟังนุ่มลง ส่วน ちょうど แปลว่า "พอดี"
+You: じゃあ、二つお願いします。今日は友達が六人来ますので。 | じゃあ、ふたつおねがいします。きょうはともだちがろくにんきますので。 | งั้นขอสองแพ็กครับ วันนี้มีเพื่อนจะมาหกคนครับ | Then two, please. Six friends are coming today.
+g: n5.e.counters, n5.e.node
+店員: パーティーですか。いいですね。何の料理ですか。 | パーティーですか。いいですね。なんのりょうりですか。 | ปาร์ตี้เหรอคะ ดีจังเลย ทำอาหารอะไรคะ | A party? How nice. What kind of food?
+g: n5.p.ne
+You: タイ料理です。辛いものばかりですが…。 | タイりょうりです。からいものばかりですが…。 | อาหารไทยครับ มีแต่ของเผ็ดๆ นะครับ | Thai food. It's nothing but spicy dishes, though…
+g: n5.p.bakari, n5.e.ga_kedo
+note: ばかり works the same in both registers; only the ending changes (ばかりだ → ばかりです). | ばかり ใช้เหมือนกันทั้งแบบกันเองและแบบสุภาพ เปลี่ยนแค่ท้ายประโยค (ばかりだ → ばかりです)
+店員*: 卵はいかがですか。今日は安いですよ。 | たまごはいかがですか。きょうはやすいですよ。 | รับไข่ด้วยไหมคะ วันนี้ราคาถูกนะคะ | How about some eggs? They're cheap today.
+g: n5.p.yo
+You: いいですね。一パックに何個入っていますか。 | いいですね。ひとパックになんこはいっていますか。 | ดีครับ แพ็กหนึ่งมีกี่ฟองครับ | Great. How many are in a pack?
+g: n5.e.counters
+alt: 一パック、何個ですか。 | ひとパック、なんこですか。 | แพ็กหนึ่งกี่ฟองครับ | How many per pack?
+店員: 十個です。 | じゅっこです。 | สิบฟองค่ะ | Ten.
+--- レジで | At the register | ที่แคชเชียร์
+店員*: 袋は一枚でよろしいですか。 | ふくろはいちまいでよろしいですか。 | ถุงใบเดียวพอไหมคะ | Will one bag be enough?
+g: n5.e.counters
+You: すみません、重いので、二枚お願いします。 | すみません、おもいので、にまいおねがいします。 | ขอโทษครับ ของหนัก ขอสองใบครับ | Sorry, it's heavy, so two please.
+g: n5.e.counters, n5.e.node
+店員: かしこまりました。全部で三千二百円です。 | かしこまりました。ぜんぶでさんぜんにひゃくえんです。 | รับทราบค่ะ ทั้งหมดสามพันสองร้อยเยนค่ะ | Certainly. That's 3,200 yen altogether.
+You: カードでも大丈夫ですよね？ | カードでもだいじょうぶですよね？ | จ่ายด้วยบัตรได้ใช่ไหมครับ | Card's OK, right?
+g: n5.p.yone
+note: ですよね？ = "…right?" when you're fairly sure but want to check. It's the polite version of the よね Yuki used. | ですよね？ = "…ใช่ไหมครับ" ใช้ถามยืนยันสิ่งที่ค่อนข้างมั่นใจ เป็นรูปสุภาพของ よね ที่ยูกิใช้
+店員: はい、大丈夫ですよ。 | はい、だいじょうぶですよ。 | ได้ค่ะ | Yes, that's fine.

@@ -42,6 +42,7 @@ struct ListWord: Identifiable, Hashable {
     var id: String { vocab.id }
     var cardID: String { "v:" + vocab.id }
     var level: Level { vocab.level }
+    var isPlus: Bool { vocab.isPlus }
     var word: String { vocab.kanji }
     var kana: String { vocab.kana }
     var romaji: String { vocab.romaji }
@@ -79,10 +80,11 @@ final class WordList {
         }
         categories = file.categories
         referenceNote = file.reference
-        // N5 first, then N4 — the order you learn them in. Within a level keep
-        // the database order (N5 follows the course lessons).
+        // N5 first, then N4, then the everyday N4+ words — the order you learn them in.
+        // Within a level keep the database order (N5 follows the course lessons).
+        func rank(_ v: Vocab) -> Int { v.isPlus ? 2 : v.level == .n5 ? 0 : 1 }
         let ordered = DB.shared.vocab.enumerated().sorted { a, b in
-            if a.element.level != b.element.level { return a.element.level == .n5 }
+            if rank(a.element) != rank(b.element) { return rank(a.element) < rank(b.element) }
             return a.offset < b.offset
         }.map(\.element)
         for v in ordered {

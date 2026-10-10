@@ -1,0 +1,123 @@
+@scene l25_casual
+title: 海へ行こう！
+en: Off to the sea! (with a friend)
+th: ไปทะเลกัน! (กับเพื่อน)
+glyph: 海
+level: n4
+place: transport
+lesson: 25
+register: casual
+pair: l25
+about: A day trip to the sea with Lin. Some-/any-/no- words (何か・何でも・だれも), 〜でも, 〜ずつ, 〜こそ, 〜さえ, 〜なんて and 〜じゃないか in friendly talk. | ไปเที่ยวทะเลหนึ่งวันกับหลิน ฝึกคำ 何か・何でも・だれも และ 〜でも 〜ずつ 〜こそ 〜さえ 〜なんて 〜じゃないか แบบที่เพื่อนคุยกัน
+--- 駅で | At the station | ที่สถานี
+リン*: おはよう、タム！…えっ、何、その大きいかばん！ | おはよう、タム！…えっ、なに、そのおおきいかばん！ | อรุณสวัสดิ์ ตัม! …เอ๊ะ อะไรน่ะ กระเป๋าใบเบ้อเริ่มนั่น! | Morning, Tam! ...Huh? What's with that huge bag?
+You: おはよう。いろいろ入れたら、こんなに大きくなっちゃった。 | おはよう。いろいろいれたら、こんなにおおきくなっちゃった。 | หวัดดี ใส่โน่นใส่นี่ไปเรื่อย เลยใหญ่ขนาดนี้เลย | Morning. I packed all sorts of stuff and it ended up this big.
+g: n4.t.teshimau, n4.c.tara
+リン: 日帰りでスーツケースを持ってくるなんて、タムらしいね。 | ひがえりでスーツケースをもってくるなんて、タムらしいね。 | ไปเช้าเย็นกลับแต่ลากกระเป๋าเดินทางมาเนี่ยนะ สมเป็นตัมจริงๆ | Bringing a suitcase on a day trip... that's so you.
+g: n4.e.nante
+note: 〜なんて shows surprise: "bringing a suitcase on a day trip — seriously?!" | 〜なんて ใช้แสดงความแปลกใจ ประมาณว่า "ไปเช้าเย็นกลับแต่ลากกระเป๋าเดินทางมาเนี่ยนะ"
+You: だって、何かあったら困るじゃん。タオルとか、水とか、お菓子とか…。 | だって、なにかあったらこまるじゃん。タオルとか、みずとか、おかしとか…。 | ก็ถ้าเกิดอะไรขึ้นมาก็แย่สิ ผ้าเช็ดตัว น้ำ ขนม… | Well, it'd be bad if something happened. Towels, water, snacks...
+g: n4.e.dareka, n4.c.tara, n5.p.toka
+note: 何か = "something", not the question "what". 何かあったら = "if anything happens". | 何か แปลว่า "อะไรสักอย่าง" ไม่ใช่คำถามว่า "อะไร" 何かあったら = ถ้าเกิดอะไรขึ้น
+リン: 水なんて、どこでも買えるよ。 | みずなんて、どこでもかえるよ。 | แค่น้ำเนี่ย ซื้อที่ไหนก็ได้ | Water? You can buy that anywhere.
+g: n4.e.nante, n4.e.daredemo, n4.v.potential
+note: Here なんて makes something sound small: "something like water — no big deal". どこでも = anywhere. | なんて ตรงนี้ทำให้ฟังดูเป็นเรื่องเล็ก "แค่น้ำเนี่ยนะ" ส่วน どこでも = ที่ไหนก็ได้
+You: でも、海の近くには、何もないかもしれないよ。 | でも、うみのちかくには、なにもないかもしれないよ。 | แต่แถวทะเลอาจจะไม่มีอะไรเลยก็ได้นะ | But there might be nothing at all near the sea.
+g: n4.e.daremo, n4.e.kamoshirenai
+リン*: 大丈夫。お金さえあれば、何でも買えるから。 | だいじょうぶ。おかねさえあれば、なんでもかえるから。 | ไม่เป็นไรหรอก ขอแค่มีเงิน ซื้ออะไรก็ได้ | Relax. As long as you've got money, you can buy anything.
+g: n4.e.sae, n4.e.daredemo, n4.c.ba
+note: Nさえ〜ば = "as long as / if only N". お金さえあれば = "as long as you have money". | Nさえ〜ば = "ขอแค่…ก็…" お金さえあれば คือ "ขอแค่มีเงิน"
+You: そっか…。じゃ、重い物は駅のロッカーに入れておこうかな。 | そっか…。じゃ、おもいものはえきのロッカーにいれておこうかな。 | งั้นเหรอ… งั้นเอาของหนักๆ ไปใส่ล็อกเกอร์ที่สถานีดีกว่า | I see... Then maybe I'll leave the heavy stuff in a station locker.
+g: n4.t.teoku, n4.v.volitional, n4.e.kana
+--- 電車で | On the train | บนรถไฟ
+リン*: わあ、この車両、だれもいないね。 | わあ、このしゃりょう、だれもいないね。 | ว้าว ตู้นี้ไม่มีใครเลย | Wow, there's nobody in this car.
+g: n4.e.daremo
+note: だれも + negative = "nobody". In this meaning だれも always needs a negative after it. | だれも + รูปปฏิเสธ = "ไม่มีใครเลย" ถ้าใช้ในความหมายนี้ หลัง だれも ต้องตามด้วยรูปปฏิเสธเสมอ
+You: ほんとだ。どこでも座れるね。あ、お菓子、たくさんあるよ。一人三つずつね。 | ほんとだ。どこでもすわれるね。あ、おかし、たくさんあるよ。ひとりみっつずつね。 | จริงด้วย นั่งตรงไหนก็ได้เลย อ้อ ขนมมีเยอะเลยนะ คนละสามชิ้น | So true. We can sit anywhere. Oh, I've got loads of snacks. Three each!
+g: n4.e.daredemo, n4.e.zutsu
+note: 〜ずつ = "each / apiece". 一人三つずつ = three for each person. | 〜ずつ = "ละ…" แบ่งเท่าๆ กัน 一人三つずつ คือ คนละสามชิ้น
+alt: お菓子、半分ずつ食べよう。 | おかし、はんぶんずつたべよう。 | ขนม แบ่งกินคนละครึ่งนะ | Let's share the snacks half each.
+リン: ありがとう。あ、そうだ。この前は、お見舞いに来てくれてありがとう。 | ありがとう。あ、そうだ。このまえは、おみまいにきてくれてありがとう。 | ขอบใจ อ้อ จริงสิ ครั้งก่อนขอบใจนะที่มาเยี่ยมที่โรงพยาบาล | Thanks. Oh, right. Thanks for visiting me in hospital the other day.
+g: n4.t.teageru
+You: ううん。リンが元気になって、本当によかった。 | ううん。リンがげんきになって、ほんとうによかった。 | ไม่เป็นไร หลินหายดีแล้ว ดีใจจริงๆ | No problem. I'm really glad you're better.
+リン*: だから、お昼は私が払う。いつもタムが払ってるじゃん。今日こそ私の番！ | だから、おひるはわたしがはらう。いつもタムがはらってるじゃん。きょうこそわたしのばん！ | เพราะงั้นมื้อเที่ยงฉันจ่ายเอง ปกติตัมจ่ายตลอดเลยนี่ วันนี้แหละตาฉันบ้าง! | So I'm paying for lunch. You always pay — today it's definitely my turn!
+g: n4.e.koso, n4.e.dewanaika
+note: こそ stresses "THIS one and no other": 今日こそ = "today, for sure". じゃん is the casual short form of じゃないか: "..., right?" | こそ เน้นว่า "นี่แหละ ไม่ใช่อย่างอื่น" 今日こそ = วันนี้แหละ (ต้องเป็นวันนี้) ส่วน じゃん คือรูปย่อภาษาพูดของ じゃないか แปลประมาณ "ก็…นี่นา"
+You: じゃ、今日はごちそうになるね。 | じゃ、きょうはごちそうになるね。 | งั้นวันนี้ให้เลี้ยงนะ | OK, lunch is on you today, then.
+--- 海で | At the beach | ที่ทะเล
+You: あれ？なんだ、海の目の前にコンビニがあるじゃないか！ | あれ？なんだ、うみのめのまえにコンビニがあるじゃないか！ | อ้าว อะไรกันเนี่ย หน้าทะเลมีร้านสะดวกซื้อนี่หว่า! | Huh? Come on — there's a konbini right in front of the beach!
+g: n4.e.dewanaika
+note: 〜じゃないか is for something you've just noticed, often not what you expected. It sounds a little masculine; many friends just say じゃん. | 〜じゃないか ใช้ตอนเพิ่งสังเกตเห็นอะไร มักเป็นสิ่งที่ไม่คาดไว้ ฟังออกแนวผู้ชายนิดๆ เพื่อนกันส่วนใหญ่ก็พูดแค่ じゃん
+リン: だから言ったじゃん。何か飲む？ | だからいったじゃん。なにかのむ？ | ก็บอกแล้วไง ดื่มอะไรไหม | Told you. Want something to drink?
+g: n4.e.dareka
+You: うん。冷たい物なら、何でもいい。 | うん。つめたいものなら、なんでもいい。 | เอา ถ้าเป็นของเย็นๆ อะไรก็ได้ | Yeah. Anything cold is fine.
+g: n4.e.daredemo, n4.c.nara
+alt: じゃ、お茶でも買おうか。 | じゃ、おちゃでもかおうか。 | งั้นซื้อชาหรืออะไรสักอย่างไหม | Then shall we get some tea or something?
+リン*: ねえ、海、入ってみない？ | ねえ、うみ、はいってみない？ | นี่ ลองลงทะเลกันไหม | Hey, want to go in the sea?
+g: n4.t.temiru
+You: 水がまだ冷たそうだから、足だけでも入ろうかな。 | みずがまだつめたそうだから、あしだけでもはいろうかな。 | น้ำดูยังเย็นอยู่ ลงแค่เท้าก็ยังดีมั้ง | The water still looks cold... maybe I'll at least put my feet in.
+g: n4.e.demo, n4.e.souda1, n4.v.volitional
+note: 〜でも = "at least / even just". 足だけでも = "even if it's only my feet". | 〜でも ตรงนี้ = "อย่างน้อย…ก็ยังดี" 足だけでも คือ แค่เท้าก็ยังดี
+リン: えー、足だけ？子供でも泳いでるよ。ほら！ | えー、あしだけ？こどもでもおよいでるよ。ほら！ | เอ๊ แค่เท้าเหรอ ขนาดเด็กยังว่ายน้ำเลย ดูสิ! | Aw, just your feet? Even the kids are swimming. Look!
+g: n4.e.demo
+note: 子供でも = "even children". Here でも means "even". | 子供でも = "แม้แต่เด็ก" でも ตรงนี้แปลว่า "แม้แต่"
+You: わかった、わかった。…ねえ、いつかまた一緒に来ようね。 | わかった、わかった。…ねえ、いつかまたいっしょにこようね。 | โอเคๆ …นี่ ไว้วันหลังมาด้วยกันอีกนะ | OK, OK. ...Hey, let's come here together again someday.
+g: n4.e.dareka, n4.v.volitional
+note: いつか = "someday" (question word + か). いつでも = "any time", いつも = "always" — careful, いつも is NOT "never". | いつか = "สักวัน" (คำถาม + か) ส่วน いつでも = "เมื่อไหร่ก็ได้" และ いつも = "เสมอ" ระวังนะ いつも ไม่ได้แปลว่า "ไม่เคย"
+
+@scene l25_polite
+title: クラスで海へ
+en: A class trip to the sea (polite)
+th: ไปทะเลกับชั้นเรียน (สุภาพ)
+glyph: 海
+level: n4
+place: transport
+lesson: 25
+register: polite
+pair: l25
+about: The same day trip, this time with Ms Yamada and the class. 何か・何でも・だれも, 〜でも, 〜ずつ, 〜さえ, 〜なんて, こちらこそ and 〜じゃないですか in です・ます speech. | ทริปทะเลแบบเดียวกัน แต่ไปกับครูยามาดะและเพื่อนร่วมชั้น ฝึก 何か・何でも・だれも 〜でも 〜ずつ 〜さえ 〜なんて こちらこそ และ 〜じゃないですか แบบสุภาพ
+--- 駅で | At the station | ที่สถานี
+山田先生*: おはようございます、タムさん。あら、そのかばん、どうしたんですか。 | おはようございます、タムさん。あら、そのかばん、どうしたんですか。 | อรุณสวัสดิ์ค่ะ คุณตัม อุ๊ย กระเป๋าใบนั้นเป็นอะไรคะ | Good morning, Tam. Oh my, what's with that bag?
+g: n4.e.ndesu
+You: おはようございます。いろいろ入れたら、こんなに大きくなってしまいました。 | おはようございます。いろいろいれたら、こんなにおおきくなってしまいました。 | อรุณสวัสดิ์ครับ ใส่ของไปหลายอย่าง เลยใหญ่ขนาดนี้เลยครับ | Good morning. I packed all sorts of things and it ended up this big.
+g: n4.t.teshimau, n4.c.tara
+note: With the teacher, なっちゃった becomes なってしまいました. | พูดกับครู なっちゃった ต้องเปลี่ยนเป็น なってしまいました
+山田先生: 日帰りの旅行にスーツケースなんて、びっくりしました。 | ひがえりのりょこうにスーツケースなんて、びっくりしました。 | ไปเช้าเย็นกลับแต่เอากระเป๋าเดินทางมาเนี่ย ครูตกใจเลยค่ะ | A suitcase for a day trip — what a surprise!
+g: n4.e.nante
+You: すみません。何かあったら困ると思って…。 | すみません。なにかあったらこまるとおもって…。 | ขอโทษครับ คิดว่าถ้าเกิดอะไรขึ้นจะแย่น่ะครับ… | Sorry. I thought it would be bad if something happened...
+g: n4.e.dareka, n5.e.toomou
+山田先生*: 心配しなくても大丈夫ですよ。お金さえあれば、何でも買えますから。 | しんぱいしなくてもだいじょうぶですよ。おかねさえあれば、なんでもかえますから。 | ไม่ต้องห่วงหรอกค่ะ ขอแค่มีเงิน ก็ซื้ออะไรก็ได้ | No need to worry. As long as you have money, you can buy anything.
+g: n4.e.sae, n4.e.daredemo, n4.c.ba
+note: The same さえ〜ば and 何でも as with a friend — only the ending changes to ます. | ใช้ さえ〜ば กับ 何でも เหมือนตอนคุยกับเพื่อน แค่เปลี่ยนท้ายประโยคเป็น ます
+You: そうですね。じゃあ、重い物は駅のロッカーに預けておきます。 | そうですね。じゃあ、おもいものはえきのロッカーにあずけておきます。 | จริงด้วยครับ งั้นผมจะฝากของหนักไว้ที่ล็อกเกอร์ของสถานีครับ | You're right. Then I'll leave the heavy things in a station locker.
+g: n4.t.teoku
+--- 電車で | On the train | บนรถไฟ
+You: 先生、この車両、まだだれも乗っていませんね。 | せんせい、このしゃりょう、まだだれものっていませんね。 | ครูครับ ตู้นี้ยังไม่มีใครขึ้นเลยนะครับ | Ms Yamada, nobody's in this car yet.
+g: n4.e.daremo
+山田先生*: 朝早いですからね。皆さん、どこでも好きな席に座っていいですよ。 | あさはやいですからね。みなさん、どこでもすきなせきにすわっていいですよ。 | ยังเช้าอยู่นี่คะ ทุกคน อยากนั่งตรงไหนก็นั่งได้เลยนะคะ | It's early, after all. Everyone, sit anywhere you like.
+g: n4.e.daredemo, n5.t.temoii
+You: お菓子をたくさん持ってきました。皆さん、二つずつどうぞ。 | おかしをたくさんもってきました。みなさん、ふたつずつどうぞ。 | ผมเอาขนมมาเยอะเลยครับ เชิญทุกคนคนละสองชิ้นครับ | I brought lots of snacks. Two each, everyone, please.
+g: n4.e.zutsu
+note: 〜ずつ works the same in polite speech. 二つずつどうぞ = "please take two each". | 〜ずつ ใช้แบบเดียวกันในภาษาสุภาพ 二つずつどうぞ = "เชิญคนละสองชิ้น"
+山田先生: ありがとうございます。そのかばん、役に立ちましたね。 | ありがとうございます。そのかばん、やくにたちましたね。 | ขอบคุณค่ะ กระเป๋าใบนั้นมีประโยชน์แล้วนะคะ | Thank you. That bag came in handy after all.
+You: 先生、今日は旅行の計画を立ててくださって、ありがとうございます。 | せんせい、きょうはりょこうのけいかくをたててくださって、ありがとうございます。 | ครูครับ ขอบคุณที่วางแผนทริปวันนี้ให้นะครับ | Ms Yamada, thank you for planning today's trip.
+g: n4.t.teageru
+山田先生*: いいえ、こちらこそ。準備を手伝ってくれて、助かりました。 | いいえ、こちらこそ。じゅんびをてつだってくれて、たすかりました。 | ไม่หรอกค่ะ ครูต่างหากที่ต้องขอบคุณ ที่ช่วยเตรียมงาน ช่วยได้มากเลยค่ะ | Not at all — thank YOU. Your help with the preparations made it easy.
+g: n4.e.koso, n4.t.teageru
+note: こちらこそ = "No, it's me who should thank you". こそ points at "this side" with emphasis. Use it whenever someone thanks you or says よろしく. | こちらこそ = "ฉันต่างหากที่ต้องขอบคุณ" こそ เน้นว่า "ฝั่งนี้แหละ" ใช้ตอบได้ทุกครั้งที่อีกฝ่ายขอบคุณหรือพูด よろしく
+--- 海で | At the beach | ที่ทะเล
+You: あれ？海のすぐ前に、コンビニがあるじゃないですか。 | あれ？うみのすぐまえに、コンビニがあるじゃないですか。 | อ้าว หน้าทะเลมีร้านสะดวกซื้ออยู่นี่ครับ | Huh? There's a konbini right in front of the beach!
+g: n4.e.dewanaika
+note: The polite form is 〜じゃないですか: "there's a ..., isn't there!" Use it for something you've just noticed. Avoid the plain じゃないか with a teacher. | รูปสุภาพคือ 〜じゃないですか "ก็มี…อยู่นี่นา" ใช้ตอนเพิ่งสังเกตเห็น กับครูอย่าใช้ じゃないか แบบธรรมดา
+山田先生: ふふ、だから大丈夫だと言ったじゃないですか。 | ふふ、だからだいじょうぶだといったじゃないですか。 | หึหึ ก็ครูบอกแล้วไงคะว่าไม่เป็นไร | Heh — I told you it would be fine, didn't I?
+g: n4.e.dewanaika
+You: そうですね。じゃあ、何か冷たい物でも買ってきます。先生は何がいいですか。 | そうですね。じゃあ、なにかつめたいものでもかってきます。せんせいはなにがいいですか。 | จริงด้วยครับ งั้นผมไปซื้อของเย็นๆ อะไรสักอย่างมานะครับ ครูเอาอะไรดีครับ | You did. Then I'll go buy something cold. What would you like?
+g: n4.e.dareka, n4.e.demo
+note: 〜でも here softens a suggestion: "something cold or the like". | 〜でも ตรงนี้ทำให้ข้อเสนอฟังนุ่มลง "ของเย็นๆ หรืออะไรทำนองนั้น"
+山田先生*: ありがとう。お茶なら何でもいいですよ。 | ありがとう。おちゃならなんでもいいですよ。 | ขอบใจนะคะ ถ้าเป็นชา อะไรก็ได้ค่ะ | Thanks. Any kind of tea is fine.
+g: n4.e.daredemo, n4.c.nara
+You: 水はまだ冷たそうですが、足だけでも入ってみます。 | みずはまだつめたそうですが、あしだけでもはいってみます。 | น้ำยังดูเย็นอยู่ แต่จะลองลงแค่เท้าก็ยังดีครับ | The water still looks cold, but I'll try putting at least my feet in.
+g: n4.e.demo, n4.t.temiru, n4.e.souda1
+山田先生: いいですね。私も入りましょう。 | いいですね。わたしもはいりましょう。 | ดีค่ะ ครูก็จะลงด้วย | Good idea. I'll go in too.
+You: 先生、いつかまた、クラスで来たいですね。 | せんせい、いつかまた、クラスできたいですね。 | ครูครับ สักวันมากันทั้งห้องอีกนะครับ | Ms Yamada, I'd love to come again with the class someday.
+g: n4.e.dareka, n5.e.tai

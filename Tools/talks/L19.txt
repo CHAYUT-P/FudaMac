@@ -1,0 +1,95 @@
+@scene l19_casual
+title: 終電、行っちゃった！
+en: We missed the last train! (with a friend)
+th: รถไฟเที่ยวสุดท้ายไปแล้ว! (กับเพื่อน)
+glyph: 走
+level: n4
+place: transport
+lesson: 19
+register: casual
+pair: l19
+about: Tam and John at a football match. John shouts commands at the players, they forget the time and miss the last train. Imperative (行け！), don't (〜な), gotta (〜ないと／〜なくちゃ), without (〜ないで／〜ずに), 〜なさい, and no choice but (〜しかない). | ตัมกับจอห์นไปดูฟุตบอล จอห์นตะโกนเชียร์จนลืมดูเวลา เลยตกรถไฟเที่ยวสุดท้าย ฝึกรูปสั่ง (行け！) รูปห้าม (〜な) ต้องรีบ (〜ないと／〜なくちゃ) โดยไม่… (〜ないで／〜ずに) 〜なさい และไม่มีทางเลือกนอกจาก… (〜しかない)
+--- スタジアム | At the stadium | ที่สนาม
+ジョン*: 行け！走れ！そこだ、シュートしろ！ | いけ！はしれ！そこだ、シュートしろ！ | ไปเลย! วิ่ง! ตรงนั้นแหละ ยิงเลย! | Go! Run! There, shoot!
+g: n4.v.imperative
+note: The imperative form (行け、走れ、しろ) is very strong. You'll hear it in sports, games and emergencies, but don't use it to people in normal conversation. | รูปคำสั่ง (行け 走れ しろ) แรงมาก จะได้ยินตอนเชียร์กีฬา เล่นเกม หรือเหตุฉุกเฉิน แต่อย่าใช้สั่งคนในบทสนทนาปกติ
+You: ジョン、声大きいって。周りの人、見てるよ。 | ジョン、こえおおきいって。まわりのひと、みてるよ。 | จอห์น เสียงดังไปแล้ว คนรอบๆ มองอยู่นะ | John, you're so loud. People are looking.
+ジョン: 応援だからいいんだよ！頑張れー！負けるなー！ | おうえんだからいいんだよ！がんばれー！まけるなー！ | ก็เชียร์อยู่นี่ ไม่เป็นไรหรอก! สู้ๆ! อย่าแพ้นะ! | It's cheering, so it's fine! Come on! Don't lose!
+g: n4.v.imperative, n4.v.prohibitive
+note: V dictionary form + な = "Don't…!". 負けるな = "Don't lose!". Like the imperative, it's for cheering, signs and emergencies. | Vรูปพจนานุกรม + な = "ห้าม…! / อย่า…!" 負けるな = "อย่าแพ้!" ใช้แบบเดียวกับรูปสั่ง คือตอนเชียร์ ป้าย หรือเหตุฉุกเฉิน
+You: あっ、入った！すごい！ | あっ、はいった！すごい！ | อ๊ะ เข้าแล้ว! สุดยอด! | Oh, it's in! Amazing!
+ジョン: よっしゃー！ | よっしゃー！ | เย้! | Yesss!
+--- 試合のあと | After the match | หลังจบเกม
+You: え、もう十一時半？やばい、急がないと！ | え、もうじゅういちじはん？やばい、いそがないと！ | เอ๊ะ ห้าทุ่มครึ่งแล้วเหรอ แย่แล้ว ต้องรีบแล้ว! | What, it's 11:30 already? Oh no, we've got to hurry!
+g: n4.t.naito
+note: 〜ないと = "I've got to…". It's 〜ないといけない with the end dropped. Very common with friends. | 〜ないと = "ต้อง…แล้ว" คือ 〜ないといけない ที่ตัดท้ายออก ใช้บ่อยมากกับเพื่อน
+ジョン: マジで？終電、何時？ | マジで？しゅうでん、なんじ？ | จริงดิ? รถไฟเที่ยวสุดท้ายกี่โมง | Seriously? What time's the last train?
+You: 十一時四十分！走らなくちゃ！ | じゅういちじよんじゅっぷん！はしらなくちゃ！ | ห้าทุ่มสี่สิบ! ต้องวิ่งแล้ว! | 11:40! We have to run!
+g: n4.t.naito
+note: 〜なくちゃ = 〜なくては (いけない). Same meaning as 〜ないと; both are casual. | 〜なくちゃ = 〜なくては (いけない) ความหมายเหมือน 〜ないと ทั้งสองแบบเป็นภาษากันเอง
+ジョン*: よし、走れ！でも、転ぶなよ！ | よし、はしれ！でも、ころぶなよ！ | โอเค วิ่ง! แต่อย่าล้มล่ะ! | OK, run! But don't fall over!
+g: n4.v.imperative, n4.v.prohibitive
+--- 駅で | At the station | ที่สถานี
+You: はあ、はあ…。ああ、行っちゃった…。 | はあ、はあ…。ああ、いっちゃった…。 | แฮ่กๆ… อ้า ไปแล้ว… | Huff, huff… Oh no, it's gone…
+ジョン*: ごめん。おれが時計を見ないで応援してたから…。 | ごめん。おれがとけいをみないでおうえんしてたから…。 | ขอโทษ เพราะเราเอาแต่เชียร์ไม่ดูนาฬิกาเลย… | Sorry. It's because I was cheering without looking at the time…
+g: n4.t.naide
+note: Vない + で = "without doing…". 時計を見ないで = without looking at the clock. | Vない + で = "โดยไม่…" 時計を見ないで = โดยไม่ดูนาฬิกา
+You: まあね。ジョン、九十分、一回も座らずに応援してたもんね。 | まあね。ジョン、きゅうじゅっぷん、いっかいもすわらずにおうえんしてたもんね。 | ก็นะ จอห์นเชียร์ตั้งเก้าสิบนาทีโดยไม่นั่งเลยสักครั้ง | Well, you cheered for ninety minutes without sitting down once.
+g: n4.t.zuni
+note: 〜ずに means the same as 〜ないで but sounds more formal or written. する becomes せずに. | 〜ずに ความหมายเหมือน 〜ないで แต่ฟังเป็นทางการหรือภาษาเขียนกว่า ถ้าเป็น する จะกลายเป็น せずに
+ジョン*: うわ、ホストファミリーのお母さんからLINEだ。「何時だと思ってるの？早く帰ってきなさい」だって。 | うわ、ホストファミリーのおかあさんからラインだ。「なんじだとおもってるの？はやくかえってきなさい」だって。 | อุ๊ย คุณแม่โฮสต์แฟมิลี่ส่งไลน์มา บอกว่า "รู้ไหมว่ากี่โมงแล้ว รีบกลับบ้านได้แล้ว" | Uh-oh, a LINE from my host mum: "Do you know what time it is? Come home right now."
+g: n4.t.nasai
+note: Vます stem + なさい is how parents and teachers give orders to children. Firm, but not rude like 帰れ. | Vตัดます + なさい เป็นวิธีที่พ่อแม่หรือครูสั่งเด็ก ฟังหนักแน่นแต่ไม่หยาบเหมือน 帰れ
+You: 怒ってるね…。もう、タクシーで帰るしかないよ。 | おこってるね…。もう、タクシーでかえるしかないよ。 | โกรธแล้วล่ะ… คงต้องนั่งแท็กซี่กลับอย่างเดียวแล้ว | She's angry… We've got no choice but to take a taxi.
+g: n4.e.shikanai
+note: V dictionary form + しかない = "there's nothing to do but…". | Vรูปพจนานุกรม + しかない = "ไม่มีทางเลือกอื่นนอกจาก…"
+ジョン: しかたない。半分ずつ払おう。 | しかたない。はんぶんずつはらおう。 | ช่วยไม่ได้ จ่ายกันคนละครึ่งนะ | Can't be helped. Let's split it.
+You: うん。でも次は、時計見ながら応援してね。 | うん。でもつぎは、とけいみながらおうえんしてね。 | อืม แต่คราวหน้าเชียร์ไปดูนาฬิกาไปด้วยนะ | OK. But next time, check the clock while you cheer.
+ジョン: はーい、気をつけまーす。 | はーい、きをつけまーす。 | คร้าบ จะระวังคร้าบ | Yes, yes, I'll be careful.
+
+@scene l19_polite
+title: 家まで送るよ
+en: I'll drive you home (with your boss)
+th: เดี๋ยวไปส่งถึงบ้าน (กับหัวหน้า)
+glyph: 走
+level: n4
+place: transport
+lesson: 19
+register: polite
+pair: l19
+role: けんた | Kenta (Mr Suzuki's son) | เคนตะ (ลูกชายคุณซูซูกิ)
+about: Tam goes to a football match with his boss Mr Suzuki and his son Kenta, and it gets too late for the train. Hearing 〜なさい, 行け！ and 〜な from a parent, and speaking politely yourself: 〜ないと, 〜しかないです, 〜ずに, and 心配しないで from the boss. | ตัมไปดูฟุตบอลกับคุณซูซูกิ (หัวหน้า) และเคนตะลูกชาย จนดึกเกินจะกลับรถไฟ ฟังคุณพ่อใช้ 〜なさい 行け！ และ 〜な ส่วนตัวเองพูดสุภาพด้วย 〜ないと 〜しかないです 〜ずに และหัวหน้าบอกว่า 心配しないで
+--- スタジアム | At the stadium | ที่สนาม
+鈴木さん: タムくん、こっちの席だよ。けんた、ちゃんと座りなさい。 | タムくん、こっちのせきだよ。けんた、ちゃんとすわりなさい。 | ตัม ที่นั่งอยู่ทางนี้ เคนตะ นั่งดีๆ สิลูก | Tam, our seats are here. Kenta, sit down properly.
+g: n4.t.nasai
+note: Parents use 〜なさい with their children. Mr Suzuki talks casually to Tam because he's the boss; Tam stays polite. | พ่อแม่ใช้ 〜なさい กับลูก คุณซูซูกิพูดกับตัมแบบกันเองเพราะเป็นหัวหน้า แต่ตัมยังพูดสุภาพ
+けんた: はーい。お父さん、あの選手、すごい！ | はーい。おとうさん、あのせんしゅ、すごい！ | ครับ พ่อ นักเตะคนนั้นเก่งมาก! | OK. Dad, that player is amazing!
+You: 鈴木さん、今日は誘っていただいて、ありがとうございます。 | すずきさん、きょうはさそっていただいて、ありがとうございます。 | คุณซูซูกิ ขอบคุณที่ชวนผมมาวันนี้นะครับ | Mr Suzuki, thank you for inviting me today.
+g: n4.t.teageru
+鈴木さん*: いやいや。…おっ、行け！そこだ、シュートしろ！ | いやいや。…おっ、いけ！そこだ、シュートしろ！ | ไม่เป็นไรๆ… โอ้ ไปเลย! ตรงนั้นแหละ ยิงเลย! | Not at all. …Oh, go! There, shoot!
+g: n4.v.imperative
+note: At a stadium even a polite adult shouts the imperative. It's aimed at the players, not at a person beside you. | ในสนามกีฬา แม้แต่ผู้ใหญ่ที่สุภาพก็ตะโกนรูปคำสั่ง แต่เป็นการตะโกนถึงนักกีฬา ไม่ใช่สั่งคนข้างๆ
+You: 入りました！すごいですね！ | はいりました！すごいですね！ | เข้าแล้วครับ! สุดยอดเลยครับ! | It went in! Amazing!
+鈴木さん*: こら、けんた、階段で走るな！危ないぞ。 | こら、けんた、かいだんではしるな！あぶないぞ。 | นี่ เคนตะ อย่าวิ่งบนบันได! อันตรายนะ | Hey, Kenta, don't run on the stairs! It's dangerous.
+g: n4.v.prohibitive
+note: 走るな = "Don't run!", a strong warning, like you'd hear in an emergency or to a child about danger. | 走るな = "อย่าวิ่ง!" เป็นคำเตือนแรงๆ ใช้ตอนอันตรายหรือเตือนเด็ก
+--- 試合のあと | After the match | หลังจบเกม
+You: あ、もう十一時半…。すみません、そろそろ帰らないと。 | あ、もうじゅういちじはん…。すみません、そろそろかえらないと。 | อ้า ห้าทุ่มครึ่งแล้ว… ขอโทษครับ ผมต้องกลับแล้วครับ | Oh, it's already 11:30… I'm sorry, I'd better be going.
+g: n4.t.naito
+note: すみません、〜ないと… is fine with a boss when leaving; the polite full form is 帰らないといけません. | ใช้ すみません、〜ないと… กับหัวหน้าตอนขอตัวกลับได้ ถ้าจะพูดเต็มแบบสุภาพคือ 帰らないといけません
+鈴木さん: え、もうそんな時間？電車、大丈夫？ | え、もうそんなじかん？でんしゃ、だいじょうぶ？ | เอ๊ะ ดึกขนาดนั้นแล้วเหรอ รถไฟทันไหม | What, is it that late? Will you make your train?
+You: 終電が十一時四十分なんですが…もう間に合いませんね。タクシーで帰るしかないです。 | しゅうでんがじゅういちじよんじゅっぷんなんですが…もうまにあいませんね。タクシーでかえるしかないです。 | รถไฟเที่ยวสุดท้ายห้าทุ่มสี่สิบครับ… คงไม่ทันแล้ว ต้องนั่งแท็กซี่กลับอย่างเดียวครับ | The last train is at 11:40… I won't make it. I'll just have to take a taxi.
+g: n4.e.shikanai
+alt: タクシーで帰るほかないですね。 | タクシーでかえるほかないですね。 | คงต้องกลับแท็กซี่แล้วล่ะครับ | I'll have no choice but to take a taxi.
+鈴木さん*: タクシーは高いよ。心配しないで。車で来たから、家まで送るよ。 | タクシーはたかいよ。しんぱいしないで。くるまできたから、いえまでおくるよ。 | แท็กซี่แพงนะ ไม่ต้องห่วง ผมขับรถมา เดี๋ยวไปส่งถึงบ้าน | Taxis are expensive. Don't worry. I came by car, so I'll drive you home.
+note: This is a different 〜ないで: at the end of a sentence it means "don't…" (〜ないでください with ください dropped). 心配しないで = "don't worry". | 〜ないで ตรงนี้คนละแบบกับ "โดยไม่…" ถ้าอยู่ท้ายประโยคจะแปลว่า "อย่า…" (คือ 〜ないでください ที่ตัด ください ออก) 心配しないで = "ไม่ต้องห่วง"
+You: えっ、いいんですか。すみません、じゃあ、お願いします。 | えっ、いいんですか。すみません、じゃあ、おねがいします。 | เอ๊ะ ได้เหรอครับ ขอโทษนะครับ งั้นรบกวนด้วยครับ | Oh, are you sure? Sorry, then yes, please.
+--- 駐車場で | In the car park | ที่ลานจอดรถ
+鈴木さん: あれ、けんた、もう寝ちゃった。 | あれ、けんた、もうねちゃった。 | อ้าว เคนตะหลับไปแล้ว | Oh, Kenta's already asleep.
+You: 一度も座らずに応援していましたからね。 | いちどもすわらずにおうえんしていましたからね。 | ก็เชียร์โดยไม่นั่งเลยสักครั้งนี่ครับ | He cheered without sitting down once, after all.
+g: n4.t.zuni
+note: 〜ずに fits polite speech well because it sounds a little formal. | 〜ずに เข้ากับการพูดสุภาพได้ดี เพราะฟังเป็นทางการขึ้นนิดหน่อย
+鈴木さん: はは、そうだね。じゃ、起こさないで、このまま行こうか。 | はは、そうだね。じゃ、おこさないで、このままいこうか。 | ฮ่าๆ นั่นสินะ งั้นไม่ต้องปลุก ออกรถไปแบบนี้เลยแล้วกัน | Haha, true. Let's just go without waking him.
+g: n4.t.naide
+note: 起こさないで = "without waking him": the 〜ないで that means "without doing". 〜ずに would be a little more formal. | 起こさないで = "โดยไม่ปลุก" เป็น 〜ないで ที่แปลว่า "โดยไม่…" ถ้าใช้ 〜ずに จะฟังเป็นทางการขึ้นนิดหน่อย
+You: はい。今日は本当にありがとうございました。 | はい。きょうはほんとうにありがとうございました。 | ครับ วันนี้ขอบคุณมากจริงๆ ครับ | OK. Thank you so much for today.

@@ -1,0 +1,115 @@
+@scene l32_casual
+title: 合格と敬語の話
+en: Celebrating and talking keigo (with a friend)
+th: ฉลองสอบผ่านและคุยเรื่องเคโกะ (กับเพื่อน)
+glyph: 敬
+level: n4
+place: people
+lesson: 32
+register: casual
+pair: l32
+about: Tam passed his exam. That night Yuki throws him a little party, and he tells her about the special customer at work: her own father. Quoting the keigo he used shows the full ladder: plain with friends, です/ます with the manager, 尊敬語 and 謙譲語 with customers. | ตัมสอบผ่าน คืนนั้นยูกิจัดปาร์ตี้เล็กๆ ให้ ตัมเล่าถึงลูกค้าพิเศษที่ร้าน ซึ่งก็คือพ่อของยูกิเอง การยกคำพูดเคโกะที่ตัวเองใช้มาเล่า ทำให้เห็นบันไดภาษาครบทุกขั้น พูดธรรมดากับเพื่อน พูด です/ます กับผู้จัดการ และใช้ 尊敬語 กับ 謙譲語 กับลูกค้า
+--- お祝い | The party | ฉลอง
+ゆき: タム、合格おめでとう！乾杯！ | タム、ごうかくおめでとう！かんぱい！ | ตัม ยินดีด้วยที่สอบผ่าน! ชนแก้ว! | Tam, congrats on passing! Cheers!
+You: ありがとう！ねえ、聞いて。今日、お店にゆきのお父さんが来たんだよ！ | ありがとう！ねえ、きいて。きょう、おみせにゆきのおとうさんがきたんだよ！ | ขอบใจ! นี่ ฟังนะ วันนี้พ่อยูกิมาที่ร้านด้วยแหละ! | Thanks! Hey, listen. Your dad came to the restaurant today!
+g: n4.e.ndesu
+note: Among friends, お父さん with no keigo verb: 来た, not いらっしゃった. Talking to Yuki about her own dad, plain is fine. | ระหว่างเพื่อนพูดว่า お父さん แล้วใช้กริยาธรรมดา 来た ไม่ต้องใช้ いらっしゃった เวลาคุยกับยูกิเรื่องพ่อของเธอเอง พูดแบบธรรมดาได้
+ゆき*: 知ってる！さっき電話で、「タム君の敬語、すごかった」って言ってたよ。 | しってる！さっきでんわで、「タムくんのけいご、すごかった」っていってたよ。 | รู้แล้ว! เมื่อกี้พ่อโทรมาบอกว่า "เคโกะของตัมสุดยอดเลย" | I know! He said on the phone just now, "Tam's keigo was amazing."
+g: n4.e.tte, n4.h.keigo
+You: ほんと？めっちゃ緊張したよ。最初に「ご予約のお客様でいらっしゃいますか」って聞いて…。 | ほんと？めっちゃきんちょうしたよ。さいしょに「ごよやくのおきゃくさまでいらっしゃいますか」ってきいて…。 | จริงเหรอ ตื่นเต้นสุดๆ เลย ตอนแรกถามว่า "ท่านเป็นลูกค้าที่จองไว้ใช่ไหมครับ"… | Really? I was super nervous. First I asked, "Are you the guest with a reservation?"...
+g: n4.h.sonkei, n4.e.tte
+note: Quoting keigo inside casual talk is normal: the quote keeps its keigo, the rest of your sentence stays casual. | การยกคำพูดเคโกะมาเล่าในบทสนทนาแบบกันเองเป็นเรื่องปกติ ส่วนที่ยกมายังคงเป็นเคโกะ แต่ส่วนที่เหลือของประโยคยังพูดแบบกันเอง
+ゆき: お父さんに「いらっしゃいますか」？なんか変な感じ。 | おとうさんに「いらっしゃいますか」？なんかへんなかんじ。 | พูด "いらっしゃいますか" กับพ่อเรา? รู้สึกแปลกๆ แฮะ | "いらっしゃいますか" to my dad? That feels weird.
+You: だって、お店ではお客様だもん。ゆきのお父さんでも、敬語だよ。 | だって、おみせではおきゃくさまだもん。ゆきのおとうさんでも、けいごだよ。 | ก็ที่ร้าน พ่อเธอคือลูกค้านี่ ต่อให้เป็นพ่อยูกิก็ต้องใช้เคโกะ | Well, at the restaurant he's a customer. Even if he's your dad, it's keigo.
+g: n4.c.temo, n4.h.keigo
+note: Register follows the role, not just the person. At work, a friend's father is a customer, so he gets full keigo. | ระดับภาษาขึ้นอยู่กับบทบาท ไม่ใช่แค่ตัวบุคคล ในที่ทำงาน พ่อของเพื่อนคือลูกค้า จึงต้องใช้เคโกะเต็มรูปแบบ
+ゆき: そっか。で、ほかに何て言ったの？ | そっか。で、ほかになんていったの？ | งั้นเหรอ แล้วพูดอะไรอีก | I see. So what else did you say?
+You: 「タムと申します」とか、「店長の鈴木がお作りいたします」とか。 | 「タムともうします」とか、「てんちょうのすずきがおつくりいたします」とか。 | ก็ "ผมชื่อตัมครับ" กับ "ผู้จัดการซูซูกิจะทำให้ครับ" อะไรแบบนี้ | Things like "My name is Tam" and "Our manager, Suzuki, will prepare it."
+g: n4.h.kenjou, n5.p.toka
+ゆき*: えっ、店長に「さん」つけなかったの？ | えっ、てんちょうに「さん」つけなかったの？ | ห๊ะ ไม่ได้เติม "ซัง" ให้ผู้จัดการเหรอ | What, you didn't put さん on your manager?
+You: うん。お客様の前では、自分の店の人に「さん」はつけないんだって。謙譲語を使うんだよ。 | うん。おきゃくさまのまえでは、じぶんのみせのひとに「さん」はつけないんだって。けんじょうごをつかうんだよ。 | อืม ต่อหน้าลูกค้าจะไม่เติม "ซัง" ให้คนในร้านตัวเอง ต้องใช้คำถ่อมตัวแทน | Yeah. In front of customers you don't add さん to people from your own shop. You use humble keigo.
+g: n4.h.kenjou, n4.e.tte, n4.e.ndesu
+note: Inside vs outside (うち・そと): to an outsider, your own boss counts as "us", so you drop さん and use 謙譲語 for him, just like for yourself. | ใน-นอก (うち・そと) เวลาพูดกับคนนอก หัวหน้าของเราถือเป็น "พวกเรา" จึงไม่เติม さん และใช้คำถ่อมตัว (謙譲語) กับเขาเหมือนกับตัวเราเอง
+--- 店長には？ | And with the manager? | แล้วกับผู้จัดการล่ะ
+ゆき: じゃあ、店長と話すときも、ずっと敬語？ | じゃあ、てんちょうとはなすときも、ずっとけいご？ | งั้นเวลาคุยกับผู้จัดการก็ต้องใช้เคโกะตลอดเลยเหรอ | So do you use keigo the whole time with your manager too?
+g: n5.e.toki, n4.h.keigo
+You: 店長には「です・ます」が基本かな。今日も「九時で上がらせていただけないでしょうか」ってお願いした。 | てんちょうには「です・ます」がきほんかな。きょうも「くじであがらせていただけないでしょうか」っておねがいした。 | กับผู้จัดการ หลักๆ ก็ "です・ます" มั้ง วันนี้ก็ขอว่า "ขออนุญาตเลิกงานตอนสามทุ่มได้ไหมครับ" | With him it's basically です/ます. Today I asked, "Might I be allowed to finish at nine?"
+g: n4.h.request, n4.v.causative, n4.e.kana
+ゆき*: 私だったら、「早く帰らせて！」で終わりだけどね。 | わたしだったら、「はやくかえらせて！」でおわりだけどね。 | ถ้าเป็นเรา ก็แค่ "ขอกลับก่อนนะ!" จบ | If it were me, it'd just be "Let me go home early!"
+g: n4.v.causative, n4.c.tara
+note: The ladder for one request. Friend: 帰らせて！ Teacher: 帰らせてもらえませんか。 Manager: 上がらせていただけないでしょうか。 Each step adds distance and respect. | บันไดภาษาของคำขอเดียวกัน กับเพื่อน: 帰らせて！ กับครู: 帰らせてもらえませんか กับผู้จัดการ: 上がらせていただけないでしょうか ยิ่งสูงขึ้นยิ่งห่างและให้เกียรติมากขึ้น
+You: それは友達に言うときでしょ。店長にそれ言ったら、怒られるよ。 | それはともだちにいうときでしょ。てんちょうにそれいったら、おこられるよ。 | นั่นมันตอนพูดกับเพื่อนไหม ถ้าพูดแบบนั้นกับผู้จัดการโดนดุแน่ | That's how you talk to friends. Say that to the manager and you'll get told off.
+g: n5.e.deshou, n4.c.tara, n4.v.passive
+--- 三つの言い方 | Three ways to say it | สามระดับ
+ゆき: じゃあ、テスト。「食べる」は、お客様には何て言う？ | じゃあ、テスト。「たべる」は、おきゃくさまにはなんていう？ | งั้นทดสอบ "食べる" ถ้าพูดกับลูกค้าจะพูดว่าอะไร | OK, quiz time. How do you say 食べる to a customer?
+You: 「召し上がる」。自分が食べるときは「いただく」。 | 「めしあがる」。じぶんがたべるときは「いただく」。 | "召し上がる" ถ้าตัวเองกินก็ใช้ "いただく" | 召し上がる. And when I'm the one eating, いただく.
+g: n4.h.sonkei, n4.h.kenjou, n4.h.keigo
+note: The keigo map: 尊敬語 raises the other person's action (召し上がる). 謙譲語 lowers your own (いただく). 丁寧語 is plain です/ます (食べます). | แผนที่เคโกะ: 尊敬語 ยกย่องการกระทำของอีกฝ่าย (召し上がる) 謙譲語 ถ่อมการกระทำของตัวเอง (いただく) ส่วน 丁寧語 คือ です/ます ธรรมดา (食べます)
+ゆき: 正解！じゃあ、私には？ | せいかい！じゃあ、わたしには？ | ถูกต้อง! แล้วถ้ากับเราล่ะ | Correct! And to me?
+You: 「食べよう！」だよ。はい、ゆきの分のケーキ。 | 「たべよう！」だよ。はい、ゆきのぶんのケーキ。 | ก็ "กินกันเถอะ!" ไง นี่ เค้กส่วนของยูกิ | "Let's eat!" Here, your piece of cake.
+g: n4.v.volitional
+ゆき*: やったー！それが一番うれしい。いただきます！ | やったー！それがいちばんうれしい。いただきます！ | เย่! แบบนี้แหละดีใจที่สุด ขอทานนะ! | Yay! That's the one I like best. Itadakimasu!
+g: n4.h.kenjou
+note: いただきます is itself 謙譲語 (humbly receiving), so even best friends say a little keigo before every meal. | いただきます เองก็เป็นคำถ่อมตัว (รับด้วยความนอบน้อม) เพื่อนสนิทกันก็ยังพูดเคโกะคำนี้ก่อนกินข้าวทุกมื้อ
+
+@scene l32_polite
+title: 七時のお客様
+en: The seven o'clock guest (keigo at work)
+th: ลูกค้าตอนหนึ่งทุ่ม (เคโกะที่ทำงาน)
+glyph: 敬
+level: n4
+place: food
+lesson: 32
+register: polite
+pair: l32
+role: 店長 | Manager (Mr Suzuki) | ผู้จัดการร้าน (คุณซูซูกิ)
+role: お客様 | Customer | ลูกค้า
+about: Tam's part-time job at a restaurant near the station. With his manager he uses です/ます and 〜させていただけないでしょうか; with the reserved guest he switches to full keigo: 尊敬語 for the guest, 謙譲語 for himself and his own shop. | งานพิเศษของตัมที่ร้านอาหารใกล้สถานี กับผู้จัดการเขาใช้ です/ます และ 〜させていただけないでしょうか แต่กับลูกค้าที่จองโต๊ะไว้ เขาเปลี่ยนเป็นเคโกะเต็มรูปแบบ ใช้ 尊敬語 กับลูกค้า และใช้ 謙譲語 กับตัวเองและคนในร้าน
+--- 開店前 | Before opening | ก่อนร้านเปิด
+店長: タム君、今日は試験の結果発表だったよね。どうだった？ | タムくん、きょうはしけんのけっかはっぴょうだったよね。どうだった？ | ตัม วันนี้ประกาศผลสอบใช่ไหม เป็นไงบ้าง | Tam, today was your exam results, right? How did it go?
+note: Your boss may talk to you in plain form. You still answer in です/ます: politeness goes up the ladder, not down. | หัวหน้าอาจพูดกับเราแบบธรรมดา แต่เรายังต้องตอบด้วย です/ます ความสุภาพส่งขึ้นไปหาคนที่อยู่สูงกว่า ไม่ได้ส่งลงมา
+You: 合格しました！店長のおかげです。 | ごうかくしました！てんちょうのおかげです。 | สอบผ่านแล้วครับ! เพราะผู้จัดการช่วยเลยครับ | I passed! It's thanks to you.
+g: n4.e.okage
+店長*: おめでとう！じゃあ今夜、七時に予約してるお客様、タム君に任せるよ。 | おめでとう！じゃあこんや、しちじによやくしてるおきゃくさま、タムくんにまかせるよ。 | ยินดีด้วย! งั้นคืนนี้ลูกค้าที่จองไว้ตอนหนึ่งทุ่ม ฝากตัมดูแลนะ | Congratulations! Then tonight I'll leave the seven o'clock reservation to you.
+g: n5.t.teiru
+You: はい、承知しました。あの、一つお願いがあるんですが…。 | はい、しょうちしました。あの、ひとつおねがいがあるんですが…。 | ครับ รับทราบครับ เอ่อ มีเรื่องจะขอร้องอย่างหนึ่งครับ… | Yes, understood. Um, I have one favour to ask...
+g: n4.h.keigo, n4.e.ndesu
+note: 承知しました is a humble, work-style わかりました. Use it with your boss and with customers. | 承知しました คือ わかりました แบบถ่อมตัวที่ใช้ในที่ทำงาน ใช้ได้ทั้งกับหัวหน้าและลูกค้า
+店長: うん、何？ | うん、なに？ | อืม อะไรเหรอ | Sure, what is it?
+You: 今日は九時で上がらせていただけないでしょうか。友達がお祝いしてくれるんです。 | きょうはくじであがらせていただけないでしょうか。ともだちがおいわいしてくれるんです。 | วันนี้ขออนุญาตเลิกงานตอนสามทุ่มได้ไหมครับ เพื่อนจะจัดฉลองให้ครับ | Might I be allowed to finish at nine today? My friends are throwing me a party.
+g: n4.h.request, n4.v.causative, n4.t.teageru, n4.e.ndesu
+note: 上がる = finish your shift. Causative + いただけないでしょうか = "might you allow me to...": the most polite way to ask your boss for permission. | 上がる = เลิกกะ รูปให้ทำ (使役) + いただけないでしょうか = "จะกรุณาอนุญาตให้ผม…ได้ไหม" เป็นวิธีขออนุญาตหัวหน้าที่สุภาพที่สุด
+alt: すみません、今日は九時で帰らせていただいてもよろしいですか。 | すみません、きょうはくじでかえらせていただいてもよろしいですか。 | ขอโทษครับ วันนี้ขออนุญาตกลับตอนสามทุ่มได้ไหมครับ | Excuse me, would it be all right if I left at nine today?
+店長: いいよ。そのかわり、七時のお客様、しっかり頼むね。 | いいよ。そのかわり、しちじのおきゃくさま、しっかりたのむね。 | ได้สิ แต่ลูกค้าตอนหนึ่งทุ่มฝากดูแลดีๆ นะ | Sure. But in return, take good care of the seven o'clock guest.
+g: n4.e.kawarini
+--- 七時のお客様 | The seven o'clock guest | ลูกค้าตอนหนึ่งทุ่ม
+店長*: タム君、お客様がいらっしゃったよ。 | タムくん、おきゃくさまがいらっしゃったよ。 | ตัม ลูกค้ามาแล้วนะ | Tam, the guest has arrived.
+g: n4.h.sonkei
+note: The manager speaks casually to you (〜たよ), but still uses いらっしゃった (respectful 来た) for the guest. Respect goes to the person you talk ABOUT, too. | ผู้จัดการพูดกับเราแบบกันเอง (〜たよ) แต่ยังใช้ いらっしゃった (来た แบบยกย่อง) กับลูกค้า ความเคารพมอบให้คนที่เราพูดถึงด้วย ไม่ใช่แค่คนที่เราพูดด้วย
+You: いらっしゃいませ。ご予約のお客様でいらっしゃいますか。 | いらっしゃいませ。ごよやくのおきゃくさまでいらっしゃいますか。 | ยินดีต้อนรับครับ ท่านเป็นลูกค้าที่จองไว้ใช่ไหมครับ | Welcome. Are you the guest with a reservation?
+g: n4.h.sonkei
+note: でいらっしゃいますか is the 尊敬語 of ですか, used about the customer himself. | でいらっしゃいますか คือ ですか แบบยกย่อง ใช้เมื่อพูดถึงตัวลูกค้าโดยตรง
+お客様*: ええ、七時に予約した田中です。 | ええ、しちじによやくしたたなかです。 | ครับ ทานากะที่จองไว้ตอนหนึ่งทุ่ม | Yes, I'm Tanaka. I booked for seven.
+You: 田中様ですね。お待ちしておりました。お席にご案内いたします。 | たなかさまですね。おまちしておりました。おせきにごあんないいたします。 | คุณทานากะนะครับ รอต้อนรับอยู่เลยครับ ผมจะพาไปที่โต๊ะนะครับ | Mr Tanaka. We've been expecting you. Let me show you to your table.
+g: n4.h.kenjou
+note: 謙譲語 lowers YOUR action: お待ちする (お + Vます + する), ご案内いたす, and おります for いる. Customers are 〜様, not 〜さん. | 謙譲語 ถ่อมการกระทำของตัวเอง เช่น お待ちする (お + Vます + する) ご案内いたす และ おります แทน いる ส่วนลูกค้าเรียกว่า 〜様 ไม่ใช่ 〜さん
+お客様: …あれ？君、もしかして、ゆきの友達のタム君？ | …あれ？きみ、もしかして、ゆきのともだちのタムくん？ | …อ้าว เธอ ใช่ตัมเพื่อนของยูกิหรือเปล่า | ...Huh? Are you by any chance Yuki's friend, Tam?
+You: はい、タムと申します。ゆきさんのお父様でいらっしゃいますか。 | はい、タムともうします。ゆきさんのおとうさまでいらっしゃいますか。 | ครับ ผมชื่อตัมครับ ท่านเป็นคุณพ่อของยูกิใช่ไหมครับ | Yes, my name is Tam. Are you Yuki's father?
+g: n4.h.kenjou, n4.h.sonkei
+お客様*: そうだよ。ゆきから、いつも君の話を聞いてるよ。 | そうだよ。ゆきから、いつもきみのはなしをきいてるよ。 | ใช่ ได้ยินยูกิเล่าเรื่องเธอบ่อยเลย | That's right. Yuki always talks about you.
+g: n5.t.teiru
+--- ご注文 | Taking the order | รับออร์เดอร์
+You: ゆきさんには、いつもお世話になっております。こちら、メニューでございます。どうぞご覧ください。 | ゆきさんには、いつもおせわになっております。こちら、メニューでございます。どうぞごらんください。 | ผมได้รับความช่วยเหลือจากยูกิเสมอเลยครับ นี่เมนูครับ เชิญดูได้เลยครับ | Yuki is always so good to me. Here is the menu. Please take a look.
+g: n4.h.kenjou, n4.h.sonkei, n4.h.keigo
+お客様: ありがとう。ビールと…何かおすすめある？ | ありがとう。ビールと…なにかおすすめある？ | ขอบใจ เบียร์ แล้วก็…มีอะไรแนะนำไหม | Thanks. A beer, and... anything you'd recommend?
+g: n4.e.dareka
+You: 本日は天ぷらがおすすめです。店長の鈴木が、揚げたてをお作りいたします。 | ほんじつはてんぷらがおすすめです。てんちょうのすずきが、あげたてをおつくりいたします。 | วันนี้ขอแนะนำเทมปุระครับ ผู้จัดการซูซูกิจะทอดให้ร้อนๆ เลยครับ | Today we recommend the tempura. Our manager, Suzuki, will fry it fresh for you.
+g: n4.h.kenjou
+note: To a customer, your own manager is 店長の鈴木, with no さん, and his actions take 謙譲語 (お作りいたします), because he's on your side. | เวลาพูดกับลูกค้า เรียกผู้จัดการของเราว่า 店長の鈴木 ไม่เติม さん และใช้คำถ่อมตัว (お作りいたします) กับการกระทำของเขา เพราะเขาอยู่ฝั่งเดียวกับเรา
+お客様*: じゃあ、それにしよう。…タム君、敬語が上手だね。誰に習ったの？ | じゃあ、それにしよう。…タムくん、けいごがじょうずだね。だれにならったの？ | งั้นเอาอันนั้น …ตัมใช้เคโกะเก่งนะ เรียนกับใครมาเหรอ | Then I'll have that. ...Tam, your keigo is very good. Who taught you?
+g: n4.v.volitional
+You: 学校の先生や店長の鈴木に教わりました。どうぞ、ごゆっくりお召し上がりください。 | がっこうのせんせいやてんちょうのすずきにおそわりました。どうぞ、ごゆっくりおめしあがりください。 | เรียนมาจากครูที่โรงเรียนกับผู้จัดการซูซูกิครับ เชิญรับประทานตามสบายนะครับ | I learned from my teachers at school and from our manager, Suzuki. Please enjoy your meal.
+g: n4.h.sonkei, n5.p.ya
+note: Even here Tam keeps うち・そと: to a customer he doesn't raise his own manager with 教えていただきました. He says 店長の鈴木 and the neutral 教わりました ("was taught"), and saves 尊敬語 for the guest: お召し上がりください. | แม้ตรงนี้ตัมก็ยังรักษาหลัก うち・そと คือเวลาพูดกับลูกค้า จะไม่ยกย่องผู้จัดการของตัวเองด้วย 教えていただきました แต่พูดว่า 店長の鈴木 กับ 教わりました (ได้รับการสอน) ที่เป็นคำกลางๆ แล้วเก็บคำยกย่อง (尊敬語) ไว้ใช้กับลูกค้า เช่น お召し上がりください
+お客様: ありがとう。ゆきにも伝えておくよ。 | ありがとう。ゆきにもつたえておくよ。 | ขอบใจนะ เดี๋ยวจะบอกยูกิด้วย | Thank you. I'll be sure to tell Yuki.
+g: n4.t.teoku

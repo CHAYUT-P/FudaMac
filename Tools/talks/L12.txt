@@ -1,0 +1,93 @@
+@scene l12_casual
+title: 土曜日、何時に会う？
+en: What time shall we meet Saturday? (with a friend)
+th: วันเสาร์เจอกันกี่โมง (กับเพื่อน)
+glyph: 時
+level: n5
+place: people
+lesson: 12
+register: casual
+pair: l12
+about: Tam is better, and Yuki comes back with a calendar to reschedule the movie. Putting a day in order: 〜てから (after, then), 〜前に (before), 〜たあとで (after) and 〜とき (when). | ตัมหายป่วยแล้ว ยูกิถือปฏิทินมานัดดูหนังใหม่ เรียงลำดับเหตุการณ์ในวันนั้นด้วย 〜てから (…แล้วค่อย) 〜前に (ก่อน…) 〜たあとで (หลังจาก…) และ 〜とき (ตอนที่…)
+--- ドアの前 | At the door | หน้าประตู
+ゆき: タム、もう元気になった？ | タム、もうげんきになった？ | ตัม หายดีแล้วเหรอ | Tam, are you better now?
+You: うん、もう大丈夫！この前はありがとう。 | うん、もうだいじょうぶ！このまえはありがとう。 | อืม หายแล้ว! ขอบใจเรื่องคราวก่อนนะ | Yep, all good! Thanks for the other day.
+ゆき: よかった。じゃあ、映画、いつ行く？カレンダー持ってきた。 | よかった。じゃあ、えいが、いついく？カレンダーもってきた。 | ดีจัง งั้นไปดูหนังกันเมื่อไหร่ดี เอาปฏิทินมาด้วยนะ | Great. So when shall we go to the movie? I brought a calendar.
+You: 土曜日はどう？午前中はバイトだから、バイトが終わってから会う？ | どようびはどう？ごぜんちゅうはバイトだから、バイトがおわってからあう？ | วันเสาร์เป็นไง ช่วงเช้าเราทำพาร์ทไทม์ เลิกงานแล้วค่อยเจอกันไหม | How about Saturday? I work in the morning, so shall we meet after my shift?
+g: n5.t.tekara
+note: Vて + から = "after doing…, (then)". It stresses the order: first work ends, then we meet. | Vて + から = "…แล้วค่อย…" เน้นลำดับเหตุการณ์ คือเลิกงานก่อน แล้วค่อยเจอกัน
+ゆき: いいよ。何時に終わる？ | いいよ。なんじにおわる？ | ได้สิ เลิกกี่โมง | Sure. What time do you finish?
+You: 一時ごろかな。 | いちじごろかな。 | น่าจะราวๆ บ่ายโมงมั้ง | Around one, I think.
+note: ごろ = "around (a time)". かな softens it: "I guess / I think". | ごろ = "ราวๆ (เวลา)" ส่วน かな ทำให้ฟังไม่ฟันธง แปลว่า "มั้ง / น่าจะ"
+ゆき*: じゃあ、二時に駅で会って、映画を見る前に、お昼食べない？ | じゃあ、にじにえきであって、えいがをみるまえに、おひるたべない？ | งั้นเจอกันที่สถานีบ่ายสอง แล้วก่อนดูหนังไปกินข้าวกลางวันกันไหม | Then let's meet at the station at two and have lunch before the movie?
+g: n5.e.maeni, n5.v.jisho
+note: Dictionary form + 前に = "before doing". The verb before 前に is always in the dictionary form. | รูปพจนานุกรม + 前に = "ก่อนจะ…" กริยาที่อยู่หน้า 前に ใช้รูปพจนานุกรมเสมอ
+You: いいね。でも、映画を見るとき、ポップコーンも食べたい。 | いいね。でも、えいがをみるとき、ポップコーンもたべたい。 | ดีเลย แต่ตอนดูหนังก็อยากกินป๊อปคอร์นด้วยนะ | Sounds good. But I want popcorn when I watch the movie too.
+g: n5.e.toki
+ゆき: あはは。じゃあ、お昼は少しだけね。 | あはは。じゃあ、おひるはすこしだけね。 | ฮ่าๆ งั้นข้าวกลางวันกินนิดเดียวพอนะ | Haha. Then just a light lunch.
+You: 映画は何時に始まる？ | えいがはなんじにはじまる？ | หนังเริ่มกี่โมง | What time does the movie start?
+ゆき*: 三時十分。映画を見たあとで、買い物しない？ | さんじじゅっぷん。えいがをみたあとで、かいものしない？ | บ่ายสามโมงสิบนาที ดูหนังเสร็จแล้วไปช็อปปิ้งกันไหม | Ten past three. Want to go shopping after the movie?
+g: n5.e.atode
+note: た形 + あとで = "after doing". Unlike 前に, the verb before あとで is in the past form. | รูป た + あとで = "หลังจาก…" ต่างจาก 前に ตรงที่กริยาหน้า あとで ต้องเป็นรูปอดีต
+You: いいよ。でも、暗くなる前に帰りたいな。自転車だから。 | いいよ。でも、くらくなるまえにかえりたいな。じてんしゃだから。 | ได้ แต่อยากกลับก่อนมืดนะ ขี่จักรยานมา | Sure. But I want to get home before it gets dark. I'll be on my bike.
+g: n5.e.maeni
+ゆき: わかった。夕方には終わるよ。 | わかった。ゆうがたにはおわるよ。 | โอเค เดี๋ยวตอนเย็นๆ ก็เสร็จแล้ว | OK. We'll be done by early evening.
+--- 字幕 | Subtitles | คำบรรยาย
+You: あ、でも、前に一人で映画を見たとき、全然わからなかった…。 | あ、でも、まえにひとりでえいがをみたとき、ぜんぜんわからなかった…。 | อ้อ แต่ว่าคราวก่อนตอนไปดูหนังคนเดียว ไม่เข้าใจเลย… | Oh, but the last time I watched a movie on my own, I didn't understand a thing…
+g: n5.e.toki
+note: Past + とき = "when (I) did…": 見たとき = the time I watched. The verb's form shows whether it happened first. | รูปอดีต + とき = "ตอนที่(ได้)…" 見たとき = ตอนที่ไปดูมาแล้ว รูปของกริยาบอกว่าเหตุการณ์ไหนเกิดก่อน
+ゆき: 大丈夫。英語の字幕があるのにしよう。家に帰ってから、調べるね。 | だいじょうぶ。えいごのじまくがあるのにしよう。いえにかえってから、しらべるね。 | ไม่เป็นไร เลือกเรื่องที่มีซับอังกฤษกัน กลับถึงบ้านแล้วเดี๋ยวหาให้ | No problem. Let's pick one with English subtitles. I'll check when I get home.
+g: n5.t.tekara
+note: 帰ってから = "once I'm home, (then)". 〜のにしよう is casual for "let's go with one that…" (〜しよう = let's, coming later). | 帰ってから = "กลับถึงบ้านแล้วค่อย…" ส่วน 〜のにしよう เป็นภาษาพูดแปลว่า "เอาอันที่…กันเถอะ" (〜しよう = …กันเถอะ จะได้เรียนทีหลัง)
+You: ありがとう！じゃあ、土曜日の二時、駅でね。 | ありがとう！じゃあ、どようびのにじ、えきでね。 | ขอบใจ! งั้นเจอกันวันเสาร์บ่ายสองที่สถานีนะ | Thanks! So, Saturday at two, at the station.
+alt: じゃあ、土曜日ね。楽しみ！ | じゃあ、どようびね。たのしみ！ | งั้นวันเสาร์นะ รอไม่ไหวแล้ว! | Saturday, then. Can't wait!
+ゆき*: うん。今度は風邪ひかないでね！ | うん。こんどはかぜひかないでね！ | อือ คราวนี้อย่าเป็นหวัดอีกนะ! | Yep. Don't catch a cold this time!
+g: n5.t.naide, n5.v.nai
+note: 風邪(を)ひく = "catch a cold". With friends を is often dropped. | 風邪(を)ひく = "เป็นหวัด" เพื่อนกันมักตัด を ออก
+You: 大丈夫。もう雨の中で自転車に乗らないよ。 | だいじょうぶ。もうあめのなかでじてんしゃにのらないよ。 | ไม่หรอก จะไม่ขี่จักรยานตากฝนอีกแล้ว | Don't worry. No more biking in the rain.
+g: n5.v.nai
+
+@scene l12_polite
+title: 金曜日の四時半に
+en: Friday at 4:30 (polite)
+th: วันศุกร์สี่โมงครึ่ง (สุภาพ)
+glyph: 時
+level: n5
+place: people
+lesson: 12
+register: polite
+pair: l12
+about: Back at school, Tam asks Ms Yamada for a time to catch up on what he missed. Suggesting times politely (いかがですか), and putting things in order with 〜てから, 〜前に, 〜のあとで and 〜とき. | กลับมาเรียนแล้ว ตัมขอนัดเวลากับครูยามาดะเพื่อตามเนื้อหาที่ขาดไป เสนอเวลาอย่างสุภาพ (いかがですか) และเรียงลำดับด้วย 〜てから 〜前に 〜のあとで และ 〜とき
+--- 職員室 | In the staff room | ห้องพักครู
+You: 山田先生、すみません。今、ちょっとよろしいですか。 | やまだせんせい、すみません。いま、ちょっとよろしいですか。 | ครูยามาดะครับ ขอโทษครับ ตอนนี้ขอเวลาสักครู่ได้ไหมครับ | Excuse me, Ms Yamada. Do you have a moment?
+note: ちょっとよろしいですか is the polite "got a minute?". With a friend: ちょっといい？ | ちょっとよろしいですか ใช้ถามอย่างสุภาพว่า "ขอเวลาสักครู่ได้ไหม" ถ้าเป็นเพื่อนพูดว่า ちょっといい？
+山田先生: ああ、タムさん。風邪はもう大丈夫ですか。 | ああ、タムさん。かぜはもうだいじょうぶですか。 | อ้าว คุณตัม หายหวัดแล้วเหรอคะ | Oh, Tam. Are you over your cold?
+You: はい、もう元気です。休んだとき、宿題を出すことができませんでした。すみません。 | はい、もうげんきです。やすんだとき、しゅくだいをだすことができませんでした。すみません。 | ครับ หายดีแล้วครับ ตอนที่หยุดเรียน ผมส่งการบ้านไม่ได้ ขอโทษด้วยครับ | Yes, I'm fine now. While I was off, I couldn't hand in my homework. I'm sorry.
+g: n5.e.toki, n5.e.kotogadekiru
+山田先生: 大丈夫ですよ。じゃあ、一度会って話しましょう。いつがいいですか。 | だいじょうぶですよ。じゃあ、いちどあってはなしましょう。いつがいいですか。 | ไม่เป็นไรค่ะ งั้นมาเจอกันคุยสักครั้งนะคะ สะดวกเมื่อไหร่คะ | That's fine. Let's meet and talk. When is good for you?
+You: 木曜日の午後はいかがですか。授業が終わってから、時間があります。 | もくようびのごごはいかがですか。じゅぎょうがおわってから、じかんがあります。 | บ่ายวันพฤหัสสะดวกไหมครับ เลิกเรียนแล้วผมว่างครับ | How about Thursday afternoon? I'm free after class finishes.
+g: n5.t.tekara
+note: いかがですか is the polite どうですか. Use it when you suggest a time to a teacher. With Yuki, Tam said 土曜日はどう？ | いかがですか คือ どうですか แบบสุภาพ ใช้เวลาเสนอวันเวลากับครู ถ้าเป็นยูกิ ตัมพูดว่า 土曜日はどう？
+山田先生*: 木曜日は会議があります。金曜日の授業のあとはどうですか。 | もくようびはかいぎがあります。きんようびのじゅぎょうのあとはどうですか。 | วันพฤหัสครูมีประชุมค่ะ หลังเลิกเรียนวันศุกร์ล่ะคะ | I have a meeting on Thursday. How about after class on Friday?
+g: n5.e.atode
+note: Noun + のあと(で) = "after the …": 授業のあと = after class. Before は the で is dropped: のあとは. | คำนาม + のあと(で) = "หลัง…" 授業のあと = หลังเลิกเรียน ถ้าตามด้วย は จะตัด で ออกเป็น のあとは
+You: はい、大丈夫です。何時ごろがいいですか。 | はい、だいじょうぶです。なんじごろがいいですか。 | ได้ครับ ประมาณกี่โมงดีครับ | Yes, that's fine. Around what time would be good?
+山田先生: 四時半ごろはどうですか。 | よじはんごろはどうですか。 | ประมาณสี่โมงครึ่งดีไหมคะ | How about around 4:30?
+You: わかりました。その前に、何をしなければなりませんか。 | わかりました。そのまえに、なにをしなければなりませんか。 | ได้ครับ ก่อนหน้านั้น ผมต้องทำอะไรบ้างครับ | All right. Is there anything I need to do before then?
+g: n5.e.maeni, n5.t.must
+山田先生*: 来る前に、この宿題をしてください。 | くるまえに、このしゅくだいをしてください。 | ก่อนมา ทำการบ้านนี้มาด้วยนะคะ | Before you come, please do this homework.
+g: n5.e.maeni, n5.v.jisho
+You: わからないときは、メールで質問してもいいですか。 | わからないときは、メールでしつもんしてもいいですか。 | ถ้าตอนไหนไม่เข้าใจ ส่งอีเมลไปถามได้ไหมครับ | If I don't understand something, may I ask you by email?
+g: n5.e.toki, n5.t.temoii, n5.v.nai
+note: ない形 + とき = "when (I) don't…". とき also works with adjectives (暇なとき) and nouns (子供のとき). | รูป ない + とき = "ตอนที่ไม่…" とき ใช้กับคำคุณศัพท์ (暇なとき) และคำนาม (子供のとき) ได้ด้วย
+山田先生: ええ、いいですよ。授業が終わってから、返事をしますね。 | ええ、いいですよ。じゅぎょうがおわってから、へんじをしますね。 | ได้ค่ะ สอนเสร็จแล้วครูจะตอบให้นะคะ | Yes, of course. I'll reply after my classes finish.
+g: n5.t.tekara
+You: ありがとうございます。じゃあ、宿題をしたあとで、メールします。 | ありがとうございます。じゃあ、しゅくだいをしたあとで、メールします。 | ขอบคุณครับ งั้นทำการบ้านเสร็จแล้วผมจะส่งอีเมลไปครับ | Thank you. I'll email you after I've done the homework, then.
+g: n5.e.atode
+山田先生*: それから、今度から、学校を休むときは、朝、電話をしてくださいね。 | それから、こんどから、がっこうをやすむときは、あさ、でんわをしてくださいね。 | แล้วก็ ต่อไปถ้าจะหยุดเรียน ช่วยโทรมาบอกตอนเช้าด้วยนะคะ | And from now on, when you're going to be absent, please call in the morning.
+g: n5.e.toki, n5.v.jisho
+note: Dictionary form + とき = "when (you're about to)…": 休むとき = when you'll be absent, so call before. Compare 休んだとき = when you were absent. | รูปพจนานุกรม + とき = "ตอนที่จะ…" 休むとき = ตอนที่จะหยุด (โทรบอกก่อน) เทียบกับ 休んだとき = ตอนที่หยุดไปแล้ว
+You: はい、すみませんでした。気をつけます。 | はい、すみませんでした。きをつけます。 | ครับ ขอโทษครับ จะระวังครับ | Yes, I'm sorry. I'll make sure to.
+山田先生: じゃあ、金曜日の四時半に、教室で待っていますね。 | じゃあ、きんようびのよじはんに、きょうしつでまっていますね。 | งั้นวันศุกร์สี่โมงครึ่ง ครูจะรอที่ห้องเรียนนะคะ | So, Friday at 4:30. I'll be waiting in the classroom.
+You: はい。よろしくお願いします。失礼します。 | はい。よろしくおねがいします。しつれいします。 | ครับ รบกวนด้วยนะครับ ขอตัวก่อนครับ | Yes. Thank you very much. Excuse me.
+note: 失礼します is what you say when you leave (or enter) a teacher's room. | 失礼します ใช้พูดตอนออกจากห้องครู (และตอนเข้าห้องด้วย)

@@ -1,0 +1,110 @@
+@scene l03_casual
+title: いい部屋じゃん！
+en: Nice room! (with a friend)
+th: ห้องสวยนี่ (กับเพื่อน)
+glyph: 三
+level: n5
+place: daily
+lesson: 3
+register: casual
+pair: l03
+about: Lin visits Tam's new apartment, and Tam asks where to post a card home. ある／いる, place + に, が, and position words like 中・前・隣. | หลินมาเที่ยวห้องใหม่ของตัม แล้วตัมถามว่าจะส่งโปสการ์ดกลับบ้านได้ที่ไหน ใช้ ある／いる สถานที่ + に が และคำบอกตำแหน่ง 中・前・隣
+--- タムの部屋 | Tam's room | ห้องของตัม
+リン: わあ、いい部屋じゃん！ | わあ、いいへやじゃん！ | ว้าว ห้องสวยนี่นา | Wow, nice room!
+note: じゃん is a very casual "isn't it!" that shows pleasant surprise. Only with friends. | じゃん แปลประมาณ "…นี่นา" แบบกันเองมาก ใช้แสดงความแปลกใจในทางดี ใช้กับเพื่อนเท่านั้น
+You: そう？でも、まだ何もないよ。 | そう？でも、まだなにもないよ。 | เหรอ แต่ยังไม่มีอะไรเลยนะ | You think? There's nothing here yet.
+g: n5.arimasu
+note: ない is the casual ありません (there isn't). 何も〜ない = nothing at all. | ない คือ ありません แบบกันเอง แปลว่า "ไม่มี" ส่วน 何も〜ない แปลว่า "ไม่มีอะไรเลย"
+リン*: ねえ、トイレはどこ？ | ねえ、トイレはどこ？ | นี่ ห้องน้ำอยู่ไหนอะ | Hey, where's the toilet?
+g: n5.qwords, n5.p.wa
+You: 玄関の隣だよ。 | げんかんのとなりだよ。 | อยู่ข้างๆ ประตูทางเข้า | Next to the entrance.
+g: n5.e.position
+note: Aの隣 = next to A. Position words always come after の: 玄関の隣, 駅の前, 冷蔵庫の中. | Aの隣 แปลว่า "ข้างๆ A" คำบอกตำแหน่งจะตามหลัง の เสมอ เช่น 玄関の隣 駅の前 冷蔵庫の中
+リン: 何か飲み物、ある？ | なにかのみもの、ある？ | มีอะไรให้ดื่มไหม | Got anything to drink?
+g: n5.arimasu
+note: ある？ is the casual ありますか. Friends drop the が: 飲み物がありますか → 飲み物、ある？ | ある？ คือ ありますか แบบกันเอง เพื่อนกันมักละ が จาก 飲み物がありますか เหลือ 飲み物、ある？
+You*: うん、冷蔵庫の中にお茶があるよ。 | うん、れいぞうこのなかにおちゃがあるよ。 | มีสิ มีชาอยู่ในตู้เย็น | Yeah, there's tea in the fridge.
+g: n5.p.ni, n5.e.position, n5.p.ga, n5.arimasu
+note: Place + に + thing + が + ある: "in the fridge there is tea". | สถานที่ + に + สิ่งของ + が + ある แปลว่า "ที่…มี…" เช่น ในตู้เย็นมีชา
+リン*: あ、窓の外に猫がいる！ | あ、まどのそとにねこがいる！ | อ๊ะ มีแมวอยู่นอกหน้าต่าง | Oh, there's a cat outside the window!
+g: n5.e.position, n5.p.ni, n5.p.ga, n5.arimasu
+note: いる is for living things (people, animals); ある is for things. 猫がいる, but お茶がある. | いる ใช้กับสิ่งมีชีวิต (คน สัตว์) ส่วน ある ใช้กับสิ่งของ จึงพูดว่า 猫がいる แต่ お茶がある
+You: ああ、隣の家の猫。いつもあそこにいるよ。 | ああ、となりのいえのねこ。いつもあそこにいるよ。 | อ๋อ แมวบ้านข้างๆ อยู่ตรงนั้นตลอดแหละ | Oh, that's the cat from next door. It's always there.
+g: n5.e.position, n5.p.ni, n5.arimasu
+--- 近所 | The neighbourhood | แถวบ้าน
+You: ねえ、この辺に郵便局ある？ | ねえ、このへんにゆうびんきょくある？ | นี่ แถวนี้มีที่ทำการไปรษณีย์ไหม | Hey, is there a post office around here?
+g: n5.p.ni, n5.arimasu
+note: この辺に + N + ある？ = "is there a N around here?". One of the most useful questions in a new town. | この辺に + N + ある？ แปลว่า "แถวนี้มี…ไหม" เป็นคำถามที่มีประโยชน์มากเวลาอยู่ในย่านใหม่
+リン: うーん、駅の近くにあったよ。 | うーん、えきのちかくにあったよ。 | อืม เห็นอยู่แถวๆ สถานีนะ | Hmm, I saw one near the station.
+g: n5.p.ni, n5.arimasu
+note: あった is the casual past of ある: "there was one (I saw it on my way)". | あった คือรูปอดีตแบบกันเองของ ある แปลว่า "มีอยู่ (เห็นตอนเดินมา)"
+You: 駅の前？ | えきのまえ？ | หน้าสถานีเหรอ | In front of the station?
+g: n5.e.position
+リン*: ううん、銀行の隣。 | ううん、ぎんこうのとなり。 | ไม่ใช่ ข้างๆ ธนาคาร | No, next to the bank.
+g: n5.e.position
+リン: でも、ポストはコンビニの前にもあるよ。 | でも、ポストはコンビニのまえにもあるよ。 | แต่ตู้ไปรษณีย์ก็มีอยู่หน้าร้านสะดวกซื้อด้วยนะ | But there's a mailbox in front of the konbini too.
+g: n5.e.position, n5.p.ni, n5.p.mo, n5.arimasu
+note: にも = "at … too". For a postcard that already has a stamp, the red ポスト is all you need. | にも แปลว่า "ที่…ก็มีด้วย" ถ้าโปสการ์ดติดแสตมป์แล้ว หย่อนตู้ไปรษณีย์สีแดงได้เลย
+You: え、どこのコンビニ？ | え、どこのコンビニ？ | เอ๊ะ ร้านสะดวกซื้อร้านไหน | Huh, which konbini?
+g: n5.qwords, n5.p.no
+リン: あそこだよ。あの角。 | あそこだよ。あのかど。 | ตรงโน้นไง หัวมุมนั่น | Over there. On that corner.
+g: n5.kosoado
+You*: あ、ほんとだ。切手もある？ | あ、ほんとだ。きってもある？ | อ้อ จริงด้วย มีแสตมป์ด้วยไหม | Oh, you're right. Do they have stamps too?
+g: n5.p.mo, n5.arimasu
+リン: うん、たぶんレジにあるよ。 | うん、たぶんレジにあるよ。 | อืม น่าจะมีที่แคชเชียร์นะ | Yeah, probably at the register.
+g: n5.p.ni, n5.arimasu
+note: たぶん = probably. Konbini keep stamps behind the register, so just ask: 切手、ありますか. | たぶん แปลว่า "น่าจะ" ร้านสะดวกซื้อเก็บแสตมป์ไว้หลังเคาน์เตอร์ ถามพนักงานว่า 切手、ありますか ได้เลย
+You: よかった。ありがとう！ | よかった。ありがとう！ | ดีเลย ขอบใจนะ | Great. Thanks!
+
+@scene l03_polite
+title: 郵便局はどこですか
+en: Where's the post office? (polite)
+th: ที่ทำการไปรษณีย์อยู่ที่ไหนครับ (แบบสุภาพ)
+glyph: 三
+level: n5
+place: daily
+lesson: 3
+register: polite
+pair: l03
+about: Saturday morning: Tam wants to post a card home and asks his new neighbour, Ms Tanaka, the way. あります／います, に, が vs は, and position words. | เช้าวันเสาร์ ตัมอยากส่งโปสการ์ดกลับบ้าน เลยถามทางคุณทานากะ เพื่อนบ้านห้องข้างๆ ใช้ あります／います に が กับ は และคำบอกตำแหน่ง
+--- 玄関の前で | At the door | หน้าประตูห้อง
+田中*: おはようございます。 | おはようございます。 | สวัสดีตอนเช้าค่ะ | Good morning.
+You: おはようございます。はじめまして、隣の部屋のタムです。 | おはようございます。はじめまして、となりのへやのタムです。 | สวัสดีครับ ยินดีที่ได้รู้จักครับ ผมตัม อยู่ห้องข้างๆ ครับ | Good morning. Nice to meet you, I'm Tam from the room next door.
+g: n5.e.position, n5.p.no
+note: 隣の部屋 = the room next door. In Japan it's polite to introduce yourself to your neighbours. | 隣の部屋 แปลว่า "ห้องข้างๆ" ในญี่ปุ่นการแนะนำตัวกับเพื่อนบ้านถือเป็นมารยาทที่ดี
+田中: あ、はじめまして。田中です。どうぞよろしく。 | あ、はじめまして。たなかです。どうぞよろしく。 | อ้อ ยินดีที่ได้รู้จักค่ะ ทานากะค่ะ ฝากตัวด้วยนะคะ | Oh, nice to meet you. I'm Tanaka.
+You: よろしくお願いします。あの、この辺に郵便局がありますか。 | よろしくおねがいします。あの、このへんにゆうびんきょくがありますか。 | ฝากตัวด้วยครับ เอ่อ แถวนี้มีที่ทำการไปรษณีย์ไหมครับ | Nice to meet you. Um, is there a post office around here?
+g: n5.p.ni, n5.p.ga, n5.arimasu
+note: Place + に + N + がありますか = "Is there a N (in that place)?". Compare the casual この辺に郵便局ある？ | สถานที่ + に + N + がありますか แปลว่า "ที่…มี…ไหม" ลองเทียบกับแบบกันเอง この辺に郵便局ある？
+田中*: 郵便局ですか。駅の近くにありますよ。 | ゆうびんきょくですか。えきのちかくにありますよ。 | ไปรษณีย์เหรอคะ มีอยู่ใกล้ๆ สถานีค่ะ | The post office? There's one near the station.
+g: n5.p.ni, n5.arimasu
+You: 駅の前ですか。 | えきのまえですか。 | หน้าสถานีหรือครับ | In front of the station?
+g: n5.e.position, n5.question
+田中: いいえ、銀行の隣です。 | いいえ、ぎんこうのとなりです。 | ไม่ใช่ค่ะ อยู่ข้างๆ ธนาคารค่ะ | No, next to the bank.
+g: n5.e.position
+田中: あ、でも、今日は土曜日ですね。郵便局は休みですよ。 | あ、でも、きょうはどようびですね。ゆうびんきょくはやすみですよ。 | อ้อ แต่วันนี้วันเสาร์นะคะ ไปรษณีย์ปิดค่ะ | Oh, but it's Saturday today. The post office is closed.
+g: n5.p.wa, n5.desu
+note: Many small post offices in Japan are closed on weekends. | ที่ทำการไปรษณีย์เล็กๆ ในญี่ปุ่นหลายแห่งปิดวันเสาร์อาทิตย์
+You*: えっ、そうですか。 | えっ、そうですか。 | อ้าว อย่างนั้นหรือครับ | Oh, really?
+--- ポスト | The mailbox | ตู้ไปรษณีย์
+You: 葉書だけです。ポストはどこにありますか。 | はがきだけです。ポストはどこにありますか。 | แค่โปสการ์ดใบเดียวครับ ตู้ไปรษณีย์อยู่ที่ไหนครับ | It's just a postcard. Where's a mailbox?
+g: n5.qwords, n5.p.ni, n5.arimasu, n5.p.wa
+note: Asking WHERE a thing is: ポストはどこにありますか (は). Asking WHETHER there is one: ポストがありますか (が). | ถามว่าของ "อยู่ที่ไหน" ใช้ は เช่น ポストはどこにありますか ส่วนถามว่า "มีไหม" ใช้ が เช่น ポストがありますか
+田中*: ポストは、あのコンビニの前にありますよ。 | ポストは、あのコンビニのまえにありますよ。 | ตู้ไปรษณีย์อยู่หน้าร้านสะดวกซื้อร้านนั้นค่ะ | The mailbox is in front of that konbini.
+g: n5.kosoado, n5.e.position, n5.p.ni, n5.arimasu
+田中: ほら、男の人がいますね。その人の後ろです。 | ほら、おとこのひとがいますね。そのひとのうしろです。 | นั่นไง มีผู้ชายยืนอยู่ใช่ไหมคะ อยู่ข้างหลังเขาค่ะ | Look, there's a man there, right? It's behind him.
+g: n5.p.ga, n5.arimasu, n5.e.position, n5.kosoado
+note: A person います, a mailbox あります. の後ろ = behind. | คนใช้ います ตู้ไปรษณีย์ใช้ あります ส่วน の後ろ แปลว่า "ข้างหลัง"
+You: あ、あの赤い箱ですね。 | あ、あのあかいはこですね。 | อ้อ กล่องสีแดงนั่นใช่ไหมครับ | Oh, that red box.
+g: n5.kosoado
+田中: はい、そうです。 | はい、そうです。 | ใช่ค่ะ | Yes, that's it.
+--- 切手 | Stamps | แสตมป์
+You: すみません、コンビニに切手もありますか。 | すみません、コンビニにきってもありますか。 | ขอโทษครับ ที่ร้านสะดวกซื้อมีแสตมป์ด้วยไหมครับ | Excuse me, do konbini have stamps too?
+g: n5.p.ni, n5.p.mo, n5.arimasu
+note: も replaces が: 切手がありますか → 切手もありますか (stamps too?). | も ใช้แทน が ได้เลย จาก 切手がありますか เป็น 切手もありますか (มีแสตมป์ด้วยไหม)
+田中*: ええ、レジにありますよ。 | ええ、レジにありますよ。 | มีค่ะ อยู่ที่แคชเชียร์ค่ะ | Yes, they have them at the register.
+g: n5.p.ni, n5.arimasu
+You: わかりました。ありがとうございます。 | わかりました。ありがとうございます。 | เข้าใจแล้วครับ ขอบคุณมากครับ | I see. Thank you very much.
+田中: いいえ。いってらっしゃい。 | いいえ。いってらっしゃい。 | ไม่เป็นไรค่ะ ไปดีมาดีนะคะ | Not at all. Have a good trip out.
+note: いってらっしゃい is said to someone leaving home; the reply is いってきます. Neighbours use it too. | いってらっしゃい ใช้พูดกับคนที่กำลังออกจากบ้าน แล้วตอบว่า いってきます เพื่อนบ้านก็ใช้คำนี้เหมือนกัน
+You: いってきます。 | いってきます。 | ไปก่อนนะครับ | I'm off.

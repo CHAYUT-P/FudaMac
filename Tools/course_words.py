@@ -9,7 +9,8 @@ in exactly one lesson:
   2. Every other word goes to a lesson with room (about 44 words each):
      a lesson whose grammar examples use it, else a lesson already teaching that
      topic, else the lightest lesson. Easier (N5) words go as early as they fit;
-     N4 words start from lesson 6, once basic sentences are in place.
+     N4 words start from lesson 6, once basic sentences are in place, and the
+     everyday N4+ words (a step above N4) from lesson 15.
 
 Run after Tools/build_course.py and Tools/wordlist/fix_vocab.py:
   python3 Tools/course_words.py
@@ -33,13 +34,13 @@ SEC = {'คำศัพท์': 'Words', 'คำถาม & คำชี้': 'Q
        'การนับ & ลักษณนาม': 'Counting & counters', 'จำนวน & ปริมาณ': 'Numbers & amounts'}
 
 vocab = content["vocab"] + extra
-level = {v["id"]: v["level"] for v in vocab}
+level = {v["id"]: ("plus" if v.get("plus") else v["level"]) for v in vocab}
 kanji_of = {v["id"]: v["kanji"] for v in vocab}
 meta = wordlist["words"]
 cats = {c["id"]: c for c in wordlist["categories"]}
 cat_of = lambda vid: meta[vid]["sub"].split(".")[0]
 every = [v["id"] for v in vocab if v["id"] in meta]          # the 1,403 list words, N5 first
-every.sort(key=lambda i: level[i] != "n5")
+every.sort(key=lambda i: ["n5", "n4", "plus"].index(level[i]))
 
 lessons = {l["n"]: l for l in course["lessons"]}
 taught = set()
@@ -73,7 +74,7 @@ added = collections.defaultdict(list)
 for i in every:
     if i in taught:
         continue
-    first = 1 if level[i] == "n5" else 6
+    first = {"n5": 1, "n4": 6, "plus": 15}[level[i]]
     room = [n for n in order if n >= first and load[n] < cap] or [n for n in order if n >= first]
     word = kanji_of[i].replace("〜", "")
     used = [n for n in room if len(word) > 1 and word in examples[n]]
@@ -97,6 +98,6 @@ for n, ids in added.items():
 
 P_COURSE.write_text(json.dumps(course, ensure_ascii=False, separators=(",", ":")))
 counts = [load[n] for n in order]
-n4_early = sum(1 for n in order if n <= 14 for i in added[n] if level[i] == "n4")
+n4_early = sum(1 for n in order if n <= 14 for i in added[n] if level[i] != "n5")
 print(f"course_words: {len(taught)}/{len(every)} words in {len(order)} lessons "
       f"({min(counts)}–{max(counts)} per lesson, cap {cap}); {n4_early} N4 words mixed into lessons 1–14")

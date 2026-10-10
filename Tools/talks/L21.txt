@@ -1,0 +1,118 @@
+@scene l21_casual
+title: 卒業したら、どうする？
+en: What will you do after graduating? (with a friend)
+th: เรียนจบแล้วจะทำอะไร (กับเพื่อน)
+glyph: 志
+level: n4
+place: people
+lesson: 21
+register: casual
+pair: l21
+about: Walking home with Yuki, Tam talks about his plans after language school. Then John runs up with news about Lin, and they plan a hospital visit. Casual volitional 〜よう, 〜ようと思ってる, つもり, 予定, ことにする／ことになる, ことがある and 〜ようとしてた. | เดินกลับบ้านกับยูกิ ตัมเล่าแผนหลังเรียนจบโรงเรียนภาษา แล้วจอห์นก็วิ่งมาพร้อมข่าวเรื่องหลิน ทุกคนเลยวางแผนไปเยี่ยมที่โรงพยาบาล ฝึกรูปเจตนา 〜よう, 〜ようと思ってる, つもり, 予定, ことにする／ことになる, ことがある และ 〜ようとしてた แบบกันเอง
+--- 帰り道 | On the way home | ระหว่างทางกลับบ้าน
+ゆき*: ねえ、タム。学校を卒業したら、どうするの？国に帰る？ | ねえ、タム。がっこうをそつぎょうしたら、どうするの？くににかえる？ | นี่ ตัม เรียนจบแล้วจะทำอะไร กลับประเทศเหรอ | Hey Tam, what will you do after you finish school? Go back home?
+g: n4.c.tara
+You: ううん、日本で働くつもり。 | ううん、にほんではたらくつもり。 | เปล่า ตั้งใจว่าจะทำงานที่ญี่ปุ่น | No, I plan to work in Japan.
+g: n4.e.tsumori
+note: つもり = a plan you have already made up your mind about. With a friend just end with つもり; politely it becomes つもりです. | つもり ใช้กับแผนที่ตั้งใจไว้แล้วค่อนข้างแน่นอน กับเพื่อนพูดจบแค่ つもり ได้เลย แต่ถ้าพูดสุภาพต้องเป็น つもりです
+ゆき: へえ、そうなんだ。どんな仕事？ | へえ、そうなんだ。どんなしごと？ | อ้อ งั้นเหรอ งานแบบไหนล่ะ | Oh, really? What kind of job?
+You: まだ決まってないけど、旅行会社に入ろうと思ってる。 | まだきまってないけど、りょこうがいしゃにはいろうとおもってる。 | ยังไม่ได้ตัดสินใจ แต่คิดว่าจะเข้าบริษัททัวร์ | Nothing's decided yet, but I'm thinking of joining a travel company.
+g: n4.v.volitional2
+note: 入ろうと思ってる = "I'm thinking of joining". 〜ようと思う is softer than つもり: still an idea, not yet a firm plan. 思ってる is 思っている with the い dropped, as people say it. | 入ろうと思ってる = คิดว่าจะเข้า 〜ようと思う อ่อนกว่า つもり คือยังเป็นแค่ความคิด ยังไม่ใช่แผนที่แน่นอน ส่วน 思ってる คือ 思っている ที่ตัด い ออกตามภาษาพูด
+alt: タイ人のお客さんを案内する仕事をしようと思ってる。 | タイじんのおきゃくさんをあんないするしごとをしようとおもってる。 | คิดว่าจะทำงานพาลูกค้าคนไทยเที่ยว | I'm thinking of a job guiding Thai tourists.
+ゆき: いいじゃん！タムにぴったり。 | いいじゃん！タムにぴったり。 | ดีนี่ เหมาะกับตัมเป๊ะเลย | Nice! That's perfect for you.
+note: いいじゃん = "that's great!" じゃん is very casual, like ね with extra excitement. Never use it with a teacher. | いいじゃん = ดีนี่ じゃん เป็นคำลงท้ายที่กันเองมาก คล้าย ね แต่ตื่นเต้นกว่า ห้ามใช้กับครูหรือผู้ใหญ่
+You: だから、毎朝日本語のニュースを聞くことにしたんだ。 | だから、まいあさにほんごのニュースをきくことにしたんだ。 | ก็เลยตัดสินใจว่าจะฟังข่าวภาษาญี่ปุ่นทุกเช้า | So I decided to listen to the news in Japanese every morning.
+g: n4.e.kotonisuru, n4.e.ndesu
+note: 〜ことにした = "I decided to" (my own choice). Compare ことになった = "it's been decided" (by other people or circumstances). | 〜ことにした = ตัดสินใจเองว่าจะทำ ต่างจาก ことになった ที่หมายถึงเรื่องถูกกำหนดให้เป็นอย่างนั้นโดยคนอื่นหรือสถานการณ์
+ゆき: すごい。ちゃんと続いてる？ | すごい。ちゃんとつづいてる？ | เก่งจัง ทำได้ทุกวันไหม | Wow. Are you keeping it up?
+You: まあね。でも、たまに忘れることもある。 | まあね。でも、たまにわすれることもある。 | ก็ประมาณนั้น แต่บางทีก็ลืมบ้าง | Kind of. But sometimes I forget.
+g: n4.e.kotogaaru
+note: ことがある / こともある = "there are times when…". It goes well with たまに (once in a while). Using も makes it softer: "that happens too". | ことがある / こともある = บางครั้งก็มี… ใช้คู่กับ たまに (บางที) ได้เป็นธรรมชาติมาก ถ้าใช้ も จะฟังนุ่มลง เหมือนบอกว่า ก็มีบ้างเหมือนกัน
+ゆき: 分かる。私も日記を書こうと思ったけど、三日でやめちゃった。 | わかる。わたしもにっきをかこうとおもったけど、みっかでやめちゃった。 | เข้าใจเลย ฉันก็เคยคิดจะเขียนไดอารี่ แต่เลิกไปภายในสามวัน | I know. I meant to keep a diary too, but I gave up after three days.
+g: n4.v.volitional2, n4.t.teshimau
+--- ジョンのニュース | John's news | ข่าวจากจอห์น
+ジョン*: あ、いた！タム、ゆき！今、二人に電話しようとしてたんだ。 | あ、いた！タム、ゆき！いま、ふたりにでんわしようとしてたんだ。 | อ้าว อยู่นี่เอง ตัม ยูกิ เมื่อกี้กำลังจะโทรหาสองคนพอดีเลย | There you are! Tam, Yuki! I was just about to call you two.
+g: n4.e.youtosuru
+note: 〜ようとしてた = "was just about to…". The same pattern also means "tried to…": ドアを開けようとした = I tried to open the door. | 〜ようとしてた = กำลังจะ…อยู่พอดี รูปเดียวกันนี้ยังแปลว่า พยายามจะ… ได้ด้วย เช่น ドアを開けようとした = พยายามจะเปิดประตู
+You: どうしたの？ | どうしたの？ | มีอะไรเหรอ | What's up?
+ジョン*: リンが入院することになったんだって。 | リンがにゅういんすることになったんだって。 | ได้ข่าวว่าหลินต้องเข้าโรงพยาบาล | I heard Lin has to go into hospital.
+g: n4.e.kotonisuru
+note: ことになった, because it wasn't Lin's own choice: the doctor decided it. って at the end means "I heard" (you'll study it properly in lesson 26). | ใช้ ことになった เพราะไม่ใช่หลินตัดสินใจเอง หมอเป็นคนกำหนด ส่วน って ท้ายประโยคแปลว่า ได้ยินมาว่า (จะเรียนละเอียดในบทที่ 26)
+You: えっ、入院？大丈夫なの？ | えっ、にゅういん？だいじょうぶなの？ | ห๊ะ เข้าโรงพยาบาลเหรอ เป็นอะไรมากไหม | What, hospital? Is she OK?
+ジョン: うん、一週間ぐらいの予定だって。 | うん、いっしゅうかんぐらいのよていだって。 | อืม เห็นว่ากำหนดไว้ประมาณอาทิตย์นึง | Yeah, it's supposed to be about a week.
+g: n4.e.yotei
+note: N + の予定 = "scheduled to be / planned for N". 予定 is for fixed schedules; つもり is for your own intention. | N + の予定 = มีกำหนดว่า… 予定 ใช้กับตารางที่กำหนดไว้แล้ว ส่วน つもり ใช้กับความตั้งใจของตัวเอง
+ゆき: そっか…。じゃあ、みんなでお見舞いに行こうよ。 | そっか…。じゃあ、みんなでおみまいにいこうよ。 | งั้นเหรอ… งั้นไปเยี่ยมกันทุกคนเถอะ | I see… Then let's all go and visit her.
+g: n4.v.volitional
+note: 行こう is the plain form of 行きましょう. Friends use it all the time; よ makes the suggestion a bit stronger. | 行こう คือรูปธรรมดาของ 行きましょう เพื่อนกันใช้ตลอด เติม よ ทำให้ชวนหนักแน่นขึ้นอีกนิด
+You: うん、行こう！土曜日はどう？ | うん、いこう！どようびはどう？ | อืม ไปกัน วันเสาร์เป็นไง | Yeah, let's go! How about Saturday?
+g: n4.v.volitional
+ジョン: 土曜日はバイトだから、俺は日曜日に行くつもり。 | どようびはバイトだから、おれはにちようびにいくつもり。 | วันเสาร์ฉันมีงานพาร์ทไทม์ เลยว่าจะไปวันอาทิตย์ | I've got work on Saturday, so I'm planning to go on Sunday.
+g: n4.e.tsumori
+ゆき: じゃあ、タムと私は土曜日に行こうか。 | じゃあ、タムとわたしはどようびにいこうか。 | งั้นตัมกับฉันไปวันเสาร์กันไหม | Then shall Tam and I go on Saturday?
+g: n4.v.volitional
+note: 〜ようか = "shall we…?", the casual form of 〜ましょうか. | 〜ようか = …กันไหม เป็นรูปกันเองของ 〜ましょうか
+You: うん。何か持っていこうと思うんだけど、何がいいかな。 | うん。なにかもっていこうとおもうんだけど、なにがいいかな。 | ได้ ว่าจะเอาอะไรไปฝากสักหน่อย เอาอะไรดีนะ | Sure. I'm thinking of taking something. What would be good?
+g: n4.v.volitional2, n4.e.kana
+ゆき: リン、果物が好きだから、果物にしよう。 | リン、くだものがすきだから、くだものにしよう。 | หลินชอบผลไม้ เอาผลไม้ไปละกัน | Lin likes fruit, so let's get fruit.
+g: n4.v.volitional, n5.e.suru
+You: いいね。じゃあ、駅前で買っていくことにしよう。 | いいね。じゃあ、えきまえでかっていくことにしよう。 | ดีเลย งั้นตกลงซื้อที่หน้าสถานีก่อนไปนะ | Good. Then let's buy some in front of the station on the way.
+g: n4.e.kotonisuru, n4.v.volitional
+note: ことにしよう = "let's decide to…/let's go with…". Volitional + ことにする is a handy way to settle a plan with friends. | ことにしよう = ตกลงว่า…กันเถอะ เอารูปเจตนามารวมกับ ことにする เป็นวิธีสรุปแผนกับเพื่อนที่ใช้บ่อยมาก
+
+@scene l21_polite
+title: 卒業後の予定
+en: Plans after graduation (with the teacher)
+th: แผนหลังเรียนจบ (กับครู)
+glyph: 志
+level: n4
+place: people
+lesson: 21
+register: polite
+pair: l21
+about: Tam drops by the staff room just as Ms Yamada was about to call him in to ask about his plans after graduation. Then John walks in with news about Lin. Polite 〜ようと思っています, つもりです, 予定です, ことにしました／ことになりました, ことがあります and 〜ようとしていたところです. | ตัมแวะไปห้องพักครูพอดีกับที่ครูยามาดะกำลังจะเรียกเขามาถามแผนหลังเรียนจบ แล้วจอห์นก็เดินเข้ามาพร้อมข่าวเรื่องหลิน ฝึก 〜ようと思っています, つもりです, 予定です, ことにしました／ことになりました, ことがあります และ 〜ようとしていたところです แบบสุภาพ
+--- 職員室で | In the staff room | ในห้องพักครู
+You: 失礼します。先生、宿題を出しに来ました。 | しつれいします。せんせい、しゅくだいをだしにきました。 | ขออนุญาตครับ อาจารย์ครับ ผมมาส่งการบ้านครับ | Excuse me, sensei. I've come to hand in my homework.
+note: 失礼します is what you say as you enter a staff room. 〜に来ました = "I've come to…": Vます stem + に shows the purpose of coming. | 失礼します พูดตอนเข้าห้องพักครู ส่วน 〜に来ました = "มาเพื่อ…" ใช้ Vตัดます + に บอกจุดประสงค์ที่มา
+山田先生*: ああ、タムさん。ちょうど呼ぼうとしていたところです。 | ああ、タムさん。ちょうどよぼうとしていたところです。 | อ้อ ตัม ครูกำลังจะเรียกพอดีเลย | Ah, Tam. I was just about to call you.
+g: n4.e.youtosuru, n4.e.tokoro
+note: 〜ようとしていたところです = "I was just about to…". The polite version of John's 電話しようとしてたんだ. | 〜ようとしていたところです = กำลังจะ…อยู่พอดี เป็นรูปสุภาพของ 電話しようとしてたんだ ที่จอห์นพูดกับเพื่อน
+山田先生: 来年の三月に卒業する予定ですね。卒業したら、どうするつもりですか。 | らいねんのさんがつにそつぎょうするよていですね。そつぎょうしたら、どうするつもりですか。 | ตัมมีกำหนดจะจบเดือนมีนาคมปีหน้าใช่ไหม จบแล้วตั้งใจจะทำอะไร | You're due to graduate next March, right? What do you intend to do after that?
+g: n4.e.yotei, n4.e.tsumori
+note: A teacher can ask どうするつもりですか, but asking a superior about their つもり sounds pushy. To them say ご予定は？ instead. | ครูถามนักเรียนว่า どうするつもりですか ได้ แต่ถ้าเราถามผู้ใหญ่เรื่อง つもり จะฟังเหมือนจี้ถาม ควรถามว่า ご予定は？ แทน
+You: 日本で働こうと思っています。 | にほんではたらこうとおもっています。 | ผมคิดว่าจะทำงานที่ญี่ปุ่นครับ | I'm thinking of working in Japan.
+g: n4.v.volitional2
+note: To a teacher use 〜ようと思っています: polite, and it shows you've been thinking about it for a while. With a friend: 〜ようと思ってる. | กับครูใช้ 〜ようと思っています ทั้งสุภาพและฟังว่าคิดมาสักพักแล้ว ถ้ากับเพื่อนจะพูดว่า 〜ようと思ってる
+alt: 日本で働くつもりです。 | にほんではたらくつもりです。 | ผมตั้งใจจะทำงานที่ญี่ปุ่นครับ | I plan to work in Japan.
+山田先生: そうですか。どんな仕事がしたいんですか。 | そうですか。どんなしごとがしたいんですか。 | อย่างนั้นเหรอ อยากทำงานแบบไหน | I see. What kind of work would you like to do?
+You: 旅行会社で、タイから来るお客さんを案内する仕事がしたいです。 | りょこうがいしゃで、タイからくるおきゃくさんをあんないするしごとがしたいです。 | อยากทำงานบริษัททัวร์ พาลูกค้าที่มาจากไทยเที่ยวครับ | I'd like to work at a travel company, guiding visitors from Thailand.
+g: n5.e.tai
+You: それで、毎朝日本語のニュースを聞くことにしました。 | それで、まいあさにほんごのニュースをきくことにしました。 | ก็เลยตัดสินใจฟังข่าวภาษาญี่ปุ่นทุกเช้าครับ | So I've decided to listen to the Japanese news every morning.
+g: n4.e.kotonisuru
+山田先生*: いいですね。でも、仕事では敬語をたくさん使いますよ。 | いいですね。でも、しごとではけいごをたくさんつかいますよ。 | ดีมาก แต่ในที่ทำงานต้องใช้ภาษาสุภาพ (เคโกะ) เยอะนะ | Good. But at work you'll use a lot of keigo.
+note: 敬語 (けいご) = honorific, very polite Japanese. You'll learn it in lesson 32. | 敬語 (けいご) = ภาษาสุภาพแบบยกย่องและถ่อมตน จะได้เรียนในบทที่ 32
+You: はい。敬語はまだ難しくて、間違えることがよくあります。 | はい。けいごはまだむずかしくて、まちがえることがよくあります。 | ครับ เคโกะยังยากอยู่ ผมพูดผิดบ่อยครับ | Yes. Keigo is still hard for me, and I often make mistakes.
+g: n4.e.kotogaaru
+note: ことがよくあります = "it often happens that…". You can swap よく for たまに (now and then) or 時々 (sometimes). | ことがよくあります = …บ่อยๆ เปลี่ยน よく เป็น たまに (นานๆ ที) หรือ 時々 (บางครั้ง) ก็ได้
+山田先生: 大丈夫ですよ。再来週から、授業で敬語を練習する予定です。 | だいじょうぶですよ。さらいしゅうから、じゅぎょうでけいごをれんしゅうするよていです。 | ไม่เป็นไร อีกสองอาทิตย์ข้างหน้าในชั้นเรียนมีกำหนดจะฝึกเคโกะ | Don't worry. We're scheduled to practise keigo in class from the week after next.
+g: n4.e.yotei
+--- ジョンのニュース | John's news | ข่าวจากจอห์น
+ジョン*: 失礼します。先生、タムさん、大変です！ | しつれいします。せんせい、タムさん、たいへんです！ | ขออนุญาตครับ อาจารย์ ตัม แย่แล้วครับ | Excuse me. Sensei, Tam, something's happened!
+山田先生: ジョンさん、どうしたんですか。 | ジョンさん、どうしたんですか。 | จอห์น เกิดอะไรขึ้น | John, what's the matter?
+ジョン*: リンさんが入院することになりました。 | リンさんがにゅういんすることになりました。 | หลินต้องเข้าโรงพยาบาลครับ | Lin has to go into hospital.
+g: n4.e.kotonisuru
+note: 〜ことになりました is the usual way to announce news that was decided for you: 四月から大阪で働くことになりました. | 〜ことになりました ใช้แจ้งข่าวเรื่องที่ถูกกำหนดมาแล้ว เช่น 四月から大阪で働くことになりました = ได้ไปทำงานที่โอซาก้าตั้งแต่เดือนเมษายน
+You: えっ、本当ですか。大丈夫でしょうか。 | えっ、ほんとうですか。だいじょうぶでしょうか。 | ห๊ะ จริงเหรอครับ จะเป็นอะไรมากไหมครับ | What, really? Will she be all right?
+ジョン: 一週間ぐらいの予定だと言っていました。 | いっしゅうかんぐらいのよていだといっていました。 | เขาบอกว่ากำหนดไว้ประมาณหนึ่งอาทิตย์ครับ | She said it's planned for about a week.
+g: n4.e.yotei
+You: それなら、今度の土曜日にお見舞いに行こうと思います。 | それなら、こんどのどようびにおみまいにいこうとおもいます。 | ถ้าอย่างนั้น เสาร์นี้ผมคิดว่าจะไปเยี่ยมครับ | In that case, I'm thinking of visiting her this Saturday.
+g: n4.v.volitional2
+山田先生: 私も一緒に行こうかな。何時ごろがいいですか。 | わたしもいっしょにいこうかな。なんじごろがいいですか。 | ครูไปด้วยดีไหมนะ ประมาณกี่โมงดี | Maybe I'll come too. What time would be good?
+g: n4.v.volitional, n4.e.kana
+note: 行こうかな = "maybe I'll go". Volitional + かな is thinking out loud, so even a teacher speaking politely slips into the plain form. | 行こうかな = ไปดีไหมนะ รูปเจตนา + かな คือการคิดออกมาดังๆ ถึงจะพูดสุภาพอยู่ ครูก็ใช้รูปธรรมดาตรงนี้ได้
+You: 十時ごろはいかがでしょうか。 | じゅうじごろはいかがでしょうか。 | ประมาณสิบโมงสะดวกไหมครับ | Would around ten o'clock be all right?
+g: n4.e.goro
+山田先生: いいですよ。では、土曜日の十時に病院の前で会うことにしましょう。 | いいですよ。では、どようびのじゅうじにびょういんのまえであうことにしましょう。 | ได้ งั้นตกลงเจอกันหน้าโรงพยาบาลวันเสาร์สิบโมงนะ | Fine. Then let's meet in front of the hospital at ten on Saturday.
+g: n4.e.kotonisuru, n5.v.invite
+note: ことにしましょう is the polite version of ことにしよう: "let's settle on…". | ことにしましょう เป็นรูปสุภาพของ ことにしよう = ตกลงว่า…กันนะ

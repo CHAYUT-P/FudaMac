@@ -1,0 +1,108 @@
+@scene l16_casual
+title: 明日、試験でしょ？
+en: Your exam's tomorrow, right? (with a friend)
+th: พรุ่งนี้สอบใช่มั้ย (กับเพื่อน)
+glyph: 十六
+level: n4
+place: daily
+lesson: 16
+register: casual
+pair: l16
+about: The evening before Tam's exam, Yuki drops by with cake. Bought-and-brought 〜てくる, things stuck up 〜てある, prepared 〜ておく, oops 〜ちゃう, and doing two things at once with 〜ながら. | เย็นก่อนวันสอบของตัม ยูกิแวะมาพร้อมเค้ก ฝึก 〜てくる (ซื้อแล้วถือมา) 〜てある (ติดไว้แล้ว) 〜ておく (เตรียมไว้) 〜ちゃう (เผลอทำ) และ 〜ながら ทำสองอย่างพร้อมกัน
+--- 差し入れ | A little treat | ของฝาก
+ゆき: タム、入るよー。はい、これ。 | タム、はいるよー。はい、これ。 | ตัม เข้าไปนะ นี่ อันนี้ให้ | Tam, coming in! Here, this is for you.
+You: わあ、何？ | わあ、なに？ | ว้าว อะไรเนี่ย | Ooh, what is it?
+ゆき*: ケーキ。駅の前の店で買ってきたよ。 | ケーキ。えきのまえのみせでかってきたよ。 | เค้ก ซื้อมาจากร้านหน้าสถานีน่ะ | Cake. I picked it up at the shop in front of the station.
+g: n4.t.tekuru
+note: 買ってきた = "went, bought it, and came here with it". 〜てくる often means "do … and come back". | 買ってきた = "ไปซื้อแล้วถือมา" 〜てくる มักหมายถึง "ไปทำ…แล้วกลับมา"
+You: やった！ありがとう。勉強しながら食べてもいい？ | やった！ありがとう。べんきょうしながらたべてもいい？ | เย้! ขอบคุณนะ กินไปอ่านหนังสือไปได้มั้ย | Yay! Thanks. Can I eat it while I study?
+g: n4.t.nagara, n5.t.temoii
+note: Verb stem + ながら = doing two things at once. The main action comes last: 勉強しながら食べる = "eat while studying". | ก้านกริยา + ながら = ทำสองอย่างไปพร้อมกัน กริยาหลักอยู่ท้ายประโยค 勉強しながら食べる = "กินไปด้วยเรียนไปด้วย"
+ゆき*: もちろん。わあ、壁に紙がたくさん貼ってあるね。 | もちろん。わあ、かべにかみがたくさんはってあるね。 | ได้สิ ว้าว ติดกระดาษไว้บนผนังเต็มเลย | Sure. Whoa, you've got loads of papers stuck on the wall.
+g: n4.t.tearu
+note: 〜てある = someone did it on purpose and it stays that way: 貼ってある = "has been stuck up". Note the が／に pattern: 壁に紙が貼ってある. | 〜てある = มีคนตั้งใจทำไว้และยังอยู่ในสภาพนั้น 貼ってある = "ติดไว้แล้ว" สังเกตรูป 壁に紙が貼ってある ที่ใช้ が
+You: 漢字の紙だよ。毎日、見ながら覚えてるんだ。 | かんじのかみだよ。まいにち、みながらおぼえてるんだ。 | กระดาษคันจิน่ะ ดูไปด้วยจำไปด้วยทุกวันเลย | They're kanji sheets. I look at them every day to memorise them.
+g: n4.t.nagara, n4.e.ndesu
+--- 明日の試験 | Tomorrow's exam | การสอบพรุ่งนี้
+ゆき: 明日の試験、どう？ | あしたのしけん、どう？ | สอบพรุ่งนี้เป็นไงบ้าง | How's it looking for tomorrow's exam?
+You: 漢字と言葉は、もう全部復習しといた。 | かんじとことばは、もうぜんぶふくしゅうしといた。 | คันจิกับคำศัพท์ทบทวนไว้หมดแล้ว | I've already reviewed all the kanji and vocab.
+g: n4.t.teoku
+note: 〜ておく = do something in advance, to be ready. In speech it shrinks to 〜とく: 復習しといた = 復習しておいた, "reviewed (ahead of the exam)". | 〜ておく = ทำไว้ล่วงหน้าเพื่อเตรียมพร้อม ภาษาพูดย่อเป็น 〜とく เช่น 復習しといた = 復習しておいた แปลว่า "ทบทวนเตรียมไว้แล้ว"
+You: でも、さっき二時間も寝ちゃった…。 | でも、さっきにじかんもねちゃった…。 | แต่เมื่อกี้เผลอหลับไปตั้งสองชั่วโมง… | But just now I accidentally slept for two whole hours…
+g: n4.t.teshimau
+note: 〜ちゃう／〜ちゃった is the spoken form of 〜てしまう／〜てしまった: "ended up doing (oops)". | 〜ちゃう／〜ちゃった คือรูปภาษาพูดของ 〜てしまう／〜てしまった แปลว่า "เผลอ…ไป (แย่จัง)"
+ゆき: えー！でも、タムの日本語、最近すごく上手になってきたよ。 | えー！でも、タムのにほんご、さいきんすごくじょうずになってきたよ。 | ห๊ะ! แต่ภาษาญี่ปุ่นของตัมช่วงนี้เก่งขึ้นเยอะเลยนะ | No way! But your Japanese has been getting really good lately.
+g: n4.t.tekuru
+note: 〜てきた = a change that has been happening up to now: 上手になってきた = "has been getting better". | 〜てきた = การเปลี่ยนแปลงที่ค่อยๆ เกิดขึ้นมาจนถึงตอนนี้ 上手になってきた = "เก่งขึ้นมาเรื่อยๆ"
+You: 本当？でも、これから文法がどんどん難しくなっていくよね。 | ほんとう？でも、これからぶんぽうがどんどんむずかしくなっていくよね。 | จริงเหรอ แต่ต่อจากนี้ไวยากรณ์ก็จะยากขึ้นเรื่อยๆ ใช่มั้ย | Really? But from now on the grammar's going to keep getting harder, right?
+g: n4.t.tekuru, n5.p.yone
+note: 〜ていく points the other way in time: a change that will go on from now. | 〜ていく ชี้ไปอีกทางของเวลา คือการเปลี่ยนแปลงที่จะดำเนินต่อไปจากนี้
+ゆき*: 大丈夫だよ。じゃあ、私が質問するから、答えてみて。 | だいじょうぶだよ。じゃあ、わたしがしつもんするから、こたえてみて。 | ไม่เป็นไรหรอก งั้นเดี๋ยวฉันถาม ลองตอบดูนะ | You'll be fine. OK, I'll ask you questions, so try answering.
+g: n4.t.temiru
+note: 〜てみる = "try doing (and see)". 答えてみて = "give it a try". | 〜てみる = "ลองทำดู" 答えてみて = "ลองตอบดูสิ"
+You: よし、やってみる！ | よし、やってみる！ | โอเค ลองดู! | OK, I'll give it a go!
+g: n4.t.temiru
+--- 準備 | Getting ready | เตรียมตัว
+ゆき: あ、その前に。目覚まし、かけてある？ | あ、そのまえに。めざまし、かけてある？ | อ้อ ก่อนอื่น ตั้งนาฬิกาปลุกไว้รึยัง | Oh, before that. Is your alarm set?
+g: n4.t.tearu
+note: かけてある = "has been set (and is ready)". Checking that something is prepared is a classic use of 〜てある. | かけてある = "ตั้งไว้แล้ว (พร้อมใช้)" การถามว่าเตรียมอะไรไว้แล้วหรือยังเป็นการใช้ 〜てある แบบคลาสสิก
+You: うん、六時にかけてある。鉛筆も、もうかばんに入れといたよ。 | うん、ろくじにかけてある。えんぴつも、もうかばんにいれといたよ。 | อืม ตั้งไว้หกโมงแล้ว ดินสอก็ใส่กระเป๋าไว้แล้วด้วย | Yep, it's set for six. And I've already put my pencils in my bag.
+g: n4.t.tearu, n4.t.teoku
+alt: うん、大丈夫。六時にかけてあるよ。 | うん、だいじょうぶ。ろくじにかけてあるよ。 | อืม ไม่ต้องห่วง ตั้งไว้หกโมงแล้ว | Yeah, don't worry. It's set for six.
+ゆき*: さすが！じゃあ、ケーキを全部食べちゃう前に、始めよう。 | さすが！じゃあ、ケーキをぜんぶたべちゃうまえに、はじめよう。 | สมกับเป็นตัม! งั้นเริ่มกันก่อนที่จะเผลอกินเค้กหมดนะ | Nice one! OK, let's start before we end up eating all the cake.
+g: n4.t.teshimau
+note: 食べちゃう here = "end up eating it all". 始めよう is the casual "let's…" (plain form of 始めましょう). | 食べちゃう ตรงนี้ = "เผลอกินหมดเกลี้ยง" ส่วน 始めよう คือ "…กันเถอะ" แบบกันเอง (รูปธรรมดาของ 始めましょう)
+
+@scene l16_polite
+title: 明日、試験なんです
+en: My exam's tomorrow (with your landlady)
+th: พรุ่งนี้ผมสอบครับ (กับเจ้าของห้องเช่า)
+glyph: 十六
+level: n4
+place: daily
+lesson: 16
+register: polite
+pair: l16
+about: The evening before the exam, Tam's landlady Mrs Sato knocks with a bag of apples. The same 〜て forms in full polite style: 〜てあります, 〜ておきました, 〜てしまいました, 〜ていきます. | เย็นก่อนวันสอบ คุณซาโตะเจ้าของห้องเช่ามาเคาะประตูพร้อมแอปเปิ้ล ฝึกรูป 〜て ชุดเดียวกันแบบสุภาพเต็มรูป: 〜てあります 〜ておきました 〜てしまいました 〜ていきます
+role: 大家さん | Landlady (Mrs Sato) | คุณซาโตะ (เจ้าของห้องเช่า)
+--- ドアの前で | At the door | หน้าประตู
+大家さん: タムさん、こんばんは。大家の佐藤です。 | タムさん、こんばんは。おおやのさとうです。 | ตัม สวัสดีจ้ะ ซาโตะ เจ้าของห้องเช่านะ | Good evening, Tam. It's Sato, your landlady.
+You: あ、佐藤さん、こんばんは。 | あ、さとうさん、こんばんは。 | อ้อ คุณซาโตะ สวัสดีครับ | Oh, Mrs Sato, good evening.
+大家さん*: 田舎の姉がりんごを送ってきたんです。少しどうぞ。 | いなかのあねがりんごをおくってきたんです。すこしどうぞ。 | พี่สาวที่ต่างจังหวัดส่งแอปเปิ้ลมาให้ แบ่งให้นิดหน่อยนะจ๊ะ | My sister in the countryside sent me apples. Have a few.
+g: n4.t.tekuru, n4.e.ndesu
+note: 送ってきた = "sent (here, to me)". 〜てくる shows the action moving toward the speaker. | 送ってきた = "ส่งมา(ถึงฉัน)" 〜てくる บอกว่าการกระทำมีทิศทางเข้าหาผู้พูด
+You: わあ、ありがとうございます。いただきます。 | わあ、ありがとうございます。いただきます。 | ว้าว ขอบคุณมากครับ รับไว้นะครับ | Oh, thank you so much. I'll gladly take them.
+note: いただきます here = "I'll gratefully accept", not only the word before meals. | いただきます ตรงนี้แปลว่า "ขอรับไว้ด้วยความยินดี" ไม่ได้ใช้แค่ก่อนกินข้าว
+大家さん: あら、お勉強中でしたか。 | あら、おべんきょうちゅうでしたか。 | อ้าว กำลังอ่านหนังสืออยู่เหรอจ๊ะ | Oh, were you studying?
+You: はい。明日、試験があるので、今日はずっと勉強しています。 | はい。あした、しけんがあるので、きょうはずっとべんきょうしています。 | ครับ พรุ่งนี้มีสอบ วันนี้เลยอ่านหนังสือทั้งวันเลยครับ | Yes. I have an exam tomorrow, so I've been studying all day.
+g: n5.e.node
+大家さん: 机の上に、辞書やノートがたくさん置いてありますね。 | つくえのうえに、じしょやノートがたくさんおいてありますね。 | บนโต๊ะวางพจนานุกรมกับสมุดไว้เต็มเลยนะจ๊ะ | You've got lots of dictionaries and notebooks out on your desk.
+g: n4.t.tearu, n5.p.ya
+note: Polite 〜てあります works just like casual 〜てある: 置いてあります = "have been laid out". | 〜てあります แบบสุภาพใช้เหมือน 〜てある แบบกันเอง 置いてあります = "วางไว้แล้ว"
+You: はい。昨日、必要なものを全部出しておきました。 | はい。きのう、ひつようなものをぜんぶだしておきました。 | ครับ เมื่อวานเอาของที่ต้องใช้ออกมาเตรียมไว้หมดแล้วครับ | Yes. Yesterday I got out everything I'd need, ready.
+g: n4.t.teoku
+--- 試験の話 | About the exam | เรื่องการสอบ
+大家さん: 準備はもう大丈夫ですか。 | じゅんびはもうだいじょうぶですか。 | เตรียมตัวพร้อมแล้วหรือยังจ๊ะ | Are you all ready?
+You: 漢字は覚えておきましたが、文法がまだ少し心配です。 | かんじはおぼえておきましたが、ぶんぽうがまだすこししんぱいです。 | คันจิจำไว้แล้วครับ แต่ไวยากรณ์ยังกังวลอยู่นิดหน่อย | I've learned the kanji, but I'm still a bit worried about grammar.
+g: n4.t.teoku, n5.e.ga_kedo
+You: それに、さっき二時間も寝てしまいました。 | それに、さっきにじかんもねてしまいました。 | แถมเมื่อกี้ยังเผลอหลับไปตั้งสองชั่วโมงด้วยครับ | And on top of that, I accidentally slept for two hours just now.
+g: n4.t.teshimau, n5.e.conj
+note: In polite speech keep the full form 寝てしまいました. ちゃった is only for friends. | ในภาษาสุภาพใช้รูปเต็ม 寝てしまいました ส่วน ちゃった ใช้กับเพื่อนเท่านั้น
+大家さん: あらあら。でも、タムさんの日本語、最近とても上手になってきましたよ。 | あらあら。でも、タムさんのにほんご、さいきんとてもじょうずになってきましたよ。 | ตายจริง แต่ภาษาญี่ปุ่นของตัมช่วงนี้เก่งขึ้นมากเลยนะจ๊ะ | Oh dear. But your Japanese has been getting very good lately.
+g: n4.t.tekuru
+You: ありがとうございます。これからも毎日少しずつ勉強していきます。 | ありがとうございます。これからもまいにちすこしずつべんきょうしていきます。 | ขอบคุณครับ ต่อจากนี้ก็จะเรียนทุกวันทีละนิดต่อไปครับ | Thank you. I'll keep studying a little every day from now on.
+g: n4.t.tekuru
+note: 〜ていきます = "will keep on doing from now". A nice, modest way to state a goal. | 〜ていきます = "จะทำต่อไปเรื่อยๆ จากนี้" เป็นวิธีบอกเป้าหมายแบบถ่อมตัวที่ฟังดี
+大家さん*: りんごを食べながら、頑張ってくださいね。 | りんごをたべながら、がんばってくださいね。 | กินแอปเปิ้ลไปด้วย แล้วก็สู้ๆ นะจ๊ะ | Have some apples while you study, and do your best.
+g: n4.t.nagara
+You: はい。今、一つ食べてみます。 | はい。いま、ひとつたべてみます。 | ครับ เดี๋ยวจะลองกินสักลูกเลยครับ | I will. I'll try one right now.
+g: n4.t.temiru
+--- おやすみなさい | Good night | ราตรีสวัสดิ์
+大家さん*: あ、目覚まし時計はかけてありますか。 | あ、めざましどけいはかけてありますか。 | อ้อ ตั้งนาฬิกาปลุกไว้แล้วหรือยังจ๊ะ | Oh, have you set your alarm clock?
+g: n4.t.tearu
+You*: はい、六時にかけてあります。 | はい、ろくじにかけてあります。 | ครับ ตั้งไว้หกโมงแล้วครับ | Yes, it's set for six.
+g: n4.t.tearu
+大家さん: それなら安心ですね。じゃ、お邪魔しました。 | それならあんしんですね。じゃ、おじゃましました。 | ถ้างั้นก็สบายใจได้ ขอโทษที่มารบกวนนะจ๊ะ | Then you're all set. Well, sorry to have disturbed you.
+note: お邪魔しました = "sorry for the intrusion": said when leaving someone's home, or after interrupting them. | お邪魔しました = "ขอโทษที่รบกวน" พูดตอนจะกลับจากบ้านคนอื่น หรือหลังจากเข้ามารบกวนเขา
+You: わざわざありがとうございました。おやすみなさい。 | わざわざありがとうございました。おやすみなさい。 | ขอบคุณมากนะครับที่อุตส่าห์แวะมา ราตรีสวัสดิ์ครับ | Thank you for taking the trouble. Good night.
+note: わざわざ = "going out of your way". It makes your thanks sound warm and sincere. | わざわざ = "อุตส่าห์" ช่วยให้คำขอบคุณฟังอบอุ่นและจริงใจขึ้น

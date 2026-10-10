@@ -1,0 +1,90 @@
+@scene l17_casual
+title: 誕生日、おめでとう！
+en: Happy birthday! (with friends)
+th: สุขสันต์วันเกิด (กับเพื่อน)
+glyph: 祝
+level: n4
+place: people
+lesson: 17
+register: casual
+pair: l17
+about: A surprise birthday for Tam at a café with Yuki, Lin and John. Who did what for whom: 〜てくれる, 〜てもらう, 〜てあげる; what you want others to do: 〜てほしい; and a polite 〜ていただけますか to the staff. | ปาร์ตี้วันเกิดเซอร์ไพรส์ของตัมที่ร้านกาแฟกับยูกิ หลิน และจอห์น ฝึกบอกว่าใครทำอะไรให้ใคร (〜てくれる 〜てもらう 〜てあげる) บอกว่าอยากให้คนอื่นทำอะไรด้วย 〜てほしい และขอร้องพนักงานอย่างสุภาพด้วย 〜ていただけますか
+--- サプライズ | The surprise | เซอร์ไพรส์
+ゆき: タム、こっちこっち！ | タム、こっちこっち！ | ตัม ทางนี้ๆ | Tam, over here!
+ジョン: せーの、タム、誕生日おめでとう！ | せーの、タム、たんじょうびおめでとう！ | หนึ่ง สอง สาม… ตัม สุขสันต์วันเกิด! | One, two… Happy birthday, Tam!
+You: えっ、リンとジョンも？全然知らなかった！ | えっ、リンとジョンも？ぜんぜんしらなかった！ | เอ๊ะ หลินกับจอห์นก็มาด้วยเหรอ ไม่รู้เลย! | What, Lin and John too? I had no idea!
+ゆき*: リンがこの店を予約してくれたんだよ。 | リンがこのみせをよやくしてくれたんだよ。 | หลินเป็นคนจองร้านนี้ให้นะ | Lin booked this place for us.
+g: n4.t.teageru
+note: 〜てくれる = someone does something for me (or for "us"). Yuki counts herself on Tam's side, so Lin did it "for us". | 〜てくれる = มีคนทำอะไรให้เรา (หรือให้ฝั่งเรา) ยูกินับตัวเองอยู่ฝั่งเดียวกับตัม เลยพูดว่าหลินจองร้านให้ "พวกเรา"
+You: 本当？みんな、ありがとう。めっちゃうれしい！ | ほんとう？みんな、ありがとう。めっちゃうれしい！ | จริงเหรอ ขอบคุณทุกคนนะ ดีใจสุดๆ เลย! | Really? Thanks, everyone. I'm so happy!
+note: めっちゃ = "super / really", very common with friends. Never use it with a teacher. | めっちゃ = "มากๆ / สุดๆ" ใช้บ่อยมากกับเพื่อน แต่ห้ามใช้กับครูหรือผู้ใหญ่
+リン: はい、これ、プレゼント。ゆきが選んでくれたの。 | はい、これ、プレゼント。ゆきがえらんでくれたの。 | นี่ ของขวัญ ยูกิเป็นคนเลือกให้นะ | Here, a present. Yuki picked it out.
+g: n4.t.teageru
+--- 試験の話 | Talking about the exam | คุยเรื่องสอบ
+ジョン: そういえば、タム、試験どうだった？ | そういえば、タム、しけんどうだった？ | ว่าแต่ ตัม สอบเป็นไงบ้าง | By the way, Tam, how did the exam go?
+You: ゆきに文法を教えてもらったおかげで、点、けっこうよかったよ。 | ゆきにぶんぽうをおしえてもらったおかげで、てん、けっこうよかったよ。 | ได้ยูกิช่วยสอนไวยากรณ์ให้ คะแนนเลยออกมาดีเลยแหละ | Thanks to Yuki teaching me grammar, my score was pretty good.
+g: n4.t.teageru
+note: 〜てもらう = I receive a favour. The person who helps takes に: ゆきに教えてもらった = "I got Yuki to teach me". おかげで = "thanks to". | 〜てもらう = เราได้รับความช่วยเหลือ คนที่ช่วยใช้ に เช่น ゆきに教えてもらった = "ได้ยูกิสอนให้" ส่วน おかげで แปลว่า "ต้องขอบคุณที่…/เพราะได้…"
+ゆき*: よかったね！じゃ、次は会話の練習に付き合ってあげるよ。 | よかったね！じゃ、つぎはかいわのれんしゅうにつきあってあげるよ。 | ดีจัง! งั้นคราวหน้าจะเป็นคู่ฝึกบทสนทนาให้นะ | Great! Next time I'll be your conversation practice partner.
+g: n4.t.teageru
+note: 〜てあげる = I do something for you. Fine between friends, but to a teacher or boss it sounds like you're doing them a big favour. | 〜てあげる = เราทำให้เขา ใช้กับเพื่อนได้ แต่ถ้าใช้กับครูหรือหัวหน้า จะฟังเหมือนเราไปมีบุญคุณกับเขา ฟังไม่สุภาพ
+ジョン: いいなあ。おれもゆきに発音、見てほしいな。 | いいなあ。おれもゆきにはつおん、みてほしいな。 | ดีจัง ฉันก็อยากให้ยูกิช่วยดูการออกเสียงให้บ้าง | Lucky. I want Yuki to check my pronunciation too.
+g: n4.t.tehoshii
+note: (person)に + Vて + ほしい = "I want (someone) to do". Compare: 〜たい is what I want to do myself. | (คน)に + Vて + ほしい = "อยากให้(ใคร)ทำ…" ต่างจาก 〜たい ที่หมายถึงตัวเราอยากทำเอง
+ゆき: いいよ。でも、ジョンはちゃんと予習してきてほしいな。 | いいよ。でも、ジョンはちゃんとよしゅうしてきてほしいな。 | ได้สิ แต่จอห์นต้องเตรียมตัวมาให้ดีๆ ก่อนนะ | Sure. But John, I'd like you to actually prepare first.
+g: n4.t.tehoshii
+ジョン: はーい…。 | はーい…。 | คร้าบ… | Okaaay…
+--- 写真 | A photo | ถ่ายรูป
+You: ねえ、四人で写真撮りたいな。誰かに撮ってほしいけど…。 | ねえ、よにんでしゃしんとりたいな。だれかにとってほしいけど…。 | นี่ อยากถ่ายรูปสี่คนด้วยกันจัง อยากให้ใครสักคนถ่ายให้… | Hey, I want a photo of the four of us. I wish someone could take it…
+g: n4.t.tehoshii
+リン: お店の人に頼んでみようよ。 | おみせのひとにたのんでみようよ。 | ลองขอพนักงานดูสิ | Let's ask the staff.
+You*: すみません、写真を撮っていただけますか。 | すみません、しゃしんをとっていただけますか。 | ขอโทษครับ รบกวนช่วยถ่ายรูปให้หน่อยได้ไหมครับ | Excuse me, could you take our picture, please?
+g: n4.t.request
+note: Tam switches to polite for the staff. 〜ていただけますか is a very polite "could you please…?". Friends would just say 撮ってくれる？ | ตัมเปลี่ยนเป็นภาษาสุภาพตอนพูดกับพนักงาน 〜ていただけますか = "รบกวนช่วย…ได้ไหม" แบบสุภาพมาก ถ้าพูดกับเพื่อนแค่ 撮ってくれる？ ก็พอ
+alt: すみません、写真を撮ってもらえませんか。 | すみません、しゃしんをとってもらえませんか。 | ขอโทษครับ ช่วยถ่ายรูปให้หน่อยได้ไหมครับ | Excuse me, could you take a picture for us?
+店員: いいですよ。はい、撮りまーす。 | いいですよ。はい、とりまーす。 | ได้ค่ะ จะถ่ายแล้วนะคะ | Sure. OK, here goes!
+ゆき*: タム、あとでその写真、送ってもらえる？ | タム、あとでそのしゃしん、おくってもらえる？ | ตัม เดี๋ยวส่งรูปนั้นมาให้หน่อยได้ไหม | Tam, can you send me that photo later?
+g: n4.t.request
+note: 〜てもらえる？ is the casual version of 〜てもらえませんか. Friendly and soft. | 〜てもらえる？ คือแบบกันเองของ 〜てもらえませんか ฟังนุ่มและเป็นกันเอง
+You: うん、すぐ送るね。みんな、今日は本当にありがとう！ | うん、すぐおくるね。みんな、きょうはほんとうにありがとう！ | ได้ เดี๋ยวส่งเลย ทุกคน วันนี้ขอบคุณมากจริงๆ นะ! | Sure, I'll send it now. Everyone, thank you so much for today!
+
+@scene l17_polite
+title: 先生、ありがとうございました
+en: Thank you, sensei (with the teacher)
+th: ขอบคุณครับอาจารย์ (กับครู)
+glyph: 祝
+level: n4
+place: people
+lesson: 17
+register: polite
+pair: l17
+about: On his birthday Tam visits Ms Yamada to thank her for help before the exam, and she gives him a present. Thanking with 〜ていただいて, 〜てくれる/〜てほしい from the teacher's side, and polite requests: 〜ていただけますか, 〜てもらえませんか. | วันเกิดของตัม เขาไปขอบคุณครูยามาดะที่ช่วยก่อนสอบ แล้วครูก็ให้ของขวัญ ฝึกขอบคุณด้วย 〜ていただいて ฟังครูใช้ 〜てくれる / 〜てほしい และขอร้องอย่างสุภาพด้วย 〜ていただけますか และ 〜てもらえませんか
+--- 職員室で | In the staff room | ที่ห้องพักครู
+You: 失礼します。山田先生、今、少しよろしいでしょうか。 | しつれいします。やまだせんせい、いま、すこしよろしいでしょうか。 | ขออนุญาตครับ อาจารย์ยามาดะ ตอนนี้ขอเวลาสักครู่ได้ไหมครับ | Excuse me. Ms Yamada, do you have a moment?
+note: 失礼します is what you say when entering a staff room or office. よろしいでしょうか is the polite "is it OK?". | 失礼します พูดตอนเข้าห้องพักครูหรือห้องทำงาน ส่วน よろしいでしょうか คือ "ได้ไหมครับ" แบบสุภาพ
+山田先生: あ、タムさん。どうぞ。 | あ、タムさん。どうぞ。 | อ้าว ตัม เชิญจ้ะ | Oh, Tam. Come in.
+You: 試験の前に文法を教えていただいて、本当にありがとうございました。 | しけんのまえにぶんぽうをおしえていただいて、ほんとうにありがとうございました。 | ขอบคุณมากครับที่อาจารย์ช่วยสอนไวยากรณ์ให้ก่อนสอบ | Thank you so much for teaching me grammar before the exam.
+g: n4.t.teageru
+note: 〜ていただく is the polite form of 〜てもらう. To a teacher, say 教えていただいて, not 教えてもらって. | 〜ていただく คือรูปสุภาพของ 〜てもらう กับครูให้พูด 教えていただいて ไม่ใช่ 教えてもらって
+山田先生: いいえ。タムさん、よく復習していましたね。点もよかったですよ。 | いいえ。タムさん、よくふくしゅうしていましたね。てんもよかったですよ。 | ไม่เป็นไรจ้ะ ตัมทบทวนบทเรียนดีมากเลยนะ คะแนนก็ดีด้วย | Not at all. You reviewed really well. Your score was good too.
+You: 先生のおかげです。 | せんせいのおかげです。 | เพราะอาจารย์เลยครับ | It's all thanks to you.
+山田先生*: そういえば、今日は誕生日ですよね。ゆきさんが教えてくれました。 | そういえば、きょうはたんじょうびですよね。ゆきさんがおしえてくれました。 | ว่าแต่ วันนี้วันเกิดตัมใช่ไหม ยูกิบอกครูน่ะ | By the way, it's your birthday today, isn't it? Yuki told me.
+g: n4.t.teageru
+--- プレゼント | A present | ของขวัญ
+山田先生: これ、小さいものですけど、どうぞ。 | これ、ちいさいものですけど、どうぞ。 | นี่ของเล็กๆ น้อยๆ นะ รับไว้นะจ๊ะ | It's just something small, but here you are.
+note: A modest phrase used when giving a gift: "it's nothing much, but…". | สำนวนถ่อมตัวตอนให้ของขวัญ แปลประมาณ "ของเล็กๆ น้อยๆ แต่รับไว้นะ"
+You: えっ、ありがとうございます！開けてもいいですか。 | えっ、ありがとうございます！あけてもいいですか。 | เอ๊ะ ขอบคุณมากครับ! เปิดดูได้ไหมครับ | Oh, thank you! May I open it?
+山田先生*: どうぞ。会話の本です。タムさんにもっと話す練習をしてほしいと思って。 | どうぞ。かいわのほんです。タムさんにもっとはなすれんしゅうをしてほしいとおもって。 | เปิดเลยจ้ะ เป็นหนังสือบทสนทนา ครูอยากให้ตัมฝึกพูดเยอะๆ น่ะ | Go ahead. It's a conversation book. I'd like you to practise speaking more.
+g: n4.t.tehoshii
+note: The teacher says what she wants Tam to do: タムさんに〜てほしい. Saying 〜てほしい directly to a superior can sound pushy; use a request form instead. | ครูบอกว่าอยากให้ตัมทำอะไรด้วย タムさんに〜てほしい แต่ถ้าเราจะพูด 〜てほしい ตรงๆ กับผู้ใหญ่ อาจฟังเหมือนสั่ง ให้ใช้รูปขอร้องแทน
+You: うれしいです。大切に使います。 | うれしいです。たいせつにつかいます。 | ดีใจมากครับ จะใช้อย่างดีเลยครับ | I'm so happy. I'll take good care of it.
+--- お願い | A request | ขอร้อง
+You: あの、一つお願いがあるんですが…。 | あの、ひとつおねがいがあるんですが…。 | เอ่อ มีเรื่องอยากขอร้องอยู่เรื่องหนึ่งครับ… | Um, I have a favour to ask…
+You*: ときどき、私の発音を見ていただけますか。 | ときどき、わたしのはつおんをみていただけますか。 | รบกวนอาจารย์ช่วยดูการออกเสียงของผมเป็นครั้งคราวได้ไหมครับ | Could you check my pronunciation from time to time?
+g: n4.t.request
+note: The polite way to ask a teacher: 〜ていただけますか. Even softer: 〜ていただけませんか. | วิธีขอร้องครูอย่างสุภาพคือ 〜ていただけますか ถ้าอยากให้นุ่มขึ้นอีกใช้ 〜ていただけませんか
+alt: ときどき、発音を見てもらえませんか。 | ときどき、はつおんをみてもらえませんか。 | ช่วยดูการออกเสียงให้เป็นครั้งคราวได้ไหมครับ | Could you check my pronunciation sometimes?
+山田先生: いいですよ。じゃあ、毎週金曜日の授業のあとに来てください。 | いいですよ。じゃあ、まいしゅうきんようびのじゅぎょうのあとにきてください。 | ได้จ้ะ งั้นมาหาครูหลังคาบเรียนทุกวันศุกร์นะ | Sure. Then come by after the Friday class every week.
+山田先生: そのかわり、タイ語の挨拶を教えてくださいね。 | そのかわり、タイごのあいさつをおしえてくださいね。 | แต่เป็นการแลกกันนะ ช่วยสอนคำทักทายภาษาไทยให้ครูด้วย | In return, please teach me some Thai greetings.
+You: はい、もちろんです。今日は本当にありがとうございました。 | はい、もちろんです。きょうはほんとうにありがとうございました。 | ได้เลยครับ วันนี้ขอบคุณมากจริงๆ ครับ | Of course. Thank you so much for today.
+note: Don't answer a teacher with 教えてあげます: it sounds like you're doing her a favour. A simple はい、もちろんです is best. | อย่าตอบครูว่า 教えてあげます เพราะฟังเหมือนเราไปมีบุญคุณกับเขา ตอบแค่ はい、もちろんです ดีที่สุด

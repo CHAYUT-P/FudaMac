@@ -103,6 +103,10 @@ enum MacShots {
                 ("c-1-map", { router.section = .course; router.lessonN = nil }),
                 ("c-2-lesson10-words", { router.openLesson(10, step: .words) }),
                 ("c-3-lesson20", { router.lessonN = nil; router.section = .course }),
+                ("c-4-talk-casual", { router.lessonN = nil; router.section = .talk; router.talkID = "l08_casual" }),
+                ("c-5-talk-polite", { router.talkID = "l08_polite" }),
+                ("c-6-lesson-talk", { router.openLesson(32, step: .talk) }),
+                ("c-7-grammar", { router.openLesson(20, step: .notes) }),
             ]
         }
         if only == "words" {

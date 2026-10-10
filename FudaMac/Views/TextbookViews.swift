@@ -293,6 +293,7 @@ struct GrammarSectionView: View {
             .padding(.bottom, 4)
             .overlay(alignment: .bottom) { Rectangle().fill(Ink.ink).frame(height: 2).offset(y: 8) }
             ForEach(Array(g.blocks.enumerated()), id: \.offset) { _, b in block(b) }
+            GrammarInConversation(keys: g.allKeys, pattern: g.titleJA)
         }
     }
 

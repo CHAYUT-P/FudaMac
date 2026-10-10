@@ -23,6 +23,12 @@ struct Vocab: Codable, Identifiable, Hashable {
     let exRomaji: String
     let exEN: String
     let exTH: String
+    /// Just above N4 (mostly N3): everyday words added for real conversation.
+    var plus: Bool? = nil
+
+    var isPlus: Bool { plus == true }
+    /// "N5", "N4" or "N4+".
+    var levelTag: String { isPlus ? "N4+" : level.title }
 
     /// Surface form shown on the card (kanji when the word has it).
     var word: String { kanji }

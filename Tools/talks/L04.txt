@@ -1,0 +1,127 @@
+@scene l04_casual
+title: 一緒に見ない？
+en: Wanna watch it together? (with a friend)
+th: ไปดูด้วยกันไหม (กับเพื่อน)
+glyph: 四
+level: n5
+place: people
+lesson: 4
+register: casual
+pair: l04
+about: Before class, John and Tam talk about getting to school and the weekend, and make movie plans. Plain verbs, 〜ない？ to invite, 〜よう for "let's". | ก่อนเข้าเรียน จอห์นกับตัมคุยเรื่องการเดินทางมาโรงเรียนและวันหยุด แล้วนัดกันไปดูหนัง ใช้กริยารูปธรรมดา 〜ない？ เวลาชวน และ 〜よう แปลว่า "…กันเถอะ"
+--- 朝 | Morning | ตอนเช้า
+ジョン: おはよう！ | おはよう！ | หวัดดี | Morning!
+note: Friends drop ございます: おはようございます → おはよう. | เพื่อนกันตัด ございます ทิ้ง จาก おはようございます เหลือแค่ おはよう
+You: おはよう。ジョンも電車？ | おはよう。ジョンもでんしゃ？ | หวัดดี จอห์นก็มารถไฟเหรอ | Morning. Did you come by train too, John?
+g: n5.p.mo, n5.question
+ジョン: ううん、俺はいつも自転車で来るよ。 | ううん、おれはいつもじてんしゃでくるよ。 | เปล่า เรามาจักรยานตลอด | No, I always come by bike.
+g: n5.e.degree, n5.p.de, n5.sov
+note: 俺 is a rough, casual "I" that guys use with friends. 来る is the plain form of 来ます; friends talk in plain forms. | 俺 คือ "เรา/ฉัน" แบบห้าวๆ ที่ผู้ชายใช้กับเพื่อน ส่วน 来る คือรูปธรรมดาของ 来ます เพื่อนกันจะพูดด้วยรูปธรรมดา
+You: へえ、家から学校まで、どのくらいかかる？ | へえ、いえからがっこうまで、どのくらいかかる？ | เหรอ จากบ้านถึงโรงเรียนใช้เวลาเท่าไหร่ | Oh yeah? How long does it take from home to school?
+g: n5.p.kara, n5.p.made
+note: AからBまで = from A to B. かかる = to take (time). | AからBまで แปลว่า "จาก A ถึง B" ส่วน かかる แปลว่า "ใช้ (เวลา)"
+ジョン: 二十分くらいかな。タムは？ | にじゅっぷんくらいかな。タムは？ | ประมาณยี่สิบนาทีมั้ง แล้วตัมล่ะ | About twenty minutes, I guess. You?
+You: 僕は電車で三十分くらい。 | ぼくはでんしゃでさんじゅっぷんくらい。 | เรานั่งรถไฟมา ประมาณสามสิบนาที | About thirty minutes by train.
+g: n5.p.de
+note: で = by (means): 電車で, 自転車で, バスで. | で แปลว่า "ด้วย/โดย" ใช้บอกวิธีเดินทาง เช่น 電車で 自転車で バスで
+--- 週末 | The weekend | วันหยุด
+ジョン*: ねえ、週末、何する？ | ねえ、しゅうまつ、なにする？ | นี่ เสาร์อาทิตย์ปกติทำอะไร | Hey, what do you do on weekends?
+g: n5.qwords
+note: する is the plain します. Politely: 週末は何をしますか. Friends drop は and を. | する คือ します แบบธรรมดา ถ้าสุภาพจะพูด 週末は何をしますか เพื่อนกันมักละ は กับ を
+You: うーん、たいてい家で日本語を勉強してる。 | うーん、たいていいえでにほんごをべんきょうしてる。 | อืม ส่วนใหญ่ก็เรียนภาษาญี่ปุ่นอยู่บ้านแหละ | Hmm, I usually study Japanese at home.
+g: n5.e.degree, n5.p.de, n5.p.wo
+note: たいてい = usually. Place + で = where you do something. してる (= している) is also used for habits. | たいてい แปลว่า "ส่วนใหญ่ มักจะ" สถานที่ + で บอกว่าทำอะไรที่ไหน ส่วน してる (= している) ใช้บอกสิ่งที่ทำเป็นประจำได้ด้วย
+You: あんまり出かけない。 | あんまりでかけない。 | ไม่ค่อยได้ออกไปไหน | I don't go out much.
+g: n5.e.degree
+note: あんまり is the spoken あまり. あまり + negative = "not much". 出かけない is the casual 出かけません. | あんまり คือ あまり ในภาษาพูด あまり + รูปปฏิเสธ แปลว่า "ไม่ค่อย…" ส่วน 出かけない คือ 出かけません แบบกันเอง
+ジョン: えー、つまんない！ | えー、つまんない！ | โห น่าเบื่อจัง | Aw, that's boring!
+note: つまんない is the spoken form of つまらない (boring). | つまんない คือ つまらない (น่าเบื่อ) ในภาษาพูด
+ジョン: 日本の映画、もう見た？ | にほんのえいが、もうみた？ | หนังญี่ปุ่นดูแล้วหรือยัง | Have you seen a Japanese movie yet?
+g: n5.e.moumada, n5.p.no
+note: もう + past = already. 見た？ is the casual 見ましたか. | もう + รูปอดีต แปลว่า "…แล้ว" ส่วน 見た？ คือ 見ましたか แบบกันเอง
+You*: ううん、まだ。 | ううん、まだ。 | ยังเลย | No, not yet.
+g: n5.e.moumada
+note: まだ alone = "not yet". Politely: いいえ、まだです. | まだ คำเดียวแปลว่า "ยัง" ถ้าสุภาพจะพูดว่า いいえ、まだです
+ジョン*: じゃあ、土曜日、一緒に見ない？ | じゃあ、どようび、いっしょにみない？ | งั้นวันเสาร์ไปดูด้วยกันไหม | Then why don't we watch one together on Saturday?
+g: n5.v.invite
+note: 〜ない？ with a rising tone is the casual invitation, like the polite 〜ませんか. | 〜ない？ ขึ้นเสียงสูงท้าย คือการชวนแบบกันเอง เหมือน 〜ませんか แบบสุภาพ
+You: いいね！どこで見る？ | いいね！どこでみる？ | ดีเลย ดูที่ไหนดี | Sounds good! Where should we watch it?
+g: n5.qwords, n5.p.de
+ジョン: 駅の前の映画館で見よう。 | えきのまえのえいがかんでみよう。 | ดูที่โรงหนังหน้าสถานีกัน | Let's watch it at the cinema in front of the station.
+g: n5.v.invite, n5.p.de
+note: 見よう is the casual 見ましょう (let's watch). 行く → 行こう, 食べる → 食べよう. | 見よう คือ 見ましょう แบบกันเอง แปลว่า "ดูกันเถอะ" เช่น 行く → 行こう 食べる → 食べよう
+You: 何時にしよっか。 | なんじにしよっか。 | เอากี่โมงดี | What time shall we make it?
+g: n5.v.invite, n5.p.ni
+note: しよっか is the casual しましょうか (shall we…?). Nにする = to decide on N. | しよっか คือ しましょうか แบบกันเอง แปลว่า "…กันดีไหม" ส่วน Nにする แปลว่า "เลือก/ตกลงเอา N"
+ジョン: 十時に駅で会おう。 | じゅうじにえきであおう。 | สิบโมงเจอกันที่สถานีนะ | Let's meet at the station at ten.
+g: n5.v.invite, n5.p.ni, n5.p.de
+You: オッケー。リンと三人で行こうよ。 | オッケー。リンとさんにんでいこうよ。 | โอเค ไปสามคนกับหลินด้วยกันเถอะ | OK. Let's go with Lin, the three of us.
+g: n5.p.to, n5.v.invite
+note: Nと = with N. 三人で = as three people. | Nと แปลว่า "กับ N" ส่วน 三人で แปลว่า "ไปกันสามคน"
+ジョン*: いいね！リンには俺が聞くよ。 | いいね！リンにはおれがきくよ。 | ดีเลย เดี๋ยวเราถามหลินเอง | Nice! I'll ask Lin.
+g: n5.p.ni, n5.p.ga
+You: うん、よろしく！ | うん、よろしく！ | อืม ฝากด้วยนะ | OK, thanks!
+note: Here よろしく means "I'm counting on you". | よろしく ตรงนี้แปลว่า "ฝากด้วยนะ"
+
+@scene l04_polite
+title: 一緒に映画を見ませんか
+en: Would you like to see a movie? (polite)
+th: ไปดูหนังด้วยกันไหมคะ (แบบสุภาพ)
+glyph: 四
+level: n5
+place: people
+lesson: 4
+register: polite
+pair: l04
+about: Monday morning on the station platform: Tam chats with his neighbour Ms Tanaka about work, school and days off, and she invites him to a movie. ます verbs, を・で・へ・と・から・まで, frequency words, もう／まだ, 〜ませんか／〜ましょう. | เช้าวันจันทร์บนชานชาลา ตัมคุยกับคุณทานากะ เพื่อนบ้าน เรื่องงาน โรงเรียน และวันหยุด แล้วเธอก็ชวนไปดูหนัง ใช้กริยารูป ます を・で・へ・と・から・まで คำบอกความถี่ もう／まだ และ 〜ませんか／〜ましょう
+--- ホームで | On the platform | บนชานชาลา
+田中*: あ、タムさん、おはようございます。 | あ、タムさん、おはようございます。 | อ้าว คุณตัม สวัสดีตอนเช้าค่ะ | Oh, Tam, good morning.
+You: おはようございます。田中さんは今から仕事ですか。 | おはようございます。たなかさんはいまからしごとですか。 | สวัสดีครับ คุณทานากะจะไปทำงานหรือครับ | Good morning. Are you off to work now?
+g: n5.p.kara, n5.question
+note: 今から = from now, "now (starting)". Use the person's name + さん instead of あなた. | 今から แปลว่า "ตั้งแต่ตอนนี้" หรือ "กำลังจะ…" ใช้ชื่อ + さん แทนคำว่า あなた
+田中: はい。毎日、電車で会社へ行きます。 | はい。まいにち、でんしゃでかいしゃへいきます。 | ค่ะ ไปบริษัทด้วยรถไฟทุกวันค่ะ | Yes. I go to the office by train every day.
+g: n5.v.masu, n5.p.de, n5.p.he, n5.sov
+note: Time + means (で) + place (へ) + verb. へ marks the direction "to". In speech に is also common: 会社に行きます. | เวลา + วิธีเดินทาง (で) + สถานที่ (へ) + กริยา へ บอกทิศทาง "ไปยัง" ในภาษาพูดใช้ に ได้เหมือนกัน เช่น 会社に行きます
+田中: タムさんは学校ですか。 | タムさんはがっこうですか。 | คุณตัมไปโรงเรียนหรือคะ | Are you going to school?
+g: n5.p.wa, n5.question
+You: はい。九時から十二時まで授業です。 | はい。くじからじゅうにじまでじゅぎょうです。 | ครับ มีเรียนตั้งแต่เก้าโมงถึงเที่ยงครับ | Yes. I have class from nine to twelve.
+g: n5.p.kara, n5.p.made
+note: から = from, まで = until. 九時から十二時まで = from nine until twelve. | から แปลว่า "ตั้งแต่" まで แปลว่า "จนถึง" 九時から十二時まで แปลว่า "ตั้งแต่เก้าโมงถึงเที่ยง"
+--- 休みの日 | Days off | วันหยุด
+田中: 休みの日は、何をしますか。 | やすみのひは、なにをしますか。 | วันหยุดทำอะไรบ้างคะ | What do you do on your days off?
+g: n5.p.wo, n5.v.masu, n5.qwords
+You: たいてい家で日本語を勉強します。 | たいていいえでにほんごをべんきょうします。 | ส่วนใหญ่เรียนภาษาญี่ปุ่นอยู่ที่บ้านครับ | I usually study Japanese at home.
+g: n5.e.degree, n5.p.de, n5.p.wo, n5.v.masu
+note: Compare the casual 勉強してる. With a neighbour you use the ます form. | เทียบกับแบบกันเอง 勉強してる กับเพื่อนบ้านต้องใช้รูป ます
+You: あまり出かけません。 | あまりでかけません。 | ไม่ค่อยได้ออกไปไหนครับ | I don't go out much.
+g: n5.e.degree, n5.v.masu
+note: あまり + 〜ません = "not much". The negative ending is what makes it "not". | あまり + 〜ません แปลว่า "ไม่ค่อย…" ต้องใช้คู่กับรูปปฏิเสธเสมอ
+田中: そうですか。日本の映画は、もう見ましたか。 | そうですか。にほんのえいがは、もうみましたか。 | อย่างนั้นเหรอคะ หนังญี่ปุ่นดูแล้วหรือยังคะ | I see. Have you seen a Japanese movie yet?
+g: n5.e.moumada, n5.v.masu, n5.p.no
+You*: いいえ、まだです。 | いいえ、まだです。 | ยังเลยครับ | No, not yet.
+g: n5.e.moumada
+note: まだです = "not yet". It's the natural short answer to もう〜ましたか. | まだです แปลว่า "ยังครับ/ค่ะ" เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติของคำถาม もう〜ましたか
+田中*: じゃあ、今度の日曜日、一緒に映画を見ませんか。 | じゃあ、こんどのにちようび、いっしょにえいがをみませんか。 | งั้นวันอาทิตย์นี้ไปดูหนังด้วยกันไหมคะ | Then would you like to see a movie together this Sunday?
+g: n5.v.invite, n5.p.wo
+note: 〜ませんか = "won't you…?", the soft, polite way to invite. Friends say 見ない？ instead. | 〜ませんか แปลว่า "…ไหม" เป็นการชวนแบบสุภาพและนุ่มนวล ถ้าเป็นเพื่อนจะพูด 見ない？
+You: いいですね。どこで見ますか。 | いいですね。どこでみますか。 | ดีครับ ดูที่ไหนครับ | That sounds great. Where shall we see it?
+g: n5.qwords, n5.p.de, n5.v.masu
+田中: 駅の前の映画館で見ましょう。 | えきのまえのえいがかんでみましょう。 | ดูที่โรงหนังหน้าสถานีกันค่ะ | Let's see it at the cinema in front of the station.
+g: n5.v.invite, n5.p.de
+note: 〜ましょう = "let's…". | 〜ましょう แปลว่า "…กันเถอะ"
+You: あの、友達のリンさんも一緒にいいですか。 | あの、ともだちのリンさんもいっしょにいいですか。 | เอ่อ ให้เพื่อนชื่อหลินไปด้วยได้ไหมครับ | Um, could my friend Lin come along too?
+g: n5.p.mo, n5.p.no
+田中: もちろんです。リンさんと三人で行きましょう。 | もちろんです。リンさんとさんにんでいきましょう。 | ได้อยู่แล้วค่ะ ไปสามคนกับคุณหลินกันนะคะ | Of course. Let's go, the three of us with Lin.
+g: n5.p.to, n5.v.invite
+note: Nと = (together) with N. | Nと แปลว่า "กับ N" (ไปด้วยกัน)
+You: 何時に会いましょうか。 | なんじにあいましょうか。 | เจอกันกี่โมงดีครับ | What time shall we meet?
+g: n5.v.invite, n5.p.ni
+note: 〜ましょうか = "shall we…?", asking to decide together. Casual: しよっか. | 〜ましょうか แปลว่า "…กันดีไหม" ใช้ถามเพื่อตัดสินใจร่วมกัน แบบกันเองคือ しよっか
+田中: 十時に、この駅で会いましょう。 | じゅうじに、このえきであいましょう。 | สิบโมง เจอกันที่สถานีนี้นะคะ | Let's meet at this station at ten.
+g: n5.v.invite, n5.p.ni, n5.p.de
+You: はい。日曜日の十時ですね。 | はい。にちようびのじゅうじですね。 | ครับ วันอาทิตย์สิบโมงนะครับ | OK. Sunday at ten, then.
+note: ですね here checks the plan: "…, right?". | ですね ตรงนี้ใช้ทวนนัดให้แน่ใจ ประมาณ "…นะครับ"
+田中*: あ、電車が来ました。 | あ、でんしゃがきました。 | อ๊ะ รถไฟมาแล้วค่ะ | Oh, the train's here.
+g: n5.p.ga, n5.v.masu
+You: じゃあ、行きましょう。 | じゃあ、いきましょう。 | งั้นไปกันเถอะครับ | Well then, let's go.
+g: n5.v.invite
