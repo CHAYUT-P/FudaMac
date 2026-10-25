@@ -63,6 +63,7 @@ depth (examples, explanations, beats, drills, quiz size).
 | 道 Course | The 33 lessons above |
 | 語 Word List | All N5 + N4 words (1,423) as lists by theme — 20 categories, 79 subcategories (e.g. 食べ物 → 調味料 seasonings, 食の動詞 eating verbs). Kanji, hiragana and romaji side by side, N5 first then N4. Read the list, or type every meaning in Thai or English and check (⌘↩); **Random** (⌘R) opens the subcategory with the most words you don't know yet |
 | 札 Decks · 練 Practice | 1,373 words, 284 kanji, 185 grammar points and kana as flashcards (SM-2 scheduling) and quizzes |
+| 試 JLPT Exams | 10 N5 + 10 N4 exams taken like the real test (see below), the official rules, and a random-question quiz |
 | 話 Conversations | 17 real-life scenes (konbini, station, clinic, …) and the 32 lesson talks (casual + polite), to read with notes or role-play. Every line is tagged with the grammar it uses |
 | 読 Stories | 17 graded stories, horizontal or vertical (縦書き), read aloud, comprehension check |
 | 基 Essentials | 12 reference chapters with interactive widgets |
@@ -86,6 +87,28 @@ line of its pair, and each grammar note shows a friend line and a polite line th
 python3 Tools/build_conversations.py --check    # validate only
 python3 Tools/build_conversations.py            # → Fuda/Resources/conversations.json
 ```
+
+## JLPT exams
+
+Per level, in this order:
+1. **Real, complete** (4): Dec 2021, Jul 2018, official workbooks 2018 and 2012, with every
+   section and the real listening recordings and pictures.
+2. **Real, incomplete** (4): the 2024 and 2025 sittings (no listening) and the short 2009 official sample.
+3. **Original** (2): written for Fuda in the exact current format; listening is read by the system voice.
+
+Exam mode works like the real test: sections in order, each with its own time limit and
+no going back, listening played once with no pause, an answer sheet, no furigana. Results
+give the estimated scaled scores (言語知識・読解 /120, 聴解 /60), pass / fail against the
+official pass mark and section minimums, a per-もんだい breakdown and every answer explained in
+Thai. **ランダム** draws single questions from all exams by level and type (or only ones you
+missed) and shows the answer at once.
+
+Real exams come from Tone (`Tools/exams/ExportExams.swift` → `Tools/exams/build_exams.py`) and
+are **not** committed: the JLPT material is copyrighted, so `exams-real.json`, `Audio/` and
+`Images/` under `FudaMac/Resources/Exams/` stay local (gitignored). Original exams
+(`exams-original-*.json`) are committed. Format and rules: `Tools/exams/SCHEMA.md`; check with
+`python3 Tools/exams/validate_exams.py`. Results are saved in `exam-results.json` with a
+`.bak` copy, and an unreadable file is never overwritten.
 
 ## Word list
 

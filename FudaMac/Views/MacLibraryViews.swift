@@ -121,7 +121,8 @@ struct MacPracticeView: View {
             VStack(alignment: .leading, spacing: 20) {
                 PaneHeader(kicker: "練習 · Practice", title: "Drills", subtitle: "Quizzes use cards you've already met. Every wrong answer counts toward Weak cards.")
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 320), spacing: 16)], spacing: 16) {
-                    drill("試", "Mixed quiz", "15 questions: meaning, reading, listening, grammar", accent: true) { router.startQuiz("Mixed quiz · \(level.title)", cards: pool(seen), count: 15, store: store) }
+                    drill("験", "JLPT exam questions", "สุ่มข้อจากข้อสอบจริง N5 / N4 · ตอบแล้วดูเฉลยทันที", accent: true) { router.examPage = .random; router.section = .exams }
+                    drill("試", "Mixed quiz", "15 questions: meaning, reading, listening, grammar") { router.startQuiz("Mixed quiz · \(level.title)", cards: pool(seen), count: 15, store: store) }
                     drill("聴", "Listening", "Hear a word, pick it · 10 questions") { router.startQuiz("Listening", cards: pool(seen.filter { $0.kind == .vocab }), mode: .listening, store: store) }
                     drill("語", "Vocabulary sprint", "20 words from the whole \(level.title) list") { router.startQuiz("Vocab sprint", cards: db.vocab(level), count: 20, store: store) }
                     drill("漢", "Kanji", "Readings and meanings · \(db.kanji(level).count) kanji") { router.startQuiz("Kanji quiz", cards: db.kanji(level), count: 12, store: store) }

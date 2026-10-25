@@ -10,6 +10,16 @@ enum MacShots {
         let d = UserDefaults.standard
         if d.bool(forKey: "FudaDemo"), store.states.isEmpty { seed(store, course) }
         if d.object(forKey: "FudaRomaji") != nil { store.settings.showRomaji = d.bool(forKey: "FudaRomaji") }
+        if d.bool(forKey: "FudaHWTest"), let out = d.string(forKey: "FudaHWOut") {
+            // Handwriting pipeline check: draw an "ノ"-like stroke + a "一", run the model, save both images.
+            let strokes: [[CGPoint]] = [[CGPoint(x: 260, y: 60), CGPoint(x: 220, y: 180), CGPoint(x: 120, y: 320)], [CGPoint(x: 80, y: 200), CGPoint(x: 300, y: 200)]]
+            let px = HandwritingPrep.pixels(strokes, lineWidth: 17.1) ?? []
+            print("HW model available:", KanaReader.shared.available)
+            print("HW top3:", KanaReader.shared.read(px).map { "\($0.kana) \(String(format: "%.3f", $0.p))" })
+            try? HandwritingPrep.png(strokes, canvas: 380, lineWidth: 17.1)?.write(to: URL(fileURLWithPath: out + "/raw.png"))
+            try? (px.map { String(format: "%.4f", $0) }.joined(separator: ",")).write(toFile: out + "/swift64.csv", atomically: true, encoding: .utf8)
+            exit(0)
+        }
         if d.bool(forKey: "FudaRomajiTest") {
             // Print romaji / readings for tricky sentences, then quit.
             let cases: [(String, String)] = [("今日はいい天気です。", "きょうはいいてんきです。"), ("私はいます。", "わたしはいます。"), ("私は医者です。", "わたしはいしゃです。"),
@@ -98,6 +108,27 @@ enum MacShots {
         ]
         let only = d.string(forKey: "FudaShotsSet")
         if only == "tb" { steps = tb } else if only == nil { steps += tb }
+        if only == "exams" {
+            // 試 Exams: hub, rules, an exam in progress (vocab, reading, listening), results, random quiz.
+            var run: ExamRun?
+            func answerAll(_ r: ExamRun) { for (i, q) in r.exam.questions.enumerated() { r.answers[q.id] = i % 3 == 0 ? (q.answer + 1) % q.options.count : q.answer } }
+            steps = [
+                ("e-1-hub-n4", { router.section = .exams; router.examLevel = .n4; router.examPage = .hub }),
+                ("e-2-hub-n5", { router.examLevel = .n5 }),
+                ("e-3-rules", { router.examPage = .rules }),
+                ("e-4-cover", { router.examPage = .hub; if let s = ExamLibrary.shared.set("n5.set4") { run = ExamRun(set: s); router.examRun = run } }),
+                ("e-5-vocab", { run?.start(0); if let q = run?.exam.parts[0].questions.first { run?.answers[q.id] = 1 } }),
+                ("e-6-reading", { run?.start(1) }),
+                ("e-6b-star", { if let q = run?.exam.parts[1].questions.first(where: { $0.prompt.contains("★") }) { run?.answers[q.id] = 0 } }),
+                ("e-7-listening", { run?.start(2) }),
+                ("e-8-results", { if let r = run { r.stopAll(); answerAll(r); r.phase = .answering(2); r.endPart() } }),
+                ("e-8b-original-listening", { if let s = ExamLibrary.shared.set("n4.orig1") { run = ExamRun(set: s); router.examRun = run; run?.start(2) } }),
+                ("e-8c-original-star", { run?.stopAll(); run?.start(1) }),
+                ("e-9-random-setup", { router.examRun = nil; router.examPage = .random }),
+                ("e-10-random-q", { router.examPage = .hub; router.debugRandom = 1; DispatchQueue.main.async { router.examPage = .random } }),
+                ("e-11-random-answered", { router.examPage = .hub; router.debugRandom = 2; DispatchQueue.main.async { router.examPage = .random } }),
+            ]
+        }
         if only == "course" {
             steps = [
                 ("c-1-map", { router.section = .course; router.lessonN = nil }),

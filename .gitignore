@@ -13,3 +13,15 @@ Fuda/Views/
 Fuda/FudaApp.swift
 Fuda/Assets.xcassets/
 README-local.md
+
+# Real JLPT past exams, audio and booklet pictures are copyrighted: keep them local.
+# Rebuild with Tools/exams/build_exams.py (see Tools/exams/SCHEMA.md).
+FudaMac/Resources/Exams/exams-real.json
+FudaMac/Resources/Exams/Audio/
+FudaMac/Resources/Exams/Images/
+Tools/exams/star_fixes.json
+
+# Handwriting: ETL data may only be shared through AIST's site; training outputs stay local.
+Tools/handwriting/data/
+Tools/handwriting/run*/
+*.npz

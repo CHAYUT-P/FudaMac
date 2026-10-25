@@ -6,6 +6,7 @@ struct FudaMacApp: App {
     private static let shots = UserDefaults.standard.string(forKey: "FudaShots") != nil
     @State private var store = ProgressStore(filename: shots ? "shots-progress.json" : "progress.json")
     @State private var course = CourseProgress(filename: shots ? "shots-course-progress.json" : "course-progress.json")
+    @State private var examStore = ExamStore(filename: shots ? "shots-exam-results.json" : "exam-results.json")
     @State private var router = MacRouter()
 
     init() {
@@ -18,6 +19,7 @@ struct FudaMacApp: App {
             MacRoot()
                 .environment(store)
                 .environment(course)
+                .environment(examStore)
                 .environment(router)
                 .preferredColorScheme(store.settings.appearance.scheme)
                 .tint(Ink.akane)
@@ -56,24 +58,24 @@ struct FudaMacApp: App {
 // MARK: - Navigation
 
 enum MacSection: String, CaseIterable, Identifiable {
-    case today, course, words, decks, practice, talk, read, essentials, dictionary, progress
+    case today, course, words, decks, practice, exams, write, talk, read, essentials, dictionary, progress
     var id: String { rawValue }
     var glyph: String {
         switch self {
-        case .today: "今"; case .course: "道"; case .words: "語"; case .decks: "札"; case .practice: "練"; case .talk: "話"
+        case .today: "今"; case .course: "道"; case .words: "語"; case .decks: "札"; case .practice: "練"; case .exams: "試"; case .write: "書"; case .talk: "話"
         case .read: "読"; case .essentials: "基"; case .dictionary: "辞"; case .progress: "績"
         }
     }
     var title: String {
         switch self {
-        case .today: "Today"; case .course: "Course"; case .words: "Word List"; case .decks: "Decks"; case .practice: "Practice"
+        case .today: "Today"; case .course: "Course"; case .words: "Word List"; case .decks: "Decks"; case .practice: "Practice"; case .exams: "JLPT Exams"; case .write: "Handwriting"
         case .talk: "Conversations"; case .read: "Stories"; case .essentials: "Essentials"
         case .dictionary: "Dictionary"; case .progress: "Progress"
         }
     }
     var group: String {
         switch self {
-        case .today, .course, .words, .decks, .practice: "STUDY"
+        case .today, .course, .words, .decks, .practice, .exams, .write: "STUDY"
         case .talk, .read: "LISTEN & READ"
         case .essentials, .dictionary, .progress: "REFERENCE"
         }
@@ -102,6 +104,10 @@ final class MacRouter {
     var storyKey: String?
     var essentialID = 1
     var query = ""
+    var examLevel: Level = .n4           // 試 Exams: level shown
+    var examPage: ExamPage = .hub
+    var examRun: ExamRun?                // an exam in progress
+    var debugRandom = 0                  // DEBUG walkthrough: 1 = start a random quiz, 2 = and answer the first question
 
     var study: StudySession?
     var quiz: QuizSession?
@@ -151,6 +157,8 @@ struct MacRoot: View {
                 case .essentials: MacEssentialsView()
                 case .dictionary: MacDictionaryView()
                 case .progress: MacProgressView()
+                case .exams: MacExamsView()
+                case .write: MacWriteView()
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -238,6 +246,7 @@ struct MacSidebar: View {
         case .talk: return ("\(Talk.scenes.count)", false)
         case .read: return ("\(Course.shared.stories.count)", false)
         case .essentials: return ("\(Essentials.chapters.count)", false)
+        case .exams: return ("\(ExamLibrary.shared.sets.count)", false)
         default: return nil
         }
     }
